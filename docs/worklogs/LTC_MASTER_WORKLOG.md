@@ -286,3 +286,19 @@
   - 0 errors
   - 1 existing translation warning (`Sort`, `Compare`, `Quarantine` missing from ES)
   - 50-card deterministic display audit passed with 0 customer-facing marker/phrasing hits
+
+
+## V0.071 — Staff UX cleanup + restore actions pass (2026-04-05)
+- Added **explicit restore availability actions** so staff can quickly reverse sold/loss states without hunting through history. This shows as calm aqua restore buttons such as **Undo Sold**, **Undo Loss**, or **Restore Stock** depending on the item state.
+- Kept the generic Undo path, but made sold/loss recovery more obvious on cards, popups, and Inventory Manager.
+- Added **click-off-screen close** behavior for Inventory, Foods, and Analytics overlays so staff can dismiss those panels without only targeting the top-right close button.
+- Added a real **All categories** inventory filter alongside status filtering so staff can filter by tangs, gobies-blennies, wrasses, shrimp, crabs, etc.
+- Expanded inventory search matching to include category labels, stock numbers, aliases, vendor, reserved-for names, and scientific names.
+- Reworked Inventory Manager cards so the editable field tiles are now **clickable themselves**, and each tile has its **edit button directly underneath the value** instead of pushing all actions to one large bottom button wall.
+- Demoted **Food Settings** from the main top-right staff header. It now stays reachable from Inventory Manager instead of taking prime header space.
+- Strengthened modal close placement rules so the fish-profile **X stays anchored top-right** more reliably across layouts.
+- Verification this pass:
+  - smoke test passed
+  - 0 errors
+  - 1 existing translation warning (`Sort`, `Compare`, `Quarantine` missing from ES)
+  - note: browser/device click-through behavior still needs user confirmation in real use

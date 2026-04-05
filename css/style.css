@@ -413,7 +413,7 @@ body.light-mode .status-cell.s-agg{background:rgba(232,152,56,.08)}
   border:1px solid rgba(200,232,255,.12);box-shadow:0 34px 90px rgba(0,0,0,.50)
 }
 .modal-close{
-  position:absolute;top:12px;right:12px;z-index:30;width:44px;height:44px;border-radius:12px;
+  position:absolute;top:12px;right:12px;left:auto;z-index:30;width:44px;height:44px;border-radius:12px;
   display:grid;place-items:center;cursor:pointer;background:linear-gradient(180deg,#1b3b59,#0f2436);
   border:1px solid rgba(200,232,255,.16);font-size:22px;font-weight:950;box-shadow:0 8px 20px rgba(0,0,0,.3);
   margin:0;
@@ -706,7 +706,7 @@ body.light-mode .status-cell.s-agg{background:rgba(232,152,56,.08)}
   
   /* Close: absolute in top-right, rides on scroll */
   .modal-close{
-    position:absolute!important;top:8px;right:8px;
+    position:absolute!important;top:8px;right:8px;left:auto!important;
     width:36px;height:36px;border-radius:10px;font-size:16px;
     z-index:100;margin:0!important;float:none!important;
     background:rgba(10,22,36,.85)!important;backdrop-filter:blur(8px);
@@ -873,7 +873,7 @@ body.light-mode .status-cell.s-agg{background:rgba(232,152,56,.08)}
     overflow-y:auto!important;overflow-x:hidden!important;
   }
   .modal-close{
-    position:absolute!important;top:6px;right:6px;
+    position:absolute!important;top:6px;right:6px;left:auto!important;
     width:30px;height:30px;border-radius:8px;font-size:14px;
     z-index:100;margin:0!important;
     background:rgba(10,22,36,.85)!important;backdrop-filter:blur(8px);
@@ -899,7 +899,7 @@ body.light-mode .status-cell.s-agg{background:rgba(232,152,56,.08)}
 
   /* Modal X — overlay corner */
   .modal-close{
-    position:fixed!important;top:6px;right:6px;
+    position:fixed!important;top:6px;right:6px;left:auto!important;
     width:32px;height:32px;border-radius:8px;font-size:14px;
     z-index:100;margin:0!important;float:none!important;
     background:rgba(10,22,36,.85)!important;backdrop-filter:blur(8px);
@@ -2058,7 +2058,7 @@ body.modal-open{overflow:hidden}
   .fish-modal.mobile-safe .similar-row.mobile-similar-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;overflow:visible;padding-bottom:0}
   .fish-modal.mobile-safe .action-row{gap:8px}
   .fish-modal.mobile-safe .cta{min-height:46px;padding:0 14px;border-radius:14px;font-size:13px;flex:1 1 100%}
-  .fish-modal.mobile-safe .modal-close{position:fixed!important;top:10px;right:10px;z-index:120}
+  .fish-modal.mobile-safe .modal-close{position:fixed!important;top:10px;right:10px;left:auto!important;z-index:120}
 }
 
 
@@ -2154,7 +2154,7 @@ body.light-mode .category-shell::after{background:linear-gradient(270deg,rgba(24
   .fish-modal.mobile-safe .list-pill,.fish-modal.mobile-safe .reading-block p,.fish-modal.mobile-safe .overview,.fish-modal.mobile-safe .origin-card p,.fish-modal.mobile-safe .staff-card p{overflow-wrap:anywhere;word-break:break-word}
   .fish-modal.mobile-safe .photo-gallery{max-width:100%}
   .fish-modal.mobile-safe .similar-row.mobile-similar-grid{grid-template-columns:1fr 1fr;max-width:100%}
-  .fish-modal.mobile-safe .modal-close{top:calc(8px + var(--safe-top))!important;right:10px!important}
+  .fish-modal.mobile-safe .modal-close{top:calc(8px + var(--safe-top))!important;right:10px!important;left:auto!important}
 }
 
 /* === V0.051 targeted polish pass === */
@@ -2827,8 +2827,21 @@ body.light-mode .feature-star.active{background:rgba(255,214,94,.18);border-colo
 .inventory-chip{padding:8px 10px;border-radius:12px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06)}
 .inventory-chip span{display:block;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:3px}
 .inventory-chip strong{display:block;font-size:13px;color:#fff;overflow-wrap:anywhere}
+.inventory-kv-editable{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.inventory-field-card{padding:10px;border-radius:14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);display:grid;gap:8px;cursor:pointer;transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease;background-clip:padding-box}
+.inventory-field-card:hover{transform:translateY(-1px);border-color:rgba(180,220,255,.18);box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.inventory-field-card:focus-visible{outline:2px solid rgba(120,190,255,.5);outline-offset:2px}
+.inventory-field-card span{display:block;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.35)}
+.inventory-field-card strong{display:block;font-size:14px;color:#fff;overflow-wrap:anywhere;line-height:1.3;min-height:36px}
+.inventory-field-btn{padding:8px 10px;border-radius:10px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:#eef8ff;font-size:12px;font-weight:700;cursor:pointer}
+.inventory-field-card.tone-price .inventory-field-btn{background:rgba(90,150,255,.12);border-color:rgba(90,150,255,.24);color:#9fc8ff}
+.inventory-field-card.tone-tank .inventory-field-btn,.inventory-field-card.tone-stockno .inventory-field-btn,.inventory-field-card.tone-arrival .inventory-field-btn,.inventory-field-card.tone-vendor .inventory-field-btn{background:rgba(120,170,255,.14);border-color:rgba(120,170,255,.28);color:#9fc0ff}
+.inventory-field-card.tone-size .inventory-field-btn{background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a}
+.inventory-field-card.tone-qty .inventory-field-btn{background:rgba(120,255,170,.14);border-color:rgba(120,255,170,.28);color:#8cffb7}
+.inventory-field-card.tone-hold .inventory-field-btn{background:rgba(255,170,120,.14);border-color:rgba(255,170,120,.28);color:#ffbf8a}
+.inventory-field-card.tone-photo .inventory-field-btn{background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff}
 .inventory-actions{display:flex;flex-wrap:wrap;gap:8px}
-.inventory-actions .staff-action-btn{flex:1 1 120px;justify-content:center;min-height:38px}
+.inventory-actions .staff-action-btn{flex:1 1 150px;justify-content:center;min-height:40px}
 .inventory-meta-row{display:flex;flex-wrap:wrap;gap:8px;font-size:11px;color:rgba(255,255,255,.42)}
 .inventory-meta-row span{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}
 .staff-editor{margin-top:12px;padding:12px;border-radius:16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
@@ -2839,10 +2852,12 @@ body.light-mode .feature-star.active{background:rgba(255,214,94,.18);border-colo
 .staff-editor-grid .staff-action-btn{min-height:40px;flex:1 1 140px;justify-content:center}
 body.light-mode .inventory-subtitle,body.light-mode .inventory-card-meta,body.light-mode .inventory-chip span,body.light-mode .staff-editor-copy,body.light-mode .inventory-summary-card span,body.light-mode .inventory-summary-card small,body.light-mode .inventory-meta-row{color:rgba(0,0,0,.5)}
 body.light-mode .inventory-search,body.light-mode .inventory-filter{background:rgba(0,0,0,.03);border-color:rgba(0,0,0,.08);color:#1a2030}
-body.light-mode .inventory-card,body.light-mode .staff-editor,body.light-mode .inventory-summary-card{background:rgba(0,0,0,.025);border-color:rgba(0,0,0,.08)}
-body.light-mode .inventory-card-name,body.light-mode .inventory-chip strong,body.light-mode .staff-editor-head strong,body.light-mode .inventory-summary-card strong{color:#1a2030}
+body.light-mode .inventory-card,body.light-mode .staff-editor,body.light-mode .inventory-summary-card,body.light-mode .inventory-field-card{background:rgba(0,0,0,.025);border-color:rgba(0,0,0,.08)}
+body.light-mode .inventory-card-name,body.light-mode .inventory-chip strong,body.light-mode .staff-editor-head strong,body.light-mode .inventory-summary-card strong,body.light-mode .inventory-field-card strong{color:#1a2030}
 @media (max-width: 980px){.inventory-toolbar{grid-template-columns:1fr 1fr}.inventory-toolbar .food-toolbar-btn{width:100%}}
-@media (max-width: 700px){.inventory-topbar{flex-direction:column}.inventory-toolbar{grid-template-columns:1fr}.inventory-kv{grid-template-columns:repeat(2,minmax(0,1fr))}.inventory-actions .staff-action-btn,.staff-editor-grid .staff-action-btn{flex:1 1 calc(50% - 8px)}}
+@media (max-width: 900px){.inventory-kv-editable{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width: 700px){.inventory-topbar{flex-direction:column}.inventory-toolbar{grid-template-columns:1fr}.inventory-kv{grid-template-columns:repeat(2,minmax(0,1fr))}.inventory-kv-editable{grid-template-columns:repeat(2,minmax(0,1fr))}.inventory-actions .staff-action-btn,.staff-editor-grid .staff-action-btn{flex:1 1 calc(50% - 8px)}}
+@media (max-width: 480px){.inventory-kv-editable{grid-template-columns:1fr}.inventory-field-card strong{min-height:0}}
 
 
 /* === V0.070 staff persistence + undo/history + modal scroll hardening === */

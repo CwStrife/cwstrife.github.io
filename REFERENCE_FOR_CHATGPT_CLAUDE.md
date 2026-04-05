@@ -9,9 +9,9 @@ Use this file first when resuming work from this zip.
 - `docs/notes/` → future integration notes, planning notes, special requests
 
 ## Best carry-forward files to read first
-1. `docs/handoffs/LTC_V0070_ChatGPT_Handoff.md`
+1. `docs/handoffs/LTC_V0071_ChatGPT_Handoff.md`
 2. `docs/worklogs/LTC_MASTER_WORKLOG.md`
-3. `docs/audits/LTC_V0070_STAFF_RUNTIME_AUDIT.md`
+3. `docs/audits/LTC_V0071_STAFF_RUNTIME_AUDIT.md`
 4. `docs/notes/LTC_FUTURE_INTEGRATIONS_NOTES.md`
 
 ## Source-of-truth guidance inside this zip

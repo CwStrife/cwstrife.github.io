@@ -41,3 +41,9 @@ Possible gates:
 2. Shopify import/sync foundation
 3. clearer missing-store-data dashboard
 4. only later, consider any public reservation/deposit flow
+
+
+## Later requirement note from V0.070+ feedback
+- keep explicit reverse actions for operational statuses (sold/loss/hold) easy to reach
+- staff workflow should favor inventory-first controls over less-frequently changed utilities like food settings
+- continue favoring simple small-business language like **Stock #** over SKU for livestock
