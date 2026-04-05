@@ -58,7 +58,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "role_es": "Pez mariposa elegante que podría comer aiptasias",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Elegant butterflyfish that eats aiptasia anemones. Look for compressed silver body with vivid orange-copper vertical bands and a long beak-like snout. Plan on at least 75+ gal."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for compressed silver body with vivid orange-copper vertical bands and a long beak-like snout.. Plan on at least 75+ gal.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Compressed silver body with vivid orange-copper vertical bands and a long beak-like snout."
   },
   {
     "id": "auriga-butterflyfish",
@@ -116,7 +120,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a butterflyfish profile. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior. Plan on at least Needs enrichment."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.. Plan on at least Needs enrichment.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
   },
   {
     "id": "heniochus-butterfly",
@@ -174,7 +182,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a butterflyfish profile. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior. Plan on at least Needs enrichment."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.. Plan on at least Needs enrichment.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
   },
   {
     "id": "klein-s-butterflyfish",
@@ -232,7 +244,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a butterflyfish profile. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior. Plan on at least Needs enrichment."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.. Plan on at least Needs enrichment.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
   },
   {
     "id": "longnose-butterflyfish",
@@ -290,7 +306,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
       "Systems smaller than 75+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Elegant yellow butterflyfish with an extremely long snout. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior. Plan on at least 75+ gal."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.. Plan on at least 75+ gal.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
   },
   {
     "id": "pearlscale-butterflyfish",
@@ -348,7 +368,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a butterflyfish profile. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior. Plan on at least Needs enrichment."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.. Plan on at least Needs enrichment.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
   },
   {
     "id": "pyramid-butterflyfish",
@@ -406,7 +430,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a butterflyfish profile. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior. Plan on at least Needs enrichment."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.. Plan on at least Needs enrichment.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
   },
   {
     "id": "raccoon-butterflyfish",
@@ -464,7 +492,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a butterflyfish profile. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior. Plan on at least Needs enrichment."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.. Plan on at least Needs enrichment.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
   },
   {
     "id": "saddleback-butterflyfish",
@@ -522,7 +554,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a butterflyfish profile. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior. Plan on at least Needs enrichment."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.. Plan on at least Needs enrichment.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
   },
   {
     "id": "teardrop-butterflyfish",
@@ -580,7 +616,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a butterflyfish profile. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior. Plan on at least Needs enrichment."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.. Plan on at least Needs enrichment.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
   },
   {
     "id": "vagabond-butterflyfish",
@@ -638,6 +678,10 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a butterflyfish profile. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior. Plan on at least Needs enrichment."
+    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.. Plan on at least Needs enrichment.",
+    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
+    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
+    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
+    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
   }
 ];

@@ -8,6 +8,7 @@ if(typeof T !== 'function'){ var T = function(k){ return k; }; }
 const state = {
   viewMode: 'detailed', category:"All", search:"", sort:"featured", reefOnly:false, easyOnly:false, selectedId:null, mode:"stock", favorites:[], compareList:[], tankFilter:0, idleActive:false };
 const wikiImages = new Map();
+const fishImages = new Map();
 
 // Localized content helper — returns Spanish field if available and lang is 'es'
 
@@ -41,13 +42,30 @@ function formatMoney(num){
 function isPhonePortrait(){
   return window.matchMedia('(max-width: 600px) and (pointer: coarse)').matches && window.innerHeight >= window.innerWidth;
 }
+function getImageCandidates(item){
+  const out=[];
+  const push=(val)=>{
+    if(!val || typeof val !== 'string') return;
+    const v = val.trim();
+    if(v && !out.includes(v)) out.push(v);
+  };
+  push(item.photoTitle);
+  push(item.scientific);
+  push(item.name);
+  (item.aliases||[]).forEach(push);
+  for(const raw of [...out]){
+    push(raw.replace(/_/g,' '));
+    push(raw.replace(/\s+/g,'_'));
+  }
+  return out;
+}
 function getGallerySources(item){
   const seen = new Set();
   const out = [];
-  const wiki = wikiImages.get(item.photoTitle);
-  if(wiki && !seen.has(wiki)){
-    seen.add(wiki);
-    out.push({src: wiki, kind: 'wiki'});
+  const primary = fishImages.get(item.id) || wikiImages.get(item.photoTitle);
+  if(primary && !seen.has(primary)){
+    seen.add(primary);
+    out.push({src: primary, kind: 'wiki'});
   }
   (item.staffPhotos || []).forEach(src => {
     if(src && !seen.has(src)){
@@ -789,6 +807,27 @@ function foodFamilyLabel(profile){
     default: return 'Community omnivore';
   }
 }
+function foodTypeIcon(food){
+  const n = `${food.name||""} ${food.type||""}`.toLowerCase();
+  if(n.includes("shrimp") || n.includes("mysis") || n.includes("brine")) return "🍤";
+  if(n.includes("nori") || n.includes("algae") || n.includes("seaweed")) return "🌿";
+  if(n.includes("pod") || n.includes("copepod")) return "🦠";
+  if(n.includes("egg") || n.includes("roe")) return "🥚";
+  if((food.type||"") === 'pellet') return "◉";
+  if((food.type||"") === 'flake') return "◫";
+  if((food.type||"") === 'sheet') return "▤";
+  if((food.type||"") === 'liquid') return "💧";
+  if((food.type||"") === 'live') return "✦";
+  if((food.type||"") === 'frozen') return "❄";
+  return "•";
+}
+function foodTypeClass(food){
+  return `type-${String(food.type||'other').toLowerCase().replace(/[^a-z0-9]+/g,'-')}`;
+}
+function foodStageClass(food){
+  return `stage-${String(food.stage||'other').toLowerCase().replace(/[^a-z0-9]+/g,'-')}`;
+}
+
 function renderFoodSection(item){
   const model = getRecommendedFoods(item);
   const {profile, buckets, items, showAdvice} = model;
@@ -797,7 +836,7 @@ function renderFoodSection(item){
       <div class="food-advice-card"><span>Feeding style</span><strong>${foodFamilyLabel(profile)}</strong><p>${profile.strategy}</p></div>
       <div class="food-advice-card"><span>How to offer it</span><strong>Practical routine</strong><p>${profile.feedingSchedule}</p></div>
     </div>` : '';
-  const bucketHtml = buckets.map(bucket => `<div class="food-bucket"><div class="food-bucket-head"><strong>${bucket.title}</strong><span>${bucket.items.length} shown</span></div><div class="food-bucket-grid">${bucket.items.map(food => `<div class="food-card"><div class="food-brand">${food.brand}</div><div class="food-name">${food.name}</div><div class="food-card-meta"><span class="food-badge">${food.type}</span><span class="food-badge">${food.stage}</span></div><div class="food-notes">${food.notes}</div><div class="food-usage">${food.feedHint || ''}</div></div>`).join('')}</div></div>`).join('');
+  const bucketHtml = buckets.map(bucket => `<div class="food-bucket"><div class="food-bucket-head"><strong>${bucket.title}</strong><span>${bucket.items.length} shown</span></div><div class="food-bucket-grid">${bucket.items.map(food => `<div class="food-card ${foodTypeClass(food)} ${foodStageClass(food)}"><div class="food-card-top"><div class="food-brand">${food.brand}</div><div class="food-icon" aria-hidden="true">${foodTypeIcon(food)}</div></div><div class="food-name">${food.name}</div><div class="food-card-meta"><span class="food-badge food-type ${foodTypeClass(food)}">${foodTypeIcon(food)} ${food.type}</span><span class="food-badge food-stage ${foodStageClass(food)}">${food.stage}</span></div><div class="food-notes">${food.notes}</div><div class="food-usage">${food.feedHint || ''}</div></div>`).join('')}</div></div>`).join('');
   const emptyNote = !items.length ? `<div class="food-empty-note">No carried packaged foods are currently matched to this profile. Use the guidance above, or adjust the store food settings if the shop carries suitable items.</div>` : '';
   return `<div class="modal-section seafoam food-section"><div class="section-title"><h3>Foods sold here that fit this animal</h3><span class="section-note">Shown from locally enabled store foods only</span></div>${adviceCards}${bucketHtml}${state.staffMode ? emptyNote : ""}</div>`;
 }
@@ -1087,10 +1126,22 @@ async function fetchWikiImage(title){
   wikiImages.set(title, null);
   return null;
 }
+async function fetchImageForFish(fish){
+  if(fishImages.has(fish.id)) return fishImages.get(fish.id);
+  const candidates = getImageCandidates(fish);
+  for(const candidate of candidates){
+    const src = await fetchWikiImage(candidate);
+    if(src){
+      fishImages.set(fish.id, src);
+      if(fish.photoTitle && !wikiImages.get(fish.photoTitle)) wikiImages.set(fish.photoTitle, src);
+      return src;
+    }
+  }
+  fishImages.set(fish.id, null);
+  return null;
+}
 async function loadAllImages(){
-  // Fire ALL image fetches in parallel
-  const titles = [...new Set(FISH.map(f => f.photoTitle))];
-  await Promise.allSettled(titles.map(t => fetchWikiImage(t)));
+  await Promise.allSettled(FISH.map(fish => fetchImageForFish(fish)));
   applyImagesToDOM();
 }
 function applyImagesToDOM(){
@@ -1099,7 +1150,7 @@ function applyImagesToDOM(){
     const id = target.dataset.photo || target.dataset.detailPhoto;
     const fish = FISH.find(item => item.id === id);
     if(!fish) continue;
-    const src = wikiImages.get(fish.photoTitle);
+    const src = fishImages.get(fish.id) || wikiImages.get(fish.photoTitle);
     if(!src || target.querySelector('img')) continue;
     const img = document.createElement('img');
     img.src = src;

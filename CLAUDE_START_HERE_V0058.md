@@ -1,4 +1,4 @@
-Use the attached V0.058 build as the new source of truth.
+Use the attached V0.059 build as the new source of truth.
 
 This pass completed **Phase 2B** of the local food system.
 Do not re-open 2C species rewrites until you confirm 2B behaves correctly in the UI.

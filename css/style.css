@@ -1063,7 +1063,7 @@ body.light-mode .status-cell.s-agg{background:rgba(232,152,56,.08)}
 /* === MODAL ANIMATION === */
 .overlay{
   position:fixed;inset:0;z-index:70;display:none;align-items:center;justify-content:center;
-  padding:24px;background:rgba(3,6,12,.78);backdrop-filter:blur(6px);
+  padding:24px;background:rgba(2,6,10,.78);backdrop-filter:blur(3px);
 }
 .overlay.show{display:flex}
 .overlay.show .fish-modal{animation:modalSlideIn .35s cubic-bezier(.4,0,.2,1)}
@@ -2639,10 +2639,11 @@ html,body{max-width:100%;overflow-x:hidden}
 
 
 /* ===== Phase 1 catalog cleanup ===== */
-.detail-bg-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.18;pointer-events:none;display:none;filter:saturate(1.05) brightness(.55) blur(1px)}
-.overlay.show .detail-bg-video{display:block}
-.overlay::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 20%, rgba(16,57,89,.22), transparent 35%), radial-gradient(circle at 80% 15%, rgba(11,87,88,.18), transparent 30%), linear-gradient(180deg, rgba(3,8,13,.40), rgba(3,8,13,.65));pointer-events:none}
-.fish-modal{position:relative;z-index:1;background:linear-gradient(180deg, rgba(6,15,24,.84), rgba(6,15,24,.92));backdrop-filter: blur(8px)}
+.detail-bg-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.18;pointer-events:none;display:none;filter:saturate(1.05) brightness(.55) blur(1px);z-index:0}
+.overlay.show .fish-modal .detail-bg-video{display:block}
+.fish-modal > *:not(.detail-bg-video){position:relative;z-index:1}
+.overlay::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(2,6,10,.64), rgba(2,6,10,.78));pointer-events:none}
+.fish-modal{position:relative;z-index:1;background:linear-gradient(180deg, rgba(6,15,24,.90), rgba(6,15,24,.96));backdrop-filter: blur(4px);overflow:hidden}
 .modal-headline-bar{display:flex;align-items:flex-start;gap:12px;padding:12px 14px;border-radius:18px;border:1px solid rgba(152,224,255,.18);background:linear-gradient(180deg, rgba(31,64,95,.78), rgba(12,24,37,.88));box-shadow:var(--shadow-soft)}
 .modal-headline-copy{min-width:0;flex:1}.modal-headline-copy strong{display:block;font-size:20px;font-weight:900;color:#f7fbff;line-height:1.15}.modal-headline-copy p{margin:6px 0 0;font-size:15px;line-height:1.55;color:#d9e8f3;font-weight:700}
 .compact-stats .meta-sub{display:none!important}.compact-stats .modal-stat{padding:14px 16px 13px;border-radius:20px}
@@ -2726,3 +2727,43 @@ body.light-mode .food-toolbar-btn.danger{background:rgba(255,95,95,.08);border-c
 body.light-mode .food-badge{background:rgba(70,130,180,.08);border-color:rgba(70,130,180,.16);color:#1c3d57}
 body.light-mode .feature-star{background:#fff;border-color:rgba(0,0,0,.08);color:rgba(0,0,0,.45)}
 body.light-mode .feature-star.active{background:rgba(255,214,94,.18);border-color:rgba(255,214,94,.32);color:#8a6400}
+
+
+/* V0.059 food card polish */
+
+.food-reco-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.food-card{padding:12px 14px;border-radius:16px;background:linear-gradient(180deg,rgba(12,22,34,.94),rgba(10,18,28,.98));border:1px solid rgba(110,185,210,.14);box-shadow:inset 0 1px 0 rgba(255,255,255,.03)}
+.food-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.food-icon{width:30px;height:30px;border-radius:10px;display:grid;place-items:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);font-size:15px}
+.food-card.type-frozen .food-icon{background:rgba(120,190,255,.14);border-color:rgba(120,190,255,.24)}
+.food-card.type-pellet .food-icon{background:rgba(255,185,90,.14);border-color:rgba(255,185,90,.24)}
+.food-card.type-flake .food-icon{background:rgba(255,220,120,.14);border-color:rgba(255,220,120,.24)}
+.food-card.type-sheet .food-icon{background:rgba(105,220,145,.14);border-color:rgba(105,220,145,.24)}
+.food-card.type-liquid .food-icon{background:rgba(95,200,255,.14);border-color:rgba(95,200,255,.24)}
+.food-card.type-live .food-icon{background:rgba(220,150,255,.14);border-color:rgba(220,150,255,.24)}
+.food-brand{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#9fdfff;font-weight:800}
+.food-name{font-size:18px;line-height:1.15;font-weight:900;color:#fff;margin-top:6px}
+.food-card-meta{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 12px}
+.food-badge{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.02em;text-transform:uppercase;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.05);color:#dfefff}
+.food-badge.food-type.type-frozen{background:rgba(110,175,255,.16);border-color:rgba(110,175,255,.28);color:#d7ebff}
+.food-badge.food-type.type-pellet{background:rgba(255,180,95,.16);border-color:rgba(255,180,95,.28);color:#ffe2bf}
+.food-badge.food-type.type-flake{background:rgba(255,220,130,.16);border-color:rgba(255,220,130,.28);color:#fff0c2}
+.food-badge.food-type.type-sheet{background:rgba(100,215,140,.16);border-color:rgba(100,215,140,.28);color:#dafbe1}
+.food-badge.food-type.type-liquid{background:rgba(90,210,255,.16);border-color:rgba(90,210,255,.28);color:#dbf8ff}
+.food-badge.food-type.type-live{background:rgba(206,145,255,.16);border-color:rgba(206,145,255,.28);color:#f1ddff}
+.food-badge.food-stage.stage-staple{background:rgba(92,225,182,.16);border-color:rgba(92,225,182,.28);color:#ddfff3}
+.food-badge.food-stage.stage-rotate{background:rgba(255,180,95,.16);border-color:rgba(255,180,95,.28);color:#ffe4c4}
+.food-badge.food-stage.stage-support,.food-badge.food-stage.stage-specialty{background:rgba(185,145,255,.16);border-color:rgba(185,145,255,.28);color:#f0e4ff}
+.food-notes{font-size:14px;line-height:1.45;color:#f4fbff}
+.food-usage{font-size:13px;line-height:1.45;color:rgba(222,240,255,.78);margin-top:10px}
+
+.food-section .section-title{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.food-section .section-note{color:rgba(220,236,246,.72);font-size:12px;letter-spacing:.04em}
+@media (max-width: 600px){
+  .food-card{padding:11px 12px;border-radius:14px}
+  .food-name{font-size:17px}
+  .food-notes{font-size:13px}
+  .food-usage{font-size:12px}
+  .food-badge{font-size:10px;padding:4px 8px}
+  .food-icon{width:28px;height:28px;font-size:14px}
+}

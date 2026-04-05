@@ -58,7 +58,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "role_es": "Pez de cardumen con dimorfismo sexual dramático",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Schooling reef fish with dramatic color difference between sexes. Look for females are bright orange. Males are purple-pink with elongated dorsal and tail fin streamers. Dramatic sexual dimorphism. Plan on at least 70+ gal."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for females are bright orange. males are purple-pink with elongated dorsal and tail fin streamers. dramatic sexual dimorphism.. Plan on at least 70+ gal.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Females are bright orange. Males are purple-pink with elongated dorsal and tail fin streamers. Dramatic sexual dimorphism."
   },
   {
     "id": "bartlett-s-anthias",
@@ -116,7 +120,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "bicolor-anthias",
@@ -174,7 +182,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "bimaculatus-anthias",
@@ -232,7 +244,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "carberryi-anthias",
@@ -290,7 +306,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "dispar-anthias",
@@ -348,7 +368,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "evansi-anthias",
@@ -406,7 +430,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "ignitus-anthias",
@@ -464,7 +492,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "lori-s-anthias",
@@ -522,7 +554,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "purple-queen-anthias",
@@ -580,7 +616,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "randall-s-anthias",
@@ -638,7 +678,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "resplendent-anthias",
@@ -696,7 +740,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for an anthias profile. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least Needs enrichment."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least Needs enrichment.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "sunburst-anthias",
@@ -754,7 +802,11 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than 75+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Rare deep-reef anthias with spectacular sunset coloring. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least 75+ gal."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least 75+ gal.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
     "id": "bartletts-anthias",
@@ -823,6 +875,10 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Systems smaller than 40+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Colorful dwarf anthias. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least 40+ gal."
+    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current.. Plan on at least 40+ gal.",
+    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
+    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
+    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   }
 ];

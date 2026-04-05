@@ -57,8 +57,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "role_es": "Depredador rojo vívido con personalidad",
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Central",
-    "headerSummary": "Vivid red perching predator with personality. Look for solid bright red body with dark-rimmed eyes. Perches on coral and rock, watching everything. Plan on at least 30+ gal.",
-    "seasonal": null
+    "headerSummary": "Bold perching personality fish that customers notice quickly. Look for solid bright red body with dark-rimmed eyes. perches on coral and rock, watching everything.. Plan on at least 30+ gal.",
+    "seasonal": null,
+    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
+    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
+    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
+    "recognitionNotes": "Solid bright red body with dark-rimmed eyes. Perches on coral and rock, watching everything."
   },
   {
     "id": "longnose-hawk",
@@ -117,8 +121,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "role_es": "Pez halcón cuadriculado único que se posa en corales",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Unique checkered hawkfish that perches on corals. Look for white body with red crosshatch pattern and an elongated pointed snout. Plan on at least 30+ gal.",
-    "seasonal": null
+    "headerSummary": "Bold perching personality fish that customers notice quickly. Look for white body with red crosshatch pattern and an elongated pointed snout.. Plan on at least 30+ gal.",
+    "seasonal": null,
+    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
+    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
+    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
+    "recognitionNotes": "White body with red crosshatch pattern and an elongated pointed snout."
   },
   {
     "id": "arc-eye-hawkfish",
@@ -176,7 +184,11 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed.",
-    "headerSummary": "Catalog expansion seed for a hawkfish profile. Look for look for a perch-oriented fish that rests on rockwork and makes short, watchful movements. Plan on at least Needs enrichment."
+    "headerSummary": "Bold perching personality fish that customers notice quickly. Look for look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.. Plan on at least Needs enrichment.",
+    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
+    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
+    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
+    "recognitionNotes": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements."
   },
   {
     "id": "falco-hawkfish",
@@ -234,7 +246,11 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed.",
-    "headerSummary": "Catalog expansion seed for a hawkfish profile. Look for look for a perch-oriented fish that rests on rockwork and makes short, watchful movements. Plan on at least Needs enrichment."
+    "headerSummary": "Bold perching personality fish that customers notice quickly. Look for look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.. Plan on at least Needs enrichment.",
+    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
+    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
+    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
+    "recognitionNotes": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements."
   },
   {
     "id": "freckled-hawkfish",
@@ -292,7 +308,11 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed.",
-    "headerSummary": "Catalog expansion seed for a hawkfish profile. Look for look for a perch-oriented fish that rests on rockwork and makes short, watchful movements. Plan on at least Needs enrichment."
+    "headerSummary": "Bold perching personality fish that customers notice quickly. Look for look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.. Plan on at least Needs enrichment.",
+    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
+    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
+    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
+    "recognitionNotes": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements."
   },
   {
     "id": "pixy-hawkfish",
@@ -350,6 +370,10 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed.",
-    "headerSummary": "Catalog expansion seed for a hawkfish profile. Look for look for a perch-oriented fish that rests on rockwork and makes short, watchful movements. Plan on at least Needs enrichment."
+    "headerSummary": "Bold perching personality fish that customers notice quickly. Look for look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.. Plan on at least Needs enrichment.",
+    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
+    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
+    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
+    "recognitionNotes": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements."
   }
 ];

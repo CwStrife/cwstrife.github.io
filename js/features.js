@@ -561,6 +561,7 @@ function checkImageOverrides(){
     const fish = FISH.find(f => f.id === fishId);
     if(fish){
       wikiImages.set(fish.photoTitle, url);
+      if(typeof fishImages!=='undefined') fishImages.set(fish.id, url);
     }
   }
   // Also try loading from thumbs/ folder for each in-stock fish
@@ -569,6 +570,7 @@ function checkImageOverrides(){
     const thumbUrl = `thumbs/${f.id}.jpg`;
     img.onload = () => {
       wikiImages.set(f.photoTitle, thumbUrl);
+      if(typeof fishImages!=='undefined') fishImages.set(f.id, thumbUrl);
       applyImagesToDOM();
     };
     img.onerror = () => {}; // silently fail, Wikipedia fallback handles it

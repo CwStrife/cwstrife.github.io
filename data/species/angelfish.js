@@ -56,8 +56,12 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "role_es": "Ángel enano popular con colores vibrantes",
     "diet_es": "Omnívoro",
     "origin_es": "Pacífico Central",
-    "headerSummary": "Color-heavy dwarf angel with huge visual appeal. Look for hot orange-red body, dark vertical bars, and electric blue edging on the fins. Plan on at least 50+ gal.",
-    "seasonal": null
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for hot orange-red body, dark vertical bars, and electric blue edging on the fins.. Plan on at least 50+ gal.",
+    "seasonal": null,
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Hot orange-red body, dark vertical bars, and electric blue edging on the fins."
   },
   {
     "id": "coral-beauty",
@@ -116,8 +120,12 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "role_es": "Ángel enano más popular y colorido",
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Affordable and colorful dwarf angel. Look for deep blue body with vivid orange-red center and blue-edged fins. Plan on at least 55+ gal.",
-    "seasonal": null
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for deep blue body with vivid orange-red center and blue-edged fins.. Plan on at least 55+ gal.",
+    "seasonal": null,
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Deep blue body with vivid orange-red center and blue-edged fins."
   },
   {
     "id": "emperor-angel",
@@ -177,7 +185,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "role_es": "Ángel grande icónico con transformación de color",
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Iconic large angel with juvenile-to-adult color transformation. Look for adults: yellow and blue horizontal stripes. Juveniles: dark blue with white circular patterns. Completely different looks. Plan on at least 180+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for adults: yellow and blue horizontal stripes. juveniles: dark blue with white circular patterns. completely different looks.. Plan on at least 180+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Adults: yellow and blue horizontal stripes. Juveniles: dark blue with white circular patterns. Completely different looks."
   },
   {
     "id": "lemonpeel-angel",
@@ -236,8 +248,12 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "role_es": "Ángel enano amarillo brillante con anillo azul",
     "diet_es": "Omnívoro",
     "origin_es": "Pacífico Central",
-    "headerSummary": "Vivid all-yellow dwarf angel with blue eye ring. Look for bright lemon yellow body with a distinctive blue ring around the eye and blue edges on fins. Plan on at least 55+ gal.",
-    "seasonal": null
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for bright lemon yellow body with a distinctive blue ring around the eye and blue edges on fins.. Plan on at least 55+ gal.",
+    "seasonal": null,
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Bright lemon yellow body with a distinctive blue ring around the eye and blue edges on fins."
   },
   {
     "id": "potters-angel",
@@ -297,7 +313,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "role_es": "Ángel enano endémico de Hawái",
     "diet_es": "Omnívoro",
     "origin_es": "Hawái",
-    "headerSummary": "Hawaii endemic dwarf angel with unique rusty orange and blue pattern. Look for rusty orange body with vertical blue-purple bars and streaks. Plan on at least 55+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for rusty orange body with vertical blue-purple bars and streaks.. Plan on at least 55+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Rusty orange body with vertical blue-purple bars and streaks."
   },
   {
     "id": "bicolor-angel",
@@ -357,8 +377,12 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "role_es": "Ángel enano con patrón bicolor llamativo",
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Bold two-tone angel with yellow and blue split. Look for clean split of bright yellow on the front half and deep blue on the back half with a yellow tail. Plan on at least 70+ gal.",
-    "seasonal": null
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for clean split of bright yellow on the front half and deep blue on the back half with a yellow tail.. Plan on at least 70+ gal.",
+    "seasonal": null,
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Clean split of bright yellow on the front half and deep blue on the back half with a yellow tail."
   },
   {
     "id": "african-flameback-angel",
@@ -416,7 +440,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Tiny orange-backed angel from the Indian Ocean. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 30+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 30+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "asfur-angel",
@@ -474,7 +502,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Shrimp, snails, crabs, or other ornamental invertebrates"
     ],
     "staffNote": "",
-    "headerSummary": "Majestic Red Sea angel with bold yellow bar. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 220+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 220+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "bellus-angel",
@@ -531,7 +563,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than 75+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Deep-water reef-safe angel with pastel coloring. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 75+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 75+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "blueface-angel",
@@ -589,7 +625,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Shrimp, snails, crabs, or other ornamental invertebrates"
     ],
     "staffNote": "",
-    "headerSummary": "Dramatic angel with vivid blue-yellow face pattern. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 220+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 220+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "cherub-angel",
@@ -646,7 +686,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Tiny Caribbean pygmy angel — smallest of the dwarf angels. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 20+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 20+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "eibli-dwarf-angel",
@@ -704,7 +748,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than 55+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Subtle pearlscale dwarf angel with vertical bars. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 55+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 55+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "false-personifer-angel",
@@ -762,7 +810,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "fisher-s-angel",
@@ -820,7 +872,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "flagfin-angel",
@@ -878,7 +934,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "french-angel",
@@ -936,7 +996,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "goldflake-angel",
@@ -994,7 +1058,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "halfblack-angel",
@@ -1052,7 +1120,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "keyhole-angel",
@@ -1110,7 +1182,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "lamarck-s-angel",
@@ -1168,7 +1244,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "majestic-angel",
@@ -1226,7 +1306,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Shrimp, snails, crabs, or other ornamental invertebrates"
     ],
     "staffNote": "",
-    "headerSummary": "Blue and orange angel with regal presence. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 125+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 125+ gal.",
+    "behavior": "Large angelfish tend to become bold centerpiece fish that patrol the tank constantly and hold space with confidence. Watch territorial pressure on more passive tankmates and expect a fish that will dominate attention once settled.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "midnight-angel",
@@ -1284,7 +1368,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 30+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 30+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "multicolor-angel",
@@ -1342,7 +1430,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Tiny deepwater dwarf angel with pastel coloring. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 30+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 30+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "potter-s-angel",
@@ -1400,7 +1492,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "queen-angel",
@@ -1458,7 +1554,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "regal-angel",
@@ -1516,7 +1616,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "rock-beauty-angel",
@@ -1574,7 +1678,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Shrimp, snails, crabs, or other ornamental invertebrates"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 125+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 125+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "rusty-angel",
@@ -1632,7 +1740,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than 40+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Hardy rust-colored dwarf angel. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 40+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 40+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "scribbled-angel",
@@ -1690,7 +1802,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "swallowtail-angel",
@@ -1748,7 +1864,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "venustus-angel",
@@ -1806,7 +1926,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "watanabei-angel",
@@ -1864,7 +1988,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "zebra-angel",
@@ -1922,7 +2050,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a marine angelfish profile. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least Needs enrichment."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least Needs enrichment.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "french-angelfish",
@@ -1992,7 +2124,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Shrimp, snails, crabs, or other ornamental invertebrates"
     ],
     "staffNote": "",
-    "headerSummary": "Majestic large angelfish with gold-rimmed scales. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 250+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 250+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "queen-angelfish",
@@ -2062,7 +2198,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Shrimp, snails, crabs, or other ornamental invertebrates"
     ],
     "staffNote": "",
-    "headerSummary": "Iconic Caribbean queen with electric blue and yellow. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 250+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 250+ gal.",
+    "behavior": "Large angelfish tend to become bold centerpiece fish that patrol the tank constantly and hold space with confidence. Watch territorial pressure on more passive tankmates and expect a fish that will dominate attention once settled.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "regal-angelfish",
@@ -2132,7 +2272,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Immature tanks or buyers without a long-term care plan"
     ],
     "staffNote": "",
-    "headerSummary": "Strikingly striped angelfish notoriously hard to feed. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 125+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 125+ gal.",
+    "behavior": "Large angelfish tend to become bold centerpiece fish that patrol the tank constantly and hold space with confidence. Watch territorial pressure on more passive tankmates and expect a fish that will dominate attention once settled.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "japanese-swallowtail-angel",
@@ -2201,7 +2345,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than 75+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "One of the only truly reef-safe angelfish. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 75+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 75+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "keyhole-angelfish",
@@ -2271,7 +2419,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than 75+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Dark dwarf angel with white keyhole marking. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 75+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 75+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "watanabei-angelfish",
@@ -2340,7 +2492,11 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Systems smaller than 75+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Reef-safe deepwater angelfish. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 75+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 75+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   },
   {
     "id": "peppermint-angelfish",
@@ -2410,6 +2566,10 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Immature tanks or buyers without a long-term care plan"
     ],
     "staffNote": "",
-    "headerSummary": "Rarest angelfish in the world ($15,000-$30,000). Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 30+ gal."
+    "headerSummary": "High-color centerpiece fish with real reef-compatibility questions to answer before the sale. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.. Plan on at least 30+ gal.",
+    "behavior": "Dwarf angels are usually busy pickers that weave in and out of rockwork all day. They often show moderate territorial behavior toward similar-shaped fish, but still fit many community reefs when the tank is mature and well planned.",
+    "feedingNotes": "Feed a varied omnivore routine with marine sponge- or algae-inclusive prepared foods where appropriate, then rotate frozen foods for condition and response. Angels often do best when they get both picking opportunities and regular prepared feedings.",
+    "buyingGuidance": "The main buying conversation is reef risk versus visual payoff. Many angels are stunning and high-impact, but shoppers need to understand that coral picking can range from low concern to a real issue depending on the species and the reef plan.",
+    "recognitionNotes": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels."
   }
 ];

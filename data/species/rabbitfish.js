@@ -57,8 +57,12 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "role_es": "Herbívoro amarillo con espinas venenosas",
     "diet_es": "Herbívoro",
     "origin_es": "Pacífico Occidental",
-    "headerSummary": "Peaceful algae destroyer with venomous spines. Look for bright yellow body with bold black and white face markings and an elongated snout. Plan on at least 125+ gal.",
-    "seasonal": null
+    "headerSummary": "Steady algae grazer with calm presence and real utility in larger reef systems. Look for bright yellow body with bold black and white face markings and an elongated snout.. Plan on at least 125+ gal.",
+    "seasonal": null,
+    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
+    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
+    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
+    "recognitionNotes": "Bright yellow body with bold black and white face markings and an elongated snout."
   },
   {
     "id": "blue-spotted-rabbitfish",
@@ -116,7 +120,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a rabbitfish / foxface profile. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines. Plan on at least Needs enrichment."
+    "headerSummary": "Steady algae grazer with calm presence and real utility in larger reef systems. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.. Plan on at least Needs enrichment.",
+    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
+    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
+    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
+    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
   },
   {
     "id": "foxface-lo",
@@ -174,7 +182,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a rabbitfish / foxface profile. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines. Plan on at least Needs enrichment."
+    "headerSummary": "Steady algae grazer with calm presence and real utility in larger reef systems. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.. Plan on at least Needs enrichment.",
+    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
+    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
+    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
+    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
   },
   {
     "id": "magnificent-foxface",
@@ -231,7 +243,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Systems smaller than 100+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Elegant black and white foxface rabbitfish. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines. Plan on at least 100+ gal."
+    "headerSummary": "Steady algae grazer with calm presence and real utility in larger reef systems. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.. Plan on at least 100+ gal.",
+    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
+    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
+    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
+    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
   },
   {
     "id": "masked-rabbitfish",
@@ -289,7 +305,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a rabbitfish / foxface profile. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines. Plan on at least Needs enrichment."
+    "headerSummary": "Steady algae grazer with calm presence and real utility in larger reef systems. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.. Plan on at least Needs enrichment.",
+    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
+    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
+    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
+    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
   },
   {
     "id": "one-spot-foxface",
@@ -347,7 +367,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a rabbitfish / foxface profile. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines. Plan on at least Needs enrichment."
+    "headerSummary": "Steady algae grazer with calm presence and real utility in larger reef systems. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.. Plan on at least Needs enrichment.",
+    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
+    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
+    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
+    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
   },
   {
     "id": "scribbled-rabbitfish",
@@ -405,7 +429,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a rabbitfish / foxface profile. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines. Plan on at least Needs enrichment."
+    "headerSummary": "Steady algae grazer with calm presence and real utility in larger reef systems. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.. Plan on at least Needs enrichment.",
+    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
+    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
+    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
+    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
   },
   {
     "id": "foxface-rabbitfish",
@@ -474,6 +502,10 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Systems smaller than 100+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Yellow herbivore with venomous spines. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines. Plan on at least 100+ gal."
+    "headerSummary": "Steady algae grazer with calm presence and real utility in larger reef systems. Look for look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.. Plan on at least 100+ gal.",
+    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
+    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
+    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
+    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
   }
 ];

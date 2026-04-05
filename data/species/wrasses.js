@@ -59,8 +59,12 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "role_es": "Lábrido hada elegante de exhibición",
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Occidental",
-    "headerSummary": "Bright open-water wrasse with flashing display behavior. Look for elegant streamlined body with soft pink, gold, and blue tones that intensify under light. Plan on at least 55+ gal.",
-    "seasonal": null
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for elegant streamlined body with soft pink, gold, and blue tones that intensify under light.. Plan on at least 55+ gal.",
+    "seasonal": null,
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Elegant streamlined body with soft pink, gold, and blue tones that intensify under light."
   },
   {
     "id": "six-line-wrasse",
@@ -119,8 +123,12 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "role_es": "Lábrido colorido con seis líneas vívidas — gran cazador de plagas",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Colorful wrasse with six vivid lines — great pest hunter. Look for six vivid horizontal purple and orange lines across a small torpedo body. Plan on at least 30+ gal.",
-    "seasonal": null
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for six vivid horizontal purple and orange lines across a small torpedo body.. Plan on at least 30+ gal.",
+    "seasonal": null,
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Six vivid horizontal purple and orange lines across a small torpedo body."
   },
   {
     "id": "mccoskers-wrasse",
@@ -179,8 +187,12 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "role_es": "Lábrido destellador espectacular",
     "diet_es": "Carnívoro",
     "origin_es": "Océano Índico",
-    "headerSummary": "Flashy display wrasse with mating color shows. Look for males flash vivid red, orange, and blue fin displays during courtship — one of the most dramatic color shows in a reef tank. Plan on at least 40+ gal.",
-    "seasonal": null
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for males flash vivid red, orange, and blue fin displays during courtship — one of the most dramatic color shows in a reef tank.. Plan on at least 40+ gal.",
+    "seasonal": null,
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Males flash vivid red, orange, and blue fin displays during courtship — one of the most dramatic color shows in a reef tank."
   },
   {
     "id": "melanurus-wrasse",
@@ -240,8 +252,12 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "role_es": "Controlador de plagas colorido y seguro para arrecife",
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Occidental",
-    "headerSummary": "Colorful reef-safe pest controller. Look for green and blue body with pink and orange facial markings and a dark tail spot. Plan on at least 50+ gal.",
-    "seasonal": null
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for green and blue body with pink and orange facial markings and a dark tail spot.. Plan on at least 50+ gal.",
+    "seasonal": null,
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Green and blue body with pink and orange facial markings and a dark tail spot."
   },
   {
     "id": "yellow-coris-wrasse",
@@ -300,8 +316,12 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "role_es": "Lábrido amarillo brillante y seguro para arrecife",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Bright yellow reef-safe wrasse. Look for solid bright yellow body with a faint green tinge and a small black spot near the eye. Plan on at least 50+ gal.",
-    "seasonal": null
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for solid bright yellow body with a faint green tinge and a small black spot near the eye.. Plan on at least 50+ gal.",
+    "seasonal": null,
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Solid bright yellow body with a faint green tinge and a small black spot near the eye."
   },
   {
     "id": "mystery-wrasse",
@@ -360,8 +380,12 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "role_es": "Lábrido raro y vívido de arrecife profundo",
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Occidental",
-    "headerSummary": "Rare and vivid deep-reef wrasse. Look for deep magenta-red body with white vertical bars and neon blue facial lines. Plan on at least 30+ gal.",
-    "seasonal": null
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for deep magenta-red body with white vertical bars and neon blue facial lines.. Plan on at least 30+ gal.",
+    "seasonal": null,
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Deep magenta-red body with white vertical bars and neon blue facial lines."
   },
   {
     "id": "carpenter-wrasse",
@@ -420,8 +444,12 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "role_es": "Lábrido destellador económico con exhibición naranja y púrpura",
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Occidental",
-    "headerSummary": "Affordable flasher wrasse with orange and purple display. Look for orange-red body with purple and blue fins that flash during mating displays. Plan on at least 40+ gal.",
-    "seasonal": null
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for orange-red body with purple and blue fins that flash during mating displays.. Plan on at least 40+ gal.",
+    "seasonal": null,
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Orange-red body with purple and blue fins that flash during mating displays."
   },
   {
     "id": "leopard-wrasse",
@@ -479,8 +507,12 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "role_es": "Lábrido con patrón impresionante pero desafiante",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Stunningly patterned but challenging reef wrasse. Look for dark body covered in bright blue, pink, and green leopard-print spots. Males are particularly vivid. Plan on at least 55+ gal.",
-    "seasonal": null
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for dark body covered in bright blue, pink, and green leopard-print spots. males are particularly vivid.. Plan on at least 55+ gal.",
+    "seasonal": null,
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Dark body covered in bright blue, pink, and green leopard-print spots. Males are particularly vivid."
   },
   {
     "id": "possum-wrasse",
@@ -538,8 +570,12 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "role_es": "Lábrido nano diminuto y tímido",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Tiny shy nano wrasse perfect for small peaceful tanks. Look for orange-brown body with thin white horizontal lines and a distinctive dark spot pattern. Plan on at least 10+ gal.",
-    "seasonal": null
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for orange-brown body with thin white horizontal lines and a distinctive dark spot pattern.. Plan on at least 10+ gal.",
+    "seasonal": null,
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Orange-brown body with thin white horizontal lines and a distinctive dark spot pattern."
   },
   {
     "id": "banana-wrasse",
@@ -597,7 +633,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "bird-wrasse",
@@ -655,7 +695,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "black-leopard-wrasse",
@@ -713,7 +757,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "blue-flasher-wrasse",
@@ -771,7 +819,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "bluestreak-cleaner-wrasse",
@@ -829,7 +881,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "canary-wrasse",
@@ -887,7 +943,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "christmas-wrasse",
@@ -944,7 +1004,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 55+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 55+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 55+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "dragon-wrasse",
@@ -1002,7 +1066,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 100+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Dramatic wrasse that flips rocks and hunts invertebrates. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 100+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 100+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "eight-line-wrasse",
@@ -1060,7 +1128,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "exquisite-fairy-wrasse",
@@ -1117,7 +1189,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 55+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Colorful fairy wrasse that flashes during courtship. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 55+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 55+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "filamented-flasher-wrasse",
@@ -1175,7 +1251,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "flame-wrasse",
@@ -1232,7 +1312,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 55+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Hawaiian endemic fairy wrasse with intense red coloring. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 55+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 55+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "four-line-wrasse",
@@ -1290,7 +1374,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "harlequin-tusk",
@@ -1348,7 +1436,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "hoeven-s-wrasse",
@@ -1406,7 +1498,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "hooded-fairy-wrasse",
@@ -1464,7 +1560,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "lubbock-s-fairy-wrasse",
@@ -1522,7 +1622,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "lunare-wrasse",
@@ -1580,7 +1684,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "naoko-s-fairy-wrasse",
@@ -1638,7 +1746,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "ornate-leopard-wrasse",
@@ -1696,7 +1808,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "pink-streaked-wrasse",
@@ -1754,7 +1870,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "radiant-wrasse",
@@ -1811,7 +1931,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 40+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Small iridescent wrasse ideal for nano reef tanks. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 40+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 40+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "red-coris-wrasse",
@@ -1869,7 +1993,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "red-margin-fairy-wrasse",
@@ -1927,7 +2055,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "rhomboid-wrasse",
@@ -1985,7 +2117,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "ruby-head-fairy-wrasse",
@@ -2043,7 +2179,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "scott-s-fairy-wrasse",
@@ -2101,7 +2241,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "solar-fairy-wrasse",
@@ -2158,7 +2302,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 55+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 55+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 55+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "tanaka-s-pygmy-wrasse",
@@ -2216,7 +2364,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "timor-wrasse",
@@ -2274,7 +2426,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "yellow-banded-possum-wrasse",
@@ -2332,7 +2488,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "yellowfin-flasher-wrasse",
@@ -2390,7 +2550,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than Needs enrichment"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a wrasse profile. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least Needs enrichment."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least Needs enrichment.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "cleaner-wrasse",
@@ -2460,7 +2624,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "The original cleaner fish. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 30+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 30+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "scott-fairy-wrasse",
@@ -2529,7 +2697,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 55+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Hardy green fairy wrasse for beginners. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 55+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 55+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "flasher-wrasse-filamented",
@@ -2598,7 +2770,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Tiny flasher wrasse with dramatic fin extensions. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 30+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 30+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "halichoeres-wrasse",
@@ -2667,7 +2843,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 50+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Bright yellow wrasse that hunts flatworms. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 50+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 50+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "harlequin-tuskfish",
@@ -2737,7 +2917,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 125+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Spectacular wrasse relative with blue tusks. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 125+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 125+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
     "id": "green-bird-wrasse",
@@ -2807,6 +2991,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Systems smaller than 100+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Elongated-snout wrasse that hunts crustaceans. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses. Plan on at least 100+ gal."
+    "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for look for the slimmer body, active swimming style, and quick darting movement common to wrasses.. Plan on at least 100+ gal.",
+    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
+    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   }
 ];
