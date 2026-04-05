@@ -2843,3 +2843,23 @@ body.light-mode .inventory-card,body.light-mode .staff-editor,body.light-mode .i
 body.light-mode .inventory-card-name,body.light-mode .inventory-chip strong,body.light-mode .staff-editor-head strong,body.light-mode .inventory-summary-card strong{color:#1a2030}
 @media (max-width: 980px){.inventory-toolbar{grid-template-columns:1fr 1fr}.inventory-toolbar .food-toolbar-btn{width:100%}}
 @media (max-width: 700px){.inventory-topbar{flex-direction:column}.inventory-toolbar{grid-template-columns:1fr}.inventory-kv{grid-template-columns:repeat(2,minmax(0,1fr))}.inventory-actions .staff-action-btn,.staff-editor-grid .staff-action-btn{flex:1 1 calc(50% - 8px)}}
+
+
+/* === V0.070 staff persistence + undo/history + modal scroll hardening === */
+.modal-body{
+  -webkit-overflow-scrolling:touch;
+  touch-action:pan-y;
+}
+.overlay{overflow:auto}
+.fish-modal.mobile-safe{overflow:hidden!important}
+.fish-modal.mobile-safe .modal-body{
+  overflow-y:auto!important;
+  overflow-x:hidden!important;
+  -webkit-overflow-scrolling:touch!important;
+  overscroll-behavior:contain!important;
+}
+.modal-body.has-detail-video > .detail-bg-video{pointer-events:none!important}
+.inventory-history{display:flex;flex-wrap:wrap;gap:6px}
+.inventory-history.empty{font-size:11px;color:rgba(255,255,255,.34)}
+.inventory-history-chip{display:inline-flex;align-items:center;padding:5px 8px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);font-size:10px;color:rgba(240,248,255,.78)}
+.staff-editor .inventory-history{margin-top:10px}

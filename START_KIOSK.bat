@@ -1,6 +1,6 @@
 @echo off
 echo ==========================================
-echo  Low Tide Corals - Fish Browser V23
+echo  Low Tide Corals - Fish Browser V0.070
 echo ==========================================
 echo.
 echo Put reef-bg.mp4 in this folder for video background.

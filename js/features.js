@@ -615,6 +615,7 @@ render();
 updateFavCounter();
 updateCompareBar();
 loadAllImages();
+if(typeof hydrateStaffEdits === 'function') hydrateStaffEdits();
 applyLanguage();
 
 // === STICKY CATEGORY POSITION ===
