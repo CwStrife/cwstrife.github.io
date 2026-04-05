@@ -9,6 +9,151 @@ const state = {
   viewMode: (window.matchMedia && window.matchMedia('(pointer: coarse) and (max-width: 900px)').matches) ? 'compact' : 'detailed', category:"All", search:"", sort:"featured", reefOnly:false, easyOnly:false, selectedId:null, mode:"stock", favorites:[], compareList:[], tankFilter:0, idleActive:false };
 const wikiImages = new Map();
 const fishImages = new Map();
+const STAFF_STORAGE_KEY = 'ltcStaffCatalogEdits.v1';
+const STAFF_MANAGED_FIELDS = ['price','tankCode','stockSize','stockNumber','staffNote','inStock','soldAt','lossAt','quarantine','quarantineUntil','staffPhotos','quantity','arrivalDate','vendor','reserved','reservedFor','updatedAt','lastAction'];
+const STOCK_SIZE_OPTIONS = ['—','Tiny','Small','Small-Medium','Medium','Medium-Large','Large','X-Large','XX-Large','Frag'];
+function normalizeStockSizeValue(value){
+  if(value === undefined || value === null) return '';
+  const cleaned = String(value).trim();
+  if(!cleaned || /^unknown$/i.test(cleaned) || cleaned === '--' || cleaned === '—') return '';
+  return cleaned;
+}
+function displayStockSize(value){
+  const cleaned = normalizeStockSizeValue(value);
+  return cleaned || '—';
+}
+function normalizeQuantityValue(value){
+  if(value === undefined || value === null || value === '') return '';
+  const num = parseInt(value, 10);
+  if(Number.isNaN(num) || num < 0) return '';
+  return num;
+}
+function displayQuantityValue(value){
+  const normalized = normalizeQuantityValue(value);
+  return normalized === '' ? '—' : String(normalized);
+}
+function formatDateShort(value){
+  if(!value) return '—';
+  const d = new Date(value);
+  if(Number.isNaN(d.getTime())) return '—';
+  return d.toLocaleDateString('en-US', {month:'short', day:'numeric'});
+}
+function formatDateTimeShort(value){
+  if(!value) return '—';
+  const d = new Date(value);
+  if(Number.isNaN(d.getTime())) return '—';
+  return d.toLocaleString('en-US', {month:'short', day:'numeric', hour:'numeric', minute:'2-digit'});
+}
+function touchStaffRecord(fish, action){
+  fish.updatedAt = Date.now();
+  fish.lastAction = action;
+}
+function availableQuantity(item){
+  const total = normalizeQuantityValue(item.quantity);
+  if(total === '') return item.inStock ? 1 : 0;
+  return total;
+}
+function reservedLabel(item){
+  if(!item.reserved) return 'Open';
+  const name = String(item.reservedFor || '').trim();
+  return name ? `Held · ${name}` : 'Held';
+}
+function getStaffSnapshot(fish){
+  const snapshot = {};
+  STAFF_MANAGED_FIELDS.forEach(key => {
+    if(key === 'stockSize') snapshot[key] = normalizeStockSizeValue(fish[key]);
+    else if(key === 'quantity') snapshot[key] = normalizeQuantityValue(fish[key]);
+    else if(Array.isArray(fish[key])) snapshot[key] = fish[key].slice();
+    else if(fish[key] !== undefined) snapshot[key] = fish[key];
+  });
+  return snapshot;
+}
+const STAFF_BASELINE = new Map((Array.isArray(window.FISH) ? window.FISH : []).map(f => [f.id, JSON.parse(JSON.stringify(getStaffSnapshot(f)))]));
+function persistStaffEdits(){
+  try{
+    const payload = {};
+    FISH.forEach(fish => {
+      const current = getStaffSnapshot(fish);
+      const baseline = STAFF_BASELINE.get(fish.id) || {};
+      const delta = {};
+      for(const [key, value] of Object.entries(current)){
+        const base = baseline[key];
+        if(JSON.stringify(value) !== JSON.stringify(base)) delta[key] = value;
+      }
+      if(Object.keys(delta).length) payload[fish.id] = delta;
+    });
+    localStorage.setItem(STAFF_STORAGE_KEY, JSON.stringify(payload));
+  }catch(_e){}
+}
+function applyStaffEditPayload(payload){
+  if(!payload || typeof payload !== 'object') return;
+  for(const [id, delta] of Object.entries(payload)){
+    const fish = FISH.find(f=>f.id===id);
+    if(!fish || !delta || typeof delta !== 'object') continue;
+    for(const field of STAFF_MANAGED_FIELDS){
+      if(!(field in delta)) continue;
+      if(field === 'stockSize') fish[field] = normalizeStockSizeValue(delta[field]);
+      else if(field === 'quantity') fish[field] = normalizeQuantityValue(delta[field]);
+      else if(field === 'staffPhotos' && Array.isArray(delta[field])) fish[field] = delta[field].slice();
+      else fish[field] = delta[field];
+    }
+  }
+}
+function loadStaffEdits(){
+  try{
+    const raw = localStorage.getItem(STAFF_STORAGE_KEY);
+    if(!raw) return;
+    applyStaffEditPayload(JSON.parse(raw));
+  }catch(_e){}
+}
+function clearStaffEditsStorage(){
+  try{ localStorage.removeItem(STAFF_STORAGE_KEY); }catch(_e){}
+}
+function exportStaffEdits(){
+  try{
+    const raw = localStorage.getItem(STAFF_STORAGE_KEY) || '{}';
+    const blob = new Blob([JSON.stringify(JSON.parse(raw), null, 2)], {type:'application/json'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `ltc-staff-edits-${new Date().toISOString().slice(0,10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 100);
+    showToast('Staff data exported');
+  }catch(_e){ showToast('Export failed'); }
+}
+function importStaffEditsFile(file){
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = (ev) => {
+    try{
+      const payload = JSON.parse(ev.target.result);
+      clearStaffEditsStorage();
+      applyStaffEditPayload(payload);
+      persistStaffEdits();
+      renderInventoryManager();
+      render();
+      showToast('Staff data imported');
+    }catch(_e){ showToast('Import failed'); }
+  };
+  reader.readAsText(file);
+}
+function resetStaffEdits(){
+  if(!window.confirm('Reset all locally saved staff edits on this device?')) return;
+  FISH.forEach(fish => {
+    const baseline = STAFF_BASELINE.get(fish.id) || {};
+    for(const field of STAFF_MANAGED_FIELDS){
+      if(field in baseline) fish[field] = Array.isArray(baseline[field]) ? baseline[field].slice() : baseline[field];
+      else delete fish[field];
+    }
+  });
+  clearStaffEditsStorage();
+  renderInventoryManager();
+  render();
+  showToast('Local staff data reset');
+}
+loadStaffEdits();
+
 
 // Localized content helper — returns Spanish field if available and lang is 'es'
 
@@ -378,7 +523,7 @@ function cardTemplate(item){
     : `<div class="price-badge"><span class="price-value">${formatMoney(item.price)}</span></div>`;
   const tankHtml = isEncy || !item.tankCode ? '' : `<div class="tank-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode}</div>`;
   const sizeInches = (typeof SIZE_SCALE!=='undefined' && item.stockSize && SIZE_SCALE[item.stockSize]) ? ' ('+SIZE_SCALE[item.stockSize]+')' : '';
-  const stockMeta = isEncy ? '' : `<div class="meta-box"><div class="meta-label">${typeof T==="function"?T("stockSize"):"In stock size"}</div><div class="meta-value">${item.stockSize||'—'}${sizeInches}</div></div>`;
+  const stockMeta = isEncy ? '' : `<div class="meta-box"><div class="meta-label">${typeof T==="function"?T("stockSize"):"In stock size"}</div><div class="meta-value">${displayStockSize(item.stockSize)}${sizeInches}</div></div>`;
   const isSold = !item.inStock && item.soldAt;
   const soldOverlay = isSold ? `<div style="position:absolute;inset:0;z-index:4;display:grid;place-items:center;background:rgba(0,0,0,.6)"><span style="font-size:32px;font-weight:900;color:#ff6666;letter-spacing:.1em;text-shadow:0 2px 8px rgba(0,0,0,.5)">${typeof T==="function"?T("sold"):"SOLD"}</span></div>` : '';
   return `
@@ -410,7 +555,7 @@ function cardTemplate(item){
           <div class="mobile-fact"><span>${typeof T==='function'?T('minTank'):'Min Tank'}</span><strong>${item.minTank}</strong></div>
           <div class="mobile-fact"><span>${typeof T==='function'?T('diet'):'Diet'}</span><strong>${L(item,'diet')}</strong></div>
           <div class="mobile-fact"><span>${typeof T==='function'?T('origin'):'Origin'}</span><strong>${L(item,'origin')}</strong></div>
-          <div class="mobile-fact"><span>${typeof T==='function'?T('stockSize'):'In stock size'}</span><strong>${item.stockSize||'—'}${sizeInches}</strong></div>
+          <div class="mobile-fact"><span>${typeof T==='function'?T('stockSize'):'In stock size'}</span><strong>${displayStockSize(item.stockSize)}${sizeInches}</strong></div>
         </div>
         <div class="meta-grid">
           <div class="meta-box"><div class="meta-label">${typeof T==="function"?T("minTank"):"Min Tank"}</div><div class="meta-value">${item.minTank}</div></div>
@@ -422,6 +567,8 @@ function cardTemplate(item){
         ${state.staffMode && item.inStock ? `<div class="staff-actions">
           <button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditPrice('${item.id}')">${typeof T==='function'?T('editPrice'):'Edit Price'}</button>
           <button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditTank('${item.id}')">${typeof T==='function'?T('editTank'):'Edit Tank'}</button>
+          <button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockSize('${item.id}')" style="background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a">${typeof T==='function'?T('editStockSize'):'Edit Size'}</button>
+          <button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button>
           <button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadPhoto'):'Upload Photo'}</button>
           <button class="staff-action-btn sold" onclick="event.stopPropagation();staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button>
           <button class="staff-action-btn dead" onclick="event.stopPropagation();staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button>
@@ -430,6 +577,8 @@ function cardTemplate(item){
         ${item.quarantine ? `<div style="margin-top:4px;padding:4px 8px;border-radius:6px;background:rgba(220,180,50,.15);border:1px solid rgba(220,180,50,.25);font-size:11px;font-weight:700;color:#ddbb44">⏱ ${typeof T==='function'?(item.quarantineUntil?T('quarantineDays')(Math.max(0,Math.ceil((item.quarantineUntil-Date.now())/86400000))):T('quarantineOngoing')):'Quarantine'} <button onclick="event.stopPropagation();staffEndQuarantine('${item.id}')" style="margin-left:6px;padding:2px 6px;border-radius:4px;background:rgba(90,220,200,.2);border:1px solid rgba(90,220,200,.3);color:#5eebc8;font-size:10px;cursor:pointer">${typeof T==='function'?T('clearQ'):'Clear'}</button></div>` : ''}` : ''}
         ${state.staffMode && !item.inStock ? `<div class="staff-actions">
           <button class="staff-action-btn edit" onclick="event.stopPropagation();staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>
+          <button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockSize('${item.id}')" style="background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a">${typeof T==='function'?T('editStockSize'):'Edit Size'}</button>
+          <button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button>
           <button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadPhoto'):'Upload Photo'}</button>
         </div>
         ${item.soldAt && state.staffMode ? `<div style="margin-top:4px;font-size:10px;color:rgba(255,255,255,.3)">${typeof T==='function'?T('soldAgo')(Math.round((Date.now()-item.soldAt)/3600000),Math.max(0,24-Math.round((Date.now()-item.soldAt)/3600000))):'Sold recently'}</div>` : ''}
@@ -466,7 +615,8 @@ function hasInfoText(val){
 }
 function cleanInfoText(val){
   if(typeof val !== 'string') return '';
-  const out = val.replace(/\s+/g,' ').trim();
+  const normalized = (typeof stripTemplateNoise === 'function' ? stripTemplateNoise(val) : val);
+  const out = normalized.replace(/\s+/g,' ').trim();
   if(!out || ['undefined','null','none'].includes(out.toLowerCase())) return '';
   return out;
 }
@@ -852,13 +1002,23 @@ function buildStatValue(item, key){
       const oldPrice = item.price ? `<span class="meta-old-price">${formatMoney(item.price)}</span>` : '';
       return `<span class="meta-price-stack">${oldPrice}<span>${formatMoney(item.salePrice)}</span></span>`;
     }
-    return item.price ? formatMoney(item.price) : 'Unknown';
+    return item.price ? formatMoney(item.price) : '—';
   }
   if(key === 'minTank') return safeText(item.minTank, 'Unknown');
   if(key === 'care') return safeText(item.careLabel, 'Unknown');
   if(key === 'maxSize') return safeText(item.maxSize, 'Unknown');
   return 'Unknown';
 }
+function renderStaffEditor(item){
+  if(!state.staffMode) return '';
+  const stockLabel = displayStockSize(item.stockSize);
+  const status = item.quarantine ? 'Quarantine' : (item.reserved ? 'Held' : (item.inStock ? 'In stock' : (item.lossAt ? 'Removed' : 'Out of stock')));
+  const qty = displayQuantityValue(item.quantity);
+  const hold = reservedLabel(item);
+  const arrival = formatDateShort(item.arrivalDate);
+  return `<div class="staff-editor"><div class="staff-editor-head"><strong>Staff quick edits</strong><span class="mini-pill">${status}</span></div><div class="staff-editor-copy">Mobile-friendly controls for local store values. Changes save on this device automatically.</div><div class="staff-editor-copy" style="margin-top:6px">Stock #: <strong>${item.stockNumber || '—'}</strong> · Qty: <strong>${qty}</strong> · Hold: <strong>${hold}</strong> · Arrived: <strong>${arrival}</strong></div><div class="staff-editor-grid"><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditPrice('${item.id}')">${typeof T==='function'?T('editPrice'):'Edit Price'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditTank('${item.id}')">${typeof T==='function'?T('editTank'):'Edit Tank'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockSize('${item.id}')" style="background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a">${typeof T==='function'?T('editStockSize'):'Edit Size'}: ${stockLabel}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditQuantity('${item.id}')" style="background:rgba(120,255,170,.14);border-color:rgba(120,255,170,.28);color:#8cffb7">Qty: ${qty}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditHold('${item.id}')" style="background:rgba(255,170,120,.14);border-color:rgba(255,170,120,.28);color:#ffbf8a">Hold: ${hold}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockInfo('${item.id}')" style="background:rgba(120,170,255,.14);border-color:rgba(120,170,255,.28);color:#9fc0ff">Stock Details</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button>${item.inStock ? `<button class="staff-action-btn sold" onclick="event.stopPropagation();staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="event.stopPropagation();staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button>` : `<button class="staff-action-btn edit" onclick="event.stopPropagation();staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>`}</div></div>`;
+}
+
 function modalHeaderBar(item){
   const categoryLabel = (typeof CARD_LABELS!=='undefined' && CARD_LABELS[item.category]) ? CARD_LABELS[item.category] : TC(item.category);
   return `<div class="modal-headline-bar"><span class="modal-type">${categoryLabel}</span><div class="modal-headline-copy"><strong>${L(item,'name')}</strong><span class="latin-mini">${item.scientific}</span>${summaryText(item)?`<p>${summaryText(item)}</p>`:''}</div></div>`;
@@ -873,7 +1033,7 @@ function modalTemplate(item){
   const [aggText, aggClass] = aggressionChip(item.aggression);
   const [invText, invClass] = invertChip(item.invertRisk);
   const aliasText = cleanInfoList(item.aliases).join(', ');
-  const sizeText = item.stockSize || 'Unknown';
+  const sizeText = displayStockSize(item.stockSize);
   const sizeInches = (typeof SIZE_SCALE!=='undefined' && item.stockSize && SIZE_SCALE[item.stockSize]) ? ` (${SIZE_SCALE[item.stockSize]})` : '';
   const originText = cleanInfoText(L(item,'origin'));
   const habitatText = cleanInfoText(item.habitat);
@@ -927,6 +1087,7 @@ function modalTemplate(item){
         ${staffNote ? `<div class="staff-card"><strong>Staff note</strong><p>${staffNote}</p></div>` : ''}
         ${item.seasonal ? `<div class="seasonal-section"><span class="seasonal-icon">📅</span><div><div class="seasonal-label">Seasonal / Special Note</div><div class="seasonal-text">${item.seasonal}</div></div></div>` : ''}
         ${typeof waterParamsSection === 'function' ? waterParamsSection(item) : ''}
+        ${renderStaffEditor(item)}
         <div class="similar-section"><h3>Similar Fish You Might Like</h3><div class="similar-row">${renderSimilarCards(item,false)}</div></div>
         <div class="action-row"><button class="cta primary" data-copy="${L(item,'name')} • Tank ${item.tankCode || '—'} • ${(item.onSale&&item.salePrice)?formatMoney(item.salePrice):(item.price ? formatMoney(item.price) : 'Unknown')}">${typeof T==='function'?T('copyInfo'):'Copy fish + tank info'}</button><button class="cta secondary" data-close-modal="true">Close profile</button></div>
       </div>
@@ -939,7 +1100,7 @@ function modalTemplateMobile(item){
   const [aggText, aggClass] = aggressionChip(item.aggression);
   const [invText, invClass] = invertChip(item.invertRisk);
   const aliasText = cleanInfoList(item.aliases).join(', ');
-  const sizeText = item.stockSize || 'Unknown';
+  const sizeText = displayStockSize(item.stockSize);
   const sizeInches = (typeof SIZE_SCALE!=='undefined'&&item.stockSize&&SIZE_SCALE[item.stockSize]) ? ` ${SIZE_SCALE[item.stockSize]}` : '';
   const staffNote = cleanInfoText(item.staffNote);
   const overviewText = cleanInfoText(L(item,'overview'));
@@ -1569,6 +1730,7 @@ function checkPin(){
     const ab=document.getElementById('analyticsBtn');if(ab)ab.style.display='inline-flex';
     const eb=document.getElementById('exitStaffBtn');if(eb)eb.style.display='inline-flex';
     const fb=document.getElementById('foodsBtn');if(fb)fb.style.display='inline-flex';
+    const ib=document.getElementById('inventoryBtn');if(ib)ib.style.display='inline-flex';
     const sb=document.getElementById('staffBadge');if(sb)sb.style.display='none';
     showToast(T('staffActivated'));
     playOpen();
@@ -1585,6 +1747,7 @@ function exitStaffMode(){
   const ab=document.getElementById('analyticsBtn');if(ab)ab.style.display='none';
   const eb=document.getElementById('exitStaffBtn');if(eb)eb.style.display='none';
   const fb=document.getElementById('foodsBtn');if(fb)fb.style.display='none';
+  const ib=document.getElementById('inventoryBtn');if(ib)ib.style.display='none';
   const sb=document.getElementById('staffBadge');if(sb)sb.style.display='inline-flex';
   showToast(T('staffDeactivated'));
   playClose();
@@ -1595,19 +1758,49 @@ function exitStaffMode(){
 function staffMarkSold(id){
   const fish = FISH.find(f=>f.id===id);
   if(!fish) return;
-  fish.inStock = false;
-  fish.soldAt = Date.now();
-  showToast(`${fish.name} marked as sold`);
+  const qty = availableQuantity(fish);
+  if(qty > 1){
+    fish.quantity = qty - 1;
+    fish.inStock = true;
+    delete fish.soldAt;
+    touchStaffRecord(fish, 'sold-one');
+    showToast(`${fish.name} sold — ${fish.quantity} left`);
+  }else{
+    fish.quantity = 0;
+    fish.inStock = false;
+    fish.soldAt = Date.now();
+    delete fish.reserved;
+    delete fish.reservedFor;
+    touchStaffRecord(fish, 'sold-out');
+    showToast(`${fish.name} marked as sold`);
+  }
   playClick();
+  persistStaffEdits();
+  renderInventoryManager();
   render();
 }
 function staffMarkDead(id){
   const fish = FISH.find(f=>f.id===id);
   if(!fish) return;
-  fish.inStock = false;
-  fish.lossAt = Date.now();
-  showToast(`${fish.name} removed (loss)`);
+  const qty = availableQuantity(fish);
+  if(qty > 1){
+    fish.quantity = qty - 1;
+    fish.inStock = true;
+    delete fish.lossAt;
+    touchStaffRecord(fish, 'loss-one');
+    showToast(`${fish.name} loss recorded — ${fish.quantity} left`);
+  }else{
+    fish.quantity = 0;
+    fish.inStock = false;
+    fish.lossAt = Date.now();
+    delete fish.reserved;
+    delete fish.reservedFor;
+    touchStaffRecord(fish, 'loss-out');
+    showToast(`${fish.name} removed (loss)`);
+  }
   playClick();
+  persistStaffEdits();
+  renderInventoryManager();
   render();
 }
 function staffQuarantine(id){
@@ -1618,8 +1811,11 @@ function staffQuarantine(id){
   ], ([days]) => {
     fish.quarantine = true;
     fish.quarantineUntil = Date.now() + (parseInt(days)||7) * 86400000;
+    touchStaffRecord(fish, 'quarantine');
     showToast(`${fish.name} — ${T('quarantine')} ${days}d`);
     playClick();
+    persistStaffEdits();
+    renderInventoryManager();
     render();
   });
 }
@@ -1628,8 +1824,11 @@ function staffEndQuarantine(id){
   if(!fish) return;
   fish.quarantine = false;
   delete fish.quarantineUntil;
+  touchStaffRecord(fish, 'clear-quarantine');
   showToast(`${fish.name} cleared from quarantine`);
   playOpen();
+  persistStaffEdits();
+  renderInventoryManager();
   render();
 }
 function staffEditPrice(id){
@@ -1640,7 +1839,10 @@ function staffEditPrice(id){
   ], ([val]) => {
     if(val && !isNaN(parseFloat(val))){
       fish.price = parseFloat(val);
+      touchStaffRecord(fish, 'price');
       showToast(`${fish.name} → ${formatMoney(fish.price)}`);
+      persistStaffEdits();
+      renderInventoryManager();
       render();
     }
   });
@@ -1652,24 +1854,138 @@ function staffEditTank(id){
     {label: T('tankLabel'), type:'select', value: fish.tankCode, options:['A','B','C','D','E','F']}
   ], ([val]) => {
     fish.tankCode = val.toUpperCase();
+    touchStaffRecord(fish, 'tank');
     showToast(`${fish.name} → ${T('tankLabel')} ${fish.tankCode}`);
+    persistStaffEdits();
+    renderInventoryManager();
     render();
   });
 }
+function staffEditStockSize(id){
+  const fish = FISH.find(f=>f.id===id);
+  if(!fish) return;
+  showInputModal(T('editStockSize') || 'Edit Size', fish.name, [
+    {label: T('stockSize'), type:'select', value: displayStockSize(fish.stockSize), options:STOCK_SIZE_OPTIONS}
+  ], ([val]) => {
+    fish.stockSize = normalizeStockSizeValue(val);
+    touchStaffRecord(fish, 'size');
+    showToast(`${fish.name} → ${displayStockSize(fish.stockSize)}`);
+    persistStaffEdits();
+    renderInventoryManager();
+    render();
+  });
+}
+function staffEditStaffNote(id){
+  const fish = FISH.find(f=>f.id===id);
+  if(!fish) return;
+  showInputModal(T('editStaffNote') || 'Edit Staff Note', fish.name, [
+    {label: T('staffNote') || 'Staff note', type:'textarea', value: fish.staffNote || '', placeholder:'Optional note for staff only', rows:5}
+  ], ([val]) => {
+    fish.staffNote = String(val || '').trim();
+    touchStaffRecord(fish, 'staff-note');
+    showToast(`${fish.name} note updated`);
+    persistStaffEdits();
+    renderInventoryManager();
+    render();
+  });
+}
+
+function staffEditQuantity(id){
+  const fish = FISH.find(f=>f.id===id);
+  if(!fish) return;
+  showInputModal('Edit Quantity', fish.name, [
+    {label:'Quantity on hand', type:'number', value: availableQuantity(fish), placeholder:'0'}
+  ], ([val]) => {
+    const qty = Math.max(0, parseInt(val, 10) || 0);
+    fish.quantity = qty;
+    fish.inStock = qty > 0;
+    if(qty > 0){
+      delete fish.soldAt;
+      delete fish.lossAt;
+    }else{
+      delete fish.reserved;
+      delete fish.reservedFor;
+    }
+    touchStaffRecord(fish, 'quantity');
+    showToast(`${fish.name} quantity → ${qty}`);
+    persistStaffEdits();
+    renderInventoryManager();
+    render();
+  });
+}
+function staffEditHold(id){
+  const fish = FISH.find(f=>f.id===id);
+  if(!fish) return;
+  showInputModal('Hold / Reservation', fish.name, [
+    {label:'Status', type:'select', value: fish.reserved ? 'Held' : 'Open', options:['Open','Held']},
+    {label:'Reserved for', type:'text', value: fish.reservedFor || '', placeholder:'Customer name or note'}
+  ], ([status, name]) => {
+    fish.reserved = status === 'Held';
+    fish.reservedFor = String(name || '').trim();
+    if(!fish.reserved){
+      delete fish.reserved;
+      delete fish.reservedFor;
+    }
+    touchStaffRecord(fish, 'hold');
+    showToast(`${fish.name} → ${reservedLabel(fish)}`);
+    persistStaffEdits();
+    renderInventoryManager();
+    render();
+  });
+}
+function staffEditStockInfo(id){
+  const fish = FISH.find(f=>f.id===id);
+  if(!fish) return;
+  showInputModal('Stock Details', fish.name, [
+    {label:'Stock #', type:'text', value: fish.stockNumber || '', placeholder:'32'},
+    {label:'Arrival date', type:'date', value: fish.arrivalDate || ''},
+    {label:'Vendor / source', type:'text', value: fish.vendor || '', placeholder:'Biota, ORA, local breeder, wholesaler...'}
+  ], ([stockNumber, arrivalDate, vendor]) => {
+    fish.stockNumber = String(stockNumber || '').trim();
+    fish.arrivalDate = String(arrivalDate || '').trim();
+    fish.vendor = String(vendor || '').trim();
+    if(!fish.stockNumber) delete fish.stockNumber;
+    if(!fish.stockNumber) delete fish.stockNumber;
+    if(!fish.arrivalDate) delete fish.arrivalDate;
+    if(!fish.vendor) delete fish.vendor;
+    touchStaffRecord(fish, 'stock-details');
+    showToast(`${fish.name} stock details updated`);
+    persistStaffEdits();
+    renderInventoryManager();
+    render();
+  });
+}
+
 function staffRestockFish(id){
   const fish = FISH.find(f=>f.id===id);
   if(!fish) return;
   showInputModal(T('addToStock'), fish.name, [
     {label: T('price'), type:'number', value: fish.price||'29.99', placeholder:'29.99'},
-    {label: T('tankLabel'), type:'select', value: fish.tankCode||'A', options:['A','B','C','D','E','F']}
-  ], ([price, tank]) => {
+    {label: T('tankLabel'), type:'select', value: fish.tankCode||'A', options:['A','B','C','D','E','F']},
+    {label: 'Stock #', type:'text', value: fish.stockNumber || '', placeholder:'32'},
+    {label: T('stockSize'), type:'select', value: displayStockSize(fish.stockSize), options:STOCK_SIZE_OPTIONS},
+    {label: 'Quantity on hand', type:'number', value: availableQuantity(fish) || 1, placeholder:'1'},
+    {label: 'Arrival date', type:'date', value: fish.arrivalDate || ''},
+    {label: 'Vendor / source', type:'text', value: fish.vendor || '', placeholder:'Optional'}
+  ], ([price, tank, stockNumber, size, quantity, arrivalDate, vendor]) => {
+    const qty = Math.max(1, parseInt(quantity, 10) || 1);
     fish.inStock = true;
     delete fish.soldAt;
-    delete fish.deadAt;
+    delete fish.lossAt;
     fish.price = parseFloat(price)||29.99;
     fish.tankCode = (tank||'A').toUpperCase();
-    showToast(`${fish.name} ${T('addToStock')}`);
+    fish.stockNumber = String(stockNumber || '').trim();
+    fish.stockSize = normalizeStockSizeValue(size);
+    fish.quantity = qty;
+    fish.arrivalDate = String(arrivalDate || '').trim();
+    fish.vendor = String(vendor || '').trim();
+    if(!fish.arrivalDate) delete fish.arrivalDate;
+    if(!fish.vendor) delete fish.vendor;
+    touchStaffRecord(fish, 'restock');
+    showToast(`${fish.name} ${T('addToStock')} (${qty})`);
     playOpen();
+    persistStaffEdits();
+    renderInventoryManager();
     render();
   });
 }
@@ -1688,10 +2004,13 @@ function staffUploadPhoto(id){
       if(!fish) return;
       if(!fish.staffPhotos) fish.staffPhotos = [];
       fish.staffPhotos.push(ev.target.result);
+      touchStaffRecord(fish, 'photo');
       // Also set as primary image immediately
       wikiImages.set(fish.photoTitle, ev.target.result);
       showToast(`Photo uploaded for ${fish.name}`);
       playToggle();
+      persistStaffEdits();
+      renderInventoryManager();
       render();
       requestAnimationFrame(applyImagesToDOM);
     };
@@ -1831,6 +2150,89 @@ function openFoodSettings(){
 function closeFoodSettings(){
   const overlay = document.getElementById('foodsOverlay');
   if(overlay) overlay.classList.remove('show');
+}
+
+function inventoryStatusLabel(item){
+  if(item.quarantine) return typeof T==='function' ? T('statusQuarantine') : 'Quarantine';
+  if(item.reserved) return 'Held';
+  if(item.inStock) return typeof T==='function' ? T('statusInStock') : 'In stock';
+  return typeof T==='function' ? T('statusOutOfStock') : 'Out of stock';
+}
+function inventorySummary(items){
+  return {
+    entries: items.length,
+    liveCount: items.reduce((sum, item) => sum + availableQuantity(item), 0),
+    reserved: items.filter(item => item.reserved).length,
+    noPrice: items.filter(item => !item.price).length,
+    missingStorePhoto: items.filter(item => !(Array.isArray(item.staffPhotos) && item.staffPhotos.length)).length
+  };
+}
+function inventorySummaryTemplate(items){
+  const summary = inventorySummary(items);
+  return `<div class="inventory-summary">
+    <div class="inventory-summary-card"><span>Entries</span><strong>${summary.entries}</strong><small>catalog entries in this view</small></div>
+    <div class="inventory-summary-card"><span>Live Count</span><strong>${summary.liveCount}</strong><small>estimated animals on hand</small></div>
+    <div class="inventory-summary-card"><span>Held</span><strong>${summary.reserved}</strong><small>customer reservations</small></div>
+    <div class="inventory-summary-card"><span>No Price</span><strong>${summary.noPrice}</strong><small>needs staff pricing</small></div>
+    <div class="inventory-summary-card"><span>No Store Photo</span><strong>${summary.missingStorePhoto}</strong><small>wiki/default only</small></div>
+    <div class="inventory-summary-card"><span>Missing Core Store Data</span><strong>${summary.missingCore}</strong><small>price, tank, qty, stock #, or photo</small></div>
+  </div>`;
+}
+function openInventoryManager(){
+  const overlay = document.getElementById('inventoryOverlay');
+  if(!overlay) return;
+  const fileInput = document.getElementById('staffImportFile');
+  if(fileInput && !fileInput.dataset.boundStaffImport){
+    fileInput.addEventListener('change', e => {
+      importStaffEditsFile(e.target.files?.[0]);
+      e.target.value = '';
+    });
+    fileInput.dataset.boundStaffImport = '1';
+  }
+  const title = document.getElementById('inventoryPanelTitle');
+  if(title) title.textContent = typeof T==='function' ? T('inventoryTitle') : 'Inventory Manager';
+  const search = document.getElementById('inventorySearch');
+  if(search && typeof T==='function') search.placeholder = T('inventorySearch');
+  const filter = document.getElementById('inventoryStatusFilter');
+  if(filter && typeof T==='function'){
+    const opts = filter.options;
+    if(opts[0]) opts[0].textContent = T('allStatuses');
+    if(opts[1]) opts[1].textContent = T('statusInStock');
+    if(opts[2]) opts[2].textContent = T('statusOutOfStock');
+    if(opts[3]) opts[3].textContent = T('statusQuarantine');
+    if(opts[4]) opts[4].textContent = 'Held / reserved';
+  }
+  overlay.classList.add('show');
+  renderInventoryManager();
+}
+function closeInventoryManager(){
+  const overlay = document.getElementById('inventoryOverlay');
+  if(overlay) overlay.classList.remove('show');
+}
+function renderInventoryManager(){
+  const root = document.getElementById('inventoryContent');
+  if(!root) return;
+  const overlay = document.getElementById('inventoryOverlay');
+  if(overlay && !overlay.classList.contains('show')) return;
+  const query = (document.getElementById('inventorySearch')?.value || '').trim().toLowerCase();
+  const status = document.getElementById('inventoryStatusFilter')?.value || 'all';
+  let items = FISH.slice();
+  if(query){
+    items = items.filter(item => `${item.name} ${item.category} ${item.tankCode||''} ${item.scientific||''} ${item.vendor||''} ${item.reservedFor||''}`.toLowerCase().includes(query));
+  }
+  if(status === 'instock') items = items.filter(item => item.inStock);
+  else if(status === 'out') items = items.filter(item => !item.inStock);
+  else if(status === 'quarantine') items = items.filter(item => item.quarantine);
+  else if(status === 'reserved') items = items.filter(item => item.reserved);
+  items.sort((a,b) => a.name.localeCompare(b.name));
+  root.innerHTML = `${inventorySummaryTemplate(items)}<div class="inventory-grid">${items.map(item => {
+    const qty = displayQuantityValue(item.quantity);
+    const arrival = formatDateShort(item.arrivalDate);
+    const hold = reservedLabel(item);
+    const updated = formatDateTimeShort(item.updatedAt);
+    const vendor = item.vendor || '—';
+    return `<div class="inventory-card"><div class="inventory-card-top"><div><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${item.category} • ${item.scientific}</div></div><span class="mini-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv"><div class="inventory-chip"><span>Price</span><strong>${item.price ? formatMoney(item.onSale&&item.salePrice?item.salePrice:item.price) : '—'}</strong></div><div class="inventory-chip"><span>Tank</span><strong>${item.tankCode || '—'}</strong></div><div class="inventory-chip"><span>${typeof T==='function'?T('stockSize'):'In stock size'}</span><strong>${displayStockSize(item.stockSize)}</strong></div><div class="inventory-chip"><span>Qty</span><strong>${qty}</strong></div><div class="inventory-chip"><span>Hold</span><strong>${hold}</strong></div><div class="inventory-chip"><span>Arrived</span><strong>${arrival}</strong></div><div class="inventory-chip"><span>Vendor</span><strong>${vendor}</strong></div><div class="inventory-chip"><span>Photo</span><strong>${Array.isArray(item.staffPhotos)&&item.staffPhotos.length ? item.staffPhotos.length+' store' : 'Wiki/default'}</strong></div></div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div><div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditPrice('${item.id}')">${typeof T==='function'?T('editPrice'):'Edit Price'}</button><button class="staff-action-btn edit" onclick="staffEditTank('${item.id}')">${typeof T==='function'?T('editTank'):'Edit Tank'}</button><button class="staff-action-btn edit" onclick="staffEditStockSize('${item.id}')" style="background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a">${typeof T==='function'?T('editStockSize'):'Edit Size'}</button><button class="staff-action-btn edit" onclick="staffEditQuantity('${item.id}')" style="background:rgba(120,255,170,.14);border-color:rgba(120,255,170,.28);color:#8cffb7">Edit Qty</button><button class="staff-action-btn edit" onclick="staffEditHold('${item.id}')" style="background:rgba(255,170,120,.14);border-color:rgba(255,170,120,.28);color:#ffbf8a">Hold / Reserve</button><button class="staff-action-btn edit" onclick="staffEditStockInfo('${item.id}')" style="background:rgba(120,170,255,.14);border-color:rgba(120,170,255,.28);color:#9fc0ff">Stock Details</button><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadPhoto'):'Upload Photo'}</button>${item.inStock ? `<button class="staff-action-btn sold" onclick="staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button>` : `<button class="staff-action-btn edit" onclick="staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>`}</div></div>`;
+  }).join('')}</div>`;
 }
 
 // === NOTIFY (placeholder) ===

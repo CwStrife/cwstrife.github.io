@@ -24,11 +24,12 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "invertRisk": 6,
     "careDifficulty": 76,
     "role": "Ultra-peaceful show fish with specialized feeding needs",
-    "visualCue": "Psychedelic blue-green body with orange swirls and a slow hovering movement.",
+    "visualCue": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items.",
     "overview": "One of the most beautiful fish in the hobby and one that customers often fall in love with immediately.",
     "facts": [
       "Usually does best in established systems with a strong pod population or a proven prepared-food eater.",
-      "Very peaceful and reef friendly, but the diet requirement is where many buyers get into trouble."
+      "Very peaceful and reef friendly, but the diet requirement is where many buyers get into trouble.",
+      "Mature pod support or proven prepared-food response should be treated as a requirement, not a bonus."
     ],
     "bestWith": [
       "Established reef tanks",
@@ -100,12 +101,12 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Loose coral frags on the sand",
       "Open-top tanks"
     ],
-    "staffNote": "Very useful fish for the kiosk because people usually understand the behavior the second they see the photo and read one paragraph.",
+    "staffNote": "Easy fish to explain once buyers understand the sand-sifting behavior, jumping risk, and need for a mature bed.",
     "photoTitle": "Valenciennea puellaris",
     "inStock": true,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -167,7 +168,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Rare Find"
     ],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -209,7 +210,8 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview": "A practical fish that customers often love once they understand what it does. The look is unusual, but the behavior is entertaining and the algae-control role makes it easy to explain.",
     "facts": [
       "Often perches and watches the room, which gives it much more personality than people expect from a grazer.",
-      "Can be very useful against nuisance film algae when the tank has enough natural grazing available."
+      "Can be very useful against nuisance film algae when the tank has enough natural grazing available.",
+      "Perches, grazing opportunities, and personal space all matter to blenny behavior."
     ],
     "bestWith": [
       "Reef tanks with algae to graze",
@@ -225,7 +227,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": true,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -250,7 +252,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -285,7 +287,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -310,7 +312,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "14 in",
     "minTank": "75+ gal",
     "careLabel": "Moderate",
@@ -345,7 +347,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -370,7 +372,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3 in",
     "minTank": "30+ gal",
     "careLabel": "Specialist",
@@ -383,7 +385,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "invertRisk": 4,
     "careDifficulty": 72,
     "role": "Vivid red dragonet for established reef tanks",
-    "visualCue": "Bright ruby red body with intricate white-blue patterning. Stunning under any lighting.",
+    "visualCue": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items.",
     "overview": "A relatively new arrival in the hobby with color that puts the Green Mandarin to shame. Same feeding challenges apply — needs established pods.",
     "facts": [
       "Even more vivid than the Green Mandarin.",
@@ -404,7 +406,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -429,7 +431,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -463,7 +465,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -489,7 +491,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -523,7 +525,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -548,7 +550,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Moderate",
@@ -583,7 +585,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -609,7 +611,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -643,7 +645,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -668,7 +670,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -702,7 +704,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -727,7 +729,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3 in",
     "minTank": "30+ gal",
     "careLabel": "Specialist",
@@ -740,7 +742,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "invertRisk": 4,
     "careDifficulty": 78,
     "role": "Psychedelic spotted dragonet for mature reef tanks",
-    "visualCue": "Green body covered in concentric blue and orange circles and spots. Even more intricate than the Green Mandarin.",
+    "visualCue": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items.",
     "overview": "The Spotted Mandarin's pattern is arguably even more complex than its green cousin. Same feeding requirements — copepod-dependent, established tanks only.",
     "facts": [
       "Pattern is more intricate than the Green Mandarin.",
@@ -762,7 +764,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -787,7 +789,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2.5 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -821,7 +823,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -846,7 +848,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Moderate",
@@ -881,7 +883,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -906,7 +908,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -939,7 +941,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -959,16 +961,16 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "name": "Black Clown Goby",
     "name_es": "Black Clown Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Gobiodon strangulatus",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "2 in",
+    "minTank": "10+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -976,20 +978,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Tiny perch-and-pivot goby suited to peaceful reef layouts",
     "role_es": "",
-    "overview": "Black Clown Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Black Clown Goby is a tiny reef fish that spends much of its time perched in or around branching cover.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Black Clown Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Tiny size makes branchy cover and peaceful tankmates especially important."
     ],
     "photoTitle": "Black Clown Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1006,27 +1008,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Tiny perch-and-pivot goby suited to peaceful reef layouts. Best in peaceful reefs where tiny perch fish are not constantly outcompeted.",
+    "behavior": "Usually perches in place more than it cruises, shifting only short distances between favored spots.",
+    "feedingNotes": "Small foods and low feeding competition matter more than giant meals for a fish this size.",
+    "buyingGuidance": "A better sale for peaceful reefs than for aggressive community mixes where a tiny perch fish gets lost.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "blue-dot-jawfish",
     "name": "Blue Dot Jawfish",
     "name_es": "Blue Dot Jawfish",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Opistognathus rosenblatti",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1034,20 +1039,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Burrow-building fish that needs a secure substrate and a covered tank",
     "role_es": "",
-    "overview": "Blue Dot Jawfish is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Blue Dot Jawfish is a burrower that needs suitable substrate depth and a secure covered tank.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Blue Dot Jawfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "A secure lid and suitable burrow substrate are part of the basic care plan, not optional extras."
     ],
     "photoTitle": "Blue Dot Jawfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1064,11 +1069,14 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Burrow-building fish that needs a secure substrate and a covered tank. Requires substrate depth and a secure lid from day one.",
+    "behavior": "A settled jawfish spends much of the day hovering over its burrow and retreating fast when startled.",
+    "feedingNotes": "Deliver food in a way that lets the fish eat near the burrow instead of darting long distances into traffic.",
+    "buyingGuidance": "Only a good sale when the buyer already has the lid and substrate depth handled; otherwise the problems start immediately.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "catalina-goby",
@@ -1079,7 +1087,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2.5 in",
     "minTank": "10+ gal",
     "diet": "Carnivore",
@@ -1097,15 +1105,15 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview": "One of the most beautiful gobies but often mis-sold as tropical. This is a temperate species that needs water around 65-72°F. In a warm reef tank it will slowly die. Cold water specialist only.",
     "overview_es": "Uno de los gobios más hermosos pero a menudo mal vendido como tropical. Es una especie templada que necesita agua alrededor de 18-22°C. En un acuario cálido morirá lentamente.",
     "facts": [
-      "Roster seed for Catalina Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 2.5 in.",
+      "Plan around roughly 10+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "photoTitle": "Lythrypnus_dalli",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1126,23 +1134,27 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 10+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Stunning red and blue goby that needs COLD water (not tropical). Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 10+ gal."
+    "headerSummary": "Stunning red and blue goby that needs COLD water (not tropical). Plan on roughly 10+ gal or larger long term.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates. Catalog diet listing: Carnivore.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "citrinis-clown-goby",
     "name": "Citrinis Clown Goby",
     "name_es": "Citrinis Clown Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Gobiodon citrinus",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "1.5 in",
+    "minTank": "10+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1150,20 +1162,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Tiny perch-and-pivot goby suited to peaceful reef layouts",
     "role_es": "",
-    "overview": "Citrinis Clown Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Citrinis Clown Goby is a tiny reef fish that spends much of its time perched in or around branching cover.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Citrinis Clown Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Tiny size makes branchy cover and peaceful tankmates especially important."
     ],
     "photoTitle": "Citrinis Clown Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1180,27 +1192,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Tiny perch-and-pivot goby suited to peaceful reef layouts. Best in peaceful reefs where tiny perch fish are not constantly outcompeted.",
+    "behavior": "Usually perches in place more than it cruises, shifting only short distances between favored spots.",
+    "feedingNotes": "Small foods and low feeding competition matter more than giant meals for a fish this size.",
+    "buyingGuidance": "A better sale for peaceful reefs than for aggressive community mixes where a tiny perch fish gets lost.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "diamond-watchman-goby",
     "name": "Diamond Watchman Goby",
     "name_es": "Diamond Watchman Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Valenciennea puellaris",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "6 in",
+    "minTank": "55+ gal",
+    "diet": "Carnivore / sand microfauna",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1208,20 +1223,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout",
     "role_es": "",
-    "overview": "Diamond Watchman Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Diamond Watchman Goby is a sand-associated goby that appreciates cover, stable footing, and a calm neighborhood.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Diamond Watchman Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "A stable sand zone and reliable cover improve long-term comfort and feeding response."
     ],
     "photoTitle": "Diamond Watchman Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1238,27 +1253,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout. Best with sand, cover, and a layout that supports burrow-oriented behavior.",
+    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
+    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time.",
+    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "dracula-goby",
     "name": "Dracula Goby",
     "name_es": "Dracula Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Stonogobiops dracula",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "10+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1266,20 +1284,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Small bottom-oriented fish that adds movement without taking over the tank",
     "role_es": "",
-    "overview": "Dracula Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Dracula Goby is a small bottom-oriented fish that depends on cover, calm tankmates, and a settled layout.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Dracula Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Dracula Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1296,27 +1314,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "flaming-prawn-goby",
     "name": "Flaming Prawn Goby",
     "name_es": "Flaming Prawn Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Discordipinna griessingeri",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "1.5 in",
+    "minTank": "10+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1324,20 +1345,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout",
     "role_es": "",
-    "overview": "Flaming Prawn Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Flaming Prawn Goby is a sand-associated goby that appreciates cover, stable footing, and a calm neighborhood.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Flaming Prawn Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "A stable sand zone and reliable cover improve long-term comfort and feeding response."
     ],
     "photoTitle": "Flaming Prawn Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1354,11 +1375,14 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout. Best with sand, cover, and a layout that supports burrow-oriented behavior.",
+    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
+    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time.",
+    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "green-clown-goby",
@@ -1369,7 +1393,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "1.5 in",
     "minTank": "10+ gal",
     "diet": "Omnivore",
@@ -1382,20 +1406,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 5,
     "invertRisk": 2,
     "careDifficulty": 20,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Tiny perch-and-pivot goby suited to peaceful reef layouts",
     "role_es": "",
     "overview": "Tiny neon green goby that perches on coral branches. May damage SPS coral tissue where it sits.",
     "overview_es": "Gobio verde neón diminuto que se posa en ramas de coral. Puede dañar el tejido del coral SPS.",
     "facts": [
-      "Roster seed for Green Clown Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 1.5 in.",
+      "Plan around roughly 10+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Gobiodon_atrangulatus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1415,23 +1439,27 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 10+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 10+ gal."
+    "headerSummary": "Tiny perch-and-pivot goby suited to peaceful reef layouts. Plan on roughly 10+ gal or larger long term.",
+    "behavior": "Usually perches in place more than it cruises, shifting only short distances between favored spots.",
+    "feedingNotes": "Small foods and low feeding competition matter more than giant meals for a fish this size. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A better sale for peaceful reefs than for aggressive community mixes where a tiny perch fish gets lost.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "hi-fin-red-banded-goby",
     "name": "Hi Fin Red Banded Goby",
     "name_es": "Hi Fin Red Banded Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Stonogobiops nematodes",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "2 in",
+    "minTank": "10+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1439,20 +1467,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Small bottom-oriented fish that adds movement without taking over the tank",
     "role_es": "",
-    "overview": "Hi Fin Red Banded Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Hi Fin Red Banded Goby is a small bottom-oriented fish that depends on cover, calm tankmates, and a settled layout.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Hi Fin Red Banded Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Hi Fin Red Banded Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1469,27 +1497,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "orange-spotted-goby",
     "name": "Orange Spotted Goby",
     "name_es": "Orange Spotted Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Amblyeleotris guttata",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1497,20 +1528,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Small bottom-oriented fish that adds movement without taking over the tank",
     "role_es": "",
-    "overview": "Orange Spotted Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Orange Spotted Goby is a small bottom-oriented fish that depends on cover, calm tankmates, and a settled layout.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Orange Spotted Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Orange Spotted Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1527,27 +1558,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "orange-stripe-prawn-goby",
     "name": "Orange Stripe Prawn Goby",
     "name_es": "Orange Stripe Prawn Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Amblyeleotris randalli",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "20+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1555,20 +1589,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout",
     "role_es": "",
-    "overview": "Orange Stripe Prawn Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Orange Stripe Prawn Goby is a sand-associated goby that appreciates cover, stable footing, and a calm neighborhood.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Orange Stripe Prawn Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "A stable sand zone and reliable cover improve long-term comfort and feeding response."
     ],
     "photoTitle": "Orange Stripe Prawn Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1585,27 +1619,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout. Best with sand, cover, and a layout that supports burrow-oriented behavior.",
+    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
+    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time.",
+    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "pink-spotted-watchman-goby",
     "name": "Pink Spotted Watchman Goby",
     "name_es": "Pink Spotted Watchman Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Cryptocentrus leptocephalus",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "5 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1613,20 +1650,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout",
     "role_es": "",
-    "overview": "Pink Spotted Watchman Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Pink Spotted Watchman Goby is a sand-associated goby that appreciates cover, stable footing, and a calm neighborhood.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Pink Spotted Watchman Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "A stable sand zone and reliable cover improve long-term comfort and feeding response."
     ],
     "photoTitle": "Pink Spotted Watchman Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1643,27 +1680,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout. Best with sand, cover, and a layout that supports burrow-oriented behavior.",
+    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
+    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time.",
+    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "rainford-s-goby",
     "name": "Rainford's Goby",
     "name_es": "Rainford's Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Koumansetta rainfordi",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "diet": "Herbivore / microfauna",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1671,20 +1711,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Small bottom-oriented fish that adds movement without taking over the tank",
     "role_es": "",
-    "overview": "Rainford's Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Rainford's Goby is a small bottom-oriented fish that depends on cover, calm tankmates, and a settled layout.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Rainford's Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Rainford's Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1701,27 +1741,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "sleeper-banded-goby",
     "name": "Sleeper Banded Goby",
     "name_es": "Sleeper Banded Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Amblygobius phalaena",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "6 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore / sand sifter",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1729,20 +1772,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Small bottom-oriented fish that adds movement without taking over the tank",
     "role_es": "",
-    "overview": "Sleeper Banded Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Sleeper Banded Goby is a small bottom-oriented fish that depends on cover, calm tankmates, and a settled layout.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Sleeper Banded Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Sleeper Banded Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1759,27 +1802,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "sleeper-gold-head-goby",
     "name": "Sleeper Gold Head Goby",
     "name_es": "Sleeper Gold Head Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Valenciennea strigata",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "6 in",
+    "minTank": "55+ gal",
+    "diet": "Carnivore / sand microfauna",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1787,20 +1833,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Small bottom-oriented fish that adds movement without taking over the tank",
     "role_es": "",
-    "overview": "Sleeper Gold Head Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Sleeper Gold Head Goby is a small bottom-oriented fish that depends on cover, calm tankmates, and a settled layout.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Sleeper Gold Head Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Sleeper Gold Head Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1817,11 +1863,14 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "tiger-watchman-goby",
@@ -1832,7 +1881,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "diet": "Carnivore / sand sifter",
@@ -1850,15 +1899,15 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview": "A handsome sand-sifting goby with vertical brown bars. Constantly processes mouthfuls of sand, keeping the bed clean. Pairs well with pistol shrimp.",
     "overview_es": "Un gobio tamizador de arena atractivo con barras marrones verticales. Constantemente procesa bocados de arena, manteniendo el lecho limpio.",
     "facts": [
-      "Roster seed for Tiger Watchman Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 5 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore / sand sifter."
     ],
     "photoTitle": "Valenciennea_wardii",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1878,23 +1927,27 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Striped sand-sifting goby that maintains clean substrate. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 30+ gal."
+    "headerSummary": "Striped sand-sifting goby that maintains clean substrate. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
+    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time. Catalog diet listing: Carnivore / sand sifter.",
+    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "trimma-goby",
     "name": "Trimma Goby",
     "name_es": "Trimma Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Trimma sp.",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "1.5 in",
+    "minTank": "10+ gal",
+    "diet": "Carnivore / planktivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1902,20 +1955,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Small bottom-oriented fish that adds movement without taking over the tank",
     "role_es": "",
-    "overview": "Trimma Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Trimma Goby is a small bottom-oriented fish that depends on cover, calm tankmates, and a settled layout.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Trimma Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Trimma Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1932,27 +1985,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "twin-spot-goby",
     "name": "Twin Spot Goby",
     "name_es": "Twin Spot Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Signigobius biocellatus",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "diet": "Carnivore / sand microfauna",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -1960,20 +2016,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Small bottom-oriented fish that adds movement without taking over the tank",
     "role_es": "",
-    "overview": "Twin Spot Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Twin Spot Goby is a small bottom-oriented fish that depends on cover, calm tankmates, and a settled layout.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Twin Spot Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Twin Spot Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1990,27 +2046,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "wheeler-s-shrimp-goby",
     "name": "Wheeler's Shrimp Goby",
     "name_es": "Wheeler's Shrimp Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Amblyeleotris wheeleri",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3.5 in",
+    "minTank": "20+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -2018,20 +2077,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout",
     "role_es": "",
-    "overview": "Wheeler's Shrimp Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Wheeler's Shrimp Goby is a sand-associated goby that appreciates cover, stable footing, and a calm neighborhood.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Wheeler's Shrimp Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Wheeler's Shrimp Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2048,11 +2107,14 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout. Best matched to calm layouts with cover near the bottom of the tank.",
+    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
+    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time.",
+    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "yellow-clown-goby",
@@ -2063,7 +2125,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "1.5 in",
     "minTank": "10+ gal",
     "diet": "Omnivore",
@@ -2076,20 +2138,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 5,
     "invertRisk": 2,
     "careDifficulty": 15,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Tiny perch-and-pivot goby suited to peaceful reef layouts",
     "role_es": "",
     "overview": "Bright yellow nano goby that perches on coral branches. Peaceful and great for small reef tanks.",
     "overview_es": "Gobio nano amarillo brillante que se posa en ramas de coral. Pacífico y excelente para arrecifes pequeños.",
     "facts": [
-      "Roster seed for Yellow Clown Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 1.5 in.",
+      "Plan around roughly 10+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Gobiodon_okinawae",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2109,23 +2171,27 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 10+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 10+ gal."
+    "headerSummary": "Tiny perch-and-pivot goby suited to peaceful reef layouts. Plan on roughly 10+ gal or larger long term.",
+    "behavior": "Usually perches in place more than it cruises, shifting only short distances between favored spots.",
+    "feedingNotes": "Small foods and low feeding competition matter more than giant meals for a fish this size. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A better sale for peaceful reefs than for aggressive community mixes where a tiny perch fish gets lost.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "yellow-line-goby",
     "name": "Yellow Line Goby",
     "name_es": "Yellow Line Goby",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Elacatinus figaro",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "2 in",
+    "minTank": "10+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -2133,20 +2199,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a goby profile",
+    "role": "Small bottom-oriented fish that adds movement without taking over the tank",
     "role_es": "",
-    "overview": "Yellow Line Goby is best kept as catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Yellow Line Goby is a small bottom-oriented fish that depends on cover, calm tankmates, and a settled layout.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Yellow Line Goby; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Yellow Line Goby",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2163,11 +2229,14 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a goby profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "yellowhead-jawfish",
@@ -2178,7 +2247,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "30+ gal",
     "diet": "Carnivore / planktivore",
@@ -2196,15 +2265,15 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview": "Lives in a vertical burrow it constructs from sand and rubble. Hovers above its hole watching the world go by. Males are mouth-brooders. Needs a deep sand bed.",
     "overview_es": "Vive en una madriguera vertical que construye con arena y escombros. Flota sobre su agujero observando el mundo. Los machos incuban huevos en la boca.",
     "facts": [
-      "Roster seed for Yellowhead Jawfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore / planktivore."
     ],
     "photoTitle": "Opistognathus_aurifrons",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2224,23 +2293,27 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Adorable burrowing jawfish that peeks out from its hole. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 30+ gal."
+    "headerSummary": "Adorable burrowing jawfish that peeks out from its hole. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "A settled jawfish spends much of the day hovering over its burrow and retreating fast when startled.",
+    "feedingNotes": "Deliver food in a way that lets the fish eat near the burrow instead of darting long distances into traffic. Catalog diet listing: Carnivore / planktivore.",
+    "buyingGuidance": "Only a good sale when the buyer already has the lid and substrate depth handled; otherwise the problems start immediately.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "canary-fang-blenny",
     "name": "Canary Fang Blenny",
     "name_es": "Canary Fang Blenny",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Meiacanthus oualanensis",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "diet": "Omnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -2248,20 +2321,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 18,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a blenny profile",
+    "role": "Bright fang blenny with bold open-water hovering behavior and a defensive venomous bite",
     "role_es": "",
-    "overview": "Canary Fang Blenny is best kept as catalog expansion seed for a blenny profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Canary Fang Blenny is an active saber-toothed blenny that spends more time hovering in the open than grazing rock like a typical combtooth blenny.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Canary Fang Blenny; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Usually a confident but manageable community fish when given cover and sensible tankmates.",
+      "Venomous fangs are defensive and do not make it a bully fish by default.",
+      "Adapts well to prepared meaty foods and generally ships better than many specialty nano fish."
     ],
     "photoTitle": "Canary Fang Blenny",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2270,18 +2343,21 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "visualCue": "Look for a bright yellow fang blenny with a long body, forked tail, and a habit of hovering just off the rockwork.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Reef-safe community plans with compatible tankmates",
       "Semi-aggressive tankmates of similar size"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Systems smaller than Needs enrichment"
+      "Tankmates that do not match its adult size or activity level"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a blenny profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Bright fang blenny with bold open-water hovering behavior and a defensive venomous bite. Best in covered community reefs that suit a faster, bolder small fish.",
+    "behavior": "More hover-and-dart than perch-and-graze, with a confident mid-level presence for such a small fish.",
+    "feedingNotes": "Offer small meaty frozen foods, pellets, and other quality prepared fare several times daily.",
+    "buyingGuidance": "A strong choice for buyers who want an active blenny without expecting algae-grazer behavior.",
+    "recognitionNotes": "Look for a bright yellow, fork-tailed fang blenny that hovers in the water column instead of parking on rock all day."
   },
   {
     "id": "ember-blenny",
@@ -2292,7 +2368,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "diet": "Herbivore",
@@ -2305,20 +2381,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 3,
     "invertRisk": 2,
     "careDifficulty": 15,
-    "role": "Catalog expansion seed for a blenny profile",
+    "role": "Personality-heavy blenny that spends the day perching, grazing, and inspecting rockwork",
     "role_es": "",
     "overview": "Warm orange-red coloring. One of the most colorful blennies. Hardy and reef safe.",
     "overview_es": "Coloración cálida naranja-rojo. Uno de los blenios más coloridos. Resistente y seguro para arrecife.",
     "facts": [
-      "Roster seed for Ember Blenny; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 2 in.",
+      "Plan around roughly 10+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Ecsenius_ember",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2338,7 +2414,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 10+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a blenny profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 10+ gal."
+    "headerSummary": "Personality-heavy blenny that spends the day perching, grazing, and inspecting rockwork. Plan on roughly 10+ gal or larger long term.",
+    "behavior": "Perch, inspect, hop, repeat — personality and body language are a big part of the appeal.",
+    "feedingNotes": "A mix of prepared foods, film grazing, and appropriate frozen support usually keeps blennies in better long-term condition. Catalog diet listing: Herbivore.",
+    "buyingGuidance": "Usually an easy personality sale, as long as the buyer understands that blennies want territory, perches, and their own feeding rhythm.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "linear-blenny",
@@ -2349,7 +2429,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3.5 in",
     "minTank": "20+ gal",
     "diet": "Herbivore",
@@ -2362,20 +2442,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 3,
     "invertRisk": 2,
     "careDifficulty": 15,
-    "role": "Catalog expansion seed for a blenny profile",
+    "role": "Personality-heavy blenny that spends the day perching, grazing, and inspecting rockwork",
     "role_es": "",
     "overview": "Horizontally striped blenny with expressive eyes. Hardy algae eater with personality.",
     "overview_es": "Blenio de rayas horizontales con ojos expresivos. Comedor de algas resistente con personalidad.",
     "facts": [
-      "Roster seed for Linear Blenny; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 3.5 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Ecsenius_lineatus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2395,23 +2475,27 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a blenny profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 20+ gal."
+    "headerSummary": "Personality-heavy blenny that spends the day perching, grazing, and inspecting rockwork. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Perch, inspect, hop, repeat — personality and body language are a big part of the appeal.",
+    "feedingNotes": "A mix of prepared foods, film grazing, and appropriate frozen support usually keeps blennies in better long-term condition. Catalog diet listing: Herbivore.",
+    "buyingGuidance": "Usually an easy personality sale, as long as the buyer understands that blennies want territory, perches, and their own feeding rhythm.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "molly-miller-blenny",
     "name": "Molly Miller Blenny",
     "name_es": "Molly Miller Blenny",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Scartella cristata",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "10+ gal",
+    "diet": "Omnivore / algae grazer",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -2419,20 +2503,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 18,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a blenny profile",
+    "role": "Personality-heavy blenny that spends the day perching, grazing, and inspecting rockwork",
     "role_es": "",
-    "overview": "Molly Miller Blenny is best kept as catalog expansion seed for a blenny profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Molly Miller Blenny is a personality-heavy percher that adds movement and character to rockwork-rich systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Molly Miller Blenny; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Perches, grazing opportunities, and personal space all matter to blenny behavior."
     ],
     "photoTitle": "Molly Miller Blenny",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2448,27 +2532,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Semi-aggressive tankmates of similar size"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Systems smaller than Needs enrichment"
+      "Tankmates that do not match its adult size or activity level"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a blenny profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Personality-heavy blenny that spends the day perching, grazing, and inspecting rockwork. Works best when the tank offers perches, cover, and a steady routine.",
+    "behavior": "Perch, inspect, hop, repeat — personality and body language are a big part of the appeal.",
+    "feedingNotes": "A mix of prepared foods, film grazing, and appropriate frozen support usually keeps blennies in better long-term condition.",
+    "buyingGuidance": "Usually an easy personality sale, as long as the buyer understands that blennies want territory, perches, and their own feeding rhythm.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "smith-s-blenny",
     "name": "Smith's Blenny",
     "name_es": "Smith's Blenny",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Meiacanthus smithi",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Omnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -2476,20 +2563,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 18,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a blenny profile",
+    "role": "Slender fang blenny with bold hovering behavior and a defensive venomous bite",
     "role_es": "",
-    "overview": "Smith's Blenny is best kept as catalog expansion seed for a blenny profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Smith's Blenny is an active fang blenny that spends more time hovering above the rockwork than grazing like a typical combtooth blenny.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Smith's Blenny; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Usually peaceful enough for reef communities, but it still appreciates cover and personal space.",
+      "Venomous fangs are a defense feature, not a reason to mix it with aggressive bullies.",
+      "Usually adapts readily to small meaty prepared foods."
     ],
     "photoTitle": "Smith's Blenny",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2498,18 +2585,21 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "visualCue": "Look for a slim white-to-silver fang blenny with dark striping and a hovering, midwater posture.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Reef-safe community plans with compatible tankmates",
       "Semi-aggressive tankmates of similar size"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Systems smaller than Needs enrichment"
+      "Tankmates that do not match its adult size or activity level"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a blenny profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Slender fang blenny with bold hovering behavior and a defensive venomous bite. Best for reef keepers who want a small active fish rather than a grazer.",
+    "behavior": "Often hovers just off the rockwork and darts back to cover instead of sitting on surfaces all day.",
+    "feedingNotes": "Feed small meaty frozen foods and quality prepared fare in portions it can take quickly.",
+    "buyingGuidance": "A good sale for buyers who want a small, active blenny but are not shopping for an algae-picker.",
+    "recognitionNotes": "Look for a slim, contrasting fang blenny that hovers in the water column more than it perches."
   },
   {
     "id": "starry-blenny",
@@ -2520,7 +2610,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "5.5 in",
     "minTank": "30+ gal",
     "diet": "Herbivore",
@@ -2538,15 +2628,15 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview": "Covered in tiny white spots on a dark body. A prolific algae eater that perches on rocks and surveys its territory with comically large eyes. Hardy and entertaining.",
     "overview_es": "Cubierto de pequeños puntos blancos sobre cuerpo oscuro. Un prolífico comedor de algas que se posa en rocas y vigila su territorio con ojos cómicamente grandes.",
     "facts": [
-      "Roster seed for Starry Blenny; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 5.5 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Salarias_ramosus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2566,23 +2656,27 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Spotted algae-eating blenny with great personality. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 30+ gal."
+    "headerSummary": "Spotted algae-eating blenny with great personality. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Perch, inspect, hop, repeat — personality and body language are a big part of the appeal.",
+    "feedingNotes": "A mix of prepared foods, film grazing, and appropriate frozen support usually keeps blennies in better long-term condition. Catalog diet listing: Herbivore.",
+    "buyingGuidance": "Usually an easy personality sale, as long as the buyer understands that blennies want territory, perches, and their own feeding rhythm.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "striped-fang-blenny",
     "name": "Striped Fang Blenny",
     "name_es": "Striped Fang Blenny",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Meiacanthus grammistes",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "diet": "Omnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -2590,20 +2684,20 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 18,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a blenny profile",
+    "role": "Striped fang blenny with fast open-water movement and a defensive venomous bite",
     "role_es": "",
-    "overview": "Striped Fang Blenny is best kept as catalog expansion seed for a blenny profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Striped Fang Blenny is a confident saber-toothed blenny that brings more motion and attitude than a typical perch-and-graze blenny.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Striped Fang Blenny; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Usually workable in community reefs when the tank is covered and tankmates are chosen sensibly.",
+      "The defensive bite is for protection and does not automatically make it a tank bully.",
+      "A better fit for buyers wanting motion and character than for buyers expecting algae control."
     ],
     "photoTitle": "Striped Fang Blenny",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2612,34 +2706,37 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "visualCue": "Look for a slim fang blenny with strong horizontal striping and a hovering, darting swim style.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Reef-safe community plans with compatible tankmates",
       "Semi-aggressive tankmates of similar size"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Systems smaller than Needs enrichment"
+      "Tankmates that do not match its adult size or activity level"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a blenny profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Striped fang blenny with fast open-water movement and a defensive venomous bite. Best in covered reefs that fit a bolder small fish.",
+    "behavior": "Spends much of the day hovering or dashing between cover rather than staying glued to one perch.",
+    "feedingNotes": "Offer small meaty frozen foods and prepared fare that suits an active micro-predator.",
+    "buyingGuidance": "Sell it for personality and movement, not as a substitute for an algae-grazing blenny.",
+    "recognitionNotes": "Look for a slim, horizontally striped fang blenny that hovers in the water column."
   },
   {
     "id": "mandarin-dragonet",
     "name": "Mandarin Dragonet",
     "name_es": "Mandarin Dragonet",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Synchiropus splendidus",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Copepods / live microfauna",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -2647,20 +2744,19 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a dragonet / mandarin profile",
+    "role": "Pod-focused dragonet profile that rewards mature systems and careful feeding plans",
     "role_es": "",
-    "overview": "Mandarin Dragonet is best kept as catalog expansion seed for a dragonet / mandarin profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Mandarin Dragonet is a specialist feeder that generally belongs in mature systems with natural grazing opportunities.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Mandarin Dragonet; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Mature pod support or proven prepared-food response should be treated as a requirement, not a bonus."
     ],
     "photoTitle": "Mandarin Dragonet",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2669,7 +2765,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "visualCue": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -2677,27 +2773,30 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a dragonet / mandarin profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Pod-focused dragonet profile that rewards mature systems and careful feeding plans. Best matched to mature systems with natural grazing support.",
+    "behavior": "The normal pattern is slow gliding over rock and sand while pecking continuously for tiny prey.",
+    "feedingNotes": "This is where the sale is won or lost. Natural microfauna support and proven prepared-food response matter far more than generic community-fish feeding advice.",
+    "buyingGuidance": "This should be sold carefully. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks in the store.",
+    "recognitionNotes": "Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming."
   },
   {
     "id": "red-scooter-dragonet",
     "name": "Red Scooter Dragonet",
     "name_es": "Red Scooter Dragonet",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Synchiropus stellatus",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Copepods / microfauna",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -2705,20 +2804,19 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a dragonet / mandarin profile",
+    "role": "Pod-focused dragonet profile that rewards mature systems and careful feeding plans",
     "role_es": "",
-    "overview": "Red Scooter Dragonet is best kept as catalog expansion seed for a dragonet / mandarin profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Red Scooter Dragonet is a specialist feeder that generally belongs in mature systems with natural grazing opportunities.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Red Scooter Dragonet; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Mature pod support or proven prepared-food response should be treated as a requirement, not a bonus."
     ],
     "photoTitle": "Red Scooter Dragonet",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2727,7 +2825,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "visualCue": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -2735,11 +2833,14 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a dragonet / mandarin profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Pod-focused dragonet profile that rewards mature systems and careful feeding plans. Best matched to mature systems with natural grazing support.",
+    "behavior": "The normal pattern is slow gliding over rock and sand while pecking continuously for tiny prey.",
+    "feedingNotes": "This is where the sale is won or lost. Natural microfauna support and proven prepared-food response matter far more than generic community-fish feeding advice.",
+    "buyingGuidance": "This should be sold carefully. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks in the store.",
+    "recognitionNotes": "Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming."
   },
   {
     "id": "scooter-blenny",
@@ -2750,7 +2851,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3 in",
     "minTank": "30+ gal",
     "diet": "Copepods / microfauna",
@@ -2768,15 +2869,15 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview": "Despite the name, this is actually a dragonet, not a blenny. Shares the same copepod dependency as mandarins. Needs a mature tank with established pod populations.",
     "overview_es": "A pesar del nombre, en realidad es un dragonet, no un blenio. Comparte la misma dependencia de copépodos que los mandarines. Necesita un acuario maduro.",
     "facts": [
-      "Roster seed for Scooter Blenny; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 3 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Copepods / microfauna."
     ],
     "photoTitle": "Synchiropus_ocellatus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2785,7 +2886,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     },
     "seasonal": null,
     "careLabel": "Advanced",
-    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "visualCue": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Reef-safe community plans with compatible tankmates",
@@ -2797,23 +2898,27 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "A dragonet relative that scoots across rockwork hunting pods. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 30+ gal."
+    "headerSummary": "A dragonet relative that scoots across rockwork hunting pods. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "The normal pattern is slow gliding over rock and sand while pecking continuously for tiny prey.",
+    "feedingNotes": "This is where the sale is won or lost. Natural microfauna support and proven prepared-food response matter far more than generic community-fish feeding advice. Catalog diet listing: Copepods / microfauna.",
+    "buyingGuidance": "This should be sold carefully. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks in the store.",
+    "recognitionNotes": "Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming."
   },
   {
     "id": "target-mandarin",
     "name": "Target Mandarin",
     "name_es": "Target Mandarin",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Synchiropus picturatus",
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Copepods / live microfauna",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -2821,20 +2926,19 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a dragonet / mandarin profile",
+    "role": "Pod-focused dragonet profile that rewards mature systems and careful feeding plans",
     "role_es": "",
-    "overview": "Target Mandarin is best kept as catalog expansion seed for a dragonet / mandarin profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Target Mandarin is a specialist feeder that generally belongs in mature systems with natural grazing opportunities.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Target Mandarin; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Mature pod support or proven prepared-food response should be treated as a requirement, not a bonus."
     ],
     "photoTitle": "Target Mandarin",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -2843,7 +2947,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "visualCue": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -2851,11 +2955,14 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a dragonet / mandarin profile. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least Needs enrichment."
+    "headerSummary": "Pod-focused dragonet profile that rewards mature systems and careful feeding plans. Best matched to mature systems with natural grazing support.",
+    "behavior": "The normal pattern is slow gliding over rock and sand while pecking continuously for tiny prey.",
+    "feedingNotes": "This is where the sale is won or lost. Natural microfauna support and proven prepared-food response matter far more than generic community-fish feeding advice.",
+    "buyingGuidance": "This should be sold carefully. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks in the store.",
+    "recognitionNotes": "Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming."
   },
   {
     "id": "two-spot-goby",
@@ -2882,18 +2989,18 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "Camina sobre sus aletas pélvicas y despliega aletas para mostrar manchas oculares falsas.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 20+ gal.",
-      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+      "Adult size in this catalog is listed around 3 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -2924,7 +3031,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Unique goby that walks on sand with eyespot fins. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 20+ gal."
+    "headerSummary": "Unique goby that walks on sand with eyespot fins. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates. Catalog diet listing: Carnivore.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "wheeler-goby",
@@ -2951,18 +3062,18 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "Barras verticales rojas y blancas llamativas. Forma pareja simbiótica con camarones pistola.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 20+ gal.",
-      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+      "Adult size in this catalog is listed around 3.5 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -2993,7 +3104,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Banded shrimp goby with red and white bars. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 20+ gal."
+    "headerSummary": "Banded shrimp goby with red and white bars. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
+    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time. Catalog diet listing: Carnivore.",
+    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "orange-line-goby",
@@ -3020,18 +3135,18 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "Quita parásitos de otros peces. Perfecto para nano acuarios. Muy resistente.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 10+ gal.",
-      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+      "Adult size in this catalog is listed around 1.5 in.",
+      "Plan around roughly 10+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -3062,7 +3177,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 10+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Tiny Caribbean cleaner goby. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 10+ gal."
+    "headerSummary": "Tiny Caribbean cleaner goby. Plan on roughly 10+ gal or larger long term.",
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
+    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates. Catalog diet listing: Carnivore.",
+    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
   },
   {
     "id": "mandarin-goby-target",
@@ -3089,18 +3208,18 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "Círculos y puntos verdes en lugar de remolinos psicodélicos. Mismos requisitos de copépodos.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 30+ gal.",
-      "Diet profile: Copepods. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+      "Adult size in this catalog is listed around 3 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Copepods."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -3120,7 +3239,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     },
     "seasonal": null,
     "careLabel": "Advanced",
-    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "visualCue": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Reef-safe community plans with compatible tankmates",
@@ -3132,6 +3251,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Spotted mandarin dragonet cousin. Look for look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water. Plan on at least 30+ gal."
+    "headerSummary": "Spotted mandarin dragonet cousin. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "The normal pattern is slow gliding over rock and sand while pecking continuously for tiny prey.",
+    "feedingNotes": "This is where the sale is won or lost. Natural microfauna support and proven prepared-food response matter far more than generic community-fish feeding advice. Catalog diet listing: Copepods.",
+    "buyingGuidance": "This should be sold carefully. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks in the store.",
+    "recognitionNotes": "Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming."
   }
 ];

@@ -47,7 +47,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Beginner Favorite"
     ],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -73,7 +73,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "6 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -108,7 +108,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -134,7 +134,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -168,7 +168,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -193,7 +193,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -227,7 +227,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -253,7 +253,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -286,7 +286,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -312,7 +312,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3.5 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -345,7 +345,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -369,7 +369,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -387,15 +387,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "A captive-bred designer clownfish combining black body coloration with irregular white barring. Each fish is unique. Hardy like its wild-type parent.",
     "overview_es": "Un pez payaso de diseño criado en cautiverio que combina coloración negra con barras blancas irregulares.",
     "facts": [
-      "Roster seed for Black Ice Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Black_ice_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -415,7 +415,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Designer morph with black body and white markings. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Designer morph with black body and white markings. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "black-photon-clownfish",
@@ -426,7 +430,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -444,15 +448,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "A designer clown with a dark body and a characteristically wide white middle bar. Clean, high-contrast appearance. Hardy and captive bred.",
     "overview_es": "Un payaso de diseño con cuerpo oscuro y barra media blanca amplia característica.",
     "facts": [
-      "Roster seed for Black Photon Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Black_photon_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -472,7 +476,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Dark designer clown with wide white midband. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Dark designer clown with wide white midband. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "black-storm-clownfish",
@@ -483,7 +491,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -501,15 +509,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "One of the darkest designer clownfish with nearly all-black body and only thin white edges remaining. Striking and premium-priced.",
     "overview_es": "Uno de los peces payaso de diseño más oscuros con cuerpo casi completamente negro.",
     "facts": [
-      "Roster seed for Black Storm Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Black_storm_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -529,7 +537,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Nearly all-black designer clownfish. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Nearly all-black designer clownfish. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "cinnamon-clownfish",
@@ -540,7 +552,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -558,15 +570,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "A beautiful and hardy clownfish with a dark body that ranges from deep red to nearly black, with a single white headbar. More aggressive than Ocellaris but very tough.",
     "overview_es": "Un pez payaso hermoso y resistente con cuerpo oscuro que varía de rojo profundo a casi negro, con una sola barra blanca en la cabeza.",
     "facts": [
-      "Roster seed for Cinnamon Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 5 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Amphiprion_melanopus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -586,7 +598,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Hardy dark clownfish with fiery red-orange coloring. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 30+ gal."
+    "headerSummary": "Hardy dark clownfish with fiery red-orange coloring. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "clarkii-clownfish",
@@ -597,7 +613,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "6 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -615,15 +631,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "Hosts in more anemone species than any other clownfish. Comes in many color variations. Extremely tough and adaptable. Moderately aggressive.",
     "overview_es": "Hospeda en más especies de anémonas que cualquier otro pez payaso. Viene en muchas variaciones de color.",
     "facts": [
-      "Roster seed for Clarkii Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 6 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Amphiprion_clarkii",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -643,7 +659,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "The hardiest and most adaptable clownfish. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 30+ gal."
+    "headerSummary": "The hardiest and most adaptable clownfish. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "davinci-clownfish",
@@ -654,7 +674,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -672,15 +692,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "Named for the painterly quality of its white markings. Each fish has a unique abstract pattern. One of the most popular designer clownfish.",
     "overview_es": "Nombrado por la calidad pictórica de sus marcas blancas. Cada pez tiene un patrón abstracto único.",
     "facts": [
-      "Roster seed for DaVinci Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "DaVinci_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -700,7 +720,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Designer clown with abstract artistic white patterning. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Designer clown with abstract artistic white patterning. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "domino-clownfish",
@@ -711,7 +735,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -729,15 +753,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "A designer morph with bold black and white pattern reminiscent of domino dots. Captive bred, hardy, and easy to keep.",
     "overview_es": "Un morfo de diseño con audaz patrón blanco y negro que recuerda puntos de dominó.",
     "facts": [
-      "Roster seed for Domino Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Domino_clownfish_designer",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -757,7 +781,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Black and white designer clown with domino-like spots. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Black and white designer clown with domino-like spots. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "frostbite-clownfish",
@@ -768,7 +796,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -786,15 +814,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "A designer Ocellaris variant where the white barring has expanded to cover most of the body, leaving only patches of orange. Striking and hardy.",
     "overview_es": "Una variante de diseño del Ocellaris donde las barras blancas se han expandido para cubrir la mayoría del cuerpo.",
     "facts": [
-      "Roster seed for Frostbite Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Frostbite_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -814,7 +842,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Designer clownfish with extreme white coverage. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Designer clownfish with extreme white coverage. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "gladiator-clownfish",
@@ -825,7 +857,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -843,15 +875,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "A bold designer variant with thick, dramatic white barring that extends significantly beyond normal boundaries. Eye-catching in any tank.",
     "overview_es": "Una variante de diseño audaz con barras blancas gruesas y dramáticas.",
     "facts": [
-      "Roster seed for Gladiator Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Gladiator_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -871,7 +903,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Bold designer clown with thick white coverage. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Bold designer clown with thick white coverage. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "gold-stripe-maroon-clownfish",
@@ -882,7 +918,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "6 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -900,15 +936,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "The gold-stripe variant of the Maroon Clownfish. Deep maroon body with gold (not white) bars. Large, aggressive, and best as the dominant fish in the tank.",
     "overview_es": "La variante de franja dorada del Pez Payaso Marrón. Cuerpo marrón profundo con barras doradas.",
     "facts": [
-      "Roster seed for Gold Stripe Maroon Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 6 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Premnas_biaculeatus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -928,7 +964,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed.",
-    "headerSummary": "Gold-barred maroon clown — large and aggressive. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 30+ gal."
+    "headerSummary": "Gold-barred maroon clown — large and aggressive. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "lightning-maroon-clownfish",
@@ -939,7 +979,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "6 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -957,15 +997,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "One of the most famous designer clownfish — the original Lightning Maroon from Papua New Guinea. White lightning bolt pattern on a deep maroon body. Very aggressive.",
     "overview_es": "Uno de los peces payaso de diseño más famosos — el Lightning Maroon original de Papúa Nueva Guinea.",
     "facts": [
-      "Roster seed for Lightning Maroon Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 6 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Lightning_maroon_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -985,7 +1025,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed.",
-    "headerSummary": "Rare maroon clown with lightning bolt white pattern. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 30+ gal."
+    "headerSummary": "Rare maroon clown with lightning bolt white pattern. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "midnight-clownfish",
@@ -996,7 +1040,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1014,15 +1058,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "The ultimate dark designer clown — completely solid black with no white barring at all. Rare and commands premium pricing.",
     "overview_es": "El payaso de diseño oscuro definitivo — completamente negro sólido sin barras blancas.",
     "facts": [
-      "Roster seed for Midnight Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Midnight_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1042,7 +1086,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Solid black designer clownfish with no barring. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Solid black designer clownfish with no barring. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "misbar-clownfish",
@@ -1053,7 +1101,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1071,15 +1119,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "Misbar refers to clownfish with naturally incomplete or misshapen bars. Not a specific designer breed but a naturally occurring variation. Affordable and interesting.",
     "overview_es": "Misbar se refiere a peces payaso con barras naturalmente incompletas. No es una raza de diseño sino una variación natural.",
     "facts": [
-      "Roster seed for Misbar Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Misbar_ocellaris",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1099,7 +1147,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Natural variant with incomplete or missing bars. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Natural variant with incomplete or missing bars. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "mocha-clownfish",
@@ -1110,7 +1162,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1128,15 +1180,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "A warm chocolate-brown morph replacing the typical orange with rich brown tones. White barring remains visible. Unique and attractive.",
     "overview_es": "Un morfo marrón chocolate cálido que reemplaza el naranja típico con tonos marrones ricos.",
     "facts": [
-      "Roster seed for Mocha Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Mocha_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1156,7 +1208,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Warm chocolate-brown designer clownfish. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Warm chocolate-brown designer clownfish. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "orange-skunk-clownfish",
@@ -1167,7 +1223,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "5 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1185,15 +1241,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "Bright orange body with a single white dorsal stripe running from snout to tail. One of the more peaceful clownfish. Associates mainly with Stichodactyla mertensii anemones.",
     "overview_es": "Cuerpo naranja brillante con una sola franja dorsal blanca. Uno de los peces payaso más pacíficos.",
     "facts": [
-      "Roster seed for Orange Skunk Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 5 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Amphiprion_sandaracinos",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1213,7 +1269,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Orange skunk clown with single dorsal stripe. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Orange skunk clown with single dorsal stripe. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "percula-clownfish",
@@ -1224,7 +1284,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1242,15 +1302,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "The original 'Nemo' fish. Distinguished from Ocellaris by thicker black borders around the white bars. Slightly less common and a bit more expensive.",
     "overview_es": "El pez 'Nemo' original. Se distingue del Ocellaris por bordes negros más gruesos alrededor de las barras blancas.",
     "facts": [
-      "Roster seed for Percula Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Amphiprion_percula",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1270,7 +1330,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "The true Percula — thicker black borders than Ocellaris. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "The true Percula — thicker black borders than Ocellaris. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "phantom-clownfish",
@@ -1281,7 +1345,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1299,15 +1363,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "A designer variant with a darker, smokier orange tone and faded, ghost-like white barring. Subtle and elegant compared to bolder morphs.",
     "overview_es": "Una variante de diseño con tono naranja más oscuro y ahumado y barras blancas fantasmales.",
     "facts": [
-      "Roster seed for Phantom Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Phantom_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1327,7 +1391,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Smoky dark-orange designer with ghostly bars. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Smoky dark-orange designer with ghostly bars. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "picasso-clownfish",
@@ -1338,7 +1406,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1356,15 +1424,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "A selectively bred Percula Clownfish where the white bars are wildly misshapen and expanded, creating an abstract art-like pattern. Premium pricing for unique specimens.",
     "overview_es": "Un Pez Payaso Percula criado selectivamente donde las barras blancas están deformadas y expandidas, creando un patrón tipo arte abstracto.",
     "facts": [
-      "Roster seed for Picasso Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Picasso_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1384,7 +1452,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Designer clownfish with abstract white patterning. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Designer clownfish with abstract white patterning. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "pink-skunk-clownfish",
@@ -1395,7 +1467,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1413,15 +1485,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "One of the most peaceful clownfish species. Soft pink body with a single white stripe running along the back. Shy and gentle, best in calm community tanks.",
     "overview_es": "Una de las especies de pez payaso más pacíficas. Cuerpo rosa suave con una sola franja blanca a lo largo del lomo. Tímido y gentil.",
     "facts": [
-      "Roster seed for Pink Skunk Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Amphiprion_perideraion",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1441,7 +1513,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Gentle pink clownfish with a white dorsal stripe. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Gentle pink clownfish with a white dorsal stripe. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "platinum-clownfish",
@@ -1452,7 +1528,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1470,15 +1546,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "The opposite extreme of the Midnight — entirely white with no orange or bars visible. Looks like a tiny pearl-white fish. Premium pricing.",
     "overview_es": "El extremo opuesto del Midnight — completamente blanco sin naranja ni barras visibles. Precio premium.",
     "facts": [
-      "Roster seed for Platinum Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Platinum_percula",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1498,7 +1574,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Completely white designer clownfish. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Completely white designer clownfish. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "saddleback-clownfish",
@@ -1509,7 +1589,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -1527,15 +1607,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "Named for the wide saddle-shaped white marking on its back. Found in sandy areas rather than reefs. A less common but interesting clownfish species.",
     "overview_es": "Nombrado por la amplia marca blanca en forma de silla de montar en su espalda. Se encuentra en áreas arenosas en lugar de arrecifes.",
     "facts": [
-      "Roster seed for Saddleback Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 5 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Amphiprion_polymnus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1555,7 +1635,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Distinctive clownfish with a saddle-shaped white bar. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 30+ gal."
+    "headerSummary": "Distinctive clownfish with a saddle-shaped white bar. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "snowflake-clownfish",
@@ -1566,7 +1650,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1584,15 +1668,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "A designer variant of the common Ocellaris Clownfish bred for its irregular, snowflake-like white barring pattern. Each fish is unique. Hardy and easy like its wild-type parent.",
     "overview_es": "Una variante de diseño del Pez Payaso Ocellaris criado por su patrón irregular tipo copo de nieve. Cada pez es único.",
     "facts": [
-      "Roster seed for Snowflake Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Snowflake_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1612,7 +1696,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Designer captive-bred clownfish with unique snowflake pattern. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Designer captive-bred clownfish with unique snowflake pattern. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "snow-onyx-clownfish",
@@ -1623,7 +1711,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1641,15 +1729,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "Combines the black body of the Onyx morph with extensive white coverage. Each fish is a unique mix of black and white. Premium designer pricing.",
     "overview_es": "Combina el cuerpo negro del morfo Onyx con cobertura blanca extensiva. Cada pez es una mezcla única.",
     "facts": [
-      "Roster seed for Snow Onyx Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Snow_onyx_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1669,7 +1757,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Black and white designer with expanded white coverage. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Black and white designer with expanded white coverage. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "wyoming-white-clownfish",
@@ -1680,7 +1772,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -1698,15 +1790,15 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview": "Mostly white body with a residual orange blush on the face and sometimes the dorsal area. Each fish varies in how much orange remains.",
     "overview_es": "Cuerpo mayormente blanco con rubor naranja residual en la cara.",
     "facts": [
-      "Roster seed for Wyoming White Clownfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Wyoming_white_clownfish",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1726,7 +1818,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "White clownfish with orange face blush. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "White clownfish with orange face blush. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "yellowtail-clownfish",
@@ -1753,18 +1849,18 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview_es": "El pez payaso más resistente y adaptable. Hospedará en casi cualquier anémona.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 30+ gal.",
-      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+      "Adult size in this catalog is listed around 6 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -1795,7 +1891,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "The hardiest clownfish. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 30+ gal."
+    "headerSummary": "The hardiest clownfish. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "skunk-clownfish",
@@ -1822,18 +1922,18 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview_es": "Esbelto y gracioso con cuerpo naranja-durazno y franja blanca a lo largo del lomo dorsal.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 20+ gal.",
-      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends calm to mild."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -1864,7 +1964,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Elegant peach-colored clownfish. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 20+ gal."
+    "headerSummary": "Elegant peach-colored clownfish. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   },
   {
     "id": "bicinctus-clownfish",
@@ -1891,18 +1995,18 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "overview_es": "Único pez payaso nativo del Mar Rojo. Dorado-marrón con dos barras blancas.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 30+ gal.",
-      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+      "Adult size in this catalog is listed around 5 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -1933,6 +2037,10 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Red Sea clownfish with golden-brown body. Look for look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones. Plan on at least 30+ gal."
+    "headerSummary": "Red Sea clownfish with golden-brown body. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
+    "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
   }
 ];

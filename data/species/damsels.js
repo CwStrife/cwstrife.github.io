@@ -10,7 +10,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3.5 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -44,7 +44,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -69,7 +69,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -103,7 +103,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -127,7 +127,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2.5 in",
     "minTank": "15+ gal",
     "diet": "Omnivore",
@@ -145,15 +145,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "A beautiful damselfish with vivid blue upper body and bright yellow belly. One of the more peaceful Chrysiptera species, making it a better community choice.",
     "overview_es": "Una hermosa damisela con cuerpo superior azul vívido y vientre amarillo brillante. Una de las más pacíficas del género.",
     "facts": [
-      "Roster seed for Azure Damselfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 2.5 in.",
+      "Plan around roughly 15+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Chrysiptera_hemicyanea",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -173,7 +173,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 15+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Half-blue, half-yellow damselfish, more peaceful than most. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 15+ gal."
+    "headerSummary": "Half-blue, half-yellow damselfish, more peaceful than most. Plan on roughly 15+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "black-axil-chromis",
@@ -184,7 +188,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "4 in",
     "minTank": "30+ gal",
     "diet": "Omnivore / planktivore",
@@ -202,15 +206,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "Very similar to the Blue-Green Chromis but with a dark spot at the base of the pectoral fin. Schooling fish that does well in groups. Hardy and peaceful.",
     "overview_es": "Muy similar al Chromis Verde Azul pero con mancha oscura en la base de la aleta pectoral. Pez de cardumen resistente.",
     "facts": [
-      "Roster seed for Black Axil Chromis; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore / planktivore."
     ],
     "photoTitle": "Chromis_atripectoralis",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -230,7 +234,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Peaceful green chromis similar to Blue-Green Chromis. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 30+ gal."
+    "headerSummary": "Peaceful green chromis similar to Blue-Green Chromis. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore / planktivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "blue-sapphire-damsel",
@@ -241,7 +249,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "diet": "Omnivore",
@@ -259,15 +267,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "A tiny, incredibly blue damselfish. Less aggressive than most damsels due to its small size. Good for nano tanks with appropriate tankmates.",
     "overview_es": "Una damisela diminuta increíblemente azul. Menos agresiva que la mayoría debido a su pequeño tamaño.",
     "facts": [
-      "Roster seed for Blue Sapphire Damsel; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 2 in.",
+      "Plan around roughly 10+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Chrysiptera_springeri",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -287,7 +295,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 10+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Tiny deep blue damsel — less aggressive than most. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 10+ gal."
+    "headerSummary": "Tiny deep blue damsel — less aggressive than most. Plan on roughly 10+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "blue-velvet-damsel",
@@ -298,7 +310,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "6 in",
     "minTank": "55+ gal",
     "diet": "Omnivore",
@@ -316,15 +328,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "Juveniles are a beautiful velvety dark blue with neon blue lines. However, adults grow large, turn drab brown-gray, and become extremely aggressive.",
     "overview_es": "Los juveniles son un hermoso azul oscuro aterciopelado con líneas neón azules. Sin embargo, los adultos crecen, se vuelven marrones y muy agresivos.",
     "facts": [
-      "Roster seed for Blue Velvet Damsel; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 6 in.",
+      "Plan around roughly 55+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Neoglyphidodon_oxyodon",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -344,7 +356,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 55+ gal"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed.",
-    "headerSummary": "Dark velvety damsel that gets large and aggressive. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 55+ gal."
+    "headerSummary": "Dark velvety damsel that gets large and aggressive. Plan on roughly 55+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "domino-damsel",
@@ -355,7 +371,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -373,15 +389,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "Named for the three white spots on a black body resembling domino dots. One of the hardiest fish but becomes extremely territorial and aggressive with age.",
     "overview_es": "Nombrada por los tres puntos blancos sobre cuerpo negro. Uno de los peces más resistentes pero extremadamente territorial con la edad.",
     "facts": [
-      "Roster seed for Domino Damsel; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 5 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Dascyllus_trimaculatus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -401,7 +417,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a easy profile that should not be rushed.",
-    "headerSummary": "Black damsel with white spots — extremely hardy but very aggressive. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 30+ gal."
+    "headerSummary": "Black damsel with white spots — extremely hardy but very aggressive. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "fiji-blue-devil-damsel",
@@ -412,7 +432,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -430,15 +450,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "A gorgeous electric blue damsel from Fiji waters. More moderately aggressive than the standard Blue Damsel. Males develop a yellow belly.",
     "overview_es": "Una hermosa damisela azul eléctrica de aguas de Fiyi. Más moderadamente agresiva que la Damisela Azul estándar.",
     "facts": [
-      "Roster seed for Fiji Blue Devil Damsel; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 3 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Chrysiptera_taupou",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -458,7 +478,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Vivid blue damsel from Fiji — moderate aggression. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 20+ gal."
+    "headerSummary": "Vivid blue damsel from Fiji — moderate aggression. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "kupang-damsel",
@@ -469,7 +493,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2.5 in",
     "minTank": "15+ gal",
     "diet": "Omnivore",
@@ -487,15 +511,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "Azure blue upper body with bright yellow belly. Also known as the Azure Damsel. One of the less aggressive Chrysiptera species. Good community choice.",
     "overview_es": "Cuerpo superior azul cielo con vientre amarillo brillante. Una de las especies menos agresivas de Chrysiptera.",
     "facts": [
-      "Roster seed for Kupang Damsel; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 2.5 in.",
+      "Plan around roughly 15+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Chrysiptera_hemicyanea",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -515,7 +539,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 15+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Half-blue half-yellow damsel from Kupang. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 15+ gal."
+    "headerSummary": "Half-blue half-yellow damsel from Kupang. Plan on roughly 15+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "rolland-s-damselfish",
@@ -526,7 +554,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2.5 in",
     "minTank": "15+ gal",
     "diet": "Omnivore",
@@ -544,15 +572,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "A distinctive bicolor damselfish with blue-black front half and white rear half. One of the more peaceful damsels and a good choice for nano community tanks.",
     "overview_es": "Una damisela bicolor distintiva con mitad frontal azul-negro y trasera blanca. Una de las damiselas más pacíficas.",
     "facts": [
-      "Roster seed for Rolland's Damselfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 2.5 in.",
+      "Plan around roughly 15+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Chrysiptera_rollandi",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -572,7 +600,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 15+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Bicolor black-and-white damsel — peaceful for a damsel. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 15+ gal."
+    "headerSummary": "Bicolor black-and-white damsel — peaceful for a damsel. Plan on roughly 15+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "starki-damsel",
@@ -583,7 +615,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -601,15 +633,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "A strikingly bicolored damselfish — vivid blue top half and bright yellow bottom half. Collected from deeper waters. Less aggressive than shallow-water damsels.",
     "overview_es": "Una damisela bicolor llamativa — mitad superior azul vívido y mitad inferior amarillo brillante.",
     "facts": [
-      "Roster seed for Starki Damsel; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 3 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Chrysiptera_starcki",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -629,7 +661,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Deep-water blue and yellow damsel from deeper reefs. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 20+ gal."
+    "headerSummary": "Deep-water blue and yellow damsel from deeper reefs. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "talbot-s-damselfish",
@@ -640,7 +676,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2.5 in",
     "minTank": "15+ gal",
     "diet": "Omnivore",
@@ -658,15 +694,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "A beautiful pastel-colored damsel with pink-lavender head and yellow body. One of the most peaceful damsels, making it a genuine community tank candidate.",
     "overview_es": "Una hermosa damisela de colores pastel con cabeza rosa-lavanda y cuerpo amarillo. Una de las damiselas más pacíficas.",
     "facts": [
-      "Roster seed for Talbot's Damselfish; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 2.5 in.",
+      "Plan around roughly 15+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Chrysiptera_talboti",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -686,7 +722,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 15+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Pink and yellow damsel — one of the most peaceful. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 15+ gal."
+    "headerSummary": "Pink and yellow damsel — one of the most peaceful. Plan on roughly 15+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "three-stripe-damsel",
@@ -697,7 +737,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3.5 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -715,15 +755,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "One of the most recognizable reef fish with bold black and white vertical stripes. Lives in branching corals. Hardy but aggressive with age.",
     "overview_es": "Uno de los peces de arrecife más reconocibles con audaces rayas verticales blancas y negras.",
     "facts": [
-      "Roster seed for Three Stripe Damsel; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 3.5 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "photoTitle": "Dascyllus_aruanus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -743,7 +783,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Classic three-stripe damsel found in coral branches. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 20+ gal."
+    "headerSummary": "Classic three-stripe damsel found in coral branches. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "vanderbilt-chromis",
@@ -754,7 +798,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2.5 in",
     "minTank": "20+ gal",
     "diet": "Planktivore",
@@ -772,15 +816,15 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview": "A small, peaceful chromis with translucent body and golden-yellow dorsal stripe. Perfect for nano reef tanks. Schooling behavior in groups of 5+.",
     "overview_es": "Un chromis pequeño y pacífico con cuerpo translúcido y franja dorsal dorada-amarilla. Perfecto para nano arrecifes.",
     "facts": [
-      "Roster seed for Vanderbilt Chromis; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 2.5 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Planktivore."
     ],
     "photoTitle": "Chromis_vanderbilti",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -800,23 +844,27 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Tiny golden-lined chromis for nano reefs. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 20+ gal."
+    "headerSummary": "Tiny golden-lined chromis for nano reefs. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Planktivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "yellowtail-blue-damsel",
     "name": "Yellowtail Blue Damsel",
     "name_es": "Yellowtail Blue Damsel",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Chrysiptera parasema",
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "diet": "Omnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -824,20 +872,20 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a damsel / chromis profile",
+    "role": "Small, bright damsel profile with more attitude than its size suggests",
     "role_es": "",
-    "overview": "Yellowtail Blue Damsel is best kept as catalog expansion seed for a damsel / chromis profile. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Yellowtail Blue Damsel is a small, hardy damsel that adds bright color but still deserves respect for temperament.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Yellowtail Blue Damsel; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Small size does not prevent territorial behavior once the fish has claimed a corner."
     ],
     "photoTitle": "Yellowtail Blue Damsel",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -854,11 +902,14 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a damsel / chromis profile. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least Needs enrichment."
+    "headerSummary": "Small, bright damsel profile with more attitude than its size suggests. Hardy does not mean harmless once territory gets established.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "blue-reef-chromis",
@@ -885,18 +936,18 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview_es": "Un chromis azul neón vívido del Caribe. Mejor en grupos de 5 o más.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 30+ gal.",
-      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends calm to mild."
+      "Adult size in this catalog is listed around 5 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -927,7 +978,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Brilliant blue schooling fish. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 30+ gal."
+    "headerSummary": "Brilliant blue schooling fish. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "blue-damselfish",
@@ -954,18 +1009,18 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview_es": "Azul eléctrico y extremadamente resistente pero se vuelve muy territorial y agresiva.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 20+ gal.",
-      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends assertive."
+      "Adult size in this catalog is listed around 3 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -996,7 +1051,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a easy profile that should not be rushed.",
-    "headerSummary": "Brilliant blue but highly aggressive. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 20+ gal."
+    "headerSummary": "Brilliant blue but highly aggressive. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
     "id": "yellowtail-damselfish",
@@ -1023,18 +1082,18 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview_es": "Cuerpo azul y cola amarilla brillante. Menos agresiva que la mayoría de las damiselas.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 15+ gal.",
-      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+      "Adult size in this catalog is listed around 2.5 in.",
+      "Plan around roughly 15+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -1065,6 +1124,10 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Systems smaller than 15+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Less aggressive blue and yellow damsel. Look for look for a compact, fast-moving fish that stays alert in the water column and around cover. Plan on at least 15+ gal."
+    "headerSummary": "Less aggressive blue and yellow damsel. Plan on roughly 15+ gal or larger long term.",
+    "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
+    "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   }
 ];

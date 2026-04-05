@@ -27,7 +27,8 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview": "A hardy, colorful, and approachable fish that fits many community reefs.",
     "facts": [
       "Usually hangs around caves or overhangs and may defend a favorite hole, but not in an over-the-top way.",
-      "A good fish for helping shoppers understand that small fish can still have territory and personality."
+      "A good fish for helping shoppers understand that small fish can still have territory and personality.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "bestWith": [
       "Community reefs",
@@ -43,7 +44,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "inStock": true,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -68,7 +69,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -103,7 +104,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -123,16 +124,16 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "name": "Blackcap Basslet",
     "name_es": "Blackcap Basslet",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Gramma melacara",
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -140,20 +141,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
-    "overview": "Blackcap Basslet is best kept as catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Blackcap Basslet is a small cave-oriented fish that brings color and attitude to rockwork-heavy systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Blackcap Basslet; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Blackcap Basslet",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -170,27 +171,30 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least Needs enrichment."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "candy-basslet",
     "name": "Candy Basslet",
     "name_es": "Candy Basslet",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Liopropoma carmabi",
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -198,20 +202,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
-    "overview": "Candy Basslet is best kept as catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Candy Basslet is a small cave-oriented fish that brings color and attitude to rockwork-heavy systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Candy Basslet; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Candy Basslet",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -228,27 +232,30 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least Needs enrichment."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "fridmani-dottyback",
     "name": "Fridmani Dottyback",
     "name_es": "Fridmani Dottyback",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Pseudochromis fridmani",
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -256,20 +263,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
-    "overview": "Fridmani Dottyback is best kept as catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Fridmani Dottyback is a small cave-oriented fish that brings color and attitude to rockwork-heavy systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Fridmani Dottyback; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Fridmani Dottyback",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -286,27 +293,30 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least Needs enrichment."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "indigo-dottyback",
     "name": "Indigo Dottyback",
     "name_es": "Indigo Dottyback",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Pseudochromis fridmani x sankeyi",
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -314,20 +324,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
-    "overview": "Indigo Dottyback is best kept as catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Indigo Dottyback is a small cave-oriented fish that brings color and attitude to rockwork-heavy systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Indigo Dottyback; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Indigo Dottyback",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -344,27 +354,30 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least Needs enrichment."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "neon-dottyback",
     "name": "Neon Dottyback",
     "name_es": "Neon Dottyback",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Pseudochromis aldabraensis",
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -372,20 +385,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
-    "overview": "Neon Dottyback is best kept as catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Neon Dottyback is a small cave-oriented fish that brings color and attitude to rockwork-heavy systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Neon Dottyback; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Neon Dottyback",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -402,27 +415,30 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least Needs enrichment."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "randall-s-assessor",
     "name": "Randall's Assessor",
     "name_es": "Randall's Assessor",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Assessor randalli",
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "2.5 in",
+    "minTank": "20+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -430,20 +446,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
-    "overview": "Randall's Assessor is best kept as catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Randall's Assessor is a small cave-oriented fish that brings color and attitude to rockwork-heavy systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Randall's Assessor; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Randall's Assessor",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -460,27 +476,30 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least Needs enrichment."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "sankeyi-dottyback",
     "name": "Sankeyi Dottyback",
     "name_es": "Sankeyi Dottyback",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Pseudochromis sankeyi",
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -488,20 +507,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
-    "overview": "Sankeyi Dottyback is best kept as catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Sankeyi Dottyback is a small cave-oriented fish that brings color and attitude to rockwork-heavy systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Sankeyi Dottyback; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Sankeyi Dottyback",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -518,27 +537,30 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least Needs enrichment."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "springeri-dottyback",
     "name": "Springeri Dottyback",
     "name_es": "Springeri Dottyback",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Pseudochromis springeri",
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "2.5 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -546,20 +568,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
-    "overview": "Springeri Dottyback is best kept as catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Springeri Dottyback is a small cave-oriented fish that brings color and attitude to rockwork-heavy systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Springeri Dottyback; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Springeri Dottyback",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -576,27 +598,30 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least Needs enrichment."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "strawberry-dottyback",
     "name": "Strawberry Dottyback",
     "name_es": "Strawberry Dottyback",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Pseudochromis porphyreus",
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -604,20 +629,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
-    "overview": "Strawberry Dottyback is best kept as catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Strawberry Dottyback is a small cave-oriented fish that brings color and attitude to rockwork-heavy systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Strawberry Dottyback; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Strawberry Dottyback",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -634,27 +659,30 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least Needs enrichment."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "sunrise-dottyback",
     "name": "Sunrise Dottyback",
     "name_es": "Sunrise Dottyback",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Pseudochromis flavivertex",
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -662,20 +690,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
-    "overview": "Sunrise Dottyback is best kept as catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Sunrise Dottyback is a small cave-oriented fish that brings color and attitude to rockwork-heavy systems.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Sunrise Dottyback; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Temperament is usually workable in a well-planned community with sensible tankmates.",
+      "Best results come from a stable system and a buyer who already has a routine.",
+      "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Sunrise Dottyback",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -692,11 +720,14 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least Needs enrichment."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "swissguard-basslet",
@@ -707,7 +738,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "diet": "Carnivore",
@@ -720,20 +751,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 2,
     "invertRisk": 2,
     "careDifficulty": 35,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
     "overview": "Bold red and white horizontal stripes. Secretive cave-dweller that rewards patient observation.",
     "overview_es": "Audaces rayas horizontales rojas y blancas. Habitante de cuevas secretivo.",
     "facts": [
-      "Roster seed for Swissguard Basslet; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 3 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "photoTitle": "Liopropoma_rubre",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -753,7 +784,11 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least 20+ gal."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "yellow-assessor",
@@ -764,7 +799,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "2.5 in",
     "minTank": "15+ gal",
     "diet": "Carnivore",
@@ -777,20 +812,20 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "coralRisk": 2,
     "invertRisk": 2,
     "careDifficulty": 25,
-    "role": "Catalog expansion seed for a basslet / gramma / dottyback profile",
+    "role": "Rockwork-oriented cave fish with strong color and a territorial streak",
     "role_es": "",
     "overview": "Bright yellow cave-dwelling fish that swims upside-down under overhangs. Peaceful nano fish.",
     "overview_es": "Pez amarillo brillante habitante de cuevas que nada boca abajo bajo salientes.",
     "facts": [
-      "Roster seed for Yellow Assessor; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 2.5 in.",
+      "Plan around roughly 15+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "photoTitle": "Assessor_flavissimus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -810,7 +845,11 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
       "Systems smaller than 15+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a basslet / gramma / dottyback profile. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least 15+ gal."
+    "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Plan on roughly 15+ gal or larger long term.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "royal-dottyback",
@@ -837,18 +876,18 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "Dividido por la mitad — frente púrpura, trasero amarillo. Puede ser territorial.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 30+ gal.",
-      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, mostly safe with inverts, and temperament trends assertive."
+      "Adult size in this catalog is listed around 3 in.",
+      "Plan around roughly 30+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -879,7 +918,11 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Vibrant bicolor purple-and-yellow dottyback. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least 30+ gal."
+    "headerSummary": "Vibrant bicolor purple-and-yellow dottyback. Plan on roughly 30+ gal or larger long term.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "orchid-dottyback",
@@ -906,18 +949,18 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "Púrpura intenso. Ejemplares criados en cautiverio disponibles y menos agresivos.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 20+ gal.",
-      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+      "Adult size in this catalog is listed around 3 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -948,7 +991,11 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
       "Systems smaller than 20+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Vivid purple dottyback from the Red Sea. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least 20+ gal."
+    "headerSummary": "Vivid purple dottyback from the Red Sea. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
     "id": "randalls-assessor",
@@ -975,18 +1022,18 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "Nada boca abajo bajo salientes. Diminuto, pacífico, perfecto para nano arrecifes.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 15+ gal.",
-      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+      "Adult size in this catalog is listed around 2.5 in.",
+      "Plan around roughly 15+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -1017,6 +1064,10 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
       "Systems smaller than 15+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Electric blue cave-dwelling nano fish. Look for look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork. Plan on at least 15+ gal."
+    "headerSummary": "Electric blue cave-dwelling nano fish. Plan on roughly 15+ gal or larger long term.",
+    "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
+    "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
+    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   }
 ];

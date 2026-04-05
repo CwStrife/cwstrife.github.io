@@ -27,7 +27,8 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "A standout showcase tang that instantly catches the eye. It is one of those fish that people point at from across the room, but it also needs serious swimming room and a stable, mature setup.",
     "facts": [
       "Usually best added later in the stocking order because tangs can get territorial once established.",
-      "Spends a lot of its day picking at film algae and browsing rock surfaces."
+      "Spends a lot of its day picking at film algae and browsing rock surfaces.",
+      "Swimming length and steady algae support matter more than impulse color with surgeonfish."
     ],
     "bestWith": [
       "Larger reef tanks",
@@ -59,7 +60,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Tang de exhibición premium y extremadamente raro",
     "diet_es": "Herbívoro",
     "origin_es": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for deep charcoal body scattered with crisp white spots and a bright yellow tail.. Plan on at least 125+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for deep charcoal body scattered with crisp white spots and a bright yellow tail. Plan on at least 125+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -123,7 +124,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Tang azul brillante de aguas abiertas",
     "diet_es": "Herbívoro / omnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for electric blue body with bold black patterning and a bright yellow tail.. Plan on at least 125+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for electric blue body with bold black patterning and a bright yellow tail. Plan on at least 125+ gal.",
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
@@ -186,7 +187,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Tang compacto y práctico para control de algas",
     "diet_es": "Herbívoro / detritívoro",
     "origin_es": "Pacífico Occidental",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for subtle brown body, pale belly, and yellow edging that glows under reef lighting.. Plan on at least 75+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for subtle brown body, pale belly, and yellow edging that glows under reef lighting. Plan on at least 75+ gal.",
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
@@ -203,7 +204,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "8 in",
     "minTank": "100+ gal",
     "careLabel": "Easy",
@@ -251,7 +252,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Tang amarillo clásico y excelente comedor de algas",
     "diet_es": "Herbívoro",
     "origin_es": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for solid bright yellow body that practically glows under reef lighting.. Plan on at least 100+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for solid bright yellow body that practically glows under reef lighting. Plan on at least 100+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -267,7 +268,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "9 in",
     "minTank": "125+ gal",
     "careLabel": "Moderate",
@@ -314,7 +315,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Tang azul polvo impresionante",
     "diet_es": "Herbívoro",
     "origin_es": "Océano Índico",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for vivid powder blue body with black face mask, yellow dorsal fin, and white-edged tail.. Plan on at least 125+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for vivid powder blue body with black face mask, yellow dorsal fin, and white-edged tail. Plan on at least 125+ gal.",
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
@@ -332,7 +333,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "7 in",
     "minTank": "75+ gal",
     "careLabel": "Easy",
@@ -378,7 +379,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Comedor práctico de algas con anillo dorado en el ojo",
     "diet_es": "Herbívoro / detritívoro",
     "origin_es": "Hawái",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for brown body covered in fine horizontal lines with a distinctive bright yellow ring around the eye.. Plan on at least 75+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for brown body covered in fine horizontal lines with a distinctive bright yellow ring around the eye. Plan on at least 75+ gal.",
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
@@ -396,7 +397,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "8 in",
     "minTank": "100+ gal",
     "careLabel": "Easy",
@@ -441,7 +442,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Tang económico y resistente para control de algas",
     "diet_es": "Herbívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for dark brown to olive body that darkens with age. sailfin shape similar to yellow tang.. Plan on at least 100+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for dark brown to olive body that darkens with age. sailfin shape similar to yellow tang. Plan on at least 100+ gal.",
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
@@ -459,7 +460,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "18 in",
     "minTank": "180+ gal",
     "careLabel": "Moderate",
@@ -505,7 +506,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Tang grande y pacífico con coloración dramática en adultos",
     "diet_es": "Herbívoro / omnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for grey body with orange lips, bright orange scalpels at the tail base, and a streaming tail filament in adults.. Plan on at least 180+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for grey body with orange lips, bright orange scalpels at the tail base, and a streaming tail filament in adults. Plan on at least 180+ gal.",
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
@@ -522,7 +523,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "10 in",
     "minTank": "125+ gal",
     "careLabel": "Moderate",
@@ -569,7 +570,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Tang púrpura vibrante del Mar Rojo",
     "diet_es": "Herbívoro",
     "origin_es": "Mar Rojo / Mar Arábigo",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for rich royal purple body with a contrasting bright yellow tail. one of the most striking tangs available.. Plan on at least 125+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for rich royal purple body with a contrasting bright yellow tail. one of the most striking tangs available. Plan on at least 125+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -585,7 +586,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "15 in",
     "minTank": "180+ gal",
     "careLabel": "Moderate",
@@ -631,7 +632,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Tang grande y dramático con aletas extendidas",
     "diet_es": "Herbívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for brown to tan body with bold vertical banding and dramatically tall dorsal and anal fins that extend like sails.. Plan on at least 180+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for brown to tan body with bold vertical banding and dramatically tall dorsal and anal fins that extend like sails. Plan on at least 180+ gal.",
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
@@ -648,7 +649,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "10 in",
     "minTank": "100+ gal",
     "careLabel": "Easy",
@@ -694,7 +695,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "role_es": "Tang económico y pacífico con barras negras",
     "diet_es": "Herbívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for silver-white body with vertical black prison-stripe bars. simple but clean pattern.. Plan on at least 100+ gal.",
+    "headerSummary": "Active algae grazer and high-visibility display fish. Look for silver-white body with vertical black prison-stripe bars. simple but clean pattern. Plan on at least 100+ gal.",
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
@@ -710,7 +711,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "10 in",
     "minTank": "180+ gal",
     "diet": "Herbivore",
@@ -728,9 +729,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "One of the most beautiful tangs but also one of the most difficult to keep. Requires pristine water, heavy flow, and lots of swimming room. Prone to ich if stressed.",
     "overview_es": "Uno de los tangs más hermosos pero también uno de los más difíciles de mantener. Requiere agua prístina, fuerte corriente y mucho espacio para nadar.",
     "facts": [
-      "Roster seed for Achilles Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 10 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Acanthurus_achilles",
     "inStock": false,
@@ -757,7 +758,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 180+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 180+ gal.",
+    "headerSummary": "Striking black tang with orange teardrop marking. Plan on roughly 180+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -772,7 +773,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "15 in",
     "minTank": "180+ gal",
     "diet": "Herbivore",
@@ -790,9 +791,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "A large tang from the Atlantic that goes through a dramatic color change. Juveniles are bright yellow, transitioning to deep blue as adults. Needs a very large tank.",
     "overview_es": "Un tang grande del Atlántico que pasa por un cambio de color dramático. Los juveniles son amarillo brillante y se vuelven azul profundo como adultos.",
     "facts": [
-      "Roster seed for Atlantic Blue Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 15 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Acanthurus_coeruleus",
     "inStock": false,
@@ -818,7 +819,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 180+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 180+ gal.",
+    "headerSummary": "Caribbean blue tang that changes from yellow juvenile to deep blue adult. Plan on roughly 180+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -833,7 +834,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "18 in",
     "minTank": "180+ gal",
     "diet": "Herbivore / planktivore",
@@ -851,9 +852,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "A sleeker, more colorful cousin of the Naso Tang. Adults develop a striking yellow mask around the face and blue-gray body. Peaceful for a large tang.",
     "overview_es": "Un primo más esbelto y colorido del Tang Naso. Los adultos desarrollan una máscara amarilla llamativa alrededor de la cara.",
     "facts": [
-      "Roster seed for Blonde Naso Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 18 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore / planktivore."
     ],
     "photoTitle": "Naso_elegans",
     "inStock": false,
@@ -879,7 +880,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 180+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 180+ gal.",
+    "headerSummary": "Elegant unicorn tang with yellow face mask. Plan on roughly 180+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -894,7 +895,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "8 in",
     "minTank": "75+ gal",
     "diet": "Detritivore",
@@ -912,9 +913,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "A subtle but beautiful tang with a brown body and electric blue eye rings. Feeds on detritus and film algae. One of the most peaceful tangs available.",
     "overview_es": "Un tang sutil pero hermoso con cuerpo marrón y anillos azules eléctricos alrededor de los ojos. Uno de los tangs más pacíficos.",
     "facts": [
-      "Roster seed for Blue Eye Kole Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 8 in.",
+      "Plan around roughly 75+ gal or larger for long-term care.",
+      "Diet in this catalog: Detritivore."
     ],
     "photoTitle": "Ctenochaetus_binotatus",
     "inStock": false,
@@ -940,7 +941,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 75+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 75+ gal.",
+    "headerSummary": "Peaceful bristletooth tang with striking blue eyes. Plan on roughly 75+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -955,7 +956,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "11 in",
     "minTank": "125+ gal",
     "diet": "Herbivore / detritivore",
@@ -973,9 +974,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "Juveniles display an incredible orange and black chevron pattern that fades to olive-brown as adults. Excellent algae grazer and relatively peaceful for a tang.",
     "overview_es": "Los juveniles muestran un increíble patrón de chevron naranja y negro que se desvanece a marrón oliva en adultos. Excelente pastor de algas y relativamente pacífico.",
     "facts": [
-      "Roster seed for Chevron Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 11 in.",
+      "Plan around roughly 125+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore / detritivore."
     ],
     "photoTitle": "Ctenochaetus_hawaiiensis",
     "inStock": false,
@@ -1001,7 +1002,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 125+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 125+ gal.",
+    "headerSummary": "Rare Hawaiian tang with stunning juvenile chevron pattern. Plan on roughly 125+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1016,7 +1017,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "10 in",
     "minTank": "100+ gal",
     "diet": "Herbivore / omnivore",
@@ -1034,9 +1035,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "A peaceful and hardy tang. Juveniles mimic dwarf angelfish species for protection. Adults develop a chocolate brown coloration. Good community tang.",
     "overview_es": "Un tang pacífico y resistente. Los juveniles imitan especies de peces ángel enanos para protección. Los adultos desarrollan una coloración marrón chocolate.",
     "facts": [
-      "Roster seed for Chocolate Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 10 in.",
+      "Plan around roughly 100+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore / omnivore."
     ],
     "photoTitle": "Acanthurus_pyroferus",
     "inStock": false,
@@ -1062,7 +1063,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 100+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 100+ gal.",
+    "headerSummary": "Peaceful tang that mimics angelfish as a juvenile. Plan on roughly 100+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1077,7 +1078,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "15 in",
     "minTank": "250+ gal",
     "diet": "Herbivore",
@@ -1095,9 +1096,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "One of the most beautifully patterned tangs with vivid blue, orange and yellow stripes. However, it is notoriously aggressive and territorial. Expert only.",
     "overview_es": "Uno de los tangs con patrones más hermosos con rayas vívidas azules, naranjas y amarillas. Sin embargo, es notoriamente agresivo y territorial. Solo para expertos.",
     "facts": [
-      "Roster seed for Clown Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 15 in.",
+      "Plan around roughly 250+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Acanthurus_lineatus",
     "inStock": false,
@@ -1124,7 +1125,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 250+ gal"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a advanced profile that should not be rushed.",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 250+ gal.",
+    "headerSummary": "Strikingly striped but extremely aggressive tang. Plan on roughly 250+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 250+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1139,7 +1140,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "21 in",
     "minTank": "250+ gal",
     "diet": "Herbivore / detritivore",
@@ -1157,9 +1158,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "One of the largest surgeonfish. Olive-gray body with horizontal lines and a bold eye stripe. Needs a truly massive tank. Hardy but territorial with other tangs.",
     "overview_es": "Uno de los peces cirujano más grandes. Cuerpo gris oliva con líneas horizontales. Necesita un tanque verdaderamente masivo.",
     "facts": [
-      "Roster seed for Dussumieri Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 21 in.",
+      "Plan around roughly 250+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore / detritivore."
     ],
     "photoTitle": "Acanthurus_dussumieri",
     "inStock": false,
@@ -1185,7 +1186,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 250+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 250+ gal.",
+    "headerSummary": "Large eyestripe surgeonfish for massive tanks. Plan on roughly 250+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 250+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1200,7 +1201,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "8 in",
     "minTank": "100+ gal",
     "diet": "Herbivore",
@@ -1218,9 +1219,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "A beautiful dark-bodied tang with gold-orange trim on the dorsal, anal, and caudal fins. Can be aggressive with other tangs. Prone to ich.",
     "overview_es": "Un hermoso tang de cuerpo oscuro con bordes dorado-naranja en las aletas. Puede ser agresivo con otros tangs.",
     "facts": [
-      "Roster seed for Goldrim Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 8 in.",
+      "Plan around roughly 100+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Acanthurus_nigricans",
     "inStock": false,
@@ -1246,7 +1247,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 100+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 100+ gal.",
+    "headerSummary": "Dark tang with gold accents, aggressive but striking. Plan on roughly 100+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1261,7 +1262,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "8 in",
     "minTank": "75+ gal",
     "diet": "Herbivore",
@@ -1279,9 +1280,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "Often overlooked for flashier tangs but one of the hardiest and most peaceful. Brown-lavender body becomes more purple under reef lighting. Excellent algae grazer.",
     "overview_es": "A menudo ignorado por tangs más llamativos pero uno de los más resistentes y pacíficos. Excelente comedor de algas.",
     "facts": [
-      "Roster seed for Lavender Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 8 in.",
+      "Plan around roughly 75+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Acanthurus_nigrofuscus",
     "inStock": false,
@@ -1307,7 +1308,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 75+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 75+ gal.",
+    "headerSummary": "Hardy, affordable tang with subtle lavender tones. Plan on roughly 75+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1322,7 +1323,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "12 in",
     "minTank": "125+ gal",
     "diet": "Herbivore",
@@ -1340,9 +1341,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "Named for the horseshoe-shaped marking behind the eye. Dark olive body with blue highlights. Hardy and less aggressive than most Acanthurus species.",
     "overview_es": "Nombrado por la marca en forma de herradura detrás del ojo. Cuerpo oliva oscuro con reflejos azules.",
     "facts": [
-      "Roster seed for Lieutenant Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 12 in.",
+      "Plan around roughly 125+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Acanthurus_tennentii",
     "inStock": false,
@@ -1368,7 +1369,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 125+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 125+ gal.",
+    "headerSummary": "Indian Ocean tang with distinctive horseshoe marking. Plan on roughly 125+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1383,7 +1384,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "10 in",
     "minTank": "100+ gal",
     "diet": "Herbivore",
@@ -1396,14 +1397,14 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "coralRisk": 5,
     "invertRisk": 5,
     "careDifficulty": 35,
-    "role": "Catalog expansion seed for a surgeonfish / tang profile",
+    "role": "Active surgeonfish built for swimming room, grazing, and long-term space",
     "role_es": "",
     "overview": "Juveniles mimic dwarf angelfish for protection. Adults develop chocolate coloring.",
     "overview_es": "Los juveniles imitan peces ángel enanos para protección. Los adultos desarrollan coloración chocolate.",
     "facts": [
-      "Roster seed for Mimic Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 10 in.",
+      "Plan around roughly 100+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Acanthurus_pyroferus",
     "inStock": false,
@@ -1429,7 +1430,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 100+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 100+ gal.",
+    "headerSummary": "Active surgeonfish built for swimming room, grazing, and long-term space. Plan on roughly 100+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1444,7 +1445,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "14 in",
     "minTank": "180+ gal",
     "diet": "Herbivore / detritivore",
@@ -1462,9 +1463,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "Adults develop a striking orange patch behind the gill plate. Juveniles are solid yellow and often confused with Yellow Tangs. Hardy but needs a very large system.",
     "overview_es": "Los adultos desarrollan una mancha naranja llamativa detrás de la placa branquial. Los juveniles son amarillo sólido y a menudo se confunden con Tangs Amarillos.",
     "facts": [
-      "Roster seed for Orange Shoulder Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 14 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore / detritivore."
     ],
     "photoTitle": "Acanthurus_olivaceus",
     "inStock": false,
@@ -1490,7 +1491,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 180+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 180+ gal.",
+    "headerSummary": "Large tang with distinctive orange shoulder patch. Plan on roughly 180+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1505,7 +1506,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "8 in",
     "minTank": "100+ gal",
     "diet": "Herbivore",
@@ -1518,14 +1519,14 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "coralRisk": 5,
     "invertRisk": 5,
     "careDifficulty": 45,
-    "role": "Catalog expansion seed for a surgeonfish / tang profile",
+    "role": "Active surgeonfish built for swimming room, grazing, and long-term space",
     "role_es": "",
     "overview": "A beautiful tang with white face markings. Hardy and less aggressive than many tangs.",
     "overview_es": "Un tang hermoso con marcas blancas en la cara. Resistente y menos agresivo.",
     "facts": [
-      "Roster seed for Powder Brown Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 8 in.",
+      "Plan around roughly 100+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "photoTitle": "Acanthurus_japonicus",
     "inStock": false,
@@ -1551,7 +1552,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 100+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 100+ gal.",
+    "headerSummary": "Active surgeonfish built for swimming room, grazing, and long-term space. Plan on roughly 100+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1566,7 +1567,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "6 in",
     "minTank": "75+ gal",
     "diet": "Detritivore",
@@ -1584,9 +1585,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview": "A smaller bristletooth tang with a dark body and contrasting white or yellow tail. Feeds on detritus and film algae. Good for medium-sized systems.",
     "overview_es": "Un tang cepillo más pequeño con cuerpo oscuro y cola contrastante blanca o amarilla.",
     "facts": [
-      "Roster seed for White Tail Bristletooth Tang; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 6 in.",
+      "Plan around roughly 75+ gal or larger for long-term care.",
+      "Diet in this catalog: Detritivore."
     ],
     "photoTitle": "Ctenochaetus_flavicauda",
     "inStock": false,
@@ -1612,7 +1613,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 75+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 75+ gal.",
+    "headerSummary": "Compact bristletooth with white-yellow tail accent. Plan on roughly 75+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1643,14 +1644,14 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview_es": "El primo del Océano Índico del Tang Aleta de Vela del Pacífico. Hardy y gran comedor de algas pero crece mucho.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 180+ gal.",
-      "Diet profile: Herbivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+      "Adult size in this catalog is listed around 16 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "water": {
       "ph": [
@@ -1685,7 +1686,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 180+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 180+ gal.",
+    "headerSummary": "Indian Ocean sailfin tang with intricate juvenile markings. Plan on roughly 180+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
@@ -1716,14 +1717,14 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "overview_es": "A diferencia de la mayoría de los tangs que pastan algas, esta especie se alimenta principalmente de plancton.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 125+ gal.",
-      "Diet profile: Planktivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+      "Adult size in this catalog is listed around 10 in.",
+      "Plan around roughly 125+ gal or larger for long-term care.",
+      "Diet in this catalog: Planktivore."
     ],
     "water": {
       "ph": [
@@ -1758,7 +1759,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Systems smaller than 125+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 125+ gal.",
+    "headerSummary": "Unusual planktivorous tang from deep reef slopes. Plan on roughly 125+ gal or larger long term.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
     "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",

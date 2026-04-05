@@ -66,6 +66,7 @@
       <button class="staff-badge" id="staffBadge" onclick="openStaffLogin()">Staff</button>
       <button class="staff-badge" id="analyticsBtn" style="display:none;background:rgba(80,160,255,.2);border-color:rgba(80,160,255,.3);color:#80b8ff" onclick="openAnalytics()">Analytics</button>
       <button class="staff-badge" id="foodsBtn" style="display:none;background:rgba(110,220,160,.16);border-color:rgba(110,220,160,.3);color:#9cf1c5" onclick="openFoodSettings()">Foods</button>
+      <button class="staff-badge" id="inventoryBtn" style="display:none;background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a" onclick="openInventoryManager()">Inventory</button>
       <button class="staff-badge" id="exitStaffBtn" style="display:none;background:rgba(255,80,80,.15);border-color:rgba(255,80,80,.25);color:#ff8888" onclick="exitStaffMode()">Exit Staff</button>
     </div>
   </div>
@@ -192,6 +193,36 @@
   </div>
 </div>
 
+
+
+<!-- INVENTORY OVERLAY -->
+<div class="analytics-overlay" id="inventoryOverlay">
+  <div class="analytics-panel inventory-panel">
+    <div class="inventory-topbar">
+      <div>
+        <h2 id="inventoryPanelTitle" style="margin:0;font-size:22px">Inventory Manager</h2>
+        <div class="inventory-subtitle">Quick staff edits for price, tank, stock #, size, quantity, holds, stock details, notes, photos, and stock status. Holds remain staff-only local flags in this build.</div>
+      </div>
+      <button onclick="closeInventoryManager()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+    </div>
+    <div class="inventory-toolbar">
+      <input id="inventorySearch" class="inventory-search" type="search" placeholder="Search fish, category, tank…" oninput="renderInventoryManager()">
+      <select id="inventoryStatusFilter" class="inventory-filter" onchange="renderInventoryManager()">
+        <option value="all">All statuses</option>
+        <option value="instock">In stock</option>
+        <option value="out">Out of stock</option>
+        <option value="quarantine">Quarantine</option>
+        <option value="reserved">Held / reserved</option>
+        <option value="missing">Missing store data</option>
+      </select>
+      <button class="food-toolbar-btn" type="button" onclick="exportStaffEdits()">Export Staff Data</button>
+      <button class="food-toolbar-btn" type="button" onclick="document.getElementById('staffImportFile').click()">Import Staff Data</button>
+      <button class="food-toolbar-btn danger" type="button" onclick="resetStaffEdits()">Reset Staff Data</button>
+      <input id="staffImportFile" type="file" accept="application/json,.json" style="display:none">
+    </div>
+    <div id="inventoryContent"></div>
+  </div>
+</div>
 
 <!-- FOOD SETTINGS OVERLAY -->
 <div class="analytics-overlay" id="foodsOverlay">

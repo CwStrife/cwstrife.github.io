@@ -9,12 +9,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "9 in",
     "minTank": "180+ gal",
     "diet": "Carnivore / planktivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -22,14 +22,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Catalog expansion seed for a triggerfish profile",
+    "role": "Alert triggerfish with strong display presence and bigger-system needs",
     "role_es": "",
-    "overview": "Bluejaw Trigger is best kept as catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Bluejaw Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 9 in. Diet here is listed as Carnivore / planktivore.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Bluejaw Trigger; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 9 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore / planktivore."
     ],
     "photoTitle": "Bluejaw Trigger",
     "inStock": false,
@@ -52,11 +52,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least Needs enrichment.",
+    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
     "behavior": "More of an open-water cruiser than a rock-bashing bruiser. Usually one of the calmer trigger choices, though it still needs room and can become pushy if crowded or mixed badly.",
     "feedingNotes": "Offer a varied carnivore/planktivore routine built around quality frozen meaty foods, pellets, and occasional shell-on items for jaw exercise.",
     "recognitionNotes": "Look for the slimmer trigger profile, blue facial edging, and constant midwater movement.",
@@ -71,12 +70,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "10 in",
     "minTank": "125+ gal",
     "diet": "Carnivore / omnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -84,14 +83,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Catalog expansion seed for a triggerfish profile",
+    "role": "Alert triggerfish with strong display presence and bigger-system needs",
     "role_es": "",
-    "overview": "Bursa Trigger is best kept as catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Bursa Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 10 in. Diet here is listed as Carnivore / omnivore.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Bursa Trigger; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 10 in.",
+      "Plan around roughly 125+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore / omnivore."
     ],
     "photoTitle": "Bursa Trigger",
     "inStock": false,
@@ -114,11 +113,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least Needs enrichment.",
+    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 125+ gal or larger long term.",
     "behavior": "Confident and territorial compared with gentler trigger species. Often works the rockwork and becomes bolder once established.",
     "feedingNotes": "Feed a varied meaty diet with frozen marine foods, quality pellets, and occasional shell-on foods to help keep the beak worn properly.",
     "recognitionNotes": "Watch for the thick trigger body, cautious eye contact, and deliberate stop-and-go swimming.",
@@ -133,12 +131,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "20 in",
     "minTank": "180+ gal",
     "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -146,14 +144,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Catalog expansion seed for a triggerfish profile",
+    "role": "Alert triggerfish with strong display presence and bigger-system needs",
     "role_es": "",
-    "overview": "Clown Trigger is best kept as catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Clown Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 20 in. Diet here is listed as Carnivore.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Clown Trigger; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 20 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "photoTitle": "Clown Trigger",
     "inStock": false,
@@ -176,11 +174,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least Needs enrichment.",
+    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
     "behavior": "Often starts manageable when small and becomes much more forceful with size and confidence. Territoriality and outright aggression can escalate heavily as it matures.",
     "feedingNotes": "Feed a varied carnivore diet with chunky frozen foods, shell-on marine items, and quality pellets intended for larger predatory marine fish.",
     "recognitionNotes": "The contrast pattern is unmistakable: black body, bold white spots, and strong yellow facial accents.",
@@ -195,12 +192,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "12 in",
     "minTank": "240+ gal",
     "diet": "Carnivore / planktivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -208,14 +205,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Catalog expansion seed for a triggerfish profile",
+    "role": "Alert triggerfish with strong display presence and bigger-system needs",
     "role_es": "",
-    "overview": "Crosshatch Trigger is best kept as catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Crosshatch Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 240+ gal. Adult size is listed around 12 in. Diet here is listed as Carnivore / planktivore.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Crosshatch Trigger; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 12 in.",
+      "Plan around roughly 240+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore / planktivore."
     ],
     "photoTitle": "Crosshatch Trigger",
     "inStock": false,
@@ -238,11 +235,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least Needs enrichment.",
+    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 240+ gal or larger long term.",
     "behavior": "Often reads calmer than many triggers but remains an active, high-oxygen, open-water fish that needs space and secure cover.",
     "feedingNotes": "Offer varied meaty foods, larger marine pellets, and frequent quality feeding that supports an active swimmer.",
     "recognitionNotes": "Look for the clean lattice-like body pattern and open-water cruising behavior.",
@@ -257,12 +253,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "18 in",
     "minTank": "180+ gal",
     "diet": "Carnivore / planktivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -270,14 +266,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Catalog expansion seed for a triggerfish profile",
+    "role": "Alert triggerfish with strong display presence and bigger-system needs",
     "role_es": "",
-    "overview": "Niger Trigger is best kept as catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Niger Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 18 in. Diet here is listed as Carnivore / planktivore.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Niger Trigger; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 18 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore / planktivore."
     ],
     "photoTitle": "Niger Trigger",
     "inStock": false,
@@ -300,11 +296,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least Needs enrichment.",
+    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
     "behavior": "Active, visible, and usually more interested in swimming lanes than hiding. Can become dominant in mixed aggressive tanks.",
     "feedingNotes": "Feed a varied meaty routine with frozen marine foods and good pellets; larger active triggers do better with regular, dependable feeding.",
     "recognitionNotes": "Deep blue body color and long flowing tail make this one easy to spot from across the room.",
@@ -319,12 +314,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "11 in",
     "minTank": "125+ gal",
     "diet": "Carnivore / omnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -332,14 +327,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Catalog expansion seed for a triggerfish profile",
+    "role": "Alert triggerfish with strong display presence and bigger-system needs",
     "role_es": "",
-    "overview": "Picasso Trigger is best kept as catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Picasso Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 11 in. Diet here is listed as Carnivore / omnivore.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Picasso Trigger; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 11 in.",
+      "Plan around roughly 125+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore / omnivore."
     ],
     "photoTitle": "Picasso Trigger",
     "inStock": false,
@@ -362,11 +357,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least Needs enrichment.",
+    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 125+ gal or larger long term.",
     "behavior": "Often patrols rockwork and learns the whole tank quickly. Territoriality tends to show up fast once settled.",
     "feedingNotes": "Feed a mixed meaty diet with shell-on foods now and then so the beak stays in better condition.",
     "recognitionNotes": "The face pattern is the giveaway: strong diagonal markings with a painted look.",
@@ -381,12 +375,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "20 in",
     "minTank": "180+ gal",
     "diet": "Omnivore / carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -394,14 +388,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Catalog expansion seed for a triggerfish profile",
+    "role": "Alert triggerfish with strong display presence and bigger-system needs",
     "role_es": "",
-    "overview": "Pinktail Trigger is best kept as catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Pinktail Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 20 in. Diet here is listed as Omnivore / carnivore.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Pinktail Trigger; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 20 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore / carnivore."
     ],
     "photoTitle": "Pinktail Trigger",
     "inStock": false,
@@ -424,11 +418,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least Needs enrichment.",
+    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
     "behavior": "Usually steadier and less chaotic than the nastiest trigger species, though size alone makes it a major tank presence.",
     "feedingNotes": "Feed a varied omnivore-carnivore routine with quality pellets, meaty frozen foods, and some vegetable matter mixed in.",
     "recognitionNotes": "Watch for the dark heavy body and pink tail that stands out once the fish turns.",
@@ -443,12 +436,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "24 in",
     "minTank": "180+ gal",
     "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -456,14 +449,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Catalog expansion seed for a triggerfish profile",
+    "role": "Alert triggerfish with strong display presence and bigger-system needs",
     "role_es": "",
-    "overview": "Queen Trigger is best kept as catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Queen Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 24 in. Diet here is listed as Carnivore.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Queen Trigger; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 24 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "photoTitle": "Queen Trigger",
     "inStock": false,
@@ -486,11 +479,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least Needs enrichment.",
+    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
     "behavior": "Confident, food-driven, and capable of becoming a dominant centerpiece fish as it matures.",
     "feedingNotes": "Feed a substantial carnivore diet with hard marine foods and quality pellets sized for larger triggers.",
     "recognitionNotes": "Blue face markings and bright body color separate it from the plainer large triggers.",
@@ -505,12 +497,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "10 in",
     "minTank": "180+ gal",
     "diet": "Carnivore / planktivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -518,14 +510,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Catalog expansion seed for a triggerfish profile",
+    "role": "Alert triggerfish with strong display presence and bigger-system needs",
     "role_es": "",
-    "overview": "Sargassum Trigger is best kept as catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Sargassum Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 10 in. Diet here is listed as Carnivore / planktivore.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Sargassum Trigger; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 10 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore / planktivore."
     ],
     "photoTitle": "Sargassum Trigger",
     "inStock": false,
@@ -548,11 +540,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least Needs enrichment.",
+    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
     "behavior": "Often cruises more than it prowls, and usually reads calmer than Rhinecanthus or Balistoides triggers.",
     "feedingNotes": "Offer varied frozen meaty foods and pellets on a steady schedule that supports a constantly visible swimmer.",
     "recognitionNotes": "Look for the slimmer open-water trigger silhouette and more restrained coloration.",
@@ -567,12 +558,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "12 in",
     "minTank": "125+ gal",
     "diet": "Carnivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Unknown",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
@@ -580,14 +571,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Catalog expansion seed for a triggerfish profile",
+    "role": "Alert triggerfish with strong display presence and bigger-system needs",
     "role_es": "",
-    "overview": "Undulated Trigger is best kept as catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Undulated Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 12 in. Diet here is listed as Carnivore.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Undulated Trigger; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Adult size in this catalog is listed around 12 in.",
+      "Plan around roughly 125+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "photoTitle": "Undulated Trigger",
     "inStock": false,
@@ -610,11 +601,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than Needs enrichment"
+      "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Catalog expansion seed for a triggerfish profile. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least Needs enrichment.",
+    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 125+ gal or larger long term.",
     "behavior": "Territorial, pushy, and capable of dominating or injuring poorly matched tankmates.",
     "feedingNotes": "Use a robust carnivore feeding plan with meaty marine foods and hard items for beak wear.",
     "recognitionNotes": "The wavy striping and confrontational body language make it stand out quickly.",
@@ -645,14 +635,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "overview_es": "La ballesta más pacífica. Cuerpo azul-verde impresionante con dientes rojos.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 180+ gal.",
-      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: use caution with corals, high invert risk, and temperament trends assertive."
+      "Adult size in this catalog is listed around 18 in.",
+      "Plan around roughly 180+ gal or larger for long-term care.",
+      "Diet in this catalog: Omnivore."
     ],
     "water": {
       "ph": [
@@ -688,7 +678,11 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
       "Shrimp, snails, crabs, or other ornamental invertebrates"
     ],
     "staffNote": "",
-    "headerSummary": "Most reef-compatible trigger. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least 180+ gal."
+    "headerSummary": "Most reef-compatible trigger. Plan on roughly 180+ gal or larger long term.",
+    "behavior": "Alert, visible behavior is typical, and the fish should have enough room to cruise without turning every pass into a confrontation.",
+    "feedingNotes": "Use a varied carnivore routine with quality prepared foods and occasional harder foods for jaw exercise and enrichment. Catalog diet listing: Omnivore.",
+    "buyingGuidance": "Sell it to buyers who want a larger intelligent display fish and already understand the trade-offs with shrimp, crabs, and smaller passive tankmates.",
+    "recognitionNotes": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement."
   },
   {
     "id": "clown-triggerfish",
@@ -715,14 +709,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "overview_es": "Cuerpo negro, puntos blancos en el vientre, labio amarillo. Hermoso pero extremadamente agresivo.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 250+ gal.",
-      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: not reef safe, high invert risk, and temperament trends highly aggressive."
+      "Adult size in this catalog is listed around 20 in.",
+      "Plan around roughly 250+ gal or larger for long-term care.",
+      "Diet in this catalog: Carnivore."
     ],
     "water": {
       "ph": [
@@ -758,6 +752,10 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
       "Shrimp, snails, crabs, or other ornamental invertebrates"
     ],
     "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed.",
-    "headerSummary": "Most dramatically patterned triggerfish. Look for look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement. Plan on at least 250+ gal."
+    "headerSummary": "Most dramatically patterned triggerfish. Plan on roughly 250+ gal or larger long term.",
+    "behavior": "Alert, visible behavior is typical, and the fish should have enough room to cruise without turning every pass into a confrontation.",
+    "feedingNotes": "Use a varied carnivore routine with quality prepared foods and occasional harder foods for jaw exercise and enrichment. Catalog diet listing: Carnivore.",
+    "buyingGuidance": "Sell it to buyers who want a larger intelligent display fish and already understand the trade-offs with shrimp, crabs, and smaller passive tankmates.",
+    "recognitionNotes": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement."
   }
 ];

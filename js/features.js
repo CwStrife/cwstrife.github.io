@@ -213,8 +213,12 @@ const TRANSLATIONS = {
     staffBtn: "Staff", staffMode: "Staff Mode", enterPin: "Enter the 4-digit PIN to access staff controls",
     enter: "Enter", cancel: "Cancel", exitStaff: "Exit Staff", incorrectPin: "Incorrect PIN",
     editPrice: "Edit Price", editTank: "Edit Tank", uploadPhoto: "Upload Photo",
+    editStockSize: "Edit Size", editStaffNote: "Edit Staff Note",
     markSold: "Mark Sold", removeLoss: "Remove (Loss)", quarantine: "Quarantine",
     addToStock: "+ Add to Stock", uploadStorePhoto: "+ Upload store photo",
+    inventoryBtn: "Inventory", inventoryTitle: "Inventory Manager", inventorySearch: "Search fish, category, tank…",
+    allStatuses: "All statuses", statusInStock: "In stock", statusOutOfStock: "Out of stock", statusQuarantine: "Quarantine",
+    exportStaff: "Export Staff Data", importStaff: "Import Staff Data", resetStaff: "Reset Staff Data",
     staffActivated: "Staff mode activated — you can now edit prices, tank codes, and mark fish as sold",
     staffDeactivated: "Staff mode deactivated",
     analytics: "Analytics", fishAnalytics: "Fish Browser Analytics",
@@ -332,8 +336,12 @@ const TRANSLATIONS = {
     staffBtn: "Personal", staffMode: "Modo Personal", enterPin: "Ingresa el PIN de 4 dígitos para acceder",
     enter: "Entrar", cancel: "Cancelar", exitStaff: "Salir", incorrectPin: "PIN incorrecto",
     editPrice: "Editar Precio", editTank: "Editar Tanque", uploadPhoto: "Subir Foto",
+    editStockSize: "Editar Tamaño", editStaffNote: "Editar Nota",
     markSold: "Marcar Vendido", removeLoss: "Retirar (Pérdida)", quarantine: "Cuarentena",
     addToStock: "+ Agregar a Stock", uploadStorePhoto: "+ Subir foto de tienda",
+    inventoryBtn: "Inventario", inventoryTitle: "Gestor de Inventario", inventorySearch: "Buscar pez, categoría, tanque…",
+    allStatuses: "Todos", statusInStock: "En stock", statusOutOfStock: "Sin stock", statusQuarantine: "Cuarentena",
+    exportStaff: "Exportar Datos", importStaff: "Importar Datos", resetStaff: "Restablecer Datos",
     staffActivated: "Modo personal activado — puedes editar precios, tanques y marcar vendidos",
     staffDeactivated: "Modo personal desactivado",
     analytics: "Analíticas", fishAnalytics: "Analíticas del Buscador",
@@ -451,6 +459,8 @@ function applyLanguage(){
   if(exitBtn) exitBtn.textContent = L.exitStaff;
   const analyticsBtn2 = document.getElementById('analyticsBtn');
   if(analyticsBtn2) analyticsBtn2.textContent = L.analytics;
+  const inventoryBtn = document.getElementById('inventoryBtn');
+  if(inventoryBtn) inventoryBtn.textContent = L.inventoryBtn || 'Inventory';
   
   // Compare close button
   const ccb = document.querySelector('#compareOverlay button[onclick*="closeCompare"]');
@@ -516,13 +526,30 @@ function showInputModal(title, desc, fields, callback){
   _inputModalCallback = callback;
   _inputModalFields = fields;
   
-  fieldsEl.innerHTML = fields.map((f, i) => `
-    <div class="input-modal-field">
-      <label>${f.label}</label>
-      ${f.type === 'select' ? `<select id="inputField${i}">${f.options.map(o=>`<option value="${o}" ${o===f.value?'selected':''}>${o}</option>`).join('')}</select>`
-        : `<input id="inputField${i}" type="${f.type||'text'}" value="${f.value||''}" placeholder="${f.placeholder||''}">`}
-    </div>
-  `).join('');
+  fieldsEl.innerHTML = fields.map((f, i) => {
+    if(f.type === 'select'){
+      return `
+        <div class="input-modal-field">
+          <label>${f.label}</label>
+          <select id="inputField${i}">${(f.options||[]).map(o=>`<option value="${o}" ${String(o)===String(f.value)?'selected':''}>${o}</option>`).join('')}</select>
+        </div>
+      `;
+    }
+    if(f.type === 'textarea'){
+      return `
+        <div class="input-modal-field">
+          <label>${f.label}</label>
+          <textarea id="inputField${i}" placeholder="${f.placeholder||''}" rows="${f.rows||4}">${f.value||''}</textarea>
+        </div>
+      `;
+    }
+    return `
+      <div class="input-modal-field">
+        <label>${f.label}</label>
+        <input id="inputField${i}" type="${f.type||'text'}" value="${f.value||''}" placeholder="${f.placeholder||''}">
+      </div>
+    `;
+  }).join('');
   
   overlay.classList.add('show');
   const firstInput = fieldsEl.querySelector('input,select');

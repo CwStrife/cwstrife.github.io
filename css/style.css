@@ -407,18 +407,19 @@ body.light-mode .status-cell.s-agg{background:rgba(232,152,56,.08)}
 
 .overlay.show{display:flex}
 .fish-modal{
-  position:relative;width:min(96vw,1460px);max-height:min(95vh,1180px);overflow:auto;
+  position:relative;width:min(96vw,1460px);max-height:min(95vh,1180px);overflow:hidden;
+  display:flex;flex-direction:column;
   border-radius:34px;background:linear-gradient(180deg, rgba(17,39,62,.99), rgba(9,20,31,.995));
   border:1px solid rgba(200,232,255,.12);box-shadow:0 34px 90px rgba(0,0,0,.50)
 }
 .modal-close{
-  position:sticky;top:10px;z-index:10;width:44px;height:44px;border-radius:12px;
+  position:absolute;top:12px;right:12px;z-index:30;width:44px;height:44px;border-radius:12px;
   display:grid;place-items:center;cursor:pointer;background:linear-gradient(180deg,#1b3b59,#0f2436);
   border:1px solid rgba(200,232,255,.16);font-size:22px;font-weight:950;box-shadow:0 8px 20px rgba(0,0,0,.3);
-  float:right;margin:10px 10px 0 0;
+  margin:0;
 }
 .modal-close:hover{background:linear-gradient(180deg,#471f30,#28131d);border-color:rgba(245,97,77,.32)}
-.modal-body{padding:0 24px 26px}
+.modal-body{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;padding:56px 24px 26px;overscroll-behavior:contain}
 .modal-layout{display:grid;grid-template-columns:minmax(360px,540px) minmax(0,1fr);gap:22px;padding-bottom:8px;align-items:start}
 .modal-left,.modal-right{display:grid;gap:18px;align-content:start}
 .modal-photo-card,.modal-section,.modal-stat,.fact-card,.origin-card,.staff-card{
@@ -2781,6 +2782,7 @@ body.light-mode .feature-star.active{background:rgba(255,214,94,.18);border-colo
 }
 .modal-body{
   position:relative;
+  overflow-y:auto!important;
   overflow-x:hidden!important;
   isolation:isolate;
 }
@@ -2804,3 +2806,40 @@ body.light-mode .feature-star.active{background:rgba(255,214,94,.18);border-colo
 .fish-modal.mobile-safe .modal-body.has-detail-video > .detail-bg-video{
   opacity:.2;
 }
+
+
+.inventory-panel{max-width:1200px}
+.inventory-topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:16px}
+.inventory-subtitle{margin-top:6px;font-size:13px;color:rgba(255,255,255,.42)}
+.inventory-toolbar{display:grid;grid-template-columns:minmax(220px,1.4fr) minmax(160px,.6fr) repeat(3,max-content);gap:10px;align-items:center;margin-bottom:18px}
+.inventory-search,.inventory-filter{width:100%;padding:12px 14px;border-radius:12px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px}
+.inventory-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:0 0 16px}
+.inventory-summary-card{padding:12px 14px;border-radius:16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);display:grid;gap:4px}
+.inventory-summary-card span{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.38)}
+.inventory-summary-card strong{font-size:22px;line-height:1;color:#fff}
+.inventory-summary-card small{font-size:11px;color:rgba(255,255,255,.42)}
+.inventory-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.inventory-card{padding:14px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);display:grid;gap:10px}
+.inventory-card-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.inventory-card-name{font-size:16px;font-weight:800;color:#fff}
+.inventory-card-meta{font-size:12px;color:rgba(255,255,255,.4);margin-top:3px}
+.inventory-kv{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.inventory-chip{padding:8px 10px;border-radius:12px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06)}
+.inventory-chip span{display:block;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:3px}
+.inventory-chip strong{display:block;font-size:13px;color:#fff;overflow-wrap:anywhere}
+.inventory-actions{display:flex;flex-wrap:wrap;gap:8px}
+.inventory-actions .staff-action-btn{flex:1 1 120px;justify-content:center;min-height:38px}
+.inventory-meta-row{display:flex;flex-wrap:wrap;gap:8px;font-size:11px;color:rgba(255,255,255,.42)}
+.inventory-meta-row span{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}
+.staff-editor{margin-top:12px;padding:12px;border-radius:16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+.staff-editor-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+.staff-editor-head strong{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.72)}
+.staff-editor-copy{font-size:12px;color:rgba(255,255,255,.42);margin-bottom:10px}
+.staff-editor-grid{display:flex;flex-wrap:wrap;gap:8px}
+.staff-editor-grid .staff-action-btn{min-height:40px;flex:1 1 140px;justify-content:center}
+body.light-mode .inventory-subtitle,body.light-mode .inventory-card-meta,body.light-mode .inventory-chip span,body.light-mode .staff-editor-copy,body.light-mode .inventory-summary-card span,body.light-mode .inventory-summary-card small,body.light-mode .inventory-meta-row{color:rgba(0,0,0,.5)}
+body.light-mode .inventory-search,body.light-mode .inventory-filter{background:rgba(0,0,0,.03);border-color:rgba(0,0,0,.08);color:#1a2030}
+body.light-mode .inventory-card,body.light-mode .staff-editor,body.light-mode .inventory-summary-card{background:rgba(0,0,0,.025);border-color:rgba(0,0,0,.08)}
+body.light-mode .inventory-card-name,body.light-mode .inventory-chip strong,body.light-mode .staff-editor-head strong,body.light-mode .inventory-summary-card strong{color:#1a2030}
+@media (max-width: 980px){.inventory-toolbar{grid-template-columns:1fr 1fr}.inventory-toolbar .food-toolbar-btn{width:100%}}
+@media (max-width: 700px){.inventory-topbar{flex-direction:column}.inventory-toolbar{grid-template-columns:1fr}.inventory-kv{grid-template-columns:repeat(2,minmax(0,1fr))}.inventory-actions .staff-action-btn,.staff-editor-grid .staff-action-btn{flex:1 1 calc(50% - 8px)}}

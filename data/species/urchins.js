@@ -11,7 +11,7 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "category": "Urchins",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -65,37 +65,37 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "name": "Collector Urchin",
     "name_es": "Collector Urchin",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Tripneustes gratilla",
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "diet": "Herbivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Indo-Pacific",
     "origin_es": "",
-    "habitat": "Reef / rocky",
+    "habitat": "Algae-rich reef flats and rubble zones",
     "tankCode": "",
-    "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
-    "careDifficulty": 56,
-    "role": "Catalog expansion seed for an echinoderm profile",
+    "aggression": 0,
+    "coralRisk": 4,
+    "invertRisk": 0,
+    "careDifficulty": 24,
+    "role": "Active algae urchin that loves to carry shells, rubble, and loose frags as camouflage",
     "role_es": "",
-    "overview": "Collector Urchin is best kept as catalog expansion seed for an echinoderm profile. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "A strong algae grazer with the classic urchin habit of decorating itself with whatever it can grab. Great when the buyer enjoys that behavior and has a tank that can tolerate a little harmless rearranging.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Collector Urchin; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Will carry shells, rubble, and sometimes loose coral frags.",
+      "Needs ongoing algae or supplemental grazing support in clean tanks.",
+      "Safer with secure frags and stable rockwork."
     ],
-    "photoTitle": "Collector Urchin",
+    "photoTitle": "Tripneustes gratilla",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -104,55 +104,56 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "visualCue": "round urchin body often hidden under a pile of shells, rubble, or coral plugs it has collected.",
     "bestWith": [
-      "Stable systems with mature parameters",
-      "Tankmates unlikely to harass or overturn invertebrates",
-      "Care plans matched to its feeding and placement needs"
+      "Established algae-bearing reefs",
+      "Customers who like visible odd behavior",
+      "Rockwork with stable footing"
     ],
     "cautionWith": [
-      "Unstable salinity, immature systems, or rough handling",
-      "Tankmates that may pick at sessile or slow invertebrates"
+      "Loose frags and unsecured plugs",
+      "Ultra-clean sterile systems",
+      "Tiny tanks where an urchin quickly becomes oversized"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on.",
-    "headerSummary": "Catalog expansion seed for an echinoderm profile. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan on at least Needs enrichment."
+    "staffNote": "Good algae worker. Just warn buyers that it will redecorate with loose objects.",
+    "headerSummary": "Active algae urchin that loves to carry shells, rubble, and loose frags as camouflage. Look for round urchin body often hidden under a pile of shells, rubble, or coral plugs it has collected. Plan on at least 30+ gal."
   },
   {
     "id": "halloween-urchin",
     "name": "Halloween Urchin",
     "name_es": "Halloween Urchin",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Tripneustes gratilla",
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "diet": "Herbivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Indo-Pacific",
     "origin_es": "",
-    "habitat": "Reef / rocky",
+    "habitat": "Reef flats and algae-covered rubble",
     "tankCode": "",
-    "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
-    "careDifficulty": 56,
-    "role": "Catalog expansion seed for an echinoderm profile",
+    "aggression": 0,
+    "coralRisk": 4,
+    "invertRisk": 0,
+    "careDifficulty": 24,
+    "role": "Colorful algae-eating urchin with the same debris-carrying habits that make urchins fun and annoying",
     "role_es": "",
-    "overview": "Halloween Urchin is best kept as catalog expansion seed for an echinoderm profile. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Sold mainly for color plus cleanup value. Like other carrying urchins, it needs buyers who can laugh when a loose frag plug goes for a walk instead of assuming the tank will stay untouched.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Halloween Urchin; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Strong grazer on algae and films over hard surfaces.",
+      "Will pick up loose items and wear them as cover.",
+      "Needs a mature tank with real food available."
     ],
-    "photoTitle": "Halloween Urchin",
+    "photoTitle": "Tripneustes gratilla",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -161,18 +162,19 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "visualCue": "orange to reddish body accents and short decorative spines, often partly covered with shells or rubble.",
     "bestWith": [
-      "Stable systems with mature parameters",
-      "Tankmates unlikely to harass or overturn invertebrates",
-      "Care plans matched to its feeding and placement needs"
+      "Established mixed reefs",
+      "Customers who want a colorful urchin",
+      "Tanks with secure coral placement"
     ],
     "cautionWith": [
-      "Unstable salinity, immature systems, or rough handling",
-      "Tankmates that may pick at sessile or slow invertebrates"
+      "Brand-new tanks",
+      "Unsecured frags and decorative rubble",
+      "Customers wanting a hands-off precision cleanup animal"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on.",
-    "headerSummary": "Catalog expansion seed for an echinoderm profile. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan on at least Needs enrichment."
+    "staffNote": "Very saleable if the buyer likes urchin behavior and has secure frags.",
+    "headerSummary": "Colorful algae-eating urchin with the same debris-carrying habits that make urchins fun and annoying. Look for orange to reddish body accents and short decorative spines, often partly covered with shells or rubble. Plan on at least 30+ gal."
   },
   {
     "id": "long-spine-urchin",
@@ -183,33 +185,33 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "8 in (body)",
-    "minTank": "40+ gal",
-    "diet": "Herbivore / algae",
+    "stockSize": "",
+    "maxSize": "8 in body / much larger span",
+    "minTank": "75+ gal",
+    "diet": "Herbivore",
     "diet_es": "Herbívoro / algas",
     "origin": "Indo-Pacific",
     "origin_es": "Indo-Pacífico",
-    "habitat": "Reef flats and slopes",
+    "habitat": "Open reef faces and rock crevices",
     "tankCode": "",
-    "aggression": 5,
-    "coralRisk": 5,
-    "invertRisk": 5,
-    "careDifficulty": 25,
-    "role": "Classic black long-spined urchin for algae control",
+    "aggression": 0,
+    "coralRisk": 2,
+    "invertRisk": 0,
+    "careDifficulty": 34,
+    "role": "High-capacity algae grazer with dramatic long spines that demands real space and careful handling",
     "role_es": "Erizo clásico de espinas largas negras para control de algas",
-    "overview": "The iconic long-spined sea urchin. Extremely effective algae grazer but the long venomous spines can sting. Handle with extreme care. Effective in reef tanks with algae issues.",
+    "overview": "A powerful grazer, but not a casual nano-reef purchase. This is for customers with room, respect for the spines, and a tank layout that will not turn every pass into a collision event.",
     "overview_es": "El icónico erizo de mar de espinas largas. Extremadamente efectivo comedor de algas pero las espinas venenosas pueden picar.",
     "facts": [
-      "Roster seed for Long Spine Urchin; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Excellent grazer on algae and open rock surfaces.",
+      "Spines are long, sharp, and easy to bump during maintenance.",
+      "Needs larger tanks with enough footprint for safe movement."
     ],
-    "photoTitle": "Diadema_setosum",
+    "photoTitle": "Diadema setosum",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -217,56 +219,57 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
       "temp_high": 80
     },
     "seasonal": null,
-    "careLabel": "Moderate",
-    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "careLabel": "Intermediate",
+    "visualCue": "black body with extremely long needle-like spines that radiate far beyond the shell.",
     "bestWith": [
-      "Stable systems with mature parameters",
-      "Tankmates unlikely to harass or overturn invertebrates",
-      "Reef tanks planned around its specific role"
+      "Larger algae-bearing reefs",
+      "Experienced keepers",
+      "Open rock layouts with stable placement"
     ],
     "cautionWith": [
-      "Unstable salinity, immature systems, or rough handling",
-      "Fish known to nip, flip, or harass small invertebrates"
+      "Tight nano rockwork",
+      "Careless maintenance around long spines",
+      "Expecting a cute decorative urchin instead of a serious grazer"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a moderate invertebrate profile, not a generic add-on.",
-    "headerSummary": "Classic black long-spined urchin for algae control. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan on at least 40+ gal."
+    "staffNote": "Make the buyer picture the actual spine span before they buy it.",
+    "headerSummary": "High-capacity algae grazer with dramatic long spines that demands real space and careful handling. Look for black body with extremely long needle-like spines that radiate far beyond the shell. Plan on at least 75+ gal."
   },
   {
     "id": "pencil-urchin",
     "name": "Pencil Urchin",
     "name_es": "Pencil Urchin",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Eucidaris tribuloides",
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "5 in",
+    "minTank": "75+ gal",
+    "diet": "Omnivore / grazer",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Caribbean / tropical western Atlantic",
     "origin_es": "",
-    "habitat": "Reef / rocky",
+    "habitat": "Rock and rubble zones",
     "tankCode": "",
-    "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
-    "careDifficulty": 56,
-    "role": "Catalog expansion seed for an echinoderm profile",
+    "aggression": 0,
+    "coralRisk": 22,
+    "invertRisk": 4,
+    "careDifficulty": 32,
+    "role": "Chunky urchin better suited to fishy mixed systems than to delicate reef-frag displays",
     "role_es": "",
-    "overview": "Pencil Urchin is best kept as catalog expansion seed for an echinoderm profile. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "Very cool-looking urchin, but one that deserves a more cautious sales pitch than tuxedo or carrying species. Pencil urchins can bulldoze, rasp surfaces, and generally act like a bigger rougher animal in the tank.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Pencil Urchin; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Thicker spines make it more of a bulldozer around loose items.",
+      "May rasp encrusting surfaces and bother delicate sessile life while grazing.",
+      "Best sold into tanks with room and realistic expectations."
     ],
-    "photoTitle": "Pencil Urchin",
+    "photoTitle": "Eucidaris tribuloides",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -275,55 +278,56 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "visualCue": "thick blunt pencil-like spines that make it look heavier and rougher than tuxedo-style urchins.",
     "bestWith": [
-      "Stable systems with mature parameters",
-      "Tankmates unlikely to harass or overturn invertebrates",
-      "Care plans matched to its feeding and placement needs"
+      "Larger fishy reef systems",
+      "Rocky tanks with natural algae",
+      "Oddball invert collections"
     ],
     "cautionWith": [
-      "Unstable salinity, immature systems, or rough handling",
-      "Tankmates that may pick at sessile or slow invertebrates"
+      "High-end frag gardens",
+      "Tiny reefs with delicate placement",
+      "Customers assuming every urchin is equally reef gentle"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on.",
-    "headerSummary": "Catalog expansion seed for an echinoderm profile. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan on at least Needs enrichment."
+    "staffNote": "Cool animal, just not the safest urchin for delicate coral displays.",
+    "headerSummary": "Chunky urchin better suited to fishy mixed systems than to delicate reef-frag displays. Look for thick blunt pencil-like spines that make it look heavier and rougher than tuxedo-style urchins. Plan on at least 75+ gal."
   },
   {
     "id": "pin-cushion-urchin",
     "name": "Pin Cushion Urchin",
     "name_es": "Pin Cushion Urchin",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Lytechinus variegatus",
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "diet": "Herbivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Caribbean / tropical western Atlantic",
     "origin_es": "",
-    "habitat": "Reef / rocky",
+    "habitat": "Reef flats and rubble",
     "tankCode": "",
-    "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
-    "careDifficulty": 56,
-    "role": "Catalog expansion seed for an echinoderm profile",
+    "aggression": 0,
+    "coralRisk": 4,
+    "invertRisk": 0,
+    "careDifficulty": 22,
+    "role": "Classic round grazing urchin for established tanks with stable algae supply",
     "role_es": "",
-    "overview": "Pin Cushion Urchin is best kept as catalog expansion seed for an echinoderm profile. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "A dependable algae urchin for customers who want more grazing power than snails provide. It still needs the usual urchin conversation about mature tanks, secure frags, and enough natural food.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Pin Cushion Urchin; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Useful grazer on algae and films over hard surfaces.",
+      "May carry or nudge loose items while moving.",
+      "Needs ongoing food support once nuisance algae drops."
     ],
-    "photoTitle": "Pin Cushion Urchin",
+    "photoTitle": "Lytechinus variegatus",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -332,55 +336,56 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "visualCue": "dense even spine coverage that gives the classic pincushion silhouette.",
     "bestWith": [
-      "Stable systems with mature parameters",
-      "Tankmates unlikely to harass or overturn invertebrates",
-      "Care plans matched to its feeding and placement needs"
+      "Established algae-bearing tanks",
+      "Mixed cleanup crews needing more muscle",
+      "Customers comfortable with urchin behavior"
     ],
     "cautionWith": [
-      "Unstable salinity, immature systems, or rough handling",
-      "Tankmates that may pick at sessile or slow invertebrates"
+      "Ultra-clean tanks",
+      "Loose frags and unsecured plugs",
+      "Very small systems"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on.",
-    "headerSummary": "Catalog expansion seed for an echinoderm profile. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan on at least Needs enrichment."
+    "staffNote": "Good middle-ground urchin sale when the tank is mature enough.",
+    "headerSummary": "Classic round grazing urchin for established tanks with stable algae supply. Look for dense even spine coverage that gives the classic pincushion silhouette. Plan on at least 30+ gal."
   },
   {
     "id": "short-spine-urchin",
     "name": "Short Spine Urchin",
     "name_es": "Short Spine Urchin",
     "aliases": [],
-    "scientific": "",
+    "scientific": "Echinometra sp.",
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "Unknown",
-    "maxSize": "Needs enrichment",
-    "minTank": "Needs enrichment",
-    "diet": "—",
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "diet": "Herbivore",
     "diet_es": "",
-    "origin": "—",
+    "origin": "Indo-Pacific",
     "origin_es": "",
-    "habitat": "Reef / rocky",
+    "habitat": "Rock crevices and rubble zones",
     "tankCode": "",
-    "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
-    "careDifficulty": 56,
-    "role": "Catalog expansion seed for an echinoderm profile",
+    "aggression": 0,
+    "coralRisk": 6,
+    "invertRisk": 0,
+    "careDifficulty": 24,
+    "role": "Compact rock-grazing urchin that still needs mature algae support and secure decor",
     "role_es": "",
-    "overview": "Short Spine Urchin is best kept as catalog expansion seed for an echinoderm profile. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview": "A more compact urchin option, but still not a beginner impulse purchase for sterile new tanks. Best sold into mature systems where the buyer already understands that urchins need food after the first algae wave fades.",
     "overview_es": "",
     "facts": [
-      "Roster seed for Short Spine Urchin; not fully enriched yet.",
-      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
-      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+      "Good grazer on rock surfaces and coralline-covered areas.",
+      "Often hides in crevices when not actively feeding.",
+      "Can still move loose items despite the shorter spines."
     ],
-    "photoTitle": "Short Spine Urchin",
+    "photoTitle": "Echinometra",
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -389,18 +394,19 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "visualCue": "short tighter spine coverage and a habit of wedging into rock crevices between grazing runs.",
     "bestWith": [
-      "Stable systems with mature parameters",
-      "Tankmates unlikely to harass or overturn invertebrates",
-      "Care plans matched to its feeding and placement needs"
+      "Mature reef tanks",
+      "Rocky layouts with crevices",
+      "Customers wanting a smaller urchin profile"
     ],
     "cautionWith": [
-      "Unstable salinity, immature systems, or rough handling",
-      "Tankmates that may pick at sessile or slow invertebrates"
+      "New tanks with little algae",
+      "Loose coral frags",
+      "Buyers who think smaller means no special considerations"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on.",
-    "headerSummary": "Catalog expansion seed for an echinoderm profile. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan on at least Needs enrichment."
+    "staffNote": "Smaller footprint than long-spine species, same need for a mature tank.",
+    "headerSummary": "Compact rock-grazing urchin that still needs mature algae support and secure decor. Look for short tighter spine coverage and a habit of wedging into rock crevices between grazing runs. Plan on at least 30+ gal."
   },
   {
     "id": "sand-dollar",
@@ -427,18 +433,18 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "overview_es": "Excavan a través del sustrato procesando materia orgánica. Necesitan lecho de arena profundo.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 50+ gal.",
-      "Diet profile: Detritivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+      "Adult size in this catalog is listed around 4 in.",
+      "Plan around roughly 50+ gal or larger for long-term care.",
+      "Diet in this catalog: Detritivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -469,7 +475,11 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
       "Fish known to nip, flip, or harass small invertebrates"
     ],
     "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on.",
-    "headerSummary": "Flat burrowing echinoderm. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan on at least 50+ gal."
+    "headerSummary": "Flat burrowing echinoderm. Plan on roughly 50+ gal or larger long term.",
+    "behavior": "Temperament is usually workable in a well-planned community with sensible tankmates.",
+    "feedingNotes": "Match the food size and routine to the actual species instead of relying only on the category label. Catalog diet listing: Detritivore.",
+    "buyingGuidance": "Match the sale to long-term size, feeding pattern, and compatibility instead of impulse color.",
+    "recognitionNotes": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces."
   },
   {
     "id": "blue-tuxedo-urchin",
@@ -496,18 +506,18 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "overview_es": "Bandas azules y rojo-naranja. Recoge objetos y los carga. Excelente comedor de algas.",
     "inStock": false,
     "price": 0,
-    "stockSize": "Unknown",
+    "stockSize": "",
     "tankCode": "",
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 20+ gal.",
-      "Diet profile: Herbivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+      "Adult size in this catalog is listed around 3 in.",
+      "Plan around roughly 20+ gal or larger for long-term care.",
+      "Diet in this catalog: Herbivore."
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -538,6 +548,10 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
       "Fish known to nip, flip, or harass small invertebrates"
     ],
     "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a easy invertebrate profile, not a generic add-on.",
-    "headerSummary": "Colorful urchin that carries decorations. Look for look for spine length, spine density, and whether it carries debris or grazes exposed surfaces. Plan on at least 20+ gal."
+    "headerSummary": "Colorful urchin that carries decorations. Plan on roughly 20+ gal or larger long term.",
+    "behavior": "Temperament is usually workable in a well-planned community with sensible tankmates.",
+    "feedingNotes": "Match the food size and routine to the actual species instead of relying only on the category label. Catalog diet listing: Herbivore.",
+    "buyingGuidance": "Match the sale to long-term size, feeding pattern, and compatibility instead of impulse color.",
+    "recognitionNotes": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces."
   }
 ];
