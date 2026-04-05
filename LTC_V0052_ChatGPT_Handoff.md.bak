@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-title" content="LTC Fish Browser">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#0a0c12">
-<title>Low Tide Corals &amp; Aquatics — Fish Browser V0.053</title>
+<title>Low Tide Corals &amp; Aquatics — Fish Browser V0.051</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -104,10 +104,10 @@
       <button class="filter-chip clear" id="clearFiltersBtn" type="button">
         <span id="clearLabel">Clear filters</span>
       </button>
-      <button class="view-toggle-btn" id="viewToggle" type="button" onclick="toggleViewMode()" aria-label="Switch to grid view" title="Switch to grid view">
-        <span class="view-toggle-icon" aria-hidden="true">▦</span>
-        <span class="view-toggle-text">Grid</span>
-      </button>
+      <div class="view-toggle-wrap" id="viewToggle" role="group" aria-label="Display mode">
+        <button class="view-toggle-seg" id="viewToggleDetailed" type="button" onclick="setViewMode('detailed')" title="Detailed view"><span class="view-toggle-icon" aria-hidden="true">☰</span><span class="view-toggle-text">Detail</span></button>
+        <button class="view-toggle-seg" id="viewToggleCompact" type="button" onclick="setViewMode('compact')" title="Grid view"><span class="view-toggle-icon" aria-hidden="true">▦</span><span class="view-toggle-text">Grid</span></button>
+      </div>
     </div>
 
     <div class="sort-panel">
