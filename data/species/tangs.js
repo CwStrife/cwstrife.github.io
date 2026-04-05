@@ -46,7 +46,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Staff Pick"
     ],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -62,7 +62,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for deep charcoal body scattered with crisp white spots and a bright yellow tail.. Plan on at least 125+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Deep charcoal body scattered with crisp white spots and a bright yellow tail."
   },
   {
@@ -111,7 +111,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": true,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -127,7 +127,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Electric blue body with bold black patterning and a bright yellow tail."
   },
   {
@@ -174,7 +174,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": true,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -190,7 +190,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Subtle brown body, pale belly, and yellow edging that glows under reef lighting."
   },
   {
@@ -238,7 +238,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -254,7 +254,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for solid bright yellow body that practically glows under reef lighting.. Plan on at least 100+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Solid bright yellow body that practically glows under reef lighting."
   },
   {
@@ -318,7 +318,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Vivid powder blue body with black face mask, yellow dorsal fin, and white-edged tail."
   },
   {
@@ -366,7 +366,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -382,7 +382,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Brown body covered in fine horizontal lines with a distinctive bright yellow ring around the eye."
   },
   {
@@ -429,7 +429,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -445,7 +445,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Dark brown to olive body that darkens with age. Sailfin shape similar to Yellow Tang."
   },
   {
@@ -493,7 +493,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -509,7 +509,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Grey body with orange lips, bright orange scalpels at the tail base, and a streaming tail filament in adults."
   },
   {
@@ -556,7 +556,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -572,7 +572,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for rich royal purple body with a contrasting bright yellow tail. one of the most striking tangs available.. Plan on at least 125+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Rich royal purple body with a contrasting bright yellow tail. One of the most striking tangs available."
   },
   {
@@ -619,7 +619,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -635,7 +635,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Brown to tan body with bold vertical banding and dramatically tall dorsal and anal fins that extend like sails."
   },
   {
@@ -682,7 +682,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -698,7 +698,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "seasonal": null,
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Silver-white body with vertical black prison-stripe bars. Simple but clean pattern."
   },
   {
@@ -736,7 +736,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -760,7 +760,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 180+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -798,7 +798,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -821,7 +821,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 180+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -859,7 +859,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -882,7 +882,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 180+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -920,7 +920,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -943,7 +943,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 75+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -981,7 +981,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1004,7 +1004,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 125+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1042,7 +1042,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1065,7 +1065,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 100+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1103,7 +1103,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1127,7 +1127,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 250+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 250+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1165,7 +1165,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1188,7 +1188,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 250+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 250+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1226,7 +1226,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1249,7 +1249,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 100+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1287,7 +1287,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1310,7 +1310,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 75+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1348,7 +1348,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1371,7 +1371,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 125+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1409,7 +1409,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1432,7 +1432,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 100+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1470,7 +1470,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1493,7 +1493,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 180+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1531,7 +1531,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1554,7 +1554,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 100+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1592,7 +1592,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.0,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
@@ -1615,7 +1615,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 75+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1654,7 +1654,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -1688,7 +1688,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 180+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   },
   {
@@ -1727,7 +1727,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "water": {
       "ph": [
-        8.0,
+        8,
         8.4
       ],
       "salinity": [
@@ -1761,7 +1761,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.. Plan on at least 125+ gal.",
     "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Sell this fish only when the buyer already has the swimming room and tank maturity to support a tang long term. The right sale here is less about impulse color and more about honest system size, stocking order, and algae support.",
+    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
     "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
   }
 ];

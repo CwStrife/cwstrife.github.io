@@ -6,7 +6,7 @@ if(typeof T !== 'function'){ var T = function(k){ return k; }; }
 
 // FISH data loaded from data/fish.js
 const state = {
-  viewMode: 'detailed', category:"All", search:"", sort:"featured", reefOnly:false, easyOnly:false, selectedId:null, mode:"stock", favorites:[], compareList:[], tankFilter:0, idleActive:false };
+  viewMode: (window.matchMedia && window.matchMedia('(pointer: coarse) and (max-width: 900px)').matches) ? 'compact' : 'detailed', category:"All", search:"", sort:"featured", reefOnly:false, easyOnly:false, selectedId:null, mode:"stock", favorites:[], compareList:[], tankFilter:0, idleActive:false };
 const wikiImages = new Map();
 const fishImages = new Map();
 
@@ -42,6 +42,9 @@ function formatMoney(num){
 function isPhonePortrait(){
   return window.matchMedia('(max-width: 600px) and (pointer: coarse)').matches && window.innerHeight >= window.innerWidth;
 }
+function isPhoneCoarse(){
+  return window.matchMedia('(pointer: coarse) and (max-width: 900px)').matches;
+}
 function getImageCandidates(item){
   const out=[];
   const push=(val)=>{
@@ -59,10 +62,13 @@ function getImageCandidates(item){
   }
   return out;
 }
+function getPrimaryImageSource(item){
+  return fishImages.get(item.id) || (Array.isArray(item.staffPhotos) && item.staffPhotos[0]) || wikiImages.get(item.photoTitle) || null;
+}
 function getGallerySources(item){
   const seen = new Set();
   const out = [];
-  const primary = fishImages.get(item.id) || wikiImages.get(item.photoTitle);
+  const primary = getPrimaryImageSource(item);
   if(primary && !seen.has(primary)){
     seen.add(primary);
     out.push({src: primary, kind: 'wiki'});
@@ -1019,6 +1025,21 @@ function renderCardsAndMeta(){
     }
   });
 }
+function mountDetailVideoLayer(body){
+  const detailVideo = document.getElementById('detailBgVideo');
+  if(!detailVideo || !body) return null;
+  if(detailVideo.parentElement !== body) body.prepend(detailVideo);
+  body.classList.add('has-detail-video');
+  return detailVideo;
+}
+function syncDetailVideoLayer(){
+  const body = document.getElementById('fishModalBody');
+  const detailVideo = document.getElementById('detailBgVideo');
+  if(!body || !detailVideo || detailVideo.parentElement !== body) return;
+  const h = Math.max(body.scrollHeight, body.clientHeight, body.offsetHeight);
+  detailVideo.style.height = `${h}px`;
+}
+
 function openFishModal(id){
   const fish = FISH.find(item => item.id === id);
   if(!fish) return;
@@ -1028,6 +1049,8 @@ function openFishModal(id){
   const body = document.getElementById('fishModalBody');
   if(!body) return;
   body.innerHTML = isPhonePortrait() ? modalTemplateMobile(fish) : modalTemplate(fish);
+  const detailVideo = mountDetailVideoLayer(body);
+  syncDetailVideoLayer();
   // Scroll modal to top
   body.scrollTop = 0;
   const modal = body.closest('.fish-modal');
@@ -1048,13 +1071,15 @@ function openFishModal(id){
   const closeBtn = body.querySelector('[data-close-modal]');
   if(closeBtn) closeBtn.addEventListener('click', closeFishModal);
   if(overlay){overlay.classList.add('show');overlay.setAttribute('aria-hidden', 'false');}
-  const detailVideo = document.getElementById('detailBgVideo');
-  if(detailVideo){ detailVideo.play().catch(()=>{}); }
+  if(detailVideo){ detailVideo.currentTime = 0; detailVideo.play().catch(()=>{}); }
   document.body.classList.add('modal-open');
   requestAnimationFrame(()=>{
+    syncDetailVideoLayer();
     applyImagesToDOM();
     const activeModalBody = document.getElementById('fishModalBody');
     if(activeModalBody) activeModalBody.scrollTop = 0;
+    setTimeout(syncDetailVideoLayer, 180);
+    setTimeout(syncDetailVideoLayer, 520);
   });
 }
 function closeFishModal(){
@@ -1150,7 +1175,7 @@ function applyImagesToDOM(){
     const id = target.dataset.photo || target.dataset.detailPhoto;
     const fish = FISH.find(item => item.id === id);
     if(!fish) continue;
-    const src = fishImages.get(fish.id) || wikiImages.get(fish.photoTitle);
+    const src = getPrimaryImageSource(fish);
     if(!src || target.querySelector('img')) continue;
     const img = document.createElement('img');
     img.src = src;
@@ -1869,5 +1894,5 @@ function toggleLang(){
 }
 
 // Startup calls moved to features.js (loads after T() is defined)
-window.addEventListener('resize', ()=>{ updateCategoryRailUI(); updateBundleRailUI(); });
+window.addEventListener('resize', ()=>{ updateCategoryRailUI(); updateBundleRailUI(); syncDetailVideoLayer(); });
 document.addEventListener('DOMContentLoaded', updateCategoryRailUI);
