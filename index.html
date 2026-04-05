@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="LTC Fish Browser">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0a0c12">
+<title>Low Tide Corals &amp; Aquatics — Fish Browser V0.052</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="bg-scene" aria-hidden="true">
+  <video id="bgVideo" autoplay muted loop playsinline>
+    <source src="reef-bg.mp4" type="video/mp4">
+    <source src="reef-bg.webm" type="video/webm">
+    <source src="reef-bg.mov" type="video/quicktime">
+  </video>
+  <div class="bg-overlay"></div>
+</div>
+<div class="category-tint" id="categoryTint"></div>
+<script>
+// Try alternate video filenames if first ones fail
+(function(){
+  const v=document.getElementById('bgVideo');
+  const alts=['reef-bg.mp4','reef-bg.webm','reef-bg.mov','reef-bg (1).mp4','reef-bg (2).mp4','background.mp4','bg.mp4'];
+  let tryIdx=0;
+  v.addEventListener('error',function tryNext(){
+    tryIdx++;
+    if(tryIdx<alts.length){
+      v.src=alts[tryIdx];
+      v.load();
+    }
+  },true);
+  // Also log what's happening
+  v.addEventListener('playing',()=>console.log('Background video playing: '+v.currentSrc));
+  v.addEventListener('loadeddata',()=>{v.style.opacity='0.35'});
+})();
+</script>
+
+
+<!-- IDLE SCREEN -->
+<div class="idle-overlay hidden" id="idleScreen" onclick="wakeFromIdle()">
+  <img class="idle-logo" id="idleLogo" alt="Low Tide Corals">
+  <div class="idle-text" id="idleText">Touch anywhere to browse</div>
+  <div class="idle-sub" id="idleSub">Low Tide Corals & Aquatics • In-Store Fish Browser</div>
+</div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><img id="headerLogo" alt="LTC" style="width:48px;height:auto;display:block"></div>
+      <div>
+        <div class="brand-title">Low Tide Corals &amp; Aquatics</div>
+        <div class="brand-sub" id="brandSub">Interactive in-store fish browser</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="header-pill"><span class="dot"></span><span id="headerPillText">Touch-friendly kiosk mockup</span></div>
+      <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">🌙</button>
+      <button class="theme-toggle" onclick="toggleMute()" title="Toggle sound" id="muteBtn">🔊</button>
+      <button class="theme-toggle" onclick="toggleLang()" title="Language" id="langBtn">EN/ES</button>
+      <button class="theme-toggle" onclick="window.print()" title="Print inventory">🖨</button>
+      <button class="staff-badge" id="staffBadge" onclick="openStaffLogin()">Staff</button>
+      <button class="staff-badge" id="analyticsBtn" style="display:none;background:rgba(80,160,255,.2);border-color:rgba(80,160,255,.3);color:#80b8ff" onclick="openAnalytics()">Analytics</button>
+      <button class="staff-badge" id="exitStaffBtn" style="display:none;background:rgba(255,80,80,.15);border-color:rgba(255,80,80,.25);color:#ff8888" onclick="exitStaffMode()">Exit Staff</button>
+    </div>
+  </div>
+</header>
+
+<main class="shell">
+  <section class="control-panel">
+    <div class="control-top-row">
+      <div class="mode-toggle">
+        <button class="mode-btn active" data-mode="stock" onclick="setMode('stock')">In Stock</button>
+        <button class="mode-btn" data-mode="ency" onclick="setMode('ency')">Fish Encyclopedia</button>
+      </div>
+      <div class="tank-builder">
+        <label class="tank-label">My tank:</label>
+        <input class="tank-input" id="tankInput" type="number" inputmode="numeric" enterkeyhint="done" placeholder="gal" min="0" step="5" onchange="setTankFilter(this.value)">
+      </div>
+      <div id="favCounter" style="display:none" class="fav-count">♥ <span id="favNum">0</span></div>
+    </div>
+
+    <div class="search-filter-row">
+      <label class="search-wrap" aria-label="Search fish profiles">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M10.5 18a7.5 7.5 0 1 1 5.21-12.89A7.5 7.5 0 0 1 10.5 18Z" stroke="#F4FBFF" stroke-width="1.9"/>
+          <path d="m16.2 16.2 4.3 4.3" stroke="#F4FBFF" stroke-width="1.9" stroke-linecap="round"/>
+        </svg>
+        <input id="searchInput" type="search" enterkeyhint="search" autocapitalize="none" autocomplete="off" spellcheck="false" placeholder="Search by fish name, nickname, role, or scientific name..." />
+      </label>
+
+      <button class="filter-chip reef" id="reefOnlyBtn" type="button" aria-pressed="false">
+        <span class="toggle-dot"></span>
+        <span id="reefLabel">Reef safe only</span>
+      </button>
+      <button class="filter-chip beginner" id="easyOnlyBtn" type="button" aria-pressed="false">
+        <span class="toggle-dot"></span>
+        <span id="easyLabel">Beginner friendly</span>
+      </button>
+      <button class="filter-chip clear" id="clearFiltersBtn" type="button">
+        <span id="clearLabel">Clear filters</span>
+      </button>
+      <button class="view-toggle-btn" id="viewToggle" type="button" onclick="toggleViewMode()" aria-label="Switch to grid view" title="Switch to grid view">
+        <span class="view-toggle-icon" aria-hidden="true">▦</span>
+        <span class="view-toggle-text">Grid</span>
+      </button>
+    </div>
+
+    <div class="sort-panel">
+      <div class="sort-copy">
+        <strong id="sortLabel">Sort:</strong>
+        <span id="sortHint">Pick one of the visible sort modes below. No hidden dropdown, no extra tap just to see the choices.</span>
+      </div>
+      <div class="sort-grid" id="sortGrid"></div>
+    </div>
+  </section>
+
+  <section class="promo-area">
+    <div id="resultsCount" style="display:none"></div>
+    <div id="activeHint" style="display:none"></div>
+    <div id="fishOfTheWeek"></div>
+    <div id="bundleSection"></div>
+  </section>
+
+  <div class="category-shell" id="categoryShell">
+    <button class="category-scroll left" id="catScrollLeft" type="button" aria-label="Scroll categories left" onclick="scrollCategoryRail(-1)">‹</button>
+    <div class="category-row" id="categoryBar"></div>
+    <button class="category-scroll right" id="catScrollRight" type="button" aria-label="Scroll categories right" onclick="scrollCategoryRail(1)">›</button>
+  </div>
+
+  <section class="folder-content">
+    <div class="cards" id="cardGrid"></div>
+  </section>
+</main>
+
+<div class="overlay" id="fishOverlay" aria-hidden="true">
+  <div class="fish-modal" role="dialog" aria-modal="true" aria-label="Fish detail profile">
+    <button class="modal-close" id="closeFishBtn" aria-label="Close fish profile">×</button>
+    <div class="modal-body" id="fishModalBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<!-- COMPARE BAR -->
+<div class="compare-bar" id="compareBar">
+  <span id="compareLabel" style="font-size:13px;font-weight:700;color:rgba(255,255,255,.5)">Compare:</span>
+  <div id="compareChips" style="display:flex;gap:8px"></div>
+  <button class="compare-go" id="compareGoBtn" onclick="openCompare()">Compare Now</button>
+  <button id="compareClearBtn" style="padding:8px 14px;border-radius:10px;background:rgba(255,100,100,.15);border:1px solid rgba(255,100,100,.2);color:#ff8888;font-size:13px;font-weight:700;cursor:pointer" onclick="clearCompare()">Clear</button>
+</div>
+
+<!-- COMPARE OVERLAY -->
+<div class="compare-overlay" id="compareOverlay">
+  <div class="compare-panel">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <h2 id="compareTitle" style="margin:0;font-size:24px">Fish Comparison</h2>
+      <button onclick="closeCompare()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+    </div>
+    <div id="compareContent"></div>
+  </div>
+</div>
+<!-- INPUT MODAL (replaces native prompt()) -->
+<div class="input-modal-overlay" id="inputModalOverlay">
+  <div class="input-modal">
+    <h3 id="inputModalTitle"></h3>
+    <div class="modal-desc" id="inputModalDesc"></div>
+    <div id="inputModalFields"></div>
+    <div class="input-modal-actions">
+      <button class="btn-cancel" id="inputModalCancel" onclick="closeInputModal()">Cancel</button>
+      <button class="btn-confirm" id="inputModalConfirm" onclick="confirmInputModal()">Confirm</button>
+    </div>
+  </div>
+</div>
+
+<!-- STAFF PIN OVERLAY -->
+<div class="staff-overlay" id="staffOverlay">
+  <div class="pin-box">
+    <h2>Staff Mode</h2>
+    <p>Enter PIN to access staff tools</p>
+    <input class="pin-input" id="pinInput" type="password" maxlength="4" placeholder="••••" onkeydown="if(event.key==='Enter')checkPin()">
+    <div class="pin-error" id="pinError"></div>
+    <div style="margin-top:16px;display:flex;gap:10px;justify-content:center">
+      <button id="pinEnterBtn" onclick="checkPin()" style="padding:10px 24px;border-radius:12px;background:rgba(90,220,200,.2);border:1px solid rgba(90,220,200,.4);color:#5eebc8;font-size:15px;font-weight:800;cursor:pointer">Enter</button>
+      <button id="pinCancelBtn" onclick="closeStaffLogin()" style="padding:10px 24px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.6);font-size:15px;font-weight:700;cursor:pointer">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- ANALYTICS OVERLAY -->
+<div class="analytics-overlay" id="analyticsOverlay">
+  <div class="analytics-panel">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+      <h2 style="margin:0;font-size:22px">Fish Browser Analytics</h2>
+      <button onclick="closeAnalytics()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+    </div>
+    <div id="analyticsContent"></div>
+  </div>
+</div>
+<script src="data/logos.js"></script>
+<script src="data/fish.js"></script>
+<script src="js/app.js"></script>
+<script src="js/features.js"></script>
+</body>
+</html>
