@@ -759,7 +759,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "8 in",
     "minTank": "100+ gal",
     "careLabel": "Easy",
@@ -818,7 +818,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "55+ gal",
     "careLabel": "Easy",
@@ -876,7 +876,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -934,7 +934,7 @@ const FISH = [
     "category": "Rabbitfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "9 in",
     "minTank": "125+ gal",
     "careLabel": "Easy",
@@ -992,7 +992,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -1050,7 +1050,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "14 in",
     "minTank": "75+ gal",
     "careLabel": "Moderate",
@@ -1108,7 +1108,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "40+ gal",
     "careLabel": "Moderate",
@@ -1166,7 +1166,7 @@ const FISH = [
     "category": "Cardinalfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -1225,7 +1225,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "15+ gal",
     "careLabel": "Easy",
@@ -1283,7 +1283,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -1341,7 +1341,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "9 in",
     "minTank": "125+ gal",
     "careLabel": "Moderate",
@@ -1400,7 +1400,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "7 in",
     "minTank": "75+ gal",
     "careLabel": "Easy",
@@ -1458,7 +1458,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "8 in",
     "minTank": "100+ gal",
     "careLabel": "Easy",
@@ -1515,7 +1515,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "18 in",
     "minTank": "180+ gal",
     "careLabel": "Moderate",
@@ -1572,7 +1572,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "15 in",
     "minTank": "180+ gal",
     "careLabel": "Moderate",
@@ -1631,7 +1631,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "55+ gal",
     "careLabel": "Moderate",
@@ -1689,7 +1689,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "55+ gal",
     "careLabel": "Moderate",
@@ -1749,7 +1749,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "50+ gal",
     "careLabel": "Easy",
@@ -1808,7 +1808,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "50+ gal",
     "careLabel": "Easy",
@@ -1865,7 +1865,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "30+ gal",
     "careLabel": "Moderate",
@@ -1923,7 +1923,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "40+ gal",
     "careLabel": "Moderate",
@@ -1981,7 +1981,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "30+ gal",
     "careLabel": "Specialist",
@@ -2039,7 +2039,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -2097,7 +2097,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -2154,7 +2154,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Moderate",
@@ -2213,7 +2213,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "6 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -2272,7 +2272,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -2329,7 +2329,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -2386,7 +2386,7 @@ const FISH = [
     "category": "Hawkfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -2444,7 +2444,7 @@ const FISH = [
     "category": "Hawkfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -2503,7 +2503,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -2560,7 +2560,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -2617,7 +2617,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "30+ gal",
     "careLabel": "Specialist",
@@ -2675,7 +2675,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2.5 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -2733,7 +2733,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -2792,7 +2792,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3.5 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -2850,7 +2850,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -2908,7 +2908,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2.5 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -2966,7 +2966,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -3024,7 +3024,7 @@ const FISH = [
     "category": "Urchins",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -3082,7 +3082,7 @@ const FISH = [
     "category": "Snails",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "1 in",
     "minTank": "5+ gal",
     "careLabel": "Easy",
@@ -3140,7 +3140,7 @@ const FISH = [
     "category": "Snails",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "1.5 in",
     "minTank": "5+ gal",
     "careLabel": "Easy",
@@ -3196,7 +3196,7 @@ const FISH = [
     "category": "Snails",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -3254,7 +3254,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "1.5 in",
     "minTank": "5+ gal",
     "careLabel": "Easy",
@@ -3310,7 +3310,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "10 in",
     "minTank": "125+ gal",
     "careLabel": "Moderate",
@@ -3368,7 +3368,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "15 in",
     "minTank": "180+ gal",
     "careLabel": "Moderate",
@@ -3425,7 +3425,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "10 in",
     "minTank": "100+ gal",
     "careLabel": "Easy",
@@ -3483,7 +3483,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "6 in",
     "minTank": "70+ gal",
     "careLabel": "Moderate",
@@ -3541,7 +3541,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "6 in",
     "minTank": "55+ gal",
     "careLabel": "Specialist",
@@ -3599,7 +3599,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -3656,7 +3656,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Moderate",
@@ -3714,7 +3714,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -3771,7 +3771,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -3828,7 +3828,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3.5 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -3884,7 +3884,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3.5 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -3942,7 +3942,7 @@ const FISH = [
     "category": "Cardinalfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3.5 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -3998,7 +3998,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -4054,7 +4054,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "careLabel": "Easy",
@@ -4112,7 +4112,7 @@ const FISH = [
     "category": "Puffers",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "30+ gal",
     "careLabel": "Easy",
@@ -4171,7 +4171,7 @@ const FISH = [
     "category": "Eels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "24 in",
     "minTank": "55+ gal",
     "careLabel": "Moderate",
@@ -4229,7 +4229,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "70+ gal",
     "careLabel": "Moderate",
@@ -4288,7 +4288,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "8 in",
     "minTank": "75+ gal",
     "careLabel": "Specialist",
@@ -4348,7 +4348,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -4407,7 +4407,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "1 in",
     "minTank": "5+ gal",
     "careLabel": "Easy",
@@ -4464,7 +4464,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "1 in",
     "minTank": "5+ gal",
     "careLabel": "Easy",
@@ -4521,7 +4521,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "8 in",
     "minTank": "40+ gal",
     "careLabel": "Moderate",
@@ -4578,7 +4578,7 @@ const FISH = [
     "category": "Snails",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "careLabel": "Easy",
@@ -4635,7 +4635,7 @@ const FISH = [
     "category": "Snails",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "1 in",
     "minTank": "5+ gal",
     "careLabel": "Easy",
@@ -4692,7 +4692,7 @@ const FISH = [
     "category": "Anemones",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "12 in",
     "minTank": "30+ gal",
     "careLabel": "Moderate",
@@ -4750,7 +4750,7 @@ const FISH = [
     "category": "Clams",
     "type": "Invertebrate",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "12 in",
     "minTank": "30+ gal",
     "careLabel": "Moderate",
@@ -4809,7 +4809,7 @@ const FISH = [
     "category": "Lionfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "7 in",
     "minTank": "30+ gal",
     "careLabel": "Moderate",
@@ -4866,7 +4866,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "10 in",
     "minTank": "180+ gal",
     "diet": "Herbivore",
@@ -4899,7 +4899,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Advanced",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Immature tanks or buyers without a long-term care plan",
+      "Systems smaller than 180+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "atlantic-blue-tang",
@@ -4910,7 +4923,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "15 in",
     "minTank": "180+ gal",
     "diet": "Herbivore",
@@ -4943,7 +4956,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 180+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "blonde-naso-tang",
@@ -4954,7 +4979,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "18 in",
     "minTank": "180+ gal",
     "diet": "Herbivore / planktivore",
@@ -4987,7 +5012,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 180+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "blue-eye-kole-tang",
@@ -4998,7 +5035,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "8 in",
     "minTank": "75+ gal",
     "diet": "Detritivore",
@@ -5031,7 +5068,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 75+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "chevron-tang",
@@ -5042,7 +5091,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "11 in",
     "minTank": "125+ gal",
     "diet": "Herbivore / detritivore",
@@ -5075,7 +5124,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 125+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "chocolate-tang",
@@ -5086,7 +5147,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "10 in",
     "minTank": "100+ gal",
     "diet": "Herbivore / omnivore",
@@ -5119,7 +5180,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 100+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "clown-tang",
@@ -5130,7 +5203,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "15 in",
     "minTank": "250+ gal",
     "diet": "Herbivore",
@@ -5163,7 +5236,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Advanced",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Immature tanks or buyers without a long-term care plan",
+      "Systems smaller than 250+ gal"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a advanced profile that should not be rushed."
   },
   {
     "id": "dussumieri-tang",
@@ -5174,7 +5260,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "21 in",
     "minTank": "250+ gal",
     "diet": "Herbivore / detritivore",
@@ -5207,7 +5293,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 250+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "goldrim-tang",
@@ -5218,7 +5316,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "8 in",
     "minTank": "100+ gal",
     "diet": "Herbivore",
@@ -5251,7 +5349,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 100+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "lavender-tang",
@@ -5262,7 +5372,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "8 in",
     "minTank": "75+ gal",
     "diet": "Herbivore",
@@ -5295,7 +5405,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 75+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "lieutenant-tang",
@@ -5306,7 +5428,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "12 in",
     "minTank": "125+ gal",
     "diet": "Herbivore",
@@ -5339,7 +5461,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 125+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "mimic-tang",
@@ -5350,7 +5484,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "10 in",
     "minTank": "100+ gal",
     "diet": "Herbivore",
@@ -5383,7 +5517,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 100+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "orange-shoulder-tang",
@@ -5394,7 +5540,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "14 in",
     "minTank": "180+ gal",
     "diet": "Herbivore / detritivore",
@@ -5427,7 +5573,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 180+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "powder-brown-tang",
@@ -5438,7 +5596,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "8 in",
     "minTank": "100+ gal",
     "diet": "Herbivore",
@@ -5471,7 +5629,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 100+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "white-tail-bristletooth-tang",
@@ -5482,7 +5652,7 @@ const FISH = [
     "category": "Tangs",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "6 in",
     "minTank": "75+ gal",
     "diet": "Detritivore",
@@ -5515,7 +5685,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 75+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "african-flameback-angel",
@@ -5526,7 +5708,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -5559,7 +5741,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a moderate specialist choice than an impulse buy."
   },
   {
     "id": "asfur-angel",
@@ -5570,7 +5765,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "16 in",
     "minTank": "220+ gal",
     "diet": "Omnivore",
@@ -5603,7 +5798,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Shrimp, snails, crabs, or other ornamental invertebrates"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "bellus-angel",
@@ -5614,7 +5822,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "7 in",
     "minTank": "75+ gal",
     "diet": "Planktivore",
@@ -5647,7 +5855,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 75+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "blueface-angel",
@@ -5658,7 +5878,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "15 in",
     "minTank": "220+ gal",
     "diet": "Omnivore",
@@ -5691,7 +5911,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Shrimp, snails, crabs, or other ornamental invertebrates"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "cherub-angel",
@@ -5702,7 +5935,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2.5 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -5735,7 +5968,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "eibli-dwarf-angel",
@@ -5746,7 +5991,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "55+ gal",
     "diet": "Omnivore",
@@ -5779,7 +6024,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than 55+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a moderate specialist choice than an impulse buy."
   },
   {
     "id": "false-personifer-angel",
@@ -5790,7 +6048,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -5823,7 +6081,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "fisher-s-angel",
@@ -5834,7 +6105,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -5867,7 +6138,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "flagfin-angel",
@@ -5878,7 +6162,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -5911,7 +6195,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "french-angel",
@@ -5922,7 +6219,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -5955,7 +6252,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "goldflake-angel",
@@ -5966,7 +6276,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -5999,7 +6309,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "halfblack-angel",
@@ -6010,7 +6333,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6043,7 +6366,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "keyhole-angel",
@@ -6054,7 +6390,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6087,7 +6423,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "lamarck-s-angel",
@@ -6098,7 +6447,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6131,7 +6480,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "majestic-angel",
@@ -6142,7 +6504,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "10 in",
     "minTank": "125+ gal",
     "diet": "Omnivore",
@@ -6175,7 +6537,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Shrimp, snails, crabs, or other ornamental invertebrates"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "midnight-angel",
@@ -6186,7 +6561,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3.5 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -6219,7 +6594,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "multicolor-angel",
@@ -6230,7 +6618,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3.5 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -6263,7 +6651,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "potter-s-angel",
@@ -6274,7 +6675,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6307,7 +6708,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "queen-angel",
@@ -6318,7 +6732,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6351,7 +6765,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "regal-angel",
@@ -6362,7 +6789,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6395,7 +6822,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "rock-beauty-angel",
@@ -6406,7 +6846,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "14 in",
     "minTank": "125+ gal",
     "diet": "Spongivore",
@@ -6439,7 +6879,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Advanced",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Shrimp, snails, crabs, or other ornamental invertebrates"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a advanced specialist choice than an impulse buy."
   },
   {
     "id": "rusty-angel",
@@ -6450,7 +6903,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "40+ gal",
     "diet": "Omnivore",
@@ -6483,7 +6936,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than 40+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a moderate specialist choice than an impulse buy."
   },
   {
     "id": "scribbled-angel",
@@ -6494,7 +6960,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6527,7 +6993,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "swallowtail-angel",
@@ -6538,7 +7017,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6571,7 +7050,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "venustus-angel",
@@ -6582,7 +7074,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6615,7 +7107,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "watanabei-angel",
@@ -6626,7 +7131,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6659,7 +7164,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "zebra-angel",
@@ -6670,7 +7188,7 @@ const FISH = [
     "category": "Angelfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -6703,7 +7221,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "black-ice-clownfish",
@@ -6714,7 +7245,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -6747,7 +7278,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "black-photon-clownfish",
@@ -6758,7 +7301,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -6791,7 +7334,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "black-storm-clownfish",
@@ -6802,7 +7357,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -6835,7 +7390,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "cinnamon-clownfish",
@@ -6846,7 +7413,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -6879,7 +7446,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "clarkii-clownfish",
@@ -6890,7 +7469,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "6 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -6923,7 +7502,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "davinci-clownfish",
@@ -6934,7 +7525,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -6967,7 +7558,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "domino-clownfish",
@@ -6978,7 +7581,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7011,7 +7614,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "frostbite-clownfish",
@@ -7022,7 +7637,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7055,7 +7670,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "gladiator-clownfish",
@@ -7066,7 +7693,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7099,7 +7726,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "gold-stripe-maroon-clownfish",
@@ -7110,7 +7749,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "6 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -7143,7 +7782,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed."
   },
   {
     "id": "lightning-maroon-clownfish",
@@ -7154,7 +7805,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "6 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -7187,7 +7838,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed."
   },
   {
     "id": "midnight-clownfish",
@@ -7198,7 +7861,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7231,7 +7894,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "misbar-clownfish",
@@ -7242,7 +7917,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7275,7 +7950,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "mocha-clownfish",
@@ -7286,7 +7973,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7319,7 +8006,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "orange-skunk-clownfish",
@@ -7330,7 +8029,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7363,7 +8062,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "percula-clownfish",
@@ -7374,7 +8085,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7407,7 +8118,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "phantom-clownfish",
@@ -7418,7 +8141,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7451,7 +8174,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "picasso-clownfish",
@@ -7462,7 +8197,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7495,7 +8230,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "pink-skunk-clownfish",
@@ -7506,7 +8253,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7539,7 +8286,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "platinum-clownfish",
@@ -7550,7 +8309,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7583,7 +8342,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "saddleback-clownfish",
@@ -7594,7 +8365,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -7627,7 +8398,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "snowflake-clownfish",
@@ -7638,7 +8421,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7671,7 +8454,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "snow-onyx-clownfish",
@@ -7682,7 +8477,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7715,7 +8510,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "wyoming-white-clownfish",
@@ -7726,7 +8533,7 @@ const FISH = [
     "category": "Clownfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -7759,7 +8566,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "azure-damselfish",
@@ -7770,7 +8589,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2.5 in",
     "minTank": "15+ gal",
     "diet": "Omnivore",
@@ -7803,7 +8622,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 15+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "black-axil-chromis",
@@ -7814,7 +8645,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "30+ gal",
     "diet": "Omnivore / planktivore",
@@ -7847,7 +8678,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "blue-sapphire-damsel",
@@ -7858,7 +8701,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "diet": "Omnivore",
@@ -7891,7 +8734,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 10+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "blue-velvet-damsel",
@@ -7902,7 +8757,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "6 in",
     "minTank": "55+ gal",
     "diet": "Omnivore",
@@ -7935,7 +8790,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Systems smaller than 55+ gal"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed."
   },
   {
     "id": "domino-damsel",
@@ -7946,7 +8813,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "diet": "Omnivore",
@@ -7979,7 +8846,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a easy profile that should not be rushed."
   },
   {
     "id": "fiji-blue-devil-damsel",
@@ -7990,7 +8869,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -8023,7 +8902,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "kupang-damsel",
@@ -8034,7 +8925,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2.5 in",
     "minTank": "15+ gal",
     "diet": "Omnivore",
@@ -8067,7 +8958,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 15+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "rolland-s-damselfish",
@@ -8078,7 +8981,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2.5 in",
     "minTank": "15+ gal",
     "diet": "Omnivore",
@@ -8111,7 +9014,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 15+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "starki-damsel",
@@ -8122,7 +9037,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -8155,7 +9070,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "talbot-s-damselfish",
@@ -8166,7 +9093,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2.5 in",
     "minTank": "15+ gal",
     "diet": "Omnivore",
@@ -8199,7 +9126,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 15+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "three-stripe-damsel",
@@ -8210,7 +9149,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3.5 in",
     "minTank": "20+ gal",
     "diet": "Omnivore",
@@ -8243,7 +9182,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "vanderbilt-chromis",
@@ -8254,7 +9205,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2.5 in",
     "minTank": "20+ gal",
     "diet": "Planktivore",
@@ -8287,7 +9238,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "yellowtail-blue-damsel",
@@ -8298,7 +9261,7 @@ const FISH = [
     "category": "Damsels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8331,7 +9294,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "banana-wrasse",
@@ -8342,7 +9318,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8375,7 +9351,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "bird-wrasse",
@@ -8386,7 +9375,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8419,7 +9408,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "black-leopard-wrasse",
@@ -8430,7 +9432,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8463,7 +9465,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "blue-flasher-wrasse",
@@ -8474,7 +9489,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8507,7 +9522,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "bluestreak-cleaner-wrasse",
@@ -8518,7 +9546,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8551,7 +9579,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "canary-wrasse",
@@ -8562,7 +9603,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8595,7 +9636,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "christmas-wrasse",
@@ -8606,7 +9660,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "55+ gal",
     "diet": "Carnivore",
@@ -8639,7 +9693,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 55+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "dragon-wrasse",
@@ -8650,7 +9716,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "12 in",
     "minTank": "100+ gal",
     "diet": "Carnivore",
@@ -8683,7 +9749,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Shrimp, snails, crabs, or other ornamental invertebrates",
+      "Systems smaller than 100+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a moderate specialist choice than an impulse buy."
   },
   {
     "id": "eight-line-wrasse",
@@ -8694,7 +9773,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8727,7 +9806,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "exquisite-fairy-wrasse",
@@ -8738,7 +9830,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "55+ gal",
     "diet": "Carnivore",
@@ -8771,7 +9863,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 55+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "filamented-flasher-wrasse",
@@ -8782,7 +9886,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8815,7 +9919,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "flame-wrasse",
@@ -8826,7 +9943,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "55+ gal",
     "diet": "Carnivore / planktivore",
@@ -8859,7 +9976,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 55+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "four-line-wrasse",
@@ -8870,7 +9999,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8903,7 +10032,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "harlequin-tusk",
@@ -8914,7 +10056,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8947,7 +10089,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "hoeven-s-wrasse",
@@ -8958,7 +10113,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -8991,7 +10146,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "hooded-fairy-wrasse",
@@ -9002,7 +10170,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9035,7 +10203,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "lubbock-s-fairy-wrasse",
@@ -9046,7 +10227,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9079,7 +10260,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "lunare-wrasse",
@@ -9090,7 +10284,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9123,7 +10317,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "naoko-s-fairy-wrasse",
@@ -9134,7 +10341,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9167,7 +10374,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "ornate-leopard-wrasse",
@@ -9178,7 +10398,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9211,7 +10431,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "pink-streaked-wrasse",
@@ -9222,7 +10455,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9255,7 +10488,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "radiant-wrasse",
@@ -9266,7 +10512,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "40+ gal",
     "diet": "Carnivore",
@@ -9299,7 +10545,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 40+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "red-coris-wrasse",
@@ -9310,7 +10568,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9343,7 +10601,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "red-margin-fairy-wrasse",
@@ -9354,7 +10625,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9387,7 +10658,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "rhomboid-wrasse",
@@ -9398,7 +10682,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9431,7 +10715,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "ruby-head-fairy-wrasse",
@@ -9442,7 +10739,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9475,7 +10772,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "scott-s-fairy-wrasse",
@@ -9486,7 +10796,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9519,7 +10829,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "solar-fairy-wrasse",
@@ -9530,7 +10853,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4.5 in",
     "minTank": "55+ gal",
     "diet": "Carnivore",
@@ -9563,7 +10886,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 55+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "tanaka-s-pygmy-wrasse",
@@ -9574,7 +10909,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9607,7 +10942,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "timor-wrasse",
@@ -9618,7 +10966,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9651,7 +10999,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "yellow-banded-possum-wrasse",
@@ -9662,7 +11023,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9695,7 +11056,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "yellowfin-flasher-wrasse",
@@ -9706,7 +11080,7 @@ const FISH = [
     "category": "Wrasses",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9739,7 +11113,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "black-clown-goby",
@@ -9750,7 +11137,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9783,7 +11170,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "blue-dot-jawfish",
@@ -9794,7 +11194,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9827,7 +11227,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "catalina-goby",
@@ -9838,7 +11251,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2.5 in",
     "minTank": "10+ gal",
     "diet": "Carnivore",
@@ -9871,7 +11284,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Advanced",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Immature tanks or buyers without a long-term care plan",
+      "Systems smaller than 10+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "citrinis-clown-goby",
@@ -9882,7 +11308,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9915,7 +11341,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "diamond-watchman-goby",
@@ -9926,7 +11365,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -9959,7 +11398,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "dracula-goby",
@@ -9970,7 +11422,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10003,7 +11455,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "flaming-prawn-goby",
@@ -10014,7 +11479,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10047,7 +11512,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "green-clown-goby",
@@ -10058,7 +11536,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "1.5 in",
     "minTank": "10+ gal",
     "diet": "Omnivore",
@@ -10091,7 +11569,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 10+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "hi-fin-red-banded-goby",
@@ -10102,7 +11592,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10135,7 +11625,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "orange-spotted-goby",
@@ -10146,7 +11649,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10179,7 +11682,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "orange-stripe-prawn-goby",
@@ -10190,7 +11706,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10223,7 +11739,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "pink-spotted-watchman-goby",
@@ -10234,7 +11763,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10267,7 +11796,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "rainford-s-goby",
@@ -10278,7 +11820,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10311,7 +11853,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "sleeper-banded-goby",
@@ -10322,7 +11877,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10355,7 +11910,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "sleeper-gold-head-goby",
@@ -10366,7 +11934,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10399,7 +11967,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "tiger-watchman-goby",
@@ -10410,7 +11991,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "30+ gal",
     "diet": "Carnivore / sand sifter",
@@ -10443,7 +12024,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "trimma-goby",
@@ -10454,7 +12047,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10487,7 +12080,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "twin-spot-goby",
@@ -10498,7 +12104,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10531,7 +12137,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "wheeler-s-shrimp-goby",
@@ -10542,7 +12161,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10575,7 +12194,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "yellow-clown-goby",
@@ -10586,7 +12218,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "1.5 in",
     "minTank": "10+ gal",
     "diet": "Omnivore",
@@ -10619,7 +12251,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 10+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "yellow-line-goby",
@@ -10630,7 +12274,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10663,7 +12307,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "yellowhead-jawfish",
@@ -10674,7 +12331,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "30+ gal",
     "diet": "Carnivore / planktivore",
@@ -10707,7 +12364,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "canary-fang-blenny",
@@ -10718,7 +12387,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10751,7 +12420,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "ember-blenny",
@@ -10762,7 +12443,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "diet": "Herbivore",
@@ -10795,7 +12476,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 10+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "linear-blenny",
@@ -10806,7 +12499,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3.5 in",
     "minTank": "20+ gal",
     "diet": "Herbivore",
@@ -10839,7 +12532,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "molly-miller-blenny",
@@ -10850,7 +12555,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10883,7 +12588,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "smith-s-blenny",
@@ -10894,7 +12611,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -10927,7 +12644,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "starry-blenny",
@@ -10938,7 +12667,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5.5 in",
     "minTank": "30+ gal",
     "diet": "Herbivore",
@@ -10971,7 +12700,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "striped-fang-blenny",
@@ -10982,7 +12723,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11015,7 +12756,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "mandarin-dragonet",
@@ -11026,7 +12779,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11059,7 +12812,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "red-scooter-dragonet",
@@ -11070,7 +12836,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11103,7 +12869,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "scooter-blenny",
@@ -11114,7 +12893,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "30+ gal",
     "diet": "Copepods / microfauna",
@@ -11147,7 +12926,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Advanced",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Immature tanks or buyers without a long-term care plan",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "target-mandarin",
@@ -11158,7 +12950,7 @@ const FISH = [
     "category": "Gobies & Blennies",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11191,7 +12983,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "blackcap-basslet",
@@ -11202,7 +13007,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11235,7 +13040,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "candy-basslet",
@@ -11246,7 +13064,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11279,7 +13097,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "fridmani-dottyback",
@@ -11290,7 +13121,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11323,7 +13154,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "indigo-dottyback",
@@ -11334,7 +13178,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11367,7 +13211,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "neon-dottyback",
@@ -11378,7 +13235,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11411,7 +13268,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "randall-s-assessor",
@@ -11422,7 +13292,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11455,7 +13325,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "sankeyi-dottyback",
@@ -11466,7 +13349,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11499,7 +13382,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "springeri-dottyback",
@@ -11510,7 +13406,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11543,7 +13439,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "strawberry-dottyback",
@@ -11554,7 +13463,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11587,7 +13496,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "sunrise-dottyback",
@@ -11598,7 +13520,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11631,7 +13553,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "swissguard-basslet",
@@ -11642,7 +13577,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "3 in",
     "minTank": "20+ gal",
     "diet": "Carnivore",
@@ -11675,7 +13610,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "yellow-assessor",
@@ -11686,7 +13633,7 @@ const FISH = [
     "category": "Basslets & Dottybacks",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2.5 in",
     "minTank": "15+ gal",
     "diet": "Carnivore",
@@ -11719,7 +13666,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 15+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "bartlett-s-anthias",
@@ -11730,7 +13689,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11763,7 +13722,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "bicolor-anthias",
@@ -11774,7 +13746,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11807,7 +13779,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "bimaculatus-anthias",
@@ -11818,7 +13803,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11851,7 +13836,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "carberryi-anthias",
@@ -11862,7 +13860,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11895,7 +13893,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "dispar-anthias",
@@ -11906,7 +13917,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11939,7 +13950,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "evansi-anthias",
@@ -11950,7 +13974,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -11983,7 +14007,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "ignitus-anthias",
@@ -11994,7 +14031,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12027,7 +14064,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "lori-s-anthias",
@@ -12038,7 +14088,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12071,7 +14121,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "purple-queen-anthias",
@@ -12082,7 +14145,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12115,7 +14178,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "randall-s-anthias",
@@ -12126,7 +14202,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12159,7 +14235,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "resplendent-anthias",
@@ -12170,7 +14259,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12203,7 +14292,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "sunburst-anthias",
@@ -12214,7 +14316,7 @@ const FISH = [
     "category": "Anthias",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "5 in",
     "minTank": "75+ gal",
     "diet": "Carnivore / planktivore",
@@ -12247,7 +14349,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Advanced",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Immature tanks or buyers without a long-term care plan",
+      "Systems smaller than 75+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "banggai-cardinal",
@@ -12258,7 +14373,7 @@ const FISH = [
     "category": "Cardinalfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12291,7 +14406,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "flame-cardinal",
@@ -12302,7 +14430,7 @@ const FISH = [
     "category": "Cardinalfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "4 in",
     "minTank": "20+ gal",
     "diet": "Carnivore",
@@ -12335,7 +14463,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "orbic-cardinal",
@@ -12346,7 +14486,7 @@ const FISH = [
     "category": "Cardinalfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12379,7 +14519,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "red-spot-cardinal",
@@ -12390,7 +14543,7 @@ const FISH = [
     "category": "Cardinalfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12423,7 +14576,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "threadfin-cardinal",
@@ -12434,7 +14600,7 @@ const FISH = [
     "category": "Cardinalfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12467,7 +14633,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "yellow-stripe-cardinal",
@@ -12478,7 +14657,7 @@ const FISH = [
     "category": "Cardinalfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12511,7 +14690,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "arc-eye-hawkfish",
@@ -12522,7 +14714,7 @@ const FISH = [
     "category": "Hawkfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12555,7 +14747,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed."
   },
   {
     "id": "falco-hawkfish",
@@ -12566,7 +14771,7 @@ const FISH = [
     "category": "Hawkfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12599,7 +14804,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed."
   },
   {
     "id": "freckled-hawkfish",
@@ -12610,7 +14828,7 @@ const FISH = [
     "category": "Hawkfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12643,7 +14861,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed."
   },
   {
     "id": "pixy-hawkfish",
@@ -12654,7 +14885,7 @@ const FISH = [
     "category": "Hawkfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12687,7 +14918,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed."
   },
   {
     "id": "auriga-butterflyfish",
@@ -12698,7 +14942,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12731,7 +14975,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "heniochus-butterfly",
@@ -12742,7 +14999,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12775,7 +15032,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "klein-s-butterflyfish",
@@ -12786,7 +15056,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12819,7 +15089,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "longnose-butterflyfish",
@@ -12830,7 +15113,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "9 in",
     "minTank": "75+ gal",
     "diet": "Carnivore",
@@ -12863,7 +15146,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than 75+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "pearlscale-butterflyfish",
@@ -12874,7 +15170,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12907,7 +15203,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "pyramid-butterflyfish",
@@ -12918,7 +15227,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12951,7 +15260,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "raccoon-butterflyfish",
@@ -12962,7 +15284,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -12995,7 +15317,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "saddleback-butterflyfish",
@@ -13006,7 +15341,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13039,7 +15374,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "teardrop-butterflyfish",
@@ -13050,7 +15398,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13083,7 +15431,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "vagabond-butterflyfish",
@@ -13094,7 +15455,7 @@ const FISH = [
     "category": "Butterflyfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13127,7 +15488,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "blue-spotted-rabbitfish",
@@ -13138,7 +15512,7 @@ const FISH = [
     "category": "Rabbitfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13171,7 +15545,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "foxface-lo",
@@ -13182,7 +15569,7 @@ const FISH = [
     "category": "Rabbitfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13215,7 +15602,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "magnificent-foxface",
@@ -13226,7 +15626,7 @@ const FISH = [
     "category": "Rabbitfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "9 in",
     "minTank": "100+ gal",
     "diet": "Herbivore",
@@ -13259,7 +15659,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 100+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "masked-rabbitfish",
@@ -13270,7 +15682,7 @@ const FISH = [
     "category": "Rabbitfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13303,7 +15715,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "one-spot-foxface",
@@ -13314,7 +15739,7 @@ const FISH = [
     "category": "Rabbitfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13347,7 +15772,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "scribbled-rabbitfish",
@@ -13358,7 +15796,7 @@ const FISH = [
     "category": "Rabbitfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13391,7 +15829,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "bluejaw-trigger",
@@ -13402,7 +15853,7 @@ const FISH = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13435,7 +15886,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "bursa-trigger",
@@ -13446,7 +15910,7 @@ const FISH = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13479,7 +15943,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "clown-trigger",
@@ -13490,7 +15967,7 @@ const FISH = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13523,7 +16000,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "crosshatch-trigger",
@@ -13534,7 +16024,7 @@ const FISH = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13567,7 +16057,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "niger-trigger",
@@ -13578,7 +16081,7 @@ const FISH = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13611,7 +16114,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "picasso-trigger",
@@ -13622,7 +16138,7 @@ const FISH = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13655,7 +16171,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "pinktail-trigger",
@@ -13666,7 +16195,7 @@ const FISH = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13699,7 +16228,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "queen-trigger",
@@ -13710,7 +16252,7 @@ const FISH = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13743,7 +16285,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "sargassum-trigger",
@@ -13754,7 +16309,7 @@ const FISH = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13787,7 +16342,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "undulated-trigger",
@@ -13798,7 +16366,7 @@ const FISH = [
     "category": "Triggerfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13831,7 +16399,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "blue-spot-puffer",
@@ -13842,7 +16423,7 @@ const FISH = [
     "category": "Puffers",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13875,7 +16456,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "camel-cowfish",
@@ -13886,7 +16480,7 @@ const FISH = [
     "category": "Puffers",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13919,7 +16513,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "dogface-puffer",
@@ -13930,7 +16537,7 @@ const FISH = [
     "category": "Puffers",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -13963,7 +16570,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "longhorn-cowfish",
@@ -13974,7 +16594,7 @@ const FISH = [
     "category": "Puffers",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14007,7 +16627,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "porcupine-puffer",
@@ -14018,7 +16651,7 @@ const FISH = [
     "category": "Puffers",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14051,7 +16684,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "saddle-valentini-puffer",
@@ -14062,7 +16708,7 @@ const FISH = [
     "category": "Puffers",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14095,7 +16741,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "spiny-box-puffer",
@@ -14106,7 +16765,7 @@ const FISH = [
     "category": "Puffers",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14139,7 +16798,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "stars-and-stripes-puffer",
@@ -14150,7 +16822,7 @@ const FISH = [
     "category": "Puffers",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14183,7 +16855,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "yellow-boxfish",
@@ -14194,7 +16879,7 @@ const FISH = [
     "category": "Puffers",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14227,7 +16912,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "antennata-lionfish",
@@ -14238,7 +16936,7 @@ const FISH = [
     "category": "Lionfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14271,7 +16969,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the large pectoral fins, extended spines, and slow hovering posture of venomous lionfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "cockatoo-waspfish",
@@ -14282,7 +16993,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14315,7 +17026,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "fu-manchu-lionfish",
@@ -14326,7 +17050,7 @@ const FISH = [
     "category": "Lionfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14359,7 +17083,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the large pectoral fins, extended spines, and slow hovering posture of venomous lionfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "leaf-fish",
@@ -14370,7 +17107,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14403,7 +17140,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "radiata-lionfish",
@@ -14414,7 +17164,7 @@ const FISH = [
     "category": "Lionfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14447,7 +17197,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the large pectoral fins, extended spines, and slow hovering posture of venomous lionfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "volitan-lionfish",
@@ -14458,7 +17221,7 @@ const FISH = [
     "category": "Lionfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14491,7 +17254,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the large pectoral fins, extended spines, and slow hovering posture of venomous lionfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "zebra-lionfish",
@@ -14502,7 +17278,7 @@ const FISH = [
     "category": "Lionfish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14535,7 +17311,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the large pectoral fins, extended spines, and slow hovering posture of venomous lionfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "blue-ribbon-eel",
@@ -14546,7 +17335,7 @@ const FISH = [
     "category": "Eels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14579,7 +17368,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "chainlink-eel",
@@ -14590,7 +17392,7 @@ const FISH = [
     "category": "Eels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14623,7 +17425,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "dragon-moray",
@@ -14634,7 +17449,7 @@ const FISH = [
     "category": "Eels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "36 in",
     "minTank": "180+ gal",
     "diet": "Carnivore",
@@ -14667,7 +17482,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Shrimp, snails, crabs, or other ornamental invertebrates",
+      "Systems smaller than 180+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "golden-dwarf-moray",
@@ -14678,7 +17506,7 @@ const FISH = [
     "category": "Eels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14711,7 +17539,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "jewel-moray",
@@ -14722,7 +17563,7 @@ const FISH = [
     "category": "Eels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14755,7 +17596,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "tessalata-eel",
@@ -14766,7 +17620,7 @@ const FISH = [
     "category": "Eels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14799,7 +17653,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "white-ribbon-eel",
@@ -14810,7 +17677,7 @@ const FISH = [
     "category": "Eels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14843,7 +17710,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "zebra-moray",
@@ -14854,7 +17734,7 @@ const FISH = [
     "category": "Eels",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14887,7 +17767,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "aiptasia-eating-filefish",
@@ -14898,7 +17791,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14931,7 +17824,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "comet",
@@ -14942,7 +17848,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -14975,7 +17881,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "marine-betta",
@@ -14986,7 +17905,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "8 in",
     "minTank": "55+ gal",
     "diet": "Carnivore",
@@ -15019,7 +17938,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Shrimp, snails, crabs, or other ornamental invertebrates",
+      "Systems smaller than 55+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "matted-filefish",
@@ -15030,7 +17962,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15063,7 +17995,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "orange-spotted-filefish",
@@ -15074,7 +18019,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15107,7 +18052,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "sargassum-angler",
@@ -15118,7 +18076,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15151,7 +18109,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "tassled-filefish",
@@ -15162,7 +18133,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15195,7 +18166,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "wartskin-angler",
@@ -15206,7 +18190,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15239,7 +18223,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "cuban-hogfish",
@@ -15250,7 +18247,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15283,7 +18280,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "miniatus-grouper",
@@ -15294,7 +18304,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15327,7 +18337,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "panther-grouper",
@@ -15338,7 +18361,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "28 in",
     "minTank": "300+ gal",
     "diet": "Carnivore",
@@ -15371,7 +18394,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Shrimp, snails, crabs, or other ornamental invertebrates",
+      "Systems smaller than 300+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a moderate specialist choice than an impulse buy."
   },
   {
     "id": "porkfish",
@@ -15382,7 +18418,7 @@ const FISH = [
     "category": "Other Fish",
     "type": "Saltwater Fish",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15415,7 +18451,20 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "anemone-shrimp",
@@ -15426,7 +18475,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15459,7 +18508,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "banded-coral-shrimp",
@@ -15470,7 +18531,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15503,7 +18564,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "blood-red-fire-shrimp",
@@ -15514,7 +18587,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15547,7 +18620,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "bumblebee-shrimp",
@@ -15558,7 +18643,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15591,7 +18676,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "camel-shrimp",
@@ -15602,7 +18699,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15635,7 +18732,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "candy-cane-pistol-shrimp",
@@ -15646,7 +18755,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15679,7 +18788,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "durban-dancing-shrimp",
@@ -15690,7 +18811,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15723,7 +18844,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "gold-coral-banded-shrimp",
@@ -15734,7 +18867,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15767,7 +18900,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "harlequin-shrimp",
@@ -15778,7 +18923,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "diet": "Starfish only",
@@ -15811,7 +18956,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "pederson-cleaner-shrimp",
@@ -15822,7 +18979,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15855,7 +19012,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "pistol-shrimp",
@@ -15866,7 +19035,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15899,7 +19068,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "randall-s-pistol-shrimp",
@@ -15910,7 +19091,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15943,7 +19124,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "skunk-cleaner-shrimp",
@@ -15954,7 +19147,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -15987,7 +19180,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "tiger-pistol-shrimp",
@@ -15998,7 +19203,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "2 in",
     "minTank": "10+ gal",
     "diet": "Carnivore / scavenger",
@@ -16031,7 +19236,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a easy invertebrate profile, not a generic add-on."
   },
   {
     "id": "anemone-porcelain-crab",
@@ -16042,7 +19259,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16075,7 +19292,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "arrow-crab",
@@ -16086,7 +19315,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "6 in (leg span)",
     "minTank": "20+ gal",
     "diet": "Carnivore / scavenger",
@@ -16119,7 +19348,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a moderate invertebrate profile, not a generic add-on."
   },
   {
     "id": "decorator-crab",
@@ -16130,7 +19371,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16163,7 +19404,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "electric-blue-hermit-crab",
@@ -16174,7 +19427,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16207,7 +19460,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "electric-orange-hermit-crab",
@@ -16218,7 +19483,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16251,7 +19516,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "mithrax-crab",
@@ -16262,7 +19539,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16295,7 +19572,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "pom-pom-crab",
@@ -16306,7 +19595,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16339,7 +19628,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "porcelain-crab",
@@ -16350,7 +19651,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "1 in",
     "minTank": "10+ gal",
     "diet": "Filter feeder / planktivore",
@@ -16383,7 +19684,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a moderate invertebrate profile, not a generic add-on."
   },
   {
     "id": "red-mithrax-crab",
@@ -16394,7 +19707,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16427,7 +19740,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "ruby-mithrax-crab",
@@ -16438,7 +19763,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16471,7 +19796,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "sally-lightfoot-crab",
@@ -16482,7 +19819,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16515,7 +19852,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "scarlet-reef-hermit-crab",
@@ -16526,7 +19875,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16559,7 +19908,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "strawberry-crab",
@@ -16570,7 +19931,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16603,7 +19964,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "thin-stripe-hermit-crab",
@@ -16614,7 +19987,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16647,7 +20020,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "white-spot-hermit-crab",
@@ -16658,7 +20043,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16691,7 +20076,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "zebra-hermit-crab",
@@ -16702,7 +20099,7 @@ const FISH = [
     "category": "Crabs",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16735,7 +20132,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for claw size, leg shape, shell color, and whether it climbs, perches, or grazes across rockwork.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "astrea-snail",
@@ -16746,7 +20155,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16779,7 +20188,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "bumblebee-snail",
@@ -16790,7 +20211,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16823,7 +20244,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "dwarf-cerith-snail",
@@ -16834,7 +20267,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16867,7 +20300,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "florida-cerith-snail",
@@ -16878,7 +20323,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16911,7 +20356,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "money-cowrie",
@@ -16922,7 +20379,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16955,7 +20412,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "nerite-snail",
@@ -16966,7 +20435,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -16999,7 +20468,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "queen-conch",
@@ -17010,7 +20491,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17043,7 +20524,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "stomatella-snail",
@@ -17054,7 +20547,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17087,7 +20580,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "strawberry-conch",
@@ -17098,7 +20603,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17131,7 +20636,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "super-tongan-nassarius",
@@ -17142,7 +20659,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17175,7 +20692,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "tectus-snail",
@@ -17186,7 +20715,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17219,7 +20748,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "tiger-conch",
@@ -17230,7 +20771,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17263,7 +20804,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "banded-serpent-star",
@@ -17274,7 +20827,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "12 in (arm span)",
     "minTank": "20+ gal",
     "diet": "Scavenger / detritivore",
@@ -17307,7 +20860,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a easy invertebrate profile, not a generic add-on."
   },
   {
     "id": "blue-linckia-starfish",
@@ -17318,7 +20883,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17351,7 +20916,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "brittle-star",
@@ -17362,7 +20939,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17395,7 +20972,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "chocolate-chip-starfish",
@@ -17406,7 +20995,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17439,7 +21028,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "collector-urchin",
@@ -17450,7 +21051,7 @@ const FISH = [
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17483,7 +21084,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "fromia-starfish",
@@ -17494,7 +21107,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17527,7 +21140,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "green-brittle-star",
@@ -17538,7 +21163,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17571,7 +21196,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "halloween-urchin",
@@ -17582,7 +21219,7 @@ const FISH = [
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17615,7 +21252,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "long-spine-urchin",
@@ -17626,7 +21275,7 @@ const FISH = [
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "8 in (body)",
     "minTank": "40+ gal",
     "diet": "Herbivore / algae",
@@ -17659,7 +21308,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a moderate invertebrate profile, not a generic add-on."
   },
   {
     "id": "orange-linckia-starfish",
@@ -17670,7 +21331,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17703,7 +21364,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "pencil-urchin",
@@ -17714,7 +21387,7 @@ const FISH = [
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17747,7 +21420,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "pin-cushion-urchin",
@@ -17758,7 +21443,7 @@ const FISH = [
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17791,7 +21476,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "red-fromia-starfish",
@@ -17802,7 +21499,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17835,7 +21532,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "red-linckia-starfish",
@@ -17846,7 +21555,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17879,7 +21588,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "sand-sifting-sea-cucumber",
@@ -17890,7 +21611,7 @@ const FISH = [
     "category": "Inverts",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17923,7 +21644,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use body shape, movement style, and feeding position together with the label before deciding on care or compatibility.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "serpent-star",
@@ -17934,7 +21667,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -17967,7 +21700,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "short-spine-urchin",
@@ -17978,7 +21723,7 @@ const FISH = [
     "category": "Urchins",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18011,7 +21756,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "tiger-tail-sea-cucumber",
@@ -18022,7 +21779,7 @@ const FISH = [
     "category": "Inverts",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18055,7 +21812,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use body shape, movement style, and feeding position together with the label before deciding on care or compatibility.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "coco-worm",
@@ -18066,7 +21835,7 @@ const FISH = [
     "category": "Inverts",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18099,7 +21868,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use body shape, movement style, and feeding position together with the label before deciding on care or compatibility.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "colorado-sunburst-anemone",
@@ -18110,7 +21891,7 @@ const FISH = [
     "category": "Anemones",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18143,7 +21924,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for tentacle length, oral disc shape, and where it settles once attached.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "crocea-clam",
@@ -18154,7 +21947,7 @@ const FISH = [
     "category": "Clams",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18187,7 +21980,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for mantle color, shell ridging, and how widely the mantle extends under light.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "derasa-clam",
@@ -18198,7 +22003,7 @@ const FISH = [
     "category": "Clams",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18231,7 +22036,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for mantle color, shell ridging, and how widely the mantle extends under light.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "feather-duster-worm",
@@ -18242,7 +22059,7 @@ const FISH = [
     "category": "Inverts",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18275,7 +22092,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use body shape, movement style, and feeding position together with the label before deciding on care or compatibility.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "long-tentacle-anemone",
@@ -18286,7 +22115,7 @@ const FISH = [
     "category": "Anemones",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18319,7 +22148,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for tentacle length, oral disc shape, and where it settles once attached.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "magnifica-anemone",
@@ -18330,7 +22171,7 @@ const FISH = [
     "category": "Anemones",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18363,7 +22204,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for tentacle length, oral disc shape, and where it settles once attached.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "maxi-mini-carpet-anemone",
@@ -18374,7 +22227,7 @@ const FISH = [
     "category": "Anemones",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18407,7 +22260,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for tentacle length, oral disc shape, and where it settles once attached.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "rainbow-bubble-tip-anemone",
@@ -18418,7 +22283,7 @@ const FISH = [
     "category": "Anemones",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18451,7 +22316,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for tentacle length, oral disc shape, and where it settles once attached.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "rock-flower-anemone",
@@ -18462,7 +22339,7 @@ const FISH = [
     "category": "Anemones",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18495,7 +22372,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for tentacle length, oral disc shape, and where it settles once attached.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "rose-bubble-tip-anemone",
@@ -18506,7 +22395,7 @@ const FISH = [
     "category": "Anemones",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18539,7 +22428,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for tentacle length, oral disc shape, and where it settles once attached.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "sebae-anemone",
@@ -18550,7 +22451,7 @@ const FISH = [
     "category": "Anemones",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18583,7 +22484,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for tentacle length, oral disc shape, and where it settles once attached.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "squamosa-clam",
@@ -18594,7 +22507,7 @@ const FISH = [
     "category": "Clams",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18627,7 +22540,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for mantle color, shell ridging, and how widely the mantle extends under light.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "tube-anemone",
@@ -18638,7 +22563,7 @@ const FISH = [
     "category": "Anemones",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18671,7 +22596,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for tentacle length, oral disc shape, and where it settles once attached.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "amphipods",
@@ -18682,7 +22619,7 @@ const FISH = [
     "category": "Inverts",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18715,7 +22652,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use body shape, movement style, and feeding position together with the label before deciding on care or compatibility.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "berghia-nudibranch",
@@ -18726,7 +22675,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18759,7 +22708,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "chaeto-refugium-pack",
@@ -18770,7 +22731,7 @@ const FISH = [
     "category": "Inverts",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18803,7 +22764,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use body shape, movement style, and feeding position together with the label before deciding on care or compatibility.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "copepods",
@@ -18814,7 +22787,7 @@ const FISH = [
     "category": "Inverts",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18847,7 +22820,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use body shape, movement style, and feeding position together with the label before deciding on care or compatibility.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "lettuce-nudibranch",
@@ -18858,7 +22843,7 @@ const FISH = [
     "category": "Snails",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18891,7 +22876,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "live-rock-cleanup-pack",
@@ -18902,7 +22899,7 @@ const FISH = [
     "category": "Inverts",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18935,7 +22932,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use body shape, movement style, and feeding position together with the label before deciding on care or compatibility.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "mysid-shrimp-culture",
@@ -18946,7 +22955,7 @@ const FISH = [
     "category": "Shrimp",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -18979,7 +22988,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "pods-starter-culture",
@@ -18990,7 +23011,7 @@ const FISH = [
     "category": "Starfish",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -19023,7 +23044,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for body shape, arm thickness, and whether it stays on sand, rock, or glass surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "refugium-microfauna-pack",
@@ -19034,7 +23067,7 @@ const FISH = [
     "category": "Inverts",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "Needs enrichment",
     "minTank": "Needs enrichment",
     "diet": "—",
@@ -19067,7 +23100,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use body shape, movement style, and feeding position together with the label before deciding on care or compatibility.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Care plans matched to its feeding and placement needs"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Tankmates that may pick at sessile or slow invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "sea-hare",
@@ -19078,7 +23123,7 @@ const FISH = [
     "category": "Inverts",
     "type": "Saltwater Invert",
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "maxSize": "12 in",
     "minTank": "30+ gal",
     "diet": "Herbivore / algae",
@@ -19111,7 +23156,19 @@ const FISH = [
       "temp_low": 75,
       "temp_high": 80
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Use body shape, movement style, and feeding position together with the label before deciding on care or compatibility.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "desjardini-tang",
@@ -19138,11 +23195,15 @@ const FISH = [
     "overview_es": "El primo del Océano Índico del Tang Aleta de Vela del Pacífico. Hardy y gran comedor de algas pero crece mucho.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 180+ gal.",
+      "Diet profile: Herbivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19155,9 +23216,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 180+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "white-tail-tang",
@@ -19184,11 +23263,15 @@ const FISH = [
     "overview_es": "A diferencia de la mayoría de los tangs que pastan algas, esta especie se alimenta principalmente de plancton.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 125+ gal.",
+      "Diet profile: Planktivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19201,9 +23284,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 125+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "french-angelfish",
@@ -19230,11 +23331,15 @@ const FISH = [
     "overview_es": "Un impresionante pez ángel grande donde cada escama está bordeada de oro.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 250+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: not reef safe, use caution with ornamental inverts, and temperament trends assertive."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19247,9 +23352,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Shrimp, snails, crabs, or other ornamental invertebrates"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "queen-angelfish",
@@ -19276,11 +23400,15 @@ const FISH = [
     "overview_es": "Uno de los peces más fotografiados del Caribe. Azul eléctrico y amarillo.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 250+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: not reef safe, high invert risk, and temperament trends assertive."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19293,9 +23421,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Shrimp, snails, crabs, or other ornamental invertebrates"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "regal-angelfish",
@@ -19322,11 +23469,15 @@ const FISH = [
     "overview_es": "Uno de los peces ángel más hermosos. Extremadamente difícil lograr que coma en cautiverio.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 125+ gal.",
+      "Diet profile: Omnivore / spongivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: use caution with corals, mostly safe with inverts, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19339,9 +23490,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Specialist",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Immature tanks or buyers without a long-term care plan"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a specialist specialist choice than an impulse buy."
   },
   {
     "id": "japanese-swallowtail-angel",
@@ -19368,11 +23538,15 @@ const FISH = [
     "overview_es": "El género Genicanthus se alimenta de plancton, haciéndolos genuinamente seguros para arrecife.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 75+ gal.",
+      "Diet profile: Planktivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends calm to mild."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19385,9 +23559,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 75+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "keyhole-angelfish",
@@ -19414,11 +23606,15 @@ const FISH = [
     "overview_es": "Un pez ángel enano más grande con cuerpo oscuro dramático y marca blanca en forma de cerradura.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 75+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: use caution with corals, mostly safe with inverts, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19431,9 +23627,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than 75+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "watanabei-angelfish",
@@ -19460,11 +23675,15 @@ const FISH = [
     "overview_es": "Otro pez ángel seguro para arrecife del género Genicanthus.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 75+ gal.",
+      "Diet profile: Planktivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19477,9 +23696,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 75+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "cleaner-wrasse",
@@ -19506,11 +23743,15 @@ const FISH = [
     "overview_es": "Establece estaciones de limpieza. Extremadamente difícil de mantener vivo.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 30+ gal.",
+      "Diet profile: Ectoparasites. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19523,9 +23764,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Specialist",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Immature tanks or buyers without a long-term care plan",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "scott-fairy-wrasse",
@@ -19552,11 +23812,15 @@ const FISH = [
     "overview_es": "Uno de los lábridos hada más resistentes. Cuerpo verde profundo con acentos rojos y azules.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 55+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends calm to mild."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19569,9 +23833,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 55+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "flasher-wrasse-filamented",
@@ -19598,11 +23880,15 @@ const FISH = [
     "overview_es": "Los machos desarrollan increíbles extensiones filamentosas y realizan exhibiciones de destello al atardecer.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 30+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19615,9 +23901,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "halichoeres-wrasse",
@@ -19644,11 +23948,15 @@ const FISH = [
     "overview_es": "Amarillo brillante, extremadamente resistente, come gusanos planos y plagas.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 50+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, mostly safe with inverts, and temperament trends calm to mild."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19661,9 +23969,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 50+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "two-spot-goby",
@@ -19690,11 +24016,15 @@ const FISH = [
     "overview_es": "Camina sobre sus aletas pélvicas y despliega aletas para mostrar manchas oculares falsas.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 20+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19707,9 +24037,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "wheeler-goby",
@@ -19736,11 +24084,15 @@ const FISH = [
     "overview_es": "Barras verticales rojas y blancas llamativas. Forma pareja simbiótica con camarones pistola.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 20+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19753,9 +24105,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "orange-line-goby",
@@ -19782,11 +24152,15 @@ const FISH = [
     "overview_es": "Quita parásitos de otros peces. Perfecto para nano acuarios. Muy resistente.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 10+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19799,9 +24173,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 10+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "yellowtail-clownfish",
@@ -19828,11 +24220,15 @@ const FISH = [
     "overview_es": "El pez payaso más resistente y adaptable. Hospedará en casi cualquier anémona.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 30+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19845,9 +24241,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "skunk-clownfish",
@@ -19874,11 +24288,15 @@ const FISH = [
     "overview_es": "Esbelto y gracioso con cuerpo naranja-durazno y franja blanca a lo largo del lomo dorsal.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 20+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends calm to mild."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19891,9 +24309,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "blue-reef-chromis",
@@ -19920,11 +24356,15 @@ const FISH = [
     "overview_es": "Un chromis azul neón vívido del Caribe. Mejor en grupos de 5 o más.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 30+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends calm to mild."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19937,9 +24377,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "threadfin-cardinalfish",
@@ -19966,11 +24424,15 @@ const FISH = [
     "overview_es": "Cardenales diminutos y translúcidos que forman cardúmenes hermosos.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 10+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -19983,9 +24445,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 10+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "royal-dottyback",
@@ -20012,11 +24492,15 @@ const FISH = [
     "overview_es": "Dividido por la mitad — frente púrpura, trasero amarillo. Puede ser territorial.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 30+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, mostly safe with inverts, and temperament trends assertive."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20029,9 +24513,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "mandarin-goby-target",
@@ -20058,11 +24560,15 @@ const FISH = [
     "overview_es": "Círculos y puntos verdes en lugar de remolinos psicodélicos. Mismos requisitos de copépodos.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 30+ gal.",
+      "Diet profile: Copepods. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20075,9 +24581,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Advanced",
+    "visualCue": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Immature tanks or buyers without a long-term care plan",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "harlequin-tuskfish",
@@ -20104,11 +24629,15 @@ const FISH = [
     "overview_es": "Bandas vívidas naranjas, azules y verdes con prominentes dientes azules.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 125+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: mostly reef safe, high invert risk, and temperament trends assertive."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20121,9 +24650,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Shrimp, snails, crabs, or other ornamental invertebrates",
+      "Systems smaller than 125+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a intermediate specialist choice than an impulse buy."
   },
   {
     "id": "niger-triggerfish",
@@ -20150,11 +24698,15 @@ const FISH = [
     "overview_es": "La ballesta más pacífica. Cuerpo azul-verde impresionante con dientes rojos.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 180+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: use caution with corals, high invert risk, and temperament trends assertive."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20167,9 +24719,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Shrimp, snails, crabs, or other ornamental invertebrates"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a moderate specialist choice than an impulse buy."
   },
   {
     "id": "candy-cane-shrimp",
@@ -20196,11 +24767,15 @@ const FISH = [
     "overview_es": "Rayas rojas y blancas tipo bastón de caramelo. Tímido y nocturno.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 10+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20213,9 +24788,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a moderate invertebrate profile, not a generic add-on."
   },
   {
     "id": "astraea-snail",
@@ -20242,11 +24835,15 @@ const FISH = [
     "overview_es": "Caracol básico del equipo de limpieza. No puede enderezarse si se voltea.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 5+ gal.",
+      "Diet profile: Herbivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20259,9 +24856,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a easy invertebrate profile, not a generic add-on."
   },
   {
     "id": "sand-dollar",
@@ -20288,11 +24903,15 @@ const FISH = [
     "overview_es": "Excavan a través del sustrato procesando materia orgánica. Necesitan lecho de arena profundo.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 50+ gal.",
+      "Diet profile: Detritivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20305,9 +24924,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "bartletts-anthias",
@@ -20334,11 +24971,15 @@ const FISH = [
     "overview_es": "Uno de los anthias más resistentes con coloración rosa-naranja vibrante.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 40+ gal.",
+      "Diet profile: Planktivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends calm to mild."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20351,9 +24992,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 40+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "banggai-cardinalfish",
@@ -20380,11 +25039,15 @@ const FISH = [
     "overview_es": "Se distingue por aletas elongadas y barras negras dramáticas. Fácil de criar.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 20+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends calm to mild."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20397,9 +25060,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "foxface-rabbitfish",
@@ -20426,11 +25107,15 @@ const FISH = [
     "overview_es": "Amarillo vibrante con cara blanca y negra. Excelente comedor de algas con espinas venenosas.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 100+ gal.",
+      "Diet profile: Herbivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: mostly reef safe, low invert risk, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20443,9 +25128,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 100+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "blue-damselfish",
@@ -20472,11 +25175,15 @@ const FISH = [
     "overview_es": "Azul eléctrico y extremadamente resistente pero se vuelve muy territorial y agresiva.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 20+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends assertive."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20489,9 +25196,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a easy profile that should not be rushed."
   },
   {
     "id": "yellowtail-damselfish",
@@ -20518,11 +25243,15 @@ const FISH = [
     "overview_es": "Cuerpo azul y cola amarilla brillante. Menos agresiva que la mayoría de las damiselas.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 15+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20535,9 +25264,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a compact, fast-moving fish that stays alert in the water column and around cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 15+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "orchid-dottyback",
@@ -20564,11 +25311,15 @@ const FISH = [
     "overview_es": "Púrpura intenso. Ejemplares criados en cautiverio disponibles y menos agresivos.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 20+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20581,9 +25332,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "coral-catshark",
@@ -20610,11 +25379,15 @@ const FISH = [
     "overview_es": "Hermoso tiburón pequeño con patrón marmoleado. Nocturno pero necesita sistema extremadamente grande.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 300+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, high invert risk, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20627,9 +25400,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Advanced",
+    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Shrimp, snails, crabs, or other ornamental invertebrates",
+      "Immature tanks or buyers without a long-term care plan"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a advanced specialist choice than an impulse buy."
   },
   {
     "id": "blue-tuxedo-urchin",
@@ -20656,11 +25448,15 @@ const FISH = [
     "overview_es": "Bandas azules y rojo-naranja. Recoge objetos y los carga. Excelente comedor de algas.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 20+ gal.",
+      "Diet profile: Herbivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20673,9 +25469,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a easy invertebrate profile, not a generic add-on."
   },
   {
     "id": "flame-scallop",
@@ -20702,11 +25516,15 @@ const FISH = [
     "overview_es": "Vieira roja impresionante con exhibición de luz. Extremadamente difícil de mantener.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 20+ gal.",
+      "Diet profile: Filter feeder. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20719,9 +25537,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Specialist",
+    "visualCue": "Look for mantle color, shell ridging, and how widely the mantle extends under light.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates",
+      "Beginner impulse purchases without a clear care plan"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a specialist invertebrate profile, not a generic add-on."
   },
   {
     "id": "lettuce-sea-slug",
@@ -20748,11 +25585,15 @@ const FISH = [
     "overview_es": "Incorpora cloroplastos de algas permitiendo fotosíntesis. Efectivo comedor de algas capilares.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 10+ gal.",
+      "Diet profile: Algae / photosynthetic. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20765,9 +25606,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "bestWith": [
+      "Stable systems with mature parameters",
+      "Tankmates unlikely to harass or overturn invertebrates",
+      "Reef tanks planned around its specific role"
+    ],
+    "cautionWith": [
+      "Unstable salinity, immature systems, or rough handling",
+      "Fish known to nip, flip, or harass small invertebrates"
+    ],
+    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on."
   },
   {
     "id": "randalls-assessor",
@@ -20794,11 +25653,15 @@ const FISH = [
     "overview_es": "Nada boca abajo bajo salientes. Diminuto, pacífico, perfecto para nano arrecifes.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 15+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20811,9 +25674,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 15+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "peppermint-angelfish",
@@ -20840,11 +25721,15 @@ const FISH = [
     "overview_es": "Recolectado de más de 100 metros de profundidad. Rayas rojas y blancas. Se vende por $15,000-$30,000.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 30+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: use caution with corals, mostly safe with inverts, and temperament trends calm to mild."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20857,9 +25742,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Specialist",
+    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Immature tanks or buyers without a long-term care plan"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a specialist specialist choice than an impulse buy."
   },
   {
     "id": "clown-triggerfish",
@@ -20886,11 +25790,15 @@ const FISH = [
     "overview_es": "Cuerpo negro, puntos blancos en el vientre, labio amarillo. Hermoso pero extremadamente agresivo.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 250+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: not reef safe, high invert risk, and temperament trends highly aggressive."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20903,9 +25811,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Fish-only or mixed systems built around assertive livestock",
+      "Experienced stocking plans with assertive tankmates"
+    ],
+    "cautionWith": [
+      "Timid tankmates or crowded stocking plans",
+      "Corals or polyps that could be nipped or disturbed",
+      "Shrimp, snails, crabs, or other ornamental invertebrates"
+    ],
+    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed."
   },
   {
     "id": "bicinctus-clownfish",
@@ -20932,11 +25859,15 @@ const FISH = [
     "overview_es": "Único pez payaso nativo del Mar Rojo. Dorado-marrón con dos barras blancas.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 30+ gal.",
+      "Diet profile: Omnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20949,9 +25880,27 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 30+ gal"
+    ],
+    "staffNote": "Confirm tank size, diet, and long-term compatibility before sale. This profile is easiest to sell well when the customer can describe the actual setup."
   },
   {
     "id": "green-bird-wrasse",
@@ -20978,11 +25927,15 @@ const FISH = [
     "overview_es": "Hocico tipo pájaro para recoger invertebrados. Machos verde vívido, hembras marrones.",
     "inStock": false,
     "price": 0,
-    "stockSize": "",
+    "stockSize": "Unknown",
     "tankCode": "",
     "badges": [],
     "aliases": [],
-    "facts": [],
+    "facts": [
+      "Minimum suggested system is 100+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, high invert risk, and temperament trends moderate."
+    ],
     "water": {
       "ph": [
         8.0,
@@ -20995,9 +25948,28 @@ const FISH = [
       "temp": [
         75,
         80
-      ]
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
     },
-    "seasonal": null
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Semi-aggressive tankmates of similar size"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Shrimp, snails, crabs, or other ornamental invertebrates",
+      "Systems smaller than 100+ gal"
+    ],
+    "staffNote": "Make sure the customer understands the compatibility tradeoffs before purchase. This reads better as a moderate specialist choice than an impulse buy."
   }
 ];
 

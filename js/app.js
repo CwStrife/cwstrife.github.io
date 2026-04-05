@@ -436,21 +436,53 @@ function gaugeCard(title, score, lowLabel, highLabel, mode='risk'){
     </div>
   `;
 }
+function hasInfoText(val){
+  return typeof val === 'string' && val.trim() && !['undefined','null','none'].includes(val.trim().toLowerCase());
+}
+function infoOrFallback(val, label='info'){
+  return hasInfoText(val) ? val : `No verified ${label} yet.`;
+}
+function listOrFallback(list, label='notes'){
+  return Array.isArray(list) && list.length ? list : [`No verified ${label} yet.`];
+}
 function buildBehaviorParagraph(item){
-  const aggressionLabel = riskText(item.aggression);
-  const difficulty = riskText(item.careDifficulty, 'difficulty');
-  return `${item.name} works best in systems that can actually support the adult size, attitude, and stability needs that come with it. Expect roughly ${item.maxSize} at maturity, and think of it as a ${difficulty.toLowerCase()} profile with ${aggressionLabel.toLowerCase()} aggression rather than judging it only by how it looks in the display.`;
+  const parts = [];
+  if(hasInfoText(L(item,'role'))) parts.push(`${L(item,'role')}.`);
+  if(hasInfoText(item.minTank)) parts.push(`Plan around at least ${item.minTank}.`);
+  parts.push(`Temperament trends ${riskText(item.aggression).toLowerCase()}.`);
+  if(hasInfoText(item.careLabel)) parts.push(`Care level is ${item.careLabel.toLowerCase()}.`);
+  return parts.join(' ');
 }
 function buildFeedingParagraph(item){
-  return `This species comes from the ${L(item,"origin").toLowerCase()}, where it is usually associated with ${item.habitat.toLowerCase()}. That natural background explains a lot of the visible day-to-day behavior in captivity. Feeding should match that origin story too, because a ${L(item,"diet").toLowerCase()} profile often determines whether the customer is really prepared for long-term success.`;
+  const parts = [];
+  if(hasInfoText(L(item,'diet'))) parts.push(`Diet profile: ${L(item,'diet')}.`);
+  if(hasInfoText(item.habitat)) parts.push(`Typical habitat: ${item.habitat}.`);
+  if(hasInfoText(L(item,'origin'))) parts.push(`Natural range: ${L(item,'origin')}.`);
+  return parts.length ? parts.join(' ') : 'No verified feeding or habitat notes yet.';
 }
 function buildBuyingParagraph(item){
   const reefLabel = riskText(item.coralRisk);
   const invertLabel = riskText(item.invertRisk);
-  return `For store-floor conversations, the fast compatibility summary is simple: coral risk is ${reefLabel.toLowerCase()}, invertebrate risk is ${invertLabel.toLowerCase()}, and the tank size should be matched to the customer’s real system rather than the size of the fish today. This is the kind of profile that can save a rushed purchase and make staff conversations easier.`;
+  const careLevel = hasInfoText(item.careLabel) ? item.careLabel.toLowerCase() : riskText(item.careDifficulty, 'difficulty').toLowerCase();
+  return `Compatibility trends read ${reefLabel.toLowerCase()} for corals and ${invertLabel.toLowerCase()} for ornamental invertebrates. This should be sold as a ${careLevel} profile matched to the customer’s real tank size and livestock plan.`;
 }
 function buildRecognitionParagraph(item){
-  return `People tend to stop at this animal because of the way it looks first, then they want help translating that visual appeal into practical care information. The kiosk should bridge that gap by pairing the visual cue — ${item.visualCue.charAt(0).toLowerCase() + item.visualCue.slice(1)} — with clear husbandry notes, tank fit, and risk levels that are easy to understand in a few seconds.`;
+  return hasInfoText(item.visualCue) ? item.visualCue : 'No verified visual ID notes yet.';
+}
+function renderPillList(list, label='notes'){
+  return listOrFallback(list, label).map(v => `<span class="list-pill${String(v).startsWith('No verified') ? ' empty' : ''}">${v}</span>`).join('');
+}
+function renderFactStack(item){
+  const facts = listOrFallback(item.facts, 'quick facts');
+  return facts.map(f => `<div class="fact-card${String(f).startsWith('No verified') ? ' empty' : ''}">${f}</div>`).join('');
+}
+function renderNoticeBlocks(item, aliasText){
+  const blocks = [
+    ['Visual ID cues', infoOrFallback(item.visualCue, 'visual ID notes')],
+    ['Common names / aliases', aliasText],
+    ['Role in the tank', infoOrFallback(L(item,'role'), 'role notes')]
+  ];
+  return blocks.map(([title, body]) => `<div class="reading-block${String(body).startsWith('No verified') ? ' empty' : ''}"><strong>${title}</strong><p>${body}</p></div>`).join('');
 }
 function modalTemplate(item){
   const [reefText, reefClass] = reefChip(item.coralRisk);
@@ -458,6 +490,8 @@ function modalTemplate(item){
   const [aggText, aggClass] = aggressionChip(item.aggression);
   const [invText, invClass] = invertChip(item.invertRisk);
   const aliasText = item.aliases && item.aliases.length ? item.aliases.join(', ') : T('noneListedAliases');
+  const sizeText = item.stockSize || 'Unknown';
+  const sizeInches = (typeof SIZE_SCALE!=='undefined' && item.stockSize && SIZE_SCALE[item.stockSize]) ? ` (${SIZE_SCALE[item.stockSize]})` : '';
   return `
     <div class="modal-layout">
       <div class="modal-left">
@@ -468,9 +502,9 @@ function modalTemplate(item){
               <h2>${L(item,"name")}</h2>
               <span class="latin">${item.scientific}</span>
               <div class="modal-mini">
-                <span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode}</span>
-                <span class="mini-pill">${item.type}</span>
-                <span class="mini-pill">${item.stockSize} in stock</span>
+                <span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span>
+                <span class="mini-pill">${item.type || 'Livestock'}</span>
+                <span class="mini-pill">${sizeText}${sizeInches} in stock</span>
               </div>
             </div>
           </div>
@@ -479,31 +513,20 @@ function modalTemplate(item){
 
         <div class="modal-section ocean">
           <div class="section-title"><h3>Quick overview</h3></div>
-          <p class="overview">${L(item,"overview")}</p>
+          <p class="overview">${infoOrFallback(L(item,'overview'), 'overview')}</p>
         </div>
 
         <div class="modal-section seafoam">
           <div class="section-title"><h3>What customers should notice</h3></div>
           <div class="reading-stack">
-            <div class="reading-block">
-              <strong>Visual ID cues</strong>
-              <p>${item.visualCue}</p>
-            </div>
-            <div class="reading-block">
-              <strong>Common names / aliases</strong>
-              <p>${aliasText}</p>
-            </div>
-            <div class="reading-block">
-              <strong>Role in the tank</strong>
-              <p>${L(item,"role")}</p>
-            </div>
+            ${renderNoticeBlocks(item, aliasText)}
           </div>
         </div>
 
         <div class="modal-section plum">
           <div class="section-title"><h3>Quick facts</h3></div>
           <div class="fact-stack">
-            ${item.facts.map(f => `<div class="fact-card">${f}</div>`).join('')}
+            ${renderFactStack(item)}
           </div>
         </div>
       </div>
@@ -512,29 +535,29 @@ function modalTemplate(item){
         <div class="modal-headline">
           <div>
             <div class="modal-type">${typeof CARD_LABELS!=="undefined"&&CARD_LABELS[item.category]?CARD_LABELS[item.category]:TC(item.category)}</div>
-            <p><strong>${L(item,"name")}</strong> should read like a real in-store profile, not a tiny tank tag. The goal is to let shoppers identify it quickly, then actually sit there and learn something before they ask staff.</p>
+            <p><strong>${L(item,"name")}</strong> should read like a real in-store profile: clear, practical, and specific enough that customers can learn something useful before they ask staff.</p>
           </div>
         </div>
 
         <div class="price-band">
           <div class="modal-stat">
             <div class="meta-label">Display price</div>
-            <div class="meta-value">${formatMoney(item.price)}</div>
+            <div class="meta-value">${item.price ? formatMoney(item.price) : 'Unknown'}</div>
             <div class="meta-sub">For in-store reference only — no cart, no checkout, no ordering flow.</div>
           </div>
           <div class="modal-stat">
             <div class="meta-label">Minimum tank</div>
-            <div class="meta-value">${item.minTank}</div>
+            <div class="meta-value">${infoOrFallback(item.minTank, 'minimum tank size')}</div>
             <div class="meta-sub">Fast read for whether the customer’s setup is even in range.</div>
           </div>
           <div class="modal-stat">
             <div class="meta-label">Care level</div>
-            <div class="meta-value">${item.careLabel}</div>
+            <div class="meta-value">${infoOrFallback(item.careLabel, 'care level')}</div>
             <div class="meta-sub">Separates beginner livestock from animals that need more experience.</div>
           </div>
           <div class="modal-stat">
             <div class="meta-label">Max size</div>
-            <div class="meta-value">${item.maxSize}</div>
+            <div class="meta-value">${infoOrFallback(item.maxSize, 'adult size')}</div>
             <div class="meta-sub">Useful for avoiding “cute now, problem later” purchases.</div>
           </div>
         </div>
@@ -562,10 +585,10 @@ function modalTemplate(item){
           <div class="modal-section gold">
             <div class="section-title"><h3>Core specs</h3></div>
             <div class="pill-list">
-              <span class="list-pill">${typeof T==='function'?T('diet'):'Diet'}: ${L(item,"diet")}</span>
-              <span class="list-pill">${typeof T==='function'?T('origin'):'Origin'}: ${L(item,"origin")}</span>
-              <span class="list-pill">Habitat: ${item.habitat}</span>
-              <span class="list-pill">In-store size: ${item.stockSize}${(typeof SIZE_SCALE!=='undefined'&&SIZE_SCALE[item.stockSize])?' ('+SIZE_SCALE[item.stockSize]+')':''}</span>
+              <span class="list-pill">${typeof T==='function'?T('diet'):'Diet'}: ${infoOrFallback(L(item,'diet'), 'diet')}</span>
+              <span class="list-pill">${typeof T==='function'?T('origin'):'Origin'}: ${infoOrFallback(L(item,'origin'), 'origin')}</span>
+              <span class="list-pill">Habitat: ${infoOrFallback(item.habitat, 'habitat')}</span>
+              <span class="list-pill">In-store size: ${sizeText}${sizeInches}</span>
             </div>
           </div>
         </div>
@@ -573,22 +596,10 @@ function modalTemplate(item){
         <div class="modal-section plum">
           <div class="section-title"><h3>Longer reading</h3></div>
           <div class="reading-stack">
-            <div class="reading-block">
-              <strong>Behavior &amp; tank fit</strong>
-              <p>${buildBehaviorParagraph(item)}</p>
-            </div>
-            <div class="reading-block">
-              <strong>Feeding &amp; natural habitat</strong>
-              <p>${buildFeedingParagraph(item)}</p>
-            </div>
-            <div class="reading-block">
-              <strong>Recognition &amp; buyer questions</strong>
-              <p>${buildRecognitionParagraph(item)}</p>
-            </div>
-            <div class="reading-block">
-              <strong>Buying guidance</strong>
-              <p>${buildBuyingParagraph(item)}</p>
-            </div>
+            <div class="reading-block"><strong>Behavior &amp; tank fit</strong><p>${buildBehaviorParagraph(item)}</p></div>
+            <div class="reading-block"><strong>Feeding &amp; natural habitat</strong><p>${buildFeedingParagraph(item)}</p></div>
+            <div class="reading-block"><strong>Recognition &amp; ID</strong><p>${buildRecognitionParagraph(item)}</p></div>
+            <div class="reading-block"><strong>Buying guidance</strong><p>${buildBuyingParagraph(item)}</p></div>
           </div>
         </div>
 
@@ -596,25 +607,25 @@ function modalTemplate(item){
           <div class="modal-section seafoam">
             <div class="section-title"><h3>Works well with</h3></div>
             <div class="pill-list">
-              ${item.bestWith.map(v => `<span class="list-pill">${v}</span>`).join('')}
+              ${renderPillList(item.bestWith, 'pairing notes')}
             </div>
           </div>
           <div class="modal-section gold">
             <div class="section-title"><h3>Use caution with</h3></div>
             <div class="pill-list">
-              ${item.cautionWith.map(v => `<span class="list-pill">${v}</span>`).join('')}
+              ${renderPillList(item.cautionWith, 'caution notes')}
             </div>
           </div>
         </div>
 
         <div class="origin-card">
           <strong>Origin &amp; natural range</strong>
-          <p>${L(item,"origin")}<br><span class="subtle">Natural habitat: ${item.habitat}. This gives the customer more context for behavior, feeding style, and why some animals want caves, open water, rockwork, or sand.</span></p>
+          <p>${infoOrFallback(L(item,'origin'), 'origin')}<br><span class="subtle">Natural habitat: ${infoOrFallback(item.habitat, 'habitat')}.</span></p>
         </div>
 
-        <div class="staff-card">
+        <div class="staff-card${!hasInfoText(item.staffNote) ? ' empty' : ''}">
           <strong>Staff note</strong>
-          <p>${item.staffNote}</p>
+          <p>${infoOrFallback(item.staffNote, 'staff note')}</p>
         </div>
         ${item.seasonal ? `<div class="seasonal-section">
           <span class="seasonal-icon">📅</span>
@@ -628,7 +639,7 @@ function modalTemplate(item){
           <div class="similar-row">
             ${getSimilarFish(item).map(s=>`
               <div class="similar-card" onclick="closeFishModal();setTimeout(()=>openFishModal('${s.id}'),300)">
-                <div class="name">${L(s,"name")}</div>
+                <div class="name">${L(s,'name')}</div>
                 <div class="sub">${s.category}</div>
                 <div class="sub">${s.inStock?formatMoney(s.price):(typeof T==='function'?T('ency'):'Encyclopedia')}</div>
               </div>
@@ -637,11 +648,9 @@ function modalTemplate(item){
         </div>
 
         <div class="action-row">
-          <button class="cta primary" data-copy="${L(item,'name')} • Tank ${item.tankCode} • ${formatMoney(item.price)}">${typeof T==='function'?T('copyInfo'):'Copy fish + tank info'}</button>
+          <button class="cta primary" data-copy="${L(item,'name')} • Tank ${item.tankCode || '—'} • ${item.price ? formatMoney(item.price) : 'Unknown'}">${typeof T==='function'?T('copyInfo'):'Copy fish + tank info'}</button>
           <button class="cta secondary" data-close-modal="true">Close profile</button>
         </div>
-
-        <div class="modal-footnote">This version keeps the front page focused on bold visual browsing while the details open larger, cleaner, and easier to read on top. That should work much better on a touch kiosk than squeezing everything into a permanent side rail.</div>
       </div>
     </div>
   `;
@@ -653,6 +662,8 @@ function modalTemplateMobile(item){
   const [aggText, aggClass] = aggressionChip(item.aggression);
   const [invText, invClass] = invertChip(item.invertRisk);
   const aliasText = item.aliases && item.aliases.length ? item.aliases.join(', ') : T('noneListedAliases');
+  const sizeText = item.stockSize || 'Unknown';
+  const sizeInches = (typeof SIZE_SCALE!=='undefined'&&item.stockSize&&SIZE_SCALE[item.stockSize]) ? ` ${SIZE_SCALE[item.stockSize]}` : '';
   return `
     <div class="modal-layout mobile-stack">
       <div class="modal-photo-card mobile-hero-card">
@@ -663,7 +674,7 @@ function modalTemplateMobile(item){
             <span class="latin">${item.scientific}</span>
             <div class="modal-mini">
               <span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span>
-              <span class="mini-pill">${item.stockSize || '—'}${(typeof SIZE_SCALE!=='undefined'&&item.stockSize&&SIZE_SCALE[item.stockSize])?' '+SIZE_SCALE[item.stockSize]:''}</span>
+              <span class="mini-pill">${sizeText}${sizeInches}</span>
               <span class="mini-pill">${typeof CARD_LABELS!=="undefined"&&CARD_LABELS[item.category]?CARD_LABELS[item.category]:TC(item.category)}</span>
             </div>
           </div>
@@ -672,15 +683,15 @@ function modalTemplateMobile(item){
       ${galleryTemplate(item)}
 
       <div class="mobile-stat-grid">
-        <div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${formatMoney(item.price)}</div><div class="meta-sub">Store reference</div></div>
-        <div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${item.minTank}</div><div class="meta-sub">Setup check</div></div>
-        <div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${item.careLabel}</div><div class="meta-sub">Experience</div></div>
-        <div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${item.maxSize}</div><div class="meta-sub">Adult size</div></div>
+        <div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${item.price ? formatMoney(item.price) : 'Unknown'}</div><div class="meta-sub">Store reference</div></div>
+        <div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${infoOrFallback(item.minTank,'minimum tank size')}</div><div class="meta-sub">Setup check</div></div>
+        <div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${infoOrFallback(item.careLabel,'care level')}</div><div class="meta-sub">Experience</div></div>
+        <div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${infoOrFallback(item.maxSize,'adult size')}</div><div class="meta-sub">Adult size</div></div>
       </div>
 
       <div class="modal-section ocean">
         <div class="section-title"><h3>Quick overview</h3></div>
-        <p class="overview">${L(item,'overview')}</p>
+        <p class="overview">${infoOrFallback(L(item,'overview'),'overview')}</p>
       </div>
 
       <div class="modal-section seafoam">
@@ -692,10 +703,10 @@ function modalTemplateMobile(item){
           <div class="mobile-trait ${invClass}"><span>Invert</span><strong>${invText}</strong></div>
         </div>
         <div class="mobile-practical-grid">
-          <div class="mobile-practical"><span>${typeof T==='function'?T('diet'):'Diet'}</span><strong>${L(item,'diet')}</strong></div>
-          <div class="mobile-practical"><span>${typeof T==='function'?T('origin'):'Origin'}</span><strong>${L(item,'origin')}</strong></div>
-          <div class="mobile-practical"><span>Habitat</span><strong>${item.habitat}</strong></div>
-          <div class="mobile-practical"><span>Role</span><strong>${L(item,'role')}</strong></div>
+          <div class="mobile-practical"><span>${typeof T==='function'?T('diet'):'Diet'}</span><strong>${infoOrFallback(L(item,'diet'),'diet')}</strong></div>
+          <div class="mobile-practical"><span>${typeof T==='function'?T('origin'):'Origin'}</span><strong>${infoOrFallback(L(item,'origin'),'origin')}</strong></div>
+          <div class="mobile-practical"><span>Habitat</span><strong>${infoOrFallback(item.habitat,'habitat')}</strong></div>
+          <div class="mobile-practical"><span>Role</span><strong>${infoOrFallback(L(item,'role'),'role')}</strong></div>
         </div>
       </div>
 
@@ -714,30 +725,36 @@ function modalTemplateMobile(item){
       <div class="modal-section seafoam">
         <div class="section-title"><h3>Longer read</h3></div>
         <div class="reading-stack">
-          <div class="reading-block"><strong>Behavior & tank fit</strong><p>${buildBehaviorParagraph(item)}</p></div>
-          <div class="reading-block"><strong>Feeding & natural habitat</strong><p>${buildFeedingParagraph(item)}</p></div>
-          <div class="reading-block"><strong>Recognition & buyer questions</strong><p>${buildRecognitionParagraph(item)}</p></div>
+          <div class="reading-block"><strong>Behavior &amp; tank fit</strong><p>${buildBehaviorParagraph(item)}</p></div>
+          <div class="reading-block"><strong>Feeding &amp; natural habitat</strong><p>${buildFeedingParagraph(item)}</p></div>
+          <div class="reading-block"><strong>Recognition &amp; ID</strong><p>${buildRecognitionParagraph(item)}</p></div>
           <div class="reading-block"><strong>Buying guidance</strong><p>${buildBuyingParagraph(item)}</p></div>
         </div>
       </div>
 
-      <div class="two-col mobile-two-col">
-        <div class="modal-section seafoam">
-          <div class="section-title"><h3>Works well with</h3></div>
-          <div class="pill-list">
-            ${item.bestWith.map(v => `<span class="list-pill">${v}</span>`).join('')}
-          </div>
-        </div>
-        <div class="modal-section gold">
-          <div class="section-title"><h3>Use caution with</h3></div>
-          <div class="pill-list">
-            ${item.cautionWith.map(v => `<span class="list-pill">${v}</span>`).join('')}
-          </div>
+      <div class="modal-section seafoam">
+        <div class="section-title"><h3>What customers should notice</h3></div>
+        <div class="reading-stack">
+          ${renderNoticeBlocks(item, aliasText)}
         </div>
       </div>
 
-      <div class="origin-card"><strong>Origin & natural range</strong><p>${L(item,'origin')}<br><span class="subtle">Natural habitat: ${item.habitat}.</span></p></div>
-      <div class="staff-card"><strong>Staff note</strong><p>${item.staffNote}</p></div>
+      <div class="modal-section plum">
+        <div class="section-title"><h3>Works well with</h3></div>
+        <div class="pill-list">
+          ${renderPillList(item.bestWith, 'pairing notes')}
+        </div>
+      </div>
+
+      <div class="modal-section gold">
+        <div class="section-title"><h3>Use caution with</h3></div>
+        <div class="pill-list">
+          ${renderPillList(item.cautionWith, 'caution notes')}
+        </div>
+      </div>
+
+      <div class="origin-card"><strong>Origin &amp; natural range</strong><p>${infoOrFallback(L(item,'origin'),'origin')}<br><span class="subtle">Natural habitat: ${infoOrFallback(item.habitat,'habitat')}.</span></p></div>
+      <div class="staff-card${!hasInfoText(item.staffNote) ? ' empty' : ''}"><strong>Staff note</strong><p>${infoOrFallback(item.staffNote,'staff note')}</p></div>
       ${item.seasonal ? `<div class="seasonal-section"><span class="seasonal-icon">📅</span><div><div class="seasonal-label">Seasonal Availability</div><div class="seasonal-text">${item.seasonal}</div></div></div>` : ''}
 
       <div class="similar-section">
@@ -754,7 +771,7 @@ function modalTemplateMobile(item){
       </div>
 
       <div class="action-row">
-        <button class="cta primary" data-copy="${L(item,'name')} • Tank ${item.tankCode} • ${formatMoney(item.price)}">${typeof T==='function'?T('copyInfo'):'Copy fish + tank info'}</button>
+        <button class="cta primary" data-copy="${L(item,'name')} • Tank ${item.tankCode || '—'} • ${item.price ? formatMoney(item.price) : 'Unknown'}">${typeof T==='function'?T('copyInfo'):'Copy fish + tank info'}</button>
         <button class="cta secondary" data-close-modal="true">Close profile</button>
       </div>
     </div>

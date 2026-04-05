@@ -2615,3 +2615,24 @@ html,body{max-width:100%;overflow-x:hidden}
   .category-scroll.right::after,
   .bundle-scroll.right::after{font-size:9px}
 }
+
+/* V0.055 content cleanup */
+.reading-block.empty,
+.fact-card.empty,
+.list-pill.empty,
+.staff-card.empty,
+.origin-card.empty {
+  border-color: rgba(255,255,255,.12);
+  background: rgba(255,255,255,.03);
+}
+.reading-block.empty p,
+.fact-card.empty,
+.list-pill.empty,
+.staff-card.empty p,
+.origin-card.empty p {
+  color: rgba(255,255,255,.62);
+  font-style: italic;
+}
+.wp-gauge-unknown .wp-track {
+  background: linear-gradient(90deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+}

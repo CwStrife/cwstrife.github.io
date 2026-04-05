@@ -10,6 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // === WATER PARAMETERS UI ===
 function waterParamGauge(low, high, absMin, absMax, unit, color){
+  if(low == null || high == null || Number.isNaN(low) || Number.isNaN(high)){
+    return `<div class="wp-gauge wp-gauge-unknown">
+      <div class="wp-track"></div>
+      <div class="wp-labels">
+        <span class="wp-min">${absMin}${unit}</span>
+        <span class="wp-value" style="color:${color}">Unknown</span>
+        <span class="wp-max">${absMax}${unit}</span>
+      </div>
+    </div>`;
+  }
   const range = absMax - absMin;
   const pctLow = ((low - absMin) / range) * 100;
   const pctHigh = ((high - absMin) / range) * 100;
