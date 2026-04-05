@@ -1,24 +1,22 @@
-Use V0.051 as the new source of truth.
+Use V0.052 as the current source of truth.
 
-What changed in this pass:
-1. Grid / Detail was rebuilt as a segmented control.
-2. The segmented control now sits in the main filter row instead of wasting a separate row on desktop.
-3. Compact cards on desktop/tablet now show a little more useful information instead of feeling empty.
-4. The quick traits strip was made more readable.
-5. Portrait phone and landscape phone control sizing was tightened.
+This pass solved these concrete issues:
+- single-button Grid / Detail toggle instead of two tiny buttons
+- stronger horizontal-scroll cues for category tabs and bundle packs
+- reduced desktop control-row bulk
+- better compact-card sale price layout
+- partial compact-card info recovery on desktop/tablet
+- stronger horizontal overflow containment on phone
 
-If you build on top of this:
-- do not revert the segmented control back to a weak single button
-- do not move the mode switch back into an awkward isolated row
-- keep portrait search on its own row
-- keep compact mode as a true compact browse mode, not a shrunken detailed card
-- preserve compare on both views
+If you continue from here, do not revert these fixes.
 
-Before saying anything is done, manually check:
-- desktop detailed mode
-- desktop compact mode
-- tablet compact mode
-- phone portrait detailed mode
-- phone portrait compact mode
-- phone landscape detailed mode
-- phone landscape compact mode
+Priority order for the next pass:
+1. real-device verify phone portrait modal scroll
+2. verify category and bundle rail cues on mobile
+3. verify compact-card density on desktop/tablet
+4. only then polish spacing / typography further
+
+Do not reintroduce:
+- two tiny Grid/Detail buttons on mobile
+- full-page horizontal dragging on phone
+- giant sale-price blocks that unbalance compact cards

@@ -35,7 +35,7 @@
   --gauge-spectrum:linear-gradient(90deg,#4ea6ff 0%,#5ecfff 10%,#35e2ff 20%,#2fe595 34%,#b7ed4e 46%,#ffd85b 58%,#ffac47 70%,#f86b49 82%,#a10f29 90%,#5a173f 96%,#090a0f 100%);
 }
 *{box-sizing:border-box}
-html,body{margin:0;padding:0}
+html,body{margin:0;padding:0;overflow-x:hidden;overscroll-behavior-x:none}
 html{background:#0a0c12}
 body{
   overflow-wrap:break-word;word-wrap:break-word;
@@ -136,11 +136,11 @@ img{display:block;max-width:100%}
 .kiosk-note span{display:block;color:var(--muted);font-size:15px;font-weight:650;line-height:1.6}
 
 .search-filter-row{
-  display:grid;grid-template-columns:minmax(0,1.5fr) auto auto auto;gap:14px;
+  display:grid;grid-template-columns:minmax(0,1.5fr) auto auto auto;gap:12px;
   margin-top:0;position:relative;z-index:1;align-items:stretch
 }
 .search-wrap{
-  position:relative;min-height:62px;border-radius:20px;
+  position:relative;min-height:56px;border-radius:18px;
   background:linear-gradient(180deg, #e8eef4, #d4dce6);
   border:2px solid rgba(255,255,255,.5);
   box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 16px 34px rgba(0,0,0,.18)
@@ -152,15 +152,15 @@ img{display:block;max-width:100%}
 }
 .search-wrap input{
   width:100%;height:100%;background:transparent;border:none;outline:none;border-radius:24px;
-  color:#0a1624;padding:0 20px 0 56px;font-size:20px;font-weight:850
+  color:#0a1624;padding:0 18px 0 52px;font-size:18px;font-weight:820
 }
 .search-wrap input::placeholder{color:#6a7a8a;opacity:1}
 .search-wrap svg{position:absolute;left:18px;top:50%;transform:translateY(-50%);opacity:.7}
 .search-wrap svg path{stroke:#3a4a5a}
 .filter-chip{
-  min-height:var(--tap);padding:0 20px;border-radius:24px;
+  min-height:60px;padding:0 18px;border-radius:20px;
   display:inline-flex;align-items:center;justify-content:center;gap:12px;cursor:pointer;
-  font-size:18px;font-weight:900;white-space:nowrap;
+  font-size:16px;font-weight:850;white-space:nowrap;
   border:1px solid rgba(255,255,255,.14);
   box-shadow:inset 0 1px 0 rgba(255,255,255,.07), 0 14px 28px rgba(0,0,0,.12);
   transition:transform .16s ease, box-shadow .16s ease, filter .16s ease, border-color .16s ease
@@ -168,7 +168,7 @@ img{display:block;max-width:100%}
 .filter-chip:hover,.sort-choice:hover,.folder-tab:hover,.cta:hover,.modal-close:hover{transform:translateY(-2px)}
 .filter-chip:active,.sort-choice:active,.folder-tab:active,.cta:active,.modal-close:active{transform:translateY(0) scale(.985)}
 .filter-chip .toggle-dot{
-  width:18px;height:18px;border-radius:50%;background:rgba(255,255,255,.34);
+  width:16px;height:16px;border-radius:50%;background:rgba(255,255,255,.34);
   box-shadow:0 0 0 4px rgba(255,255,255,.06)
 }
 .filter-chip.reef{background:linear-gradient(180deg,rgba(30,60,55,.8),rgba(20,42,38,.8));border-color:rgba(84,236,204,.30)}
@@ -1529,9 +1529,22 @@ body.light-mode .folder-tab.active{border-bottom-color:transparent;background:li
   content:"";
   display:block;
   height:0;
-  border-top:1px solid rgba(255,255,255,.08);
+  border-top:1px solid var(--folder-border);
   margin:-12px -12px 12px;
   padding:0 12px;
+}
+.category-shell{
+  --folder-tint:transparent;
+  --folder-border:rgba(160,210,255,.14);
+  --folder-glow:transparent;
+  border:1px solid var(--folder-border);
+  border-bottom:none;
+  border-radius:16px 16px 0 0;
+  background:
+    linear-gradient(180deg,var(--folder-tint),transparent 72%),
+    linear-gradient(180deg,rgba(11,18,28,.70),rgba(7,12,18,.56));
+  box-shadow:0 0 0 1px rgba(255,255,255,.03),0 0 24px var(--folder-glow);
+  transition:background .35s ease,border-color .35s ease,box-shadow .35s ease;
 }
 body.light-mode .folder-content::before{border-top-color:rgba(0,0,0,.08)}
 
@@ -2069,7 +2082,7 @@ body.modal-open{overflow:hidden}
 body.light-mode .category-shell::before{background:linear-gradient(90deg,rgba(240,244,248,.98),rgba(240,244,248,0))}
 body.light-mode .category-shell::after{background:linear-gradient(270deg,rgba(240,244,248,.98),rgba(240,244,248,0))}
 .category-shell.can-scroll-left::before,.category-shell.can-scroll-right::after{opacity:1}
-.category-shell.can-scroll-left .category-scroll.left,.category-shell.can-scroll-right .category-scroll.right{opacity:1;pointer-events:auto}
+.category-shell.is-scrollable .category-scroll.right,.category-shell.can-scroll-left .category-scroll.left,.category-shell.can-scroll-right .category-scroll.right{opacity:1;pointer-events:auto}
 .category-shell.is-scrollable .category-row{padding-inline:36px}
 
 .view-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;position:relative;overflow:hidden;background:linear-gradient(180deg,rgba(18,34,54,.92),rgba(10,20,31,.96));border:1px solid rgba(180,214,255,.16);color:#dbefff;box-shadow:0 8px 20px rgba(0,0,0,.18)}
@@ -2325,4 +2338,123 @@ body.light-mode .category-shell::after{background:linear-gradient(270deg,rgba(24
   }
   .view-toggle-seg .view-toggle-text{display:none}
   .view-toggle-seg .view-toggle-icon{font-size:10px}
+}
+
+
+/* === V0.052 targeted cleanup === */
+.shell,.control-panel,.promo-area,.folder-content{overflow-x:clip}
+.category-shell,.bundle-shell{max-width:100%;overflow:hidden}
+
+/* Slightly reduce top controls on desktop/tablet */
+@media (min-width:861px){
+  .search-wrap{min-height:66px;padding-left:58px;border-radius:22px}
+  .search-wrap input{font-size:18px;padding:0 20px 0 0}
+  .search-wrap svg{left:18px;width:22px;height:22px}
+  .filter-chip{min-height:66px;padding:0 18px;font-size:16px;gap:10px;border-radius:20px}
+  .search-filter-row{gap:12px}
+}
+
+/* Replace segmented mode switch with single polished toggle */
+.view-toggle-btn{
+  position:relative;display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  min-width:96px;min-height:56px;padding:0 14px;border-radius:16px;
+  background:linear-gradient(180deg,rgba(17,32,50,.95),rgba(8,18,30,.98));
+  border:1px solid rgba(132,200,255,.24);color:#ecf7ff;cursor:pointer;
+  box-shadow:0 8px 18px rgba(0,0,0,.20), inset 0 1px 0 rgba(255,255,255,.05);
+  overflow:hidden;isolation:isolate;transition:transform .16s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
+  animation:viewToggleGlow 3.6s ease-in-out infinite;
+}
+.view-toggle-btn::after{content:'';position:absolute;inset:0;background:linear-gradient(110deg,transparent 0%,transparent 36%,rgba(255,255,255,.14) 50%,transparent 64%,transparent 100%);transform:translateX(-135%);animation:viewToggleSweep 4.8s linear infinite;pointer-events:none;z-index:0}
+.view-toggle-btn:hover{transform:translateY(-1px);box-shadow:0 12px 24px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.05)}
+.view-toggle-btn:active{transform:scale(.985)}
+.view-toggle-btn .view-toggle-icon,.view-toggle-btn .view-toggle-text{position:relative;z-index:1}
+.view-toggle-btn .view-toggle-icon{display:grid;place-items:center;width:20px;height:20px;border-radius:7px;background:rgba(255,255,255,.08);font-size:13px;line-height:1;opacity:.98}
+.view-toggle-btn .view-toggle-text{font-size:11px;line-height:1;letter-spacing:.10em;font-weight:900;text-transform:uppercase;white-space:nowrap}
+.view-toggle-btn.active{border-color:rgba(132,220,255,.34);background:linear-gradient(135deg,rgba(49,157,212,.26),rgba(42,215,186,.22));box-shadow:0 0 0 1px rgba(132,220,255,.10),0 10px 22px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.08)}
+
+/* Stronger, more obvious horizontal-rail cues */
+.category-shell,.bundle-shell{position:relative}
+.category-scroll,.bundle-scroll{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:34px;height:42px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:linear-gradient(180deg,rgba(16,31,48,.98),rgba(8,17,28,.98));color:#eefbff;font-size:20px;font-weight:900;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 24px rgba(0,0,0,.34),0 0 18px rgba(82,231,208,.16);opacity:0;pointer-events:none;transition:180ms cubic-bezier(.22,.8,.2,1)}
+.category-scroll:hover,.bundle-scroll:hover{transform:translateY(-50%) scale(1.06)}
+.bundle-scroll.left{left:6px}.bundle-scroll.right{right:6px}
+.category-shell::before,.category-shell::after,.bundle-shell::before,.bundle-shell::after{content:'';position:absolute;top:0;bottom:0;width:44px;z-index:4;pointer-events:none;opacity:0;transition:180ms cubic-bezier(.22,.8,.2,1)}
+.bundle-shell::before{left:0;background:linear-gradient(90deg,rgba(7,17,26,.98),rgba(7,17,26,0))}
+.bundle-shell::after{right:0;background:linear-gradient(270deg,rgba(7,17,26,.98),rgba(7,17,26,0))}
+body.light-mode .bundle-shell::before{background:linear-gradient(90deg,rgba(240,244,248,.98),rgba(240,244,248,0))}
+body.light-mode .bundle-shell::after{background:linear-gradient(270deg,rgba(240,244,248,.98),rgba(240,244,248,0))}
+.bundle-shell.can-scroll-left::before,.bundle-shell.can-scroll-right::after{opacity:1}
+.bundle-shell.is-scrollable .bundle-scroll.right,.bundle-shell.can-scroll-left .bundle-scroll.left,.bundle-shell.can-scroll-right .bundle-scroll.right{opacity:1;pointer-events:auto}
+.category-shell.is-scrollable .category-scroll.right,.bundle-shell.is-scrollable .bundle-scroll.right{animation:railNudge 2.2s ease-in-out infinite}
+.category-shell.is-scrollable .category-row,.bundle-shell.is-scrollable .bundle-row{padding-inline:40px}
+.bundle-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.bundle-row::-webkit-scrollbar{display:none}
+
+/* Desktop/tablet compact cards: use space better */
+.sale-badge{background:linear-gradient(180deg,rgba(66,18,24,.86),rgba(46,12,18,.92));border-color:rgba(255,100,100,.22);padding:8px 10px 7px;gap:1px;align-items:flex-start}
+.sale-badge .price-old{font-size:10px;line-height:1;color:rgba(255,255,255,.38);text-decoration:line-through;display:block}
+.sale-badge .sale-price{color:#ff9191}
+.sale-badge .price-sale-tag{display:inline-block;margin-top:2px;font-size:8px;font-weight:900;letter-spacing:.08em;color:#ff6d6d;text-transform:uppercase}
+.compact-traits-row{display:none}
+@media (min-width:861px){
+  .compact-mode .compact-traits-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}
+  .compact-mode .compact-trait{display:inline-flex;align-items:center;justify-content:center;min-height:22px;padding:0 8px;border-radius:999px;font-size:10px;font-weight:900;letter-spacing:.02em;border:1px solid rgba(255,255,255,.08);white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
+  .compact-mode .compact-trait-reef{background:rgba(50,224,190,.10);color:#7df2d4;border-color:rgba(90,220,200,.18)}
+  .compact-mode .compact-trait-care{background:rgba(155,118,255,.10);color:#d3b8ff;border-color:rgba(155,118,255,.18)}
+  .compact-mode .price-badge{min-width:72px}
+}
+
+/* Mobile: keep horizontal surfaces inside viewport and simplify toggle */
+@media (max-width:600px) and (pointer:coarse){
+  .bundle-shell.is-scrollable .bundle-row,.category-shell.is-scrollable .category-row{padding-inline:30px}
+  .bundle-scroll,.category-scroll{width:30px;height:30px;font-size:19px;box-shadow:0 8px 18px rgba(0,0,0,.32),0 0 12px rgba(82,231,208,.18)}
+  .bundle-scroll.left,.category-scroll.left{left:2px}.bundle-scroll.right,.category-scroll.right{right:2px}
+  .search-filter-row{grid-template-columns:minmax(0,1fr) auto auto auto auto!important}
+  .view-toggle-btn{min-width:44px;min-height:26px;height:26px;padding:0 8px;border-radius:9px;justify-self:end;animation-duration:3.2s}
+  .view-toggle-btn .view-toggle-icon{font-size:12px}
+  .view-toggle-btn .view-toggle-text{display:none}
+  .filter-chip{font-size:10px!important;padding:0 7px!important}
+}
+@media (orientation:landscape) and (max-height:560px) and (pointer:coarse){
+  .view-toggle-btn{min-width:40px;min-height:22px;height:22px;padding:0 6px;border-radius:7px}
+  .view-toggle-btn .view-toggle-icon{font-size:10px}
+  .view-toggle-btn .view-toggle-text{display:none}
+}
+
+/* Hide old segmented toggle styling after switch-back */
+.view-toggle-wrap,.view-toggle-seg{display:none!important}
+
+/* More room for compact desktop/tablet cards */
+@media (min-width:861px){
+  .cards.compact-mode .fish-card{min-height:0}
+  .cards.compact-mode .card-body{padding:8px 10px 9px}
+  .cards.compact-mode .mobile-facts-grid{margin-top:7px}
+}
+
+/* Make category and bundle rails feel horizontally scrollable */
+@keyframes railNudge{0%,100%{transform:translateY(-50%) translateX(0)}50%{transform:translateY(-50%) translateX(2px)}}
+
+.card-title-row{display:flex;align-items:flex-start;gap:8px;min-width:0}
+.card-title-row .card-title{min-width:0;flex:1 1 auto}
+.card-old-price-inline{display:none;flex:0 0 auto;align-self:flex-start;font-size:11px;line-height:1;color:rgba(255,255,255,.42);text-decoration:line-through;white-space:nowrap;margin-top:2px}
+.sale-main-badge{background:linear-gradient(180deg,rgba(66,18,24,.82),rgba(46,12,18,.9));border-color:rgba(255,100,100,.18);padding:6px 8px 5px;gap:2px;align-items:flex-start;min-width:64px}
+.sale-main-badge .sale-price{color:#ff9191}
+.sale-main-badge .price-sale-tag{display:inline-block;font-size:8px;font-weight:900;letter-spacing:.08em;color:#ff6d6d;text-transform:uppercase}
+.compact-mode .card-old-price-inline{display:inline-block}
+.compact-mode .sale-main-badge .price-value{font-size:14px}
+.compact-mode .card-info-strip{align-items:flex-start}
+@media (min-width:861px){
+  .compact-mode .card-info-strip{display:grid;grid-template-columns:auto auto 1fr;gap:6px;align-items:start}
+  .compact-mode .compact-traits-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin-top:7px}
+  .compact-mode .compact-trait{display:flex;align-items:center;justify-content:center;min-height:24px;padding:0 8px;border-radius:999px;font-size:10px;font-weight:900;letter-spacing:.02em;border:1px solid rgba(255,255,255,.08);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;text-align:center}
+  .compact-mode .compact-trait-care,.compact-mode .compact-trait-reef{max-width:none}
+  .compact-mode .price-badge{min-width:68px}
+}
+@media (max-width:600px) and (pointer:coarse){
+  .view-toggle-btn{min-width:58px;min-height:38px;height:38px;padding:0 10px;border-radius:12px;animation-duration:3.2s}
+  .view-toggle-btn .view-toggle-icon{width:18px;height:18px;font-size:11px;border-radius:6px}
+  .view-toggle-btn .view-toggle-text{display:none}
+}
+@media (orientation:landscape) and (max-height:560px) and (pointer:coarse){
+  .view-toggle-btn{min-width:54px;min-height:32px;height:32px;padding:0 8px;border-radius:10px}
+  .view-toggle-btn .view-toggle-icon{width:16px;height:16px;font-size:10px;border-radius:5px}
 }

@@ -1,59 +1,53 @@
-# LTC Fish Browser V0.052 — ChatGPT Direct Fix Pass
+# LTC Fish Browser V0.053 — ChatGPT Implementation Handoff
 
-This build continues from V0.051 and focuses on the next round of usability fixes after live review.
+This build continues from V0.052 and focuses on compact/grid card balance, category rail affordance, folder tint visibility, and control polish.
 
-## Main fixes in V0.052
+## What changed
 
-### 1. Grid / Detail mode control
-- Replaced the awkward two-button segmented control with a single toggle button.
-- The button now swaps between Grid and Detail states instead of forcing the user to target two tiny buttons.
-- Kept the subtle sheen/shimmer so it still reads as interactive.
-- Tightened the mobile and landscape-phone versions so it fits more cleanly beside the filters.
+### 1) Compact/grid sale pricing reworked
+- Sale cards in compact mode no longer use one oversized stacked sale-price block.
+- Old/list price is now moved up beside the fish title as a smaller crossed-out inline price.
+- The main visible price block stays closer in size to normal cards, which should reduce uneven card height/weight.
 
-### 2. Search / filter row scale
-- Reduced the size of the desktop/tablet search field and filter chips so they do not dominate the entire control panel.
-- Kept the mobile versions compact.
+### 2) Compact quick-traits made more uniform
+- Reef and care traits in compact mode are now laid out as a more consistent 2-column row.
+- Each trait is centered and equalized so the row reads less chaotic.
 
-### 3. Category rail and bundle rail affordance
-- Added stronger horizontal-scroll cues:
-  - more visible left/right rail arrows
-  - stronger edge fades
-  - a small nudge animation on the right arrow when more content is hidden off-screen
-- Added the same pattern to bundle packs so partially hidden bundle cards no longer feel cut off without explanation.
+### 3) Search/filter row scaled down slightly on desktop/tablet
+- Search box height, filter chip height, and type size were reduced modestly so the top control row stops overpowering the cards.
 
-### 4. Horizontal overflow cleanup
-- Added stronger overflow clipping on the main shell / panel areas to stop the whole page from being dragged sideways on phone.
-- Kept the actual horizontal scrolling only on the category rail and bundle rail.
+### 4) Grid/detail toggle redesigned again
+- Kept as a single-button toggle, but restyled to feel more polished and less awkward.
+- Stronger icon treatment, tighter pill shape, less visual bulk.
+- Mobile/landscape sizing tightened further.
 
-### 5. Compact grid card polish
-- Compact cards now use space better instead of feeling underfilled.
-- Sale pricing is separated more cleanly:
-  - old price is smaller and secondary
-  - sale price remains the primary visible number
-- Added two compact quick-trait chips on desktop/tablet compact cards:
-  - reef
-  - care
-- Kept compare visible.
+### 5) Category shell / folder border tint strengthened
+- Category tint now applies to both the category shell and the folder content area.
+- Border/glow should read more clearly when changing tabs.
+- Folder top seam now uses the active folder border color.
 
-## Files directly changed
+### 6) Category and bundle rail scroll cues improved
+- Right-edge arrow is shown whenever the rail is scrollable.
+- Arrows were restyled into cleaner vertical pills instead of soft circular blobs.
+- Existing fades remain, but the “there is more to the right” cue should be easier to notice.
+
+## Files modified
 - `index.html`
-- `js/app.js`
 - `css/style.css`
+- `js/app.js`
+- `js/features.js`
 
-## What to test next
-1. Desktop compact/grid mode:
-   - toggle placement and look
-   - seven-across density on wide screens
-   - sale price layout consistency
-2. Phone portrait:
-   - category rail arrows / fade / hidden-tab hinting
-   - bundle rail arrows / hinting
-   - no full-page sideways drag
-   - single Grid/Detail toggle usability
-3. Phone landscape:
-   - Grid/Detail toggle fit
-4. Fish detail modal:
-   - full portrait scroll still works top to bottom
+## Validation
+- `node --check js/app.js`
+- `node --check js/features.js`
+- `node smoke-test.js`
+- Build passed with the same non-fatal warnings as before.
 
-## Honest note
-This pass focused on layout and interaction polish. It was smoke-tested successfully, but still needs real-device confirmation on the user's phone/browser.
+## Still needs real-device verification
+Please verify on actual devices/browsers:
+- desktop compact sale cards
+- desktop compact trait uniformity
+- mobile portrait category rail cues
+- mobile portrait bundle rail cues
+- folder border/tint visibility when switching tabs
+- single Grid/Detail toggle feel on desktop and mobile
