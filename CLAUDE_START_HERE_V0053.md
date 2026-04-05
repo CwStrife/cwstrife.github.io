@@ -1,22 +1,18 @@
-Use V0.052 as the current source of truth.
+Use V0.053 as the new source of truth.
 
-This pass solved these concrete issues:
-- single-button Grid / Detail toggle instead of two tiny buttons
-- stronger horizontal-scroll cues for category tabs and bundle packs
-- reduced desktop control-row bulk
-- better compact-card sale price layout
-- partial compact-card info recovery on desktop/tablet
-- stronger horizontal overflow containment on phone
+Read first:
+1. `LTC_V0053_ChatGPT_Handoff.md`
 
-If you continue from here, do not revert these fixes.
+What changed in this build:
+- compact sale price structure
+- compact trait uniformity
+- lighter desktop search/filter scale
+- redesigned single Grid/Detail toggle
+- stronger folder/category shell tint + border glow
+- more obvious category/bundle rail scroll cues
 
-Priority order for the next pass:
-1. real-device verify phone portrait modal scroll
-2. verify category and bundle rail cues on mobile
-3. verify compact-card density on desktop/tablet
-4. only then polish spacing / typography further
-
-Do not reintroduce:
-- two tiny Grid/Detail buttons on mobile
-- full-page horizontal dragging on phone
-- giant sale-price blocks that unbalance compact cards
+If you continue from here:
+- do not reintroduce the old oversized combined sale badge in compact mode
+- do not break the single-button Grid/Detail toggle
+- keep category/folder tint applied to both the shell and folder area
+- preserve the stronger scroll affordance on category and bundle rails

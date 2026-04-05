@@ -325,7 +325,11 @@ function cardTemplate(item){
     const cls = b==='Staff Pick'?'badge-staff':b==='New Arrival'?'badge-new':b==='Rare Find'?'badge-rare':'badge-beginner';
     return `<span class="badge ${cls}">${TB(b)}</span>`;
   }).join('')}${item.seasonal ? `<span class="badge" style="background:rgba(255,200,60,.15);border:1px solid rgba(255,200,60,.25);color:#eebb44">${typeof T==='function'?T('limited'):'📅 Limited'}</span>` : ''}</div>` : (item.seasonal ? `<div class="card-badges"><span class="badge" style="background:rgba(255,200,60,.15);border:1px solid rgba(255,200,60,.25);color:#eebb44">${typeof T==='function'?T('limited'):'📅 Limited'}</span></div>` : '');
-  const priceHtml = isEncy || !item.price ? '' : item.onSale ? `<div class="price-badge sale-badge"><span class="price-old">${formatMoney(item.price)}</span><span class="price-value sale-price">${formatMoney(item.salePrice)}</span><span class="price-sale-tag">${typeof T==="function"?T("sale"):"SALE"}</span></div>` : `<div class="price-badge"><span class="price-value">${formatMoney(item.price)}</span></div>`;
+  const compactSale = state.viewMode === 'compact' && item.onSale;
+  const oldCompactPriceHtml = compactSale ? `<span class="card-old-price-inline">${formatMoney(item.price)}</span>` : '';
+  const priceHtml = isEncy || !item.price ? '' : item.onSale ? (compactSale
+    ? `<div class="price-badge sale-main-badge"><span class="price-value sale-price">${formatMoney(item.salePrice)}</span><span class="price-sale-tag">${typeof T==="function"?T("sale"):"SALE"}</span></div>`
+    : `<div class="price-badge sale-badge"><span class="price-old">${formatMoney(item.price)}</span><span class="price-value sale-price">${formatMoney(item.salePrice)}</span><span class="price-sale-tag">${typeof T==="function"?T("sale"):"SALE"}</span></div>`) : `<div class="price-badge"><span class="price-value">${formatMoney(item.price)}</span></div>`;
   const tankHtml = isEncy || !item.tankCode ? '' : `<div class="tank-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode}</div>`;
   const sizeInches = (typeof SIZE_SCALE!=='undefined' && item.stockSize && SIZE_SCALE[item.stockSize]) ? ' ('+SIZE_SCALE[item.stockSize]+')' : '';
   const stockMeta = isEncy ? '' : `<div class="meta-box"><div class="meta-label">${typeof T==="function"?T("stockSize"):"In stock size"}</div><div class="meta-value">${item.stockSize||'—'}${sizeInches}</div></div>`;
@@ -340,7 +344,7 @@ function cardTemplate(item){
       </div>
       <div class="card-body">
         ${badgeHtml}
-        <h2 class="card-title">${L(item,"name")}</h2>
+        <div class="card-title-row"><h2 class="card-title">${L(item,"name")}</h2>${oldCompactPriceHtml}</div>
         <div class="card-sci">${item.scientific}</div>
         <div class="card-info-strip${isEncy?' ency':''}">
           ${priceHtml}

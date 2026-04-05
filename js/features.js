@@ -469,17 +469,23 @@ const CATEGORY_TINTS = {
 
 function updateCategoryTint(){
   const folder = document.querySelector('.folder-content');
-  if(!folder) return;
+  const shell = document.querySelector('.category-shell');
+  if(!folder && !shell) return;
+  const applyTint = (el, data) => {
+    if(!el) return;
+    if(data){
+      el.style.setProperty('--folder-tint', data.tint);
+      el.style.setProperty('--folder-border', data.border);
+      el.style.setProperty('--folder-glow', data.glow);
+    } else {
+      el.style.setProperty('--folder-tint', 'transparent');
+      el.style.setProperty('--folder-border', 'rgba(160,210,255,.14)');
+      el.style.setProperty('--folder-glow', 'transparent');
+    }
+  };
   const tintData = CATEGORY_TINTS[state.category];
-  if(tintData){
-    folder.style.setProperty('--folder-tint', tintData.tint);
-    folder.style.setProperty('--folder-border', tintData.border);
-    folder.style.setProperty('--folder-glow', tintData.glow);
-  } else {
-    folder.style.setProperty('--folder-tint', 'transparent');
-    folder.style.setProperty('--folder-border', 'rgba(160,210,255,.14)');
-    folder.style.setProperty('--folder-glow', 'transparent');
-  }
+  applyTint(folder, tintData);
+  applyTint(shell, tintData);
 }
 
 // Called directly from render cycle in app.js
