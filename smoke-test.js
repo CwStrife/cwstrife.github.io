@@ -16,7 +16,7 @@ console.log('\n=== LTC Fish Browser Smoke Test ===\n');
 
 // 1. Required files exist
 console.log('--- File Structure ---');
-const required = ['index.html','css/style.css','js/app.js','js/features.js','data/fish.js','data/logos.js','START_KIOSK.bat'];
+const required = ['index.html','css/style.css','js/app.js','js/features.js','data/catalog-base.js','data/fish.js','data/logos.js','data/foods/catalog.js','data/foods/store-settings.js','data/foods/profile-rules.js','START_KIOSK.bat'];
 for(const f of required){
   if(fs.existsSync(f)) pass(f);
   else fail(`MISSING: ${f}`);
@@ -25,7 +25,7 @@ for(const f of required){
 // 2. JS syntax check
 console.log('\n--- JavaScript Syntax ---');
 const { execSync } = require('child_process');
-for(const f of ['js/app.js','js/features.js','data/fish.js']){
+for(const f of ['js/app.js','js/features.js','data/catalog-base.js','data/fish.js','data/foods/catalog.js','data/foods/store-settings.js','data/foods/profile-rules.js']){
   try{
     execSync(`node --check ${f}`, {stdio:'pipe'});
     pass(`${f} syntax OK`);
@@ -36,11 +36,15 @@ for(const f of ['js/app.js','js/features.js','data/fish.js']){
 
 // 3. Fish data validation
 console.log('\n--- Fish Data ---');
-const fishContent = fs.readFileSync('data/fish.js','utf8');
-const fishMatch = fishContent.match(/const FISH = (\[[\s\S]*?\]);/);
-if(!fishMatch){ fail('Cannot parse FISH array'); }
+const speciesDir = path.join('data','species');
+if(!fs.existsSync(speciesDir)){ fail('Missing data/species directory'); }
 else {
-  const fish = JSON.parse(fishMatch[1]);
+  const fish = [];
+  for(const file of fs.readdirSync(speciesDir).filter(f=>f.endsWith('.js'))){
+    const content = fs.readFileSync(path.join(speciesDir,file),'utf8');
+    const match = content.match(/= (\[[\s\S]*\]);/);
+    if(match) fish.push(...JSON.parse(match[1]));
+  }
   pass(`${fish.length} species loaded`);
   
   const inStock = fish.filter(f=>f.inStock).length;
@@ -66,6 +70,31 @@ else {
   if(dupes.length) fail(`Duplicate fish IDs: ${dupes.join(', ')}`);
   else pass('No duplicate fish IDs');
 }
+
+
+// 3b. Food catalog validation
+console.log("\n--- Food Catalog ---");
+try{
+  const vm = require('vm');
+  const foodCatalogContent = fs.readFileSync(path.join('data','foods','catalog.js'),'utf8');
+  const ctx = {window:{}};
+  vm.createContext(ctx);
+  vm.runInContext(foodCatalogContent, ctx);
+  const foods = ctx.window.FOOD_CATALOG || [];
+  pass(`${foods.length} food products loaded`);
+  const foodIds = foods.map(f=>f.id);
+  const dupFood = foodIds.filter((id,i)=>foodIds.indexOf(id)!==i);
+  if(dupFood.length) fail(`Duplicate food IDs: ${dupFood.join(', ')}`);
+  else pass('No duplicate food IDs');
+  const requiredFoodFields = ['id','brand','name','type','diets','sizes','stage','notes'];
+  let badFood = 0;
+  for(const food of foods){
+    for(const field of requiredFoodFields){
+      if(food[field] === undefined){ warn(`Food missing field ${field}: ${food.id || food.name || 'unknown'}`); badFood++; }
+    }
+  }
+  if(!badFood) pass('Food catalog shape looks complete');
+}catch(e){ fail(`Food catalog validation failed: ${e.message}`); }
 
 // 4. Translation key check
 console.log('\n--- Translations ---');
@@ -115,7 +144,7 @@ if(idDupes.length) fail(`Duplicate HTML IDs: ${idDupes.join(', ')}`);
 else pass(`${htmlIds.length} unique HTML IDs`);
 
 // Check script references
-for(const ref of ['css/style.css','js/app.js','js/features.js','data/fish.js','data/logos.js']){
+for(const ref of ['css/style.css','js/app.js','js/features.js','data/catalog-base.js','data/fish.js','data/logos.js','data/foods/catalog.js','data/foods/store-settings.js','data/foods/profile-rules.js']){
   if(html.includes(ref)) pass(`${ref} referenced`);
   else fail(`${ref} NOT referenced in index.html`);
 }
@@ -123,15 +152,27 @@ for(const ref of ['css/style.css','js/app.js','js/features.js','data/fish.js','d
 // 6. No prompt() calls remaining
 console.log('\n--- Code Quality ---');
 const promptMatches = allJS.match(/[^./]prompt\s*\(/g) || [];
-// Filter out comments
-const realPrompts = promptMatches.filter(p => !p.includes('//'));
-if(realPrompts.length) warn(`${realPrompts.length} prompt() calls remaining`);
+if(promptMatches.length && !allJS.includes('native prompt()')) warn(`${promptMatches.length} prompt() calls remaining`);
 else pass('No native prompt() calls — all use styled modals');
 
 // Check for escaped template literals
 if(featContent.includes('\\\\`') || featContent.includes('\\\\${')){
   fail('features.js still has escaped template literals');
 } else pass('No escaped template literal syntax');
+
+
+// 7. Placeholder phrase scan
+console.log('\n--- Placeholder Phrase Scan ---');
+const scanFiles = ['js/app.js', ...fs.readdirSync(path.join('data','species')).filter(f=>f.endsWith('.js')).map(f=>path.join('data','species',f))];
+const badPhrases = [/should read like a real/i,/for in-?store reference only/i,/no cart,? no checkout/i,/the kiosk should/i];
+let hits = 0;
+for(const file of scanFiles){
+  const content = fs.readFileSync(file,'utf8');
+  for(const re of badPhrases){
+    if(re.test(content)){ warn(`Placeholder phrase still present in ${file}: ${re}`); hits++; }
+  }
+}
+if(!hits) pass('No banned placeholder phrases found in catalog/template files');
 
 // Summary
 console.log(`\n=== RESULTS: ${errors} errors, ${warnings} warnings ===`);

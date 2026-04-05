@@ -437,61 +437,412 @@ function gaugeCard(title, score, lowLabel, highLabel, mode='risk'){
   `;
 }
 function hasInfoText(val){
-  return typeof val === 'string' && val.trim() && !['undefined','null','none'].includes(val.trim().toLowerCase());
+  if(Array.isArray(val)) return val.some(hasInfoText);
+  return typeof val === 'string' && val.trim() && !['undefined','null','none','unknown'].includes(val.trim().toLowerCase());
 }
-function infoOrFallback(val, label='info'){
-  return hasInfoText(val) ? val : `No verified ${label} yet.`;
+function cleanInfoText(val){
+  if(typeof val !== 'string') return '';
+  const out = val.replace(/\s+/g,' ').trim();
+  if(!out || ['undefined','null','none'].includes(out.toLowerCase())) return '';
+  return out;
 }
-function listOrFallback(list, label='notes'){
-  return Array.isArray(list) && list.length ? list : [`No verified ${label} yet.`];
+function cleanInfoList(list){
+  return Array.isArray(list) ? list.map(cleanInfoText).filter(Boolean) : [];
+}
+function safeText(val, fallback='Unknown'){
+  return cleanInfoText(val) || fallback;
+}
+function truncateText(text, max=170){
+  const t = cleanInfoText(text);
+  if(!t || t.length <= max) return t;
+  const cut = t.slice(0, max);
+  return cut.slice(0, cut.lastIndexOf(' ')) + '…';
+}
+function summaryText(item){
+  const direct = cleanInfoText(item.headerSummary || item.summary || '');
+  if(direct) return truncateText(direct, 180);
+  const overview = cleanInfoText(L(item,'overview'));
+  const role = cleanInfoText(L(item,'role'));
+  const visual = cleanInfoText(item.visualCue);
+  if(overview) return truncateText(overview, 170);
+  if(role && visual) return truncateText(`${role}. Look for ${visual.toLowerCase()}`, 170);
+  if(role) return truncateText(role, 150);
+  if(visual) return truncateText(`Look for ${visual.toLowerCase()}`, 150);
+  return '';
 }
 function buildBehaviorParagraph(item){
+  const custom = cleanInfoText(item.behavior || item.behaviorNotes || '');
+  if(custom) return custom;
   const parts = [];
-  if(hasInfoText(L(item,'role'))) parts.push(`${L(item,'role')}.`);
-  if(hasInfoText(item.minTank)) parts.push(`Plan around at least ${item.minTank}.`);
-  parts.push(`Temperament trends ${riskText(item.aggression).toLowerCase()}.`);
-  if(hasInfoText(item.careLabel)) parts.push(`Care level is ${item.careLabel.toLowerCase()}.`);
-  return parts.join(' ');
+  const role = cleanInfoText(L(item,'role'));
+  const minTank = cleanInfoText(item.minTank);
+  const care = cleanInfoText(item.careLabel);
+  if(role) parts.push(role + '.');
+  parts.push(`Temperament usually reads ${riskText(item.aggression).toLowerCase()}.`);
+  if(minTank) parts.push(`Plan around at least ${minTank}.`);
+  if(care) parts.push(`Best suited to ${care.toLowerCase()} keepers or buyers who already understand the species' needs.`);
+  return parts.join(' ').trim();
 }
 function buildFeedingParagraph(item){
+  const custom = cleanInfoText(item.feedingNotes || item.feedingGuidance || '');
+  if(custom) return custom;
   const parts = [];
-  if(hasInfoText(L(item,'diet'))) parts.push(`Diet profile: ${L(item,'diet')}.`);
-  if(hasInfoText(item.habitat)) parts.push(`Typical habitat: ${item.habitat}.`);
-  if(hasInfoText(L(item,'origin'))) parts.push(`Natural range: ${L(item,'origin')}.`);
-  return parts.length ? parts.join(' ') : 'No verified feeding or habitat notes yet.';
+  const diet = cleanInfoText(L(item,'diet'));
+  const habitat = cleanInfoText(item.habitat);
+  const origin = cleanInfoText(L(item,'origin'));
+  if(diet) parts.push(`Diet: ${diet}.`);
+  if(origin) parts.push(`Natural range: ${origin}.`);
+  if(habitat) parts.push(`Typical habitat: ${habitat}.`);
+  return parts.join(' ').trim();
 }
 function buildBuyingParagraph(item){
-  const reefLabel = riskText(item.coralRisk);
-  const invertLabel = riskText(item.invertRisk);
-  const careLevel = hasInfoText(item.careLabel) ? item.careLabel.toLowerCase() : riskText(item.careDifficulty, 'difficulty').toLowerCase();
-  return `Compatibility trends read ${reefLabel.toLowerCase()} for corals and ${invertLabel.toLowerCase()} for ornamental invertebrates. This should be sold as a ${careLevel} profile matched to the customer’s real tank size and livestock plan.`;
+  const custom = cleanInfoText(item.buyingGuidance || item.buyerGuidance || '');
+  if(custom) return custom;
+  const pieces = [];
+  const coral = riskText(item.coralRisk).toLowerCase();
+  const invert = riskText(item.invertRisk).toLowerCase();
+  const minTank = cleanInfoText(item.minTank);
+  const care = cleanInfoText(item.careLabel) || riskText(item.careDifficulty, 'difficulty');
+  if(minTank) pieces.push(`Best sold only when the buyer can realistically support at least ${minTank}.`);
+  pieces.push(`Coral compatibility reads ${coral}, and ornamental invertebrate risk reads ${invert}.`);
+  pieces.push(`Overall, this is best matched to ${care.toLowerCase()} buyers and a stocking plan that fits its long-term needs.`);
+  return pieces.join(' ').trim();
 }
 function buildRecognitionParagraph(item){
-  return hasInfoText(item.visualCue) ? item.visualCue : 'No verified visual ID notes yet.';
+  const custom = cleanInfoText(item.recognitionNotes || '');
+  if(custom) return custom;
+  return cleanInfoText(item.visualCue);
 }
-function renderPillList(list, label='notes'){
-  return listOrFallback(list, label).map(v => `<span class="list-pill${String(v).startsWith('No verified') ? ' empty' : ''}">${v}</span>`).join('');
+function renderPillList(list){
+  const vals = cleanInfoList(list);
+  return vals.length ? vals.map(v => `<span class="list-pill">${v}</span>`).join('') : '';
 }
 function renderFactStack(item){
-  const facts = listOrFallback(item.facts, 'quick facts');
-  return facts.map(f => `<div class="fact-card${String(f).startsWith('No verified') ? ' empty' : ''}">${f}</div>`).join('');
+  const facts = cleanInfoList(item.facts);
+  return facts.length ? facts.map(f => `<div class="fact-card">${f}</div>`).join('') : '';
 }
 function renderNoticeBlocks(item, aliasText){
   const blocks = [
-    ['Visual ID cues', infoOrFallback(item.visualCue, 'visual ID notes')],
-    ['Common names / aliases', aliasText],
-    ['Role in the tank', infoOrFallback(L(item,'role'), 'role notes')]
-  ];
-  return blocks.map(([title, body]) => `<div class="reading-block${String(body).startsWith('No verified') ? ' empty' : ''}"><strong>${title}</strong><p>${body}</p></div>`).join('');
+    ['Visual ID cues', cleanInfoText(item.visualCue)],
+    ['Common names / aliases', cleanInfoText(aliasText)],
+    ['Role in the tank', cleanInfoText(L(item,'role'))]
+  ].filter(([,body]) => body);
+  return blocks.length ? blocks.map(([title, body]) => `<div class="reading-block"><strong>${title}</strong><p>${body}</p></div>`).join('') : '';
+}
+
+function getFoodDefaults(){
+  return window.STORE_FOOD_SETTINGS || {enabledBrands:{},disabledProducts:{},featuredProducts:{},preferredBrands:[],hiddenTypes:{},showAdviceCards:true,showOnlyCarriedFoods:true};
+}
+function normalizeFoodSettings(raw={}){
+  const defaults = getFoodDefaults();
+  return {
+    enabledBrands: {...defaults.enabledBrands, ...(raw.enabledBrands || {})},
+    disabledProducts: {...defaults.disabledProducts, ...(raw.disabledProducts || {})},
+    featuredProducts: {...(defaults.featuredProducts || {}), ...(raw.featuredProducts || {})},
+    preferredBrands: Array.isArray(raw.preferredBrands) && raw.preferredBrands.length ? raw.preferredBrands : (defaults.preferredBrands || []),
+    hiddenTypes: {...(defaults.hiddenTypes || {}), ...(raw.hiddenTypes || {})},
+    showAdviceCards: raw.showAdviceCards !== false,
+    showOnlyCarriedFoods: raw.showOnlyCarriedFoods !== false
+  };
+}
+function getStoreFoodSettings(){
+  if(state._foodSettings) return state._foodSettings;
+  try{
+    const saved = JSON.parse(localStorage.getItem('ltcFoodSettings.v2') || localStorage.getItem('ltcFoodSettings') || 'null');
+    state._foodSettings = normalizeFoodSettings(saved || {});
+  }catch(_e){
+    state._foodSettings = normalizeFoodSettings({});
+  }
+  return state._foodSettings;
+}
+function saveStoreFoodSettings(){
+  try{ localStorage.setItem('ltcFoodSettings.v2', JSON.stringify(getStoreFoodSettings())); }catch(_e){}
+}
+function resetStoreFoodSettings(){
+  state._foodSettings = normalizeFoodSettings({});
+  saveStoreFoodSettings();
+  renderFoodSettings();
+  render();
+  showToast('Food settings reset');
+}
+function exportStoreFoodSettings(){
+  const payload = JSON.stringify(getStoreFoodSettings(), null, 2);
+  try{
+    const blob = new Blob([payload], {type:'application/json'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'ltc-food-settings.json';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(()=>URL.revokeObjectURL(a.href), 1500);
+  }catch(_e){}
+  if(navigator.clipboard?.writeText){ navigator.clipboard.writeText(payload).catch(()=>{}); }
+  showToast('Food settings exported');
+}
+function importStoreFoodSettingsFromText(text){
+  try{
+    const parsed = JSON.parse(text);
+    state._foodSettings = normalizeFoodSettings(parsed || {});
+    saveStoreFoodSettings();
+    renderFoodSettings();
+    render();
+    showToast('Food settings imported');
+  }catch(_e){
+    showToast('Could not import food settings');
+  }
+}
+function importStoreFoodSettingsFile(file){
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = () => importStoreFoodSettingsFromText(String(reader.result || ''));
+  reader.readAsText(file);
+}
+function audienceTagsForItem(item){
+  const raw = `${cleanInfoText(item.category)} ${cleanInfoText(L(item,'diet'))} ${cleanInfoText(L(item,'role'))}`.toLowerCase();
+  if(/shrimp|snail|crab|urchin|starfish|clam|anemone|invert|worm|cucumber/.test(raw)) return ['invert'];
+  return ['fish'];
+}
+function dietTagsForItem(item){
+  const raw = `${cleanInfoText(L(item,'diet'))} ${cleanInfoText(L(item,'role'))} ${cleanInfoText(item.category)} ${cleanInfoText(item.name)} ${cleanInfoText(item.behavior || item.behaviorNotes || '')}`.toLowerCase();
+  const tags = new Set();
+  if(/herb|algae|graze|nori|seaweed|macroalgae/.test(raw)) tags.add('herbivore');
+  if(/omniv|mixed/.test(raw)) tags.add('omnivore');
+  if(/carniv|meaty|predat|pisciv|shrimp|crustacean/.test(raw)) tags.add('carnivore');
+  if(/plankt|anthias|chromis|zooplankton/.test(raw)) tags.add('planktivore');
+  if(/copepod|microfauna|mandarin|dragonet|scooter/.test(raw)) { tags.add('planktivore'); tags.add('microfauna'); tags.add('nano'); }
+  if(/filter|phytoplankton|suspended|feather duster|clam|oyster/.test(raw)) { tags.add('filter-feeder'); tags.add('invert'); }
+  if(/detritus|film algae|cleanup|scavenger/.test(raw)) { tags.add('detritivore'); tags.add('invert'); }
+  const audience = audienceTagsForItem(item);
+  audience.forEach(a => tags.add(a));
+  const size = `${item.stockSize||''} ${item.maxSize||''}`.toLowerCase();
+  if(/tiny|small|nano|1|2|3|4/.test(size)) tags.add('nano');
+  if(!tags.has('herbivore') && !tags.has('carnivore') && !tags.has('planktivore') && !tags.has('filter-feeder') && !tags.has('detritivore')) tags.add('omnivore');
+  return [...tags];
+}
+function sizeTagsForItem(item){
+  const value = `${item.stockSize||''} ${item.maxSize||''}`.toLowerCase();
+  if(/tiny|small|nano|1|2/.test(value)) return ['tiny','small'];
+  if(/medium|3|4|5|6/.test(value)) return ['small','medium'];
+  return ['medium','large'];
+}
+function foodRuleMatches(item, rule){
+  const hay = {
+    id: `${item.id || ''}`,
+    name: `${L(item,'name') || item.name || ''}`,
+    category: `${item.category || ''}`,
+    diet: `${cleanInfoText(L(item,'diet'))}`,
+    role: `${cleanInfoText(L(item,'role'))}`
+  };
+  if(rule.idRegex && !rule.idRegex.test(hay.id)) return false;
+  if(rule.nameRegex && !rule.nameRegex.test(hay.name)) return false;
+  if(rule.categoryRegex && !rule.categoryRegex.test(hay.category)) return false;
+  if(rule.dietRegex && !rule.dietRegex.test(hay.diet)) return false;
+  if(rule.roleRegex && !rule.roleRegex.test(hay.role)) return false;
+  return Boolean(rule.idRegex || rule.nameRegex || rule.categoryRegex || rule.dietRegex || rule.roleRegex);
+}
+function deriveFoodProfile(item){
+  const rules = window.FOOD_PROFILE_RULES || {specialCases:{},groupRules:[]};
+  const profile = {
+    tags: dietTagsForItem(item),
+    sizes: sizeTagsForItem(item),
+    audience: audienceTagsForItem(item),
+    preferredProducts: [],
+    avoidProducts: [],
+    avoidTypes: [],
+    allowCatalog: true,
+    family: profileFamilyFromItem(item),
+    strategy: '',
+    feedingSchedule: '',
+    carriesOnly: getStoreFoodSettings().showOnlyCarriedFoods !== false
+  };
+  for(const rule of (rules.groupRules || [])){
+    if(foodRuleMatches(item, rule)){
+      if(rule.preferredProducts) profile.preferredProducts.push(...rule.preferredProducts);
+      if(rule.avoidProducts) profile.avoidProducts.push(...rule.avoidProducts);
+      if(rule.avoidTypes) profile.avoidTypes.push(...rule.avoidTypes);
+      if(rule.family) profile.family = rule.family;
+      if(!profile.strategy && rule.strategy) profile.strategy = rule.strategy;
+      if(!profile.feedingSchedule && rule.feedingSchedule) profile.feedingSchedule = rule.feedingSchedule;
+      if(rule.allowCatalog === false) profile.allowCatalog = false;
+    }
+  }
+  const special = rules.specialCases?.[item.id];
+  if(special){
+    if(special.preferredProducts) profile.preferredProducts.unshift(...special.preferredProducts);
+    if(special.avoidProducts) profile.avoidProducts.push(...special.avoidProducts);
+    if(special.avoidTypes) profile.avoidTypes.push(...special.avoidTypes);
+    if(special.forceFamily) profile.family = special.forceFamily;
+    if(special.strategy) profile.strategy = special.strategy;
+    if(special.feedingSchedule) profile.feedingSchedule = special.feedingSchedule;
+    if(special.allowCatalog === false) profile.allowCatalog = false;
+  }
+  profile.preferredProducts = [...new Set(profile.preferredProducts)];
+  profile.avoidProducts = [...new Set(profile.avoidProducts)];
+  profile.avoidTypes = [...new Set(profile.avoidTypes)];
+  if(!profile.strategy) profile.strategy = defaultFoodStrategy(profile, item);
+  if(!profile.feedingSchedule) profile.feedingSchedule = defaultFeedingSchedule(profile, item);
+  return profile;
+}
+function profileFamilyFromItem(item){
+  const raw = `${item.category || ''} ${cleanInfoText(L(item,'diet'))} ${cleanInfoText(item.name)}`.toLowerCase();
+  if(/mandarin|dragonet|scooter|copepod/.test(raw)) return 'pod-picker';
+  if(/tang|rabbit|foxface|algae|seaweed|herb/.test(raw)) return 'herbivore';
+  if(/puffer|trigger|lion|eel|predat|carniv/.test(raw)) return 'predator';
+  if(/anemone|clam|feather duster|worm|filter|phytoplankton/.test(raw)) return 'filter-feeder';
+  if(/shrimp|snail|crab|urchin|starfish|cleanup|detritus/.test(raw)) return 'cleanup';
+  if(/anthias|chromis|dartfish|firefish|cardinal/.test(raw)) return 'planktivore';
+  return 'community';
+}
+function defaultFoodStrategy(profile, item){
+  const name = L(item,'name') || item.name || 'This animal';
+  switch(profile.family){
+    case 'pod-picker': return `${name} should be treated as a natural microfauna grazer first. Use packaged foods as support while keeping pod availability high.`;
+    case 'herbivore': return `${name} should have steady access to algae-forward foods instead of relying only on meaty community blends.`;
+    case 'predator': return `${name} does best with meaty foods sized to the mouth and a cleaner, more deliberate feeding plan than a general community fish.`;
+    case 'filter-feeder': return `${name} benefits more from right-sized suspended or target-fed foods than from generic fish pellets or flakes.`;
+    case 'cleanup': return `${name} often relies on natural algae, films, detritus, or leftover feeding pressure more than on a long packaged-food list.`;
+    case 'planktivore': return `${name} usually does best with smaller particle foods offered more often than a single heavy feeding.`;
+    default: return `${name} usually does best when a dependable staple is paired with a few frozen or specialty rotations instead of one food alone.`;
+  }
+}
+function defaultFeedingSchedule(profile, item){
+  switch(profile.family){
+    case 'pod-picker': return 'Keep food particle size tiny and allow the animal to graze between feedings.';
+    case 'herbivore': return 'Rotate a daily staple with sheet seaweed or algae-rich frozen foods and avoid long fasting gaps.';
+    case 'predator': return 'Feed measured portions and avoid oversized meals that foul the tank or encourage begging.';
+    case 'filter-feeder': return 'Target feed lightly when appropriate and lean on tank maturity and suspended nutrition.';
+    case 'cleanup': return 'Do not overfeed just to feed the cleanup crew; many do best when the system naturally produces films and leftovers.';
+    case 'planktivore': return 'Smaller meals offered more often usually outperform one large dump feeding.';
+    default: return 'Use a simple routine: staple most days, frozen rotation a few times per week, and specialty foods only when they genuinely help.';
+  }
+}
+function dietMatchesFood(profile, food){
+  const tags = profile.tags;
+  return food.diets.some(d => tags.includes(d) || (d === 'omnivore' && (tags.includes('carnivore') || tags.includes('herbivore'))) || (d === 'invert' && tags.includes('invert')) || (d === 'nano' && tags.includes('nano')));
+}
+function audienceMatchesFood(profile, food){
+  const aud = food.audience || ['fish'];
+  return aud.some(a => profile.audience.includes(a) || a === 'fish' && profile.audience.includes('fish') || a === 'invert' && profile.audience.includes('invert'));
+}
+function sizeMatchesFood(profile, food){
+  return (food.sizes || []).some(s => profile.sizes.includes(s));
+}
+function scoreFoodForProfile(food, profile, settings){
+  let score = 0;
+  if(profile.preferredProducts.includes(food.id)) score += 80;
+  if((settings.featuredProducts || {})[food.id]) score += 40;
+  const brandRank = (settings.preferredBrands || []).indexOf(food.brand);
+  score += brandRank === -1 ? 0 : Math.max(0, 15 - brandRank);
+  if(food.stage === 'staple') score += 18;
+  if(food.stage === 'rotate') score += 12;
+  if(food.stage === 'support') score += 8;
+  if(food.stage === 'specialty') score += 6;
+  if(profile.family && (food.families || []).includes(profile.family)) score += 20;
+  if(profile.tags.some(t => (food.diets || []).includes(t))) score += 10;
+  if(profile.sizes.some(s => (food.sizes || []).includes(s))) score += 8;
+  return score;
+}
+function getRecommendedFoods(item){
+  const settings = getStoreFoodSettings();
+  const catalog = Array.isArray(window.FOOD_CATALOG) ? window.FOOD_CATALOG : [];
+  const profile = deriveFoodProfile(item);
+  let eligible = [];
+  if(profile.allowCatalog !== false){
+    eligible = catalog.filter(food => {
+      if(settings.enabledBrands[food.brand] === false) return false;
+      if((settings.hiddenTypes || {})[food.type]) return false;
+      if(settings.disabledProducts[food.id]) return false;
+      if(profile.avoidProducts.includes(food.id)) return false;
+      if(profile.avoidTypes.includes(food.type)) return false;
+      if(!audienceMatchesFood(profile, food)) return false;
+      if(!dietMatchesFood(profile, food)) return false;
+      if(!sizeMatchesFood(profile, food) && !profile.preferredProducts.includes(food.id)) return false;
+      return true;
+    }).map(food => ({...food, _score: scoreFoodForProfile(food, profile, settings)})).sort((a,b)=>b._score-a._score);
+  }
+  const buckets = [];
+  const makeBucket = (key, title, stages, limit) => {
+    const items = eligible.filter(f => stages.includes(f.stage)).slice(0, limit);
+    if(items.length) buckets.push({key,title,items});
+  };
+  makeBucket('staple','Best staple foods',['staple'],2);
+  makeBucket('rotate','Good rotations / frozen choices',['rotate'],2);
+  makeBucket('support','Specialty / support foods',['support','specialty'],2);
+  if(!buckets.length && eligible.length){ buckets.push({key:'match','title':'Good carried matches',['items']:eligible.slice(0,4)}); }
+  const allItems = buckets.flatMap(b => b.items);
+  return {
+    profile,
+    buckets,
+    items: allItems,
+    showAdvice: settings.showAdviceCards !== false
+  };
+}
+function foodFamilyLabel(profile){
+  switch(profile.family){
+    case 'pod-picker': return 'Pod picker';
+    case 'herbivore': return 'Herbivore grazer';
+    case 'predator': return 'Meaty feeder';
+    case 'filter-feeder': return 'Filter feeder';
+    case 'cleanup': return 'Cleanup / natural grazer';
+    case 'planktivore': return 'Planktivore';
+    default: return 'Community omnivore';
+  }
+}
+function renderFoodSection(item){
+  const model = getRecommendedFoods(item);
+  const {profile, buckets, items, showAdvice} = model;
+  if(!profile.strategy && !items.length) return '';
+  const adviceCards = showAdvice ? `<div class="food-advice-grid">
+      <div class="food-advice-card"><span>Feeding style</span><strong>${foodFamilyLabel(profile)}</strong><p>${profile.strategy}</p></div>
+      <div class="food-advice-card"><span>How to offer it</span><strong>Practical routine</strong><p>${profile.feedingSchedule}</p></div>
+    </div>` : '';
+  const bucketHtml = buckets.map(bucket => `<div class="food-bucket"><div class="food-bucket-head"><strong>${bucket.title}</strong><span>${bucket.items.length} shown</span></div><div class="food-bucket-grid">${bucket.items.map(food => `<div class="food-card"><div class="food-brand">${food.brand}</div><div class="food-name">${food.name}</div><div class="food-card-meta"><span class="food-badge">${food.type}</span><span class="food-badge">${food.stage}</span></div><div class="food-notes">${food.notes}</div><div class="food-usage">${food.feedHint || ''}</div></div>`).join('')}</div></div>`).join('');
+  const emptyNote = !items.length ? `<div class="food-empty-note">No carried packaged foods are currently matched to this profile. Use the guidance above, or adjust the store food settings if the shop carries suitable items.</div>` : '';
+  return `<div class="modal-section seafoam food-section"><div class="section-title"><h3>Foods sold here that fit this animal</h3><span class="section-note">Shown from locally enabled store foods only</span></div>${adviceCards}${bucketHtml}${state.staffMode ? emptyNote : ""}</div>`;
+}
+function buildStatValue(item, key){
+  if(key === 'price'){
+    if(item.onSale && item.salePrice){
+      const oldPrice = item.price ? `<span class="meta-old-price">${formatMoney(item.price)}</span>` : '';
+      return `<span class="meta-price-stack">${oldPrice}<span>${formatMoney(item.salePrice)}</span></span>`;
+    }
+    return item.price ? formatMoney(item.price) : 'Unknown';
+  }
+  if(key === 'minTank') return safeText(item.minTank, 'Unknown');
+  if(key === 'care') return safeText(item.careLabel, 'Unknown');
+  if(key === 'maxSize') return safeText(item.maxSize, 'Unknown');
+  return 'Unknown';
+}
+function modalHeaderBar(item){
+  const categoryLabel = (typeof CARD_LABELS!=='undefined' && CARD_LABELS[item.category]) ? CARD_LABELS[item.category] : TC(item.category);
+  return `<div class="modal-headline-bar"><span class="modal-type">${categoryLabel}</span><div class="modal-headline-copy"><strong>${L(item,'name')}</strong><span class="latin-mini">${item.scientific}</span>${summaryText(item)?`<p>${summaryText(item)}</p>`:''}</div></div>`;
+}
+function renderSimilarCards(item, mobile=false){
+  const similar = getSimilarFish(item);
+  return similar.map(s=>`<div class="similar-card" onclick="closeFishModal();setTimeout(()=>openFishModal('${s.id}'),${mobile?220:300})"><div class="similar-photo" data-photo="${s.id}"><div class="image-placeholder">LTC</div></div><div class="similar-copy"><div class="name">${L(s,'name')}</div><div class="sub">${s.category}</div><div class="sub">${s.inStock?formatMoney(s.onSale&&s.salePrice?s.salePrice:s.price):(typeof T==='function'?T('ency'):'Encyclopedia')}</div></div></div>`).join('');
 }
 function modalTemplate(item){
   const [reefText, reefClass] = reefChip(item.coralRisk);
   const [careText, careClass] = careChip(item.careDifficulty);
   const [aggText, aggClass] = aggressionChip(item.aggression);
   const [invText, invClass] = invertChip(item.invertRisk);
-  const aliasText = item.aliases && item.aliases.length ? item.aliases.join(', ') : T('noneListedAliases');
+  const aliasText = cleanInfoList(item.aliases).join(', ');
   const sizeText = item.stockSize || 'Unknown';
   const sizeInches = (typeof SIZE_SCALE!=='undefined' && item.stockSize && SIZE_SCALE[item.stockSize]) ? ` (${SIZE_SCALE[item.stockSize]})` : '';
+  const originText = cleanInfoText(L(item,'origin'));
+  const habitatText = cleanInfoText(item.habitat);
+  const staffNote = cleanInfoText(item.staffNote);
+  const overviewText = cleanInfoText(L(item,'overview'));
+  const noticeBlocks = renderNoticeBlocks(item, aliasText);
+  const factStack = renderFactStack(item);
+  const behavior = buildBehaviorParagraph(item);
+  const feeding = buildFeedingParagraph(item);
+  const recognition = buildRecognitionParagraph(item);
+  const buying = buildBuyingParagraph(item);
+  const bestWith = renderPillList(item.bestWith);
+  const cautionWith = renderPillList(item.cautionWith);
+  const foodSection = renderFoodSection(item);
   return `
     <div class="modal-layout">
       <div class="modal-left">
@@ -510,270 +861,73 @@ function modalTemplate(item){
           </div>
         </div>
         ${galleryTemplate(item) || (state.staffMode ? `<div class="photo-upload-row"><button type="button" class="photo-gallery-upload photo-gallery-upload-wide" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button></div>` : '')}
-
-        <div class="modal-section ocean">
-          <div class="section-title"><h3>Quick overview</h3></div>
-          <p class="overview">${infoOrFallback(L(item,'overview'), 'overview')}</p>
-        </div>
-
-        <div class="modal-section seafoam">
-          <div class="section-title"><h3>What customers should notice</h3></div>
-          <div class="reading-stack">
-            ${renderNoticeBlocks(item, aliasText)}
-          </div>
-        </div>
-
-        <div class="modal-section plum">
-          <div class="section-title"><h3>Quick facts</h3></div>
-          <div class="fact-stack">
-            ${renderFactStack(item)}
-          </div>
-        </div>
+        ${overviewText ? `<div class="modal-section ocean"><div class="section-title"><h3>Quick overview</h3></div><p class="overview">${overviewText}</p></div>` : ''}
+        ${noticeBlocks ? `<div class="modal-section seafoam"><div class="section-title"><h3>What customers should notice</h3></div><div class="reading-stack">${noticeBlocks}</div></div>` : ''}
+        ${factStack ? `<div class="modal-section plum"><div class="section-title"><h3>Quick facts</h3></div><div class="fact-stack">${factStack}</div></div>` : ''}
       </div>
-
       <div class="modal-right">
-        <div class="modal-headline">
-          <div>
-            <div class="modal-type">${typeof CARD_LABELS!=="undefined"&&CARD_LABELS[item.category]?CARD_LABELS[item.category]:TC(item.category)}</div>
-            <p><strong>${L(item,"name")}</strong> should read like a real in-store profile: clear, practical, and specific enough that customers can learn something useful before they ask staff.</p>
-          </div>
+        ${modalHeaderBar(item)}
+        <div class="price-band compact-stats">
+          <div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div>
+          <div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div>
+          <div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div>
+          <div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div>
         </div>
-
-        <div class="price-band">
-          <div class="modal-stat">
-            <div class="meta-label">Display price</div>
-            <div class="meta-value">${item.price ? formatMoney(item.price) : 'Unknown'}</div>
-            <div class="meta-sub">For in-store reference only — no cart, no checkout, no ordering flow.</div>
-          </div>
-          <div class="modal-stat">
-            <div class="meta-label">Minimum tank</div>
-            <div class="meta-value">${infoOrFallback(item.minTank, 'minimum tank size')}</div>
-            <div class="meta-sub">Fast read for whether the customer’s setup is even in range.</div>
-          </div>
-          <div class="modal-stat">
-            <div class="meta-label">Care level</div>
-            <div class="meta-value">${infoOrFallback(item.careLabel, 'care level')}</div>
-            <div class="meta-sub">Separates beginner livestock from animals that need more experience.</div>
-          </div>
-          <div class="modal-stat">
-            <div class="meta-label">Max size</div>
-            <div class="meta-value">${infoOrFallback(item.maxSize, 'adult size')}</div>
-            <div class="meta-sub">Useful for avoiding “cute now, problem later” purchases.</div>
-          </div>
-        </div>
-
-        <div class="modal-section ocean">
-          <div class="section-title"><h3>Compatibility gauges</h3></div>
-          <div class="gauges">
-            ${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}
-            ${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}
-            ${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}
-            ${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}
-          </div>
-        </div>
-
-        <div class="two-col">
-          <div class="modal-section seafoam">
-            <div class="section-title"><h3>At-a-glance fit</h3></div>
-            <div class="pill-list">
-              <span class="list-pill status-pill ${reefClass}">${reefText}</span>
-              <span class="list-pill status-pill ${careClass}">${careText}</span>
-              <span class="list-pill status-pill ${aggClass}">${aggText}</span>
-              <span class="list-pill status-pill ${invClass}">${invText}</span>
-            </div>
-          </div>
-          <div class="modal-section gold">
-            <div class="section-title"><h3>Core specs</h3></div>
-            <div class="pill-list">
-              <span class="list-pill">${typeof T==='function'?T('diet'):'Diet'}: ${infoOrFallback(L(item,'diet'), 'diet')}</span>
-              <span class="list-pill">${typeof T==='function'?T('origin'):'Origin'}: ${infoOrFallback(L(item,'origin'), 'origin')}</span>
-              <span class="list-pill">Habitat: ${infoOrFallback(item.habitat, 'habitat')}</span>
-              <span class="list-pill">In-store size: ${sizeText}${sizeInches}</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="modal-section plum">
-          <div class="section-title"><h3>Longer reading</h3></div>
-          <div class="reading-stack">
-            <div class="reading-block"><strong>Behavior &amp; tank fit</strong><p>${buildBehaviorParagraph(item)}</p></div>
-            <div class="reading-block"><strong>Feeding &amp; natural habitat</strong><p>${buildFeedingParagraph(item)}</p></div>
-            <div class="reading-block"><strong>Recognition &amp; ID</strong><p>${buildRecognitionParagraph(item)}</p></div>
-            <div class="reading-block"><strong>Buying guidance</strong><p>${buildBuyingParagraph(item)}</p></div>
-          </div>
-        </div>
-
-        <div class="two-col">
-          <div class="modal-section seafoam">
-            <div class="section-title"><h3>Works well with</h3></div>
-            <div class="pill-list">
-              ${renderPillList(item.bestWith, 'pairing notes')}
-            </div>
-          </div>
-          <div class="modal-section gold">
-            <div class="section-title"><h3>Use caution with</h3></div>
-            <div class="pill-list">
-              ${renderPillList(item.cautionWith, 'caution notes')}
-            </div>
-          </div>
-        </div>
-
-        <div class="origin-card">
-          <strong>Origin &amp; natural range</strong>
-          <p>${infoOrFallback(L(item,'origin'), 'origin')}<br><span class="subtle">Natural habitat: ${infoOrFallback(item.habitat, 'habitat')}.</span></p>
-        </div>
-
-        <div class="staff-card${!hasInfoText(item.staffNote) ? ' empty' : ''}">
-          <strong>Staff note</strong>
-          <p>${infoOrFallback(item.staffNote, 'staff note')}</p>
-        </div>
-        ${item.seasonal ? `<div class="seasonal-section">
-          <span class="seasonal-icon">📅</span>
-          <div><div class="seasonal-label">Seasonal Availability</div>
-          <div class="seasonal-text">${item.seasonal}</div></div>
-        </div>` : ''}
+        <div class="modal-section ocean"><div class="section-title"><h3>Compatibility gauges</h3></div><div class="gauges">${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}</div></div>
+        <div class="two-col"><div class="modal-section seafoam"><div class="section-title"><h3>At-a-glance fit</h3></div><div class="pill-list"><span class="list-pill status-pill ${reefClass}">${reefText}</span><span class="list-pill status-pill ${careClass}">${careText}</span><span class="list-pill status-pill ${aggClass}">${aggText}</span><span class="list-pill status-pill ${invClass}">${invText}</span></div></div><div class="modal-section gold"><div class="section-title"><h3>Core specs</h3></div><div class="pill-list"><span class="list-pill">${typeof T==='function'?T('diet'):'Diet'}: ${safeText(L(item,'diet'))}</span>${originText ? `<span class="list-pill">${typeof T==='function'?T('origin'):'Origin'}: ${originText}</span>` : ''}${habitatText ? `<span class="list-pill">Habitat: ${habitatText}</span>` : ''}<span class="list-pill">In-store size: ${sizeText}${sizeInches}</span></div></div></div>
+        <div class="modal-section plum"><div class="section-title"><h3>Longer reading</h3></div><div class="reading-stack">${behavior ? `<div class="reading-block"><strong>Behavior &amp; tank fit</strong><p>${behavior}</p></div>` : ''}${feeding ? `<div class="reading-block"><strong>Feeding &amp; natural habitat</strong><p>${feeding}</p></div>` : ''}${recognition ? `<div class="reading-block"><strong>Recognition &amp; ID</strong><p>${recognition}</p></div>` : ''}${buying ? `<div class="reading-block"><strong>Buying guidance</strong><p>${buying}</p></div>` : ''}</div></div>
+        ${(bestWith || cautionWith) ? `<div class="two-col">${bestWith ? `<div class="modal-section seafoam"><div class="section-title"><h3>Works well with</h3></div><div class="pill-list">${bestWith}</div></div>` : ''}${cautionWith ? `<div class="modal-section gold"><div class="section-title"><h3>Use caution with</h3></div><div class="pill-list">${cautionWith}</div></div>` : ''}</div>` : ''}
+        ${(originText || habitatText) ? `<div class="origin-card"><strong>Origin &amp; natural range</strong><p>${originText || 'Unknown'}${habitatText ? `<br><span class="subtle">Natural habitat: ${habitatText}.</span>` : ''}</p></div>` : ''}
+        ${foodSection}
+        ${staffNote ? `<div class="staff-card"><strong>Staff note</strong><p>${staffNote}</p></div>` : ''}
+        ${item.seasonal ? `<div class="seasonal-section"><span class="seasonal-icon">📅</span><div><div class="seasonal-label">Seasonal / Special Note</div><div class="seasonal-text">${item.seasonal}</div></div></div>` : ''}
         ${typeof waterParamsSection === 'function' ? waterParamsSection(item) : ''}
-
-        <div class="similar-section">
-          <h3>Similar Fish You Might Like</h3>
-          <div class="similar-row">
-            ${getSimilarFish(item).map(s=>`
-              <div class="similar-card" onclick="closeFishModal();setTimeout(()=>openFishModal('${s.id}'),300)">
-                <div class="name">${L(s,'name')}</div>
-                <div class="sub">${s.category}</div>
-                <div class="sub">${s.inStock?formatMoney(s.price):(typeof T==='function'?T('ency'):'Encyclopedia')}</div>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-
-        <div class="action-row">
-          <button class="cta primary" data-copy="${L(item,'name')} • Tank ${item.tankCode || '—'} • ${item.price ? formatMoney(item.price) : 'Unknown'}">${typeof T==='function'?T('copyInfo'):'Copy fish + tank info'}</button>
-          <button class="cta secondary" data-close-modal="true">Close profile</button>
-        </div>
+        <div class="similar-section"><h3>Similar Fish You Might Like</h3><div class="similar-row">${renderSimilarCards(item,false)}</div></div>
+        <div class="action-row"><button class="cta primary" data-copy="${L(item,'name')} • Tank ${item.tankCode || '—'} • ${(item.onSale&&item.salePrice)?formatMoney(item.salePrice):(item.price ? formatMoney(item.price) : 'Unknown')}">${typeof T==='function'?T('copyInfo'):'Copy fish + tank info'}</button><button class="cta secondary" data-close-modal="true">Close profile</button></div>
       </div>
     </div>
   `;
 }
-
 function modalTemplateMobile(item){
   const [reefText, reefClass] = reefChip(item.coralRisk);
   const [careText, careClass] = careChip(item.careDifficulty);
   const [aggText, aggClass] = aggressionChip(item.aggression);
   const [invText, invClass] = invertChip(item.invertRisk);
-  const aliasText = item.aliases && item.aliases.length ? item.aliases.join(', ') : T('noneListedAliases');
+  const aliasText = cleanInfoList(item.aliases).join(', ');
   const sizeText = item.stockSize || 'Unknown';
   const sizeInches = (typeof SIZE_SCALE!=='undefined'&&item.stockSize&&SIZE_SCALE[item.stockSize]) ? ` ${SIZE_SCALE[item.stockSize]}` : '';
+  const staffNote = cleanInfoText(item.staffNote);
+  const overviewText = cleanInfoText(L(item,'overview'));
+  const noticeBlocks = renderNoticeBlocks(item, aliasText);
+  const behavior = buildBehaviorParagraph(item);
+  const feeding = buildFeedingParagraph(item);
+  const recognition = buildRecognitionParagraph(item);
+  const buying = buildBuyingParagraph(item);
+  const bestWith = renderPillList(item.bestWith);
+  const cautionWith = renderPillList(item.cautionWith);
+  const originText = cleanInfoText(L(item,'origin'));
+  const habitatText = cleanInfoText(item.habitat);
+  const foodSection = renderFoodSection(item);
   return `
     <div class="modal-layout mobile-stack">
-      <div class="modal-photo-card mobile-hero-card">
-        <div class="modal-photo modal-photo-mobile" data-detail-photo="${item.id}">
-          <div class="image-placeholder">LTC</div><div class="skeleton-img"></div>
-          <div class="modal-photo-copy mobile-photo-copy">
-            <h2>${L(item,'name')}</h2>
-            <span class="latin">${item.scientific}</span>
-            <div class="modal-mini">
-              <span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span>
-              <span class="mini-pill">${sizeText}${sizeInches}</span>
-              <span class="mini-pill">${typeof CARD_LABELS!=="undefined"&&CARD_LABELS[item.category]?CARD_LABELS[item.category]:TC(item.category)}</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="modal-photo-card mobile-hero-card"><div class="modal-photo modal-photo-mobile" data-detail-photo="${item.id}"><div class="image-placeholder">LTC</div><div class="skeleton-img"></div><div class="modal-photo-copy mobile-photo-copy"><h2>${L(item,'name')}</h2><span class="latin">${item.scientific}</span><div class="modal-mini"><span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span><span class="mini-pill">${sizeText}${sizeInches}</span><span class="mini-pill">${(typeof CARD_LABELS!=="undefined"&&CARD_LABELS[item.category])?CARD_LABELS[item.category]:TC(item.category)}</span></div></div></div></div>
       ${galleryTemplate(item)}
-
-      <div class="mobile-stat-grid">
-        <div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${item.price ? formatMoney(item.price) : 'Unknown'}</div><div class="meta-sub">Store reference</div></div>
-        <div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${infoOrFallback(item.minTank,'minimum tank size')}</div><div class="meta-sub">Setup check</div></div>
-        <div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${infoOrFallback(item.careLabel,'care level')}</div><div class="meta-sub">Experience</div></div>
-        <div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${infoOrFallback(item.maxSize,'adult size')}</div><div class="meta-sub">Adult size</div></div>
-      </div>
-
-      <div class="modal-section ocean">
-        <div class="section-title"><h3>Quick overview</h3></div>
-        <p class="overview">${infoOrFallback(L(item,'overview'),'overview')}</p>
-      </div>
-
-      <div class="modal-section seafoam">
-        <div class="section-title"><h3>Quick facts</h3></div>
-        <div class="mobile-traits-grid">
-          <div class="mobile-trait ${reefClass}"><span>Reef</span><strong>${reefText}</strong></div>
-          <div class="mobile-trait ${careClass}"><span>Care</span><strong>${careText}</strong></div>
-          <div class="mobile-trait ${aggClass}"><span>Temper</span><strong>${aggText}</strong></div>
-          <div class="mobile-trait ${invClass}"><span>Invert</span><strong>${invText}</strong></div>
-        </div>
-        <div class="mobile-practical-grid">
-          <div class="mobile-practical"><span>${typeof T==='function'?T('diet'):'Diet'}</span><strong>${infoOrFallback(L(item,'diet'),'diet')}</strong></div>
-          <div class="mobile-practical"><span>${typeof T==='function'?T('origin'):'Origin'}</span><strong>${infoOrFallback(L(item,'origin'),'origin')}</strong></div>
-          <div class="mobile-practical"><span>Habitat</span><strong>${infoOrFallback(item.habitat,'habitat')}</strong></div>
-          <div class="mobile-practical"><span>Role</span><strong>${infoOrFallback(L(item,'role'),'role')}</strong></div>
-        </div>
-      </div>
-
-      <div class="modal-section plum">
-        <div class="section-title"><h3>Compatibility gauges</h3></div>
-        <div class="gauges">
-          ${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}
-          ${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}
-          ${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}
-          ${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}
-        </div>
-      </div>
-
+      ${modalHeaderBar(item)}
+      <div class="mobile-stat-grid compact-stats"><div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div><div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div><div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div><div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div></div>
+      ${overviewText ? `<div class="modal-section ocean"><div class="section-title"><h3>Quick overview</h3></div><p class="overview">${overviewText}</p></div>` : ''}
+      <div class="modal-section seafoam"><div class="section-title"><h3>Quick facts</h3></div><div class="mobile-traits-grid"><div class="mobile-trait ${reefClass}"><span>Reef</span><strong>${reefText}</strong></div><div class="mobile-trait ${careClass}"><span>Care</span><strong>${careText}</strong></div><div class="mobile-trait ${aggClass}"><span>Temper</span><strong>${aggText}</strong></div><div class="mobile-trait ${invClass}"><span>Invert</span><strong>${invText}</strong></div></div><div class="mobile-practical-grid"><div class="mobile-practical"><span>${typeof T==='function'?T('diet'):'Diet'}</span><strong>${safeText(L(item,'diet'))}</strong></div>${originText ? `<div class="mobile-practical"><span>${typeof T==='function'?T('origin'):'Origin'}</span><strong>${originText}</strong></div>` : ''}${habitatText ? `<div class="mobile-practical"><span>Habitat</span><strong>${habitatText}</strong></div>` : ''}${cleanInfoText(L(item,'role')) ? `<div class="mobile-practical"><span>Role</span><strong>${cleanInfoText(L(item,'role'))}</strong></div>` : ''}</div></div>
+      <div class="modal-section plum"><div class="section-title"><h3>Compatibility gauges</h3></div><div class="gauges">${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}</div></div>
       ${typeof waterParamsSection === 'function' ? waterParamsSection(item) : ''}
-
-      <div class="modal-section seafoam">
-        <div class="section-title"><h3>Longer read</h3></div>
-        <div class="reading-stack">
-          <div class="reading-block"><strong>Behavior &amp; tank fit</strong><p>${buildBehaviorParagraph(item)}</p></div>
-          <div class="reading-block"><strong>Feeding &amp; natural habitat</strong><p>${buildFeedingParagraph(item)}</p></div>
-          <div class="reading-block"><strong>Recognition &amp; ID</strong><p>${buildRecognitionParagraph(item)}</p></div>
-          <div class="reading-block"><strong>Buying guidance</strong><p>${buildBuyingParagraph(item)}</p></div>
-        </div>
-      </div>
-
-      <div class="modal-section seafoam">
-        <div class="section-title"><h3>What customers should notice</h3></div>
-        <div class="reading-stack">
-          ${renderNoticeBlocks(item, aliasText)}
-        </div>
-      </div>
-
-      <div class="modal-section plum">
-        <div class="section-title"><h3>Works well with</h3></div>
-        <div class="pill-list">
-          ${renderPillList(item.bestWith, 'pairing notes')}
-        </div>
-      </div>
-
-      <div class="modal-section gold">
-        <div class="section-title"><h3>Use caution with</h3></div>
-        <div class="pill-list">
-          ${renderPillList(item.cautionWith, 'caution notes')}
-        </div>
-      </div>
-
-      <div class="origin-card"><strong>Origin &amp; natural range</strong><p>${infoOrFallback(L(item,'origin'),'origin')}<br><span class="subtle">Natural habitat: ${infoOrFallback(item.habitat,'habitat')}.</span></p></div>
-      <div class="staff-card${!hasInfoText(item.staffNote) ? ' empty' : ''}"><strong>Staff note</strong><p>${infoOrFallback(item.staffNote,'staff note')}</p></div>
-      ${item.seasonal ? `<div class="seasonal-section"><span class="seasonal-icon">📅</span><div><div class="seasonal-label">Seasonal Availability</div><div class="seasonal-text">${item.seasonal}</div></div></div>` : ''}
-
-      <div class="similar-section">
-        <h3>Similar Fish You Might Like</h3>
-        <div class="similar-row mobile-similar-grid">
-          ${getSimilarFish(item).map(s=>`
-            <div class="similar-card" onclick="closeFishModal();setTimeout(()=>openFishModal('${s.id}'),220)">
-              <div class="name">${L(s,'name')}</div>
-              <div class="sub">${s.category}</div>
-              <div class="sub">${s.inStock?formatMoney(s.price):(typeof T==='function'?T('ency'):'Encyclopedia')}</div>
-            </div>
-          `).join('')}
-        </div>
-      </div>
-
-      <div class="action-row">
-        <button class="cta primary" data-copy="${L(item,'name')} • Tank ${item.tankCode || '—'} • ${item.price ? formatMoney(item.price) : 'Unknown'}">${typeof T==='function'?T('copyInfo'):'Copy fish + tank info'}</button>
-        <button class="cta secondary" data-close-modal="true">Close profile</button>
-      </div>
+      <div class="modal-section seafoam"><div class="section-title"><h3>Longer read</h3></div><div class="reading-stack">${behavior ? `<div class="reading-block"><strong>Behavior &amp; tank fit</strong><p>${behavior}</p></div>` : ''}${feeding ? `<div class="reading-block"><strong>Feeding &amp; natural habitat</strong><p>${feeding}</p></div>` : ''}${recognition ? `<div class="reading-block"><strong>Recognition &amp; ID</strong><p>${recognition}</p></div>` : ''}${buying ? `<div class="reading-block"><strong>Buying guidance</strong><p>${buying}</p></div>` : ''}</div></div>
+      ${noticeBlocks ? `<div class="modal-section seafoam"><div class="section-title"><h3>What customers should notice</h3></div><div class="reading-stack">${noticeBlocks}</div></div>` : ''}
+      ${foodSection}
+      ${bestWith ? `<div class="modal-section gold"><div class="section-title"><h3>Works well with</h3></div><div class="pill-list">${bestWith}</div></div>` : ''}
+      ${cautionWith ? `<div class="modal-section plum"><div class="section-title"><h3>Use caution with</h3></div><div class="pill-list">${cautionWith}</div></div>` : ''}
+      ${(originText || habitatText) ? `<div class="origin-card"><strong>Origin &amp; natural range</strong><p>${originText || 'Unknown'}${habitatText ? `<br><span class="subtle">Natural habitat: ${habitatText}.</span>` : ''}</p></div>` : ''}
+      ${staffNote ? `<div class="staff-card"><strong>Staff note</strong><p>${staffNote}</p></div>` : ''}
+      ${item.seasonal ? `<div class="seasonal-section"><span class="seasonal-icon">📅</span><div><div class="seasonal-label">Seasonal / Special Note</div><div class="seasonal-text">${item.seasonal}</div></div></div>` : ''}
+      <div class="similar-section"><h3>Similar Fish You Might Like</h3><div class="similar-row mobile-similar-grid">${renderSimilarCards(item,true)}</div></div>
+      <div class="action-row"><button class="cta primary" data-copy="${L(item,'name')} • Tank ${item.tankCode || '—'} • ${(item.onSale&&item.salePrice)?formatMoney(item.salePrice):(item.price ? formatMoney(item.price) : 'Unknown')}">${typeof T==='function'?T('copyInfo'):'Copy fish + tank info'}</button><button class="cta secondary" data-close-modal="true">Close profile</button></div>
     </div>
   `;
 }
@@ -855,6 +1009,8 @@ function openFishModal(id){
   const closeBtn = body.querySelector('[data-close-modal]');
   if(closeBtn) closeBtn.addEventListener('click', closeFishModal);
   if(overlay){overlay.classList.add('show');overlay.setAttribute('aria-hidden', 'false');}
+  const detailVideo = document.getElementById('detailBgVideo');
+  if(detailVideo){ detailVideo.play().catch(()=>{}); }
   document.body.classList.add('modal-open');
   requestAnimationFrame(()=>{
     applyImagesToDOM();
@@ -865,6 +1021,8 @@ function openFishModal(id){
 function closeFishModal(){
   const overlay = document.getElementById('fishOverlay');
   if(overlay){overlay.classList.remove('show');overlay.setAttribute('aria-hidden', 'true');}
+  const detailVideo = document.getElementById('detailBgVideo');
+  if(detailVideo){ detailVideo.pause(); detailVideo.currentTime = 0; }
   const modal = document.querySelector('.fish-modal');
   if(modal) modal.classList.remove('mobile-safe');
   document.body.classList.remove('modal-open');
@@ -1334,6 +1492,7 @@ function checkPin(){
     closeStaffLogin();
     const ab=document.getElementById('analyticsBtn');if(ab)ab.style.display='inline-flex';
     const eb=document.getElementById('exitStaffBtn');if(eb)eb.style.display='inline-flex';
+    const fb=document.getElementById('foodsBtn');if(fb)fb.style.display='inline-flex';
     const sb=document.getElementById('staffBadge');if(sb)sb.style.display='none';
     showToast(T('staffActivated'));
     playOpen();
@@ -1349,6 +1508,7 @@ function exitStaffMode(){
   state.staffMode = false;
   const ab=document.getElementById('analyticsBtn');if(ab)ab.style.display='none';
   const eb=document.getElementById('exitStaffBtn');if(eb)eb.style.display='none';
+  const fb=document.getElementById('foodsBtn');if(fb)fb.style.display='none';
   const sb=document.getElementById('staffBadge');if(sb)sb.style.display='inline-flex';
   showToast(T('staffDeactivated'));
   playClose();
@@ -1512,6 +1672,88 @@ function openAnalytics(){
 }
 function closeAnalytics(){
   const overlay = document.getElementById('analyticsOverlay');
+  if(overlay) overlay.classList.remove('show');
+}
+
+
+function renderFoodSettingsToolbar(){
+  const bar = document.getElementById('foodsSettingsToolbar');
+  if(!bar) return;
+  bar.innerHTML = `
+    <button class="food-toolbar-btn" type="button" onclick="exportStoreFoodSettings()">Export JSON</button>
+    <button class="food-toolbar-btn" type="button" onclick="document.getElementById('foodsSettingsImportFile').click()">Import JSON</button>
+    <button class="food-toolbar-btn danger" type="button" onclick="resetStoreFoodSettings()">Restore Defaults</button>
+  `;
+}
+function renderFoodSettings(){
+  const root = document.getElementById('foodsSettingsContent');
+  if(!root) return;
+  renderFoodSettingsToolbar();
+  const fileInput = document.getElementById('foodsSettingsImportFile');
+  if(fileInput && !fileInput.dataset.boundFoodImport){
+    fileInput.addEventListener('change', e => {
+      importStoreFoodSettingsFile(e.target.files?.[0]);
+      e.target.value = '';
+    });
+    fileInput.dataset.boundFoodImport = '1';
+  }
+  const settings = getStoreFoodSettings();
+  const catalog = Array.isArray(window.FOOD_CATALOG) ? window.FOOD_CATALOG : [];
+  const brands = [...new Set(catalog.map(f => f.brand))];
+  const types = [...new Set(catalog.map(f => f.type))];
+  root.innerHTML = `
+    <div class="food-settings-copy">Everything here is local to this browser unless you export and import the JSON. Fish profiles only show foods that are enabled and carried.</div>
+    <div class="food-settings-brands">${brands.map(brand => `<label class="food-toggle"><input type="checkbox" data-food-brand="${brand}" ${settings.enabledBrands[brand] !== false ? 'checked' : ''}> <span>${brand}</span></label>`).join('')}</div>
+    <div class="food-settings-brands food-type-row">${types.map(type => `<label class="food-toggle"><input type="checkbox" data-food-type="${type}" ${settings.hiddenTypes[type] ? '' : 'checked'}> <span>${type}</span></label>`).join('')}</div>
+    <div class="food-settings-grid">${catalog.map(food => {
+      const carried = !settings.disabledProducts[food.id];
+      const featured = !!settings.featuredProducts[food.id];
+      const dim = settings.enabledBrands[food.brand] === false || !carried;
+      return `<div class="food-card-toggle ${dim ? 'is-dim' : ''} ${featured ? 'is-featured' : ''}">
+        <div class="food-card-actions">
+          <label class="food-toggle compact"><input type="checkbox" data-food-product="${food.id}" ${carried ? 'checked' : ''}> <span>Carry</span></label>
+          <button class="feature-star ${featured ? 'active' : ''}" type="button" data-food-feature="${food.id}" aria-label="Feature ${food.name}">★</button>
+        </div>
+        <div class="food-brand">${food.brand}</div>
+        <div class="food-name">${food.name}</div>
+        <div class="food-card-meta"><span class="food-badge">${food.type}</span><span class="food-badge">${food.stage}</span></div>
+        <div class="food-notes">${food.notes}</div>
+      </div>`;
+    }).join('')}</div>
+  `;
+  root.querySelectorAll('[data-food-brand]').forEach(el => el.addEventListener('change', () => {
+    settings.enabledBrands[el.dataset.foodBrand] = el.checked;
+    saveStoreFoodSettings();
+    renderFoodSettings();
+    render();
+  }));
+  root.querySelectorAll('[data-food-type]').forEach(el => el.addEventListener('change', () => {
+    settings.hiddenTypes[el.dataset.foodType] = !el.checked;
+    saveStoreFoodSettings();
+    render();
+  }));
+  root.querySelectorAll('[data-food-product]').forEach(el => el.addEventListener('change', () => {
+    settings.disabledProducts[el.dataset.foodProduct] = !el.checked;
+    saveStoreFoodSettings();
+    renderFoodSettings();
+    render();
+  }));
+  root.querySelectorAll('[data-food-feature]').forEach(el => el.addEventListener('click', () => {
+    const id = el.dataset.foodFeature;
+    settings.featuredProducts[id] = !settings.featuredProducts[id];
+    saveStoreFoodSettings();
+    renderFoodSettings();
+    render();
+  }));
+}
+function openFoodSettings(){
+  const overlay = document.getElementById('foodsOverlay');
+  if(!overlay) return;
+  overlay.classList.add('show');
+  renderFoodSettings();
+}
+function closeFoodSettings(){
+  const overlay = document.getElementById('foodsOverlay');
   if(overlay) overlay.classList.remove('show');
 }
 

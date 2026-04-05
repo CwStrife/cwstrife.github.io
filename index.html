@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-title" content="LTC Fish Browser">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#0a0c12">
-<title>Low Tide Corals &amp; Aquatics — Fish Browser V0.054</title>
+<title>Low Tide Corals &amp; Aquatics — Fish Browser V0.058</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -65,6 +65,7 @@
       <button class="theme-toggle" onclick="window.print()" title="Print inventory">🖨</button>
       <button class="staff-badge" id="staffBadge" onclick="openStaffLogin()">Staff</button>
       <button class="staff-badge" id="analyticsBtn" style="display:none;background:rgba(80,160,255,.2);border-color:rgba(80,160,255,.3);color:#80b8ff" onclick="openAnalytics()">Analytics</button>
+      <button class="staff-badge" id="foodsBtn" style="display:none;background:rgba(110,220,160,.16);border-color:rgba(110,220,160,.3);color:#9cf1c5" onclick="openFoodSettings()">Foods</button>
       <button class="staff-badge" id="exitStaffBtn" style="display:none;background:rgba(255,80,80,.15);border-color:rgba(255,80,80,.25);color:#ff8888" onclick="exitStaffMode()">Exit Staff</button>
     </div>
   </div>
@@ -138,6 +139,7 @@
 </main>
 
 <div class="overlay" id="fishOverlay" aria-hidden="true">
+  <video class="detail-bg-video" id="detailBgVideo" autoplay muted loop playsinline preload="metadata"><source src="detail-bg.mp4" type="video/mp4"></video>
   <div class="fish-modal" role="dialog" aria-modal="true" aria-label="Fish detail profile">
     <button class="modal-close" id="closeFishBtn" aria-label="Close fish profile">×</button>
     <div class="modal-body" id="fishModalBody"></div>
@@ -190,6 +192,20 @@
   </div>
 </div>
 
+
+<!-- FOOD SETTINGS OVERLAY -->
+<div class="analytics-overlay" id="foodsOverlay">
+  <div class="analytics-panel food-settings-panel">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+      <h2 style="margin:0;font-size:22px">Store Food Settings</h2>
+      <button onclick="closeFoodSettings()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+    </div>
+    <div class="food-settings-toolbar" id="foodsSettingsToolbar"></div>
+    <input id="foodsSettingsImportFile" type="file" accept="application/json,.json" style="display:none">
+    <div id="foodsSettingsContent"></div>
+  </div>
+</div>
+
 <!-- ANALYTICS OVERLAY -->
 <div class="analytics-overlay" id="analyticsOverlay">
   <div class="analytics-panel">
@@ -201,7 +217,36 @@
   </div>
 </div>
 <script src="data/logos.js"></script>
+<script src="data/catalog-base.js"></script>
+<script src="data/species/tangs.js"></script>
+<script src="data/species/angelfish.js"></script>
+<script src="data/species/gobies-blennies.js"></script>
+<script src="data/species/clownfish.js"></script>
+<script src="data/species/wrasses.js"></script>
+<script src="data/species/basslets-dottybacks.js"></script>
+<script src="data/species/shrimp.js"></script>
+<script src="data/species/rabbitfish.js"></script>
+<script src="data/species/cardinalfish.js"></script>
+<script src="data/species/hawkfish.js"></script>
+<script src="data/species/other-fish.js"></script>
+<script src="data/species/crabs.js"></script>
+<script src="data/species/urchins.js"></script>
+<script src="data/species/snails.js"></script>
+<script src="data/species/damsels.js"></script>
+<script src="data/species/puffers.js"></script>
+<script src="data/species/eels.js"></script>
+<script src="data/species/anthias.js"></script>
+<script src="data/species/butterflyfish.js"></script>
+<script src="data/species/starfish.js"></script>
+<script src="data/species/anemones.js"></script>
+<script src="data/species/clams.js"></script>
+<script src="data/species/lionfish.js"></script>
+<script src="data/species/triggerfish.js"></script>
+<script src="data/species/inverts.js"></script>
 <script src="data/fish.js"></script>
+<script src="data/foods/catalog.js"></script>
+<script src="data/foods/store-settings.js"></script>
+<script src="data/foods/profile-rules.js"></script>
 <script src="js/app.js"></script>
 <script src="js/features.js"></script>
 </body>

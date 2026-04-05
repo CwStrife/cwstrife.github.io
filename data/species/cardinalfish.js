@@ -1,0 +1,607 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
+window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
+  {
+    "id": "bangaii-cardinal",
+    "name": "Banggai Cardinalfish",
+    "aliases": [
+      "Bangaii"
+    ],
+    "scientific": "Pterapogon kauderni",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "Unknown",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Carnivore",
+    "origin": "Banggai Islands / captive bred",
+    "habitat": "Sheltered reef areas near urchins",
+    "tankCode": "",
+    "aggression": 14,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 20,
+    "role": "Striking pattern fish that hovers in place",
+    "visualCue": "Silver body with bold black vertical bars and elongated flowing fins with white spots.",
+    "overview": "A slow-moving, peaceful fish with dramatic markings. Captive-bred specimens are widely available and very hardy. Tends to hover in one spot rather than swim actively.",
+    "facts": [
+      "One of the few marine fish widely available as captive-bred.",
+      "Tends to find a favorite spot and hover there — near urchins, corals, or overhangs.",
+      "Pairs can be kept together but groups may fight as they mature."
+    ],
+    "bestWith": [
+      "Nano to medium reef tanks",
+      "Peaceful communities",
+      "Long-spined urchins for natural hosting behavior"
+    ],
+    "cautionWith": [
+      "Groups larger than a pair in small tanks",
+      "Very aggressive fast-moving tankmates",
+      "Tanks with zero shelter"
+    ],
+    "staffNote": "Easy sell for beginners. Hardy, captive-bred, stunning pattern, peaceful. Check all the boxes.",
+    "photoTitle": "Pterapogon kauderni",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Cardenal de Banggai",
+    "overview_es": "Un cardenal distinguido de otros por sus aletas elongadas y patrón de barras negras. Fácil de criar en cautiverio.",
+    "role_es": "Cardenal elegante con aletas elongadas y barras negras",
+    "diet_es": "Carnívoro",
+    "origin_es": "",
+    "headerSummary": "Striking pattern fish that hovers in place. Look for silver body with bold black vertical bars and elongated flowing fins with white spots. Plan on at least 20+ gal.",
+    "seasonal": null
+  },
+  {
+    "id": "pajama-cardinal",
+    "name": "Pajama Cardinalfish",
+    "aliases": [
+      "PJ Cardinal",
+      "Spotted Cardinalfish"
+    ],
+    "scientific": "Sphaeramia nematoptera",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "Unknown",
+    "maxSize": "3.5 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Carnivore",
+    "origin": "Western Pacific",
+    "habitat": "Sheltered reef areas and among branching corals",
+    "tankCode": "",
+    "aggression": 10,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 16,
+    "role": "Quirky patterned cardinalfish that hovers in groups",
+    "visualCue": "Three-part color scheme: greenish-yellow head, black vertical band through the middle, and orange-spotted silver rear half. Red eyes.",
+    "overview": "One of the most uniquely patterned fish in the hobby. The three-section color scheme looks almost painted. Peaceful, hardy, and best kept in small groups where they hover together motionlessly.",
+    "facts": [
+      "The three-part color pattern is completely unique in the marine hobby.",
+      "Groups hover motionlessly together — mesmerizing behavior.",
+      "Hardy and easy to feed."
+    ],
+    "bestWith": [
+      "Peaceful reef tanks",
+      "Small groups of 3-5",
+      "Tanks with moderate flow and hiding spots"
+    ],
+    "cautionWith": [
+      "Very aggressive fast-moving tankmates"
+    ],
+    "staffNote": "The hovering group behavior sells itself. Show them a group in the display.",
+    "photoTitle": "Sphaeramia nematoptera",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Cardenal Pijama",
+    "overview_es": "Uno de los peces con patrón más único del hobby. Los grupos flotan juntos inmóviles — un comportamiento fascinante.",
+    "role_es": "Cardenal con patrón único que flota en grupos",
+    "diet_es": "Carnívoro",
+    "origin_es": "Pacífico Occidental",
+    "headerSummary": "Quirky patterned cardinalfish that hovers in groups. Look for three-part color scheme: greenish-yellow head, black vertical band through the middle, and orange-spotted silver rear half. Red eyes. Plan on at least 20+ gal.",
+    "seasonal": null
+  },
+  {
+    "id": "banggai-cardinal",
+    "name": "Banggai Cardinal",
+    "name_es": "Banggai Cardinal",
+    "aliases": [],
+    "scientific": "",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "Unknown",
+    "maxSize": "Needs enrichment",
+    "minTank": "Needs enrichment",
+    "diet": "—",
+    "diet_es": "",
+    "origin": "—",
+    "origin_es": "",
+    "habitat": "Reef / rocky",
+    "tankCode": "",
+    "aggression": 14,
+    "coralRisk": 28,
+    "invertRisk": 20,
+    "careDifficulty": 42,
+    "role": "Catalog expansion seed for a cardinalfish profile",
+    "role_es": "",
+    "overview": "Banggai Cardinal is best kept as catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview_es": "",
+    "facts": [
+      "Roster seed for Banggai Cardinal; not fully enriched yet.",
+      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
+      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+    ],
+    "photoTitle": "Banggai Cardinal",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "",
+    "headerSummary": "Catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan on at least Needs enrichment."
+  },
+  {
+    "id": "flame-cardinal",
+    "name": "Flame Cardinal",
+    "name_es": "Flame Cardinal",
+    "aliases": [],
+    "scientific": "Apogon maculatus",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "Unknown",
+    "maxSize": "4 in",
+    "minTank": "20+ gal",
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Caribbean",
+    "origin_es": "Caribe",
+    "habitat": "Reef / rocky",
+    "tankCode": "",
+    "aggression": 10,
+    "coralRisk": 2,
+    "invertRisk": 2,
+    "careDifficulty": 15,
+    "role": "Catalog expansion seed for a cardinalfish profile",
+    "role_es": "",
+    "overview": "Translucent red-orange with a dark spot near the eye. Hardy Caribbean cardinal that does well in groups.",
+    "overview_es": "Rojo-naranja translúcido con mancha oscura cerca del ojo. Cardenal resistente del Caribe.",
+    "facts": [
+      "Roster seed for Flame Cardinal; not fully enriched yet.",
+      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
+      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+    ],
+    "photoTitle": "Apogon_maculatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "careLabel": "Easy",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "",
+    "headerSummary": "Catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan on at least 20+ gal."
+  },
+  {
+    "id": "orbic-cardinal",
+    "name": "Orbic Cardinal",
+    "name_es": "Orbic Cardinal",
+    "aliases": [],
+    "scientific": "",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "Unknown",
+    "maxSize": "Needs enrichment",
+    "minTank": "Needs enrichment",
+    "diet": "—",
+    "diet_es": "",
+    "origin": "—",
+    "origin_es": "",
+    "habitat": "Reef / rocky",
+    "tankCode": "",
+    "aggression": 14,
+    "coralRisk": 28,
+    "invertRisk": 20,
+    "careDifficulty": 42,
+    "role": "Catalog expansion seed for a cardinalfish profile",
+    "role_es": "",
+    "overview": "Orbic Cardinal is best kept as catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview_es": "",
+    "facts": [
+      "Roster seed for Orbic Cardinal; not fully enriched yet.",
+      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
+      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+    ],
+    "photoTitle": "Orbic Cardinal",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "",
+    "headerSummary": "Catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan on at least Needs enrichment."
+  },
+  {
+    "id": "red-spot-cardinal",
+    "name": "Red Spot Cardinal",
+    "name_es": "Red Spot Cardinal",
+    "aliases": [],
+    "scientific": "",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "Unknown",
+    "maxSize": "Needs enrichment",
+    "minTank": "Needs enrichment",
+    "diet": "—",
+    "diet_es": "",
+    "origin": "—",
+    "origin_es": "",
+    "habitat": "Reef / rocky",
+    "tankCode": "",
+    "aggression": 14,
+    "coralRisk": 28,
+    "invertRisk": 20,
+    "careDifficulty": 42,
+    "role": "Catalog expansion seed for a cardinalfish profile",
+    "role_es": "",
+    "overview": "Red Spot Cardinal is best kept as catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview_es": "",
+    "facts": [
+      "Roster seed for Red Spot Cardinal; not fully enriched yet.",
+      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
+      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+    ],
+    "photoTitle": "Red Spot Cardinal",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "",
+    "headerSummary": "Catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan on at least Needs enrichment."
+  },
+  {
+    "id": "threadfin-cardinal",
+    "name": "Threadfin Cardinal",
+    "name_es": "Threadfin Cardinal",
+    "aliases": [],
+    "scientific": "",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "Unknown",
+    "maxSize": "Needs enrichment",
+    "minTank": "Needs enrichment",
+    "diet": "—",
+    "diet_es": "",
+    "origin": "—",
+    "origin_es": "",
+    "habitat": "Reef / rocky",
+    "tankCode": "",
+    "aggression": 14,
+    "coralRisk": 28,
+    "invertRisk": 20,
+    "careDifficulty": 42,
+    "role": "Catalog expansion seed for a cardinalfish profile",
+    "role_es": "",
+    "overview": "Threadfin Cardinal is best kept as catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview_es": "",
+    "facts": [
+      "Roster seed for Threadfin Cardinal; not fully enriched yet.",
+      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
+      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+    ],
+    "photoTitle": "Threadfin Cardinal",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "",
+    "headerSummary": "Catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan on at least Needs enrichment."
+  },
+  {
+    "id": "yellow-stripe-cardinal",
+    "name": "Yellow Stripe Cardinal",
+    "name_es": "Yellow Stripe Cardinal",
+    "aliases": [],
+    "scientific": "",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "Unknown",
+    "maxSize": "Needs enrichment",
+    "minTank": "Needs enrichment",
+    "diet": "—",
+    "diet_es": "",
+    "origin": "—",
+    "origin_es": "",
+    "habitat": "Reef / rocky",
+    "tankCode": "",
+    "aggression": 14,
+    "coralRisk": 28,
+    "invertRisk": 20,
+    "careDifficulty": 42,
+    "role": "Catalog expansion seed for a cardinalfish profile",
+    "role_es": "",
+    "overview": "Yellow Stripe Cardinal is best kept as catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan around at least Needs enrichment with an adult size near Needs enrichment. Diet is —.",
+    "overview_es": "",
+    "facts": [
+      "Roster seed for Yellow Stripe Cardinal; not fully enriched yet.",
+      "Scientific name, exact max size, and species-specific tank recommendation still need verification.",
+      "Image mapping should be reviewed and replaced with a confirmed photo target before final rollout."
+    ],
+    "photoTitle": "Yellow Stripe Cardinal",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "careLabel": "Intermediate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Tankmates chosen around its behavior and adult size",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Corals or polyps that could be nipped or disturbed",
+      "Systems smaller than Needs enrichment"
+    ],
+    "staffNote": "",
+    "headerSummary": "Catalog expansion seed for a cardinalfish profile. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan on at least Needs enrichment."
+  },
+  {
+    "id": "threadfin-cardinalfish",
+    "name": "Threadfin Cardinalfish",
+    "name_es": "Cardenal Aleta de Hilo",
+    "scientific": "Apogon leptacanthus",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "aggression": 10,
+    "coralRisk": 2,
+    "invertRisk": 2,
+    "careDifficulty": 20,
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Indo-Pacific",
+    "origin_es": "Indo-Pacífico",
+    "habitat": "Reef crevices",
+    "maxSize": "2.5 in",
+    "minTank": "10+ gal",
+    "photoTitle": "Apogon_leptacanthus",
+    "role": "Translucent schooling cardinalfish",
+    "role_es": "Cardenal translúcido de cardumen",
+    "overview": "Tiny, translucent cardinalfish that schools beautifully. Blue eye line and subtle iridescence.",
+    "overview_es": "Cardenales diminutos y translúcidos que forman cardúmenes hermosos.",
+    "inStock": false,
+    "price": 0,
+    "stockSize": "Unknown",
+    "tankCode": "",
+    "badges": [],
+    "aliases": [],
+    "facts": [
+      "Minimum suggested system is 10+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends very calm."
+    ],
+    "water": {
+      "ph": [
+        8.0,
+        8.4
+      ],
+      "salinity": [
+        1.023,
+        1.026
+      ],
+      "temp": [
+        75,
+        80
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
+    },
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 10+ gal"
+    ],
+    "staffNote": "",
+    "headerSummary": "Translucent schooling cardinalfish. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan on at least 10+ gal."
+  },
+  {
+    "id": "banggai-cardinalfish",
+    "name": "Banggai Cardinalfish",
+    "name_es": "Cardenal de Banggai",
+    "scientific": "Pterapogon kauderni",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "aggression": 15,
+    "coralRisk": 2,
+    "invertRisk": 2,
+    "careDifficulty": 20,
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Banggai Islands",
+    "origin_es": "Islas Banggai",
+    "habitat": "Reef areas with urchins",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "photoTitle": "Pterapogon_kauderni",
+    "role": "Elegant cardinalfish with elongated fins",
+    "role_es": "Cardenal elegante con aletas elongadas",
+    "overview": "Distinguished by elongated fins and dramatic black bars. Easy to breed. Mouthbrooder.",
+    "overview_es": "Se distingue por aletas elongadas y barras negras dramáticas. Fácil de criar.",
+    "inStock": false,
+    "price": 0,
+    "stockSize": "Unknown",
+    "tankCode": "",
+    "badges": [],
+    "aliases": [],
+    "facts": [
+      "Minimum suggested system is 20+ gal.",
+      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
+      "Compatibility snapshot: reef safe, low invert risk, and temperament trends calm to mild."
+    ],
+    "water": {
+      "ph": [
+        8.0,
+        8.4
+      ],
+      "salinity": [
+        1.023,
+        1.026
+      ],
+      "temp": [
+        75,
+        80
+      ],
+      "ph_low": null,
+      "ph_high": null,
+      "sal_low": null,
+      "sal_high": null,
+      "temp_low": null,
+      "temp_high": null
+    },
+    "seasonal": null,
+    "careLabel": "Moderate",
+    "visualCue": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover.",
+    "bestWith": [
+      "Mature systems that meet the minimum tank size",
+      "Reef-safe community plans with compatible tankmates",
+      "Peaceful to semi-peaceful community livestock"
+    ],
+    "cautionWith": [
+      "Tankmates that do not match its adult size or activity level",
+      "Systems smaller than 20+ gal"
+    ],
+    "staffNote": "",
+    "headerSummary": "Elegant cardinalfish with elongated fins. Look for look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover. Plan on at least 20+ gal."
+  }
+];
