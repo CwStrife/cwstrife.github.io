@@ -120,6 +120,28 @@ function scrollBundleRail(dir){
   row.scrollBy({left: amount, behavior: 'smooth'});
   setTimeout(updateBundleRailUI, 260);
 }
+
+let railObserverBound = false;
+function bindRailObservers(){
+  if(railObserverBound) return;
+  railObserverBound = true;
+  const refresh = ()=>{ updateCategoryRailUI(); updateBundleRailUI(); };
+  window.addEventListener('load', refresh, {passive:true});
+  window.addEventListener('orientationchange', ()=>setTimeout(refresh, 180), {passive:true});
+  setTimeout(refresh, 120);
+  setTimeout(refresh, 500);
+  if(typeof ResizeObserver !== 'undefined'){
+    const ro = new ResizeObserver(()=>refresh());
+    const catShell = document.getElementById('categoryShell');
+    const catBar = document.getElementById('categoryBar');
+    const bundleShell = document.getElementById('bundleShell');
+    const bundleRow = document.getElementById('bundleRow');
+    if(catShell) ro.observe(catShell);
+    if(catBar) ro.observe(catBar);
+    if(bundleShell) ro.observe(bundleShell);
+    if(bundleRow) ro.observe(bundleRow);
+  }
+}
 function categoryCounts(){
   const pool = state.mode === 'stock' ? FISH.filter(f=>f.inStock) : FISH;
   return pool.reduce((acc, item) => {
@@ -298,7 +320,7 @@ function renderCategories(){
     bar.addEventListener('scroll', updateCategoryRailUI, {passive:true});
     bar.dataset.boundScroll = 'true';
   }
-  requestAnimationFrame(()=>{ updateCategoryRailUI(); updateBundleRailUI(); });
+  requestAnimationFrame(()=>{ updateCategoryRailUI(); updateBundleRailUI(); bindRailObservers(); });
 }
 function updateTopControls(){
   renderSortOptions();
@@ -325,11 +347,11 @@ function cardTemplate(item){
     const cls = b==='Staff Pick'?'badge-staff':b==='New Arrival'?'badge-new':b==='Rare Find'?'badge-rare':'badge-beginner';
     return `<span class="badge ${cls}">${TB(b)}</span>`;
   }).join('')}${item.seasonal ? `<span class="badge" style="background:rgba(255,200,60,.15);border:1px solid rgba(255,200,60,.25);color:#eebb44">${typeof T==='function'?T('limited'):'📅 Limited'}</span>` : ''}</div>` : (item.seasonal ? `<div class="card-badges"><span class="badge" style="background:rgba(255,200,60,.15);border:1px solid rgba(255,200,60,.25);color:#eebb44">${typeof T==='function'?T('limited'):'📅 Limited'}</span></div>` : '');
-  const compactSale = state.viewMode === 'compact' && item.onSale;
-  const oldCompactPriceHtml = compactSale ? `<span class="card-old-price-inline">${formatMoney(item.price)}</span>` : '';
-  const priceHtml = isEncy || !item.price ? '' : item.onSale ? (compactSale
-    ? `<div class="price-badge sale-main-badge"><span class="price-value sale-price">${formatMoney(item.salePrice)}</span><span class="price-sale-tag">${typeof T==="function"?T("sale"):"SALE"}</span></div>`
-    : `<div class="price-badge sale-badge"><span class="price-old">${formatMoney(item.price)}</span><span class="price-value sale-price">${formatMoney(item.salePrice)}</span><span class="price-sale-tag">${typeof T==="function"?T("sale"):"SALE"}</span></div>`) : `<div class="price-badge"><span class="price-value">${formatMoney(item.price)}</span></div>`;
+  const onCardSale = !!item.onSale && !!item.salePrice && !isEncy && !!item.price;
+  const oldCompactPriceHtml = onCardSale ? `<span class="card-old-price-inline">${formatMoney(item.price)}</span><span class="card-sale-inline">${typeof T==="function"?T("sale"):"SALE"}</span>` : '';
+  const priceHtml = isEncy || !item.price ? '' : onCardSale
+    ? `<div class="price-badge sale-main-badge"><span class="price-value sale-price">${formatMoney(item.salePrice)}</span></div>`
+    : `<div class="price-badge"><span class="price-value">${formatMoney(item.price)}</span></div>`;
   const tankHtml = isEncy || !item.tankCode ? '' : `<div class="tank-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode}</div>`;
   const sizeInches = (typeof SIZE_SCALE!=='undefined' && item.stockSize && SIZE_SCALE[item.stockSize]) ? ' ('+SIZE_SCALE[item.stockSize]+')' : '';
   const stockMeta = isEncy ? '' : `<div class="meta-box"><div class="meta-label">${typeof T==="function"?T("stockSize"):"In stock size"}</div><div class="meta-value">${item.stockSize||'—'}${sizeInches}</div></div>`;
@@ -1505,7 +1527,7 @@ function renderBundlesHTML(){
     const fl=b.fish.map(id=>FISH.find(f=>f.id===id)).filter(Boolean);
     const total=fl.reduce((s,f)=>s+(f.salePrice||f.price),0);
     const disc=total*(1-b.discount/100);
-    return `<div style="flex:0 0 260px;padding:12px;border-radius:14px;background:rgba(90,220,200,.06);border:1px solid rgba(90,220,200,.12)">
+    return `<div class="bundle-card" style="flex:0 0 260px;padding:12px;border-radius:14px;background:rgba(90,220,200,.06);border:1px solid rgba(90,220,200,.12)">
       <div style="font-size:14px;font-weight:800;color:#5eebc8">${b.name_es && state.lang==="es" ? b.name_es : b.name}</div>
       <div style="font-size:11px;color:rgba(255,255,255,.35);margin-top:3px">${b.desc_es && state.lang==="es" ? b.desc_es : b.desc}</div>
       <div style="margin-top:6px;display:flex;align-items:center;gap:6px">
@@ -1519,7 +1541,7 @@ function renderBundlesHTML(){
       </div>` : ''}
     </div>`;
   }).join('');
-  if(state.staffMode) html += '<div style="flex:0 0 120px;padding:12px;border-radius:14px;border:2px dashed rgba(90,220,200,.2);display:grid;place-items:center;cursor:pointer;color:rgba(90,220,200,.5);font-size:13px;font-weight:700" onclick="staffCreateBundle()">+ New Bundle</div>';
+  if(state.staffMode) html += '<div class="bundle-card bundle-card-new" style="flex:0 0 120px;padding:12px;border-radius:14px;border:2px dashed rgba(90,220,200,.2);display:grid;place-items:center;cursor:pointer;color:rgba(90,220,200,.5);font-size:13px;font-weight:700" onclick="staffCreateBundle()">+ New Bundle</div>';
   return html;
 }
 

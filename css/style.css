@@ -2458,3 +2458,160 @@ body.light-mode .bundle-shell::after{background:linear-gradient(270deg,rgba(240,
   .view-toggle-btn{min-width:54px;min-height:32px;height:32px;padding:0 8px;border-radius:10px}
   .view-toggle-btn .view-toggle-icon{width:16px;height:16px;font-size:10px;border-radius:5px}
 }
+
+/* === V0.054 surgical fixes + audit pass === */
+html,body{max-width:100%;overflow-x:hidden}
+
+/* Sale pricing: old price beside title, sale price occupies the normal price slot */
+.card-title-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;column-gap:6px;align-items:start}
+.card-title-row .card-title{min-width:0;margin:0}
+.card-old-price-inline{
+  display:none;
+  align-self:center;
+  font-size:11px;
+  line-height:1;
+  color:rgba(255,255,255,.42);
+  text-decoration:line-through;
+  white-space:nowrap;
+  margin:0;
+}
+.card-sale-inline{
+  display:none;
+  align-self:center;
+  min-height:18px;
+  padding:0 6px;
+  border-radius:999px;
+  background:rgba(255,109,109,.12);
+  border:1px solid rgba(255,109,109,.18);
+  color:#ff7b7b;
+  font-size:9px;
+  font-weight:900;
+  letter-spacing:.08em;
+  line-height:18px;
+  text-transform:uppercase;
+}
+.card-info-strip{align-items:center}
+.sale-main-badge{
+  min-width:68px;
+  justify-content:center;
+  align-items:center;
+  padding:6px 10px;
+  gap:0;
+}
+.sale-main-badge .price-value{line-height:1}
+.sale-main-badge .price-sale-tag{display:none!important}
+
+.cards.compact-mode .card-old-price-inline,
+.cards.compact-mode .card-sale-inline{display:inline-block}
+.cards.compact-mode .card-info-strip{
+  display:grid;
+  grid-template-columns:auto auto 1fr;
+  gap:6px;
+  align-items:center;
+}
+.cards.compact-mode .price-badge{min-width:68px}
+
+/* Uniform compact quick-trait pills */
+.cards.compact-mode .compact-traits-row{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:6px;
+  margin-top:7px;
+}
+.cards.compact-mode .compact-trait{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-width:0;
+  height:24px;
+  padding:0 8px;
+  border-radius:999px;
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:.02em;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  text-align:center;
+}
+
+/* Category and bundle rails: clear scroll affordance */
+.category-row,.bundle-row{
+  scroll-snap-type:x proximity;
+  scroll-padding-left:14px;
+}
+.folder-tab,.bundle-card{scroll-snap-align:start}
+
+.category-shell.is-scrollable .category-row,
+.bundle-shell.is-scrollable .bundle-row{
+  padding-left:14px;
+  padding-right:56px;
+}
+.category-shell.can-scroll-right::after,
+.bundle-shell.can-scroll-right::after{
+  opacity:1;
+}
+.category-shell.is-scrollable .category-scroll.right,
+.bundle-shell.is-scrollable .bundle-scroll.right{
+  opacity:1;
+  pointer-events:auto;
+}
+.category-shell.can-scroll-left .category-scroll.left,
+.bundle-shell.can-scroll-left .bundle-scroll.left{
+  opacity:1;
+  pointer-events:auto;
+}
+
+/* Mobile rail cues need to be obvious, not subtle */
+@media (max-width:860px){
+  .category-shell,.bundle-shell{overflow:hidden}
+  .category-shell::after,.bundle-shell::after{
+    width:54px;
+    background:linear-gradient(270deg,rgba(7,17,26,1),rgba(7,17,26,.82) 35%,rgba(7,17,26,0));
+  }
+  body.light-mode .category-shell::after,
+  body.light-mode .bundle-shell::after{
+    background:linear-gradient(270deg,rgba(240,244,248,1),rgba(240,244,248,.82) 35%,rgba(240,244,248,0));
+  }
+  .category-shell.is-scrollable .category-row,
+  .bundle-shell.is-scrollable .bundle-row{
+    padding-left:10px;
+    padding-right:64px;
+  }
+  .category-scroll,
+  .bundle-scroll{
+    width:auto;
+    min-width:46px;
+    height:32px;
+    padding:0 10px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:4px;
+    font-size:18px;
+    box-shadow:0 10px 22px rgba(0,0,0,.34),0 0 16px rgba(82,231,208,.24);
+  }
+  .category-scroll.right::after,
+  .bundle-scroll.right::after{
+    content:'More';
+    font-size:10px;
+    font-weight:900;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    color:#ecfbff;
+  }
+  .category-scroll.left::after,
+  .bundle-scroll.left::after{content:''}
+}
+
+/* Compact cards on phones still need sale/titles to fit cleanly */
+@media (max-width:600px) and (pointer:coarse){
+  .cards.compact-mode .card-title-row{column-gap:4px}
+  .cards.compact-mode .card-old-price-inline{font-size:10px}
+  .cards.compact-mode .card-sale-inline{font-size:8px;padding:0 5px;line-height:16px;min-height:16px}
+  .cards.compact-mode .sale-main-badge{min-width:60px;padding:5px 8px}
+  .cards.compact-mode .compact-trait{height:22px;font-size:9px;padding:0 6px}
+  .category-scroll.right::after,
+  .bundle-scroll.right::after{font-size:9px}
+}
