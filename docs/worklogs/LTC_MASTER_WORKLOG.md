@@ -364,3 +364,10 @@
 - moved close button positioning to a body-level floating control synced from JS against the active modal
 - shifted mobile fish detail scrolling back to the modal body and widened touch drag scrolling coverage
 - no inventory/content changes in this pass
+
+
+## V0.077
+- Desktop popup follow-up only.
+- Moved the floating fish-detail close button back under the fish overlay so it can stay visible/reachable on desktop.
+- Moved Compatibility gauges up into the desktop hero/right column to eliminate the dead gap under the name/stats block.
+- Left the working mobile popup scroll behavior intact.

@@ -3074,3 +3074,33 @@ body > #closeFishBtn.modal-close.floating-modal-close{
     touch-action:pan-y !important;
   }
 }
+
+
+/* === V0.077 Desktop popup cleanup — visible X + no dead hero gap === */
+#fishOverlay > #closeFishBtn.modal-close.floating-modal-close{
+  display:none;
+  position:fixed !important;
+  top:max(14px, calc((100vh - min(95vh, 1180px)) / 2 + 14px)) !important;
+  right:max(14px, calc((100vw - min(96vw, 1460px)) / 2 + 14px)) !important;
+  left:auto !important;
+  bottom:auto !important;
+  inset-inline-start:auto !important;
+  inset-inline-end:max(14px, calc((100vw - min(96vw, 1460px)) / 2 + 14px)) !important;
+  z-index:650 !important;
+}
+#fishOverlay.show > #closeFishBtn.modal-close.floating-modal-close{display:grid !important;}
+.modal-hero-shell{display:grid;grid-template-columns:minmax(360px,540px) minmax(0,1fr);gap:22px;align-items:start;margin-bottom:18px;}
+.modal-hero-aside{display:grid;gap:18px;align-content:start;min-width:0;}
+.modal-hero-compat{margin-top:0;}
+.modal-layout.modal-layout-after-hero{padding-top:0;}
+@media (min-width: 601px){
+  .modal-layout.modal-layout-after-hero{grid-template-columns:minmax(360px,540px) minmax(0,1fr);}
+}
+@media (max-width: 600px) and (pointer:coarse){
+  #fishOverlay > #closeFishBtn.modal-close.floating-modal-close{
+    top:calc(8px + env(safe-area-inset-top, 0px)) !important;
+    right:max(10px, env(safe-area-inset-right, 0px)) !important;
+    inset-inline-end:max(10px, env(safe-area-inset-right, 0px)) !important;
+  }
+  .modal-hero-shell{grid-template-columns:1fr;gap:10px;margin-bottom:10px;}
+}
