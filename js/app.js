@@ -272,12 +272,16 @@ function showRestoreGuidanceModal(fish, reason='loss'){
   const copy = reason === 'loss'
     ? `${fish.name} was moved out of the live inventory. If that was a mistake, staff can restore it right away from Recent Changes or the Out of stock view.`
     : `${fish.name} is no longer showing as live inventory. Restore it from Recent Changes if needed.`;
+  const src = getPrimaryImageSource(fish);
   showInfoModal(title, fish.name, `
-    <div class="inventory-guidance-card">
-      <p>${copy}</p>
-      <div class="inventory-guidance-actions">
-        <button type="button" class="input-helper-btn" data-restore-open-history="1">Open Recent Changes</button>
-        <button type="button" class="input-helper-btn subtle" data-restore-open-out="1">View Out of stock</button>
+    <div class="inventory-guidance-card with-media">
+      <div class="inventory-guidance-media">${src ? `<img src="${src}" alt="${fish.name}">` : '<div class="input-helper-placeholder">LTC</div>'}</div>
+      <div class="inventory-guidance-copy">
+        <p>${copy}</p>
+        <div class="inventory-guidance-actions">
+          <button type="button" class="input-helper-btn" data-restore-open-history="1">Open Recent Changes</button>
+          <button type="button" class="input-helper-btn subtle" data-restore-open-out="1">View Out of stock</button>
+        </div>
       </div>
     </div>`);
   const fieldsEl = document.getElementById('inputModalFields');
@@ -1513,9 +1517,9 @@ function renderStaffEditor(item){
 function modalHeaderBar(item){
   const categoryLabel = (typeof CARD_LABELS!=='undefined' && CARD_LABELS[item.category]) ? CARD_LABELS[item.category] : TC(item.category);
   const priceInline = item.onSale && item.salePrice
-    ? `<div class="modal-inline-price"><span class="modal-inline-old-price">${formatMoney(item.price)}</span><strong>${formatMoney(item.salePrice)}</strong></div>`
+    ? `<div class="modal-inline-price sale-inline"><span class="modal-inline-old-price">${formatMoney(item.price)}</span><strong>${formatMoney(item.salePrice)}</strong></div>`
     : (item.price ? `<div class="modal-inline-price"><strong>${formatMoney(item.price)}</strong></div>` : '');
-  return `<div class="modal-headline-bar"><span class="modal-type">${categoryLabel}</span><div class="modal-headline-copy"><strong>${L(item,'name')}</strong>${priceInline}<span class="latin-mini">${item.scientific}</span>${summaryText(item)?`<p>${summaryText(item)}</p>`:''}</div></div>`;
+  return `<div class="modal-headline-bar"><span class="modal-type">${categoryLabel}</span><div class="modal-headline-copy"><div class="modal-headline-title-row"><strong>${L(item,'name')}</strong>${priceInline}</div><span class="latin-mini">${item.scientific}</span>${summaryText(item)?`<p>${summaryText(item)}</p>`:''}</div></div>`;
 }
 function renderSimilarCards(item, mobile=false){
   const similar = getSimilarFish(item);
@@ -1544,19 +1548,22 @@ function modalTemplate(item){
   const foodSection = renderFoodSection(item);
   return `
     <div class="modal-top-desktop">
-      <div class="modal-photo-card modal-hero-media">
-        <div class="modal-photo" data-detail-photo="${item.id}">
-          <div class="image-placeholder">LTC</div><div class="skeleton-img"></div>
-          <div class="modal-photo-copy">
-            <h2>${L(item,"name")}</h2>
-            <span class="latin">${item.scientific}</span>
-            <div class="modal-mini">
-              <span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span>
-              <span class="mini-pill">${item.type || 'Livestock'}</span>
-              <span class="mini-pill">${sizeText}${sizeInches} in stock</span>
+      <div class="modal-top-left-column">
+        <div class="modal-photo-card modal-hero-media">
+          <div class="modal-photo" data-detail-photo="${item.id}">
+            <div class="image-placeholder">LTC</div><div class="skeleton-img"></div>
+            <div class="modal-photo-copy">
+              <h2>${L(item,"name")}</h2>
+              <span class="latin">${item.scientific}</span>
+              <div class="modal-mini">
+                <span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span>
+                <span class="mini-pill">${item.type || 'Livestock'}</span>
+                <span class="mini-pill">${sizeText}${sizeInches} in stock</span>
+              </div>
             </div>
           </div>
         </div>
+        ${overviewText ? `<div class="modal-section ocean modal-overview-inline"><div class="section-title"><h3>Quick overview</h3></div><p class="overview">${overviewText}</p></div>` : ''}
       </div>
       <div class="modal-top-summary">
         ${modalHeaderBar(item)}
@@ -1572,7 +1579,6 @@ function modalTemplate(item){
     <div class="modal-layout modal-layout-after-hero">
       <div class="modal-left">
         ${galleryTemplate(item) || (state.staffMode ? `<div class="photo-upload-row"><button type="button" class="photo-gallery-upload photo-gallery-upload-wide" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button></div>` : '')}
-        ${overviewText ? `<div class="modal-section ocean"><div class="section-title"><h3>Quick overview</h3></div><p class="overview">${overviewText}</p></div>` : ''}
         ${noticeBlocks ? `<div class="modal-section seafoam"><div class="section-title"><h3>What customers should notice</h3></div><div class="reading-stack">${noticeBlocks}</div></div>` : ''}
         ${factStack ? `<div class="modal-section plum"><div class="section-title"><h3>Quick facts</h3></div><div class="fact-stack">${factStack}</div></div>` : ''}
       </div>
@@ -1941,10 +1947,25 @@ function applyImagesToDOM(){
 function showToast(message){
   const toast = document.getElementById('toast');
   if(!toast) return;
-  toast.textContent = message;
+  toast.classList.remove('toast-action');
+  toast.innerHTML = `<span>${message}</span>`;
   toast.classList.add('show');
   clearTimeout(showToast.timer);
   showToast.timer = setTimeout(() => toast.classList.remove('show'), 1900);
+}
+function showActionToast(message, actions=[]){
+  const toast = document.getElementById('toast');
+  if(!toast) return;
+  toast.classList.add('toast-action');
+  toast.innerHTML = `<div class="toast-copy">${message}</div><div class="toast-actions">${actions.map((a,idx)=>`<button type="button" class="toast-action-btn ${a.variant || ''}" data-toast-action="${idx}">${a.label}</button>`).join('')}</div>`;
+  toast.querySelectorAll('[data-toast-action]').forEach(btn => btn.addEventListener('click', () => {
+    const action = actions[Number(btn.dataset.toastAction)];
+    toast.classList.remove('show');
+    if(action && typeof action.onClick === 'function') action.onClick();
+  }));
+  toast.classList.add('show');
+  clearTimeout(showToast.timer);
+  showToast.timer = setTimeout(() => toast.classList.remove('show'), 5200);
 }
 function render(){
   renderCardsAndMeta();
@@ -2404,7 +2425,10 @@ function staffMarkDead(id){
     delete fish.reserved;
     delete fish.reservedFor;
     touchStaffRecord(fish, 'loss-out');
-    showToast(`${fish.name} removed (loss)`);
+    showActionToast(`${fish.name} removed from live inventory`, [
+      {label:'Undo Loss', variant:'ok', onClick:() => undoLossAction(fish.id)},
+      {label:'Recent Changes', variant:'ghost', onClick:() => openInventoryHistoryOverlay()}
+    ]);
   }
   playClick();
   persistStaffEdits();
@@ -2855,7 +2879,7 @@ function inventoryCardTemplate(item){
     item.tankCode ? `<span class="inventory-badge">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode}</span>` : '',
     qty !== '—' ? `<span class="inventory-badge">Qty ${qty}</span>` : ''
   ].filter(Boolean).join('');
-  return `<div class="inventory-card"><div class="inventory-card-bg" data-photo="${item.id}"><div class="image-placeholder">LTC</div></div><div class="inventory-card-top"><div class="inventory-card-ident"><div class="inventory-card-thumb" data-photo="${item.id}"><div class="image-placeholder">LTC</div></div><div><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div>${badges ? `<div class="inventory-card-badges">${badges}</div>` : ''}</div></div><span class="mini-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>${inventoryStatusActions(item)}</div></div>`;
+  return `<div class="inventory-card inventory-card-photo"><div class="inventory-card-bg" data-photo="${item.id}"><div class="image-placeholder">LTC</div></div><div class="inventory-card-media" data-photo="${item.id}"><div class="image-placeholder">LTC</div><div class="inventory-card-media-overlay"></div><div class="inventory-card-media-copy"><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div>${badges ? `<div class="inventory-card-badges">${badges}</div>` : ''}</div><span class="mini-pill inventory-status-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>${inventoryStatusActions(item)}</div></div>`;
 }
 function populateInventoryCategoryFilter(){
   const select = document.getElementById('inventoryCategoryFilter');
