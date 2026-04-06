@@ -302,3 +302,48 @@
   - 0 errors
   - 1 existing translation warning (`Sort`, `Compare`, `Quarantine` missing from ES)
   - note: browser/device click-through behavior still needs user confirmation in real use
+
+
+## V0.072
+- made staff rollback history snapshots leaner so sold/loss/quarantine/hold undo state is more likely to persist across refresh/re-entry
+- added explicit rollback actions: Undo Sold, Undo Loss, Undo Quarantine, Undo Hold
+- reduced image fetch burst load from all-at-once to a small concurrency queue and retry-on-error flow
+- forced modal close button positioning with JS + CSS so it stays top-right more reliably
+- added desktop modal hero shell so the image and header/stats read like one grouped top section
+- darkened/styled select dropdowns to reduce the white native dropdown feel
+
+
+## V0.073
+### Patch 1 only — staff rollback persistence hardening
+- narrowed this pass to the first outstanding patch only: **undo/restore + persistence**
+- replaced the old generic-toolbar undo emphasis with **persistent per-fish rollback actions** for operational changes:
+  - Undo Sold
+  - Undo Loss
+  - Undo Quarantine
+  - Undo Hold
+- added dedicated persisted rollback snapshots for those operational changes so the rollback target survives refresh / re-entering staff mode more reliably than the earlier generic undo path
+- kept history chips, but made them secondary to explicit operational rollback buttons
+- updated the inventory toolbar copy so staff are told rollback is handled per fish rather than through one universal undo button
+
+### Carry-forward notes
+- this patch intentionally does **not** try to fix popup X placement, modal layout, image reload, or dropdown issues yet; those remain for patches 2 and 3
+- future website navigation requirement logged: the LTC logo should eventually go to the main LTC store homepage once that broader site exists
+
+
+## V0.074
+### Patch 2 only — popup close / modal hero / image reload pass
+- narrowed this pass to the second outstanding patch only: **popup X placement + popup top-section layout + image reload reliability**
+- moved the fish-profile **X** to the overlay layer and force-positioned it as a fixed top-right control with safe-area handling, so it is no longer dependent on modal layout flow
+- strengthened the close-button CSS with explicit `right`, `inset-inline-end`, and higher z-index rules to reduce the top-left regression seen in browser testing
+- unified the **mobile** fish-profile top section so the image, name/header, and key stats read as one grouped hero block instead of disconnected boxes
+- kept the desktop hero grouping and gave the mobile stack the same grouped-shell treatment for a more consistent card-detail feel
+- changed startup order so **staff edits hydrate before render/loadAllImages**, which should improve refresh behavior when locally edited records and photos exist
+- reduced image queue concurrency again and added per-target retry tracking, `decoding='async'`, and a lighter reload path so broken image recovery should be less fragile after refresh
+- verification this pass:
+  - smoke test passed
+  - 0 errors
+  - 1 existing translation warning (`Sort`, `Compare`, `Quarantine` missing from ES)
+
+### Carry-forward notes
+- this patch intentionally does **not** touch patch 3 items yet: dropdown/select options, inventory layout ergonomics, category-filter polish, or broader stock-field UI refinement
+- next step after this is **Patch 3 only**, then user tests patch 1 + 2 + 3 together

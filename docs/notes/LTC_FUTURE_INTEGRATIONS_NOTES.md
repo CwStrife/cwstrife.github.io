@@ -47,3 +47,18 @@ Possible gates:
 - keep explicit reverse actions for operational statuses (sold/loss/hold) easy to reach
 - staff workflow should favor inventory-first controls over less-frequently changed utilities like food settings
 - continue favoring simple small-business language like **Stock #** over SKU for livestock
+
+
+## V0.072 carry-forward notes
+- keep explicit, state-specific rollback actions visible for sold, loss, quarantine, and holds
+- continue treating generic undo as secondary to clear operational recovery buttons
+- keep testing browser-refresh image recovery; V0.072 changes reduce burst fetches and retry broken images, but real-device validation still matters
+- modal close button should stay pinned top-right across desktop/tablet/mobile; keep checking this after future layout changes
+
+
+## Future website navigation note
+Requested for later.
+
+- when the user taps/clicks the LTC logo, it should eventually go to the main LTC store homepage, not just back to the fish browser root
+- until the broader site exists, keep this as a documented future navigation requirement rather than forcing a placeholder route now
+- when the main site is ready, this should behave like going to the main LTC store landing page / homepage

@@ -2877,4 +2877,111 @@ body.light-mode .inventory-card-name,body.light-mode .inventory-chip strong,body
 .inventory-history{display:flex;flex-wrap:wrap;gap:6px}
 .inventory-history.empty{font-size:11px;color:rgba(255,255,255,.34)}
 .inventory-history-chip{display:inline-flex;align-items:center;padding:5px 8px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);font-size:10px;color:rgba(240,248,255,.78)}
+
+.inventory-toolbar-note{display:inline-flex;align-items:center;min-height:40px;padding:10px 14px;border-radius:12px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);color:rgba(240,248,255,.72);font-size:12px;line-height:1.35;max-width:420px}
 .staff-editor .inventory-history{margin-top:10px}
+
+
+/* === V0.072 rollback persistence + modal hero polish + dark selects === */
+.input-modal-field select,
+.input-modal-field option,
+.input-modal-field optgroup{
+  background:#102235 !important;
+  color:#f4fbff !important;
+}
+.input-modal-field select{
+  appearance:none;
+  -webkit-appearance:none;
+  background-image:linear-gradient(180deg, rgba(16,34,53,.96), rgba(9,18,29,.96));
+}
+.input-modal-field select:focus,
+.input-modal-field textarea:focus{
+  border-color:rgba(90,220,200,.4);
+  outline:none;
+}
+.modal-hero-shell{
+  display:grid;
+  grid-template-columns:minmax(360px,540px) minmax(0,1fr);
+  gap:18px;
+  padding:12px;
+  margin-bottom:18px;
+  border-radius:30px;
+  border:1px solid rgba(200,232,255,.10);
+  background:linear-gradient(180deg, rgba(10,22,35,.92), rgba(7,15,24,.96));
+  box-shadow:var(--shadow-soft);
+}
+.modal-hero-shell .modal-photo-card,
+.modal-hero-shell .modal-headline-bar,
+.modal-hero-shell .modal-stat{
+  box-shadow:none;
+}
+.modal-hero-aside{display:grid;gap:14px;align-content:start;min-width:0}
+.modal-hero-stats{margin:0}
+.modal-layout-after-hero{padding-top:4px}
+@media (max-width: 960px){
+  .modal-hero-shell{grid-template-columns:1fr;padding:10px;border-radius:24px}
+}
+.modal-close{
+  right:12px !important;
+  left:auto !important;
+}
+
+
+/* === V0.074 patch 2: modal hero / close / image reliability === */
+#fishOverlay{position:fixed;inset:0;}
+#fishOverlay #closeFishBtn,
+#closeFishBtn.modal-close{
+  position:fixed !important;
+  top:calc(12px + env(safe-area-inset-top, 0px)) !important;
+  right:max(12px, env(safe-area-inset-right, 0px)) !important;
+  left:auto !important;
+  bottom:auto !important;
+  inset-inline-start:auto !important;
+  inset-inline-end:max(12px, env(safe-area-inset-right, 0px)) !important;
+  transform:none !important;
+  margin:0 !important;
+  z-index:500 !important;
+}
+.modal-hero-shell.unified-hero-shell,
+.modal-layout.mobile-stack .modal-hero-shell{
+  border-radius:28px;
+  border:1px solid rgba(200,232,255,.12);
+  background:linear-gradient(180deg, rgba(9,22,35,.92), rgba(7,17,27,.98));
+  box-shadow:var(--shadow-soft);
+}
+.modal-layout.mobile-stack .modal-hero-shell{
+  grid-template-columns:1fr;
+  gap:12px;
+  padding:10px;
+}
+.modal-layout.mobile-stack .modal-hero-shell .modal-photo-card,
+.modal-layout.mobile-stack .modal-hero-shell .modal-headline-bar,
+.modal-layout.mobile-stack .modal-hero-shell .modal-stat{
+  box-shadow:none;
+}
+.modal-layout.mobile-stack .modal-hero-shell .modal-headline-bar,
+.modal-layout.mobile-stack .modal-hero-shell .mobile-stat-grid{
+  margin:0;
+}
+.modal-layout.mobile-stack .modal-hero-shell .mobile-stat-grid{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0,1fr));
+  gap:10px;
+}
+@media (max-width: 600px) and (pointer:coarse){
+  #fishOverlay #closeFishBtn,
+  #closeFishBtn.modal-close{
+    top:calc(8px + env(safe-area-inset-top, 0px)) !important;
+    right:max(10px, env(safe-area-inset-right, 0px)) !important;
+    inset-inline-end:max(10px, env(safe-area-inset-right, 0px)) !important;
+  }
+  .modal-layout.mobile-stack .modal-hero-shell{
+    border-radius:16px;
+    padding:8px;
+    gap:8px;
+  }
+  .modal-layout.mobile-stack .modal-hero-shell .mobile-stat-grid{
+    grid-template-columns:repeat(2, minmax(0,1fr));
+    gap:8px;
+  }
+}

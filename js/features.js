@@ -611,12 +611,17 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // === STARTUP (runs after T() is defined) ===
-render();
-updateFavCounter();
-updateCompareBar();
-loadAllImages();
-if(typeof hydrateStaffEdits === 'function') hydrateStaffEdits();
-applyLanguage();
+async function bootstrapFishBrowser(){
+  if(typeof hydrateStaffEdits === 'function'){
+    try{ await hydrateStaffEdits(); }catch(_e){}
+  }
+  render();
+  updateFavCounter();
+  updateCompareBar();
+  applyLanguage();
+  loadAllImages();
+}
+bootstrapFishBrowser();
 
 // === STICKY CATEGORY POSITION ===
 // Measures control-panel height and sets CSS variable so category tabs stick below it

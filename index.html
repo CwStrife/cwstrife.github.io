@@ -200,7 +200,7 @@
     <div class="inventory-topbar">
       <div>
         <h2 id="inventoryPanelTitle" style="margin:0;font-size:22px">Inventory Manager</h2>
-        <div class="inventory-subtitle">Quick staff edits for price, tank, stock #, size, quantity, holds, stock details, notes, photos, undo/history, and stock status. Holds remain staff-only local flags in this build.</div>
+        <div class="inventory-subtitle">Quick staff edits for price, tank, stock #, size, quantity, holds, stock details, notes, photos, per-fish rollback actions, and stock status. Holds remain staff-only local flags in this build.</div>
       </div>
       <button onclick="closeInventoryManager()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
     </div>
@@ -217,7 +217,7 @@
       <select id="inventoryCategoryFilter" class="inventory-filter" onchange="renderInventoryManager()">
         <option value="all">All categories</option>
       </select>
-      <button class="food-toolbar-btn" type="button" onclick="staffUndoLastChange()">Undo Last Change</button><button class="food-toolbar-btn" type="button" onclick="exportStaffEdits()">Export Staff Data</button>
+      <span class="inventory-toolbar-note">Rollback is handled per fish with Undo Sold / Undo Loss / Undo Quarantine / Undo Hold.</span><button class="food-toolbar-btn" type="button" onclick="exportStaffEdits()">Export Staff Data</button>
       <button class="food-toolbar-btn" type="button" onclick="document.getElementById('staffImportFile').click()">Import Staff Data</button>
       <button class="food-toolbar-btn" type="button" onclick="openFoodSettings()">Food Settings</button>
       <button class="food-toolbar-btn danger" type="button" onclick="resetStaffEdits()">Reset Staff Data</button>

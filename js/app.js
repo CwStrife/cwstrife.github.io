@@ -17,7 +17,12 @@ const STAFF_DB_STORE = 'kv';
 const STAFF_DB_RECORD_KEY = 'staffCatalogEdits';
 const IMAGE_CACHE_STORAGE_KEY = 'ltcFishImageCache.v1';
 const STAFF_HISTORY_FIELD = 'changeHistory';
-const STAFF_MANAGED_FIELDS = ['price','tankCode','stockSize','stockNumber','staffNote','inStock','soldAt','lossAt','quarantine','quarantineUntil','staffPhotos','quantity','arrivalDate','vendor','reserved','reservedFor','updatedAt','lastAction',STAFF_HISTORY_FIELD];
+const STAFF_UNDO_SOLD_FIELD = 'undoSoldSnapshot';
+const STAFF_UNDO_LOSS_FIELD = 'undoLossSnapshot';
+const STAFF_UNDO_QUARANTINE_FIELD = 'undoQuarantineSnapshot';
+const STAFF_UNDO_HOLD_FIELD = 'undoHoldSnapshot';
+const STAFF_UNDO_SNAPSHOT_FIELDS = [STAFF_UNDO_SOLD_FIELD, STAFF_UNDO_LOSS_FIELD, STAFF_UNDO_QUARANTINE_FIELD, STAFF_UNDO_HOLD_FIELD];
+const STAFF_MANAGED_FIELDS = ['price','tankCode','stockSize','stockNumber','staffNote','inStock','soldAt','lossAt','quarantine','quarantineUntil','staffPhotos','quantity','arrivalDate','vendor','reserved','reservedFor','updatedAt','lastAction',STAFF_HISTORY_FIELD,...STAFF_UNDO_SNAPSHOT_FIELDS];
 const STOCK_SIZE_OPTIONS = ['—','Tiny','Small','Small-Medium','Medium','Medium-Large','Large','X-Large','XX-Large','Frag'];
 function normalizeStockSizeValue(value){
   if(value === undefined || value === null) return '';
@@ -57,10 +62,27 @@ function touchStaffRecord(fish, action){
 }
 function pushStaffHistory(fish, action){
   if(!fish) return;
-  const before = getStaffSnapshot(fish, {excludeHistory:true});
+  const before = getStaffSnapshot(fish, {excludeHistory:true, excludePhotos:true, excludeUndoSnapshots:true});
   if(!fish[STAFF_HISTORY_FIELD] || !Array.isArray(fish[STAFF_HISTORY_FIELD])) fish[STAFF_HISTORY_FIELD] = [];
   fish[STAFF_HISTORY_FIELD].push({time: Date.now(), action, before});
   if(fish[STAFF_HISTORY_FIELD].length > 20) fish[STAFF_HISTORY_FIELD] = fish[STAFF_HISTORY_FIELD].slice(-20);
+}
+function setUndoSnapshot(fish, field, actionLabel){
+  if(!fish || !field) return;
+  fish[field] = {
+    time: Date.now(),
+    action: actionLabel || field,
+    before: getStaffSnapshot(fish, {excludePhotos:true, excludeUndoSnapshots:true})
+  };
+}
+function getUndoSnapshot(fish, field){
+  if(!fish || !field) return null;
+  const snapshot = fish[field];
+  return snapshot && snapshot.before ? snapshot : null;
+}
+function clearUndoSnapshot(fish, field){
+  if(!fish || !field) return;
+  delete fish[field];
 }
 function restoreFishSnapshot(fish, snapshot){
   if(!fish) return;
@@ -116,6 +138,79 @@ function restoreButtonLabel(item){
   if(item?.lossAt) return 'Undo Loss';
   return 'Restore Stock';
 }
+function clearHoldState(fish){
+  if(!fish) return;
+  delete fish.reserved;
+  delete fish.reservedFor;
+}
+function undoSnapshotButton(item, field, label, action, style){
+  if(!item || !getUndoSnapshot(item, field)) return '';
+  return `<button class="staff-action-btn restore calming" onclick="event.stopPropagation();${action}('${item.id}')" style="${style}">${label}</button>`;
+}
+function staffUndoSold(id){
+  const fish = FISH.find(f=>f.id===id);
+  const snapshot = getUndoSnapshot(fish, STAFF_UNDO_SOLD_FIELD);
+  if(!snapshot){ showToast('Nothing sold to undo'); return; }
+  pushStaffHistory(fish, 'undo-sold');
+  restoreFishSnapshot(fish, snapshot.before || {});
+  clearUndoSnapshot(fish, STAFF_UNDO_SOLD_FIELD);
+  touchStaffRecord(fish, 'undo-sold');
+  showToast(`${fish.name} restored from sold`);
+  playOpen();
+  persistStaffEdits();
+  renderInventoryManager();
+  render();
+}
+function staffUndoLoss(id){
+  const fish = FISH.find(f=>f.id===id);
+  const snapshot = getUndoSnapshot(fish, STAFF_UNDO_LOSS_FIELD);
+  if(!snapshot){ showToast('Nothing removed to undo'); return; }
+  pushStaffHistory(fish, 'undo-loss');
+  restoreFishSnapshot(fish, snapshot.before || {});
+  clearUndoSnapshot(fish, STAFF_UNDO_LOSS_FIELD);
+  touchStaffRecord(fish, 'undo-loss');
+  showToast(`${fish.name} restored from loss`);
+  playOpen();
+  persistStaffEdits();
+  renderInventoryManager();
+  render();
+}
+function staffUndoQuarantine(id){
+  const fish = FISH.find(f=>f.id===id);
+  const snapshot = getUndoSnapshot(fish, STAFF_UNDO_QUARANTINE_FIELD);
+  if(!snapshot){ showToast('No quarantine change to undo'); return; }
+  pushStaffHistory(fish, 'undo-quarantine');
+  restoreFishSnapshot(fish, snapshot.before || {});
+  clearUndoSnapshot(fish, STAFF_UNDO_QUARANTINE_FIELD);
+  touchStaffRecord(fish, 'undo-quarantine');
+  showToast(`${fish.name} quarantine rolled back`);
+  playOpen();
+  persistStaffEdits();
+  renderInventoryManager();
+  render();
+}
+function staffUndoHold(id){
+  const fish = FISH.find(f=>f.id===id);
+  const snapshot = getUndoSnapshot(fish, STAFF_UNDO_HOLD_FIELD);
+  if(!snapshot){ showToast('No hold to undo'); return; }
+  pushStaffHistory(fish, 'undo-hold');
+  restoreFishSnapshot(fish, snapshot.before || {});
+  clearUndoSnapshot(fish, STAFF_UNDO_HOLD_FIELD);
+  touchStaffRecord(fish, 'undo-hold');
+  showToast(`${fish.name} hold rolled back`);
+  playOpen();
+  persistStaffEdits();
+  renderInventoryManager();
+  render();
+}
+function majorRollbackButtons(item){
+  const parts = [];
+  parts.push(undoSnapshotButton(item, STAFF_UNDO_SOLD_FIELD, 'Undo Sold', 'staffUndoSold', 'background:rgba(90,220,200,.18);border-color:rgba(90,220,200,.34);color:#84f5de'));
+  parts.push(undoSnapshotButton(item, STAFF_UNDO_LOSS_FIELD, 'Undo Loss', 'staffUndoLoss', 'background:rgba(100,210,210,.18);border-color:rgba(100,210,210,.34);color:#8cf0f0'));
+  parts.push(undoSnapshotButton(item, STAFF_UNDO_QUARANTINE_FIELD, 'Undo Quarantine', 'staffUndoQuarantine', 'background:rgba(120,190,255,.18);border-color:rgba(120,190,255,.34);color:#a8d5ff'));
+  parts.push(undoSnapshotButton(item, STAFF_UNDO_HOLD_FIELD, 'Undo Hold', 'staffUndoHold', 'background:rgba(170,220,140,.18);border-color:rgba(170,220,140,.34);color:#c9f0ac'));
+  return parts.filter(Boolean).join('');
+}
 function availableQuantity(item){
   const total = normalizeQuantityValue(item.quantity);
   if(total === '') return item.inStock ? 1 : 0;
@@ -133,8 +228,12 @@ function cloneValue(value){
 function getStaffSnapshot(fish, options={}){
   const snapshot = {};
   const excludeHistory = !!options.excludeHistory;
+  const excludePhotos = !!options.excludePhotos;
+  const excludeUndoSnapshots = !!options.excludeUndoSnapshots;
   STAFF_MANAGED_FIELDS.forEach(key => {
     if(excludeHistory && key === STAFF_HISTORY_FIELD) return;
+    if(excludePhotos && key === 'staffPhotos') return;
+    if(excludeUndoSnapshots && STAFF_UNDO_SNAPSHOT_FIELDS.includes(key)) return;
     if(key === 'stockSize') snapshot[key] = normalizeStockSizeValue(fish[key]);
     else if(key === 'quantity') snapshot[key] = normalizeQuantityValue(fish[key]);
     else if(Array.isArray(fish[key]) || (fish[key] && typeof fish[key] === 'object')) snapshot[key] = cloneValue(fish[key]);
@@ -173,7 +272,14 @@ async function saveStaffPayload(payload){
   const leanPayload = JSON.parse(JSON.stringify(payload || {}));
   try{
     for(const delta of Object.values(leanPayload)){
-      if(delta && delta.staffPhotos) delete delta.staffPhotos;
+      if(!delta || typeof delta !== 'object') continue;
+      if(delta.staffPhotos) delete delta.staffPhotos;
+      if(Array.isArray(delta.changeHistory)){
+        delta.changeHistory = delta.changeHistory.map(entry => {
+          if(entry && entry.before && entry.before.staffPhotos) delete entry.before.staffPhotos;
+          return entry;
+        });
+      }
     }
     localStorage.setItem(STAFF_STORAGE_KEY, JSON.stringify(leanPayload));
     localStorage.removeItem(STAFF_STORAGE_LEGACY_KEY);
@@ -358,7 +464,7 @@ function getImageCandidates(item){
   return out;
 }
 function getPrimaryImageSource(item){
-  return fishImages.get(item.id) || (Array.isArray(item.staffPhotos) && item.staffPhotos[0]) || wikiImages.get(item.photoTitle) || null;
+  return (Array.isArray(item.staffPhotos) && item.staffPhotos[0]) || fishImages.get(item.id) || wikiImages.get(item.photoTitle) || null;
 }
 function getGallerySources(item){
   const seen = new Set();
@@ -742,8 +848,8 @@ function cardTemplate(item){
           <button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadPhoto'):'Upload Photo'}</button>
           <button class="staff-action-btn sold" onclick="event.stopPropagation();staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button>
           <button class="staff-action-btn dead" onclick="event.stopPropagation();staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button>
-          <button class="staff-action-btn edit" onclick="event.stopPropagation();staffUndoFishLastChange('${item.id}')" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff">Undo</button>
           <button class="staff-action-btn edit" onclick="event.stopPropagation();staffQuarantine('${item.id}')" style="background:rgba(220,180,50,.15);border-color:rgba(220,180,50,.3);color:#ddbb44">${typeof T==='function'?T('quarantine'):'Quarantine'}</button>
+          ${majorRollbackButtons(item) || `<button class="staff-action-btn edit" onclick="event.stopPropagation();staffUndoFishLastChange('${item.id}')" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff">Undo Last Edit</button>`}
         </div>
         ${item.quarantine ? `<div style="margin-top:4px;padding:4px 8px;border-radius:6px;background:rgba(220,180,50,.15);border:1px solid rgba(220,180,50,.25);font-size:11px;font-weight:700;color:#ddbb44">⏱ ${typeof T==='function'?(item.quarantineUntil?T('quarantineDays')(Math.max(0,Math.ceil((item.quarantineUntil-Date.now())/86400000))):T('quarantineOngoing')):'Quarantine'} <button onclick="event.stopPropagation();staffEndQuarantine('${item.id}')" style="margin-left:6px;padding:2px 6px;border-radius:4px;background:rgba(90,220,200,.2);border:1px solid rgba(90,220,200,.3);color:#5eebc8;font-size:10px;cursor:pointer">${typeof T==='function'?T('clearQ'):'Clear'}</button></div>` : ''}` : ''}
         ${state.staffMode && !item.inStock ? `<div class="staff-actions">
@@ -752,15 +858,14 @@ function cardTemplate(item){
           <button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockSize('${item.id}')" style="background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a">${typeof T==='function'?T('editStockSize'):'Edit Size'}</button>
           <button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button>
           <button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadPhoto'):'Upload Photo'}</button>
-          <button class="staff-action-btn edit" onclick="event.stopPropagation();staffUndoFishLastChange('${item.id}')" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff">Undo</button>
-          ${canRestoreAvailability(item) ? `<button class="staff-action-btn restore" onclick="event.stopPropagation();staffRestoreAvailability('${item.id}')" style="background:rgba(90,220,200,.18);border-color:rgba(90,220,200,.34);color:#84f5de">${restoreButtonLabel(item)}</button>` : ''}
+          ${majorRollbackButtons(item) || `<button class="staff-action-btn edit" onclick="event.stopPropagation();staffUndoFishLastChange('${item.id}')" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff">Undo Last Edit</button>`}
         </div>
         ${item.soldAt && state.staffMode ? `<div style="margin-top:4px;font-size:10px;color:rgba(255,255,255,.3)">${typeof T==='function'?T('soldAgo')(Math.round((Date.now()-item.soldAt)/3600000),Math.max(0,24-Math.round((Date.now()-item.soldAt)/3600000))):'Sold recently'}</div>` : ''}
         ${item.lossAt && state.staffMode ? `<div style="margin-top:4px;font-size:10px;color:rgba(255,100,100,.4)">${typeof T==='function'?T('removedAgo')(Math.round((Date.now()-item.lossAt)/3600000)):'Removed recently'}</div>` : ''}` : ''}
         ${!item.inStock && !state.staffMode && state.mode==='ency' ? `<button class="notify-btn" onclick="event.stopPropagation();notifyWhenInStock('${L(item,"name")}')">Notify when in stock</button>` : ''}
         <div class="card-actions-row">
           <div class="tap-row card-action-text"><span>${typeof T==='function'?T('tap'):'Tap for full profile'}</span><span>›</span></div>
-          ${state.staffMode ? `<button class="tank-pill" onclick="event.stopPropagation();staffUndoFishLastChange('${item.id}')">Undo</button>` : `<button class="tank-pill card-compare-btn${isComp?' is-active':''}" onclick="event.stopPropagation();toggleCompare('${item.id}')">${isComp?(typeof T==='function'?T('comparing'):'✓ Comparing'):(typeof T==='function'?T('compare'):'+ Compare')}</button>`}
+          ${state.staffMode ? `<button class="tank-pill" onclick="event.stopPropagation();staffUndoFishLastChange('${item.id}')">Undo Last Edit</button>` : `<button class="tank-pill card-compare-btn${isComp?' is-active':''}" onclick="event.stopPropagation();toggleCompare('${item.id}')">${isComp?(typeof T==='function'?T('comparing'):'✓ Comparing'):(typeof T==='function'?T('compare'):'+ Compare')}</button>`}
         </div>
       </div>
     </article>
@@ -1190,7 +1295,8 @@ function renderStaffEditor(item){
   const qty = displayQuantityValue(item.quantity);
   const hold = reservedLabel(item);
   const arrival = formatDateShort(item.arrivalDate);
-  return `<div class="staff-editor"><div class="staff-editor-head"><strong>Staff quick edits</strong><span class="mini-pill">${status}</span></div><div class="staff-editor-copy">Mobile-friendly controls for local store values. Changes save on this device automatically, with undo and history.</div><div class="staff-editor-copy" style="margin-top:6px">Stock #: <strong>${item.stockNumber || '—'}</strong> · Qty: <strong>${qty}</strong> · Hold: <strong>${hold}</strong> · Arrived: <strong>${arrival}</strong></div><div class="staff-editor-grid"><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditPrice('${item.id}')">${typeof T==='function'?T('editPrice'):'Edit Price'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditTank('${item.id}')">${typeof T==='function'?T('editTank'):'Edit Tank'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockNumber('${item.id}')" style="background:rgba(120,170,255,.14);border-color:rgba(120,170,255,.28);color:#9fc0ff">Stock #: ${item.stockNumber || '—'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockSize('${item.id}')" style="background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a">${typeof T==='function'?T('editStockSize'):'Edit Size'}: ${stockLabel}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditQuantity('${item.id}')" style="background:rgba(120,255,170,.14);border-color:rgba(120,255,170,.28);color:#8cffb7">Qty: ${qty}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditHold('${item.id}')" style="background:rgba(255,170,120,.14);border-color:rgba(255,170,120,.28);color:#ffbf8a">Hold: ${hold}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockInfo('${item.id}')" style="background:rgba(120,170,255,.14);border-color:rgba(120,170,255,.28);color:#9fc0ff">Stock Details</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffUndoFishLastChange('${item.id}')" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff">Undo</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button>${item.inStock ? `<button class="staff-action-btn sold" onclick="event.stopPropagation();staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="event.stopPropagation();staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button>` : `<button class="staff-action-btn edit" onclick="event.stopPropagation();staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>${canRestoreAvailability(item) ? `<button class="staff-action-btn restore" onclick="event.stopPropagation();staffRestoreAvailability('${item.id}')" style="background:rgba(90,220,200,.18);border-color:rgba(90,220,200,.34);color:#84f5de">${restoreButtonLabel(item)}</button>` : ''}`}</div>${recentHistoryHtml(item)}</div></div>`;
+  const rollback = majorRollbackButtons(item);
+  return `<div class="staff-editor"><div class="staff-editor-head"><strong>Staff quick edits</strong><span class="mini-pill">${status}</span></div><div class="staff-editor-copy">Mobile-friendly controls for local store values. Changes save on this device automatically, with persistent per-action rollback buttons for major status changes.</div><div class="staff-editor-copy" style="margin-top:6px">Stock #: <strong>${item.stockNumber || '—'}</strong> · Qty: <strong>${qty}</strong> · Hold: <strong>${hold}</strong> · Arrived: <strong>${arrival}</strong></div><div class="staff-editor-grid"><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditPrice('${item.id}')">${typeof T==='function'?T('editPrice'):'Edit Price'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditTank('${item.id}')">${typeof T==='function'?T('editTank'):'Edit Tank'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockNumber('${item.id}')" style="background:rgba(120,170,255,.14);border-color:rgba(120,170,255,.28);color:#9fc0ff">Stock #: ${item.stockNumber || '—'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockSize('${item.id}')" style="background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a">${typeof T==='function'?T('editStockSize'):'Edit Size'}: ${stockLabel}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditQuantity('${item.id}')" style="background:rgba(120,255,170,.14);border-color:rgba(120,255,170,.28);color:#8cffb7">Qty: ${qty}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditHold('${item.id}')" style="background:rgba(255,170,120,.14);border-color:rgba(255,170,120,.28);color:#ffbf8a">Hold: ${hold}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockInfo('${item.id}')" style="background:rgba(120,170,255,.14);border-color:rgba(120,170,255,.28);color:#9fc0ff">Stock Details</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button>${item.inStock ? `<button class="staff-action-btn sold" onclick="event.stopPropagation();staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="event.stopPropagation();staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffQuarantine('${item.id}')" style="background:rgba(220,180,50,.15);border-color:rgba(220,180,50,.3);color:#ddbb44">${typeof T==='function'?T('quarantine'):'Quarantine'}</button>` : `<button class="staff-action-btn edit" onclick="event.stopPropagation();staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>`}${rollback || `<button class="staff-action-btn edit" type="button" disabled style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);color:rgba(255,255,255,.45);cursor:default">Per-action rollback only</button>`}</div>${recentHistoryHtml(item)}</div></div>`;
 }
 
 function modalHeaderBar(item){
@@ -1223,35 +1329,39 @@ function modalTemplate(item){
   const cautionWith = renderPillList(item.cautionWith);
   const foodSection = renderFoodSection(item);
   return `
-    <div class="modal-layout">
-      <div class="modal-left">
-        <div class="modal-photo-card">
-          <div class="modal-photo" data-detail-photo="${item.id}">
-            <div class="image-placeholder">LTC</div><div class="skeleton-img"></div>
-            <div class="modal-photo-copy">
-              <h2>${L(item,"name")}</h2>
-              <span class="latin">${item.scientific}</span>
-              <div class="modal-mini">
-                <span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span>
-                <span class="mini-pill">${item.type || 'Livestock'}</span>
-                <span class="mini-pill">${sizeText}${sizeInches} in stock</span>
-              </div>
+    <div class="modal-hero-shell">
+      <div class="modal-photo-card modal-hero-media">
+        <div class="modal-photo" data-detail-photo="${item.id}">
+          <div class="image-placeholder">LTC</div><div class="skeleton-img"></div>
+          <div class="modal-photo-copy">
+            <h2>${L(item,"name")}</h2>
+            <span class="latin">${item.scientific}</span>
+            <div class="modal-mini">
+              <span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span>
+              <span class="mini-pill">${item.type || 'Livestock'}</span>
+              <span class="mini-pill">${sizeText}${sizeInches} in stock</span>
             </div>
           </div>
         </div>
+      </div>
+      <div class="modal-hero-aside">
+        ${modalHeaderBar(item)}
+        <div class="price-band compact-stats modal-hero-stats">
+          <div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div>
+          <div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div>
+          <div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div>
+          <div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-layout modal-layout-after-hero">
+      <div class="modal-left">
         ${galleryTemplate(item) || (state.staffMode ? `<div class="photo-upload-row"><button type="button" class="photo-gallery-upload photo-gallery-upload-wide" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button></div>` : '')}
         ${overviewText ? `<div class="modal-section ocean"><div class="section-title"><h3>Quick overview</h3></div><p class="overview">${overviewText}</p></div>` : ''}
         ${noticeBlocks ? `<div class="modal-section seafoam"><div class="section-title"><h3>What customers should notice</h3></div><div class="reading-stack">${noticeBlocks}</div></div>` : ''}
         ${factStack ? `<div class="modal-section plum"><div class="section-title"><h3>Quick facts</h3></div><div class="fact-stack">${factStack}</div></div>` : ''}
       </div>
       <div class="modal-right">
-        ${modalHeaderBar(item)}
-        <div class="price-band compact-stats">
-          <div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div>
-          <div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div>
-          <div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div>
-          <div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div>
-        </div>
         <div class="modal-section ocean"><div class="section-title"><h3>Compatibility gauges</h3></div><div class="gauges">${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}</div></div>
         <div class="two-col"><div class="modal-section seafoam"><div class="section-title"><h3>At-a-glance fit</h3></div><div class="pill-list"><span class="list-pill status-pill ${reefClass}">${reefText}</span><span class="list-pill status-pill ${careClass}">${careText}</span><span class="list-pill status-pill ${aggClass}">${aggText}</span><span class="list-pill status-pill ${invClass}">${invText}</span></div></div><div class="modal-section gold"><div class="section-title"><h3>Core specs</h3></div><div class="pill-list"><span class="list-pill">${typeof T==='function'?T('diet'):'Diet'}: ${safeText(L(item,'diet'))}</span>${originText ? `<span class="list-pill">${typeof T==='function'?T('origin'):'Origin'}: ${originText}</span>` : ''}${habitatText ? `<span class="list-pill">Habitat: ${habitatText}</span>` : ''}<span class="list-pill">In-store size: ${sizeText}${sizeInches}</span></div></div></div>
         <div class="modal-section plum"><div class="section-title"><h3>Longer reading</h3></div><div class="reading-stack">${behavior ? `<div class="reading-block"><strong>Behavior &amp; tank fit</strong><p>${behavior}</p></div>` : ''}${feeding ? `<div class="reading-block"><strong>Feeding &amp; natural habitat</strong><p>${feeding}</p></div>` : ''}${recognition ? `<div class="reading-block"><strong>Recognition &amp; ID</strong><p>${recognition}</p></div>` : ''}${buying ? `<div class="reading-block"><strong>Buying guidance</strong><p>${buying}</p></div>` : ''}</div></div>
@@ -1290,10 +1400,14 @@ function modalTemplateMobile(item){
   const foodSection = renderFoodSection(item);
   return `
     <div class="modal-layout mobile-stack">
-      <div class="modal-photo-card mobile-hero-card"><div class="modal-photo modal-photo-mobile" data-detail-photo="${item.id}"><div class="image-placeholder">LTC</div><div class="skeleton-img"></div><div class="modal-photo-copy mobile-photo-copy"><h2>${L(item,'name')}</h2><span class="latin">${item.scientific}</span><div class="modal-mini"><span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span><span class="mini-pill">${sizeText}${sizeInches}</span><span class="mini-pill">${(typeof CARD_LABELS!=="undefined"&&CARD_LABELS[item.category])?CARD_LABELS[item.category]:TC(item.category)}</span></div></div></div></div>
+      <div class="modal-hero-shell mobile-hero-shell unified-hero-shell">
+        <div class="modal-photo-card modal-hero-media mobile-hero-card"><div class="modal-photo modal-photo-mobile" data-detail-photo="${item.id}"><div class="image-placeholder">LTC</div><div class="skeleton-img"></div><div class="modal-photo-copy mobile-photo-copy"><h2>${L(item,'name')}</h2><span class="latin">${item.scientific}</span><div class="modal-mini"><span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span><span class="mini-pill">${sizeText}${sizeInches}</span><span class="mini-pill">${(typeof CARD_LABELS!=="undefined"&&CARD_LABELS[item.category])?CARD_LABELS[item.category]:TC(item.category)}</span></div></div></div></div>
+        <div class="modal-hero-aside mobile-hero-aside">
+          ${modalHeaderBar(item)}
+          <div class="mobile-stat-grid compact-stats modal-hero-stats"><div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div><div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div><div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div><div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div></div>
+        </div>
+      </div>
       ${galleryTemplate(item)}
-      ${modalHeaderBar(item)}
-      <div class="mobile-stat-grid compact-stats"><div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div><div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div><div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div><div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div></div>
       ${overviewText ? `<div class="modal-section ocean"><div class="section-title"><h3>Quick overview</h3></div><p class="overview">${overviewText}</p></div>` : ''}
       <div class="modal-section seafoam"><div class="section-title"><h3>Quick facts</h3></div><div class="mobile-traits-grid"><div class="mobile-trait ${reefClass}"><span>Reef</span><strong>${reefText}</strong></div><div class="mobile-trait ${careClass}"><span>Care</span><strong>${careText}</strong></div><div class="mobile-trait ${aggClass}"><span>Temper</span><strong>${aggText}</strong></div><div class="mobile-trait ${invClass}"><span>Invert</span><strong>${invText}</strong></div></div><div class="mobile-practical-grid"><div class="mobile-practical"><span>${typeof T==='function'?T('diet'):'Diet'}</span><strong>${safeText(L(item,'diet'))}</strong></div>${originText ? `<div class="mobile-practical"><span>${typeof T==='function'?T('origin'):'Origin'}</span><strong>${originText}</strong></div>` : ''}${habitatText ? `<div class="mobile-practical"><span>Habitat</span><strong>${habitatText}</strong></div>` : ''}${cleanInfoText(L(item,'role')) ? `<div class="mobile-practical"><span>Role</span><strong>${cleanInfoText(L(item,'role'))}</strong></div>` : ''}</div></div>
       <div class="modal-section plum"><div class="section-title"><h3>Compatibility gauges</h3></div><div class="gauges">${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}</div></div>
@@ -1374,6 +1488,22 @@ function syncDetailVideoLayer(){
   const h = Math.max(body.scrollHeight, body.clientHeight, body.offsetHeight);
   detailVideo.style.height = `${h}px`;
 }
+function syncModalCloseButton(){
+  const closeBtn = document.getElementById('closeFishBtn');
+  const overlay = document.getElementById('fishOverlay');
+  if(!closeBtn || !overlay) return;
+  if(closeBtn.parentElement !== overlay) overlay.appendChild(closeBtn);
+  closeBtn.style.setProperty('position', 'fixed', 'important');
+  closeBtn.style.setProperty('top', 'calc(12px + env(safe-area-inset-top, 0px))', 'important');
+  closeBtn.style.setProperty('right', 'max(12px, env(safe-area-inset-right, 0px))', 'important');
+  closeBtn.style.setProperty('left', 'auto', 'important');
+  closeBtn.style.setProperty('bottom', 'auto', 'important');
+  closeBtn.style.setProperty('inset-inline-start', 'auto', 'important');
+  closeBtn.style.setProperty('inset-inline-end', 'max(12px, env(safe-area-inset-right, 0px))', 'important');
+  closeBtn.style.setProperty('transform', 'none', 'important');
+  closeBtn.style.setProperty('margin', '0', 'important');
+  closeBtn.style.setProperty('z-index', '500', 'important');
+}
 
 function openFishModal(id){
   const fish = FISH.find(item => item.id === id);
@@ -1393,6 +1523,7 @@ function openFishModal(id){
     modal.scrollTop = 0;
     modal.classList.toggle('mobile-safe', isPhonePortrait());
   }
+  syncModalCloseButton();
   const overlay = document.getElementById('fishOverlay');
   if(overlay) overlay.scrollTop = 0;
   const copyBtn = body.querySelector('[data-copy]');
@@ -1460,8 +1591,9 @@ function clearFilters(){
   if(si) si.value = '';
   render();
 }
-async function fetchWikiImage(title){
-  if(wikiImages.has(title)) return wikiImages.get(title);
+async function fetchWikiImage(title, force=false){
+  if(!force && wikiImages.has(title)) return wikiImages.get(title);
+  if(force) wikiImages.delete(title);
   const fallbacks = {
     'Paracanthurus hepatus': ['Blue tang (fish)'],
     'Mandarinfish': ['Synchiropus splendidus'],
@@ -1486,11 +1618,12 @@ async function fetchWikiImage(title){
   wikiImages.set(title, null);
   return null;
 }
-async function fetchImageForFish(fish){
-  if(fishImages.has(fish.id)) return fishImages.get(fish.id);
+async function fetchImageForFish(fish, force=false){
+  if(!force && fishImages.has(fish.id)) return fishImages.get(fish.id);
+  if(force) fishImages.delete(fish.id);
   const candidates = getImageCandidates(fish);
   for(const candidate of candidates){
-    const src = await fetchWikiImage(candidate);
+    const src = await fetchWikiImage(candidate, force);
     if(src){
       fishImages.set(fish.id, src);
       if(fish.photoTitle && !wikiImages.get(fish.photoTitle)) wikiImages.set(fish.photoTitle, src);
@@ -1504,7 +1637,16 @@ async function fetchImageForFish(fish){
 }
 async function loadAllImages(){
   applyImagesToDOM();
-  await Promise.allSettled(FISH.map(fish => fetchImageForFish(fish)));
+  const queue = FISH.slice();
+  const concurrency = 4;
+  const workers = Array.from({length: concurrency}, async () => {
+    while(queue.length){
+      const fish = queue.shift();
+      if(!fish) break;
+      await fetchImageForFish(fish);
+    }
+  });
+  await Promise.allSettled(workers);
   applyImagesToDOM();
 }
 function applyImagesToDOM(){
@@ -1514,17 +1656,40 @@ function applyImagesToDOM(){
     const fish = FISH.find(item => item.id === id);
     if(!fish) continue;
     const src = getPrimaryImageSource(fish);
-    if(!src || target.querySelector('img')) continue;
+    const existing = target.querySelector('img');
+    if(existing){
+      if(src && existing.dataset.srcApplied !== src){
+        existing.dataset.srcApplied = src;
+        existing.src = src;
+      }
+      continue;
+    }
+    if(!src) continue;
     const img = document.createElement('img');
-    img.src = src;
     img.alt = fish.name;
     img.loading = 'lazy';
-    img.addEventListener('error', () => img.remove());
+    img.decoding = 'async';
+    img.referrerPolicy = 'no-referrer';
+    img.dataset.srcApplied = src;
+    img.addEventListener('error', async () => {
+      const retries = Number(target.dataset.imageRetries || 0) + 1;
+      target.dataset.imageRetries = String(retries);
+      img.remove();
+      fishImages.delete(fish.id);
+      if(fish.photoTitle) wikiImages.delete(fish.photoTitle);
+      persistImageCache();
+      const refreshed = retries < 3 ? await fetchImageForFish(fish, true) : null;
+      if(refreshed) requestAnimationFrame(applyImagesToDOM);
+    }, {once:true});
+    img.addEventListener('load', () => {
+      target.dataset.imageRetries = '0';
+      const placeholder = target.querySelector('.image-placeholder');
+      if(placeholder) placeholder.remove();
+      const skeleton = target.querySelector('.skeleton-img');
+      if(skeleton) skeleton.remove();
+    }, {once:true});
+    img.src = src;
     target.prepend(img);
-    const placeholder = target.querySelector('.image-placeholder');
-    if(placeholder) placeholder.remove();
-    const skeleton = target.querySelector('.skeleton-img');
-    if(skeleton) skeleton.remove();
   }
 }
 function showToast(message){
@@ -1940,6 +2105,7 @@ function staffMarkSold(id){
   if(!fish) return;
   const qty = availableQuantity(fish);
   pushStaffHistory(fish, 'sold');
+  setUndoSnapshot(fish, STAFF_UNDO_SOLD_FIELD, 'sold');
   if(qty > 1){
     fish.quantity = qty - 1;
     fish.inStock = true;
@@ -1965,6 +2131,7 @@ function staffMarkDead(id){
   if(!fish) return;
   const qty = availableQuantity(fish);
   pushStaffHistory(fish, 'loss');
+  setUndoSnapshot(fish, STAFF_UNDO_LOSS_FIELD, 'loss');
   if(qty > 1){
     fish.quantity = qty - 1;
     fish.inStock = true;
@@ -2008,6 +2175,7 @@ function staffQuarantine(id){
     {label: 'Days', type:'number', value:'7', placeholder:'7'}
   ], ([days]) => {
     pushStaffHistory(fish, 'quarantine');
+    setUndoSnapshot(fish, STAFF_UNDO_QUARANTINE_FIELD, 'quarantine');
     fish.quarantine = true;
     fish.quarantineUntil = Date.now() + (parseInt(days)||7) * 86400000;
     touchStaffRecord(fish, 'quarantine');
@@ -2022,6 +2190,7 @@ function staffEndQuarantine(id){
   const fish = FISH.find(f=>f.id===id);
   if(!fish) return;
   pushStaffHistory(fish, 'clear-quarantine');
+  setUndoSnapshot(fish, STAFF_UNDO_QUARANTINE_FIELD, 'clear-quarantine');
   fish.quarantine = false;
   delete fish.quarantineUntil;
   touchStaffRecord(fish, 'clear-quarantine');
@@ -2126,6 +2295,7 @@ function staffEditHold(id){
     {label:'Reserved for', type:'text', value: fish.reservedFor || '', placeholder:'Customer name or note'}
   ], ([status, name]) => {
     pushStaffHistory(fish, 'hold');
+    setUndoSnapshot(fish, STAFF_UNDO_HOLD_FIELD, 'hold');
     fish.reserved = status === 'Held';
     fish.reservedFor = String(name || '').trim();
     if(!fish.reserved){
@@ -2386,11 +2556,11 @@ function inventoryFieldCard(item, label, value, buttonLabel, action, tone='defau
   return `<div class="inventory-field-card tone-${tone}" role="button" tabindex="0" onclick="${action}" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();${action}}"><span>${label}</span><strong>${value}</strong><button type="button" class="inventory-field-btn" onclick="event.stopPropagation();${action}">${buttonLabel}</button></div>`;
 }
 function inventoryStatusActions(item){
-  const restoreBtn = canRestoreAvailability(item) ? `<button class="staff-action-btn restore" onclick="staffRestoreAvailability('${item.id}')" style="background:rgba(90,220,200,.18);border-color:rgba(90,220,200,.34);color:#84f5de">${restoreButtonLabel(item)}</button>` : '';
+  const rollback = majorRollbackButtons(item);
   if(item.inStock){
-    return `<button class="staff-action-btn sold" onclick="staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button>`;
+    return `<button class="staff-action-btn sold" onclick="staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button><button class="staff-action-btn edit" onclick="staffQuarantine('${item.id}')" style="background:rgba(220,180,50,.15);border-color:rgba(220,180,50,.3);color:#ddbb44">${typeof T==='function'?T('quarantine'):'Quarantine'}</button>${rollback}`;
   }
-  return `<button class="staff-action-btn edit" onclick="staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>${restoreBtn}`;
+  return `<button class="staff-action-btn edit" onclick="staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>${rollback || `<button class="staff-action-btn edit" type="button" disabled style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);color:rgba(255,255,255,.45);cursor:default">Per-action rollback only</button>`}`;
 }
 function inventoryCardTemplate(item){
   const qty = displayQuantityValue(item.quantity);
@@ -2410,7 +2580,7 @@ function inventoryCardTemplate(item){
     inventoryFieldCard(item, 'Vendor', vendor, 'Stock Details', `staffEditStockInfo('${item.id}')`, 'vendor'),
     inventoryFieldCard(item, 'Photo', photoValue, typeof T==='function'?T('uploadPhoto'):'Upload Photo', `staffUploadPhoto('${item.id}')`, 'photo')
   ].join('');
-  return `<div class="inventory-card"><div class="inventory-card-top"><div><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div></div><span class="mini-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffUndoFishLastChange('${item.id}')" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff">Undo</button><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button>${inventoryStatusActions(item)}</div></div>`;
+  return `<div class="inventory-card"><div class="inventory-card-top"><div><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div></div><span class="mini-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button>${inventoryStatusActions(item)}</div></div>`;
 }
 function populateInventoryCategoryFilter(){
   const select = document.getElementById('inventoryCategoryFilter');
@@ -2578,7 +2748,7 @@ function toggleLang(){
 }
 
 // Startup calls moved to features.js (loads after T() is defined)
-window.addEventListener('resize', ()=>{ updateCategoryRailUI(); updateBundleRailUI(); syncDetailVideoLayer(); });
+window.addEventListener('resize', ()=>{ updateCategoryRailUI(); updateBundleRailUI(); syncDetailVideoLayer(); syncModalCloseButton(); });
 document.addEventListener('DOMContentLoaded', () => {
   updateCategoryRailUI();
   [['inventoryOverlay', closeInventoryManager], ['foodsOverlay', closeFoodSettings], ['analyticsOverlay', closeAnalytics]].forEach(([id, handler]) => {
