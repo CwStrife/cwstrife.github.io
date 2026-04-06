@@ -528,10 +528,14 @@ function showInputModal(title, desc, fields, callback){
   
   fieldsEl.innerHTML = fields.map((f, i) => {
     if(f.type === 'select'){
+      const options = (f.options || []);
+      const optionsHtml = options.map(o => `<option value="${o}" ${String(o)===String(f.value)?'selected':''}>${o}</option>`).join('');
+      const choiceHtml = options.map(o => `<button type="button" class="input-choice-btn ${String(o)===String(f.value)?'is-active':''}" data-choice-target="inputField${i}" data-choice-value="${o}">${o}</button>`).join('');
       return `
-        <div class="input-modal-field">
+        <div class="input-modal-field input-modal-field-select">
           <label>${f.label}</label>
-          <select id="inputField${i}">${(f.options||[]).map(o=>`<option value="${o}" ${String(o)===String(f.value)?'selected':''}>${o}</option>`).join('')}</select>
+          <select id="inputField${i}" data-field-index="${i}">${optionsHtml}</select>
+          <div class="input-choice-grid" data-choice-grid-for="inputField${i}">${choiceHtml}</div>
         </div>
       `;
     }
@@ -551,12 +555,32 @@ function showInputModal(title, desc, fields, callback){
     `;
   }).join('');
   
+  fieldsEl.querySelectorAll('select').forEach(selectEl => {
+    const syncChoiceGrid = () => {
+      const grid = fieldsEl.querySelector(`[data-choice-grid-for="${selectEl.id}"]`);
+      if(!grid) return;
+      grid.querySelectorAll('.input-choice-btn').forEach(btn => {
+        btn.classList.toggle('is-active', btn.dataset.choiceValue === selectEl.value);
+      });
+    };
+    selectEl.addEventListener('change', syncChoiceGrid);
+    syncChoiceGrid();
+  });
+  fieldsEl.querySelectorAll('.input-choice-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = document.getElementById(btn.dataset.choiceTarget);
+      if(!target) return;
+      target.value = btn.dataset.choiceValue;
+      target.dispatchEvent(new Event('change', {bubbles:true}));
+      target.focus();
+    });
+  });
+  
   overlay.classList.add('show');
-  const firstInput = fieldsEl.querySelector('input,select');
+  const firstInput = fieldsEl.querySelector('input,select,textarea');
   if(firstInput) setTimeout(()=>firstInput.focus(), 100);
   
-  // Enter key submits
-  fieldsEl.querySelectorAll('input').forEach(inp => {
+  fieldsEl.querySelectorAll('input,select').forEach(inp => {
     inp.addEventListener('keydown', e => { if(e.key==='Enter') confirmInputModal(); });
   });
 }

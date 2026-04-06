@@ -24,6 +24,33 @@ const STAFF_UNDO_HOLD_FIELD = 'undoHoldSnapshot';
 const STAFF_UNDO_SNAPSHOT_FIELDS = [STAFF_UNDO_SOLD_FIELD, STAFF_UNDO_LOSS_FIELD, STAFF_UNDO_QUARANTINE_FIELD, STAFF_UNDO_HOLD_FIELD];
 const STAFF_MANAGED_FIELDS = ['price','tankCode','stockSize','stockNumber','staffNote','inStock','soldAt','lossAt','quarantine','quarantineUntil','staffPhotos','quantity','arrivalDate','vendor','reserved','reservedFor','updatedAt','lastAction',STAFF_HISTORY_FIELD,...STAFF_UNDO_SNAPSHOT_FIELDS];
 const STOCK_SIZE_OPTIONS = ['—','Tiny','Small','Small-Medium','Medium','Medium-Large','Large','X-Large','XX-Large','Frag'];
+const CATEGORY_SEARCH_ALIASES = {
+  'Gobies & Blennies': ['goby','gobyfish','blenny','lawnmower','fang blenny'],
+  'Basslets & Dottybacks': ['basslet','dottyback','orchid'],
+  'Other Fish': ['oddball','odd ball','misc fish'],
+  'Inverts': ['invert','invertebrate','cleanup crew','microfauna','cucumber','worm'],
+  'Starfish': ['star','serpent star','brittle star'],
+  'Snails': ['snail','conch','slug','nudibranch'],
+  'Shrimp': ['cleaner shrimp','peppermint shrimp','pistol shrimp'],
+  'Crabs': ['crab','hermit','emerald crab','pom pom crab'],
+  'Urchins': ['urchin'],
+  'Clams': ['clam','scallop'],
+  'Anemones': ['anemone'],
+  'Puffers': ['puffer','boxfish','cowfish'],
+  'Triggerfish': ['trigger'],
+  'Lionfish': ['lion'],
+  'Cardinalfish': ['cardinal'],
+  'Butterflyfish': ['butterfly'],
+  'Rabbitfish': ['foxface','rabbitfish'],
+  'Wrasses': ['wrasse'],
+  'Tangs': ['tang','surgeonfish'],
+  'Angelfish': ['angel'],
+  'Anthias': ['anthias'],
+  'Clownfish': ['clown','anemonefish'],
+  'Damsels': ['damselfish','damsel'],
+  'Eels': ['eel'],
+  'Hawkfish': ['hawk']
+};
 function normalizeStockSizeValue(value){
   if(value === undefined || value === null) return '';
   const cleaned = String(value).trim();
@@ -1296,7 +1323,20 @@ function renderStaffEditor(item){
   const hold = reservedLabel(item);
   const arrival = formatDateShort(item.arrivalDate);
   const rollback = majorRollbackButtons(item);
-  return `<div class="staff-editor"><div class="staff-editor-head"><strong>Staff quick edits</strong><span class="mini-pill">${status}</span></div><div class="staff-editor-copy">Mobile-friendly controls for local store values. Changes save on this device automatically, with persistent per-action rollback buttons for major status changes.</div><div class="staff-editor-copy" style="margin-top:6px">Stock #: <strong>${item.stockNumber || '—'}</strong> · Qty: <strong>${qty}</strong> · Hold: <strong>${hold}</strong> · Arrived: <strong>${arrival}</strong></div><div class="staff-editor-grid"><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditPrice('${item.id}')">${typeof T==='function'?T('editPrice'):'Edit Price'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditTank('${item.id}')">${typeof T==='function'?T('editTank'):'Edit Tank'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockNumber('${item.id}')" style="background:rgba(120,170,255,.14);border-color:rgba(120,170,255,.28);color:#9fc0ff">Stock #: ${item.stockNumber || '—'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockSize('${item.id}')" style="background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a">${typeof T==='function'?T('editStockSize'):'Edit Size'}: ${stockLabel}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditQuantity('${item.id}')" style="background:rgba(120,255,170,.14);border-color:rgba(120,255,170,.28);color:#8cffb7">Qty: ${qty}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditHold('${item.id}')" style="background:rgba(255,170,120,.14);border-color:rgba(255,170,120,.28);color:#ffbf8a">Hold: ${hold}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStockInfo('${item.id}')" style="background:rgba(120,170,255,.14);border-color:rgba(120,170,255,.28);color:#9fc0ff">Stock Details</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button>${item.inStock ? `<button class="staff-action-btn sold" onclick="event.stopPropagation();staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="event.stopPropagation();staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffQuarantine('${item.id}')" style="background:rgba(220,180,50,.15);border-color:rgba(220,180,50,.3);color:#ddbb44">${typeof T==='function'?T('quarantine'):'Quarantine'}</button>` : `<button class="staff-action-btn edit" onclick="event.stopPropagation();staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>`}${rollback || `<button class="staff-action-btn edit" type="button" disabled style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);color:rgba(255,255,255,.45);cursor:default">Per-action rollback only</button>`}</div>${recentHistoryHtml(item)}</div></div>`;
+  const quickTiles = [
+    inventoryFieldCard(item, 'Price', item.price ? formatMoney(item.onSale&&item.salePrice?item.salePrice:item.price) : '—', typeof T==='function'?T('editPrice'):'Edit Price', `event.stopPropagation();staffEditPrice('${item.id}')`, 'price'),
+    inventoryFieldCard(item, typeof T==='function'?T('tankLabel'):'Tank', item.tankCode || '—', typeof T==='function'?T('editTank'):'Edit Tank', `event.stopPropagation();staffEditTank('${item.id}')`, 'tank'),
+    inventoryFieldCard(item, 'Stock #', item.stockNumber || '—', 'Edit Stock #', `event.stopPropagation();staffEditStockNumber('${item.id}')`, 'stockno'),
+    inventoryFieldCard(item, typeof T==='function'?T('stockSize'):'In stock size', stockLabel, typeof T==='function'?T('editStockSize'):'Edit Size', `event.stopPropagation();staffEditStockSize('${item.id}')`, 'size'),
+    inventoryFieldCard(item, 'Qty', qty, 'Edit Qty', `event.stopPropagation();staffEditQuantity('${item.id}')`, 'qty'),
+    inventoryFieldCard(item, 'Hold', hold, 'Hold / Reserve', `event.stopPropagation();staffEditHold('${item.id}')`, 'hold'),
+    inventoryFieldCard(item, 'Arrived', arrival, 'Stock Details', `event.stopPropagation();staffEditStockInfo('${item.id}')`, 'arrival'),
+    inventoryFieldCard(item, 'Vendor', item.vendor || '—', 'Stock Details', `event.stopPropagation();staffEditStockInfo('${item.id}')`, 'vendor')
+  ].join('');
+  const stockActions = item.inStock
+    ? `<button class="staff-action-btn sold" onclick="event.stopPropagation();staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="event.stopPropagation();staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffQuarantine('${item.id}')" style="background:rgba(220,180,50,.15);border-color:rgba(220,180,50,.3);color:#ddbb44">${typeof T==='function'?T('quarantine'):'Quarantine'}</button>`
+    : `<button class="staff-action-btn edit" onclick="event.stopPropagation();staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>`;
+  return `<div class="staff-editor"><div class="staff-editor-head"><strong>Staff quick edits</strong><span class="mini-pill">${status}</span></div><div class="staff-editor-copy">Tap a tile or use its button directly below. Stock # is surfaced here too so you do not have to jump back into Inventory Manager for basic livestock edits.</div><div class="staff-editor-copy" style="margin-top:6px">Stock #: <strong>${item.stockNumber || '—'}</strong> · Qty: <strong>${qty}</strong> · Hold: <strong>${hold}</strong> · Arrived: <strong>${arrival}</strong></div><div class="staff-editor-fields inventory-kv-editable">${quickTiles}</div><div class="staff-editor-actions"><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button>${stockActions}${rollback || `<button class="staff-action-btn edit" type="button" disabled style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);color:rgba(255,255,255,.45);cursor:default">Per-action rollback only</button>`}</div>${recentHistoryHtml(item)}</div></div>`;
 }
 
 function modalHeaderBar(item){
@@ -1488,21 +1528,54 @@ function syncDetailVideoLayer(){
   const h = Math.max(body.scrollHeight, body.clientHeight, body.offsetHeight);
   detailVideo.style.height = `${h}px`;
 }
-function syncModalCloseButton(){
+function syncModalCloseButtonPosition(){
   const closeBtn = document.getElementById('closeFishBtn');
   const overlay = document.getElementById('fishOverlay');
-  if(!closeBtn || !overlay) return;
-  if(closeBtn.parentElement !== overlay) overlay.appendChild(closeBtn);
+  const modal = document.querySelector('#fishOverlay.show .fish-modal');
+  if(!closeBtn) return;
+  if(!overlay || !overlay.classList.contains('show') || !modal){
+    closeBtn.style.display = 'none';
+    return;
+  }
+  closeBtn.style.display = 'grid';
   closeBtn.style.setProperty('position', 'fixed', 'important');
-  closeBtn.style.setProperty('top', 'calc(12px + env(safe-area-inset-top, 0px))', 'important');
-  closeBtn.style.setProperty('right', 'max(12px, env(safe-area-inset-right, 0px))', 'important');
-  closeBtn.style.setProperty('left', 'auto', 'important');
   closeBtn.style.setProperty('bottom', 'auto', 'important');
-  closeBtn.style.setProperty('inset-inline-start', 'auto', 'important');
-  closeBtn.style.setProperty('inset-inline-end', 'max(12px, env(safe-area-inset-right, 0px))', 'important');
   closeBtn.style.setProperty('transform', 'none', 'important');
   closeBtn.style.setProperty('margin', '0', 'important');
   closeBtn.style.setProperty('z-index', '500', 'important');
+  closeBtn.style.setProperty('inset-inline-start', 'auto', 'important');
+  if(isPhonePortrait()){
+    closeBtn.style.setProperty('top', 'calc(8px + env(safe-area-inset-top, 0px))', 'important');
+    closeBtn.style.setProperty('right', 'max(10px, env(safe-area-inset-right, 0px))', 'important');
+    closeBtn.style.setProperty('left', 'auto', 'important');
+    closeBtn.style.setProperty('inset-inline-end', 'max(10px, env(safe-area-inset-right, 0px))', 'important');
+    return;
+  }
+  const rect = modal.getBoundingClientRect();
+  const btnSize = Math.max(closeBtn.offsetWidth || 44, 44);
+  const topPx = Math.max(12, Math.round(rect.top + 12));
+  const leftPx = Math.max(12, Math.round(rect.right - btnSize - 12));
+  closeBtn.style.setProperty('top', `${topPx}px`, 'important');
+  closeBtn.style.setProperty('left', `${leftPx}px`, 'important');
+  closeBtn.style.setProperty('right', 'auto', 'important');
+  closeBtn.style.setProperty('inset-inline-end', 'auto', 'important');
+}
+function syncModalCloseButton(){
+  const closeBtn = document.getElementById('closeFishBtn');
+  const overlay = document.getElementById('fishOverlay');
+  const body = document.getElementById('fishModalBody');
+  if(!closeBtn || !overlay || !body) return;
+  if(closeBtn.parentElement !== document.body) document.body.appendChild(closeBtn);
+  closeBtn.classList.add('floating-modal-close');
+  if(!body.dataset.boundCloseSync){
+    body.addEventListener('scroll', syncModalCloseButtonPosition, {passive:true});
+    body.dataset.boundCloseSync = 'true';
+  }
+  if(!overlay.dataset.boundCloseSync){
+    overlay.addEventListener('scroll', syncModalCloseButtonPosition, {passive:true});
+    overlay.dataset.boundCloseSync = 'true';
+  }
+  requestAnimationFrame(syncModalCloseButtonPosition);
 }
 
 function openFishModal(id){
@@ -1541,11 +1614,14 @@ function openFishModal(id){
   document.body.classList.add('modal-open');
   requestAnimationFrame(()=>{
     syncDetailVideoLayer();
+    syncModalCloseButtonPosition();
     applyImagesToDOM();
     const activeModalBody = document.getElementById('fishModalBody');
     if(activeModalBody) activeModalBody.scrollTop = 0;
     setTimeout(syncDetailVideoLayer, 180);
     setTimeout(syncDetailVideoLayer, 520);
+    setTimeout(syncModalCloseButtonPosition, 60);
+    setTimeout(syncModalCloseButtonPosition, 180);
   });
 }
 function closeFishModal(){
@@ -1555,6 +1631,8 @@ function closeFishModal(){
   if(detailVideo){ detailVideo.pause(); detailVideo.currentTime = 0; }
   const modal = document.querySelector('.fish-modal');
   if(modal) modal.classList.remove('mobile-safe');
+  const closeBtn = document.getElementById('closeFishBtn');
+  if(closeBtn) closeBtn.style.display = 'none';
   document.body.classList.remove('modal-open');
 }
 function swapModalPhotoFromThumb(btn, fishId){
@@ -2540,6 +2618,7 @@ function inventoryCategoryLabel(category){
   return TC(category);
 }
 function inventorySearchText(item){
+  const categoryAliases = CATEGORY_SEARCH_ALIASES[item.category] || [];
   return [
     item.name,
     item.category,
@@ -2549,7 +2628,8 @@ function inventorySearchText(item){
     item.vendor || '',
     item.reservedFor || '',
     item.stockNumber || '',
-    ...(item.aliases || [])
+    ...(item.aliases || []),
+    ...categoryAliases
   ].join(' ').toLowerCase();
 }
 function inventoryFieldCard(item, label, value, buttonLabel, action, tone='default'){
@@ -2580,7 +2660,12 @@ function inventoryCardTemplate(item){
     inventoryFieldCard(item, 'Vendor', vendor, 'Stock Details', `staffEditStockInfo('${item.id}')`, 'vendor'),
     inventoryFieldCard(item, 'Photo', photoValue, typeof T==='function'?T('uploadPhoto'):'Upload Photo', `staffUploadPhoto('${item.id}')`, 'photo')
   ].join('');
-  return `<div class="inventory-card"><div class="inventory-card-top"><div><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div></div><span class="mini-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button>${inventoryStatusActions(item)}</div></div>`;
+  const badges = [
+    item.stockNumber ? `<span class="inventory-badge">Stock # ${item.stockNumber}</span>` : '',
+    item.tankCode ? `<span class="inventory-badge">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode}</span>` : '',
+    qty !== '—' ? `<span class="inventory-badge">Qty ${qty}</span>` : ''
+  ].filter(Boolean).join('');
+  return `<div class="inventory-card"><div class="inventory-card-top"><div><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div>${badges ? `<div class="inventory-card-badges">${badges}</div>` : ''}</div><span class="mini-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button>${inventoryStatusActions(item)}</div></div>`;
 }
 function populateInventoryCategoryFilter(){
   const select = document.getElementById('inventoryCategoryFilter');
@@ -2590,6 +2675,23 @@ function populateInventoryCategoryFilter(){
   select.innerHTML = `<option value="all">All categories</option>${categories.map(cat => `<option value="${cat}">${inventoryCategoryLabel(cat)}</option>`).join('')}`;
   select.value = categories.includes(current) ? current : 'all';
 }
+
+function setInventoryCategoryFilter(value){
+  const select = document.getElementById('inventoryCategoryFilter');
+  if(select) select.value = value;
+  renderInventoryManager();
+}
+function renderInventoryQuickFilters(items){
+  const root = document.getElementById('inventoryQuickFilters');
+  if(!root) return;
+  const current = document.getElementById('inventoryCategoryFilter')?.value || 'all';
+  const counts = new Map();
+  (items || FISH).forEach(item => counts.set(item.category, (counts.get(item.category) || 0) + 1));
+  const cats = Array.from(counts.entries()).sort((a,b) => inventoryCategoryLabel(a[0]).localeCompare(inventoryCategoryLabel(b[0])));
+  const buttons = [[ 'all', 'All categories', (items || FISH).length ], ...cats.map(([cat,count]) => [cat, inventoryCategoryLabel(cat), count])];
+  root.innerHTML = buttons.map(([value,label,count]) => `<button type="button" class="inventory-chip-filter${current === value ? ' is-active' : ''}" onclick='setInventoryCategoryFilter(${JSON.stringify(value)})'>${label}<span>${count}</span></button>`).join('');
+}
+
 function openFoodSettings(){
   const overlay = document.getElementById('foodsOverlay');
   if(!overlay) return;
@@ -2682,6 +2784,8 @@ function renderInventoryManager(){
   else if(status === 'quarantine') items = items.filter(item => item.quarantine);
   else if(status === 'reserved') items = items.filter(item => item.reserved);
   else if(status === 'missing') items = items.filter(item => hasMissingStoreData(item));
+  renderInventoryQuickFilters(items);
+  if(category !== 'all') items = items.filter(item => item.category === category);
   items.sort((a,b) => a.name.localeCompare(b.name));
   root.innerHTML = `${inventorySummaryTemplate(items)}<div class="inventory-grid">${items.map(item => inventoryCardTemplate(item)).join('')}</div>`;
 }
@@ -2748,7 +2852,8 @@ function toggleLang(){
 }
 
 // Startup calls moved to features.js (loads after T() is defined)
-window.addEventListener('resize', ()=>{ updateCategoryRailUI(); updateBundleRailUI(); syncDetailVideoLayer(); syncModalCloseButton(); });
+window.addEventListener('resize', ()=>{ updateCategoryRailUI(); updateBundleRailUI(); syncDetailVideoLayer(); syncModalCloseButton(); syncModalCloseButtonPosition(); });
+window.addEventListener('orientationchange', ()=>setTimeout(syncModalCloseButtonPosition, 120), {passive:true});
 document.addEventListener('DOMContentLoaded', () => {
   updateCategoryRailUI();
   [['inventoryOverlay', closeInventoryManager], ['foodsOverlay', closeFoodSettings], ['analyticsOverlay', closeAnalytics]].forEach(([id, handler]) => {

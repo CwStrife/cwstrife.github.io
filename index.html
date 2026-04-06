@@ -205,24 +205,25 @@
       <button onclick="closeInventoryManager()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
     </div>
     <div class="inventory-toolbar">
-      <input id="inventorySearch" class="inventory-search" type="search" placeholder="Search fish, category, tank…" oninput="renderInventoryManager()">
-      <select id="inventoryStatusFilter" class="inventory-filter" onchange="renderInventoryManager()">
+      <label class="inventory-control inventory-control-search"><span>Search</span><input id="inventorySearch" class="inventory-search" type="search" placeholder="Search fish, category, tank…" oninput="renderInventoryManager()"></label>
+      <label class="inventory-control"><span>Status</span><select id="inventoryStatusFilter" class="inventory-filter" onchange="renderInventoryManager()">
         <option value="all">All statuses</option>
         <option value="instock">In stock</option>
         <option value="out">Out of stock</option>
         <option value="quarantine">Quarantine</option>
         <option value="reserved">Held / reserved</option>
         <option value="missing">Missing store data</option>
-      </select>
-      <select id="inventoryCategoryFilter" class="inventory-filter" onchange="renderInventoryManager()">
+      </select></label>
+      <label class="inventory-control"><span>Category</span><select id="inventoryCategoryFilter" class="inventory-filter" onchange="renderInventoryManager()">
         <option value="all">All categories</option>
-      </select>
+      </select></label>
       <span class="inventory-toolbar-note">Rollback is handled per fish with Undo Sold / Undo Loss / Undo Quarantine / Undo Hold.</span><button class="food-toolbar-btn" type="button" onclick="exportStaffEdits()">Export Staff Data</button>
       <button class="food-toolbar-btn" type="button" onclick="document.getElementById('staffImportFile').click()">Import Staff Data</button>
       <button class="food-toolbar-btn" type="button" onclick="openFoodSettings()">Food Settings</button>
       <button class="food-toolbar-btn danger" type="button" onclick="resetStaffEdits()">Reset Staff Data</button>
       <input id="staffImportFile" type="file" accept="application/json,.json" style="display:none">
     </div>
+    <div class="inventory-quickbar" id="inventoryQuickFilters"></div>
     <div id="inventoryContent"></div>
   </div>
 </div>

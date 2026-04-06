@@ -347,3 +347,20 @@
 ### Carry-forward notes
 - this patch intentionally does **not** touch patch 3 items yet: dropdown/select options, inventory layout ergonomics, category-filter polish, or broader stock-field UI refinement
 - next step after this is **Patch 3 only**, then user tests patch 1 + 2 + 3 together
+
+
+## V0.075 — Patch 3
+- Added inventory quick category rail with counts.
+- Improved inventory search with category-family alias matching.
+- Added labeled Search / Status / Category controls in Inventory Manager.
+- Added visible quick-choice chips for select fields in the styled input modal.
+- Restyled inventory/modal selects darker to reduce white dropdown contrast.
+- Reworked fish-detail staff quick edits into field tiles, including Stock #.
+- Added Stock # / Tank / Qty badges on inventory cards.
+
+
+## V0.076 — Patch 2 follow-up
+- targeted fix for desktop fish-detail X still appearing on the left in user testing
+- moved close button positioning to a body-level floating control synced from JS against the active modal
+- shifted mobile fish detail scrolling back to the modal body and widened touch drag scrolling coverage
+- no inventory/content changes in this pass
