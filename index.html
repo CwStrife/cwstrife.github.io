@@ -65,7 +65,8 @@
       <button class="theme-toggle" onclick="window.print()" title="Print inventory">🖨</button>
       <button class="staff-badge" id="staffBadge" onclick="openStaffLogin()">Staff</button>
       <button class="staff-badge" id="analyticsBtn" style="display:none;background:rgba(80,160,255,.2);border-color:rgba(80,160,255,.3);color:#80b8ff" onclick="openAnalytics()">Analytics</button>
-            <button class="staff-badge" id="inventoryBtn" style="display:none;background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a" onclick="openInventoryManager()">Inventory</button>
+      <button class="staff-badge" id="inventoryBtn" style="display:none;background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a" onclick="openInventoryManager()">Inventory</button>
+      <button class="staff-badge" id="recentChangesBtn" style="display:none;background:rgba(90,220,200,.16);border-color:rgba(90,220,200,.28);color:#84f5de" onclick="openInventoryHistoryOverlay()">Recent Changes</button>
       <button class="staff-badge" id="exitStaffBtn" style="display:none;background:rgba(255,80,80,.15);border-color:rgba(255,80,80,.25);color:#ff8888" onclick="exitStaffMode()">Exit Staff</button>
     </div>
   </div>
@@ -212,7 +213,8 @@
         <option value="out">Out of stock</option>
         <option value="quarantine">Quarantine</option>
         <option value="reserved">Held / reserved</option>
-        <option value="missing">Missing species data</option>
+        <option value="missingspecies">Missing species data</option>
+        <option value="missingstore">Missing store data</option>
         <option value="recent">Recent changes</option>
       </select></label>
       <label class="inventory-control"><span>Category</span><select id="inventoryCategoryFilter" class="inventory-filter" onchange="renderInventoryManager()">

@@ -185,6 +185,115 @@ function latestSaleHistoryLabel(item){
   const price = latest.price ? formatMoney(latest.price) : 'Unknown';
   return `${price} · ${formatDateShort(latest.time)}`;
 }
+
+function recentSaleEntries(item, limit=6){
+  return saleHistoryFor(item).slice(-limit).reverse();
+}
+function latestKnownFishData(item){
+  const latest = latestSaleHistoryEntry(item) || {};
+  const qty = normalizeQuantityValue(item?.quantity);
+  return {
+    price: latest.price || item?.price || '',
+    tankCode: item?.tankCode || latest.tankCode || 'A',
+    stockNumber: item?.stockNumber || latest.stockNumber || '',
+    stockSize: normalizeStockSizeValue(item?.stockSize || latest.stockSize || ''),
+    quantity: qty === '' ? (latest.quantity || 1) : qty,
+    arrivalDate: item?.arrivalDate || '',
+    vendor: item?.vendor || ''
+  };
+}
+function setModalFieldValue(fieldId, value){
+  const el = document.getElementById(fieldId);
+  if(!el) return;
+  el.value = value == null ? '' : String(value);
+  el.dispatchEvent(new Event('change', {bubbles:true}));
+}
+function applyHistoricalSalePrice(id, time){
+  const fish = FISH.find(f => f.id === id);
+  if(!fish) return;
+  const entry = saleHistoryFor(fish).find(row => Number(row.time) === Number(time));
+  if(!entry || !entry.price) return showToast('No saved price on that sale entry');
+  pushStaffHistory(fish, 'apply-sale-price');
+  fish.price = Number(entry.price);
+  touchStaffRecord(fish, 'apply-sale-price');
+  persistStaffEdits();
+  renderInventoryManager();
+  renderInventoryHistoryOverlay();
+  render();
+  showToast(`${fish.name} price → ${formatMoney(fish.price)}`);
+}
+function mountModalFishHelper(item, config={}){
+  const fieldsEl = document.getElementById('inputModalFields');
+  if(!fieldsEl || !item) return;
+  const lastKnown = latestKnownFishData(item);
+  const sales = recentSaleEntries(item, config.limit || 6);
+  const src = getPrimaryImageSource(item);
+  const helper = document.createElement('div');
+  helper.className = 'input-modal-fish-helper';
+  helper.innerHTML = `
+    <div class="input-helper-shell">
+      <div class="input-helper-media">${src ? `<img src="${src}" alt="${L(item,'name')}">` : '<div class="input-helper-placeholder">LTC</div>'}</div>
+      <div class="input-helper-main">
+        <div class="input-helper-head"><strong>${L(item,'name')}</strong><span>${item.scientific || inventoryCategoryLabel(item.category)}</span></div>
+        <div class="input-helper-copy">Use a recent sale price or apply the last known stock details so staff do not have to retype the same fish over and over.</div>
+        ${config.includeAllButton ? `<div class="input-helper-apply-row"><button type="button" class="input-helper-btn" data-apply-last-known="1">Apply last known fish data</button></div>` : ''}
+        <div class="input-helper-sales">
+          <div class="input-helper-subtitle">Recent sale prices</div>
+          ${sales.length ? sales.map(entry => `<div class="input-helper-sale-row"><div><strong>${entry.price ? formatMoney(entry.price) : 'Unknown'}</strong><span>${formatDateTimeShort(entry.time)}${entry.stockSize ? ` · ${displayStockSize(entry.stockSize)}` : ''}${entry.tankCode ? ` · Tank ${entry.tankCode}` : ''}</span></div><button type="button" class="input-helper-btn subtle" data-apply-price="${entry.price || ''}">Use price</button></div>`).join('') : '<div class="input-helper-empty">No recorded sale prices yet for this fish.</div>'}
+        </div>
+      </div>
+    </div>`;
+  fieldsEl.prepend(helper);
+  helper.querySelectorAll('[data-apply-price]').forEach(btn => btn.addEventListener('click', () => {
+    const priceField = config.fieldIds?.price;
+    if(!priceField) return;
+    setModalFieldValue(priceField, btn.dataset.applyPrice || '');
+    showToast('Price copied from sale history');
+  }));
+  helper.querySelectorAll('[data-open-sale-history-inline]').forEach(btn => btn.addEventListener('click', () => showSaleHistory(item.id)));
+  const applyAll = helper.querySelector('[data-apply-last-known]');
+  if(applyAll){
+    applyAll.addEventListener('click', () => {
+      const ids = config.fieldIds || {};
+      if(ids.price) setModalFieldValue(ids.price, lastKnown.price || '');
+      if(ids.tank) setModalFieldValue(ids.tank, lastKnown.tankCode || 'A');
+      if(ids.stockNumber) setModalFieldValue(ids.stockNumber, lastKnown.stockNumber || '');
+      if(ids.stockSize) setModalFieldValue(ids.stockSize, displayStockSize(lastKnown.stockSize));
+      if(ids.quantity) setModalFieldValue(ids.quantity, lastKnown.quantity || 1);
+      if(ids.arrivalDate) setModalFieldValue(ids.arrivalDate, lastKnown.arrivalDate || '');
+      if(ids.vendor) setModalFieldValue(ids.vendor, lastKnown.vendor || '');
+      showToast('Last known fish data applied');
+    });
+  }
+}
+function showRestoreGuidanceModal(fish, reason='loss'){
+  if(!fish) return;
+  const title = reason === 'loss' ? 'Fish removed from inventory' : 'Fish marked unavailable';
+  const copy = reason === 'loss'
+    ? `${fish.name} was moved out of the live inventory. If that was a mistake, staff can restore it right away from Recent Changes or the Out of stock view.`
+    : `${fish.name} is no longer showing as live inventory. Restore it from Recent Changes if needed.`;
+  showInfoModal(title, fish.name, `
+    <div class="inventory-guidance-card">
+      <p>${copy}</p>
+      <div class="inventory-guidance-actions">
+        <button type="button" class="input-helper-btn" data-restore-open-history="1">Open Recent Changes</button>
+        <button type="button" class="input-helper-btn subtle" data-restore-open-out="1">View Out of stock</button>
+      </div>
+    </div>`);
+  const fieldsEl = document.getElementById('inputModalFields');
+  if(!fieldsEl) return;
+  fieldsEl.querySelector('[data-restore-open-history]')?.addEventListener('click', () => {
+    closeInputModal();
+    openInventoryHistoryOverlay();
+  });
+  fieldsEl.querySelector('[data-restore-open-out]')?.addEventListener('click', () => {
+    closeInputModal();
+    openInventoryManager();
+    const statusEl = document.getElementById('inventoryStatusFilter');
+    if(statusEl) statusEl.value = 'out';
+    renderInventoryManager();
+  });
+}
 function showInfoModal(title, desc, html){
   const overlay = document.getElementById('inputModalOverlay');
   const titleEl = document.getElementById('inputModalTitle');
@@ -207,7 +316,7 @@ function showSaleHistory(id){
   if(!fish) return;
   const history = saleHistoryFor(fish).slice().reverse();
   const body = history.length
-    ? `<div class="sale-history-list">${history.map(entry => `<div class="sale-history-row"><div><strong>${entry.price ? formatMoney(entry.price) : 'Unknown'}</strong><div class="sale-history-meta">${formatDateTimeShort(entry.time)}${entry.stockNumber ? ` · Stock # ${entry.stockNumber}` : ''}${entry.stockSize ? ` · ${displayStockSize(entry.stockSize)}` : ''}${entry.tankCode ? ` · Tank ${entry.tankCode}` : ''}</div></div><span class="mini-pill">Qty ${entry.quantity || 1}</span></div>`).join('')}</div>`
+    ? `<div class="sale-history-list">${history.map(entry => `<div class="sale-history-row"><div><strong>${entry.price ? formatMoney(entry.price) : 'Unknown'}</strong><div class="sale-history-meta">${formatDateTimeShort(entry.time)}${entry.stockNumber ? ` · Stock # ${entry.stockNumber}` : ''}${entry.stockSize ? ` · ${displayStockSize(entry.stockSize)}` : ''}${entry.tankCode ? ` · Tank ${entry.tankCode}` : ''}</div></div><div class="sale-history-row-tools"><span class="mini-pill">Qty ${entry.quantity || 1}</span>${state.staffMode && entry.price ? `<button type="button" class="input-helper-btn subtle" onclick="applyHistoricalSalePrice('${fish.id}', ${entry.time})">Use price</button>` : ''}</div></div>`).join('')}</div>`
     : '<div class="inventory-history-empty">No recorded sale prices for this fish yet.</div>';
   showInfoModal('Previous sale prices', fish.name, body);
 }
@@ -959,14 +1068,16 @@ function cardTemplate(item){
   `;
 }
 function gaugeCard(title, score, lowLabel, highLabel, mode='risk'){
+  const clamped = Math.max(4, Math.min(96, score));
   return `
-    <div class="gauge-card">
+    <div class="gauge-card gauge-card-fx" style="--gauge-score:${clamped}%">
       <div class="gauge-head">
         <strong>${title}</strong>
         <span>${riskText(score, mode)}</span>
       </div>
-      <div class="gauge-track">
-        <div class="gauge-marker" style="left: calc(${Math.max(4, Math.min(96, score))}%);"></div>
+      <div class="gauge-track" style="--gauge-score:${clamped}%">
+        <div class="gauge-liquid"></div>
+        <div class="gauge-marker" style="left: calc(${clamped}%);"></div>
       </div>
       <div class="gauge-scale">
         <span>${lowLabel}</span>
@@ -1396,12 +1507,15 @@ function renderStaffEditor(item){
   const stockActions = item.inStock
     ? `<button class="staff-action-btn sold" onclick="event.stopPropagation();staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="event.stopPropagation();staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffQuarantine('${item.id}')" style="background:rgba(220,180,50,.15);border-color:rgba(220,180,50,.3);color:#ddbb44">${typeof T==='function'?T('quarantine'):'Quarantine'}</button>`
     : `<button class="staff-action-btn edit" onclick="event.stopPropagation();staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>`;
-  return `<div class="staff-editor"><div class="staff-editor-head"><strong>Staff quick edits</strong><span class="mini-pill">${status}</span></div><div class="staff-editor-copy">Tap a tile or use its button directly below. Stock # is surfaced here too so you do not have to jump back into Inventory Manager for basic livestock edits.</div><div class="staff-editor-copy" style="margin-top:6px">Stock #: <strong>${item.stockNumber || '—'}</strong> · Qty: <strong>${qty}</strong> · Hold: <strong>${hold}</strong> · Arrived: <strong>${arrival}</strong></div><div class="staff-editor-fields inventory-kv-editable">${quickTiles}</div><div class="staff-editor-actions"><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button>${stockActions}${rollback || `<button class="staff-action-btn edit" type="button" disabled style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);color:rgba(255,255,255,.45);cursor:default">Per-action rollback only</button>`}</div>${recentHistoryHtml(item)}</div></div>`;
+  return `<div class="staff-editor"><div class="staff-editor-head"><strong>Staff quick edits</strong><span class="mini-pill">${status}</span></div><div class="staff-editor-copy">Tap a tile or use its button directly below. Stock # is surfaced here too so you do not have to jump back into Inventory Manager for basic livestock edits.</div><div class="staff-editor-copy" style="margin-top:6px">Stock #: <strong>${item.stockNumber || '—'}</strong> · Qty: <strong>${qty}</strong> · Hold: <strong>${hold}</strong> · Arrived: <strong>${arrival}</strong> · Last sold: <strong>${latestSaleHistoryLabel(item)}</strong></div><div class="staff-editor-fields inventory-kv-editable">${quickTiles}</div><div class="staff-editor-actions"><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>${stockActions}${rollback || `<button class="staff-action-btn edit" type="button" disabled style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);color:rgba(255,255,255,.45);cursor:default">Per-action rollback only</button>`}</div>${recentHistoryHtml(item)}</div></div>`;
 }
 
 function modalHeaderBar(item){
   const categoryLabel = (typeof CARD_LABELS!=='undefined' && CARD_LABELS[item.category]) ? CARD_LABELS[item.category] : TC(item.category);
-  return `<div class="modal-headline-bar"><span class="modal-type">${categoryLabel}</span><div class="modal-headline-copy"><strong>${L(item,'name')}</strong><span class="latin-mini">${item.scientific}</span>${summaryText(item)?`<p>${summaryText(item)}</p>`:''}</div></div>`;
+  const priceInline = item.onSale && item.salePrice
+    ? `<div class="modal-inline-price"><span class="modal-inline-old-price">${formatMoney(item.price)}</span><strong>${formatMoney(item.salePrice)}</strong></div>`
+    : (item.price ? `<div class="modal-inline-price"><strong>${formatMoney(item.price)}</strong></div>` : '');
+  return `<div class="modal-headline-bar"><span class="modal-type">${categoryLabel}</span><div class="modal-headline-copy"><strong>${L(item,'name')}</strong>${priceInline}<span class="latin-mini">${item.scientific}</span>${summaryText(item)?`<p>${summaryText(item)}</p>`:''}</div></div>`;
 }
 function renderSimilarCards(item, mobile=false){
   const similar = getSimilarFish(item);
@@ -1963,6 +2077,14 @@ function addRipple(el,e){
 document.addEventListener('click',ensureAudio,{once:true});
 document.addEventListener('touchstart',ensureAudio,{once:true});
 
+const MICRO_RIPPLE_SELECTOR = '.cta,.staff-action-btn,.inventory-chip-filter,.modal-close,.input-helper-btn,.inventory-field-card,.inventory-chip,.food-toolbar-btn';
+document.addEventListener('pointerdown', event => {
+  const target = event.target && event.target.closest ? event.target.closest(MICRO_RIPPLE_SELECTOR) : null;
+  if(!target || target.disabled) return;
+  if(target.classList.contains('sort-choice') || target.classList.contains('filter-chip') || target.classList.contains('folder-tab')) return;
+  addRipple(target, event);
+}, {passive:true});
+
 // === MODE TOGGLE ===
 function setMode(mode){
   state.mode = mode;
@@ -2208,6 +2330,7 @@ function checkPin(){
     const ab=document.getElementById('analyticsBtn');if(ab)ab.style.display='inline-flex';
     const eb=document.getElementById('exitStaffBtn');if(eb)eb.style.display='inline-flex';
     const ib=document.getElementById('inventoryBtn');if(ib)ib.style.display='inline-flex';
+    const rb=document.getElementById('recentChangesBtn');if(rb)rb.style.display='inline-flex';
     const sb=document.getElementById('staffBadge');if(sb)sb.style.display='none';
     showToast(T('staffActivated'));
     playOpen();
@@ -2225,6 +2348,7 @@ function exitStaffMode(){
   const ab=document.getElementById('analyticsBtn');if(ab)ab.style.display='none';
   const eb=document.getElementById('exitStaffBtn');if(eb)eb.style.display='none';
   const ib=document.getElementById('inventoryBtn');if(ib)ib.style.display='none';
+  const rb=document.getElementById('recentChangesBtn');if(rb)rb.style.display='none';
   const sb=document.getElementById('staffBadge');if(sb)sb.style.display='inline-flex';
   showToast(T('staffDeactivated'));
   playClose();
@@ -2280,13 +2404,14 @@ function staffMarkDead(id){
     delete fish.reserved;
     delete fish.reservedFor;
     touchStaffRecord(fish, 'loss-out');
-    showToast(`${fish.name} removed (loss) — use Recent Changes or Out of stock to restore it quickly`);
+    showToast(`${fish.name} removed (loss)`);
   }
   playClick();
   persistStaffEdits();
   renderInventoryManager();
   renderInventoryHistoryOverlay();
   render();
+  if(qty <= 1) showRestoreGuidanceModal(fish, 'loss');
 }
 function staffRestoreAvailability(id){
   const fish = FISH.find(f=>f.id===id);
@@ -2351,9 +2476,11 @@ function staffEditPrice(id){
       showToast(`${fish.name} → ${formatMoney(fish.price)}`);
       persistStaffEdits();
       renderInventoryManager();
+      renderInventoryHistoryOverlay();
       render();
     }
   });
+  mountModalFishHelper(fish, {fieldIds:{price:'inputField0'}, limit:6});
 }
 function staffEditTank(id){
   const fish = FISH.find(f=>f.id===id);
@@ -2517,8 +2644,10 @@ function staffRestockFish(id){
     playOpen();
     persistStaffEdits();
     renderInventoryManager();
+    renderInventoryHistoryOverlay();
     render();
   });
+  mountModalFishHelper(fish, {fieldIds:{price:'inputField0', tank:'inputField1', stockNumber:'inputField2', stockSize:'inputField3', quantity:'inputField4', arrivalDate:'inputField5', vendor:'inputField6'}, includeAllButton:true, limit:10});
 }
 
 // === STAFF PHOTO UPLOAD ===
@@ -2726,7 +2855,7 @@ function inventoryCardTemplate(item){
     item.tankCode ? `<span class="inventory-badge">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode}</span>` : '',
     qty !== '—' ? `<span class="inventory-badge">Qty ${qty}</span>` : ''
   ].filter(Boolean).join('');
-  return `<div class="inventory-card"><div class="inventory-card-bg" data-photo="${item.id}"><div class="image-placeholder">LTC</div></div><div class="inventory-card-top"><div><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div>${badges ? `<div class="inventory-card-badges">${badges}</div>` : ''}</div><span class="mini-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>${inventoryStatusActions(item)}</div></div>`;
+  return `<div class="inventory-card"><div class="inventory-card-bg" data-photo="${item.id}"><div class="image-placeholder">LTC</div></div><div class="inventory-card-top"><div class="inventory-card-ident"><div class="inventory-card-thumb" data-photo="${item.id}"><div class="image-placeholder">LTC</div></div><div><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div>${badges ? `<div class="inventory-card-badges">${badges}</div>` : ''}</div></div><span class="mini-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>${inventoryStatusActions(item)}</div></div>`;
 }
 function populateInventoryCategoryFilter(){
   const select = document.getElementById('inventoryCategoryFilter');
@@ -2826,7 +2955,7 @@ function inventoryHistoryPanelTemplate(items, limit=18, restrictToView=true){
   if(!sliced.length){
     return `<div class="inventory-history-panel"><div class="inventory-history-panel-head"><div><strong>Recent staff changes</strong><span>Major actions will show here once staff start editing inventory.</span></div></div><div class="inventory-history-empty">No recent staff changes in this view yet.</div></div>`;
   }
-  return `<div class="inventory-history-panel"><div class="inventory-history-panel-head"><div><strong>Recent staff changes</strong><span>Use the rollback buttons here to quickly reverse a sold, loss, quarantine, or hold without hunting through the grid.</span></div></div><div class="inventory-history-list">${sliced.map(({item, entry}) => `<div class="inventory-history-row"><div class="inventory-history-main"><div class="inventory-history-name">${L(item,'name')}</div><div class="inventory-history-meta">${inventoryCategoryLabel(item.category)} · ${entry.action} · ${formatDateTimeShort(entry.time)}</div></div><div class="inventory-history-row-actions">${staffHistoryActionButtons(item) || '<span class="inventory-history-muted">No rollback ready</span>'}</div></div>`).join('')}</div></div>`;
+  return `<div class="inventory-history-panel"><div class="inventory-history-panel-head"><div><strong>Recent staff changes</strong><span>Use the rollback buttons here to quickly reverse a sold, loss, quarantine, or hold without hunting through the grid.</span></div></div><div class="inventory-history-list">${sliced.map(({item, entry}) => `<div class="inventory-history-row"><div class="inventory-history-main"><div class="inventory-history-thumb" data-photo="${item.id}"><div class="image-placeholder">LTC</div></div><div><div class="inventory-history-name">${L(item,'name')}</div><div class="inventory-history-meta">${inventoryCategoryLabel(item.category)} · ${entry.action} · ${formatDateTimeShort(entry.time)}</div></div></div><div class="inventory-history-row-actions">${staffHistoryActionButtons(item) || '<span class="inventory-history-muted">No rollback ready</span>'}${state.staffMode ? `<button class="staff-action-btn edit" onclick="showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>` : ''}</div></div>`).join('')}</div></div>`;
 }
 function openInventoryManager(){
   const overlay = document.getElementById('inventoryOverlay');
@@ -2851,7 +2980,9 @@ function openInventoryManager(){
     if(opts[2]) opts[2].textContent = T('statusOutOfStock');
     if(opts[3]) opts[3].textContent = T('statusQuarantine');
     if(opts[4]) opts[4].textContent = 'Held / reserved';
-    if(opts[5]) opts[5].textContent = 'Missing store data';
+    if(opts[5]) opts[5].textContent = 'Missing species data';
+    if(opts[6]) opts[6].textContent = 'Missing store data';
+    if(opts[7]) opts[7].textContent = 'Recent changes';
   }
   populateInventoryCategoryFilter();
   overlay.classList.add('show');
@@ -2894,7 +3025,9 @@ function renderInventoryManager(){
   else if(status === 'out') items = items.filter(item => !item.inStock);
   else if(status === 'quarantine') items = items.filter(item => item.quarantine);
   else if(status === 'reserved') items = items.filter(item => item.reserved);
-  else if(status === 'missing') items = items.filter(item => hasMissingStoreData(item));
+  else if(status === 'missingspecies') items = items.filter(item => hasMissingSpeciesCoreData(item));
+  else if(status === 'missingstore') items = items.filter(item => hasMissingStoreData(item));
+  else if(status === 'recent') items = items.filter(item => Array.isArray(item[STAFF_HISTORY_FIELD]) && item[STAFF_HISTORY_FIELD].length);
   renderInventoryQuickFilters(items);
   if(category !== 'all') items = items.filter(item => item.category === category);
   items.sort((a,b) => a.name.localeCompare(b.name));
