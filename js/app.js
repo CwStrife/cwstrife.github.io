@@ -1369,7 +1369,7 @@ function modalTemplate(item){
   const cautionWith = renderPillList(item.cautionWith);
   const foodSection = renderFoodSection(item);
   return `
-    <div class="modal-hero-shell modal-hero-shell-desktop">
+    <div class="modal-top-desktop">
       <div class="modal-photo-card modal-hero-media">
         <div class="modal-photo" data-detail-photo="${item.id}">
           <div class="image-placeholder">LTC</div><div class="skeleton-img"></div>
@@ -1384,18 +1384,17 @@ function modalTemplate(item){
           </div>
         </div>
       </div>
-      <div class="modal-hero-aside">
-        <div class="modal-hero-cap">
-          ${modalHeaderBar(item)}
-          <div class="price-band compact-stats modal-hero-stats">
-            <div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div>
-            <div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div>
-            <div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div>
-            <div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div>
-          </div>
+      <div class="modal-top-summary">
+        ${modalHeaderBar(item)}
+        <div class="price-band compact-stats modal-hero-stats">
+          <div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div>
+          <div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div>
+          <div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div>
+          <div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div>
         </div>
       </div>
     </div>
+    <div class="modal-section ocean modal-compat-full"><div class="section-title"><h3>Compatibility gauges</h3></div><div class="gauges">${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}</div></div>
     <div class="modal-layout modal-layout-after-hero">
       <div class="modal-left">
         ${galleryTemplate(item) || (state.staffMode ? `<div class="photo-upload-row"><button type="button" class="photo-gallery-upload photo-gallery-upload-wide" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button></div>` : '')}
@@ -1404,7 +1403,6 @@ function modalTemplate(item){
         ${factStack ? `<div class="modal-section plum"><div class="section-title"><h3>Quick facts</h3></div><div class="fact-stack">${factStack}</div></div>` : ''}
       </div>
       <div class="modal-right">
-        <div class="modal-section ocean modal-hero-compat"><div class="section-title"><h3>Compatibility gauges</h3></div><div class="gauges">${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}</div></div>
         <div class="two-col"><div class="modal-section seafoam"><div class="section-title"><h3>At-a-glance fit</h3></div><div class="pill-list"><span class="list-pill status-pill ${reefClass}">${reefText}</span><span class="list-pill status-pill ${careClass}">${careText}</span><span class="list-pill status-pill ${aggClass}">${aggText}</span><span class="list-pill status-pill ${invClass}">${invText}</span></div></div><div class="modal-section gold"><div class="section-title"><h3>Core specs</h3></div><div class="pill-list"><span class="list-pill">${typeof T==='function'?T('diet'):'Diet'}: ${safeText(L(item,'diet'))}</span>${originText ? `<span class="list-pill">${typeof T==='function'?T('origin'):'Origin'}: ${originText}</span>` : ''}${habitatText ? `<span class="list-pill">Habitat: ${habitatText}</span>` : ''}<span class="list-pill">In-store size: ${sizeText}${sizeInches}</span></div></div></div>
         <div class="modal-section plum"><div class="section-title"><h3>Longer reading</h3></div><div class="reading-stack">${behavior ? `<div class="reading-block"><strong>Behavior &amp; tank fit</strong><p>${behavior}</p></div>` : ''}${feeding ? `<div class="reading-block"><strong>Feeding &amp; natural habitat</strong><p>${feeding}</p></div>` : ''}${recognition ? `<div class="reading-block"><strong>Recognition &amp; ID</strong><p>${recognition}</p></div>` : ''}${buying ? `<div class="reading-block"><strong>Buying guidance</strong><p>${buying}</p></div>` : ''}</div></div>
         ${(bestWith || cautionWith) ? `<div class="two-col">${bestWith ? `<div class="modal-section seafoam"><div class="section-title"><h3>Works well with</h3></div><div class="pill-list">${bestWith}</div></div>` : ''}${cautionWith ? `<div class="modal-section gold"><div class="section-title"><h3>Use caution with</h3></div><div class="pill-list">${cautionWith}</div></div>` : ''}</div>` : ''}
@@ -2720,14 +2718,40 @@ function inventorySummary(items){
 }
 function inventorySummaryTemplate(items){
   const summary = inventorySummary(items);
+  const rollbackReady = items.filter(item => !!majorRollbackButtons(item)).length;
+  const recentChanges = items.reduce((sum, item) => sum + ((Array.isArray(item[STAFF_HISTORY_FIELD]) ? item[STAFF_HISTORY_FIELD].length : 0)), 0);
   return `<div class="inventory-summary">
     <div class="inventory-summary-card"><span>Entries</span><strong>${summary.entries}</strong><small>catalog entries in this view</small></div>
     <div class="inventory-summary-card"><span>Live Count</span><strong>${summary.liveCount}</strong><small>estimated animals on hand</small></div>
     <div class="inventory-summary-card"><span>Held</span><strong>${summary.reserved}</strong><small>customer reservations</small></div>
-    <div class="inventory-summary-card"><span>No Price</span><strong>${summary.noPrice}</strong><small>needs staff pricing</small></div>
-    <div class="inventory-summary-card"><span>No Store Photo</span><strong>${summary.missingStorePhoto}</strong><small>wiki/default only</small></div>
+    <div class="inventory-summary-card"><span>Rollback Ready</span><strong>${rollbackReady}</strong><small>fish with an undo action ready</small></div>
+    <div class="inventory-summary-card"><span>Recent Changes</span><strong>${recentChanges}</strong><small>staff actions in this filtered set</small></div>
     <div class="inventory-summary-card"><span>Missing Core Store Data</span><strong>${summary.missingCore}</strong><small>price, tank, qty, stock #, or photo</small></div>
   </div>`;
+}
+function staffHistoryActionButtons(item){
+  if(!item) return '';
+  const parts = [];
+  if(getUndoSnapshot(item, STAFF_UNDO_SOLD_FIELD)) parts.push(`<button class="staff-action-btn restore calming" onclick="staffUndoSold('${item.id}')">Undo Sold</button>`);
+  if(getUndoSnapshot(item, STAFF_UNDO_LOSS_FIELD)) parts.push(`<button class="staff-action-btn restore calming" onclick="staffUndoLoss('${item.id}')">Undo Loss</button>`);
+  if(getUndoSnapshot(item, STAFF_UNDO_QUARANTINE_FIELD)) parts.push(`<button class="staff-action-btn restore calming" onclick="staffUndoQuarantine('${item.id}')">Undo Quarantine</button>`);
+  if(getUndoSnapshot(item, STAFF_UNDO_HOLD_FIELD)) parts.push(`<button class="staff-action-btn restore calming" onclick="staffUndoHold('${item.id}')">Undo Hold</button>`);
+  return parts.join('');
+}
+function inventoryHistoryPanelTemplate(items, limit=18){
+  const ids = new Set((items || []).map(item => item.id));
+  const rows = [];
+  FISH.forEach(item => {
+    if(ids.size && !ids.has(item.id)) return;
+    const history = Array.isArray(item[STAFF_HISTORY_FIELD]) ? item[STAFF_HISTORY_FIELD] : [];
+    history.forEach(entry => rows.push({item, entry}));
+  });
+  rows.sort((a,b) => (b.entry?.time || 0) - (a.entry?.time || 0));
+  const sliced = rows.slice(0, limit);
+  if(!sliced.length){
+    return `<div class="inventory-history-panel"><div class="inventory-history-panel-head"><div><strong>Recent staff changes</strong><span>Major actions will show here once staff start editing inventory.</span></div></div><div class="inventory-history-empty">No recent staff changes in this view yet.</div></div>`;
+  }
+  return `<div class="inventory-history-panel"><div class="inventory-history-panel-head"><div><strong>Recent staff changes</strong><span>Use the rollback buttons here to quickly reverse a sold, loss, quarantine, or hold without hunting through the grid.</span></div></div><div class="inventory-history-list">${sliced.map(({item, entry}) => `<div class="inventory-history-row"><div class="inventory-history-main"><div class="inventory-history-name">${L(item,'name')}</div><div class="inventory-history-meta">${inventoryCategoryLabel(item.category)} · ${entry.action} · ${formatDateTimeShort(entry.time)}</div></div><div class="inventory-history-row-actions">${staffHistoryActionButtons(item) || '<span class="inventory-history-muted">No rollback ready</span>'}</div></div>`).join('')}</div></div>`;
 }
 function openInventoryManager(){
   const overlay = document.getElementById('inventoryOverlay');
@@ -2783,7 +2807,7 @@ function renderInventoryManager(){
   renderInventoryQuickFilters(items);
   if(category !== 'all') items = items.filter(item => item.category === category);
   items.sort((a,b) => a.name.localeCompare(b.name));
-  root.innerHTML = `${inventorySummaryTemplate(items)}<div class="inventory-grid">${items.map(item => inventoryCardTemplate(item)).join('')}</div>`;
+  root.innerHTML = `${inventorySummaryTemplate(items)}${inventoryHistoryPanelTemplate(items)}<div class="inventory-grid">${items.map(item => inventoryCardTemplate(item)).join('')}</div>`;
 }
 
 

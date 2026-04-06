@@ -378,3 +378,11 @@
 - Removed large right-side dead space by moving compatibility gauges out of the hero shell and starting them at the top of the right column.
 - Reframed the desktop top area into a photo card plus a unified header/stats cap.
 - Left mobile popup scroll behavior and top-right close behavior alone after the prior fixes.
+
+
+## V0.079
+- Rolled back the desktop fish-detail layout to simpler separate sections after the hero-shape experiments kept creating dead-space issues.
+- Kept the working top-right floating X logic and the working mobile drag-scroll behavior intact.
+- Added a Recent staff changes panel inside Inventory Manager with direct rollback buttons for Undo Sold / Undo Loss / Undo Quarantine / Undo Hold when available.
+- Added rollback-ready and recent-change counts to the inventory summary cards.
+- Verification: smoke test passed with 0 errors and the same 1 translation warning.
