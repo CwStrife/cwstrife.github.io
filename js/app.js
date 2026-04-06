@@ -2879,8 +2879,10 @@ function inventoryCardTemplate(item){
     item.tankCode ? `<span class="inventory-badge">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode}</span>` : '',
     qty !== '—' ? `<span class="inventory-badge">Qty ${qty}</span>` : ''
   ].filter(Boolean).join('');
-  return `<div class="inventory-card inventory-card-photo"><div class="inventory-card-bg" data-photo="${item.id}"><div class="image-placeholder">LTC</div></div><div class="inventory-card-media" data-photo="${item.id}"><div class="image-placeholder">LTC</div><div class="inventory-card-media-overlay"></div><div class="inventory-card-media-copy"><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div>${badges ? `<div class="inventory-card-badges">${badges}</div>` : ''}</div><span class="mini-pill inventory-status-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>${inventoryStatusActions(item)}</div></div>`;
+  const photoHint = Array.isArray(item.staffPhotos)&&item.staffPhotos.length ? 'Store photo' : (item.photoTitle || item.localPhoto ? 'Species photo' : 'Image loading');
+  return `<div class="inventory-card inventory-card-fullbg" data-card-photo="${item.id}"><div class="inventory-card-bg" data-photo="${item.id}"><div class="image-placeholder small">${photoHint}</div></div><div class="inventory-card-header"><div class="inventory-card-header-copy"><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div>${badges ? `<div class="inventory-card-badges">${badges}</div>` : ''}</div><span class="mini-pill inventory-status-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>${inventoryStatusActions(item)}</div></div>`;
 }
+
 function populateInventoryCategoryFilter(){
   const select = document.getElementById('inventoryCategoryFilter');
   if(!select) return;
@@ -3017,10 +3019,19 @@ function closeInventoryManager(){
   if(overlay) overlay.classList.remove('show');
 }
 
+function hydrateInventoryPhotos(items=[]){
+  requestAnimationFrame(() => applyImagesToDOM());
+  const sample = (Array.isArray(items) ? items : []).slice(0, 36);
+  sample.forEach(item => {
+    if(!item) return;
+    fetchImageForFish(item).then(() => requestAnimationFrame(() => applyImagesToDOM())).catch(() => {});
+  });
+}
 function renderInventoryHistoryOverlay(){
   const root = document.getElementById('inventoryHistoryContent');
   if(!root) return;
   root.innerHTML = inventoryHistoryPanelTemplate(FISH, 50, false);
+  hydrateInventoryPhotos(FISH);
 }
 function openInventoryHistoryOverlay(){
   const overlay = document.getElementById('inventoryHistoryOverlay');
@@ -3056,6 +3067,7 @@ function renderInventoryManager(){
   if(category !== 'all') items = items.filter(item => item.category === category);
   items.sort((a,b) => a.name.localeCompare(b.name));
   root.innerHTML = `${inventorySummaryTemplate(items)}<div class="inventory-grid">${items.map(item => inventoryCardTemplate(item)).join('')}</div>`;
+  hydrateInventoryPhotos(items);
 }
 
 

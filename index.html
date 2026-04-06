@@ -1,192 +1,305 @@
-import re, json
-from pathlib import Path
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="LTC Fish Browser">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0a0c12">
+<title>Low Tide Corals &amp; Aquatics — Fish Browser V0.070</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="bg-scene" aria-hidden="true">
+  <video id="bgVideo" autoplay muted loop playsinline>
+    <source src="reef-bg.mp4" type="video/mp4">
+    <source src="reef-bg.webm" type="video/webm">
+    <source src="reef-bg.mov" type="video/quicktime">
+  </video>
+  <div class="bg-overlay"></div>
+</div>
+<div class="category-tint" id="categoryTint"></div>
+<script>
+// Try alternate video filenames if first ones fail
+(function(){
+  const v=document.getElementById('bgVideo');
+  const alts=['reef-bg.mp4','reef-bg.webm','reef-bg.mov','reef-bg (1).mp4','reef-bg (2).mp4','background.mp4','bg.mp4'];
+  let tryIdx=0;
+  v.addEventListener('error',function tryNext(){
+    tryIdx++;
+    if(tryIdx<alts.length){
+      v.src=alts[tryIdx];
+      v.load();
+    }
+  },true);
+  // Also log what's happening
+  v.addEventListener('playing',()=>console.log('Background video playing: '+v.currentSrc));
+  v.addEventListener('loadeddata',()=>{v.style.opacity='0.35'});
+})();
+</script>
 
-species_dir = Path('data/species')
 
-def load_js_array(file_path):
-    raw = file_path.read_text(encoding='utf8')
-    match = re.search(r'=\s*(\[[\s\S]*\])\s*;\s*$', raw)
-    arr = json.loads(match.group(1))
-    return arr, raw[:match.start(1)], raw[match.end(1):]
+<!-- IDLE SCREEN -->
+<div class="idle-overlay hidden" id="idleScreen" onclick="wakeFromIdle()">
+  <img class="idle-logo" id="idleLogo" alt="Low Tide Corals">
+  <div class="idle-text" id="idleText">Touch anywhere to browse</div>
+  <div class="idle-sub" id="idleSub">Low Tide Corals & Aquatics • In-Store Fish Browser</div>
+</div>
 
-def save_js_array(file_path, arr, prefix, suffix):
-    file_path.write_text(prefix + json.dumps(arr, ensure_ascii=False, indent=2) + suffix, encoding='utf8')
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><img id="headerLogo" alt="LTC" style="width:48px;height:auto;display:block"></div>
+      <div>
+        <div class="brand-title">Low Tide Corals &amp; Aquatics</div>
+        <div class="brand-sub" id="brandSub">Interactive in-store fish browser</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="header-pill"><span class="dot"></span><span id="headerPillText">Touch-friendly kiosk mockup</span></div>
+      <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">🌙</button>
+      <button class="theme-toggle" onclick="toggleMute()" title="Toggle sound" id="muteBtn">🔊</button>
+      <button class="theme-toggle" onclick="toggleLang()" title="Language" id="langBtn">EN/ES</button>
+      <button class="theme-toggle" onclick="window.print()" title="Print inventory">🖨</button>
+      <button class="staff-badge" id="staffBadge" onclick="openStaffLogin()">Staff</button>
+      <button class="staff-badge" id="analyticsBtn" style="display:none;background:rgba(80,160,255,.2);border-color:rgba(80,160,255,.3);color:#80b8ff" onclick="openAnalytics()">Analytics</button>
+      <button class="staff-badge" id="inventoryBtn" style="display:none;background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a" onclick="openInventoryManager()">Inventory</button>
+      <button class="staff-badge" id="recentChangesBtn" style="display:none;background:rgba(90,220,200,.16);border-color:rgba(90,220,200,.28);color:#84f5de" onclick="openInventoryHistoryOverlay()">Recent Changes</button>
+      <button class="staff-badge" id="exitStaffBtn" style="display:none;background:rgba(255,80,80,.15);border-color:rgba(255,80,80,.25);color:#ff8888" onclick="exitStaffMode()">Exit Staff</button>
+    </div>
+  </div>
+</header>
 
-def num_inches(s):
-    if not isinstance(s, str): return None
-    m = re.search(r'(\d+(?:\.\d+)?)', s)
-    return float(m.group(1)) if m else None
+<main class="shell">
+  <section class="control-panel">
+    <div class="control-top-row">
+      <div class="mode-toggle">
+        <button class="mode-btn active" data-mode="stock" onclick="setMode('stock')">In Stock</button>
+        <button class="mode-btn" data-mode="ency" onclick="setMode('ency')">Fish Encyclopedia</button>
+      </div>
+      <div class="tank-builder">
+        <label class="tank-label">My tank:</label>
+        <input class="tank-input" id="tankInput" type="number" inputmode="numeric" enterkeyhint="done" placeholder="gal" min="0" step="5" onchange="setTankFilter(this.value)">
+      </div>
+      <div id="favCounter" style="display:none" class="fav-count">♥ <span id="favNum">0</span></div>
+    </div>
 
-def group(entry, filename):
-    name = entry.get('name','').lower(); cat = entry.get('category','').lower(); sci=entry.get('scientific','').lower(); mx=num_inches(entry.get('maxSize',''))
-    if 'angelfish' in cat:
-        if (mx is not None and mx <= 6) or 'centropyge' in sci or 'dwarf' in name: return 'dwarf_angel'
-        return 'large_angel'
-    if 'anthias' in cat: return 'anthias'
-    if 'basslet' in cat or 'dottyback' in cat: return 'basslet_dottyback'
-    if 'butterfly' in cat: return 'butterfly'
-    if 'cardinal' in cat: return 'cardinal'
-    if 'clownfish' in cat: return 'clownfish'
-    if 'damsel' in cat or 'chromis' in name: return 'damsel'
-    if 'eel' in cat or 'moray' in name: return 'eel'
-    if 'goby' in name or 'jawfish' in name or 'dragonet' in name or 'mandarin' in name or 'blenny' in name:
-        if 'jawfish' in name: return 'jawfish'
-        if 'dragonet' in name or 'mandarin' in name or 'scooter' in name: return 'dragonet'
-        if 'fang blenny' in name: return 'fang_blenny'
-        if 'blenny' in name: return 'blenny'
-        if 'watchman' in name or 'prawn goby' in name: return 'watchman_goby'
-        if 'clown goby' in name: return 'clown_goby'
-        return 'goby'
-    if 'hawkfish' in cat: return 'hawkfish'
-    if 'lionfish' in cat: return 'lionfish'
-    if 'puffer' in cat or 'boxfish' in cat or 'cowfish' in cat: return 'puffer'
-    if 'rabbitfish' in cat or 'foxface' in name: return 'rabbitfish'
-    if 'tang' in cat or 'surgeonfish' in name: return 'tang'
-    if 'triggerfish' in cat or 'trigger' in name: return 'trigger'
-    if 'wrasse' in cat:
-        if 'fairy' in name or 'flasher' in name: return 'fairy_flasher_wrasse'
-        if 'leopard' in name: return 'leopard_wrasse'
-        if 'cleaner' in name: return 'cleaner_wrasse'
-        if 'tusk' in name: return 'tusk'
-        if any(k in name for k in ['coris','lunare','banana','bird','dragon']): return 'large_wrasse'
-        if 'possum' in name or 'pygmy' in name: return 'small_wrasse'
-        return 'wrasse'
-    if 'filefish' in name: return 'filefish'
-    if 'angler' in name: return 'angler'
-    if 'waspfish' in name or 'leaf fish' in name: return 'waspfish'
-    if 'comet' in name or 'marine betta' in name: return 'comet_betta'
-    if 'grouper' in name: return 'grouper'
-    if 'hogfish' in name: return 'hogfish'
-    return 'marine_fish'
+    <div class="search-filter-row">
+      <label class="search-wrap" aria-label="Search fish profiles">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M10.5 18a7.5 7.5 0 1 1 5.21-12.89A7.5 7.5 0 0 1 10.5 18Z" stroke="#F4FBFF" stroke-width="1.9"/>
+          <path d="m16.2 16.2 4.3 4.3" stroke="#F4FBFF" stroke-width="1.9" stroke-linecap="round"/>
+        </svg>
+        <input id="searchInput" type="search" enterkeyhint="search" autocapitalize="none" autocomplete="off" spellcheck="false" placeholder="Search by fish name, nickname, role, or scientific name..." />
+      </label>
 
-VISUALS = {
-    'tusk': 'Look for a thick-bodied wrasse with oversized teeth and bold striping or patchwork color.',
-    'large_wrasse': 'Look for a long active wrasse body with strong cruising speed and broader jaws.',
-    'small_wrasse': 'Look for a petite wrasse with quick dashes around rockwork and tight turns near cover.',
-    'fairy_flasher_wrasse': 'Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents.',
-    'leopard_wrasse': 'Look for a fine-spotted wrasse pattern and constant foraging close to sand and rock.',
-    'cleaner_wrasse': 'Look for a slim wrasse profile and a purposeful swimming style around larger fish.',
-    'dragonet': 'Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items.',
-    'filefish': 'Look for a laterally compressed body, pointed snout, and deliberate stop-start swimming.',
-    'angler': 'Look for a chunky ambush body with a huge mouth and a tendency to sit still between lunges.',
-    'waspfish': 'Look for a cryptic outline, perching posture, and camouflage that breaks up the body shape.',
-    'comet_betta': 'Look for a dark cave fish with long finnage and bold ocellus-style markings.',
-    'grouper': 'Look for a heavier-bodied predator with a broad mouth and steady, confident cruising.',
-    'hogfish': 'Look for a longer wrasse-like body with a thicker head and more robust build.'
-}
-RECOGNITION = {
-    'tusk': 'Look for the heavy jaws, visible teeth, and broader body that separate it from the slimmer reef wrasses.',
-    'large_wrasse': 'Look for the longer body, stronger jaws, and faster open-water laps that mark the bigger wrasse types.',
-    'small_wrasse': 'Look for the smaller frame and tight rockwork turns rather than the heavier body of the larger wrasses.',
-    'fairy_flasher_wrasse': 'Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying.',
-    'leopard_wrasse': 'Look for the fine patterning and sand-focused foraging style that set leopard wrasses apart.',
-    'cleaner_wrasse': 'Look for the streamlined profile and purposeful interest in larger fish.',
-    'dragonet': 'Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming.',
-    'filefish': 'Look for the pointed snout and stop-start body posture that give filefish a distinctive silhouette.',
-    'angler': 'Look for the oversized mouth, perch-and-wait posture, and ambush body shape.',
-    'waspfish': 'Look for the broken outline and camouflage that make the fish look more like scenery than open-water livestock.',
-    'comet_betta': 'Look for the long dark fins and false eyespot pattern that make the fish look larger and harder to approach.',
-    'grouper': 'Look for the broad head, thick body, and confident predator posture.',
-    'hogfish': 'Look for the longer snout and more robust build than the average small reef wrasse.'
-}
-FACT_FALLBACK = {
-    'anthias': 'Frequent small feedings are usually part of long-term success with anthias.',
-    'basslet_dottyback': 'Rockwork and secure retreats matter as much as open swimming space here.',
-    'butterfly': 'Prepared-food acceptance and browsing behavior should both be checked before the sale.',
-    'cardinal': 'Peaceful tankmates usually suit this group better than rough community mixes.',
-    'dwarf_angel': 'Coral nipping can vary by individual, so reef plans should be discussed honestly.',
-    'large_angel': 'Coral and clam compatibility should not be assumed just because the fish looks settled in the store.',
-    'damsel': 'Small size does not prevent territorial behavior once the fish has claimed a corner.',
-    'goby': 'Cover and low feeding competition usually matter more than flashy open-water behavior.',
-    'clown_goby': 'Tiny size makes branchy cover and peaceful tankmates especially important.',
-    'watchman_goby': 'A stable sand zone and reliable cover improve long-term comfort and feeding response.',
-    'jawfish': 'A secure lid and suitable burrow substrate are part of the basic care plan, not optional extras.',
-    'dragonet': 'Mature pod support or proven prepared-food response should be treated as a requirement, not a bonus.',
-    'blenny': 'Perches, grazing opportunities, and personal space all matter to blenny behavior.',
-    'fang_blenny': 'This is a blenny with more speed and attitude than the average perch fish.',
-    'hawkfish': 'Small shrimp remain the big compatibility question with hawkfish.',
-    'lionfish': 'Venomous-spine handling and predator feeding routines both matter here.',
-    'filefish': 'Feeding history should be confirmed species by species rather than guessed from the category name.',
-    'angler': 'Tankmate flexibility is minimal once mouth size and ambush behavior are taken seriously.',
-    'waspfish': 'Cryptic behavior is normal; this is not meant to behave like a nonstop open-water swimmer.',
-    'comet_betta': 'A calm cave-rich layout usually brings out more natural behavior than a bright hectic display.',
-    'grouper': 'Juveniles sell small, but long-term growth and appetite should be part of the conversation.',
-    'hogfish': 'Expect more appetite and more cleanup-crew risk than with most peaceful reef wrasses.',
-    'puffer': 'Invertebrate compatibility and beak care are both part of the core sale conversation.',
-    'rabbitfish': 'Venomous dorsal spines and long-term swimming room both deserve mention before the sale.',
-    'tang': 'Swimming length and steady algae support matter more than impulse color with surgeonfish.',
-    'trigger': 'Shrimp, crabs, and passive small fish are the first compatibility questions to answer.',
-    'fairy_flasher_wrasse': 'A tight lid is basic equipment with active display wrasses like these.',
-    'leopard_wrasse': 'A mature reef and patient acclimation routine matter more here than with many common wrasses.',
-    'cleaner_wrasse': 'Long-term feeding response is the key question with cleaner wrasses.',
-    'tusk': 'Cleanup-crew safety is not part of the package with tusk-type wrasses.',
-    'large_wrasse': 'These larger wrasses carry more appetite and more attitude than the smaller reef varieties.',
-    'small_wrasse': 'A covered tank and calmer tankmates usually suit the smaller wrasses best.',
-    'wrasse': 'A covered tank is part of the normal wrasse plan, not a nice extra.'
-}
-HEADER_FALLBACK = {
-    'anthias': 'Best in stable systems that support frequent small feedings.',
-    'basslet_dottyback': 'Best matched to rockwork-heavy layouts with sensible territory planning.',
-    'butterfly': 'Feeding response and reef plans should both be confirmed before the sale.',
-    'cardinal': 'Usually best with peaceful tankmates and a calm routine.',
-    'dwarf_angel': 'Coral nipping risk should be discussed along with color and hardiness.',
-    'large_angel': 'Room, maturity, and reef compatibility should all be settled before the sale.',
-    'damsel': 'Hardy does not mean harmless once territory gets established.',
-    'goby': 'Best matched to calm layouts with cover near the bottom of the tank.',
-    'clown_goby': 'Best in peaceful reefs where tiny perch fish are not constantly outcompeted.',
-    'watchman_goby': 'Best with sand, cover, and a layout that supports burrow-oriented behavior.',
-    'jawfish': 'Requires substrate depth and a secure lid from day one.',
-    'dragonet': 'Best matched to mature systems with natural grazing support.',
-    'blenny': 'Works best when the tank offers perches, cover, and a steady routine.',
-    'fang_blenny': 'Best in setups that can handle a faster, bolder blenny personality.',
-    'hawkfish': 'Shrimp compatibility should be part of the conversation before the sale.',
-    'lionfish': 'Venomous-spine handling and predator compatibility both matter here.',
-    'filefish': 'Feeding history and compatibility should both be confirmed first.',
-    'angler': 'A specialist sale, not a generic community-fish recommendation.',
-    'waspfish': 'A specialist oddball for buyers who appreciate cryptic ambush behavior.',
-    'comet_betta': 'Best for patient hobbyists who appreciate shy cave fish.',
-    'grouper': 'Long-term growth and predation should be discussed before the fish goes home.',
-    'hogfish': 'Best for buyers who want activity and can accept cleanup-crew risk.',
-    'puffer': 'Invertebrate trade-offs and feeding needs both deserve mention up front.',
-    'rabbitfish': 'Room and spine safety both matter as much as algae utility.',
-    'tang': 'Swimming room and tank maturity matter more than impulse color.',
-    'trigger': 'Best matched to roomy systems with compatible tankmates.',
-    'fairy_flasher_wrasse': 'A covered reef is usually the right long-term home.',
-    'leopard_wrasse': 'Maturity and patient acclimation matter more than speed.',
-    'cleaner_wrasse': 'Long-term feeding success matters more than first impressions.',
-    'tusk': 'Best for buyers who understand the cleanup-crew trade-off.',
-    'large_wrasse': 'Best for roomy covered systems that can handle a stronger appetite.',
-    'small_wrasse': 'A covered tank and calmer tankmates usually fit best.',
-    'wrasse': 'A covered tank and steady feeding routine are the normal plan.'
-}
+      <button class="filter-chip reef" id="reefOnlyBtn" type="button" aria-pressed="false">
+        <span class="toggle-dot"></span>
+        <span id="reefLabel">Reef safe only</span>
+      </button>
+      <button class="filter-chip beginner" id="easyOnlyBtn" type="button" aria-pressed="false">
+        <span class="toggle-dot"></span>
+        <span id="easyLabel">Beginner friendly</span>
+      </button>
+      <button class="filter-chip clear" id="clearFiltersBtn" type="button">
+        <span id="clearLabel">Clear filters</span>
+      </button>
+      <button class="view-toggle-btn" id="viewToggle" type="button" onclick="toggleViewMode()" aria-label="Switch to grid view" title="Switch to grid view">
+        <span class="view-toggle-icon" aria-hidden="true">▦</span>
+        <span class="view-toggle-text">Grid</span>
+      </button>
+    </div>
 
-changed=0
-for fp in species_dir.glob('*.js'):
-    arr,prefix,suffix=load_js_array(fp)
-    for e in arr:
-        g=group(e, fp.name)
-        vis=e.get('visualCue','')
-        rec=e.get('recognitionNotes','')
-        if g in VISUALS and ('common to wrasses' in vis.lower() or 'overall body shape, swimming style, and color pattern together with the label' in vis.lower() or g in {'dragonet','tusk','large_wrasse','small_wrasse','fairy_flasher_wrasse','leopard_wrasse','cleaner_wrasse'}):
-            if e.get('visualCue') != VISUALS[g]:
-                e['visualCue']=VISUALS[g]; changed+=1
-        if g in RECOGNITION and ('common to wrasses' in rec.lower() or 'overall body shape, swimming style, and color pattern together with the label' in rec.lower() or 'perches on rock, sand, or burrows' in rec.lower() or g in {'tusk','large_wrasse','small_wrasse','fairy_flasher_wrasse','leopard_wrasse','cleaner_wrasse'}):
-            if e.get('recognitionNotes') != RECOGNITION[g]:
-                e['recognitionNotes']=RECOGNITION[g]; changed+=1
-        facts=e.get('facts',[])
-        if isinstance(facts,list):
-            facts=[f for f in facts if f and f != 'Feeding should match the species, not just the category label.']
-            if len(facts)<3:
-                extra=FACT_FALLBACK.get(g)
-                if extra and extra not in facts:
-                    facts.append(extra); changed+=1
-            e['facts']=facts[:3]
-        hs=e.get('headerSummary','')
-        if isinstance(hs,str) and hs.endswith('Match the sale to long-term space, diet, and compatibility.'):
-            extra=HEADER_FALLBACK.get(g)
-            if extra:
-                base=hs.replace(' Match the sale to long-term space, diet, and compatibility.','')
-                e['headerSummary']=f'{base} {extra}'
-                changed+=1
-    save_js_array(fp,arr,prefix,suffix)
-print('changed',changed)
+    <div class="sort-panel">
+      <div class="sort-copy">
+        <strong id="sortLabel">Sort:</strong>
+        <span id="sortHint">Pick one of the visible sort modes below. No hidden dropdown, no extra tap just to see the choices.</span>
+      </div>
+      <div class="sort-grid" id="sortGrid"></div>
+    </div>
+  </section>
+
+  <section class="promo-area">
+    <div id="resultsCount" style="display:none"></div>
+    <div id="activeHint" style="display:none"></div>
+    <div id="fishOfTheWeek"></div>
+    <div id="bundleSection"></div>
+  </section>
+
+  <div class="category-shell" id="categoryShell">
+    <button class="category-scroll left" id="catScrollLeft" type="button" aria-label="Scroll categories left" onclick="scrollCategoryRail(-1)">‹</button>
+    <div class="category-row" id="categoryBar"></div>
+    <button class="category-scroll right" id="catScrollRight" type="button" aria-label="Scroll categories right" onclick="scrollCategoryRail(1)">›</button>
+  </div>
+
+  <section class="folder-content">
+    <div class="cards" id="cardGrid"></div>
+  </section>
+</main>
+
+<div class="overlay" id="fishOverlay" aria-hidden="true">
+  <div class="fish-modal" role="dialog" aria-modal="true" aria-label="Fish detail profile">
+    <video class="detail-bg-video" id="detailBgVideo" autoplay muted loop playsinline preload="metadata"><source src="detail-bg.mp4" type="video/mp4"></video>
+    <button class="modal-close" id="closeFishBtn" aria-label="Close fish profile">×</button>
+    <div class="modal-body" id="fishModalBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<!-- COMPARE BAR -->
+<div class="compare-bar" id="compareBar">
+  <span id="compareLabel" style="font-size:13px;font-weight:700;color:rgba(255,255,255,.5)">Compare:</span>
+  <div id="compareChips" style="display:flex;gap:8px"></div>
+  <button class="compare-go" id="compareGoBtn" onclick="openCompare()">Compare Now</button>
+  <button id="compareClearBtn" style="padding:8px 14px;border-radius:10px;background:rgba(255,100,100,.15);border:1px solid rgba(255,100,100,.2);color:#ff8888;font-size:13px;font-weight:700;cursor:pointer" onclick="clearCompare()">Clear</button>
+</div>
+
+<!-- COMPARE OVERLAY -->
+<div class="compare-overlay" id="compareOverlay">
+  <div class="compare-panel">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <h2 id="compareTitle" style="margin:0;font-size:24px">Fish Comparison</h2>
+      <button onclick="closeCompare()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+    </div>
+    <div id="compareContent"></div>
+  </div>
+</div>
+<!-- INPUT MODAL (replaces native prompt()) -->
+<div class="input-modal-overlay" id="inputModalOverlay">
+  <div class="input-modal">
+    <h3 id="inputModalTitle"></h3>
+    <div class="modal-desc" id="inputModalDesc"></div>
+    <div id="inputModalFields"></div>
+    <div class="input-modal-actions">
+      <button class="btn-cancel" id="inputModalCancel" onclick="closeInputModal()">Cancel</button>
+      <button class="btn-confirm" id="inputModalConfirm" onclick="confirmInputModal()">Confirm</button>
+    </div>
+  </div>
+</div>
+
+<!-- STAFF PIN OVERLAY -->
+<div class="staff-overlay" id="staffOverlay">
+  <div class="pin-box">
+    <h2>Staff Mode</h2>
+    <p>Enter PIN to access staff tools</p>
+    <input class="pin-input" id="pinInput" type="password" maxlength="4" placeholder="••••" onkeydown="if(event.key==='Enter')checkPin()">
+    <div class="pin-error" id="pinError"></div>
+    <div style="margin-top:16px;display:flex;gap:10px;justify-content:center">
+      <button id="pinEnterBtn" onclick="checkPin()" style="padding:10px 24px;border-radius:12px;background:rgba(90,220,200,.2);border:1px solid rgba(90,220,200,.4);color:#5eebc8;font-size:15px;font-weight:800;cursor:pointer">Enter</button>
+      <button id="pinCancelBtn" onclick="closeStaffLogin()" style="padding:10px 24px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.6);font-size:15px;font-weight:700;cursor:pointer">Cancel</button>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- INVENTORY OVERLAY -->
+<div class="analytics-overlay" id="inventoryOverlay">
+  <div class="analytics-panel inventory-panel">
+    <div class="inventory-topbar">
+      <div>
+        <h2 id="inventoryPanelTitle" style="margin:0;font-size:22px">Inventory Manager</h2>
+        <div class="inventory-subtitle">Quick staff edits for price, tank, stock #, size, quantity, holds, stock details, notes, photos, per-fish rollback actions, and stock status. Holds remain staff-only local flags in this build.</div>
+      </div>
+      <button onclick="closeInventoryManager()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+    </div>
+    <div class="inventory-toolbar">
+      <label class="inventory-control inventory-control-search"><span>Search</span><input id="inventorySearch" class="inventory-search" type="search" placeholder="Search fish, category, tank…" oninput="renderInventoryManager()"></label>
+      <label class="inventory-control"><span>Status</span><select id="inventoryStatusFilter" class="inventory-filter" onchange="renderInventoryManager()">
+        <option value="all">All statuses</option>
+        <option value="instock">In stock</option>
+        <option value="out">Out of stock</option>
+        <option value="quarantine">Quarantine</option>
+        <option value="reserved">Held / reserved</option>
+        <option value="missingspecies">Missing species data</option>
+        <option value="missingstore">Missing store data</option>
+        <option value="recent">Recent changes</option>
+      </select></label>
+      <label class="inventory-control"><span>Category</span><select id="inventoryCategoryFilter" class="inventory-filter" onchange="renderInventoryManager()">
+        <option value="all">All categories</option>
+      </select></label>
+      <span class="inventory-toolbar-note">Rollback is handled per fish with Undo Sold / Undo Loss / Undo Quarantine / Undo Hold.</span><button class="food-toolbar-btn" type="button" onclick="openInventoryHistoryOverlay()">Recent Changes</button><button class="food-toolbar-btn" type="button" onclick="exportStaffEdits()">Export Staff Data</button>
+      <button class="food-toolbar-btn" type="button" onclick="document.getElementById('staffImportFile').click()">Import Staff Data</button>
+      <button class="food-toolbar-btn" type="button" onclick="openFoodSettings()">Food Settings</button>
+      <button class="food-toolbar-btn danger" type="button" onclick="resetStaffEdits()">Reset Staff Data</button>
+      <input id="staffImportFile" type="file" accept="application/json,.json" style="display:none">
+    </div>
+    <div class="inventory-quickbar" id="inventoryQuickFilters"></div>
+    <div id="inventoryContent"></div>
+  </div>
+</div>
+
+<!-- INVENTORY HISTORY OVERLAY -->
+<div class="analytics-overlay" id="inventoryHistoryOverlay" onclick="if(event.target.id==='inventoryHistoryOverlay') closeInventoryHistoryOverlay()">
+  <div class="analytics-panel inventory-history-overlay-panel">
+    <div class="inventory-topbar">
+      <div>
+        <h2 style="margin:0;font-size:22px">Recent Staff Changes</h2>
+        <div class="inventory-subtitle">Quick rollback view for sold, loss, quarantine, hold, and pricing changes across the whole inventory.</div>
+      </div>
+      <button onclick="closeInventoryHistoryOverlay()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+    </div>
+    <div id="inventoryHistoryContent"></div>
+  </div>
+</div>
+
+<!-- FOOD SETTINGS OVERLAY -->
+<div class="analytics-overlay" id="foodsOverlay">
+  <div class="analytics-panel food-settings-panel">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+      <h2 style="margin:0;font-size:22px">Store Food Settings</h2>
+      <button onclick="closeFoodSettings()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+    </div>
+    <div class="food-settings-toolbar" id="foodsSettingsToolbar"></div>
+    <input id="foodsSettingsImportFile" type="file" accept="application/json,.json" style="display:none">
+    <div id="foodsSettingsContent"></div>
+  </div>
+</div>
+
+<!-- ANALYTICS OVERLAY -->
+<div class="analytics-overlay" id="analyticsOverlay">
+  <div class="analytics-panel">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+      <h2 style="margin:0;font-size:22px">Fish Browser Analytics</h2>
+      <button onclick="closeAnalytics()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+    </div>
+    <div id="analyticsContent"></div>
+  </div>
+</div>
+<script src="data/logos.js"></script>
+<script src="data/catalog-base.js"></script>
+<script src="data/species/tangs.js"></script>
+<script src="data/species/angelfish.js"></script>
+<script src="data/species/gobies-blennies.js"></script>
+<script src="data/species/clownfish.js"></script>
+<script src="data/species/wrasses.js"></script>
+<script src="data/species/basslets-dottybacks.js"></script>
+<script src="data/species/shrimp.js"></script>
+<script src="data/species/rabbitfish.js"></script>
+<script src="data/species/cardinalfish.js"></script>
+<script src="data/species/hawkfish.js"></script>
+<script src="data/species/other-fish.js"></script>
+<script src="data/species/crabs.js"></script>
+<script src="data/species/urchins.js"></script>
+<script src="data/species/snails.js"></script>
+<script src="data/species/damsels.js"></script>
+<script src="data/species/puffers.js"></script>
+<script src="data/species/eels.js"></script>
+<script src="data/species/anthias.js"></script>
+<script src="data/species/butterflyfish.js"></script>
+<script src="data/species/starfish.js"></script>
+<script src="data/species/anemones.js"></script>
+<script src="data/species/clams.js"></script>
+<script src="data/species/lionfish.js"></script>
+<script src="data/species/triggerfish.js"></script>
+<script src="data/species/inverts.js"></script>
+<script src="data/fish.js"></script>
+<script src="data/foods/catalog.js"></script>
+<script src="data/foods/store-settings.js"></script>
+<script src="data/foods/profile-rules.js"></script>
+<script src="js/app.js"></script>
+<script src="js/features.js"></script>
+</body>
+</html>

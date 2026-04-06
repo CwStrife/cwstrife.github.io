@@ -1,305 +1,182 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="LTC Fish Browser">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#0a0c12">
-<title>Low Tide Corals &amp; Aquatics — Fish Browser V0.070</title>
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div class="bg-scene" aria-hidden="true">
-  <video id="bgVideo" autoplay muted loop playsinline>
-    <source src="reef-bg.mp4" type="video/mp4">
-    <source src="reef-bg.webm" type="video/webm">
-    <source src="reef-bg.mov" type="video/quicktime">
-  </video>
-  <div class="bg-overlay"></div>
-</div>
-<div class="category-tint" id="categoryTint"></div>
-<script>
-// Try alternate video filenames if first ones fail
-(function(){
-  const v=document.getElementById('bgVideo');
-  const alts=['reef-bg.mp4','reef-bg.webm','reef-bg.mov','reef-bg (1).mp4','reef-bg (2).mp4','background.mp4','bg.mp4'];
-  let tryIdx=0;
-  v.addEventListener('error',function tryNext(){
-    tryIdx++;
-    if(tryIdx<alts.length){
-      v.src=alts[tryIdx];
-      v.load();
+#!/usr/bin/env node
+// LTC Fish Browser — Build Smoke Test
+// Run: node smoke-test.js
+
+const fs = require('fs');
+const path = require('path');
+
+let errors = 0;
+let warnings = 0;
+
+function pass(msg){ console.log(`  ✅ ${msg}`); }
+function fail(msg){ console.log(`  ❌ ${msg}`); errors++; }
+function warn(msg){ console.log(`  ⚠  ${msg}`); warnings++; }
+
+console.log('\n=== LTC Fish Browser Smoke Test ===\n');
+
+// 1. Required files exist
+console.log('--- File Structure ---');
+const required = ['index.html','css/style.css','js/app.js','js/features.js','data/catalog-base.js','data/fish.js','data/logos.js','data/foods/catalog.js','data/foods/store-settings.js','data/foods/profile-rules.js','START_KIOSK.bat'];
+for(const f of required){
+  if(fs.existsSync(f)) pass(f);
+  else fail(`MISSING: ${f}`);
+}
+
+// 2. JS syntax check
+console.log('\n--- JavaScript Syntax ---');
+const { execSync } = require('child_process');
+for(const f of ['js/app.js','js/features.js','data/catalog-base.js','data/fish.js','data/foods/catalog.js','data/foods/store-settings.js','data/foods/profile-rules.js']){
+  try{
+    execSync(`node --check ${f}`, {stdio:'pipe'});
+    pass(`${f} syntax OK`);
+  }catch(e){
+    fail(`${f} SYNTAX ERROR: ${e.stderr.toString().split('\n')[0]}`);
+  }
+}
+
+// 3. Fish data validation
+console.log('\n--- Fish Data ---');
+const speciesDir = path.join('data','species');
+if(!fs.existsSync(speciesDir)){ fail('Missing data/species directory'); }
+else {
+  const fish = [];
+  for(const file of fs.readdirSync(speciesDir).filter(f=>f.endsWith('.js'))){
+    const content = fs.readFileSync(path.join(speciesDir,file),'utf8');
+    const match = content.match(/= (\[[\s\S]*\]);/);
+    if(match) fish.push(...JSON.parse(match[1]));
+  }
+  pass(`${fish.length} species loaded`);
+  
+  const inStock = fish.filter(f=>f.inStock).length;
+  const ency = fish.filter(f=>!f.inStock).length;
+  pass(`${inStock} in stock, ${ency} encyclopedia`);
+  
+  // Check required fields
+  const requiredFields = ['id','name','scientific','category','aggression','coralRisk','careDifficulty','invertRisk','photoTitle','overview','water'];
+  let missingFields = 0;
+  for(const f of fish){
+    for(const field of requiredFields){
+      if(f[field] === undefined && f[field] !== 0){
+        warn(`${f.id} missing field: ${field}`);
+        missingFields++;
+      }
     }
-  },true);
-  // Also log what's happening
-  v.addEventListener('playing',()=>console.log('Background video playing: '+v.currentSrc));
-  v.addEventListener('loadeddata',()=>{v.style.opacity='0.35'});
-})();
-</script>
+  }
+  if(!missingFields) pass('All required fields present');
+  
+  // Check for duplicate IDs
+  const ids = fish.map(f=>f.id);
+  const dupes = ids.filter((id,i) => ids.indexOf(id) !== i);
+  if(dupes.length) fail(`Duplicate fish IDs: ${dupes.join(', ')}`);
+  else pass('No duplicate fish IDs');
+}
 
 
-<!-- IDLE SCREEN -->
-<div class="idle-overlay hidden" id="idleScreen" onclick="wakeFromIdle()">
-  <img class="idle-logo" id="idleLogo" alt="Low Tide Corals">
-  <div class="idle-text" id="idleText">Touch anywhere to browse</div>
-  <div class="idle-sub" id="idleSub">Low Tide Corals & Aquatics • In-Store Fish Browser</div>
-</div>
+// 3b. Food catalog validation
+console.log("\n--- Food Catalog ---");
+try{
+  const vm = require('vm');
+  const foodCatalogContent = fs.readFileSync(path.join('data','foods','catalog.js'),'utf8');
+  const ctx = {window:{}};
+  vm.createContext(ctx);
+  vm.runInContext(foodCatalogContent, ctx);
+  const foods = ctx.window.FOOD_CATALOG || [];
+  pass(`${foods.length} food products loaded`);
+  const foodIds = foods.map(f=>f.id);
+  const dupFood = foodIds.filter((id,i)=>foodIds.indexOf(id)!==i);
+  if(dupFood.length) fail(`Duplicate food IDs: ${dupFood.join(', ')}`);
+  else pass('No duplicate food IDs');
+  const requiredFoodFields = ['id','brand','name','type','diets','sizes','stage','notes'];
+  let badFood = 0;
+  for(const food of foods){
+    for(const field of requiredFoodFields){
+      if(food[field] === undefined){ warn(`Food missing field ${field}: ${food.id || food.name || 'unknown'}`); badFood++; }
+    }
+  }
+  if(!badFood) pass('Food catalog shape looks complete');
+}catch(e){ fail(`Food catalog validation failed: ${e.message}`); }
 
-<header class="topbar">
-  <div class="topbar-inner">
-    <div class="brand">
-      <div class="brand-mark" aria-hidden="true"><img id="headerLogo" alt="LTC" style="width:48px;height:auto;display:block"></div>
-      <div>
-        <div class="brand-title">Low Tide Corals &amp; Aquatics</div>
-        <div class="brand-sub" id="brandSub">Interactive in-store fish browser</div>
-      </div>
-    </div>
-    <div class="topbar-actions">
-      <div class="header-pill"><span class="dot"></span><span id="headerPillText">Touch-friendly kiosk mockup</span></div>
-      <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">🌙</button>
-      <button class="theme-toggle" onclick="toggleMute()" title="Toggle sound" id="muteBtn">🔊</button>
-      <button class="theme-toggle" onclick="toggleLang()" title="Language" id="langBtn">EN/ES</button>
-      <button class="theme-toggle" onclick="window.print()" title="Print inventory">🖨</button>
-      <button class="staff-badge" id="staffBadge" onclick="openStaffLogin()">Staff</button>
-      <button class="staff-badge" id="analyticsBtn" style="display:none;background:rgba(80,160,255,.2);border-color:rgba(80,160,255,.3);color:#80b8ff" onclick="openAnalytics()">Analytics</button>
-      <button class="staff-badge" id="inventoryBtn" style="display:none;background:rgba(255,210,120,.14);border-color:rgba(255,210,120,.28);color:#ffd27a" onclick="openInventoryManager()">Inventory</button>
-      <button class="staff-badge" id="recentChangesBtn" style="display:none;background:rgba(90,220,200,.16);border-color:rgba(90,220,200,.28);color:#84f5de" onclick="openInventoryHistoryOverlay()">Recent Changes</button>
-      <button class="staff-badge" id="exitStaffBtn" style="display:none;background:rgba(255,80,80,.15);border-color:rgba(255,80,80,.25);color:#ff8888" onclick="exitStaffMode()">Exit Staff</button>
-    </div>
-  </div>
-</header>
+// 4. Translation key check
+console.log('\n--- Translations ---');
+const appContent = fs.readFileSync('js/app.js','utf8');
+const featContent = fs.readFileSync('js/features.js','utf8');
+const allJS = appContent + featContent;
 
-<main class="shell">
-  <section class="control-panel">
-    <div class="control-top-row">
-      <div class="mode-toggle">
-        <button class="mode-btn active" data-mode="stock" onclick="setMode('stock')">In Stock</button>
-        <button class="mode-btn" data-mode="ency" onclick="setMode('ency')">Fish Encyclopedia</button>
-      </div>
-      <div class="tank-builder">
-        <label class="tank-label">My tank:</label>
-        <input class="tank-input" id="tankInput" type="number" inputmode="numeric" enterkeyhint="done" placeholder="gal" min="0" step="5" onchange="setTankFilter(this.value)">
-      </div>
-      <div id="favCounter" style="display:none" class="fav-count">♥ <span id="favNum">0</span></div>
-    </div>
+// Find all T('key') calls
+const tCalls = new Set();
+const tRegex = /T\(['"]([^'"]+)['"]\)/g;
+let m;
+while(m = tRegex.exec(allJS)) tCalls.add(m[1]);
 
-    <div class="search-filter-row">
-      <label class="search-wrap" aria-label="Search fish profiles">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M10.5 18a7.5 7.5 0 1 1 5.21-12.89A7.5 7.5 0 0 1 10.5 18Z" stroke="#F4FBFF" stroke-width="1.9"/>
-          <path d="m16.2 16.2 4.3 4.3" stroke="#F4FBFF" stroke-width="1.9" stroke-linecap="round"/>
-        </svg>
-        <input id="searchInput" type="search" enterkeyhint="search" autocapitalize="none" autocomplete="off" spellcheck="false" placeholder="Search by fish name, nickname, role, or scientific name..." />
-      </label>
+// Find EN translation keys (handles multiple keys per line)
+const enKeys = new Set();
+const enMatch = featContent.match(/en:\s*\{([\s\S]*?)\n  \},/);
+if(enMatch){
+  const keyRegex = /(\w+)\s*:/g;
+  let km;
+  while(km = keyRegex.exec(enMatch[1])) enKeys.add(km[1]);
+}
 
-      <button class="filter-chip reef" id="reefOnlyBtn" type="button" aria-pressed="false">
-        <span class="toggle-dot"></span>
-        <span id="reefLabel">Reef safe only</span>
-      </button>
-      <button class="filter-chip beginner" id="easyOnlyBtn" type="button" aria-pressed="false">
-        <span class="toggle-dot"></span>
-        <span id="easyLabel">Beginner friendly</span>
-      </button>
-      <button class="filter-chip clear" id="clearFiltersBtn" type="button">
-        <span id="clearLabel">Clear filters</span>
-      </button>
-      <button class="view-toggle-btn" id="viewToggle" type="button" onclick="toggleViewMode()" aria-label="Switch to grid view" title="Switch to grid view">
-        <span class="view-toggle-icon" aria-hidden="true">▦</span>
-        <span class="view-toggle-text">Grid</span>
-      </button>
-    </div>
+const missingKeys = [...tCalls].filter(k => !enKeys.has(k));
+if(missingKeys.length) fail(`Missing translation keys: ${missingKeys.join(', ')}`);
+else pass(`All ${tCalls.size} T() keys exist in EN translations (${enKeys.size} defined)`);
 
-    <div class="sort-panel">
-      <div class="sort-copy">
-        <strong id="sortLabel">Sort:</strong>
-        <span id="sortHint">Pick one of the visible sort modes below. No hidden dropdown, no extra tap just to see the choices.</span>
-      </div>
-      <div class="sort-grid" id="sortGrid"></div>
-    </div>
-  </section>
+// Check ES has same keys as EN
+const esMatch = featContent.match(/es:\s*\{([\s\S]*?)\n  \}/);
+if(esMatch){
+  const esKeys = new Set();
+  const keyRegex2 = /(\w+)\s*:/g;
+  let km2;
+  while(km2 = keyRegex2.exec(esMatch[1])) esKeys.add(km2[1]);
+  const missingES = [...enKeys].filter(k => !esKeys.has(k));
+  if(missingES.length) warn(`EN keys missing from ES: ${missingES.join(', ')}`);
+  else pass(`ES translations complete (${esKeys.size} keys)`);
+}
 
-  <section class="promo-area">
-    <div id="resultsCount" style="display:none"></div>
-    <div id="activeHint" style="display:none"></div>
-    <div id="fishOfTheWeek"></div>
-    <div id="bundleSection"></div>
-  </section>
+// 5. HTML structure
+console.log('\n--- HTML Structure ---');
+const html = fs.readFileSync('index.html','utf8');
+const htmlIds = [];
+const idRegex = /id="([^"]+)"/g;
+while(m = idRegex.exec(html)) htmlIds.push(m[1]);
+const idDupes = htmlIds.filter((id,i) => htmlIds.indexOf(id) !== i);
+if(idDupes.length) fail(`Duplicate HTML IDs: ${idDupes.join(', ')}`);
+else pass(`${htmlIds.length} unique HTML IDs`);
 
-  <div class="category-shell" id="categoryShell">
-    <button class="category-scroll left" id="catScrollLeft" type="button" aria-label="Scroll categories left" onclick="scrollCategoryRail(-1)">‹</button>
-    <div class="category-row" id="categoryBar"></div>
-    <button class="category-scroll right" id="catScrollRight" type="button" aria-label="Scroll categories right" onclick="scrollCategoryRail(1)">›</button>
-  </div>
+// Check script references
+for(const ref of ['css/style.css','js/app.js','js/features.js','data/catalog-base.js','data/fish.js','data/logos.js','data/foods/catalog.js','data/foods/store-settings.js','data/foods/profile-rules.js']){
+  if(html.includes(ref)) pass(`${ref} referenced`);
+  else fail(`${ref} NOT referenced in index.html`);
+}
 
-  <section class="folder-content">
-    <div class="cards" id="cardGrid"></div>
-  </section>
-</main>
+// 6. No prompt() calls remaining
+console.log('\n--- Code Quality ---');
+const promptMatches = allJS.match(/[^./]prompt\s*\(/g) || [];
+if(promptMatches.length && !allJS.includes('native prompt()')) warn(`${promptMatches.length} prompt() calls remaining`);
+else pass('No native prompt() calls — all use styled modals');
 
-<div class="overlay" id="fishOverlay" aria-hidden="true">
-  <div class="fish-modal" role="dialog" aria-modal="true" aria-label="Fish detail profile">
-    <video class="detail-bg-video" id="detailBgVideo" autoplay muted loop playsinline preload="metadata"><source src="detail-bg.mp4" type="video/mp4"></video>
-    <button class="modal-close" id="closeFishBtn" aria-label="Close fish profile">×</button>
-    <div class="modal-body" id="fishModalBody"></div>
-  </div>
-</div>
-
-<div class="toast" id="toast"></div>
-<!-- COMPARE BAR -->
-<div class="compare-bar" id="compareBar">
-  <span id="compareLabel" style="font-size:13px;font-weight:700;color:rgba(255,255,255,.5)">Compare:</span>
-  <div id="compareChips" style="display:flex;gap:8px"></div>
-  <button class="compare-go" id="compareGoBtn" onclick="openCompare()">Compare Now</button>
-  <button id="compareClearBtn" style="padding:8px 14px;border-radius:10px;background:rgba(255,100,100,.15);border:1px solid rgba(255,100,100,.2);color:#ff8888;font-size:13px;font-weight:700;cursor:pointer" onclick="clearCompare()">Clear</button>
-</div>
-
-<!-- COMPARE OVERLAY -->
-<div class="compare-overlay" id="compareOverlay">
-  <div class="compare-panel">
-    <div style="display:flex;justify-content:space-between;align-items:center">
-      <h2 id="compareTitle" style="margin:0;font-size:24px">Fish Comparison</h2>
-      <button onclick="closeCompare()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
-    </div>
-    <div id="compareContent"></div>
-  </div>
-</div>
-<!-- INPUT MODAL (replaces native prompt()) -->
-<div class="input-modal-overlay" id="inputModalOverlay">
-  <div class="input-modal">
-    <h3 id="inputModalTitle"></h3>
-    <div class="modal-desc" id="inputModalDesc"></div>
-    <div id="inputModalFields"></div>
-    <div class="input-modal-actions">
-      <button class="btn-cancel" id="inputModalCancel" onclick="closeInputModal()">Cancel</button>
-      <button class="btn-confirm" id="inputModalConfirm" onclick="confirmInputModal()">Confirm</button>
-    </div>
-  </div>
-</div>
-
-<!-- STAFF PIN OVERLAY -->
-<div class="staff-overlay" id="staffOverlay">
-  <div class="pin-box">
-    <h2>Staff Mode</h2>
-    <p>Enter PIN to access staff tools</p>
-    <input class="pin-input" id="pinInput" type="password" maxlength="4" placeholder="••••" onkeydown="if(event.key==='Enter')checkPin()">
-    <div class="pin-error" id="pinError"></div>
-    <div style="margin-top:16px;display:flex;gap:10px;justify-content:center">
-      <button id="pinEnterBtn" onclick="checkPin()" style="padding:10px 24px;border-radius:12px;background:rgba(90,220,200,.2);border:1px solid rgba(90,220,200,.4);color:#5eebc8;font-size:15px;font-weight:800;cursor:pointer">Enter</button>
-      <button id="pinCancelBtn" onclick="closeStaffLogin()" style="padding:10px 24px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.6);font-size:15px;font-weight:700;cursor:pointer">Cancel</button>
-    </div>
-  </div>
-</div>
+// Check for escaped template literals
+if(featContent.includes('\\\\`') || featContent.includes('\\\\${')){
+  fail('features.js still has escaped template literals');
+} else pass('No escaped template literal syntax');
 
 
+// 7. Placeholder phrase scan
+console.log('\n--- Placeholder Phrase Scan ---');
+const scanFiles = ['js/app.js', ...fs.readdirSync(path.join('data','species')).filter(f=>f.endsWith('.js')).map(f=>path.join('data','species',f))];
+const badPhrases = [/should read like a real/i,/for in-?store reference only/i,/no cart,? no checkout/i,/the kiosk should/i];
+let hits = 0;
+for(const file of scanFiles){
+  const content = fs.readFileSync(file,'utf8');
+  for(const re of badPhrases){
+    if(re.test(content)){ warn(`Placeholder phrase still present in ${file}: ${re}`); hits++; }
+  }
+}
+if(!hits) pass('No banned placeholder phrases found in catalog/template files');
 
-<!-- INVENTORY OVERLAY -->
-<div class="analytics-overlay" id="inventoryOverlay">
-  <div class="analytics-panel inventory-panel">
-    <div class="inventory-topbar">
-      <div>
-        <h2 id="inventoryPanelTitle" style="margin:0;font-size:22px">Inventory Manager</h2>
-        <div class="inventory-subtitle">Quick staff edits for price, tank, stock #, size, quantity, holds, stock details, notes, photos, per-fish rollback actions, and stock status. Holds remain staff-only local flags in this build.</div>
-      </div>
-      <button onclick="closeInventoryManager()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
-    </div>
-    <div class="inventory-toolbar">
-      <label class="inventory-control inventory-control-search"><span>Search</span><input id="inventorySearch" class="inventory-search" type="search" placeholder="Search fish, category, tank…" oninput="renderInventoryManager()"></label>
-      <label class="inventory-control"><span>Status</span><select id="inventoryStatusFilter" class="inventory-filter" onchange="renderInventoryManager()">
-        <option value="all">All statuses</option>
-        <option value="instock">In stock</option>
-        <option value="out">Out of stock</option>
-        <option value="quarantine">Quarantine</option>
-        <option value="reserved">Held / reserved</option>
-        <option value="missingspecies">Missing species data</option>
-        <option value="missingstore">Missing store data</option>
-        <option value="recent">Recent changes</option>
-      </select></label>
-      <label class="inventory-control"><span>Category</span><select id="inventoryCategoryFilter" class="inventory-filter" onchange="renderInventoryManager()">
-        <option value="all">All categories</option>
-      </select></label>
-      <span class="inventory-toolbar-note">Rollback is handled per fish with Undo Sold / Undo Loss / Undo Quarantine / Undo Hold.</span><button class="food-toolbar-btn" type="button" onclick="openInventoryHistoryOverlay()">Recent Changes</button><button class="food-toolbar-btn" type="button" onclick="exportStaffEdits()">Export Staff Data</button>
-      <button class="food-toolbar-btn" type="button" onclick="document.getElementById('staffImportFile').click()">Import Staff Data</button>
-      <button class="food-toolbar-btn" type="button" onclick="openFoodSettings()">Food Settings</button>
-      <button class="food-toolbar-btn danger" type="button" onclick="resetStaffEdits()">Reset Staff Data</button>
-      <input id="staffImportFile" type="file" accept="application/json,.json" style="display:none">
-    </div>
-    <div class="inventory-quickbar" id="inventoryQuickFilters"></div>
-    <div id="inventoryContent"></div>
-  </div>
-</div>
+// Summary
+console.log(`\n=== RESULTS: ${errors} errors, ${warnings} warnings ===`);
+if(!errors) console.log('🎉 Build is clean!\n');
+else console.log('⛔ Fix errors before shipping.\n');
 
-<!-- INVENTORY HISTORY OVERLAY -->
-<div class="analytics-overlay" id="inventoryHistoryOverlay" onclick="if(event.target.id==='inventoryHistoryOverlay') closeInventoryHistoryOverlay()">
-  <div class="analytics-panel inventory-history-overlay-panel">
-    <div class="inventory-topbar">
-      <div>
-        <h2 style="margin:0;font-size:22px">Recent Staff Changes</h2>
-        <div class="inventory-subtitle">Quick rollback view for sold, loss, quarantine, hold, and pricing changes across the whole inventory.</div>
-      </div>
-      <button onclick="closeInventoryHistoryOverlay()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
-    </div>
-    <div id="inventoryHistoryContent"></div>
-  </div>
-</div>
-
-<!-- FOOD SETTINGS OVERLAY -->
-<div class="analytics-overlay" id="foodsOverlay">
-  <div class="analytics-panel food-settings-panel">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
-      <h2 style="margin:0;font-size:22px">Store Food Settings</h2>
-      <button onclick="closeFoodSettings()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
-    </div>
-    <div class="food-settings-toolbar" id="foodsSettingsToolbar"></div>
-    <input id="foodsSettingsImportFile" type="file" accept="application/json,.json" style="display:none">
-    <div id="foodsSettingsContent"></div>
-  </div>
-</div>
-
-<!-- ANALYTICS OVERLAY -->
-<div class="analytics-overlay" id="analyticsOverlay">
-  <div class="analytics-panel">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
-      <h2 style="margin:0;font-size:22px">Fish Browser Analytics</h2>
-      <button onclick="closeAnalytics()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
-    </div>
-    <div id="analyticsContent"></div>
-  </div>
-</div>
-<script src="data/logos.js"></script>
-<script src="data/catalog-base.js"></script>
-<script src="data/species/tangs.js"></script>
-<script src="data/species/angelfish.js"></script>
-<script src="data/species/gobies-blennies.js"></script>
-<script src="data/species/clownfish.js"></script>
-<script src="data/species/wrasses.js"></script>
-<script src="data/species/basslets-dottybacks.js"></script>
-<script src="data/species/shrimp.js"></script>
-<script src="data/species/rabbitfish.js"></script>
-<script src="data/species/cardinalfish.js"></script>
-<script src="data/species/hawkfish.js"></script>
-<script src="data/species/other-fish.js"></script>
-<script src="data/species/crabs.js"></script>
-<script src="data/species/urchins.js"></script>
-<script src="data/species/snails.js"></script>
-<script src="data/species/damsels.js"></script>
-<script src="data/species/puffers.js"></script>
-<script src="data/species/eels.js"></script>
-<script src="data/species/anthias.js"></script>
-<script src="data/species/butterflyfish.js"></script>
-<script src="data/species/starfish.js"></script>
-<script src="data/species/anemones.js"></script>
-<script src="data/species/clams.js"></script>
-<script src="data/species/lionfish.js"></script>
-<script src="data/species/triggerfish.js"></script>
-<script src="data/species/inverts.js"></script>
-<script src="data/fish.js"></script>
-<script src="data/foods/catalog.js"></script>
-<script src="data/foods/store-settings.js"></script>
-<script src="data/foods/profile-rules.js"></script>
-<script src="js/app.js"></script>
-<script src="js/features.js"></script>
-</body>
-</html>
+process.exit(errors ? 1 : 0);

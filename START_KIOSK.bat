@@ -1,20 +1,14 @@
-# LTC Fish Browser reference file for ChatGPT / Claude
-
-Use this file first when resuming work from this zip.
-
-## Documentation layout
-- `docs/handoffs/` → version handoffs + start-here notes
-- `docs/audits/` → content audits, runtime audits, cleanup reports
-- `docs/worklogs/` → rolling master worklog
-- `docs/notes/` → future integration notes, planning notes, special requests
-
-## Best carry-forward files to read first
-1. `docs/handoffs/LTC_V0083_ChatGPT_Handoff.md`
-2. `docs/worklogs/LTC_MASTER_WORKLOG.md`
-3. `docs/audits/LTC_V0083_EFFECTS_PASS_AUDIT.md`
-4. `docs/notes/LTC_FUTURE_INTEGRATIONS_NOTES.md`
-
-## Source-of-truth guidance inside this zip
-- current runnable build files stay in the root / app folders
-- handoffs and audits should keep being appended into `docs/` instead of cluttering the main directory
-- when creating future zips, keep this structure and add the newest docs alongside the older ones for easy search/reference
+@echo off
+echo ==========================================
+echo  Low Tide Corals - Fish Browser V0.070
+echo ==========================================
+echo.
+echo Put reef-bg.mp4 in this folder for video background.
+echo.
+echo Killing any existing server on port 8080...
+powershell -NoProfile -Command "Get-NetTCPConnection -LocalPort 8080 -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -ErrorAction SilentlyContinue }" 2>nul
+timeout /t 1 /nobreak >nul
+echo Starting server...
+start "" "http://localhost:8080/index.html"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "& { $listener = New-Object System.Net.HttpListener; $listener.Prefixes.Add('http://localhost:8080/'); $listener.Start(); Write-Host 'Server running at http://localhost:8080/ - do not close this window'; Write-Host 'Press Ctrl+C to stop.'; $root = (Get-Location).Path; while ($listener.IsListening) { $context = $listener.GetContext(); $response = $context.Response; $file = $context.Request.Url.LocalPath.TrimStart('/'); if ($file -eq '') { $file = 'index.html' }; $path = Join-Path $root $file; if (Test-Path $path) { $bytes = [System.IO.File]::ReadAllBytes($path); $ext = [System.IO.Path]::GetExtension($path).ToLower(); $mime = switch ($ext) { '.html' {'text/html'} '.css' {'text/css'} '.js' {'application/javascript'} '.json' {'application/json'} '.mp4' {'video/mp4'} '.webm' {'video/webm'} '.png' {'image/png'} '.jpg' {'image/jpeg'} '.jpeg' {'image/jpeg'} '.svg' {'image/svg+xml'} '.ico' {'image/x-icon'} default {'application/octet-stream'} }; $response.ContentType = $mime; $response.ContentLength64 = $bytes.Length; $response.OutputStream.Write($bytes, 0, $bytes.Length) } else { $response.StatusCode = 404 }; $response.Close() } }"
+pause
