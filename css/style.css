@@ -3436,12 +3436,13 @@ body.light-mode .input-helper-sale-row span{color:rgba(0,0,0,.52)}
 #recentChangesBtn{box-shadow:0 10px 24px rgba(90,220,200,.12)}
 
 
-/* === V0.086 Inventory full-card fish backgrounds === */
-.inventory-card-fullbg{position:relative;overflow:hidden;min-height:720px;background:rgba(255,255,255,.03);border-color:rgba(255,255,255,.1);box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 18px 42px rgba(0,0,0,.18)}
-.inventory-card-fullbg .inventory-card-bg{position:absolute;inset:0;opacity:1;z-index:0;overflow:hidden}
-.inventory-card-fullbg .inventory-card-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(4,10,18,.16) 0%, rgba(4,10,18,.48) 20%, rgba(4,10,18,.82) 52%, rgba(4,10,18,.94) 100%)}
-.inventory-card-fullbg .inventory-card-bg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;filter:saturate(1.08) contrast(1.05) brightness(.92)}
+/* V0.087 inventory full-card photo treatment */
+.inventory-card-fullbg{position:relative;overflow:hidden;min-height:720px;background:radial-gradient(circle at top, rgba(36,64,102,.22), rgba(9,18,31,.96) 66%);border-color:rgba(255,255,255,.1);box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 18px 42px rgba(0,0,0,.18);isolation:isolate}
+.inventory-card-fullbg-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;opacity:.95;transform:scale(1.02);filter:saturate(1.06) contrast(1.04) brightness(.86);z-index:0;transition:opacity .2s ease, transform .3s ease}
+.inventory-card-fullbg-overlay{position:absolute;inset:0;background:linear-gradient(180deg, rgba(4,10,18,.14) 0%, rgba(4,10,18,.24) 16%, rgba(4,10,18,.62) 42%, rgba(4,10,18,.86) 66%, rgba(4,10,18,.96) 100%);z-index:0}
+.inventory-card-fullbg.no-photo .inventory-card-fullbg-image{display:none}
 .inventory-card-fullbg > *{position:relative;z-index:1}
+.inventory-card-fullbg:hover .inventory-card-fullbg-image{transform:scale(1.035);opacity:.98}
 .inventory-card-fullbg .inventory-card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:14px 14px 8px;border-radius:18px;background:linear-gradient(180deg, rgba(6,16,28,.26), rgba(6,16,28,.08));backdrop-filter:blur(1px)}
 .inventory-card-fullbg .inventory-card-header-copy{min-width:0}
 .inventory-card-fullbg .inventory-card-name{font-size:17px;line-height:1.05;text-shadow:0 3px 18px rgba(0,0,0,.58)}
@@ -3453,8 +3454,38 @@ body.light-mode .input-helper-sale-row span{color:rgba(0,0,0,.52)}
 .inventory-card-fullbg .inventory-field-card:hover{background:rgba(12,22,37,.84)}
 .inventory-card-fullbg .inventory-meta-row span,.inventory-card-fullbg .inventory-history-chip{background:rgba(7,16,28,.62);border-color:rgba(255,255,255,.09)}
 .inventory-card-fullbg .inventory-actions .staff-action-btn{background:rgba(8,16,30,.72)}
-.inventory-card-fullbg .image-placeholder.small{position:absolute;left:14px;top:14px;width:auto;height:auto;display:inline-flex;align-items:center;justify-content:center;padding:7px 10px;border-radius:999px;background:rgba(8,16,28,.72);border:1px solid rgba(255,255,255,.1);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:rgba(235,245,255,.72)}
-.inventory-card-fullbg .inventory-card-bg img + .image-placeholder.small{display:none}
-.inventory-card-fullbg .inventory-card-bg .image-placeholder{font-size:10px}
+.inventory-card-fullbg .inventory-card-photo-hint{position:absolute;left:14px;top:14px;display:inline-flex;align-items:center;justify-content:center;padding:7px 10px;border-radius:999px;background:rgba(8,16,28,.72);border:1px solid rgba(255,255,255,.1);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:rgba(235,245,255,.72);z-index:1;pointer-events:none}
+.inventory-card-fullbg.has-photo .inventory-card-photo-hint{display:none}
+.inventory-card-fullbg.no-photo .inventory-card-photo-hint{display:inline-flex}
+.inventory-card-fullbg .inventory-card-bg,.inventory-card-fullbg .inventory-card-media{display:none !important}
+.inventory-card-fullbg .image-placeholder{display:none !important}
 @media (max-width: 1180px){.inventory-card-fullbg{min-height:680px}}
 @media (max-width: 700px){.inventory-card-fullbg{min-height:620px}.inventory-card-fullbg .inventory-card-header{padding:12px 12px 6px}.inventory-card-fullbg .inventory-card-name{font-size:16px}}
+
+
+/* V0.089 stronger, still restrained microinteractions */
+.gauge-card-fx .gauge-liquid,
+.gauge-card-fx .gauge-liquid::before,
+.gauge-card-fx .gauge-marker{animation:none}
+.gauge-card-fx.fx-play .gauge-liquid{animation:gaugeFillReveal 900ms cubic-bezier(.2,.9,.2,1) both}
+.gauge-card-fx.fx-play .gauge-liquid::before{animation:liquidSweep 2200ms ease .62s 1 both}
+.gauge-card-fx.fx-play .gauge-marker{animation:gaugeMarkerPop 620ms cubic-bezier(.2,.9,.2,1) .16s forwards, gaugeMarkerDrift 4.6s ease-in-out 1.05s infinite}
+.gauge-card-fx:hover .gauge-liquid::before{animation:liquidSweep 1400ms ease 0s 1 both}
+.gauge-card-fx:hover .gauge-marker{transform:translate(-50%,-50%) scale(1.08)}
+
+.staff-action-btn,.inventory-chip-filter,.mini-pill,.tab,.category-tab,.cta,.inventory-field-btn,.mode-toggle,.input-choice-btn{position:relative;overflow:hidden}
+.staff-action-btn::after,.inventory-chip-filter::after,.mini-pill::after,.tab::after,.category-tab::after,.cta::after,.inventory-field-btn::after,.mode-toggle::after,.input-choice-btn::after{content:"";position:absolute;inset:-40% auto -40% -60%;width:42%;background:linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.18) 48%, rgba(255,255,255,0) 100%);transform:translateX(-180%) skewX(-18deg);pointer-events:none;opacity:.0}
+.staff-action-btn:hover::after,.inventory-chip-filter:hover::after,.tab:hover::after,.category-tab:hover::after,.cta:hover::after,.inventory-field-btn:hover::after,.mode-toggle:hover::after,.input-choice-btn:hover::after{opacity:1;animation:buttonSheen 820ms ease 1}
+.staff-action-btn:active,.inventory-chip-filter:active,.tab:active,.category-tab:active,.cta:active,.inventory-field-btn:active,.mode-toggle:active,.input-choice-btn:active{transform:translateY(1px) scale(.985)}
+.mini-pill:hover::after{opacity:.85;animation:buttonSheen 1000ms ease 1}
+@keyframes buttonSheen{0%{transform:translateX(-180%) skewX(-18deg)}100%{transform:translateX(420%) skewX(-18deg)}}
+
+.ripple{background:radial-gradient(circle, rgba(255,255,255,.42) 0%, rgba(120,220,255,.22) 34%, rgba(90,220,200,.12) 56%, rgba(255,255,255,0) 72%) !important;opacity:.95 !important;filter:blur(.4px)}
+@keyframes rippleOut{from{transform:scale(0);opacity:.9}to{transform:scale(3.9);opacity:0}}
+
+@media (prefers-reduced-motion: reduce){
+  .gauge-card-fx .gauge-liquid,
+  .gauge-card-fx .gauge-liquid::before,
+  .gauge-card-fx .gauge-marker,
+  .staff-action-btn::after,.inventory-chip-filter::after,.mini-pill::after,.tab::after,.category-tab::after,.cta::after,.inventory-field-btn::after,.mode-toggle::after,.input-choice-btn::after{animation:none !important;transition:none !important}
+}

@@ -5,6 +5,7 @@
 if(typeof T !== 'function'){ var T = function(k){ return k; }; }
 
 // FISH data loaded from data/fish.js
+const APP_VERSION = '0.089';
 const state = {
   viewMode: (window.matchMedia && window.matchMedia('(pointer: coarse) and (max-width: 900px)').matches) ? 'compact' : 'detailed', category:"All", search:"", sort:"featured", reefOnly:false, easyOnly:false, selectedId:null, mode:"stock", favorites:[], compareList:[], tankFilter:0, idleActive:false };
 const wikiImages = new Map();
@@ -314,6 +315,7 @@ function showInfoModal(title, desc, html){
   _inputModalCallback = null;
   _inputModalFields = [];
   overlay.classList.add('show');
+  triggerGaugeFx(overlay);
 }
 function showSaleHistory(id){
   const fish = FISH.find(f => f.id === id);
@@ -1511,7 +1513,7 @@ function renderStaffEditor(item){
   const stockActions = item.inStock
     ? `<button class="staff-action-btn sold" onclick="event.stopPropagation();staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="event.stopPropagation();staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffQuarantine('${item.id}')" style="background:rgba(220,180,50,.15);border-color:rgba(220,180,50,.3);color:#ddbb44">${typeof T==='function'?T('quarantine'):'Quarantine'}</button>`
     : `<button class="staff-action-btn edit" onclick="event.stopPropagation();staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>`;
-  return `<div class="staff-editor"><div class="staff-editor-head"><strong>Staff quick edits</strong><span class="mini-pill">${status}</span></div><div class="staff-editor-copy">Tap a tile or use its button directly below. Stock # is surfaced here too so you do not have to jump back into Inventory Manager for basic livestock edits.</div><div class="staff-editor-copy" style="margin-top:6px">Stock #: <strong>${item.stockNumber || '—'}</strong> · Qty: <strong>${qty}</strong> · Hold: <strong>${hold}</strong> · Arrived: <strong>${arrival}</strong> · Last sold: <strong>${latestSaleHistoryLabel(item)}</strong></div><div class="staff-editor-fields inventory-kv-editable">${quickTiles}</div><div class="staff-editor-actions"><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>${stockActions}${rollback || `<button class="staff-action-btn edit" type="button" disabled style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);color:rgba(255,255,255,.45);cursor:default">Per-action rollback only</button>`}</div>${recentHistoryHtml(item)}</div></div>`;
+  return `<div class="staff-editor"><div class="staff-editor-head"><strong>Staff quick edits</strong><span class="mini-pill">${status}</span></div><div class="staff-editor-copy">Tap a tile or use its button directly below. Stock # is surfaced here too so you do not have to jump back into Inventory Manager for basic livestock edits.</div><div class="staff-editor-copy" style="margin-top:6px">Stock #: <strong>${item.stockNumber || '—'}</strong> · Qty: <strong>${qty}</strong> · Hold: <strong>${hold}</strong> · Arrived: <strong>${arrival}</strong> · Last sold: <strong>${latestSaleHistoryLabel(item)}</strong></div><div class="staff-editor-fields inventory-kv-editable">${quickTiles}</div><div class="staff-editor-actions"><button class="staff-action-btn edit" onclick="event.stopPropagation();staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();staffUploadPhoto('${item.id}')" style="background:rgba(180,130,255,.15);border-color:rgba(180,130,255,.3);color:#b888ff">${typeof T==='function'?T('uploadStorePhoto'):'+ Upload store photo'}</button><button class="staff-action-btn edit" onclick="event.stopPropagation();showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>${stockActions}${rollback || ''}</div>${recentHistoryHtml(item)}</div></div>`;
 }
 
 function modalHeaderBar(item){
@@ -1783,7 +1785,7 @@ function openFishModal(id){
   }
   const closeBtn = body.querySelector('[data-close-modal]');
   if(closeBtn) closeBtn.addEventListener('click', closeFishModal);
-  if(overlay){overlay.classList.add('show');overlay.setAttribute('aria-hidden', 'false');}
+  if(overlay){overlay.classList.add('show');overlay.setAttribute('aria-hidden', 'false'); triggerGaugeFx(overlay);}
   if(detailVideo){ detailVideo.currentTime = 0; detailVideo.play().catch(()=>{}); }
   document.body.classList.add('modal-open');
   requestAnimationFrame(()=>{
@@ -1901,7 +1903,44 @@ async function loadAllImages(){
   await Promise.allSettled(workers);
   applyImagesToDOM();
 }
+
+function setInventoryCardPhotoState(card, fish){
+  if(!card || !fish) return;
+  const src = getPrimaryImageSource(fish);
+  const hint = card.querySelector('.inventory-card-photo-hint');
+  let img = card.querySelector('.inventory-card-fullbg-image');
+  if(!img){
+    img = document.createElement('img');
+    img.className = 'inventory-card-fullbg-image';
+    img.alt = fish.name || '';
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    const overlay = card.querySelector('.inventory-card-fullbg-overlay');
+    if(overlay) card.insertBefore(img, overlay); else card.insertBefore(img, card.firstChild);
+  }
+  if(src){
+    img.src = src;
+    card.style.setProperty('--inventory-card-image', `url('${String(src).replace(/'/g, "\'")}')`);
+    card.classList.add('has-photo');
+    card.classList.remove('no-photo');
+    if(hint) hint.textContent = '';
+  } else {
+    img.removeAttribute('src');
+    card.style.removeProperty('--inventory-card-image');
+    card.classList.remove('has-photo');
+    card.classList.add('no-photo');
+    if(hint) hint.textContent = 'Photo loading';
+  }
+}
+function applyInventoryCardImages(){
+  document.querySelectorAll('.inventory-card-fullbg[data-card-photo]').forEach(card => {
+    const fish = FISH.find(item => item.id === card.dataset.cardPhoto);
+    if(fish) setInventoryCardPhotoState(card, fish);
+  });
+}
+
 function applyImagesToDOM(){
+  applyInventoryCardImages();
   const targets = [...document.querySelectorAll('[data-photo]'), ...document.querySelectorAll('[data-detail-photo]')];
   for(const target of targets){
     const id = target.dataset.photo || target.dataset.detailPhoto;
@@ -1943,6 +1982,7 @@ function applyImagesToDOM(){
     img.src = src;
     target.prepend(img);
   }
+  applyInventoryCardImages();
 }
 function showToast(message){
   const toast = document.getElementById('toast');
@@ -2098,7 +2138,7 @@ function addRipple(el,e){
 document.addEventListener('click',ensureAudio,{once:true});
 document.addEventListener('touchstart',ensureAudio,{once:true});
 
-const MICRO_RIPPLE_SELECTOR = '.cta,.staff-action-btn,.inventory-chip-filter,.modal-close,.input-helper-btn,.inventory-field-card,.inventory-chip,.food-toolbar-btn';
+const MICRO_RIPPLE_SELECTOR = '.cta,.staff-action-btn,.inventory-chip-filter,.modal-close,.input-helper-btn,.inventory-field-card,.inventory-chip,.food-toolbar-btn,.primary-btn,.ghost-btn,.chip,.tab,.mode-toggle,.filter-chip';
 document.addEventListener('pointerdown', event => {
   const target = event.target && event.target.closest ? event.target.closest(MICRO_RIPPLE_SELECTOR) : null;
   if(!target || target.disabled) return;
@@ -2853,15 +2893,16 @@ function inventoryStatusActions(item){
   if(item.inStock){
     return `<button class="staff-action-btn sold" onclick="staffMarkSold('${item.id}')">${typeof T==='function'?T('markSold'):'Mark Sold'}</button><button class="staff-action-btn dead" onclick="staffMarkDead('${item.id}')">${typeof T==='function'?T('removeLoss'):'Remove (Loss)'}</button><button class="staff-action-btn edit" onclick="staffQuarantine('${item.id}')" style="background:rgba(220,180,50,.15);border-color:rgba(220,180,50,.3);color:#ddbb44">${typeof T==='function'?T('quarantine'):'Quarantine'}</button>${rollback}`;
   }
-  return `<button class="staff-action-btn edit" onclick="staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>${rollback || `<button class="staff-action-btn edit" type="button" disabled style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);color:rgba(255,255,255,.45);cursor:default">Per-action rollback only</button>`}`;
+  return `<button class="staff-action-btn edit" onclick="staffRestockFish('${item.id}')" style="background:rgba(90,220,200,.15);border-color:rgba(90,220,200,.3);color:#5eebc8">${typeof T==='function'?T('addToStock'):'+ Add to Stock'}</button>${rollback || ''}`;
 }
 function inventoryCardTemplate(item){
-  const qty = displayQuantityValue(item.quantity);
-  const arrival = formatDateShort(item.arrivalDate);
-  const hold = reservedLabel(item);
-  const updated = formatDateTimeShort(item.updatedAt);
+  const qty = Number.isFinite(item.quantity) ? item.quantity : '—';
+  const hold = item.reserved ? `Held${item.reservedFor ? ` · ${item.reservedFor}` : ''}` : 'Open';
+  const arrival = item.arrivalDate ? formatDateShort(item.arrivalDate) : '—';
   const vendor = item.vendor || '—';
-  const photoValue = Array.isArray(item.staffPhotos)&&item.staffPhotos.length ? item.staffPhotos.length + ' store' : 'Wiki/default';
+  const updated = item.lastUpdated ? formatDateTimeShort(item.lastUpdated) : '—';
+  const photoValue = Array.isArray(item.staffPhotos) && item.staffPhotos.length ? 'Store/custom' : 'Wiki/default';
+  const photoSrc = getPrimaryImageSource(item);
   const fields = [
     inventoryFieldCard(item, 'Price', item.price ? formatMoney(item.onSale&&item.salePrice?item.salePrice:item.price) : '—', typeof T==='function'?T('editPrice'):'Edit Price', `staffEditPrice('${item.id}')`, 'price'),
     inventoryFieldCard(item, 'Tank', item.tankCode || '—', typeof T==='function'?T('editTank'):'Edit Tank', `staffEditTank('${item.id}')`, 'tank'),
@@ -2878,73 +2919,19 @@ function inventoryCardTemplate(item){
     item.stockNumber ? `<span class="inventory-badge">Stock # ${item.stockNumber}</span>` : '',
     item.tankCode ? `<span class="inventory-badge">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode}</span>` : '',
     qty !== '—' ? `<span class="inventory-badge">Qty ${qty}</span>` : ''
-  ].filter(Boolean).join('');
-  const photoHint = Array.isArray(item.staffPhotos)&&item.staffPhotos.length ? 'Store photo' : (item.photoTitle || item.localPhoto ? 'Species photo' : 'Image loading');
-  return `<div class="inventory-card inventory-card-fullbg" data-card-photo="${item.id}"><div class="inventory-card-bg" data-photo="${item.id}"><div class="image-placeholder small">${photoHint}</div></div><div class="inventory-card-header"><div class="inventory-card-header-copy"><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div>${badges ? `<div class="inventory-card-badges">${badges}</div>` : ''}</div><span class="mini-pill inventory-status-pill">${inventoryStatusLabel(item)}</span></div><div class="inventory-kv inventory-kv-editable">${fields}</div><div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>${recentHistoryHtml(item)}<div class="inventory-actions"><button class="staff-action-btn edit" onclick="staffEditStaffNote('${item.id}')" style="background:rgba(140,120,255,.14);border-color:rgba(140,120,255,.28);color:#c7beff">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit" onclick="showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>${inventoryStatusActions(item)}</div></div>`;
+  ].join('');
+  return `<div class="inventory-card inventory-card-fullbg ${photoSrc ? 'has-photo' : 'no-photo'}" data-card-photo="${item.id}">
+    <img class="inventory-card-fullbg-image" ${photoSrc ? `src="${photoSrc}"` : ''} alt="${L(item,'name')}">
+    <div class="inventory-card-fullbg-overlay"></div>
+    <div class="inventory-card-photo-hint">${photoSrc ? '' : 'Photo loading'}</div>
+    <div class="inventory-card-header"><div class="inventory-card-header-copy"><div class="inventory-card-name">${L(item,'name')}</div><div class="inventory-card-meta">${inventoryCategoryLabel(item.category)} • ${item.scientific}</div>${badges ? `<div class="inventory-card-badges">${badges}</div>` : ''}</div><span class="mini-pill inventory-status-pill">${inventoryStatusLabel(item)}</span></div>
+    <div class="inventory-kv inventory-kv-editable">${fields}</div>
+    <div class="inventory-meta-row"><span>Updated: ${updated}</span>${item.lastAction ? `<span>Last action: ${item.lastAction}</span>` : ''}</div>
+    ${recentHistoryHtml(item)}
+    <div class="inventory-actions"><button class="staff-action-btn edit tone-note" onclick="staffEditStaffNote('${item.id}')">${typeof T==='function'?T('editStaffNote'):'Edit Staff Note'}</button><button class="staff-action-btn edit tone-sales" onclick="showSaleHistory('${item.id}')">Sale History</button>${inventoryStatusActions(item)}</div>
+  </div>`;
 }
 
-function populateInventoryCategoryFilter(){
-  const select = document.getElementById('inventoryCategoryFilter');
-  if(!select) return;
-  const current = select.value || 'all';
-  const categories = Array.from(new Set(FISH.map(item => item.category))).sort((a,b) => inventoryCategoryLabel(a).localeCompare(inventoryCategoryLabel(b)));
-  select.innerHTML = `<option value="all">All categories</option>${categories.map(cat => `<option value="${cat}">${inventoryCategoryLabel(cat)}</option>`).join('')}`;
-  select.value = categories.includes(current) ? current : 'all';
-}
-
-function setInventoryCategoryFilter(value){
-  const select = document.getElementById('inventoryCategoryFilter');
-  if(select) select.value = value;
-  renderInventoryManager();
-}
-function renderInventoryQuickFilters(items){
-  const root = document.getElementById('inventoryQuickFilters');
-  if(!root) return;
-  const current = document.getElementById('inventoryCategoryFilter')?.value || 'all';
-  const counts = new Map();
-  (items || FISH).forEach(item => counts.set(item.category, (counts.get(item.category) || 0) + 1));
-  const cats = Array.from(counts.entries()).sort((a,b) => inventoryCategoryLabel(a[0]).localeCompare(inventoryCategoryLabel(b[0])));
-  const buttons = [[ 'all', 'All categories', (items || FISH).length ], ...cats.map(([cat,count]) => [cat, inventoryCategoryLabel(cat), count])];
-  root.innerHTML = buttons.map(([value,label,count]) => `<button type="button" class="inventory-chip-filter${current === value ? ' is-active' : ''}" onclick='setInventoryCategoryFilter(${JSON.stringify(value)})'>${label}<span>${count}</span></button>`).join('');
-}
-
-function openFoodSettings(){
-  const overlay = document.getElementById('foodsOverlay');
-  if(!overlay) return;
-  overlay.classList.add('show');
-  renderFoodSettings();
-}
-function closeFoodSettings(){
-  const overlay = document.getElementById('foodsOverlay');
-  if(overlay) overlay.classList.remove('show');
-}
-
-function inventoryStatusLabel(item){
-  if(item.quarantine) return typeof T==='function' ? T('statusQuarantine') : 'Quarantine';
-  if(item.reserved) return 'Held';
-  if(item.inStock) return typeof T==='function' ? T('statusInStock') : 'In stock';
-  return typeof T==='function' ? T('statusOutOfStock') : 'Out of stock';
-}
-function hasMissingStoreData(item){
-  return !item.price || !item.tankCode || normalizeQuantityValue(item.quantity) === '' || !item.stockNumber || !(Array.isArray(item.staffPhotos) && item.staffPhotos.length);
-}
-function hasMissingSpeciesCoreData(item){
-  const requiredText = [item.scientific, cleanInfoText(L(item,'overview')), item.minTank, item.maxSize, cleanInfoText(L(item,'diet'))];
-  if(requiredText.some(v => !String(v || '').trim())) return true;
-  const gaugeFields = [item.aggression, item.coralRisk, item.invertRisk, item.careDifficulty];
-  return gaugeFields.some(v => typeof v !== 'number' || Number.isNaN(v));
-}
-function inventorySummary(items){
-  return {
-    entries: items.length,
-    liveCount: items.reduce((sum, item) => sum + availableQuantity(item), 0),
-    reserved: items.filter(item => item.reserved).length,
-    noPrice: items.filter(item => !item.price).length,
-    missingStorePhoto: items.filter(item => !(Array.isArray(item.staffPhotos) && item.staffPhotos.length)).length,
-    missingSpeciesCore: items.filter(item => hasMissingSpeciesCoreData(item)).length,
-    missingStoreSetup: items.filter(item => hasMissingStoreData(item)).length
-  };
-}
 function inventorySummaryTemplate(items){
   const summary = inventorySummary(items);
   const rollbackReady = items.filter(item => !!majorRollbackButtons(item)).length;
@@ -3021,7 +3008,7 @@ function closeInventoryManager(){
 
 function hydrateInventoryPhotos(items=[]){
   requestAnimationFrame(() => applyImagesToDOM());
-  const sample = (Array.isArray(items) ? items : []).slice(0, 36);
+  const sample = (Array.isArray(items) ? items : []).slice(0, 60);
   sample.forEach(item => {
     if(!item) return;
     fetchImageForFish(item).then(() => requestAnimationFrame(() => applyImagesToDOM())).catch(() => {});
@@ -3135,6 +3122,7 @@ function toggleLang(){
 window.addEventListener('resize', ()=>{ updateCategoryRailUI(); updateBundleRailUI(); syncDetailVideoLayer(); syncModalCloseButton(); syncModalCloseButtonPosition(); });
 window.addEventListener('orientationchange', ()=>setTimeout(syncModalCloseButtonPosition, 120), {passive:true});
 document.addEventListener('DOMContentLoaded', () => {
+  document.title = `Low Tide Corals & Aquatics — Fish Browser V${APP_VERSION}`;
   updateCategoryRailUI();
   [['inventoryOverlay', closeInventoryManager], ['foodsOverlay', closeFoodSettings], ['analyticsOverlay', closeAnalytics]].forEach(([id, handler]) => {
     const overlay = document.getElementById(id);

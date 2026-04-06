@@ -399,3 +399,71 @@
 - Added image-backed inventory cards to make fish easier to identify visually in staff mode.
 - Tightened inventory card density to fit more useful information on screen.
 - Verification: smoke test passed with 0 errors and the same 1 translation warning.
+
+## V0.081
+- Reverted desktop fish detail compatibility placement back to the simpler pre-V0.080 layout so the extra vertical stretch is gone.
+- Added a visible recent changes entry point in the top staff header.
+- Added clearer restore guidance for Remove (Loss) actions, including a dismissible helper popup with shortcuts.
+- Added fish thumbnails and stronger fish-photo visibility in inventory cards.
+- Fixed inventory status filter labeling so missing species data and missing store setup are separate concepts.
+- Added crossed-out original price + sale price row in fish detail header when a fish is on sale.
+- Kept animations deferred until after this workflow polish pass.
+
+
+## V0.082
+- Added a dedicated Recent Changes button in the main staff header so rollback is easier to reach without opening Inventory first.
+- Improved restock/price editing with a fish preview, recent sale prices, per-price apply buttons, and an Apply last known fish data shortcut for simple re-entry.
+- Added sale-history apply-price actions so staff can reuse a previous selling price instead of retyping it.
+- Added a small fish thumbnail to inventory cards and recent-change rows to make staff views more visual and easier for non-technical users to scan.
+- Added a dismissible restore-guidance popup after a full Remove (Loss) action with shortcuts to Recent Changes or the Out of stock view.
+- Kept Missing species data separate from Missing store data in filters so species fact review and store setup are not mixed together.
+- Added inline modal pricing near the fish name so sale/original price context is clearer in fish detail view.
+- Verification: smoke test passed with 0 errors and the same 1 translation warning.
+
+
+## V0.083
+- First subtle effects / microinteractions pass added on top of V0.082 while preserving the current workflow work.
+- Compatibility gauges now get a liquid-style reveal, gentle shimmer sweep, and soft marker settle animation on open.
+- Added restrained waterline/sheen motion to tabs, CTAs, staff buttons, active pills, inventory chips, and related controls so the interface feels more alive without going full gimmick.
+- Added ripple feedback to more interactive controls such as CTAs, staff actions, modal close, inventory chips, and helper buttons.
+- Added prefers-reduced-motion protection so the effects can quiet down automatically for users who request less motion.
+- Functional workflows were intentionally left alone in this pass so it can be reviewed as a style/effects layer first.
+- Verification: smoke test passed with 0 errors and the same 1 translation warning.
+
+
+## V0.084 — Staff visual pass + restore clarity + modal cleanup
+- Fish detail desktop layout adjusted so the left side is less empty by moving Quick Overview directly under the hero photo on desktop.
+- Detailed view headline now shows the inline sale/current pricing more clearly next to the fish name.
+- Inventory cards were made more visual with a proper fish-image hero area instead of relying on subtle gray blocks alone.
+- Remove (Loss) now throws an actionable toast with Undo Loss and Recent Changes shortcuts in addition to the guidance modal.
+- Restore guidance modal now includes fish media so it feels tied to the specific fish instead of generic text.
+- Recent Changes remains a top-level staff action and inventory history remains available from inside Inventory Manager.
+- Effects code from V0.083 remains in place, but this pass does not try to solve the subtle-motion visibility complaint yet; that will be revisited after workflow/UI issues are confirmed.
+- Smoke test: 0 errors, 1 existing translation warning.
+
+
+## V0.085
+- Fixed Inventory Manager card photo hydration so fish images now apply after the inventory grid renders.
+- Strengthened inventory-card image visibility with a more obvious photo hero/background treatment.
+- Kept this pass narrowly focused on the user-reported staff inventory card visual issue.
+
+## V0.087
+- Rebuilt Inventory Manager cards to use fish photos as the full card background instead of a small hero strip.
+- Added direct card-photo state syncing after inventory render/image hydration.
+- Added APP_VERSION-based title sync.
+- Resolved the long-running ES translation warning.
+- Removed the disabled 'Per-action rollback only' button when no rollback exists.
+
+
+## V0.088
+- Ran a full audit/cleanup/stabilization pass.
+- Treated V0.087 app code as the stable baseline and focused on package sanity rather than risky UI rewrites.
+- Consolidated docs into fewer, more useful summary/index files to reduce GitHub churn without losing continuity.
+- Smoke test passed with 0 errors, 0 warnings.
+
+## V0.089
+- Strengthened inventory-card photo rendering by giving each Inventory Manager card an explicit full-card background image element instead of relying only on CSS variable paint.
+- Re-synced card-photo hydration after inventory renders and after image fetches complete.
+- Strengthened the first-pass microinteractions so the gauges and button interactions are easier to notice without turning the UI into constant motion.
+- Added compact running-summary docs (current state, todo, done, issues/lessons) so fewer files can still preserve rationale, solved issues, and future direction.
+- Smoke test passed with 0 errors, 0 warnings.

@@ -298,6 +298,7 @@ const TRANSLATIONS = {
     veryLow: "Muy bajo", low: "Bajo", modScale: "Moderado", high: "Alto", veryHigh: "Muy alto", extreme: "Extremo",
     
     compareBar: "Comparar:", compareGo: "Comparar ahora", compareClear: "Borrar",
+    Sort: "Ordenar", Compare: "Comparar", Quarantine: "Cuarentena",
     compareTitle: "Comparación de Peces", compareClose: "Cerrar",
     scoreComparison: "Puntuaciones", details: "Detalles",
     reefSafety: "Seguridad Reef", aggression: "Agresión", careDifficulty: "Dificultad de Cuidado", invertRisk: "Riesgo Invertebrados",
