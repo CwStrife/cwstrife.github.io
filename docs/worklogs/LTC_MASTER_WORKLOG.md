@@ -371,3 +371,10 @@
 - Moved the floating fish-detail close button back under the fish overlay so it can stay visible/reachable on desktop.
 - Moved Compatibility gauges up into the desktop hero/right column to eliminate the dead gap under the name/stats block.
 - Left the working mobile popup scroll behavior intact.
+
+
+## V0.078
+- Desktop fish-detail hero cleanup.
+- Removed large right-side dead space by moving compatibility gauges out of the hero shell and starting them at the top of the right column.
+- Reframed the desktop top area into a photo card plus a unified header/stats cap.
+- Left mobile popup scroll behavior and top-right close behavior alone after the prior fixes.

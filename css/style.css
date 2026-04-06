@@ -3104,3 +3104,46 @@ body > #closeFishBtn.modal-close.floating-modal-close{
   }
   .modal-hero-shell{grid-template-columns:1fr;gap:10px;margin-bottom:10px;}
 }
+
+
+/* === V0.078 Desktop hero shape cleanup === */
+@media (min-width: 601px){
+  .modal-hero-shell.modal-hero-shell-desktop{
+    display:grid;
+    grid-template-columns:minmax(360px,520px) minmax(0,1fr);
+    gap:14px;
+    padding:0;
+    margin-bottom:18px;
+    border:none;
+    background:transparent;
+    box-shadow:none;
+  }
+  .modal-hero-shell.modal-hero-shell-desktop .modal-photo-card{
+    border-radius:30px;
+  }
+  .modal-hero-shell.modal-hero-shell-desktop .modal-hero-aside{
+    display:block;
+    min-width:0;
+  }
+  .modal-hero-cap{
+    padding:12px;
+    border-radius:30px;
+    border:1px solid rgba(200,232,255,.10);
+    background:linear-gradient(180deg, rgba(10,22,35,.92), rgba(7,15,24,.96));
+    box-shadow:var(--shadow-soft);
+    margin-left:-4px;
+  }
+  .modal-hero-cap .modal-headline-bar,
+  .modal-hero-cap .modal-stat{
+    box-shadow:none;
+  }
+  .modal-hero-cap .modal-hero-stats{
+    margin-top:12px;
+  }
+  .modal-layout.modal-layout-after-hero{
+    padding-top:0;
+  }
+  .modal-right .modal-hero-compat{
+    margin-top:0;
+  }
+}

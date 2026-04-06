@@ -1369,7 +1369,7 @@ function modalTemplate(item){
   const cautionWith = renderPillList(item.cautionWith);
   const foodSection = renderFoodSection(item);
   return `
-    <div class="modal-hero-shell">
+    <div class="modal-hero-shell modal-hero-shell-desktop">
       <div class="modal-photo-card modal-hero-media">
         <div class="modal-photo" data-detail-photo="${item.id}">
           <div class="image-placeholder">LTC</div><div class="skeleton-img"></div>
@@ -1385,14 +1385,15 @@ function modalTemplate(item){
         </div>
       </div>
       <div class="modal-hero-aside">
-        ${modalHeaderBar(item)}
-        <div class="price-band compact-stats modal-hero-stats">
-          <div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div>
-          <div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div>
-          <div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div>
-          <div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div>
+        <div class="modal-hero-cap">
+          ${modalHeaderBar(item)}
+          <div class="price-band compact-stats modal-hero-stats">
+            <div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div>
+            <div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div>
+            <div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div>
+            <div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div>
+          </div>
         </div>
-        <div class="modal-section ocean modal-hero-compat"><div class="section-title"><h3>Compatibility gauges</h3></div><div class="gauges">${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}</div></div>
       </div>
     </div>
     <div class="modal-layout modal-layout-after-hero">
@@ -1403,6 +1404,7 @@ function modalTemplate(item){
         ${factStack ? `<div class="modal-section plum"><div class="section-title"><h3>Quick facts</h3></div><div class="fact-stack">${factStack}</div></div>` : ''}
       </div>
       <div class="modal-right">
+        <div class="modal-section ocean modal-hero-compat"><div class="section-title"><h3>Compatibility gauges</h3></div><div class="gauges">${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}</div></div>
         <div class="two-col"><div class="modal-section seafoam"><div class="section-title"><h3>At-a-glance fit</h3></div><div class="pill-list"><span class="list-pill status-pill ${reefClass}">${reefText}</span><span class="list-pill status-pill ${careClass}">${careText}</span><span class="list-pill status-pill ${aggClass}">${aggText}</span><span class="list-pill status-pill ${invClass}">${invText}</span></div></div><div class="modal-section gold"><div class="section-title"><h3>Core specs</h3></div><div class="pill-list"><span class="list-pill">${typeof T==='function'?T('diet'):'Diet'}: ${safeText(L(item,'diet'))}</span>${originText ? `<span class="list-pill">${typeof T==='function'?T('origin'):'Origin'}: ${originText}</span>` : ''}${habitatText ? `<span class="list-pill">Habitat: ${habitatText}</span>` : ''}<span class="list-pill">In-store size: ${sizeText}${sizeInches}</span></div></div></div>
         <div class="modal-section plum"><div class="section-title"><h3>Longer reading</h3></div><div class="reading-stack">${behavior ? `<div class="reading-block"><strong>Behavior &amp; tank fit</strong><p>${behavior}</p></div>` : ''}${feeding ? `<div class="reading-block"><strong>Feeding &amp; natural habitat</strong><p>${feeding}</p></div>` : ''}${recognition ? `<div class="reading-block"><strong>Recognition &amp; ID</strong><p>${recognition}</p></div>` : ''}${buying ? `<div class="reading-block"><strong>Buying guidance</strong><p>${buying}</p></div>` : ''}</div></div>
         ${(bestWith || cautionWith) ? `<div class="two-col">${bestWith ? `<div class="modal-section seafoam"><div class="section-title"><h3>Works well with</h3></div><div class="pill-list">${bestWith}</div></div>` : ''}${cautionWith ? `<div class="modal-section gold"><div class="section-title"><h3>Use caution with</h3></div><div class="pill-list">${cautionWith}</div></div>` : ''}</div>` : ''}
