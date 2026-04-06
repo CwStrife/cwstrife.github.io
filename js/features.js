@@ -525,6 +525,10 @@ function showInputModal(title, desc, fields, callback){
   descEl.textContent = desc || '';
   _inputModalCallback = callback;
   _inputModalFields = fields;
+  const cancelBtn = document.getElementById('inputModalCancel');
+  const confirmBtn = document.getElementById('inputModalConfirm');
+  if(cancelBtn) cancelBtn.textContent = 'Cancel';
+  if(confirmBtn) confirmBtn.style.display = '';
   
   fieldsEl.innerHTML = fields.map((f, i) => {
     if(f.type === 'select'){
@@ -597,6 +601,10 @@ function confirmInputModal(){
 function closeInputModal(){
   const overlay = document.getElementById('inputModalOverlay');
   if(overlay) overlay.classList.remove('show');
+  const cancelBtn = document.getElementById('inputModalCancel');
+  const confirmBtn = document.getElementById('inputModalConfirm');
+  if(cancelBtn) cancelBtn.textContent = 'Cancel';
+  if(confirmBtn) confirmBtn.style.display = '';
   _inputModalCallback = null;
 }
 

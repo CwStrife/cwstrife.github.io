@@ -386,3 +386,16 @@
 - Added a Recent staff changes panel inside Inventory Manager with direct rollback buttons for Undo Sold / Undo Loss / Undo Quarantine / Undo Hold when available.
 - Added rollback-ready and recent-change counts to the inventory summary cards.
 - Verification: smoke test passed with 0 errors and the same 1 translation warning.
+
+
+
+## V0.080
+- Fixed the desktop fish-detail dead space by moving Compatibility gauges up directly under the desktop top stat row while keeping it a separate section.
+- Added a global Recent Changes overlay from Inventory Manager so sold/loss/quarantine/hold rollback is easier to reach even when a fish filters out of the current grid.
+- Added a Recent Changes status filter in Inventory Manager.
+- Reframed the summary cards so Missing Species Core Data now tracks species-information gaps instead of store-side setup fields.
+- Added a separate Missing Store Setup summary card for price/tank/qty/stock #/photo gaps.
+- Added sale history tracking on staff sell actions plus a per-fish Sale History popup.
+- Added image-backed inventory cards to make fish easier to identify visually in staff mode.
+- Tightened inventory card density to fit more useful information on screen.
+- Verification: smoke test passed with 0 errors and the same 1 translation warning.

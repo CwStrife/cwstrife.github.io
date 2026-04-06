@@ -62,3 +62,10 @@ Requested for later.
 - when the user taps/clicks the LTC logo, it should eventually go to the main LTC store homepage, not just back to the fish browser root
 - until the broader site exists, keep this as a documented future navigation requirement rather than forcing a placeholder route now
 - when the main site is ready, this should behave like going to the main LTC store landing page / homepage
+
+
+## Later catalog-quality note
+- re-review fish detail information later for double-verification and possible expansion
+- keep future entry-writing precise enough that store staff can trust the system without manually re-researching each fish
+- keep a later task to add more species entries as the catalog grows
+- keep staff workflows friendly for non-technical store staff; default to obvious labels, easy rollback, and low-clutter flows
