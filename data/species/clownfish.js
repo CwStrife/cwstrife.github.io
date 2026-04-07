@@ -25,16 +25,16 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "careDifficulty": 18,
     "role": "Classic starter fish and easy visual ID favorite",
     "visualCue": "Bright orange body with bold white bars and confident front-and-center swimming.",
-    "overview": "One of the best beginner marine fish and one of the easiest for first-time saltwater shoppers to recognize.",
+    "overview": "One of the best beginner marine fish and one of the easiest for first-time saltwater reef keepers to recognize.",
     "facts": [
       "Captive-bred clownfish are usually hardy, outgoing, and forgiving compared with many marine fish.",
       "They may become territorial around their chosen corner, coral, or host, especially as a pair matures.",
-      "Great fish for older customers too because the recognition level is high and the care story is simple."
+      "Great fish for older aquarists too because the recognition level is high and the care story is simple."
     ],
     "bestWith": [
       "Beginner reef tanks",
       "Mixed peaceful communities",
-      "Customers wanting a familiar fish"
+      "aquarists wanting a familiar fish"
     ],
     "cautionWith": [
       "Tiny tanks with many territorial fish",
@@ -60,7 +60,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Classic starter fish and easy visual ID favorite. Look for bright orange body with bold white bars and confident front-and-center swimming. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Bright orange body with three white bars outlined in black and the classic clownfish head-and-body shape most people recognize immediately.",
+    "behavior": "Once settled, ocellaris clownfish usually stay front-and-center and treat one corner, coral, or host as their home base. Pairs are rarely shy for long, but they do develop a real territory and may defend that patch with more persistence than their small size suggests.",
+    "feedingNotes": "Captive-bred ocellaris usually accept prepared foods quickly, from pellets to frozen meaty foods and algae-inclusive mixes. Consistency matters more than complexity here; they are often among the easiest marine fish to keep eating well.",
+    "buyingGuidance": "One of the safest marine recommendations for beginners when the aquarist understands pair territory and avoids mixing random clown species without a plan. Captive-bred fish are especially forgiving and are often the cleanest way to start a first reef."
   },
   {
     "id": "maroon-clown",
@@ -96,12 +100,12 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "bestWith": [
       "Medium to large tanks",
       "Bubble tip anemones",
-      "Owners who understand clownfish aggression"
+      "keepers who understand clownfish aggression"
     ],
     "cautionWith": [
       "Very small tanks",
       "Timid tankmates",
-      "Customers expecting Nemo behavior"
+      "aquarists expecting Nemo behavior"
     ],
     "staffNote": "Always clarify this is NOT the same as Nemo. These get big and mean.",
     "photoTitle": "Premnas biaculeatus",
@@ -121,7 +125,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Large bold clownfish with attitude. Look for deep maroon-red body with three white or gold bars. Females get large and territorial. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Deep maroon-red body with bold bars and a much heavier, stronger-looking clownfish build than the smaller common clown species.",
+    "behavior": "Large, bold clownfish that plants itself near a chosen host or cave and treats that zone as private property. Mature females in particular can become extremely assertive, which is why maroons feel very different from calmer ocellaris-type clownfish even when both are sold as “clowns.”",
+    "feedingNotes": "Usually easy to feed on prepared omnivore foods and frozen items, but feeding behavior often comes with attitude. Make sure tankmates can still get food around a fish that may charge first and ask questions later.",
+    "buyingGuidance": "Best for aquarists who specifically want the attitude and size of a maroon clown, not for someone expecting generic peaceful clownfish behavior. The color is fantastic, but the recommendation has to include territory, pair management, and the size of the adult female."
   },
   {
     "id": "clarkii-clown",
@@ -181,7 +189,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Hardy all-purpose clownfish that hosts in many anemone species. Look for dark body with white bars and bright yellow tail and fins. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Yellow to orange body tones with white bars and the sturdier more assertive look typical of Clarkii-group clownfish.",
+    "behavior": "Hardy, outgoing clownfish that often adapts quickly and takes over a chosen corner early. Clarkii types are more boisterous and more willing to range around the tank than ocellaris, but they still center their confidence around a defended home zone.",
+    "feedingNotes": "These fish usually eat with very little coaching and handle mixed prepared diets well. Their vigor is a strength, but it also means slower tankmates may need help getting equal access to food.",
+    "buyingGuidance": "Great when the aquarist wants a tough adaptable clownfish and has planned for more attitude than the gentler beginner varieties. The right conversation is about territory and compatibility, not whether the fish is “easy” in a vacuum."
   },
   {
     "id": "tomato-clown",
@@ -216,13 +228,13 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "bestWith": [
       "Medium reef tanks",
       "Bubble tip anemones",
-      "Owners wanting a bold colored clown"
+      "keepers wanting a bold colored clown"
     ],
     "cautionWith": [
       "Very small tanks with timid fish",
       "Multiple clownfish species in one tank"
     ],
-    "staffNote": "Hardy as a rock. Good for customers who want clownfish color but something different from Ocellaris.",
+    "staffNote": "Hardy as a rock. Good for aquarists who want clownfish color but something different from Ocellaris.",
     "photoTitle": "Amphiprion frenatus",
     "inStock": false,
     "badges": [],
@@ -240,7 +252,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "diet_es": "Omnívoro",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Bold red clownfish with high hardiness. Look for bright tomato red-orange body with a single white head bar. Females darken to near-black on the sides. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Warm red-orange body with a darker overall tone than ocellaris and a deeper-bodied, more forceful clownfish shape.",
+    "behavior": "Tomato clowns are territorial homebodies once settled, often staying close to a favored host, coral, or rock corner and defending it confidently. They read as charming from a distance and surprisingly forceful once they decide a patch belongs to them.",
+    "feedingNotes": "Prepared omnivore foods and frozen offerings are usually taken readily. The important part is not convincing them to eat, but planning around a fish that may become pushy at feeding time in smaller tanks.",
+    "buyingGuidance": "A good fit for reef keepers who like bolder clownfish and are not expecting every clown to behave like a peaceful community mascot. In smaller tanks, their territorial streak should be part of the decision from the beginning."
   },
   {
     "id": "percula-clown",
@@ -299,7 +315,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "diet_es": "Omnívoro",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "The original clownfish with bolder black outlines. Look for nearly identical to Ocellaris but with thicker black borders on the white bars and slightly smaller adult size. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Orange body with three white bars and typically heavier black edging than ocellaris, giving the fish a slightly richer and more graphic contrast.",
+    "behavior": "Perculas are classic territory-based clownfish that usually stay close to a chosen host area and then fan outward from it with growing confidence. They often look slightly more refined and deliberate in movement than ocellaris, but the same pair-and-territory logic still applies.",
+    "feedingNotes": "Captive-bred fish generally take prepared foods very well. A varied omnivore routine with pellets, frozen foods, and dependable feeding timing is usually enough to keep them in excellent condition.",
+    "buyingGuidance": "Excellent for reef keepers who want the iconic clownfish look and can keep the social plan simple. Perculas are a strong choice for peaceful mixed reefs, but still deserve the normal clownfish conversation about pairs, territory, and not mixing species casually."
   },
   {
     "id": "black-ocellaris",
@@ -334,7 +354,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     ],
     "bestWith": [
       "Any reef tank",
-      "Customers wanting something different from standard clownfish",
+      "aquarists wanting something different from standard clownfish",
       "Pairing with orange clownfish for contrast"
     ],
     "cautionWith": [
@@ -358,7 +378,11 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "diet_es": "Omnívoro",
     "origin_es": "Criado en cautiverio",
     "headerSummary": "Striking black variant of the classic clownfish. Look for jet black body with bright white bars. A dramatic twist on the classic orange clownfish look. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Dark chocolate-to-black body with the familiar ocellaris bar pattern, creating a much more dramatic high-contrast version of the classic clownfish look.",
+    "behavior": "Behavior matches ocellaris more than it differs: a confident pair will choose a home base, stay visible, and defend that area once settled. The darker color changes the look dramatically, but not the basic clownfish pattern of territory, pair structure, and front-of-tank confidence.",
+    "feedingNotes": "Captive-bred black ocellaris usually accept prepared foods eagerly and are maintained much like orange ocellaris. Stable routine matters more than trying to do anything exotic at feeding time.",
+    "buyingGuidance": "A strong pick for aquarists who want the familiar clownfish behavior in a more dramatic color form. Treat them like ocellaris from a husbandry standpoint, with the same normal caution about pairing and territory in smaller tanks."
   },
   {
     "id": "black-ice-clownfish",
@@ -418,8 +442,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Designer morph with black body and white markings. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Designer clown with irregular white barring, black edging, and enough orange left in the pattern to create the classic black-ice contrast."
   },
   {
     "id": "black-photon-clownfish",
@@ -479,8 +503,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Dark designer clown with wide white midband. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Designer ocellaris with heavier black coverage, irregular white barring, and a darker overall look than standard photon-style clownfish."
   },
   {
     "id": "black-storm-clownfish",
@@ -540,8 +564,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Nearly all-black designer clownfish. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Designer ocellaris with a high-contrast black-and-white storm pattern that often reads almost panda-like as it matures."
   },
   {
     "id": "cinnamon-clownfish",
@@ -601,8 +625,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Hardy dark clownfish with fiery red-orange coloring. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Rusty orange clown with a darker rear half and a stronger-bodied profile than the classic beginner clownfish species."
   },
   {
     "id": "clarkii-clownfish",
@@ -662,8 +686,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "The hardiest and most adaptable clownfish. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Bold clownfish with a yellow tail and variable white bars, usually looking larger and more assertive than ocellaris-types."
   },
   {
     "id": "davinci-clownfish",
@@ -723,8 +747,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Designer clown with abstract artistic white patterning. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Designer clown with stretched, curved white barring that looks hand-drawn compared with a standard straight-bar ocellaris."
   },
   {
     "id": "domino-clownfish",
@@ -784,8 +808,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Black and white designer clown with domino-like spots. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Dark designer clown with oversized white patching that stands out sharply against the black body."
   },
   {
     "id": "frostbite-clownfish",
@@ -845,8 +869,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Designer clownfish with extreme white coverage. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Designer clown with thick icy-white barring, dark edging, and a cool-toned face pattern that looks more marbled than a standard ocellaris."
   },
   {
     "id": "gladiator-clownfish",
@@ -906,8 +930,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Bold designer clown with thick white coverage. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Designer clown with dramatically broken white bars that often open up into jagged shield-like markings along the body."
   },
   {
     "id": "gold-stripe-maroon-clownfish",
@@ -963,12 +987,12 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Timid tankmates or crowded stocking plans",
       "Systems smaller than 30+ gal"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed.",
+    "staffNote": "Lead with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed.",
     "headerSummary": "Gold-barred maroon clown — large and aggressive. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Deep maroon clown with thick metallic-gold bars and the bulky build typical of maroon clownfish."
   },
   {
     "id": "lightning-maroon-clownfish",
@@ -1024,12 +1048,12 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Timid tankmates or crowded stocking plans",
       "Systems smaller than 30+ gal"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed.",
+    "staffNote": "Lead with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed.",
     "headerSummary": "Rare maroon clown with lightning bolt white pattern. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Heavy-bodied maroon clown with jagged lightning-like barring instead of the usual clean vertical bands."
   },
   {
     "id": "midnight-clownfish",
@@ -1089,8 +1113,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Solid black designer clownfish with no barring. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Nearly solid black clownfish with only the body shape and fins giving away its ocellaris roots at a glance."
   },
   {
     "id": "misbar-clownfish",
@@ -1150,8 +1174,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Natural variant with incomplete or missing bars. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Clownfish with one or more incomplete white bars, so the usual three-band clown pattern looks intentionally broken up."
   },
   {
     "id": "mocha-clownfish",
@@ -1211,8 +1235,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Warm chocolate-brown designer clownfish. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Designer clown with a warmer brown-orange base color and softer contrast than bright standard orange ocellaris forms."
   },
   {
     "id": "orange-skunk-clownfish",
@@ -1272,8 +1296,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Orange skunk clown with single dorsal stripe. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Slender orange clownfish with a clean white dorsal stripe instead of the usual full vertical clown bars."
   },
   {
     "id": "percula-clownfish",
@@ -1333,8 +1357,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "The true Percula — thicker black borders than Ocellaris. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Bright orange clownfish with crisp white bars edged in black and a slightly neater, higher-contrast look than common ocellaris."
   },
   {
     "id": "phantom-clownfish",
@@ -1394,8 +1418,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Smoky dark-orange designer with ghostly bars. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Dark designer clown with smoky black coverage and reduced orange, giving the fish a shadowed or ghosted appearance."
   },
   {
     "id": "picasso-clownfish",
@@ -1455,8 +1479,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Designer clownfish with abstract white patterning. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Designer percula with wildly distorted white bars and black edging, giving it the classic Picasso look collectors recognize immediately."
   },
   {
     "id": "pink-skunk-clownfish",
@@ -1516,8 +1540,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Gentle pink clownfish with a white dorsal stripe. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Pale peach-pink clownfish with a narrow white dorsal stripe and a gentler, slimmer skunk-clown profile."
   },
   {
     "id": "platinum-clownfish",
@@ -1577,8 +1601,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Completely white designer clownfish. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Mostly white designer percula with just enough dark edging and orange in the face or fins to show its clownfish shape."
   },
   {
     "id": "saddleback-clownfish",
@@ -1638,8 +1662,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Distinctive clownfish with a saddle-shaped white bar. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Clownfish with a broad white saddle-shaped mid-body band and a longer snout than the rounder ocellaris-type clowns."
   },
   {
     "id": "snowflake-clownfish",
@@ -1699,8 +1723,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Designer captive-bred clownfish with unique snowflake pattern. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Designer clown with exaggerated irregular white barring that breaks the neat three-bar clownfish pattern."
   },
   {
     "id": "snow-onyx-clownfish",
@@ -1760,8 +1784,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Black and white designer with expanded white coverage. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Designer clown with heavy snow-style white patterning layered over a dark onyx-style body, giving it a bold black-and-white look."
   },
   {
     "id": "wyoming-white-clownfish",
@@ -1821,8 +1845,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "White clownfish with orange face blush. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Almost all-white designer ocellaris with clean dark edging around the fins and very little orange left in the body."
   },
   {
     "id": "yellowtail-clownfish",
@@ -1894,8 +1918,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "The hardiest clownfish. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Bold clownfish with a yellow tail and variable white bars, usually looking larger and more assertive than ocellaris-types."
   },
   {
     "id": "skunk-clownfish",
@@ -1967,8 +1991,8 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Elegant peach-colored clownfish. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Slim skunk clown with a long white stripe running from face to tail and a cleaner, less blocky look than ocellaris types."
   },
   {
     "id": "bicinctus-clownfish",
@@ -2040,7 +2064,7 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "headerSummary": "Red Sea clownfish with golden-brown body. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Territory and pair behavior matter more than raw speed here; once settled, clownfish often adopt a specific corner or host area.",
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A strong beginner-to-intermediate sale when the buyer understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
-    "recognitionNotes": "Look for the compact clownfish body, bold band pattern, and host-focused behavior around rockwork or anemones."
+    "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
+    "recognitionNotes": "Warm orange-brown clownfish with two crisp body bars and a stronger yellow cast in the fins and tail."
   }
 ];

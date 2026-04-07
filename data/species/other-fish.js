@@ -27,7 +27,7 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "visualCue": "White front grading to purple and orange at the rear, with an elongated dorsal fin that flicks like a flag.",
     "overview": "A more colorful cousin of the common Firefish. The purple and orange gradient is stunning, and the dorsal fin flicking behavior is mesmerizing.",
     "facts": [
-      "More expensive than the common Red Firefish but worth it.",
+      "Usually priced above the common red firefish, but the added color and elegance often justify it for calm display reefs.",
       "Very shy — needs hiding spots and calm tankmates.",
       "The dorsal fin flicking behavior is distinctive."
     ],
@@ -59,7 +59,11 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Elegant hovering firefish with purple and orange coloration. Look for white front grading to purple and orange at the rear, with an elongated dorsal fin that flicks like a flag. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "White front half shifting into purple and orange toward the rear, with a tall dorsal streamer that flicks above the body like a small flag.",
+    "behavior": "Graceful hovering dartfish that hangs just above a chosen bolt-hole and snaps back to safety the instant it feels threatened. It is naturally more reserved than many beginner fish, so calm tankmates and multiple retreats make a bigger difference than the species’ small size suggests.",
+    "feedingNotes": "Small meaty foods, fine prepared foods, and a calm feeding window suit this fish well. The goal is not just that it eats, but that it can stay visible and feed without being intimidated into permanent hiding.",
+    "buyingGuidance": "A beautiful choice for peaceful reefs when the aquarist understands lids, bolt-holes, and shy-fish etiquette. The color is the headline, but the real success factors are cover, calm tankmates, and a tank that does not force the fish into survival mode."
   },
   {
     "id": "red-firefish",
@@ -89,7 +93,7 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "overview": "One of the most popular and affordable reef fish. The white-to-red gradient, hovering behavior, and dorsal fin flicking make it endlessly entertaining.",
     "facts": [
       "One of the best beginner reef fish available.",
-      "Very affordable — great entry-level purchase.",
+      "Usually one of the more approachable entry-level choices in the reef trade.",
       "Needs a lid — notorious jumper."
     ],
     "bestWith": [
@@ -102,7 +106,7 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
       "Aggressive fast-moving fish",
       "Already having a firefish — they fight with their own kind"
     ],
-    "staffNote": "The beginner reef fish. Cheap, pretty, easy, and always available.",
+    "staffNote": "The beginner reef fish. budget-friendly, pretty, easy, and always available.",
     "photoTitle": "Nemateleotris magnifica",
     "inStock": false,
     "badges": [],
@@ -120,7 +124,11 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Classic affordable firefish for any reef. Look for white body grading to red-orange at the tail, with a tall dorsal fin that flicks constantly. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "White front half fading into bright red-orange toward the tail, plus a tall dorsal fin that constantly flicks when the fish is settled.",
+    "behavior": "Classic hovering dartfish that holds in the water column just above a chosen crevice and then disappears instantly when alarmed. It adds elegant motion without aggression, but only when the tank is calm enough that the fish does not feel hunted all day.",
+    "feedingNotes": "Fine frozen and prepared meaty foods are usually taken well once the fish feels secure. Keep the routine gentle and predictable so the firefish can feed without being pushed off the water column by faster, rougher tankmates.",
+    "buyingGuidance": "Excellent for beginners when the aquarist has a lid and understands that peaceful does not mean fearless. The best setups give it bolt-holes, moderate flow, and tankmates that do not turn every movement into a startle response."
   },
   {
     "id": "chalk-bass",
@@ -150,7 +158,7 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "facts": [
       "One of the hardiest small marine fish available.",
       "Can keep multiple together if introduced simultaneously.",
-      "Very affordable — great for filling out a community."
+      "Usually a budget-friendly way to add movement and structure to a peaceful community."
     ],
     "bestWith": [
       "Beginner tanks",
@@ -160,7 +168,7 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "cautionWith": [
       "Adding new ones to an established group — introduce all at once"
     ],
-    "staffNote": "Extremely hardy, very cheap. The beginner safety net fish.",
+    "staffNote": "Extremely hardy and approachable, with a reputation for tolerating ordinary beginner mistakes better than many similarly sized fish.",
     "photoTitle": "Serranus tortugarum",
     "inStock": false,
     "badges": [],
@@ -178,7 +186,11 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Caribe",
     "headerSummary": "Hardy affordable basslet that can be kept in groups. Look for pale lavender-blue body with faint vertical bars and an orange-pink belly. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Soft lavender-blue body with faint bars and a warm belly glow, giving it a subtler but very polished Caribbean basslet look.",
+    "behavior": "Small Caribbean serranid that balances cave use with surprisingly open hovering once it feels safe. A group introduced together can add gentle mid-level motion without the nonstop nervousness some small schooling fish show in captivity.",
+    "feedingNotes": "Small meaty foods and quality prepared options are usually accepted readily. The main husbandry point is group management rather than food refusal, since established individuals can be far less welcoming to late additions than they are to fish they grew in with.",
+    "buyingGuidance": "Very good for reef keepers who want a hardy small fish with a little more substance than a basic chromis. They are especially appealing when introduced together as a planned small group instead of added one by one to test the hierarchy later."
   },
   {
     "id": "cockatoo-waspfish",
@@ -201,15 +213,15 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "aggression": 38,
     "coralRisk": 28,
     "invertRisk": 20,
-    "careDifficulty": 56,
-    "role": "Cryptic ambush fish kept for oddball appeal rather than nonstop swimming",
+    "careDifficulty": 68,
+    "role": "Venomous leaf-mimic waspfish for calm specialty predator tanks",
     "role_es": "",
-    "overview": "Cockatoo Waspfish is a cryptic oddball kept more for subtle ambush behavior than nonstop swimming. The catalog lists a minimum tank around 30+ gal. Adult size is listed around 5 in. Diet here is listed as Carnivore.",
+    "overview": "A strange little benthic scorpionfish that spends most of its time pretending to be drifting debris. The draw is the camouflage, crest-like dorsal fin, and slow ambush style—not open-water motion or constant activity.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 5 in.",
-      "Plan around roughly 30+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "A real waspfish with venomous dorsal spines, so it is a hands-off fish during moves and maintenance.",
+      "Usually rests on sand, rubble, or seagrass-like structure and becomes most interesting once the tank is calm enough for its camouflage to work.",
+      "Small shrimp and similarly sized fish are viewed as food, especially after lights dim."
     ],
     "photoTitle": "Cockatoo Waspfish",
     "inStock": false,
@@ -223,23 +235,24 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
       "temp_high": 80
     },
     "seasonal": null,
-    "careLabel": "Intermediate",
-    "visualCue": "Look for a cryptic outline, perching posture, and camouflage that breaks up the body shape.",
+    "careLabel": "Advanced",
+    "visualCue": "a crumpled leaf profile, cockatoo-like dorsal crest, and pectoral-fin \"walking\" posture over sand or rubble.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Quiet oddball predator setups",
+      "Sand or fine-rubble bottoms with shaded perches",
+      "Keepers comfortable managing venomous fish carefully"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous feeders that harass benthic fish",
+      "Tiny shrimp or fish that fit in its mouth",
+      "Careless netting or hand placement around a venomous species"
     ],
-    "staffNote": "",
-    "headerSummary": "Cryptic ambush fish kept for oddball appeal rather than nonstop swimming. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Often perches and waits instead of swimming constantly. Best appreciated by buyers who enjoy subtle behavior, not nonstop motion.",
-    "feedingNotes": "Needs meaty foods and often does better when target-fed in a calm low-competition setup.",
-    "recognitionNotes": "Look for the odd contour and stillness—this fish hides by looking like part of the scenery.",
-    "buyingGuidance": "Sell to buyers who appreciate unusual predatory fish and understand that cryptic behavior is the point, not a flaw."
+    "staffNote": "Specialty waspfish: amazing camouflage and crest, but it is venomous and meant for calm oddball systems.",
+    "headerSummary": "Venomous leaf-mimic waspfish for calm specialty predator tanks. Look for a crumpled leaf profile, cockatoo-like dorsal crest, and pectoral-fin \"walking\" posture over sand or rubble. Plan on at least 30+ gal.",
+    "behavior": "A bottom-perching ambush fish that often inches around with its pectoral fins and then freezes into a dead-leaf impression. It is mostly a twilight or nighttime hunter and is far more about subtle mimicry than showy daytime swimming.",
+    "feedingNotes": "Best on small meaty foods offered in a calm setup where faster fish do not steal every bite. Once settled it usually does well on shrimp- and crustacean-based offerings, but the feeding plan should respect its slow deliberate style.",
+    "recognitionNotes": "The body looks like a crumpled leaf with a cockatoo crest running down the back, and the fish often \"walks\" rather than swims in the usual reef-fish way.",
+    "buyingGuidance": "Recommend it only to aquarists who specifically want a venomous oddball predator and understand that stillness is normal. The right home has soft bottom space, calm tankmates, and an owner who treats every move or transfer carefully."
   },
   {
     "id": "leaf-fish",
@@ -262,15 +275,15 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "aggression": 38,
     "coralRisk": 28,
     "invertRisk": 20,
-    "careDifficulty": 56,
-    "role": "Cryptic ambush fish kept for oddball appeal rather than nonstop swimming",
+    "careDifficulty": 72,
+    "role": "Venomous leaf scorpionfish that drifts and ambushes from cover",
     "role_es": "",
-    "overview": "Leaf Fish is a cryptic oddball kept more for subtle ambush behavior than nonstop swimming. The catalog lists a minimum tank around 30+ gal. Adult size is listed around 4 in. Diet here is listed as Carnivore.",
+    "overview": "One of the most convincing camouflage fish in the hobby. This species rocks in the flow like a loose leaf, molts periodically, and then explodes forward only when a shrimp or small fish wanders too close.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 4 in.",
-      "Plan around roughly 30+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Also called the Leaf Scorpionfish or Paperfish, and it is mildly venomous even though it is not in the same class as a stonefish.",
+      "Known for leaf-like drifting behavior and periodic molts that can be followed by noticeable color change.",
+      "Needs tankmates chosen by prey size first and temperament second."
     ],
     "photoTitle": "Leaf Fish",
     "inStock": false,
@@ -284,23 +297,24 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
       "temp_high": 80
     },
     "seasonal": null,
-    "careLabel": "Intermediate",
-    "visualCue": "Look for a cryptic outline, perching posture, and camouflage that breaks up the body shape.",
+    "careLabel": "Advanced",
+    "visualCue": "a paper-thin leaf shape, sail-like dorsal fin, and rocking drift that mimics a dead leaf in current.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Quiet species-focused oddball tanks",
+      "Low-competition predator systems with target feeding",
+      "Keepers who value camouflage behavior over constant visibility"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Cleaner shrimp, tiny fish, or anything swallowable",
+      "Rough active tankmates that keep it pinned in hiding",
+      "Hands-on handling of a venomous scorpionfish"
     ],
-    "staffNote": "",
-    "headerSummary": "Cryptic ambush fish kept for oddball appeal rather than nonstop swimming. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Mostly still, cryptic, and waiting. It rewards close observation rather than high-energy display behavior.",
-    "feedingNotes": "Feed carefully with meaty foods and avoid tankmates that outcompete or stress it away from meals.",
-    "recognitionNotes": "Leaf shape, slow drifting posture, and incredible camouflage are the whole appeal.",
-    "buyingGuidance": "Best sold to advanced buyers building around unusual behavior, not around color or speed."
+    "staffNote": "This is the drifting leaf scorpionfish—not a community fish and not a fish to handle casually.",
+    "headerSummary": "Venomous leaf scorpionfish that drifts and ambushes from cover. Look for a paper-thin leaf shape, sail-like dorsal fin, and rocking drift that mimics a dead leaf in current. Plan on at least 30+ gal.",
+    "behavior": "It often sways with the current and uses that motion as part of the disguise, then ambushes prey with a fast vacuum-style strike. Most of the time it looks motionless or detached from the scene, which is exactly what makes the species special.",
+    "feedingNotes": "Small meaty foods offered by target feeding are the safest route, especially during acclimation. Once feeding is established, the goal is consistency and low competition rather than overfeeding a fish that spends long stretches sitting still.",
+    "recognitionNotes": "The whole fish looks like a torn leaf or scrap of algae, complete with a tall sail-like dorsal fin and a side-to-side drifting posture.",
+    "buyingGuidance": "Best for aquarists building around one unusual venomous predator rather than filling a mixed reef with novelty fish. Success depends on respecting its feeding style, prey risk, and need for a peaceful stage where camouflage can work."
   },
   {
     "id": "aiptasia-eating-filefish",
@@ -324,14 +338,14 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Unusual display fish whose feeding behavior and compatibility need to be discussed first",
+    "role": "Practical Aiptasia-control filefish whose coral risk must be explained honestly",
     "role_es": "",
-    "overview": "Aiptasia Eating Filefish is an unusual display fish whose feeding habits and compatibility should be discussed honestly. The catalog lists a minimum tank around 30+ gal. Adult size is listed around 5 in. Diet here is listed as Omnivore.",
+    "overview": "A genuinely useful specialty fish when a reef keeper is battling Aiptasia, but it should never be sold as a guaranteed reef-safe miracle. It is still a true filefish with coral-sampling risk and a real long-term feeding routine of its own.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 5 in.",
-      "Plan around roughly 30+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore."
+      "Known to eat Aiptasia in many home aquariums, but individual fish vary and some never become dependable pest hunters.",
+      "Can also nip soft corals and stony corals, so it is a calculated tradeoff rather than a free solution.",
+      "Usually does best when fed small meaty and algae-inclusive foods more than once per day."
     ],
     "photoTitle": "Aiptasia Eating Filefish",
     "inStock": false,
@@ -346,22 +360,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a laterally compressed body, pointed snout, and deliberate stop-start swimming.",
+    "visualCue": "a mottled brown-green filefish body, pointed snout, and slow stop-start picking behavior around rockwork.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Mature tanks where Aiptasia control is actually needed",
+      "FOWLR systems or reefs where some coral risk is acceptable",
+      "Keepers willing to confirm prepared-food response after the pest issue is gone"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "High-end coral collector tanks expecting zero nipping",
+      "Impulse purchases based only on the word \"Aiptasia\"",
+      "Tiny ornamental inverts or timid fish during a rough acclimation period"
     ],
-    "staffNote": "",
-    "headerSummary": "Unusual display fish whose feeding behavior and compatibility need to be discussed first. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Usually calm and methodical, often picking around rockwork and problem areas.",
-    "feedingNotes": "Even if it helps with Aiptasia, it still needs a dependable prepared-food routine for long-term success.",
-    "recognitionNotes": "The pointed snout and slow deliberate picking behavior are the telltale signs.",
-    "buyingGuidance": "A good sale when the buyer understands it is a useful pest-control tool, not a guaranteed coral-neutral miracle worker."
+    "staffNote": "Great utility fish in the right system, but always explain that \"eats Aiptasia\" does not mean \"reef-safe forever.\"",
+    "headerSummary": "Practical Aiptasia-control filefish whose coral risk must be explained honestly. Look for a mottled brown-green filefish body, pointed snout, and slow stop-start picking behavior around rockwork. Plan on at least 30+ gal.",
+    "behavior": "A calm, deliberate browser that inspects rock, glass, and problem spots with short careful pecks. It is rarely a bully, but it is also not just a cleanup robot—once settled, it behaves like a thoughtful little grazer and sampler.",
+    "feedingNotes": "Prepared meaty foods, mysis, finely chopped seafood, and some algae content help keep it from becoming a one-trick fish. Even when it is eating pest anemones, long-term success is better when the fish already recognizes routine prepared foods.",
+    "recognitionNotes": "The mottled seagrass-like camouflage, pointed snout, and slow investigative pecking style separate it from showier ornamental filefish.",
+    "buyingGuidance": "Excellent when the aquarist understands the real bargain: possible Aiptasia control in exchange for some coral risk and a filefish-style feeding plan. Weak choice for anyone trying to buy a cure without thinking about what the fish will eat and do six months later."
   },
   {
     "id": "comet",
@@ -385,14 +400,14 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Shy cave-oriented oddball with elegant finnage and slow, deliberate movement",
+    "role": "Shy cave-dwelling show fish with a starry pattern and false moray eyespot",
     "role_es": "",
-    "overview": "Comet is a shy cave-oriented display fish that usually becomes more visible once it feels secure. The catalog lists a minimum tank around 55+ gal. Adult size is listed around 8 in. Diet here is listed as Carnivore.",
+    "overview": "The Comet is one of the most elegant oddball reef predators in the trade. It spends its first weeks acting like a cave ghost, then gradually becomes a dusk-and-feeding-time favorite once it trusts the tank.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 8 in.",
-      "Plan around roughly 55+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Same species as the Marine Betta and famous for the false-head pattern that mimics a moray-looking face when viewed from behind.",
+      "Usually hardy once feeding is established, but naturally shy and crevice-oriented.",
+      "Generally safe with corals but not with tiny fish or ornamental shrimp."
     ],
     "photoTitle": "Comet",
     "inStock": false,
@@ -407,22 +422,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a dark cave fish with long finnage and bold ocellus-style markings.",
+    "visualCue": "a black body sprinkled with white spots, long trailing fins, and a large false eye near the tail.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Peaceful larger reef or fish-only communities",
+      "Dim caves and overhangs",
+      "Keepers patient enough to let a shy fish settle at its own pace"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Tiny fish, sexy shrimp, or small ornamental crustaceans",
+      "Hyperactive bullies that keep it hidden full time",
+      "Expecting a nonstop daylight center-stage fish immediately"
     ],
-    "staffNote": "",
-    "headerSummary": "Shy cave-oriented oddball with elegant finnage and slow, deliberate movement. Plan on roughly 55+ gal or larger long term.",
-    "behavior": "Shy at first and often crepuscular, becoming more visible once secure caves and routine feeding are established.",
-    "feedingNotes": "Feed meaty carnivore foods and give it protected feeding opportunities if tankmates are fast or aggressive.",
-    "recognitionNotes": "The starry pattern and false eyespot are unmistakable once you know where to look.",
-    "buyingGuidance": "A strong sale for buyers who value subtle, elegant display fish and understand that it may not sit front and center on day one."
+    "staffNote": "Same fish as the Marine Betta listing—sell it as a cave-loving elegant predator, not as a flashy beginner fish.",
+    "headerSummary": "Shy cave-dwelling show fish with a starry pattern and false moray eyespot. Look for a black body sprinkled with white spots, long trailing fins, and a large false eye near the tail. Plan on at least 55+ gal.",
+    "behavior": "This fish spends a lot of time facing head-down or tucked into rockwork, especially early on. Once settled, it often becomes a graceful dusk hunter and a very dependable feeder, but it almost always earns visibility rather than giving it on day one.",
+    "feedingNotes": "Start with meaty foods offered near its shelter and make sure faster fish do not take every bite. Many specimens transition well once they realize the tank is predictable, but the first goal is building confidence rather than showing off at the surface.",
+    "recognitionNotes": "The white-speckled black body and large ocellus on the rear dorsal area create the famous \"false face\" that makes this fish look larger and harder to attack.",
+    "buyingGuidance": "A great specialty choice for aquarists who appreciate subtle behavior and are willing to stock around a shy predator. Weak fit for impatient buyers who think a cave fish acting like a cave fish means something is wrong."
   },
   {
     "id": "marine-betta",
@@ -446,14 +462,14 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "coralRisk": 5,
     "invertRisk": 25,
     "careDifficulty": 40,
-    "role": "Shy cave-oriented oddball with elegant finnage and slow, deliberate movement",
+    "role": "Iconic nocturnal cave predator with eel-mimic eyespot display",
     "role_es": "",
-    "overview": "Dramatic black body covered in white spots with a false eyespot on the rear dorsal fin mimicking a moray eel. Shy predator.",
+    "overview": "The Marine Betta is one of the classic \"advanced-looking but actually workable\" oddball fish, provided the owner understands its shy cave-dwelling nature. It is hardy once feeding and shelter are sorted out, but it is still a predator that should not be stocked around tiny tankmates.",
     "overview_es": "Cuerpo negro dramático cubierto de puntos blancos con un falso ojo en la aleta dorsal imitando una morena.",
     "facts": [
-      "Adult size in this catalog is listed around 8 in.",
-      "Plan around roughly 55+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "This is the same species sold as the Comet, Calloplesiops altivelis.",
+      "Naturally crevice-oriented, often more active at dusk, and famous for the moray-mimic patterning.",
+      "Often reef-safe around corals and anemones, but not around bite-sized fish or shrimp."
     ],
     "photoTitle": "Calloplesiops_altivelis",
     "inStock": false,
@@ -468,23 +484,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a dark cave fish with long finnage and bold ocellus-style markings.",
+    "visualCue": "long dark fins, white star-like spotting, and a dramatic rear eyespot that reads like a second head.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Reef-safe community plans with compatible tankmates",
-      "Peaceful to semi-peaceful community livestock"
+      "Peaceful medium-to-large reefs with good cave structure",
+      "Aquarists who appreciate dusk behavior and patient acclimation",
+      "Tankmates too large to be mistaken for prey"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Shrimp, snails, crabs, or other ornamental invertebrates",
-      "Systems smaller than 55+ gal"
+      "Tiny gobies, firefish, or ornamental shrimp",
+      "Blazing-bright minimalist tanks with no retreat options",
+      "Fish that harass every new addition"
     ],
-    "staffNote": "",
-    "headerSummary": "Shy cave-oriented oddball with elegant finnage and slow, deliberate movement. Plan on roughly 55+ gal or larger long term.",
-    "behavior": "Often shy at first and much more visible at dusk or after the tank has quieted down.",
-    "feedingNotes": "Meaty foods offered in a calm low-competition setting are usually the easiest path to a reliable routine. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "A strong specialty sale for patient hobbyists who appreciate shy, elegant fish and are not expecting instant daytime center-stage behavior.",
-    "recognitionNotes": "Look for the long dark fins and false eyespot pattern that make the fish look larger and harder to approach."
+    "staffNote": "Hardier than it looks once settled, but it still needs caves, patience, and realistic prey-size compatibility.",
+    "headerSummary": "Iconic nocturnal cave predator with eel-mimic eyespot display. Look for long dark fins, white star-like spotting, and a dramatic rear eyespot that reads like a second head. Plan on at least 55+ gal.",
+    "behavior": "It often hangs upside-down or head-down in rockwork, then glides out with surprising confidence once the lights soften or food appears. The species is not frantic or flashy; its value is in the combination of poise, pattern, and predatory intelligence.",
+    "feedingNotes": "Meaty foods offered in a calm feeding window are ideal, and many new arrivals do best when the first meals are staged near cover. Once acclimated, most eat reliably, but early success depends on privacy and freedom from aggressive competition.",
+    "buyingGuidance": "Excellent for hobbyists who want a dramatic specialty fish without jumping into truly impossible care. The key is to stock around its prey limit and shy nature rather than around the hope that it will behave like a bold midwater fish.",
+    "recognitionNotes": "Black velvet look, white spots, and the oversized rear ocellus create one of the most recognizable predator disguises in the marine hobby."
   },
   {
     "id": "matted-filefish",
@@ -508,14 +524,14 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Unusual display fish whose feeding behavior and compatibility need to be discussed first",
+    "role": "Camouflaged bristle-tail filefish for oddball reefs and careful fish-only systems",
     "role_es": "",
-    "overview": "Matted Filefish is an unusual display fish whose feeding habits and compatibility should be discussed honestly. The catalog lists a minimum tank around 30+ gal. Adult size is listed around 5 in. Diet here is listed as Omnivore.",
+    "overview": "The same species commonly sold as the Aiptasia Eating Filefish, but worth understanding as an oddball filefish in its own right. It blends into rock and macroalgae well, has plenty of personality, and still needs honest discussion about nipping and feeding.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 5 in.",
-      "Plan around roughly 30+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore."
+      "This is Acreichthys tomentosus, the same species often marketed around Aiptasia control.",
+      "Color, pattern, and body texture shift with mood and surroundings, which is part of the appeal.",
+      "Usually shy at first but becomes an engaging deliberate browser once eating well."
     ],
     "photoTitle": "Matted Filefish",
     "inStock": false,
@@ -530,22 +546,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a laterally compressed body, pointed snout, and deliberate stop-start swimming.",
+    "visualCue": "a rough-textured mottled body, pointed snout, and a cautious stop-start cruising style.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Oddball reef or FOWLR systems",
+      "Calm communities without filefish-harassing bullies",
+      "Keepers who enjoy subtle behavior more than nonstop flashing color"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Prize coral collections where sampling is unacceptable",
+      "Very aggressive tankmates",
+      "Buying one without confirming a prepared-food routine"
     ],
-    "staffNote": "",
-    "headerSummary": "Unusual display fish whose feeding behavior and compatibility need to be discussed first. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Many filefish move in short deliberate bursts and can seem thoughtful or cautious rather than busy.",
-    "feedingNotes": "Confirm what the individual is actually eating before the sale and support that routine at home rather than assuming any filefish takes anything. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "The right sale here is less about novelty and more about honest feeding history plus realistic compatibility expectations.",
-    "recognitionNotes": "Look for the pointed snout and stop-start body posture that give filefish a distinctive silhouette."
+    "staffNote": "Same fish as the Aiptasia utility filefish, but this listing should be sold as an oddball filefish first and a possible pest helper second.",
+    "headerSummary": "Camouflaged bristle-tail filefish for oddball reefs and careful fish-only systems. Look for a rough-textured mottled body, pointed snout, and a cautious stop-start cruising style. Plan on at least 30+ gal.",
+    "behavior": "It spends much of the day making short deliberate passes over rock and structure, pausing to inspect surfaces the way many filefish do. Once secure it has a lot of character, but it still behaves more like a cautious browser than a bold community show fish.",
+    "feedingNotes": "Offer a varied omnivore routine with fine meaty foods plus some algae content, and keep the feeding cadence regular. This species usually rewards consistency more than spectacle; a fish that eats steadily is far more valuable than one sold only for a single job.",
+    "buyingGuidance": "A good specialty pick for hobbyists who like camouflaged oddballs and understand that filefish do their own thing. Sell it for personality and browsing behavior, not just as a promise that it will solve a nuisance-anemone problem.",
+    "recognitionNotes": "The body looks rough, mossy, and slightly unkempt compared with smoother filefish, with a pointed snout and hesitant stop-start movement."
   },
   {
     "id": "orange-spotted-filefish",
@@ -568,15 +585,15 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "aggression": 38,
     "coralRisk": 28,
     "invertRisk": 20,
-    "careDifficulty": 42,
-    "role": "Unusual display fish whose feeding behavior and compatibility need to be discussed first",
+    "careDifficulty": 92,
+    "role": "Expert-only corallivore whose beauty is tied to live-coral feeding needs",
     "role_es": "",
-    "overview": "Orange Spotted Filefish is an unusual display fish whose feeding habits and compatibility should be discussed honestly. The catalog lists a minimum tank around 50+ gal. Adult size is listed around 5 in. Diet here is listed as Corallivore / specialist feeder.",
+    "overview": "One of the most beautiful filefish in the trade and one of the easiest to mis-sell. This species is a true coral specialist that naturally keys in on branching Acropora, so the right home is built around feeding and habitat first, not around the hope that good intentions will overcome biology.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 5 in.",
-      "Plan around roughly 50+ gal or larger for long-term care.",
-      "Diet in this catalog: Corallivore / specialist feeder."
+      "Famously difficult because it is an obligate or near-obligate corallivore in nature, especially associated with branching Acropora.",
+      "Often seen in pairs in the wild and does best only in very calm, expert-managed systems.",
+      "Many specimens fail in standard mixed reefs simply because the tank does not provide the right food base or enough peace at feeding time."
     ],
     "photoTitle": "Orange Spotted Filefish",
     "inStock": false,
@@ -590,23 +607,24 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
       "temp_high": 80
     },
     "seasonal": null,
-    "careLabel": "Intermediate",
-    "visualCue": "Look for a laterally compressed body, pointed snout, and deliberate stop-start swimming.",
+    "careLabel": "Specialist",
+    "visualCue": "a turquoise body covered in orange spots, long pointed snout, and tiny hovering pecks at coral branches.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Expert coral-rich systems built with this species in mind",
+      "Very passive tankmates or species-focused displays",
+      "Keepers already prepared to support specialty feeding from day one"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Impulse buys based only on color",
+      "Typical mixed reefs without live coral support or a proven feeding plan",
+      "Aggressive feeders that outcompete delicate specialists"
     ],
-    "staffNote": "",
-    "headerSummary": "Unusual display fish whose feeding behavior and compatibility need to be discussed first. Plan on roughly 50+ gal or larger long term.",
-    "behavior": "Usually calm and deliberate, often working coral surfaces and structure rather than swimming openly.",
-    "feedingNotes": "This is a specialty feeder and should only be sold when the buyer already knows how they will support it long term.",
-    "recognitionNotes": "Long snout, orange spots, and bright blue-green patterning make it instantly different from the utility filefish.",
-    "buyingGuidance": "A classic expert-only sale. Beauty alone is not a reason to take this fish home."
+    "staffNote": "This is a true expert fish. Beauty is not the hard part—feeding and system design are.",
+    "headerSummary": "Expert-only corallivore whose beauty is tied to live-coral feeding needs. Look for a turquoise body covered in orange spots, long pointed snout, and tiny hovering pecks at coral branches. Plan on at least 50+ gal.",
+    "behavior": "A delicate daytime picker that works coral branches with quick precise bites and stays calmer in quiet, structured environments than in busy community tanks. It is not a bold utility filefish and should be treated as a specialist from the first conversation.",
+    "feedingNotes": "The core issue is long-term dietary support, not just whether the fish takes a bite of frozen food once. Success generally depends on live-coral access, extremely careful conditioning, or both, and many standard tanks simply do not meet that bar.",
+    "recognitionNotes": "Turquoise-blue base color, neat orange spotting, and a long narrow snout built for precise coral picking make it instantly recognizable.",
+    "buyingGuidance": "Recommend only when the aquarist already understands why this species has a hard reputation and can explain how they will feed it long term. It is a wonderful expert project and a terrible impulse purchase."
   },
   {
     "id": "sargassum-angler",
@@ -630,14 +648,14 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Ambush predator with specialist feeding and strong tankmate limitations",
+    "role": "Floating-weed frogfish that still treats tankmates as food",
     "role_es": "",
-    "overview": "Sargassum Angler is a specialist ambush predator with serious tankmate and feeding limitations. The catalog lists a minimum tank around 30+ gal. Adult size is listed around 8 in. Diet here is listed as Carnivore.",
+    "overview": "Unlike the more bottom-bound frogfish, the Sargassum Angler is adapted to life in floating weed mats and often shows a slightly more active, climbing style. That does not make it a community fish: it is still a dedicated ambush predator with severe tankmate limits.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 8 in.",
-      "Plan around roughly 30+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Naturally associated with floating Sargassum and built for camouflage among weed and debris.",
+      "Will swallow surprisingly large prey for its size and should never be trusted with bite-sized tankmates.",
+      "Oddball value is high, but feeding history and system design matter more than color or rarity."
     ],
     "photoTitle": "Sargassum Angler",
     "inStock": false,
@@ -652,22 +670,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a chunky ambush body with a huge mouth and a tendency to sit still between lunges.",
+    "visualCue": "a frogfish body with filamented camouflage, lure-bearing head, and a habit of hanging or clambering rather than free-cruising.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Species-focused or carefully planned oddball predator tanks",
+      "Low-flow setups with secure intake protection and easy target feeding",
+      "Keepers specifically shopping for angler behavior"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Any fish or shrimp small enough to be tested as prey",
+      "Busy community tanks",
+      "Buying one without a realistic feeding plan and backup strategy"
     ],
-    "staffNote": "",
-    "headerSummary": "Ambush predator with specialist feeding and strong tankmate limitations. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Mostly still until it strikes. This is a wait-and-lunge predator, not an active display swimmer.",
-    "feedingNotes": "Needs a meaty carnivore routine and careful compatibility planning so tankmates do not become meals.",
-    "recognitionNotes": "The lure and body shape give it away once you know to look for an anglerfish silhouette.",
-    "buyingGuidance": "Sell to oddball keepers who specifically want angler behavior and understand the prey risk."
+    "staffNote": "Cooler than most people expect, but still an angler—sell it around prey risk and feeding, not around novelty alone.",
+    "headerSummary": "Floating-weed frogfish that still treats tankmates as food. Look for a frogfish body with filamented camouflage, lure-bearing head, and a habit of hanging or clambering rather than free-cruising. Plan on at least 30+ gal.",
+    "behavior": "It spends long stretches perched or suspended, then lunges explosively at food with very little warning. Compared with many frogfish it can appear more mobile and exploratory, but every movement still revolves around camouflage, position, and strike opportunity.",
+    "feedingNotes": "Best with deliberate meaty feeding in a low-competition environment where every meal can be observed. The aquarist should know exactly what it is eating before purchase and should expect to keep prey-sized livestock out of the equation entirely.",
+    "recognitionNotes": "Frogfish silhouette, obvious lure, and weed-like tassels make it look like a chunk of floating sargassum until the mouth opens.",
+    "buyingGuidance": "Recommend only to people who truly want an anglerfish project. The right owner understands that a fish this weird earns its place by behavior and form, not by fitting into an ordinary mixed display."
   },
   {
     "id": "tassled-filefish",
@@ -691,14 +710,14 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Unusual display fish whose feeding behavior and compatibility need to be discussed first",
+    "role": "Large tasselled filefish with heavy camouflage and cautious reef compatibility",
     "role_es": "",
-    "overview": "Tassled Filefish is an unusual display fish whose feeding habits and compatibility should be discussed honestly. The catalog lists a minimum tank around 75+ gal. Adult size is listed around 12 in. Diet here is listed as Omnivore.",
+    "overview": "A striking large filefish that looks half fish and half drifting algae. It is calmer than many similarly sized oddballs, but its size, browsing habit, and occasional interest in sessile invertebrates make it a fish for thoughtful system planning rather than impulse reef stocking.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 12 in.",
-      "Plan around roughly 75+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore."
+      "Gets much larger than the small utility filefish most hobbyists are familiar with.",
+      "Feeds on a mix of algae and small invertebrates in nature, which helps explain why reef compatibility is always a little conditional.",
+      "Its tasselled skin and translucent fins are part of a serious camouflage package, not just decoration."
     ],
     "photoTitle": "Tassled Filefish",
     "inStock": false,
@@ -713,22 +732,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a laterally compressed body, pointed snout, and deliberate stop-start swimming.",
+    "visualCue": "shaggy tassel-like appendages, a tall compressed body, and a slow deliberate filefish cruise.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Larger fish-only or cautious mixed setups",
+      "Aquarists who like oddball filefish and have room for adult size",
+      "Tankmates that will not chew or harass its appendages"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Triggers, puffers, or other nippy tankmates",
+      "Fragile coral/invert displays expecting zero browsing",
+      "Small cramped tanks that reduce it to a novelty centerpiece"
     ],
-    "staffNote": "",
-    "headerSummary": "Unusual display fish whose feeding behavior and compatibility need to be discussed first. Plan on roughly 75+ gal or larger long term.",
-    "behavior": "Usually calm and oddball rather than fast or aggressive, but can still make a reef keeper nervous if it starts tasting corals.",
-    "feedingNotes": "Feed a varied omnivore routine with both meaty and plant-inclusive prepared foods.",
-    "recognitionNotes": "The fuzzy tassel-like body surface makes it stand out immediately.",
-    "buyingGuidance": "Best sold to buyers who want an unusual fish and are realistic about reef risk rather than assuming total coral safety."
+    "staffNote": "Beautiful big filefish with serious camouflage appeal. Better sold as a large oddball show fish than as a reef-safe experiment.",
+    "headerSummary": "Large tasselled filefish with heavy camouflage and cautious reef compatibility. Look for shaggy tassel-like appendages, a tall compressed body, and a slow deliberate filefish cruise. Plan on at least 75+ gal.",
+    "behavior": "Usually calm and observant, making measured passes around the tank instead of dashing nonstop. It uses its body texture and slow motion as camouflage, and that odd combination of size plus gentleness is a big part of the species’ charm.",
+    "feedingNotes": "A varied omnivore routine with algae-inclusive foods plus meaty items suits it best. The real question is not whether it will eat, but whether the tank can support a large browsing filefish without inviting coral or invert conflict.",
+    "recognitionNotes": "The body is covered in little tassels and frills that make the fish look fuzzy or seaweed-coated, especially when it hovers against rock or macroalgae.",
+    "buyingGuidance": "Best for aquarists who want one unforgettable large oddball and are realistic about mixed-reef risk. It is much easier to enjoy in a system designed for browsing behavior than in a delicate reef where every sample bite becomes a crisis."
   },
   {
     "id": "wartskin-angler",
@@ -752,14 +772,14 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Ambush predator with specialist feeding and strong tankmate limitations",
+    "role": "Compact frogfish predator for species-focused oddball tanks",
     "role_es": "",
-    "overview": "Wartskin Angler is a specialist ambush predator with serious tankmate and feeding limitations. The catalog lists a minimum tank around 30+ gal. Adult size is listed around 4 in. Diet here is listed as Carnivore.",
+    "overview": "A small frogfish with all the attitude and predatory physics of the larger anglers. It sits still, blends in beautifully, and then reminds everyone why frogfish have such a reputation the moment something edible drifts too close.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 4 in.",
-      "Plan around roughly 30+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Can swallow prey that looks improbably large compared with its own body length.",
+      "Usually far better appreciated as a species-focused oddball than as a random addition to a mixed predator tank.",
+      "Small size does not make it community-safe; it just means the prey list scales down."
     ],
     "photoTitle": "Wartskin Angler",
     "inStock": false,
@@ -774,22 +794,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a chunky ambush body with a huge mouth and a tendency to sit still between lunges.",
+    "visualCue": "a lumpy warted body, oversized mouth, and classic frogfish perch-and-pounce posture.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Species tanks or very carefully chosen equal-sized oddballs",
+      "Owners who specifically want frogfish behavior",
+      "Simple layouts where feeding can be monitored closely"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Any fish or shrimp small enough to fit in the mouth over time",
+      "Boisterous tankmates that outcompete or harass it",
+      "Assuming a 4-inch frogfish behaves like a 4-inch community fish"
     ],
-    "staffNote": "",
-    "headerSummary": "Ambush predator with specialist feeding and strong tankmate limitations. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Perches, blends in, and then strikes explosively. Activity is low until prey or food appears.",
-    "feedingNotes": "Feed meaty carnivore foods and build the stocking plan around what this fish can swallow over time.",
-    "recognitionNotes": "The lumpy body and frogfish stance are the giveaway.",
-    "buyingGuidance": "Great for buyers who specifically want frogfish behavior, wrong for anyone building a traditional peaceful reef."
+    "staffNote": "Small frogfish, huge mouth, serious prey risk. Great oddball, wrong fish for a casual mixed tank.",
+    "headerSummary": "Compact frogfish predator for species-focused oddball tanks. Look for a lumpy warted body, oversized mouth, and classic frogfish perch-and-pounce posture. Plan on at least 30+ gal.",
+    "behavior": "It spends most of the day perched and nearly invisible, then becomes startlingly fast during a strike. Because its whole strategy is stillness plus explosion, healthy behavior can look \"boring\" to the wrong buyer and fascinating to the right one.",
+    "feedingNotes": "Best fed carefully with meaty foods in a low-competition system where each meal can be observed. The keeper should also stock around future mouth size, not just what the fish can swallow on the day it comes home.",
+    "recognitionNotes": "The fish looks like a lumpy sponge or warted rock fragment until the huge mouth, lure area, and frogfish stance give it away.",
+    "buyingGuidance": "Recommend when the aquarist wants a true frogfish project and accepts that prey management is the whole game. It should be sold with honesty about tankmate limits, not softened because the fish itself is cute."
   },
   {
     "id": "cuban-hogfish",
@@ -813,14 +834,14 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Active, assertive fish that blends wrasse-like motion with a more robust build",
+    "role": "Fast-cruising Caribbean hogfish with personality and real shrimp risk",
     "role_es": "",
-    "overview": "Cuban Hogfish is an active robust fish that brings motion and personality but needs compatible tankmates. The catalog lists a minimum tank around 75+ gal. Adult size is listed around 12 in. Diet here is listed as Carnivore.",
+    "overview": "A very active hogfish that brings motion and attitude to larger systems. It has more wrasse-like movement than most people expect, but the eventual size and appetite mean it belongs in a tank planned around an assertive forager, not a delicate invert community.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 12 in.",
-      "Plan around roughly 75+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Needs far more swimming room than its juvenile size suggests.",
+      "Will usually make short work of ornamental shrimp, small crabs, and other easy crustacean meals as it matures.",
+      "Best appreciated in larger fish-focused systems where its nonstop cruising is an asset instead of a traffic problem."
     ],
     "photoTitle": "Cuban Hogfish",
     "inStock": false,
@@ -835,22 +856,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a longer wrasse-like body with a thicker head and more robust build.",
+    "visualCue": "a long wrasse-like body, stronger head profile, and constant purposeful patrolling of the tank.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Larger semi-aggressive fish communities",
+      "Open swimming room with sturdy rock structure",
+      "Aquarists who want movement and interaction more than reef delicacy"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Ornamental shrimp and decorative crustaceans",
+      "Tiny passive fish that cannot handle a larger active forager",
+      "Crowded rock-heavy reefs that leave no swimming lane"
     ],
-    "staffNote": "",
-    "headerSummary": "Active, assertive fish that blends wrasse-like motion with a more robust build. Plan on roughly 75+ gal or larger long term.",
-    "behavior": "Constant swimmer that uses the whole tank and does better with room than cramped mixed communities.",
-    "feedingNotes": "Offer a varied meaty diet and plan around a fish that stays active throughout the day.",
-    "recognitionNotes": "Longer hogfish profile and constant cruising separate it from perch-and-wait predators.",
-    "buyingGuidance": "A strong sale for buyers who want movement and personality, provided their tankmates and inverts fit the plan."
+    "staffNote": "A cool Caribbean hogfish, but sell it around adult energy and invert risk—not around the cute juvenile size.",
+    "headerSummary": "Fast-cruising Caribbean hogfish with personality and real shrimp risk. Look for a long wrasse-like body, stronger head profile, and constant purposeful patrolling of the tank. Plan on at least 75+ gal.",
+    "behavior": "Always moving, always searching, and far more interactive than many similarly sized predators. It behaves like a confident daytime hunter that uses the whole tank, so cramped layouts and timid tankmates usually make less and less sense as the fish grows.",
+    "feedingNotes": "A varied meaty diet works well, with enough structure that the fish can burn energy without turning feeding time into chaos. This is an easy fish to feed but a harder fish to stock correctly around inverts and slower companions.",
+    "recognitionNotes": "Long hogfish shape, strong head, and constant patrolling motion separate it immediately from perch-and-wait predators.",
+    "buyingGuidance": "Good fit for aquarists who want a robust, visible fish with real personality in a larger setup. Poor fit for people trying to keep every shrimp, tiny crab, and nano fish in the same decorative mixed reef forever."
   },
   {
     "id": "miniatus-grouper",
@@ -874,14 +896,14 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Juvenile display predator that needs honest discussion about long-term size",
+    "role": "Red showpiece grouper that turns from striking juvenile into serious predator",
     "role_es": "",
-    "overview": "Miniatus Grouper is a juvenile-friendly predator sale that still needs honest discussion about long-term size and appetite. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 18 in. Diet here is listed as Carnivore.",
+    "overview": "One of the most handsome groupers in the hobby, with rich color and obvious presence even when young. It is also a true large predator, so every conversation about the fish should include adult size, prey size, and the bioload of a fish that eats like a grouper.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 18 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Usually sold for the color, but the real husbandry story is adult mass, appetite, and waste production.",
+      "Any fish or crustacean that fits in the mouth eventually belongs on the risk list.",
+      "Needs a genuinely large predator-ready system, not just a tank that looks big while the fish is still juvenile."
     ],
     "photoTitle": "Miniatus Grouper",
     "inStock": false,
@@ -896,22 +918,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a heavier-bodied predator with a broad mouth and steady, confident cruising.",
+    "visualCue": "a thick red-orange body covered in electric blue spotting and a broad predatory mouth.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Large fish-only predator systems",
+      "Tankmates too large and robust to be treated as prey",
+      "Aquarists prepared for heavy feeding and filtration demand"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Mixed reefs with ornamental shrimp or small fish",
+      "Buying for juvenile color without a long-term tank plan",
+      "Undersized predator tanks that turn grouper growth into a problem"
     ],
-    "staffNote": "",
-    "headerSummary": "Juvenile display predator that needs honest discussion about long-term size. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Confident and food-driven, often shifting from hover to explosive feeding response very quickly.",
-    "feedingNotes": "Feed a robust carnivore diet sized for a true predator and plan around the waste and adult bulk that come with it.",
-    "recognitionNotes": "Thick grouper build and obvious predator mouth make the role clear instantly.",
-    "buyingGuidance": "Sell as a predator-system fish only. The right buyer already expects large prey-focused behavior and heavy bioload."
+    "staffNote": "Beautiful fish, but it needs to be sold like a grouper, not like a colorful big community fish.",
+    "headerSummary": "Red showpiece grouper that turns from striking juvenile into serious predator. Look for a thick red-orange body covered in electric blue spotting and a broad predatory mouth. Plan on at least 180+ gal.",
+    "behavior": "Confident and food-motivated, with the patient hovering style and sudden acceleration typical of serranid predators. Once established it often acts like the tank belongs to it, which is part of the appeal if the rest of the system was chosen accordingly.",
+    "feedingNotes": "Use a robust carnivore diet and manage waste as seriously as feeding. The challenge is not getting the fish to eat—it is building a system that can handle years of predator growth, appetite, and corresponding filtration load.",
+    "recognitionNotes": "Few fish combine this much red-orange body color with such clean blue spotting and such an unmistakably grouper-shaped head and mouth.",
+    "buyingGuidance": "Recommend only when the owner already understands predator-system scale. This fish is fantastic in the right home and wildly inappropriate in the wrong one, especially if the buyer is still thinking in terms of mixed-reef stocking rules."
   },
   {
     "id": "panther-grouper",
@@ -934,15 +957,15 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "aggression": 55,
     "coralRisk": 15,
     "invertRisk": 70,
-    "careDifficulty": 35,
-    "role": "Spotted grouper that looks cute small but grows huge",
+    "careDifficulty": 82,
+    "role": "Cute polka-dot juvenile that becomes a huge humpback predator",
     "role_es": "Mero moteado que se ve lindo pequeño pero crece enorme",
-    "overview": "Juveniles are adorable with white body covered in black polka dots and a comically upturned face. But they grow to over 2 feet and will eat anything that fits in their mouth.",
+    "overview": "One of the classic \"don’t let the baby fool you\" marine fish. Juveniles are adorable and easy to underestimate, but this species grows fast, becomes a true large predator, and eventually needs a footprint that pushes it out of most ordinary home aquariums.",
     "overview_es": "Los juveniles son adorables con cuerpo blanco cubierto de lunares negros. Pero crecen más de 60cm y comerán todo lo que quepa en su boca.",
     "facts": [
-      "Adult size in this catalog is listed around 28 in.",
-      "Plan around roughly 300+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Also known as the Humpback Grouper and capable of growing to well over two feet.",
+      "Small fish and crustaceans are not tankmates long term—they are prey items waiting for the mouth to catch up.",
+      "Frequently outgrows the plan because buyers fall for the juvenile look and never budget for the adult fish."
     ],
     "photoTitle": "Cromileptes_altivelis",
     "inStock": false,
@@ -956,24 +979,24 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
       "temp_high": 80
     },
     "seasonal": null,
-    "careLabel": "Moderate",
-    "visualCue": "Look for a heavier-bodied predator with a broad mouth and steady, confident cruising.",
+    "careLabel": "Advanced",
+    "visualCue": "a white body covered in black spots, oversized mouth, and a distinctive hump-backed profile as it matures.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Reef-safe community plans with compatible tankmates",
-      "Semi-aggressive tankmates of similar size"
+      "Very large predator systems with serious filtration",
+      "Owners already prepared for 300-gallon-class housing",
+      "Tankmates too large and tough to be tested as prey"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Shrimp, snails, crabs, or other ornamental invertebrates",
-      "Systems smaller than 300+ gal"
+      "Standard home reefs or medium predator tanks",
+      "Buying one because the juvenile looks manageable",
+      "Any long-term plan that depends on it staying cute and small"
     ],
-    "staffNote": "",
-    "headerSummary": "Spotted grouper that looks cute small but grows huge. Plan on roughly 300+ gal or larger long term.",
-    "behavior": "Predatory and eventually imposing, with a huge mouth and a strong ability to reframe tankmate choices as prey choices.",
-    "feedingNotes": "Use a serious carnivore feeding plan and expect the system to scale around this fish, not the other way around.",
-    "recognitionNotes": "The spotted juvenile pattern is famous, but it should always be discussed alongside the adult size.",
-    "buyingGuidance": "Only for buyers who fully understand the adult fish. This is not an average-store predator add-on."
+    "staffNote": "This is the poster child for \"cute juvenile, giant adult.\" Make sure the buyer is shopping for the adult, not the baby.",
+    "headerSummary": "Cute polka-dot juvenile that becomes a huge humpback predator. Look for a white body covered in black spots, oversized mouth, and a distinctive hump-backed profile as it matures. Plan on at least 300+ gal.",
+    "behavior": "As a juvenile it can seem almost cartoonish and easygoing, but the species matures into a massive food-driven grouper with the confidence and appetite to dominate its space. It is a long-term commitment to scale, not a novelty predator add-on.",
+    "feedingNotes": "Straightforward to feed once established, but that is exactly why the bigger problem becomes filtration, growth, and prey-size compatibility. The owner should think in terms of system engineering, not just menu choice.",
+    "recognitionNotes": "The famous juvenile pattern is white with bold black polka dots, and older fish develop the heavier humpback look that gives the species another common name.",
+    "buyingGuidance": "Only recommend when the aquarist can clearly explain their adult housing plan. This fish is not hard because it is delicate; it is hard because it becomes enormous and predatory in a hurry."
   },
   {
     "id": "porkfish",
@@ -997,14 +1020,14 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Marine fish profile that should be matched to tank size, diet, and temperament",
+    "role": "Large Caribbean grunt for roomy peaceful fish-only displays",
     "role_es": "",
-    "overview": "Porkfish should be matched to the buyer based on space, diet, and compatibility rather than impulse color alone. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 16 in. Diet here is listed as Carnivore / omnivore.",
+    "overview": "A handsome Caribbean grunt that is often overlooked because it is neither tiny nor flashy in the modern reef sense. In the right large tank it becomes a bold, active display fish with a lot of presence, but it belongs in a roomy fish-focused plan rather than a coral-and-cleanup-crew mindset.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 16 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore / omnivore."
+      "A true grunt, so the open-water schooling/body language is very different from a perch-and-wait predator or reef perch.",
+      "Peaceful for its size, but still a large fish that needs room and will not leave small ornamental inverts alone forever.",
+      "Works best in larger Atlantic or community fish-only displays where swimming room matters as much as rockwork."
     ],
     "photoTitle": "Porkfish",
     "inStock": false,
@@ -1019,22 +1042,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "visualCue": "a silver body with yellow face and fins, plus two bold black vertical bars on a grunt-shaped frame.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Large peaceful fish-only systems",
+      "Other robust non-aggressive open-water fish",
+      "Aquarists who want movement without jumping straight to classic predators"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Mixed reefs built around tiny inverts and nano fish",
+      "Cramped tanks with no real swimming lanes",
+      "Hyperaggressive predators that turn a peaceful grunt into a target"
     ],
-    "staffNote": "",
-    "headerSummary": "Marine fish profile that should be matched to tank size, diet, and temperament. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Active swimmer that wants room and looks best when not cramped into undersized rock-heavy layouts.",
-    "feedingNotes": "Feed a varied meaty/omnivore routine and size the system around adult swimming space.",
-    "recognitionNotes": "Grunt-like body shape and striped yellow-silver appearance help it stand out from reef-community fish.",
-    "buyingGuidance": "Best sold to buyers with room for a larger active display fish, not someone trying to squeeze one more fish into a mixed reef."
+    "staffNote": "A nice large-display Caribbean fish, but definitely more fish-only than reef-community in spirit.",
+    "headerSummary": "Large Caribbean grunt for roomy peaceful fish-only displays. Look for a silver body with yellow face and fins, plus two bold black vertical bars on a grunt-shaped frame. Plan on at least 125+ gal.",
+    "behavior": "Active and visible once settled, often cruising the tank in a way that makes it feel more like a display shoaler than a cave fish. It usually comes across as sturdy and personable rather than delicate, but it still needs the scale of tank that matches a 16-inch grunt.",
+    "feedingNotes": "Takes a varied meaty-leaning omnivore routine well, but the important husbandry point is making the whole system fit a large active fish. Good feeding alone cannot compensate for a tank that is simply too tight or too invert-focused.",
+    "recognitionNotes": "Yellow face and fins, silver-gray body, and two black bars create a classic porkfish look that stands apart from most Indo-Pacific reef species.",
+    "buyingGuidance": "Recommend to buyers with genuine room who want a larger peaceful showcase fish. Weak fit for anyone trying to bolt one onto an already crowded reef because the pattern looks cool in the store."
   },
   {
     "id": "coral-catshark",
@@ -1046,7 +1070,7 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "aggression": 30,
     "coralRisk": 5,
     "invertRisk": 60,
-    "careDifficulty": 65,
+    "careDifficulty": 90,
     "diet": "Carnivore",
     "diet_es": "Carnívoro",
     "origin": "Indo-Pacific",
@@ -1055,9 +1079,9 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "maxSize": "28 in",
     "minTank": "300+ gal",
     "photoTitle": "Atelomycterus_marmoratus",
-    "role": "Small marbled shark for very large systems",
+    "role": "True shark for large soft-bottom systems, not a novelty bottom fish",
     "role_es": "Tiburón marmoleado para sistemas muy grandes",
-    "overview": "Beautiful small shark with marbled pattern. Nocturnal and relatively docile but needs extremely large system.",
+    "overview": "One of the more realistic private-aquarium sharks compared with giant pelagic species, but still a real shark with real shark rules. The correct setup is a wide-footprint soft-bottom system with careful filtration, shark-safe medications, and tankmates chosen around a nocturnal bottom predator.",
     "overview_es": "Hermoso tiburón pequeño con patrón marmoleado. Nocturno pero necesita sistema extremadamente grande.",
     "inStock": false,
     "price": 0,
@@ -1066,9 +1090,9 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
     "badges": [],
     "aliases": [],
     "facts": [
-      "Minimum suggested system is 300+ gal.",
-      "Diet profile: Carnivore. Feeding should match that long-term, not just what it accepts in the store.",
-      "Compatibility snapshot: reef safe, high invert risk, and temperament trends moderate."
+      "Requires a soft sand bottom to prevent abdominal abrasion and the infections that can follow rough substrate.",
+      "Crustaceans are firmly on the menu, and copper-based medications are unsafe for catsharks.",
+      "More workable than many sharks, but still far beyond the scale of an ordinary reef or fish-only home setup."
     ],
     "water": {
       "ph": [
@@ -1091,23 +1115,23 @@ window.LTC_SPECIES_CHUNKS["Other Fish"] = [
       "temp_high": null
     },
     "seasonal": null,
-    "careLabel": "Advanced",
-    "visualCue": "Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone.",
+    "careLabel": "Expert",
+    "visualCue": "a slender marbled catshark body, long tail, and bottom-resting posture built for cruising sand and low rockwork.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Reef-safe community plans with compatible tankmates",
-      "Semi-aggressive tankmates of similar size"
+      "Large soft-bottom predator systems",
+      "Experienced keepers prepared for shark-specific care and feeding",
+      "Tankmates too large to be swallowed and calm enough not to harass a benthic shark"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Shrimp, snails, crabs, or other ornamental invertebrates",
-      "Immature tanks or buyers without a long-term care plan"
+      "Copper medication protocols",
+      "Sharp rock piles and coarse substrate",
+      "Impulse buyers who really want a cool fish, not a shark system"
     ],
-    "staffNote": "",
-    "headerSummary": "Small marbled shark for very large systems. Use the overall body shape, swimming style, and color pattern together with the label rather than relying on one feature alone. Plan on at least 300+ gal.",
-    "behavior": "Bottom-oriented and generally calm, but highly specialized in husbandry compared with typical marine fish.",
-    "feedingNotes": "Needs a serious carnivore routine and a system layout that avoids abrasion, stress, and temperature mistakes.",
-    "recognitionNotes": "Classic small catshark shape and bottom-resting behavior separate it immediately from fish profiles.",
-    "buyingGuidance": "Only for buyers already prepared for shark-specific care. This is not just a big fish with a cooler body shape."
+    "staffNote": "This is a real shark project. Sell it around tank footprint, sand, and shark-safe husbandry—not around novelty.",
+    "headerSummary": "True shark for large soft-bottom systems, not a novelty bottom fish. Look for a slender marbled catshark body, long tail, and bottom-resting posture built for cruising sand and low rockwork. Plan on at least 300+ gal.",
+    "behavior": "Usually reclusive by day and more active at dusk and during the night, using its slender body to work along the bottom and through openings. It is not a dramatic open-water shark; the appeal is having a true benthic shark behaving naturally in a system built for it.",
+    "feedingNotes": "Feed a serious carnivore diet and be prepared for targeted acclimation feeding if the animal arrives shy. Long-term success depends on substrate, water quality, and medication safety just as much as on the menu itself.",
+    "recognitionNotes": "The marbled pattern, long tail, slender benthic build, and cat-like barbels identify it immediately as a small catshark rather than a bottom-dwelling teleost fish.",
+    "buyingGuidance": "Recommend only when the owner is already thinking in terms of shark husbandry and large-footprint design. A person shopping for a conversation piece will usually give this fish the wrong home."
   }
 ];

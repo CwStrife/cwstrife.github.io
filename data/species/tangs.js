@@ -33,14 +33,14 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "bestWith": [
       "Larger reef tanks",
       "Peaceful to semi-aggressive community fish",
-      "Owners wanting a true centerpiece fish"
+      "keepers wanting a true centerpiece fish"
     ],
     "cautionWith": [
       "Similar tangs in tighter quarters",
       "Small tanks",
       "Late additions after territory is claimed"
     ],
-    "staffNote": "Beautiful, premium, and memorable — but it should never be sold as a beginner impulse purchase.",
+    "staffNote": "Beautiful, premium, and memorable — but it should never be treated as a beginner impulse choice.",
     "photoTitle": "Zebrasoma gemmatum",
     "inStock": true,
     "badges": [
@@ -61,9 +61,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "diet_es": "Herbívoro",
     "origin_es": "",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for deep charcoal body scattered with crisp white spots and a bright yellow tail. Plan on at least 125+ gal.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
+    "behavior": "Active daytime browser that makes repeated laps through rockwork and open water, then turns sharply back to favored grazing lanes. Expect more territorial pushback toward similar body-shaped tangs once it feels established, especially if the swimming room is only around the minimum 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "buyingGuidance": "Best for aquarists who can provide real side-to-side swimming length, mature algae support, and a stocking plan that respects tang-on-tang shape aggression. The decision should center on territory and long-term space, not just on how striking the fish looks in a sales tank; 125+ gal is the floor, not the luxury tier.",
     "recognitionNotes": "Deep charcoal body scattered with crisp white spots and a bright yellow tail."
   },
   {
@@ -91,7 +91,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "careDifficulty": 52,
     "role": "Highly recognizable display fish with constant movement",
     "visualCue": "Electric blue body with bold black patterning and a bright yellow tail.",
-    "overview": "One of the easiest fish for customers to recognize visually, even if they do not know the real name.",
+    "overview": "One of the easiest fish for aquarists to recognize visually, even if they do not know the real name.",
     "facts": [
       "Needs more long-term swimming room than many people expect when they first buy it small.",
       "Can be shy during acclimation, then becomes very active once it settles in.",
@@ -100,7 +100,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "bestWith": [
       "Established reef tanks",
       "Community fish that will not bully it",
-      "Owners ready for adult size and activity"
+      "keepers ready for adult size and activity"
     ],
     "cautionWith": [
       "Undersized tanks",
@@ -126,9 +126,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for electric blue body with bold black patterning and a bright yellow tail. Plan on at least 125+ gal.",
     "seasonal": null,
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "behavior": "Fast-moving open-water tang that may hide more than expected at first, then becomes a constant visible swimmer once it settles. It uses the full tank length, startles easily during acclimation, and benefits from strong flow and unobstructed cruising space beyond the minimum 125+ gal.",
+    "feedingNotes": "Offer a varied herbivore-leaning omnivore routine with daily algae, quality pellets, and rotating frozen foods. These fish often settle faster and hold weight better when feedings are consistent and not limited to occasional seaweed clips.",
+    "buyingGuidance": "A strong display choice when the aquarist understands that the cute juvenile grows into a fast, nervous, open-water swimmer. Emphasize long-term swimming room, acclimation stress, and steady feeding rather than nostalgia or name recognition; 125+ gal should be treated as a starting point, not a target to crowd.",
     "recognitionNotes": "Electric blue body with bold black patterning and a bright yellow tail."
   },
   {
@@ -155,7 +155,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "careDifficulty": 26,
     "role": "Smaller tang option with strong algae-picking behavior",
     "visualCue": "Subtle brown body, pale belly, and yellow edging that glows under reef lighting.",
-    "overview": "A very practical tang choice for hobbyists who want tang behavior without jumping immediately to the biggest, most demanding species. It gives customers a realistic alternative when their tank is not huge.",
+    "overview": "A very practical tang choice for hobbyists who want tang behavior without jumping immediately to the biggest, most demanding species. It gives aquarists a realistic alternative when their tank is not huge.",
     "facts": [
       "Often browses rock surfaces all day rather than making endless high-speed laps.",
       "Useful for explaining that not all tangs require the same size tank or temperament expectations.",
@@ -163,14 +163,14 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "bestWith": [
       "Mixed reefs",
-      "Owners wanting algae support",
+      "keepers wanting algae support",
       "Peaceful community fish"
     ],
     "cautionWith": [
       "Aggressive tang packs",
       "Other similar bristletooth tangs in limited space"
     ],
-    "staffNote": "Strong recommendation fish when a customer wants a tang but their system is not giant.",
+    "staffNote": "Strong recommendation fish when a aquarist wants a tang but their system is not giant.",
     "photoTitle": "Ctenochaetus tominiensis",
     "inStock": true,
     "badges": [],
@@ -189,9 +189,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for subtle brown body, pale belly, and yellow edging that glows under reef lighting. Plan on at least 75+ gal.",
     "seasonal": null,
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "behavior": "Busy bristletooth grazer that spends the day combing film algae and detritus from rock, glass, and hard surfaces rather than simply cruising laps. It is usually one of the more methodical tangs, but it still wants open room and can defend its lane in tighter setups around the minimum 75+ gal.",
+    "feedingNotes": "Build the routine around constant access to plant matter and biofilm support: seaweed sheets, herbivore pellets, and a tank mature enough to keep film algae available between feedings. Bristletooth tangs usually look best when they can keep picking all day instead of waiting for one dramatic feeding.",
+    "buyingGuidance": "A very good tang choice when the aquarist wants active algae help without jumping straight to the largest surgeonfish, but it still deserves a mature system and real swimming room. Focus the conversation on film-grazing behavior, constant feeding support, and whether 75+ gal truly reflects the long-term plan instead of the temporary setup.",
     "recognitionNotes": "Subtle brown body, pale belly, and yellow edging that glows under reef lighting."
   },
   {
@@ -220,21 +220,21 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "visualCue": "Solid bright yellow body that practically glows under reef lighting.",
     "overview": "One of the most iconic reef fish in the hobby. Hardy, active, and a strong algae grazer that earns its keep visually and functionally.",
     "facts": [
-      "Extremely recognizable — customers often ask for it by color alone.",
+      "Extremely recognizable — aquarists often ask for it by color alone.",
       "Can be territorial with other tangs but generally peaceful with different species.",
       "Availability and pricing fluctuate due to Hawaii collection regulations."
     ],
     "bestWith": [
       "Established reef tanks",
       "Community fish that aren't other tangs",
-      "Owners wanting a bold yellow centerpiece"
+      "keepers wanting a bold yellow centerpiece"
     ],
     "cautionWith": [
       "Other yellow tangs in tight quarters",
       "Very small nano tanks",
       "Tanks with zero algae growth"
     ],
-    "staffNote": "Always worth mentioning the Hawaii collection situation when customers ask about pricing.",
+    "staffNote": "Always worth mentioning the Hawaii collection situation when aquarists ask about pricing.",
     "photoTitle": "Yellow tang",
     "inStock": false,
     "badges": [],
@@ -253,9 +253,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "diet_es": "Herbívoro",
     "origin_es": "",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for solid bright yellow body that practically glows under reef lighting. Plan on at least 100+ gal.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
+    "behavior": "Active daytime browser that makes repeated laps through rockwork and open water, then turns sharply back to favored grazing lanes. Expect more territorial pushback toward similar body-shaped tangs once it feels established, especially if the swimming room is only around the minimum 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "buyingGuidance": "Best for aquarists who can provide real side-to-side swimming length, mature algae support, and a stocking plan that respects tang-on-tang shape aggression. The decision should center on territory and long-term space, not just on how striking the fish looks in a sales tank; 100+ gal is the floor, not the luxury tier.",
     "recognitionNotes": "Solid bright yellow body that practically glows under reef lighting."
   },
   {
@@ -317,9 +317,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "origin_es": "Océano Índico",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for vivid powder blue body with black face mask, yellow dorsal fin, and white-edged tail. Plan on at least 125+ gal.",
     "seasonal": null,
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 125+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 125+ gal minimum.",
     "recognitionNotes": "Vivid powder blue body with black face mask, yellow dorsal fin, and white-edged tail."
   },
   {
@@ -381,9 +381,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "origin_es": "Hawái",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for brown body covered in fine horizontal lines with a distinctive bright yellow ring around the eye. Plan on at least 75+ gal.",
     "seasonal": null,
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "behavior": "Busy bristletooth grazer that spends the day combing film algae and detritus from rock, glass, and hard surfaces rather than simply cruising laps. It is usually one of the more methodical tangs, but it still wants open room and can defend its lane in tighter setups around the minimum 75+ gal.",
+    "feedingNotes": "Build the routine around constant access to plant matter and biofilm support: seaweed sheets, herbivore pellets, and a tank mature enough to keep film algae available between feedings. Bristletooth tangs usually look best when they can keep picking all day instead of waiting for one dramatic feeding.",
+    "buyingGuidance": "A very good tang choice when the aquarist wants active algae help without jumping straight to the largest surgeonfish, but it still deserves a mature system and real swimming room. Focus the conversation on film-grazing behavior, constant feeding support, and whether 75+ gal truly reflects the long-term plan instead of the temporary setup.",
     "recognitionNotes": "Brown body covered in fine horizontal lines with a distinctive bright yellow ring around the eye."
   },
   {
@@ -411,7 +411,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "careDifficulty": 22,
     "role": "Hardy budget-friendly tang and algae eater",
     "visualCue": "Dark brown to olive body that darkens with age. Sailfin shape similar to Yellow Tang.",
-    "overview": "The budget-friendly cousin of the Yellow Tang. Not as flashy but extremely hardy, a great algae eater, and usually much cheaper.",
+    "overview": "The budget-friendly cousin of the Yellow Tang. Not as flashy but extremely hardy, a great algae eater, and usually much more budget-friendly.",
     "facts": [
       "One of the hardiest tangs available.",
       "Often overlooked because of the brown color.",
@@ -425,7 +425,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "cautionWith": [
       "Other Zebrasoma tangs in small spaces"
     ],
-    "staffNote": "Sell this as the working-class tang. Not pretty but bulletproof and useful.",
+    "staffNote": "Treat this as the working-class tang. Not pretty but bulletproof and useful.",
     "photoTitle": "Zebrasoma scopas",
     "inStock": false,
     "badges": [],
@@ -444,9 +444,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for dark brown to olive body that darkens with age. sailfin shape similar to yellow tang. Plan on at least 100+ gal.",
     "seasonal": null,
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
+    "behavior": "Active daytime browser that makes repeated laps through rockwork and open water, then turns sharply back to favored grazing lanes. Expect more territorial pushback toward similar body-shaped tangs once it feels established, especially if the swimming room is only around the minimum 100+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "buyingGuidance": "Best for aquarists who can provide real side-to-side swimming length, mature algae support, and a stocking plan that respects tang-on-tang shape aggression. The decision should center on territory and long-term space, not just on how striking the fish looks in a sales tank; 100+ gal is the floor, not the luxury tier.",
     "recognitionNotes": "Dark brown to olive body that darkens with age. Sailfin shape similar to Yellow Tang."
   },
   {
@@ -489,7 +489,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Any tank under 150 gallons",
       "Small timid tankmates that might be overwhelmed by its size"
     ],
-    "staffNote": "Only sell to customers with genuinely large tanks. This fish needs room.",
+    "staffNote": "Recommend only to aquarists with genuinely large tanks. This fish needs room.",
     "photoTitle": "Naso lituratus",
     "inStock": false,
     "badges": [],
@@ -508,9 +508,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for grey body with orange lips, bright orange scalpels at the tail base, and a streaming tail filament in adults. Plan on at least 180+ gal.",
     "seasonal": null,
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "behavior": "Open-water cruiser built for long uninterrupted passes rather than tight rockwork browsing. Juveniles often look easy to place, but adults become large, powerful swimmers that read much better in genuinely roomy systems than in tanks hovering near the minimum 180+ gal.",
+    "feedingNotes": "Large tangs need a generous herbivore routine, not occasional token seaweed. Daily macroalgae or nori, a solid herbivore pellet, and enough overall food volume to support a powerful swimmer matter much more than flashy treat feeding.",
+    "buyingGuidance": "This is a long-term big-tank commitment, not a small-juvenile loophole. The right home is the aquarist already planning around adult swimming length, open water, and larger-system husbandry, because a listed minimum like 180+ gal is only meaningful when the overall layout is truly spacious.",
     "recognitionNotes": "Grey body with orange lips, bright orange scalpels at the tail base, and a streaming tail filament in adults."
   },
   {
@@ -550,7 +550,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "cautionWith": [
       "Other Zebrasoma tangs in smaller tanks",
-      "Budget-conscious buyers"
+      "Budget-conscious aquarists"
     ],
     "staffNote": "Premium price justified by the color. Nothing else is this purple.",
     "photoTitle": "Zebrasoma xanthurum",
@@ -571,9 +571,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "diet_es": "Herbívoro",
     "origin_es": "Mar Rojo / Mar Arábigo",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for rich royal purple body with a contrasting bright yellow tail. one of the most striking tangs available. Plan on at least 125+ gal.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
+    "behavior": "Active daytime browser that makes repeated laps through rockwork and open water, then turns sharply back to favored grazing lanes. Expect more territorial pushback toward similar body-shaped tangs once it feels established, especially if the swimming room is only around the minimum 125+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "buyingGuidance": "Best for aquarists who can provide real side-to-side swimming length, mature algae support, and a stocking plan that respects tang-on-tang shape aggression. The decision should center on territory and long-term space, not just on how striking the fish looks in a sales tank; 125+ gal is the floor, not the luxury tier.",
     "recognitionNotes": "Rich royal purple body with a contrasting bright yellow tail. One of the most striking tangs available."
   },
   {
@@ -602,18 +602,18 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "visualCue": "Brown to tan body with bold vertical banding and dramatically tall dorsal and anal fins that extend like sails.",
     "overview": "A large, impressive tang that unfurls its fins like sails when displaying. Juveniles are attractive and affordable but this fish gets big fast and needs substantial swimming room.",
     "facts": [
-      "Gets much larger than most buyers expect from the juvenile they purchase.",
+      "Gets much larger than most aquarists expect from the juvenile they first bring home.",
       "The extended fins during display are genuinely dramatic.",
       "Hardy and effective algae grazer for appropriately sized tanks."
     ],
     "bestWith": [
       "Very large tanks",
-      "Owners committed to long-term housing",
+      "keepers committed to long-term housing",
       "Tanks needing serious algae control"
     ],
     "cautionWith": [
       "Any tank under 150 gallons",
-      "Buyers seduced by the small juvenile size"
+      "aquarists seduced by the small juvenile size"
     ],
     "staffNote": "Always mention the adult size. Show a photo of a full-grown specimen.",
     "photoTitle": "Zebrasoma veliferum",
@@ -634,9 +634,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for brown to tan body with bold vertical banding and dramatically tall dorsal and anal fins that extend like sails. Plan on at least 180+ gal.",
     "seasonal": null,
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
+    "behavior": "Active daytime browser that makes repeated laps through rockwork and open water, then turns sharply back to favored grazing lanes. Expect more territorial pushback toward similar body-shaped tangs once it feels established, especially if the swimming room is only around the minimum 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "buyingGuidance": "Best for aquarists who can provide real side-to-side swimming length, mature algae support, and a stocking plan that respects tang-on-tang shape aggression. The decision should center on territory and long-term space, not just on how striking the fish looks in a sales tank; 180+ gal is the floor, not the luxury tier.",
     "recognitionNotes": "Brown to tan body with bold vertical banding and dramatically tall dorsal and anal fins that extend like sails."
   },
   {
@@ -678,7 +678,7 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Very small tanks",
       "Aggressive tankmates that might bully it"
     ],
-    "staffNote": "The budget tang. Great for customers who want a tang without spending big.",
+    "staffNote": "The budget tang. Great for aquarists who want a tang without spending big.",
     "photoTitle": "Acanthurus triostegus",
     "inStock": false,
     "badges": [],
@@ -697,9 +697,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Active algae grazer and high-visibility display fish. Look for silver-white body with vertical black prison-stripe bars. simple but clean pattern. Plan on at least 100+ gal.",
     "seasonal": null,
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 100+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 100+ gal minimum.",
     "recognitionNotes": "Silver-white body with vertical black prison-stripe bars. Simple but clean pattern."
   },
   {
@@ -754,15 +754,15 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Immature tanks or buyers without a long-term care plan",
+      "Immature tanks or aquarists without a long-term care plan",
       "Systems smaller than 180+ gal"
     ],
     "staffNote": "",
     "headerSummary": "Striking black tang with orange teardrop marking. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 180+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 180+ gal minimum.",
+    "recognitionNotes": "Velvety dark tang with a vivid orange teardrop at the tail base, white tail edging, and a very sleek high-speed profile."
   },
   {
     "id": "atlantic-blue-tang",
@@ -820,10 +820,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Caribbean blue tang that changes from yellow juvenile to deep blue adult. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 180+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 180+ gal minimum.",
+    "recognitionNotes": "Sleek surgeonfish that shifts from bright juvenile yellow to a richer blue adult body with yellow still lingering in the tail and accents."
   },
   {
     "id": "blonde-naso-tang",
@@ -881,10 +881,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Elegant unicorn tang with yellow face mask. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "Open-water cruiser built for long uninterrupted passes rather than tight rockwork browsing. Juveniles often look easy to place, but adults become large, powerful swimmers that read much better in genuinely roomy systems than in tanks hovering near the minimum 180+ gal.",
+    "feedingNotes": "Large tangs need a generous herbivore routine, not occasional token seaweed. Daily macroalgae or nori, a solid herbivore pellet, and enough overall food volume to support a powerful swimmer matter much more than flashy treat feeding.",
+    "buyingGuidance": "This is a long-term big-tank commitment, not a small-juvenile loophole. The right home is the aquarist already planning around adult swimming length, open water, and larger-system husbandry, because a listed minimum like 180+ gal is only meaningful when the overall layout is truly spacious.",
+    "recognitionNotes": "Long-faced naso tang with a pale grey body, yellow dorsal accents, and streamers that develop from the tail in larger adults."
   },
   {
     "id": "blue-eye-kole-tang",
@@ -942,10 +942,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Peaceful bristletooth tang with striking blue eyes. Plan on roughly 75+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "Busy bristletooth grazer that spends the day combing film algae and detritus from rock, glass, and hard surfaces rather than simply cruising laps. It is usually one of the more methodical tangs, but it still wants open room and can defend its lane in tighter setups around the minimum 75+ gal.",
+    "feedingNotes": "Build the routine around constant access to plant matter and biofilm support: seaweed sheets, herbivore pellets, and a tank mature enough to keep film algae available between feedings. Bristletooth tangs usually look best when they can keep picking all day instead of waiting for one dramatic feeding.",
+    "buyingGuidance": "A very good tang choice when the aquarist wants active algae help without jumping straight to the largest surgeonfish, but it still deserves a mature system and real swimming room. Focus the conversation on film-grazing behavior, constant feeding support, and whether 75+ gal truly reflects the long-term plan instead of the temporary setup.",
+    "recognitionNotes": "Bristletooth tang with fine body striping, a glowing blue eye ring, and a subtler combing profile than the bolder Zebrasoma tangs."
   },
   {
     "id": "chevron-tang",
@@ -1003,10 +1003,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Rare Hawaiian tang with stunning juvenile chevron pattern. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "Busy bristletooth grazer that spends the day combing film algae and detritus from rock, glass, and hard surfaces rather than simply cruising laps. It is usually one of the more methodical tangs, but it still wants open room and can defend its lane in tighter setups around the minimum 125+ gal.",
+    "feedingNotes": "Build the routine around constant access to plant matter and biofilm support: seaweed sheets, herbivore pellets, and a tank mature enough to keep film algae available between feedings. Bristletooth tangs usually look best when they can keep picking all day instead of waiting for one dramatic feeding.",
+    "buyingGuidance": "A very good tang choice when the aquarist wants active algae help without jumping straight to the largest surgeonfish, but it still deserves a mature system and real swimming room. Focus the conversation on film-grazing behavior, constant feeding support, and whether 125+ gal truly reflects the long-term plan instead of the temporary setup.",
+    "recognitionNotes": "Juveniles show warm orange tones with sharp chevron markings, while adults darken into a finer lined bristletooth look."
   },
   {
     "id": "chocolate-tang",
@@ -1064,10 +1064,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Peaceful tang that mimics angelfish as a juvenile. Plan on roughly 100+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 100+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 100+ gal minimum.",
+    "recognitionNotes": "Brown-bodied tang that changes significantly with age, often showing yellow or angel-like mimic tones when young."
   },
   {
     "id": "clown-tang",
@@ -1121,15 +1121,15 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "cautionWith": [
       "Timid tankmates or crowded stocking plans",
-      "Immature tanks or buyers without a long-term care plan",
+      "Immature tanks or aquarists without a long-term care plan",
       "Systems smaller than 250+ gal"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a advanced profile that should not be rushed.",
+    "staffNote": "Lead with a quick conversation about territory, adult size, and tankmate choice. This is an advanced profile that should not be rushed.",
     "headerSummary": "Strikingly striped but extremely aggressive tang. Plan on roughly 250+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 250+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 250+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 250+ gal minimum.",
+    "recognitionNotes": "Very bold surgeonfish with alternating yellow, blue, and white striping that makes it one of the easiest tangs to recognize at a glance."
   },
   {
     "id": "dussumieri-tang",
@@ -1187,10 +1187,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Large eyestripe surgeonfish for massive tanks. Plan on roughly 250+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 250+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 250+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 250+ gal minimum.",
+    "recognitionNotes": "Large open-water tang with a pale silver-brown body, face scribbling, and a broad powerful build that hints at its eventual size."
   },
   {
     "id": "goldrim-tang",
@@ -1248,10 +1248,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Dark tang with gold accents, aggressive but striking. Plan on roughly 100+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 100+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 100+ gal minimum.",
+    "recognitionNotes": "Dark tang with a crisp white lower face and a golden-yellow edge tracing the dorsal region and tail area."
   },
   {
     "id": "lavender-tang",
@@ -1309,10 +1309,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Hardy, affordable tang with subtle lavender tones. Plan on roughly 75+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 75+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 75+ gal minimum.",
+    "recognitionNotes": "Smooth grey-lavender surgeonfish with a cleaner, softer color palette than the more aggressively contrasted tang species."
   },
   {
     "id": "lieutenant-tang",
@@ -1370,10 +1370,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Indian Ocean tang with distinctive horseshoe marking. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 125+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 125+ gal minimum.",
+    "recognitionNotes": "Silver-grey tang with lined facial detail and a marked shoulder area that gives the fish a dressed-uniform look up close."
   },
   {
     "id": "mimic-tang",
@@ -1431,10 +1431,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Active surgeonfish built for swimming room, grazing, and long-term space. Plan on roughly 100+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 100+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 100+ gal minimum.",
+    "recognitionNotes": "Tang that often resembles a dwarf angel as a juvenile, then grows into a more classic surgeonfish shape with subtler adult patterning."
   },
   {
     "id": "orange-shoulder-tang",
@@ -1492,10 +1492,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Large tang with distinctive orange shoulder patch. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 180+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 180+ gal minimum.",
+    "recognitionNotes": "Adult shows a broad orange shoulder patch on a pale body, while juveniles can look much yellower before the color shift."
   },
   {
     "id": "powder-brown-tang",
@@ -1553,10 +1553,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Active surgeonfish built for swimming room, grazing, and long-term space. Plan on roughly 100+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 100+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 100+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 100+ gal minimum.",
+    "recognitionNotes": "Dark brown tang with bright white facial contrast and warm orange highlights near the dorsal region and tail base."
   },
   {
     "id": "white-tail-bristletooth-tang",
@@ -1614,10 +1614,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Compact bristletooth with white-yellow tail accent. Plan on roughly 75+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 75+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "Busy bristletooth grazer that spends the day combing film algae and detritus from rock, glass, and hard surfaces rather than simply cruising laps. It is usually one of the more methodical tangs, but it still wants open room and can defend its lane in tighter setups around the minimum 75+ gal.",
+    "feedingNotes": "Build the routine around constant access to plant matter and biofilm support: seaweed sheets, herbivore pellets, and a tank mature enough to keep film algae available between feedings. Bristletooth tangs usually look best when they can keep picking all day instead of waiting for one dramatic feeding.",
+    "buyingGuidance": "A very good tang choice when the aquarist wants active algae help without jumping straight to the largest surgeonfish, but it still deserves a mature system and real swimming room. Focus the conversation on film-grazing behavior, constant feeding support, and whether 75+ gal truly reflects the long-term plan instead of the temporary setup.",
+    "recognitionNotes": "Dark bristletooth tang with fine pale markings and a distinctly pale white tail that stands out when the fish turns."
   },
   {
     "id": "desjardini-tang",
@@ -1687,10 +1687,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Indian Ocean sailfin tang with intricate juvenile markings. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 180+ gal.",
+    "behavior": "Active daytime browser that makes repeated laps through rockwork and open water, then turns sharply back to favored grazing lanes. Expect more territorial pushback toward similar body-shaped tangs once it feels established, especially if the swimming room is only around the minimum 180+ gal.",
     "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "buyingGuidance": "Best for aquarists who can provide real side-to-side swimming length, mature algae support, and a stocking plan that respects tang-on-tang shape aggression. The decision should center on territory and long-term space, not just on how striking the fish looks in a sales tank; 180+ gal is the floor, not the luxury tier.",
+    "recognitionNotes": "Tall sailfin tang with bold vertical barring, spotted fins, and an exaggerated disc-and-sail silhouette as it matures."
   },
   {
     "id": "white-tail-tang",
@@ -1760,9 +1760,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     ],
     "staffNote": "",
     "headerSummary": "Unusual planktivorous tang from deep reef slopes. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Active cruising grazer that spends the day working rockwork and open water. Expect territorial behavior around other tangs once established, especially in tighter systems. Minimum practical space starts around 125+ gal.",
-    "feedingNotes": "Base the routine around algae-rich feeding: daily seaweed or algae sheets plus a quality herbivore staple and occasional frozen support. Tangs usually look and act better when plant matter is available consistently instead of as an occasional treat.",
-    "buyingGuidance": "Best sold to buyers who already have the swimming length, algae support, and tank maturity a tang needs long term. Discuss adult size, stocking order, and long-term room before treating it as a color-driven purchase.",
-    "recognitionNotes": "Look for the flat, disk-shaped tang body, constant grazing behavior, and the tail spine typical of surgeonfish."
+    "behavior": "High-energy surgeonfish with more speed and edge than the gentler browsing tangs. Once comfortable it becomes a very visible swimmer, but it also demands strong oxygenation, open length, and careful tang mixing because many Acanthurus species become assertive in tanks near the minimum 125+ gal.",
+    "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
+    "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 125+ gal minimum.",
+    "recognitionNotes": "Slender open-water surgeonfish with a noticeably pale tail and a cleaner, more streamlined look than a chunky bristletooth tang."
   }
 ];

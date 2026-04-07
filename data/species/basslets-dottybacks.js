@@ -27,7 +27,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview": "A hardy, colorful, and approachable fish that fits many community reefs.",
     "facts": [
       "Usually hangs around caves or overhangs and may defend a favorite hole, but not in an over-the-top way.",
-      "A good fish for helping shoppers understand that small fish can still have territory and personality.",
+      "A good fish for helping reef keepers understand that small fish can still have territory and personality.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "bestWith": [
@@ -39,7 +39,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
       "Very aggressive fish",
       "Overly bare aquascapes with no retreats"
     ],
-    "staffNote": "One of the better all-around recommendation fish and a very good candidate for older shoppers who want easy reading and simple care.",
+    "staffNote": "One of the better all-around recommendation fish and a very good candidate for older reef keepers who want easy reading and simple care.",
     "photoTitle": "Royal gramma",
     "inStock": true,
     "badges": [],
@@ -57,7 +57,11 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Caribe",
     "headerSummary": "Colorful beginner reef fish with cave-loving behavior. Look for bright purple front half blending into a vivid yellow back half. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Bright purple front half blending into a vivid yellow rear half, usually with the fish stationed around a cave, ledge, or overhang.",
+    "behavior": "Cave-oriented basslet that spends the day hovering just outside a chosen crevice, then flipping back under ledges when startled. In the wild they are often seen working caves and even swimming belly-up beneath overhangs, so a rockscape with shaded retreats shows off the real behavior far better than a bare wall of rock.",
+    "feedingNotes": "Small meaty foods work best, especially foods that drift near the fish’s chosen ledge rather than only across the brightest open water. Royal grammas usually take prepared foods well, but they look most relaxed when they can feed from cover instead of being forced into constant competition.",
+    "buyingGuidance": "One of the best all-around reef fish when the aquarist wants real color without stepping into a hard fish. The important setup point is cover: give it caves and ledges, and it usually becomes a hardy visible community fish instead of a nervous fish in a too-open scape."
   },
   {
     "id": "dottyback-orchid",
@@ -117,7 +121,11 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Mar Rojo",
     "headerSummary": "Vivid purple dottyback from the Red Sea. Look for intense electric purple body that practically glows under reef lighting. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Solid electric-purple body with a sleek cave-loving profile and none of the stripes or split colors seen in many other pseudochromis species.",
+    "behavior": "Captive-bred orchid dottybacks spend much of the day weaving through caves and short rock corridors, then perching confidently at the entrance to their chosen shelter. They are calmer than many dottybacks, but still carry the quick territorial confidence typical of the group.",
+    "feedingNotes": "These fish usually adapt well to frozen and prepared meaty foods. The main feeding issue is not reluctance to eat, but making sure the tank is not so small and crowded that the dottyback turns every feeding into a territory argument.",
+    "buyingGuidance": "A strong choice when the aquarist wants dottyback color without the worst dottyback temperament. Captive-bred specimens are the safer recommendation, especially in smaller reefs where wild fish can be much more combative."
   },
   {
     "id": "blackcap-basslet",
@@ -147,7 +155,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Blackcap Basslet",
@@ -177,7 +185,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -208,7 +216,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Candy Basslet",
@@ -238,7 +246,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -269,7 +277,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Fridmani Dottyback",
@@ -299,7 +307,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -330,7 +338,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Indigo Dottyback",
@@ -360,7 +368,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -391,7 +399,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Neon Dottyback",
@@ -421,7 +429,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -452,7 +460,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Randall's Assessor",
@@ -482,7 +490,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -513,7 +521,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Sankeyi Dottyback",
@@ -543,7 +551,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -574,7 +582,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Springeri Dottyback",
@@ -604,7 +612,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -635,7 +643,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Strawberry Dottyback",
@@ -665,7 +673,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -696,7 +704,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Rockwork and secure retreats matter as much as open swimming space here."
     ],
     "photoTitle": "Sunrise Dottyback",
@@ -726,7 +734,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Best matched to rockwork-heavy layouts with sensible territory planning.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -787,7 +795,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -848,7 +856,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Rockwork-oriented cave fish with strong color and a territorial streak. Plan on roughly 15+ gal or larger long term.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -921,7 +929,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Vibrant bicolor purple-and-yellow dottyback. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -994,7 +1002,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Vivid purple dottyback from the Red Sea. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   },
   {
@@ -1067,7 +1075,7 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "headerSummary": "Electric blue cave-dwelling nano fish. Plan on roughly 15+ gal or larger long term.",
     "behavior": "Expect a fish that claims a crevice or cave and then makes quick confident dashes out into view.",
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Great for buyers who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
+    "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
   }
 ];

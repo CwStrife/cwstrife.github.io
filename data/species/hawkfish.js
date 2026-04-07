@@ -1,4 +1,3 @@
-window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
   {
     "id": "flame-hawkfish",
@@ -23,16 +22,16 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "invertRisk": 35,
     "careDifficulty": 20,
     "role": "Vivid red perching predator with personality",
-    "visualCue": "Solid bright red body with dark-rimmed eyes. Perches on coral and rock, watching everything.",
-    "overview": "A charismatic little predator that perches on rocks and coral heads, watching the tank like a hawk. Vivid red color and loads of personality.",
+    "visualCue": "Bright red body with darker facial markings and a classic hawkfish perched stance.",
+    "overview": "One of the most personable hawkfish in the trade: bold, visible, and constantly perched out in the open. It works in many reefs, but not in shrimp-heavy reefs where ornamental shrimp are expected to stay safe.",
     "facts": [
-      "Perches and watches — more personality than most fish this size.",
-      "Will eat small ornamental shrimp and crabs.",
-      "Very hardy and easy to feed."
+      "Usually a confident perch-and-watch fish that becomes a favorite because it is always visible.",
+      "Often ignores similarly sized fish but can make a meal of small shrimp once it settles in.",
+      "Does not have a swim bladder, so the perched, hop-like movement is normal for hawkfish."
     ],
     "bestWith": [
       "Reef tanks without tiny invertebrates",
-      "Owners wanting personality over speed",
+      "keepers wanting personality over speed",
       "Medium-sized communities"
     ],
     "cautionWith": [
@@ -57,12 +56,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "role_es": "Depredador rojo vívido con personalidad",
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Central",
-    "headerSummary": "Bold perching personality fish that customers notice quickly. Look for solid bright red body with dark-rimmed eyes. perches on coral and rock, watching everything. Plan on at least 30+ gal.",
+    "headerSummary": "Bright red, highly visible hawkfish with lots of personality and a real taste for small crustaceans. Great display fish when the tank is not built around shrimp.",
     "seasonal": null,
-    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
-    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
-    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
-    "recognitionNotes": "Solid bright red body with dark-rimmed eyes. Perches on coral and rock, watching everything."
+    "behavior": "Perching ambush predator that spends much of the day sitting on rock, coral branches, or pump guards and then lunging at food or small crustaceans. Flame hawkfish are usually bolder than many small reef fish and quickly learn the whole room is watching them.",
+    "feedingNotes": "Easy to keep on frozen meaty foods, pellets, and mixed prepared diets once established. The feeding challenge is usually not willingness to eat—it is deciding whether tiny crustacean tankmates are worth the risk.",
+    "buyingGuidance": "Recommend it when the aquarist wants personality and visibility in a smaller predator-leaning reef fish. Make the shrimp warning clear, because that is the compatibility point most likely to matter later.",
+    "recognitionNotes": "Solid red body with darker accents around the face and dorsal area, usually perched where it can survey the tank."
   },
   {
     "id": "longnose-hawk",
@@ -87,24 +86,24 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "invertRisk": 28,
     "careDifficulty": 22,
     "role": "Unique checkered hawkfish that perches on corals",
-    "visualCue": "White body with red crosshatch pattern and an elongated pointed snout.",
-    "overview": "One of the most distinctive-looking reef fish. The checkered pattern and long snout make it instantly recognizable. Perches on sea fans and gorgonians.",
+    "visualCue": "Very long pointed snout with red-and-white lattice patterning.",
+    "overview": "A classic branch-perching hawkfish known for its long snout, checkered red-and-white body pattern, and habit of picking food from narrow spaces. It is often more elegant and less blocky-looking than the chunkier hawkfish species.",
     "facts": [
-      "The crosshatch pattern is unlike anything else in the hobby.",
-      "Perches on gorgonians and sea fans in the wild.",
-      "Can jump — needs a covered tank."
+      "Long snout helps it pick at small prey tucked into branches and crevices.",
+      "Usually spends a lot of time around branching rockwork or coral structure.",
+      "Still carries the usual hawkfish warning about tiny shrimp and very small ornamental crustaceans."
     ],
     "bestWith": [
       "Tanks with gorgonians or branching corals to perch on",
       "Medium-sized communities",
-      "Owners wanting a unique conversation piece"
+      "keepers wanting a unique conversation piece"
     ],
     "cautionWith": [
       "Small ornamental shrimp",
       "Open-top tanks",
       "Very aggressive large fish"
     ],
-    "staffNote": "One of those fish that customers notice and ask about. The pattern is a conversation starter.",
+    "staffNote": "One of those fish that aquarists notice and ask about. The pattern is a conversation starter.",
     "photoTitle": "Oxycirrhites typus",
     "inStock": false,
     "badges": [],
@@ -121,12 +120,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "role_es": "Pez halcón cuadriculado único que se posa en corales",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Bold perching personality fish that customers notice quickly. Look for white body with red crosshatch pattern and an elongated pointed snout. Plan on at least 30+ gal.",
+    "headerSummary": "Branch-perching hawkfish with a long snout and red-white lattice pattern. Excellent display fish for reef structures that do not rely on tiny shrimp surviving forever.",
     "seasonal": null,
-    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
-    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
-    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
-    "recognitionNotes": "White body with red crosshatch pattern and an elongated pointed snout."
+    "behavior": "Perching ambush predator that spends much of the day sitting on rock, coral branches, or pump guards and then lunging at food or small crustaceans. This species especially likes elevated perches and branching structure where the long snout can probe into gaps.",
+    "feedingNotes": "Readily accepts frozen meaty foods and quality prepared diets. A varied meaty routine keeps it in good weight and helps reduce constant hunting pressure on tiny crustaceans.",
+    "buyingGuidance": "A strong choice when the aquarist wants hawkfish personality but prefers a more refined, branch-associated species. Still not a free pass for sexy shrimp, tiny cleaners, or other snack-sized crustaceans.",
+    "recognitionNotes": "Very long pointed snout, white body with red grid-like patterning, and a habit of perching high in branching structure."
   },
   {
     "id": "arc-eye-hawkfish",
@@ -152,12 +151,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "careDifficulty": 42,
     "role": "Perching ambush fish with character and real shrimp-compatibility questions",
     "role_es": "",
-    "overview": "Arc Eye Hawkfish is a perching ambush fish with great personality and real shrimp-compatibility questions.",
+    "overview": "A tougher, stockier hawkfish that feels more like a small ambush predator than a nano ornament. Like other hawkfish, it is usually fish-safe with sensible tankmates but remains risky around tiny shrimp and very small decorative crustaceans.",
     "overview_es": "",
     "facts": [
-      "Small ornamental invertebrates or undersized tankmates should not be assumed safe here.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Small shrimp remain the big compatibility question with hawkfish."
+      "Perching posture and quick lunges are normal hawkfish behavior, not signs of distress.",
+      "Most compatibility trouble is directed at small crustaceans rather than similarly sized fish.",
+      "Rock shelves, overhangs, and observation perches help hawkfish settle in and show naturally."
     ],
     "photoTitle": "Arc Eye Hawkfish",
     "inStock": false,
@@ -172,7 +171,7 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.",
+    "visualCue": "Look for larger, sturdier hawkfish with the dark arc behind the eye.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -182,12 +181,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
       "Timid tankmates or crowded stocking plans",
       "Corals or polyps that could be nipped or disturbed"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed.",
-    "headerSummary": "Perching ambush fish with character and real shrimp-compatibility questions. Shrimp compatibility should be part of the conversation before the sale.",
-    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
-    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
-    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
-    "recognitionNotes": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements."
+    "staffNote": "Lead with a quick conversation about territory, adult size, and tankmate choice. This is an intermediate profile that should not be rushed.",
+    "headerSummary": "Perching hawkfish with strong personality and predictable small-crustacean risk. Best in reefs where the owner likes the behavior and is not counting on tiny shrimp lasting forever.",
+    "behavior": "Perching ambush predator that spends much of the day sitting on rock, coral branches, or pump guards and then lunging at food or small crustaceans. It usually claims a few favorite lookout posts and returns to them constantly through the day.",
+    "feedingNotes": "Frozen mysis, chopped meaty foods, and prepared carnivore diets are usually accepted readily. A well-fed hawkfish is still a hawkfish, so feeding does not erase the shrimp risk entirely.",
+    "buyingGuidance": "Best for aquarists who like visible ambush-predator behavior and understand that “reef safe with caution” usually means shrimp caution first. Pick this lane because you enjoy the fish, not because you forgot about the cleanup crew.",
+    "recognitionNotes": "Look for larger, sturdier hawkfish with the dark arc behind the eye."
   },
   {
     "id": "falco-hawkfish",
@@ -213,12 +212,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "careDifficulty": 42,
     "role": "Perching ambush fish with character and real shrimp-compatibility questions",
     "role_es": "",
-    "overview": "Falco Hawkfish is a perching ambush fish with great personality and real shrimp-compatibility questions.",
+    "overview": "A smaller camouflaged hawkfish that brings the same perch-and-pounce attitude in a more compact package. Like other hawkfish, it is usually fish-safe with sensible tankmates but remains risky around tiny shrimp and very small decorative crustaceans.",
     "overview_es": "",
     "facts": [
-      "Small ornamental invertebrates or undersized tankmates should not be assumed safe here.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Small shrimp remain the big compatibility question with hawkfish."
+      "Perching posture and quick lunges are normal hawkfish behavior, not signs of distress.",
+      "Most compatibility trouble is directed at small crustaceans rather than similarly sized fish.",
+      "Rock shelves, overhangs, and observation perches help hawkfish settle in and show naturally."
     ],
     "photoTitle": "Falco Hawkfish",
     "inStock": false,
@@ -233,7 +232,7 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.",
+    "visualCue": "Look for compact body and mottled camouflage that helps it disappear on rock and rubble.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -243,12 +242,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
       "Timid tankmates or crowded stocking plans",
       "Corals or polyps that could be nipped or disturbed"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed.",
-    "headerSummary": "Perching ambush fish with character and real shrimp-compatibility questions. Shrimp compatibility should be part of the conversation before the sale.",
-    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
-    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
-    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
-    "recognitionNotes": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements."
+    "staffNote": "Lead with a quick conversation about territory, adult size, and tankmate choice. This is an intermediate profile that should not be rushed.",
+    "headerSummary": "Perching hawkfish with strong personality and predictable small-crustacean risk. Best in reefs where the owner likes the behavior and is not counting on tiny shrimp lasting forever.",
+    "behavior": "Perching ambush predator that spends much of the day sitting on rock, coral branches, or pump guards and then lunging at food or small crustaceans. It usually claims a few favorite lookout posts and returns to them constantly through the day.",
+    "feedingNotes": "Frozen mysis, chopped meaty foods, and prepared carnivore diets are usually accepted readily. A well-fed hawkfish is still a hawkfish, so feeding does not erase the shrimp risk entirely.",
+    "buyingGuidance": "Best for aquarists who like visible ambush-predator behavior and understand that “reef safe with caution” usually means shrimp caution first. Pick this lane because you enjoy the fish, not because you forgot about the cleanup crew.",
+    "recognitionNotes": "Look for compact body and mottled camouflage that helps it disappear on rock and rubble."
   },
   {
     "id": "freckled-hawkfish",
@@ -274,12 +273,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "careDifficulty": 42,
     "role": "Perching ambush fish with character and real shrimp-compatibility questions",
     "role_es": "",
-    "overview": "Freckled Hawkfish is a perching ambush fish with great personality and real shrimp-compatibility questions.",
+    "overview": "A more rugged-looking hawkfish with the same classic habit of parking on rock and watching everything. Like other hawkfish, it is usually fish-safe with sensible tankmates but remains risky around tiny shrimp and very small decorative crustaceans.",
     "overview_es": "",
     "facts": [
-      "Small ornamental invertebrates or undersized tankmates should not be assumed safe here.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Small shrimp remain the big compatibility question with hawkfish."
+      "Perching posture and quick lunges are normal hawkfish behavior, not signs of distress.",
+      "Most compatibility trouble is directed at small crustaceans rather than similarly sized fish.",
+      "Rock shelves, overhangs, and observation perches help hawkfish settle in and show naturally."
     ],
     "photoTitle": "Freckled Hawkfish",
     "inStock": false,
@@ -294,7 +293,7 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.",
+    "visualCue": "Look for heavier freckling and a more robust body shape.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -304,12 +303,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
       "Timid tankmates or crowded stocking plans",
       "Corals or polyps that could be nipped or disturbed"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed.",
-    "headerSummary": "Perching ambush fish with character and real shrimp-compatibility questions. Shrimp compatibility should be part of the conversation before the sale.",
-    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
-    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
-    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
-    "recognitionNotes": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements."
+    "staffNote": "Lead with a quick conversation about territory, adult size, and tankmate choice. This is an intermediate profile that should not be rushed.",
+    "headerSummary": "Perching hawkfish with strong personality and predictable small-crustacean risk. Best in reefs where the owner likes the behavior and is not counting on tiny shrimp lasting forever.",
+    "behavior": "Perching ambush predator that spends much of the day sitting on rock, coral branches, or pump guards and then lunging at food or small crustaceans. It usually claims a few favorite lookout posts and returns to them constantly through the day.",
+    "feedingNotes": "Frozen mysis, chopped meaty foods, and prepared carnivore diets are usually accepted readily. A well-fed hawkfish is still a hawkfish, so feeding does not erase the shrimp risk entirely.",
+    "buyingGuidance": "Best for aquarists who like visible ambush-predator behavior and understand that “reef safe with caution” usually means shrimp caution first. Pick this lane because you enjoy the fish, not because you forgot about the cleanup crew.",
+    "recognitionNotes": "Look for heavier freckling and a more robust body shape."
   },
   {
     "id": "pixy-hawkfish",
@@ -335,12 +334,12 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "careDifficulty": 42,
     "role": "Perching ambush fish with character and real shrimp-compatibility questions",
     "role_es": "",
-    "overview": "Pixy Hawkfish is a perching ambush fish with great personality and real shrimp-compatibility questions.",
+    "overview": "A compact hawkfish that works well when the goal is hawkfish personality without moving into one of the bigger, chunkier species. Like other hawkfish, it is usually fish-safe with sensible tankmates but remains risky around tiny shrimp and very small decorative crustaceans.",
     "overview_es": "",
     "facts": [
-      "Small ornamental invertebrates or undersized tankmates should not be assumed safe here.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Small shrimp remain the big compatibility question with hawkfish."
+      "Perching posture and quick lunges are normal hawkfish behavior, not signs of distress.",
+      "Most compatibility trouble is directed at small crustaceans rather than similarly sized fish.",
+      "Rock shelves, overhangs, and observation perches help hawkfish settle in and show naturally."
     ],
     "photoTitle": "Pixy Hawkfish",
     "inStock": false,
@@ -355,7 +354,7 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements.",
+    "visualCue": "Look for small body, crisp patterning, and a compact reef-percher look.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -365,11 +364,11 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
       "Timid tankmates or crowded stocking plans",
       "Corals or polyps that could be nipped or disturbed"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed.",
-    "headerSummary": "Perching ambush fish with character and real shrimp-compatibility questions. Shrimp compatibility should be part of the conversation before the sale.",
-    "behavior": "Perching ambush fish that likes to sit high, watch the tank, and dart only when it sees something interesting. Personality is usually bold and entertaining, but smaller ornamental shrimp are often a real concern.",
-    "feedingNotes": "Protein-based frozen and prepared foods are usually the safest plan. Hawkfish generally adapt well to prepared feeding, but the store should still explain that tiny ornamental crustaceans can look like snacks.",
-    "buyingGuidance": "Very good for personality and visibility, but always ask about shrimp and other small ornamental crustaceans before recommending one. The sale works best when the customer wants a perch-and-watch fish and understands the invert tradeoff.",
-    "recognitionNotes": "Look for a perch-oriented fish that rests on rockwork and makes short, watchful movements."
+    "staffNote": "Lead with a quick conversation about territory, adult size, and tankmate choice. This is an intermediate profile that should not be rushed.",
+    "headerSummary": "Perching hawkfish with strong personality and predictable small-crustacean risk. Best in reefs where the owner likes the behavior and is not counting on tiny shrimp lasting forever.",
+    "behavior": "Perching ambush predator that spends much of the day sitting on rock, coral branches, or pump guards and then lunging at food or small crustaceans. It usually claims a few favorite lookout posts and returns to them constantly through the day.",
+    "feedingNotes": "Frozen mysis, chopped meaty foods, and prepared carnivore diets are usually accepted readily. A well-fed hawkfish is still a hawkfish, so feeding does not erase the shrimp risk entirely.",
+    "buyingGuidance": "Best for aquarists who like visible ambush-predator behavior and understand that “reef safe with caution” usually means shrimp caution first. Pick this lane because you enjoy the fish, not because you forgot about the cleanup crew.",
+    "recognitionNotes": "Look for small body, crisp patterning, and a compact reef-percher look."
   }
 ];

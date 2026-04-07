@@ -1,4 +1,3 @@
-window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Urchins"] = [
   {
     "id": "tuxedo-urchin",
@@ -24,12 +23,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "invertRisk": 2,
     "careDifficulty": 14,
     "role": "Decorative algae-eating urchin that wears debris",
-    "visualCue": "Blue and black banded body. Picks up shells, rubble, and coral frags to wear as camouflage.",
-    "overview": "A highly effective algae eater that also provides entertainment — it picks up loose items and carries them around as decoration. Kids and adults both love watching it.",
+    "visualCue": "Compact round urchin with short spines and bits of rubble carried on top.",
+    "overview": "Compact grazer famous for both algae utility and the habit of carrying bits of shell, rubble, or macro on its body like decorations. One of the most reef-friendly urchin choices when the tank has enough grazing and the owner secures loose frags.",
     "facts": [
-      "Picks up and wears loose items — frags, shells, rocks.",
-      "Very effective algae grazer.",
-      "The carrying behavior is a major selling point."
+      "Excellent on film algae and coralline films, though heavy coralline grazing can be a downside in display reefs.",
+      "Often carries shells, frags, or rubble as camouflage, which is funny until it steals something small and unsecured.",
+      "Shorter spines make it more manageable than the huge long-spine urchin types."
     ],
     "bestWith": [
       "Any reef tank with algae",
@@ -40,7 +39,7 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
       "Loose coral frags it might carry off and knock over",
       "Tanks with zero algae — it will starve"
     ],
-    "staffNote": "Show customers the carrying behavior. It's the selling point.",
+    "staffNote": "Show aquarists the carrying behavior. It's The main appeal.",
     "photoTitle": "Mespilia globulus",
     "inStock": false,
     "badges": [],
@@ -57,8 +56,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "role_es": "Erizo comedor de algas que carga objetos",
     "diet_es": "Herbívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Decorative algae-eating urchin that wears debris. Look for blue and black banded body. Picks up shells, rubble, and coral frags to wear as camouflage. Plan on at least 20+ gal.",
-    "seasonal": null
+    "headerSummary": "Popular compact urchin with real algae-grazing value and a comical habit of wearing rubble as a hat. Great reef urchin when the aquascape is secured.",
+    "seasonal": null,
+    "behavior": "Usually cruises rockwork methodically, grazing and periodically collecting bits of debris to carry on the spines. That carrying behavior is normal and one of the reasons tuxedo urchins are so entertaining in reef tanks.",
+    "feedingNotes": "Needs real algal films or supplemental vegetable foods once the display gets too clean. Like many cleanup animals, it does best when there is ongoing work instead of one giant binge followed by starvation.",
+    "buyingGuidance": "A strong recommendation for reef keepers who want a manageable urchin with genuine grazing value. Just mention the camouflage habit and the chance it relocates tiny frags or shell decorations.",
+    "recognitionNotes": "Round compact urchin with short neat spines and a tendency to carry bits of rubble or shell on top."
   },
   {
     "id": "collector-urchin",
@@ -84,12 +87,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "careDifficulty": 24,
     "role": "Active algae urchin that loves to carry shells, rubble, and loose frags as camouflage",
     "role_es": "",
-    "overview": "A strong algae grazer with the classic urchin habit of decorating itself with whatever it can grab. Great when the buyer enjoys that behavior and has a tank that can tolerate a little harmless rearranging.",
+    "overview": "A larger, more assertive urchin known for collecting and carrying loose tank items while it grazes. Useful and impressive, but more likely than a tuxedo to rearrange unsecured frags or decorations.",
     "overview_es": "",
     "facts": [
-      "Will carry shells, rubble, and sometimes loose coral frags.",
-      "Needs ongoing algae or supplemental grazing support in clean tanks.",
-      "Safer with secure frags and stable rockwork."
+      "Strong collector behavior makes it notorious for wearing shells, rubble, algae, and loose frags.",
+      "Can be a very effective grazer in tanks with enough mature rock.",
+      "Size and strength mean it deserves more respect than the neat little tuxedo forms."
     ],
     "photoTitle": "Tripneustes gratilla",
     "inStock": false,
@@ -104,10 +107,10 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "round urchin body often hidden under a pile of shells, rubble, or coral plugs it has collected.",
+    "visualCue": "Larger urchin often covered in carried shells, rubble, or frags.",
     "bestWith": [
       "Established algae-bearing reefs",
-      "Customers who like visible odd behavior",
+      "aquarists who like visible odd behavior",
       "Rockwork with stable footing"
     ],
     "cautionWith": [
@@ -115,8 +118,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
       "Ultra-clean sterile systems",
       "Tiny tanks where an urchin quickly becomes oversized"
     ],
-    "staffNote": "Good algae worker. Just warn buyers that it will redecorate with loose objects.",
-    "headerSummary": "Active algae urchin that loves to carry shells, rubble, and loose frags as camouflage. Look for round urchin body often hidden under a pile of shells, rubble, or coral plugs it has collected. Plan on at least 30+ gal."
+    "staffNote": "Good algae worker. Just warn aquarists that it will redecorate with loose objects.",
+    "headerSummary": "Large collecting urchin with solid grazing value and a very real talent for stealing unsecured tank decor. Best for mature reefs with stable rockwork and secured frags.",
+    "behavior": "Moves steadily over rockwork grazing and grabbing loose material to carry, often turning itself into a slow-moving bouquet of tank debris. The grazing is useful; the redecorating is the trade-off.",
+    "feedingNotes": "Needs ample grazing and may need supplemental algae foods in polished systems. Like larger turbo snails, it is best stocked because the tank has real work for it, not because a crew list said “add an urchin.”",
+    "buyingGuidance": "Recommend only when the owner likes the idea of an active grazer and can tolerate the rearranging behavior. If the reef is built around delicate unsecured frags, this is a poor fit.",
+    "recognitionNotes": "Larger urchin with obvious habit of carrying multiple bits of shell, rubble, and decor on the spines."
   },
   {
     "id": "halloween-urchin",
@@ -142,12 +149,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "careDifficulty": 24,
     "role": "Colorful algae-eating urchin with the same debris-carrying habits that make urchins fun and annoying",
     "role_es": "",
-    "overview": "Sold mainly for color plus cleanup value. Like other carrying urchins, it needs buyers who can laugh when a loose frag plug goes for a walk instead of assuming the tank will stay untouched.",
+    "overview": "Eye-catching urchin with orange-and-dark banded spines and solid grazing behavior, but more size and presence than the compact tuxedo group. It is a better fit for roomy mature reefs than for tiny fragile nano displays.",
     "overview_es": "",
     "facts": [
-      "Strong grazer on algae and films over hard surfaces.",
-      "Will pick up loose items and wear them as cover.",
-      "Needs a mature tank with real food available."
+      "Known for striking orange-black coloration and longer decorative spines.",
+      "Can graze effectively but also push or lift loose items as it works.",
+      "Better viewed as a medium-to-large reef urchin than as a miniature cleanup accent."
     ],
     "photoTitle": "Tripneustes gratilla",
     "inStock": false,
@@ -162,19 +169,23 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "orange to reddish body accents and short decorative spines, often partly covered with shells or rubble.",
+    "visualCue": "Orange and dark banded spines on a larger showier urchin.",
     "bestWith": [
       "Established mixed reefs",
-      "Customers who want a colorful urchin",
+      "aquarists who want a colorful urchin",
       "Tanks with secure coral placement"
     ],
     "cautionWith": [
       "Brand-new tanks",
       "Unsecured frags and decorative rubble",
-      "Customers wanting a hands-off precision cleanup animal"
+      "aquarists wanting a hands-off precision cleanup animal"
     ],
-    "staffNote": "Very saleable if the buyer likes urchin behavior and has secure frags.",
-    "headerSummary": "Colorful algae-eating urchin with the same debris-carrying habits that make urchins fun and annoying. Look for orange to reddish body accents and short decorative spines, often partly covered with shells or rubble. Plan on at least 30+ gal."
+    "staffNote": "Very appealing if the aquarist likes urchin behavior and has secure frags.",
+    "headerSummary": "Striking orange-and-dark reef urchin with real grazing value and more size than the tuxedo types. Great look, but not a tiny tank toy.",
+    "behavior": "Usually grazes openly and steadily, drawing more attention than plain cleanup crew because of the color and spine length. Like other active urchins, it works best in tanks where loose decor is secured.",
+    "feedingNotes": "Needs ongoing algae support or supplemental foods once the display is too clean. An urchin this visible should be bought because the tank can feed it, not just because it photographs well.",
+    "buyingGuidance": "Recommend when the keeper wants a colorful urchin and has enough mature rock and room to support one. Avoid pitching it into delicate nanos where every movement knocks something loose.",
+    "recognitionNotes": "Orange-and-dark banded spines with a larger more dramatic overall reef-urchin look."
   },
   {
     "id": "long-spine-urchin",
@@ -200,12 +211,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "careDifficulty": 34,
     "role": "High-capacity algae grazer with dramatic long spines that demands real space and careful handling",
     "role_es": "Erizo clásico de espinas largas negras para control de algas",
-    "overview": "A powerful grazer, but not a casual nano-reef purchase. This is for customers with room, respect for the spines, and a tank layout that will not turn every pass into a collision event.",
+    "overview": "Iconic black long-spine urchin with major algae-grazing ability and equally major spine length. Impressive and useful, but it needs room, careful handling, and a tank layout that can tolerate a much more dramatic urchin than the compact decorative species.",
     "overview_es": "El icónico erizo de mar de espinas largas. Extremadamente efectivo comedor de algas pero las espinas venenosas pueden picar.",
     "facts": [
-      "Excellent grazer on algae and open rock surfaces.",
-      "Spines are long, sharp, and easy to bump during maintenance.",
-      "Needs larger tanks with enough footprint for safe movement."
+      "Very long sharp spines change how you clean and work inside the tank.",
+      "Can become a centerpiece grazer rather than a subtle cleanup animal.",
+      "Best in larger systems where its size and spine reach are not constant obstacles."
     ],
     "photoTitle": "Diadema setosum",
     "inStock": false,
@@ -220,7 +231,7 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "black body with extremely long needle-like spines that radiate far beyond the shell.",
+    "visualCue": "Round black body with extremely long needle-like spines.",
     "bestWith": [
       "Larger algae-bearing reefs",
       "Experienced keepers",
@@ -231,8 +242,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
       "Careless maintenance around long spines",
       "Expecting a cute decorative urchin instead of a serious grazer"
     ],
-    "staffNote": "Make the buyer picture the actual spine span before they buy it.",
-    "headerSummary": "High-capacity algae grazer with dramatic long spines that demands real space and careful handling. Look for black body with extremely long needle-like spines that radiate far beyond the shell. Plan on at least 75+ gal."
+    "staffNote": "Make the aquarist picture the actual spine span before they buy it.",
+    "headerSummary": "Large long-spine urchin with strong grazing power and serious spine caution. Excellent worker in the right big reef, awkward in cramped displays.",
+    "behavior": "Usually moves like a slow black satellite dish across rockwork, grazing while the spines define a huge personal bubble. That dramatic footprint is exactly why it needs more planning than small decorative urchins.",
+    "feedingNotes": "Needs significant grazing opportunity or supplemental algae foods to stay healthy long term. A starving long-spine urchin in a polished reef is just a dangerous-looking underfed animal.",
+    "buyingGuidance": "Recommend only when the aquarist specifically wants this classic urchin and has room to live with the spines. It is a deliberate large-tank choice, not a cleanup impulse add.",
+    "recognitionNotes": "Round black urchin with extremely long needle-like spines extending far beyond the body."
   },
   {
     "id": "pencil-urchin",
@@ -258,12 +273,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "careDifficulty": 32,
     "role": "Chunky urchin better suited to fishy mixed systems than to delicate reef-frag displays",
     "role_es": "",
-    "overview": "Very cool-looking urchin, but one that deserves a more cautious sales pitch than tuxedo or carrying species. Pencil urchins can bulldoze, rasp surfaces, and generally act like a bigger rougher animal in the tank.",
+    "overview": "A chunky thick-spined urchin with lots of personality, but much less of a tidy reef-safe grazer than the tuxedo-type species. Pencil urchins are often chosen for looks and oddball appeal, not because they are the safest cleanup urchin.",
     "overview_es": "",
     "facts": [
-      "Thicker spines make it more of a bulldozer around loose items.",
-      "May rasp encrusting surfaces and bother delicate sessile life while grazing.",
-      "Best sold into tanks with room and realistic expectations."
+      "Thick blunt spines make it look very different from the fine-spined grazing urchins.",
+      "Can be more opportunistic around sessile life than the classic reef-safe urchin favorites.",
+      "Often better in fish-only or cautiously planned mixed systems than in delicate coral displays."
     ],
     "photoTitle": "Eucidaris tribuloides",
     "inStock": false,
@@ -278,7 +293,7 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "thick blunt pencil-like spines that make it look heavier and rougher than tuxedo-style urchins.",
+    "visualCue": "Chunky urchin with thick blunt pencil-like spines.",
     "bestWith": [
       "Larger fishy reef systems",
       "Rocky tanks with natural algae",
@@ -287,10 +302,14 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "cautionWith": [
       "High-end frag gardens",
       "Tiny reefs with delicate placement",
-      "Customers assuming every urchin is equally reef gentle"
+      "aquarists assuming every urchin is equally reef gentle"
     ],
     "staffNote": "Cool animal, just not the safest urchin for delicate coral displays.",
-    "headerSummary": "Chunky urchin better suited to fishy mixed systems than to delicate reef-frag displays. Look for thick blunt pencil-like spines that make it look heavier and rougher than tuxedo-style urchins. Plan on at least 75+ gal."
+    "headerSummary": "Oddball thick-spined urchin with personality and a lower reef-safety score than tuxedo-style grazers. Great look, more caution.",
+    "behavior": "More of a slow heavy rover than a neat precision grazer, with an obvious ability to shove around as it goes. The appeal is visual and behavioral character, not refined cleanup perfection.",
+    "feedingNotes": "Will graze, but should not be oversold as a plug-and-play algae specialist for delicate coral reefs. Supplementary foods and realistic expectations matter.",
+    "buyingGuidance": "Recommend when the owner wants a unique urchin and understands it is a rougher oddball than a tuxedo grazer. Usually not the first-choice urchin for coral-first displays.",
+    "recognitionNotes": "Thick blunt pencil-like spines and a chunkier heavier look than most reef urchins."
   },
   {
     "id": "pin-cushion-urchin",
@@ -316,12 +335,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "careDifficulty": 22,
     "role": "Classic round grazing urchin for established tanks with stable algae supply",
     "role_es": "",
-    "overview": "A dependable algae urchin for customers who want more grazing power than snails provide. It still needs the usual urchin conversation about mature tanks, secure frags, and enough natural food.",
+    "overview": "Moderate-sized algae-grazing urchin that sits between the delicate decorative tuxedo types and the more extreme long-spine or pencil species. Useful when the reef wants real grazing help without the biggest spine drama.",
     "overview_es": "",
     "facts": [
-      "Useful grazer on algae and films over hard surfaces.",
-      "May carry or nudge loose items while moving.",
-      "Needs ongoing food support once nuisance algae drops."
+      "Good general grazer on rockwork and algal films.",
+      "Still capable of moving loose objects or frags if the aquascape is not secure.",
+      "More practical than flashy, which often makes it a smart worker choice."
     ],
     "photoTitle": "Lytechinus variegatus",
     "inStock": false,
@@ -336,19 +355,23 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "dense even spine coverage that gives the classic pincushion silhouette.",
+    "visualCue": "Round urchin with moderate spine length and practical grazer look.",
     "bestWith": [
       "Established algae-bearing tanks",
       "Mixed cleanup crews needing more muscle",
-      "Customers comfortable with urchin behavior"
+      "aquarists comfortable with urchin behavior"
     ],
     "cautionWith": [
       "Ultra-clean tanks",
       "Loose frags and unsecured plugs",
       "Very small systems"
     ],
-    "staffNote": "Good middle-ground urchin sale when the tank is mature enough.",
-    "headerSummary": "Classic round grazing urchin for established tanks with stable algae supply. Look for dense even spine coverage that gives the classic pincushion silhouette. Plan on at least 30+ gal."
+    "staffNote": "Good middle-ground urchin fit when the tank is mature enough.",
+    "headerSummary": "Solid working urchin with real grazing value and manageable spine length. Best for mature reefs that want an urchin for utility first.",
+    "behavior": "Usually roams rockwork steadily and behaves like a straightforward grazer rather than an ornamental oddity. It is exactly the kind of animal that becomes more appreciated over time as the tank stays cleaner.",
+    "feedingNotes": "Needs algae and grazing support or supplemental feeding once the reef gets too polished. Like all urchins, it should be stocked because there is real work to do.",
+    "buyingGuidance": "A good recommendation for mature reefs that want a practical urchin without stepping into the most extreme species. Still remind the owner that frags should be secure and algae should exist.",
+    "recognitionNotes": "Round grazing urchin with moderate spine length and a more workmanlike appearance than showy tuxedo forms."
   },
   {
     "id": "short-spine-urchin",
@@ -374,12 +397,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "careDifficulty": 24,
     "role": "Compact rock-grazing urchin that still needs mature algae support and secure decor",
     "role_es": "",
-    "overview": "A more compact urchin option, but still not a beginner impulse purchase for sterile new tanks. Best sold into mature systems where the buyer already understands that urchins need food after the first algae wave fades.",
+    "overview": "Moderate-sized algae-grazing urchin that sits between the delicate decorative tuxedo types and the more extreme long-spine or pencil species. Useful when the reef wants real grazing help without the biggest spine drama.",
     "overview_es": "",
     "facts": [
-      "Good grazer on rock surfaces and coralline-covered areas.",
-      "Often hides in crevices when not actively feeding.",
-      "Can still move loose items despite the shorter spines."
+      "Good general grazer on rockwork and algal films.",
+      "Still capable of moving loose objects or frags if the aquascape is not secure.",
+      "More practical than flashy, which often makes it a smart worker choice."
     ],
     "photoTitle": "Echinometra",
     "inStock": false,
@@ -394,19 +417,23 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "short tighter spine coverage and a habit of wedging into rock crevices between grazing runs.",
+    "visualCue": "Round urchin with moderate spine length and practical grazer look.",
     "bestWith": [
       "Mature reef tanks",
       "Rocky layouts with crevices",
-      "Customers wanting a smaller urchin profile"
+      "aquarists wanting a smaller urchin profile"
     ],
     "cautionWith": [
       "New tanks with little algae",
       "Loose coral frags",
-      "Buyers who think smaller means no special considerations"
+      "aquarists who think smaller means no special considerations"
     ],
     "staffNote": "Smaller footprint than long-spine species, same need for a mature tank.",
-    "headerSummary": "Compact rock-grazing urchin that still needs mature algae support and secure decor. Look for short tighter spine coverage and a habit of wedging into rock crevices between grazing runs. Plan on at least 30+ gal."
+    "headerSummary": "Solid working urchin with real grazing value and manageable spine length. Best for mature reefs that want an urchin for utility first.",
+    "behavior": "Usually roams rockwork steadily and behaves like a straightforward grazer rather than an ornamental oddity. It is exactly the kind of animal that becomes more appreciated over time as the tank stays cleaner.",
+    "feedingNotes": "Needs algae and grazing support or supplemental feeding once the reef gets too polished. Like all urchins, it should be stocked because there is real work to do.",
+    "buyingGuidance": "A good recommendation for mature reefs that want a practical urchin without stepping into the most extreme species. Still remind the owner that frags should be secure and algae should exist.",
+    "recognitionNotes": "Round grazing urchin with moderate spine length and a more workmanlike appearance than showy tuxedo forms."
   },
   {
     "id": "sand-dollar",
@@ -429,7 +456,7 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "photoTitle": "Clypeaster_reticulatus",
     "role": "Flat burrowing echinoderm",
     "role_es": "Equinodermo plano excavador",
-    "overview": "Sand dollars burrow through substrate processing organic matter. Need deep sand bed. Not for beginners.",
+    "overview": "A true sand-bed specialist that belongs in mature substrate-heavy systems, not as a random decorative star-shaped oddity. Fascinating animal, but it depends on the right bed structure and food availability to survive long term.",
     "overview_es": "Excavan a través del sustrato procesando materia orgánica. Necesitan lecho de arena profundo.",
     "inStock": false,
     "price": 0,
@@ -438,9 +465,9 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "badges": [],
     "aliases": [],
     "facts": [
-      "Adult size in this catalog is listed around 4 in.",
-      "Plan around roughly 50+ gal or larger for long-term care.",
-      "Diet in this catalog: Detritivore."
+      "Lives within or on sand and depends on mature substrate conditions.",
+      "Much more specialized than most casual cleanup crews suggest.",
+      "Poor fit for bare-bottom tanks or very shallow decorative sand patches."
     ],
     "water": {
       "ph": [
@@ -464,7 +491,7 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "visualCue": "Flattened disk-like echinoderm designed for sand, not rock.",
     "bestWith": [
       "Stable systems with mature parameters",
       "Tankmates unlikely to harass or overturn invertebrates",
@@ -474,12 +501,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
       "Unstable salinity, immature systems, or rough handling",
       "Fish known to nip, flip, or harass small invertebrates"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on.",
-    "headerSummary": "Flat burrowing echinoderm. Plan on roughly 50+ gal or larger long term.",
-    "behavior": "Temperament is usually workable in a well-planned community with sensible tankmates.",
-    "feedingNotes": "Match the food size and routine to the actual species instead of relying only on the category label. Catalog diet listing: Detritivore.",
-    "buyingGuidance": "Match the sale to long-term size, feeding pattern, and compatibility instead of impulse color.",
-    "recognitionNotes": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces."
+    "staffNote": "confirm placement, tank maturity, and specific feeding needs before adding one. Treat this as an intermediate invertebrate profile, not a generic add-on.",
+    "headerSummary": "Specialized sand-bed echinoderm that needs a mature substrate and should not be treated like a general cleanup ornament.",
+    "behavior": "Usually stays in or on the substrate rather than becoming an obvious roaming display animal. Its survival is tied more to the quality of the sand bed than to whether the owner thinks it looks interesting in the store.",
+    "feedingNotes": "Needs a mature sand bed with appropriate organic and microfood support. A sterile shallow display bed is a fast route to a bad outcome.",
+    "buyingGuidance": "Recommend only when the aquarist already has a mature sand-focused system and understands this is not a decorative novelty. It is a habitat-driven purchase, not a visual impulse buy.",
+    "recognitionNotes": "Flattened disk-like echinoderm adapted to living in and on sandy substrate rather than cruising open rockwork."
   },
   {
     "id": "blue-tuxedo-urchin",
@@ -502,7 +529,7 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "photoTitle": "Mespilia_globulus",
     "role": "Colorful urchin that carries decorations",
     "role_es": "Erizo colorido que carga decoraciones",
-    "overview": "Blue and orange-red bands. Picks up objects and carries them. Excellent algae grazer.",
+    "overview": "Compact grazer famous for both algae utility and the habit of carrying bits of shell, rubble, or macro on its body like decorations. One of the most reef-friendly urchin choices when the tank has enough grazing and the owner secures loose frags.",
     "overview_es": "Bandas azules y rojo-naranja. Recoge objetos y los carga. Excelente comedor de algas.",
     "inStock": false,
     "price": 0,
@@ -511,9 +538,9 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "badges": [],
     "aliases": [],
     "facts": [
-      "Adult size in this catalog is listed around 3 in.",
-      "Plan around roughly 20+ gal or larger for long-term care.",
-      "Diet in this catalog: Herbivore."
+      "Excellent on film algae and coralline films, though heavy coralline grazing can be a downside in display reefs.",
+      "Often carries shells, frags, or rubble as camouflage, which is funny until it steals something small and unsecured.",
+      "Shorter spines make it more manageable than the huge long-spine urchin types."
     ],
     "water": {
       "ph": [
@@ -537,7 +564,7 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces.",
+    "visualCue": "Compact round urchin with short spines and bits of rubble carried on top.",
     "bestWith": [
       "Stable systems with mature parameters",
       "Tankmates unlikely to harass or overturn invertebrates",
@@ -547,11 +574,11 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
       "Unstable salinity, immature systems, or rough handling",
       "Fish known to nip, flip, or harass small invertebrates"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a easy invertebrate profile, not a generic add-on.",
-    "headerSummary": "Colorful urchin that carries decorations. Plan on roughly 20+ gal or larger long term.",
-    "behavior": "Temperament is usually workable in a well-planned community with sensible tankmates.",
-    "feedingNotes": "Match the food size and routine to the actual species instead of relying only on the category label. Catalog diet listing: Herbivore.",
-    "buyingGuidance": "Match the sale to long-term size, feeding pattern, and compatibility instead of impulse color.",
-    "recognitionNotes": "Look for spine length, spine density, and whether it carries debris or grazes exposed surfaces."
+    "staffNote": "confirm placement, tank maturity, and specific feeding needs before adding one. Treat this as an easy invertebrate profile, not a generic add-on.",
+    "headerSummary": "Popular compact urchin with real algae-grazing value and a comical habit of wearing rubble as a hat. Great reef urchin when the aquascape is secured.",
+    "behavior": "Usually cruises rockwork methodically, grazing and periodically collecting bits of debris to carry on the spines. That carrying behavior is normal and one of the reasons tuxedo urchins are so entertaining in reef tanks.",
+    "feedingNotes": "Needs real algal films or supplemental vegetable foods once the display gets too clean. Like many cleanup animals, it does best when there is ongoing work instead of one giant binge followed by starvation.",
+    "buyingGuidance": "A strong recommendation for reef keepers who want a manageable urchin with genuine grazing value. Just mention the camouflage habit and the chance it relocates tiny frags or shell decorations.",
+    "recognitionNotes": "Round compact urchin with short neat spines and a tendency to carry bits of rubble or shell on top."
   }
 ];

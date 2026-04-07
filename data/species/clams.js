@@ -58,7 +58,11 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "diet_es": "Fotosintético / filtrador",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Stunning living sculpture with iridescent mantle patterns. Look for shell with an exposed fleshy mantle displaying vivid blues, greens, purples, and gold patterns that seem to glow under reef lighting. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "This is more of a stationary light-driven display animal than a roaming invertebrate. A healthy specimen should open predictably, react to shadows, and hold a stable position once it finds footing.",
+    "feedingNotes": "Strong light, stable alkalinity/calcium support, and clean but not nutrient-stripped water matter more than dumping in random foods. Smaller specimens can benefit from fine suspended foods, but poor placement and unstable chemistry usually cause more trouble than underfeeding.",
+    "buyingGuidance": "Recommend only when the reef already has the light, chemistry, and predator compatibility for clams. Ask about angelfish, butterflyfish, pyramid snails, and whether the aquarist can actually keep calcium and alkalinity steady.",
+    "recognitionNotes": "Shell with an exposed fleshy mantle displaying vivid blues, greens, purples, and gold patterns that seem to glow under reef lighting."
   },
   {
     "id": "crocea-clam",
@@ -108,7 +112,7 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "bestWith": [
       "Strongly lit mature reef tanks",
       "Flat rock or clam cradles for secure placement",
-      "Buyers already maintaining calcium and alkalinity well"
+      "aquarists already maintaining calcium and alkalinity well"
     ],
     "cautionWith": [
       "Shaded mixed reefs",
@@ -116,7 +120,11 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
       "Fresh tanks with unstable alkalinity or salinity"
     ],
     "staffNote": "Do not undersell it because it is the small clam. Smallest giant clam does not mean easiest giant clam.",
-    "headerSummary": "Smallest giant clam with intense mantle color and rock-boring habit. Look for compact clam with a vividly patterned mantle in blue, green, gold, or mixed colors, often seated tightly against rock. Plan on at least 30+ gal."
+    "headerSummary": "Smallest giant clam with intense mantle color and rock-boring habit. Look for compact clam with a vividly patterned mantle in blue, green, gold, or mixed colors, often seated tightly against rock. Plan on at least 30+ gal.",
+    "behavior": "This is more of a stationary light-driven display animal than a roaming invertebrate. A healthy specimen should open predictably, react to shadows, and hold a stable position once it finds footing.",
+    "feedingNotes": "Strong light, stable alkalinity/calcium support, and clean but not nutrient-stripped water matter more than dumping in random foods. Smaller specimens can benefit from fine suspended foods, but poor placement and unstable chemistry usually cause more trouble than underfeeding.",
+    "buyingGuidance": "Recommend only when the reef already has the light, chemistry, and predator compatibility for clams. Ask about angelfish, butterflyfish, pyramid snails, and whether the aquarist can actually keep calcium and alkalinity steady.",
+    "recognitionNotes": "Compact clam with a vividly patterned mantle in blue, green, gold, or mixed colors, often seated tightly against rock."
   },
   {
     "id": "derasa-clam",
@@ -142,7 +150,7 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "careDifficulty": 40,
     "role": "Fast-growing giant clam that does well on the sandbed",
     "role_es": "Almeja gigante de rápido crecimiento que funciona bien sobre la arena",
-    "overview": "One of the better giant clams for buyers moving into clam care because it is typically less light-hungry than crocea or maxima. The catch is size: a healthy Derasa can become a very large sandbed animal.",
+    "overview": "One of the better giant clams for aquarists moving into clam care because it is typically less light-hungry than crocea or maxima. The catch is size: a healthy Derasa can become a very large sandbed animal.",
     "overview_es": "Una de las mejores almejas gigantes para quien empieza con clams, aunque puede crecer muchísimo y dominar la zona de arena.",
     "facts": [
       "Often grows quickly when calcium, alkalinity, and lighting stay stable.",
@@ -166,15 +174,19 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "bestWith": [
       "Mature reef tanks with open sandbed room",
       "Moderate to strong lighting",
-      "Buyers planning for long-term size rather than just current shell length"
+      "aquarists planning for long-term size rather than just current shell length"
     ],
     "cautionWith": [
       "Small tanks that cannot absorb a large adult clam",
       "Nipping angelfish or butterflyfish",
       "Weak calcium and alkalinity maintenance"
     ],
-    "staffNote": "A very good clam sale when the buyer understands the eventual footprint. Sell the adult size, not the cute juvenile size.",
-    "headerSummary": "Fast-growing giant clam that does well on the sandbed. Look for broad mantle with striped gold, tan, or brown patterning over a smoother shell with fewer dramatic scutes. Plan on at least 75+ gal."
+    "staffNote": "A very good clam fit when the aquarist understands the eventual footprint. Discuss the adult size honestly rather than letting the juvenile size set the expectation.",
+    "headerSummary": "Fast-growing giant clam that does well on the sandbed. Look for broad mantle with striped gold, tan, or brown patterning over a smoother shell with fewer dramatic scutes. Plan on at least 75+ gal.",
+    "behavior": "This is more of a stationary light-driven display animal than a roaming invertebrate. A healthy specimen should open predictably, react to shadows, and hold a stable position once it finds footing.",
+    "feedingNotes": "Strong light, stable alkalinity/calcium support, and clean but not nutrient-stripped water matter more than dumping in random foods. Smaller specimens can benefit from fine suspended foods, but poor placement and unstable chemistry usually cause more trouble than underfeeding.",
+    "buyingGuidance": "Recommend only when the reef already has the light, chemistry, and predator compatibility for clams. Ask about angelfish, butterflyfish, pyramid snails, and whether the aquarist can actually keep calcium and alkalinity steady.",
+    "recognitionNotes": "Broad mantle with striped gold, tan, or brown patterning over a smoother shell with fewer dramatic scutes."
   },
   {
     "id": "squamosa-clam",
@@ -224,15 +236,19 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "bestWith": [
       "Open reef layouts with room for a big clam",
       "Stable calcium and alkalinity support",
-      "Buyers wanting a dramatic shell form as much as mantle color"
+      "aquarists wanting a dramatic shell form as much as mantle color"
     ],
     "cautionWith": [
       "Cramped nano or midsize reefs",
       "Fish that nip clam mantles",
       "Buying based only on juvenile size"
     ],
-    "staffNote": "Strong premium clam sale, but confirm the buyer has the footprint and chemistry discipline for a long-term giant clam.",
-    "headerSummary": "Large giant clam with dramatic fluted shell scutes. Look for wide mantle over a heavy shell marked by prominent scutes or flared shell plates. Plan on at least 75+ gal."
+    "staffNote": "Strong premium clam recommendation, but confirm the aquarist has the footprint and chemistry discipline for a long-term giant clam.",
+    "headerSummary": "Large giant clam with dramatic fluted shell scutes. Look for wide mantle over a heavy shell marked by prominent scutes or flared shell plates. Plan on at least 75+ gal.",
+    "behavior": "This is more of a stationary light-driven display animal than a roaming invertebrate. A healthy specimen should open predictably, react to shadows, and hold a stable position once it finds footing.",
+    "feedingNotes": "Strong light, stable alkalinity/calcium support, and clean but not nutrient-stripped water matter more than dumping in random foods. Smaller specimens can benefit from fine suspended foods, but poor placement and unstable chemistry usually cause more trouble than underfeeding.",
+    "buyingGuidance": "Recommend only when the reef already has the light, chemistry, and predator compatibility for clams. Ask about angelfish, butterflyfish, pyramid snails, and whether the aquarist can actually keep calcium and alkalinity steady.",
+    "recognitionNotes": "Wide mantle over a heavy shell marked by prominent scutes or flared shell plates."
   },
   {
     "id": "flame-scallop",
@@ -255,7 +271,7 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "photoTitle": "Ctenoides_ales",
     "role": "Bright red filter feeder with flickering white reflective filaments",
     "role_es": "Filtrador rojo intenso con filamentos reflectantes blancos",
-    "overview": "Spectacular looking, but usually a poor casual reef purchase. Flame scallops need frequent suspended microfoods, gentle secure placement, and low harassment; most slowly starve in ordinary mixed reefs.",
+    "overview": "Spectacular looking, but usually a poor casual reef choice. Flame scallops need frequent suspended microfoods, gentle secure placement, and low harassment; most slowly starve in ordinary mixed reefs.",
     "overview_es": "Espectacular visualmente, pero mala compra casual para la mayoría de arrecifes. Necesita microalimento suspendido frecuente, colocación segura y ausencia de acoso; la mayoría muere de hambre en arrecifes normales.",
     "inStock": false,
     "price": 0,
@@ -282,14 +298,18 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "bestWith": [
       "Dedicated high-feed or non-photosynthetic systems",
       "Shaded crevice placement with good suspended food delivery",
-      "Buyers who already keep filter-feeding specialists successfully"
+      "aquarists who already keep filter-feeding specialists successfully"
     ],
     "cautionWith": [
       "Ultra-clean reefs with little suspended nutrition",
       "Fish or crabs that pick at small bivalves",
-      "Impulse decorative purchases"
+      "purely decorative add-ons without a husbandry plan"
     ],
-    "staffNote": "This is an honesty sale. Gorgeous animal, but most buyers should be told no unless they already keep difficult filter feeders well.",
-    "headerSummary": "Bright red filter feeder with flickering white reflective filaments. Look for bright red shell opening lined with thin scarlet tentacles and shimmering white reflective filaments. Plan on at least 30+ gal."
+    "staffNote": "This needs an honest conversation. Gorgeous animal, but most aquarists should be told no unless they already keep difficult filter feeders well.",
+    "headerSummary": "Bright red filter feeder with flickering white reflective filaments. Look for bright red shell opening lined with thin scarlet tentacles and shimmering white reflective filaments. Plan on at least 30+ gal.",
+    "behavior": "This is more of a stationary light-driven display animal than a roaming invertebrate. A healthy specimen should open predictably, react to shadows, and hold a stable position once it finds footing.",
+    "feedingNotes": "Strong light, stable alkalinity/calcium support, and clean but not nutrient-stripped water matter more than dumping in random foods. Smaller specimens can benefit from fine suspended foods, but poor placement and unstable chemistry usually cause more trouble than underfeeding.",
+    "buyingGuidance": "Recommend only when the reef already has the light, chemistry, and predator compatibility for clams. Ask about angelfish, butterflyfish, pyramid snails, and whether the aquarist can actually keep calcium and alkalinity steady.",
+    "recognitionNotes": "Bright red shell opening lined with thin scarlet tentacles and shimmering white reflective filaments."
   }
 ];

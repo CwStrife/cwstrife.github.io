@@ -42,3 +42,41 @@
 - Keep staff workflows simple for non-technical users.
 - Defer Shopify/POS sync until field-mapping rules are documented.
 - Continue organizing project docs so future sessions can resume quickly.
+
+## V0.092
+- Completed a broad catalog enrichment pass focused on fish-entry quality.
+- Populated behavior / feeding / buying-guidance / recognition notes across the entire 448-entry catalog.
+- Reworked tang, wrasse, and goby/blenny copy to reduce repeated boilerplate.
+- Scrubbed additional retail-style wording from species source text.
+- Smoke test passed with 0 errors, 0 warnings.
+
+
+## V0.093
+- Continued the fish-encyclopedia cleanup with a focused angelfish and anthias refinement pass.
+- Replaced generic dwarf-angel/large-angel/Genicanthus guidance so angelfish no longer share the wrong behavior language across categories.
+- Reworked anthias to better reflect feeding frequency, harem structure, and the difference between approachable species and expert-level species.
+- Smoke test passed with 0 errors, 0 warnings.
+
+
+## V0.094
+- Completed a species-aware content pass for Butterflyfish, Eels, and Lionfish.
+- Replaced generic family boilerplate in those files with more individualized behavior, feeding, recognition, and buying guidance.
+- Left UI/staff/category files alone to stay parallel-work friendly.
+
+
+## V0.095
+- Completed a species-aware content pass for Puffers and Triggerfish.
+- Replaced generic family boilerplate in those files with more individualized behavior, feeding, recognition, and buying guidance.
+- Left UI/staff/category files alone to stay parallel-work friendly.
+
+
+## V0.096
+- Completed a species-aware content pass for Rabbitfish, Hawkfish, and Inverts/Cleanup Crew.
+- Replaced generic support text in shrimp, crabs, snails, urchins, starfish, and utility-invert entries with more deliberate husbandry, feeding, and fit guidance.
+- Kept UI/staff/category files untouched to stay parallel-work friendly.
+
+
+## V0.097
+- Completed the Other Fish specialty pass.
+- Reworked specialty filefish, anglers/frogfish, waspfish, leaf scorpionfish, groupers, porkfish, and coral catshark entries so they read less like placeholders and more like real fit/behavior guidance.
+- Kept the build merge-safe by staying out of UI/staff/category files.

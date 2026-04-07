@@ -25,23 +25,23 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "careDifficulty": 76,
     "role": "Ultra-peaceful show fish with specialized feeding needs",
     "visualCue": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items.",
-    "overview": "One of the most beautiful fish in the hobby and one that customers often fall in love with immediately.",
+    "overview": "One of the most beautiful fish in the hobby and one that aquarists often fall in love with immediately.",
     "facts": [
       "Usually does best in established systems with a strong pod population or a proven prepared-food eater.",
-      "Very peaceful and reef friendly, but the diet requirement is where many buyers get into trouble.",
+      "Very peaceful and reef friendly, but the diet requirement is where many aquarists get into trouble.",
       "Mature pod support or proven prepared-food response should be treated as a requirement, not a bonus."
     ],
     "bestWith": [
       "Established reef tanks",
-      "Customers already culturing or buying pods",
+      "aquarists already culturing or buying pods",
       "Peaceful tankmates"
     ],
     "cautionWith": [
       "New sterile systems",
       "Aggressive fast feeders",
-      "Impulse beginner purchases"
+      "New keepers who have not planned for the long-term care"
     ],
-    "staffNote": "Beautiful, specialized, and best sold with a realistic feeding conversation.",
+    "staffNote": "Beautiful, specialized, and best approached with a realistic feeding conversation.",
     "photoTitle": "Mandarinfish",
     "inStock": true,
     "badges": [],
@@ -59,7 +59,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Copépodos / microfauna viva",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Ultra-peaceful show fish with specialized feeding needs. Look for psychedelic blue-green body with orange swirls and a slow hovering movement. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Low-slung, deliberate hunter that glides over rock, rubble, and sand while pecking at tiny prey almost nonstop. The beauty is obvious, but the real husbandry story is how constantly it forages and how poorly it competes against faster, rougher feeders.",
+    "feedingNotes": "Feeding success is the whole choice conversation here. Mature pod production or a clearly demonstrated prepared-food response matters more than any other sales-floor feature, because these fish spend the day hunting tiny prey rather than rushing to the surface for one large meal.",
+    "buyingGuidance": "This needs careful planning. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks under blue lights, and the safest recommendation is still the aquarist who already understands pod density, competition pressure, and patient feeding support.",
+    "recognitionNotes": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items."
   },
   {
     "id": "diamond-goby",
@@ -85,7 +89,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "careDifficulty": 40,
     "role": "Sand-sifting utility fish with lots of personality",
     "visualCue": "Pale white body marked with orange spots and a habit of shoveling mouthfuls of sand.",
-    "overview": "A practical fish that gives the customer visible utility.",
+    "overview": "A practical fish that gives the aquarist visible utility.",
     "facts": [
       "Helps stir and clean sandy areas, but can also move sand onto nearby frags or low corals.",
       "Needs enough established food in the sandbed and can become thin if the tank is too sterile.",
@@ -93,7 +97,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "bestWith": [
       "Sandbed reef tanks",
-      "Owners wanting visible activity",
+      "keepers wanting visible activity",
       "Peaceful community tanks"
     ],
     "cautionWith": [
@@ -101,7 +105,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Loose coral frags on the sand",
       "Open-top tanks"
     ],
-    "staffNote": "Easy fish to explain once buyers understand the sand-sifting behavior, jumping risk, and need for a mature bed.",
+    "staffNote": "Easy fish to explain once aquarists understand the sand-sifting behavior, jumping risk, and need for a mature bed.",
     "photoTitle": "Valenciennea puellaris",
     "inStock": true,
     "badges": [],
@@ -119,7 +123,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Carnívoro / microfauna de arena",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Sand-sifting utility fish with lots of personality. Look for pale white body marked with orange spots and a habit of shoveling mouthfuls of sand. Plan on at least 55+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Constant sand worker that lifts mouthfuls of substrate, filters for edible material, and redeposits the rest elsewhere. It gives a tank obvious movement and utility, but it also throws sand, needs real substrate area, and usually stays busiest where the bed is mature enough to support it.",
+    "feedingNotes": "A mature sand bed should be treated as part of the feeding plan, not just as décor. Supplement with meaty prepared foods, but remember that true sand sifters lose condition quickly when the substrate is too new or too sterile to contribute anything between feedings.",
+    "buyingGuidance": "Best when the tank genuinely has both the sand area and the maturity to feed a true sifting fish. The important question is not whether 55+ gal is written on paper, but whether there is enough established substrate for the fish to work without slowly thinning out.",
+    "recognitionNotes": "Pale white body marked with orange spots and a habit of shoveling mouthfuls of sand."
   },
   {
     "id": "blue-spot-jawfish",
@@ -149,19 +157,19 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "facts": [
       "Needs a secure lid because jumping is a very real risk, especially when startled.",
       "Burrow structure matters, so substrate depth and rubble are part of the care story.",
-      "Customers who want something interactive and unusual tend to love this fish."
+      "aquarists who want something interactive and unusual tend to love this fish."
     ],
     "bestWith": [
       "Covered tanks",
       "Peaceful reef systems",
-      "Owners who enjoy observing behavior"
+      "keepers who enjoy observing behavior"
     ],
     "cautionWith": [
       "Warm unstable systems",
       "Rowdy tankmates",
       "Minimal substrate"
     ],
-    "staffNote": "This one benefits from more reading space because the behavior and setup requirements are a big part of the sale.",
+    "staffNote": "This one benefits from more reading space because the behavior and setup requirements are a big part of the recommendation.",
     "photoTitle": "Opistognathus rosenblatti",
     "inStock": true,
     "badges": [
@@ -181,7 +189,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "role_es": "Pez mandíbula raro con personalidad vigilante",
     "diet_es": "Carnívoro",
     "origin_es": "Golfo de California",
-    "headerSummary": "Burrowing personality fish and collector favorite. Look for yellow-orange body covered with bright blue spots and a habit of peeking from a burrow. Plan on at least 30+ gal."
+    "headerSummary": "Burrowing personality fish and collector favorite. Look for yellow-orange body covered with bright blue spots and a habit of peeking from a burrow. Plan on at least 30+ gal.",
+    "behavior": "Burrow-centered fish that spends the day peeking, hovering, and rebuilding around a chosen entrance instead of patrolling the full tank. Jawfish are at their most engaging when the substrate is deep enough to support natural burrow behavior and the lid is secure enough to survive startle jumps.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "Recommend when the aquarist has a secure lid, real substrate depth, and the patience to let a burrow specialist settle in properly. Jawfish are all personality once established, but the system has to support digging behavior first.",
+    "recognitionNotes": "Yellow-orange body covered with bright blue spots and a habit of peeking from a burrow."
   },
   {
     "id": "lawnmower-blenny",
@@ -207,7 +219,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "careDifficulty": 22,
     "role": "Utility algae grazer with funny personality",
     "visualCue": "Mottled body, oversized expressive face, and perching behavior on rock surfaces.",
-    "overview": "A practical fish that customers often love once they understand what it does. The look is unusual, but the behavior is entertaining and the algae-control role makes it easy to explain.",
+    "overview": "A practical fish that aquarists often love once they understand what it does. The look is unusual, but the behavior is entertaining and the algae-control role makes it easy to explain.",
     "facts": [
       "Often perches and watches the room, which gives it much more personality than people expect from a grazer.",
       "Can be very useful against nuisance film algae when the tank has enough natural grazing available.",
@@ -215,7 +227,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "bestWith": [
       "Reef tanks with algae to graze",
-      "Owners wanting personality and utility",
+      "keepers wanting personality and utility",
       "Peaceful communities"
     ],
     "cautionWith": [
@@ -240,7 +252,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Herbívoro",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Utility algae grazer with funny personality. Look for mottled body, oversized expressive face, and perching behavior on rock surfaces. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Perching grazer that hops from rock to rock, pausing often to watch the room before taking another bite of film algae or biofilm. Much of the personality comes from the face, posture, and the way it treats the reef like a personal network of lookout posts.",
+    "feedingNotes": "Match the routine to the blenny type: algae and biofilm support for the true grazers, protein-forward offerings for the more darting carnivorous species, and enough distribution that a perched fish can feed without every bite being stolen midwater.",
+    "buyingGuidance": "Recommend after matching the blenny to the actual tank job: some are true grazers, some are more general pickers, and all do better when the aquarist appreciates perch-and-browse behavior.",
+    "recognitionNotes": "Mottled body, oversized expressive face, and perching behavior on rock surfaces."
   },
   {
     "id": "watchman-goby",
@@ -266,10 +282,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "careDifficulty": 18,
     "role": "Burrowing personality fish that pairs with pistol shrimp",
     "visualCue": "Bright yellow body with blue speckles and a habit of perching near its burrow entrance.",
-    "overview": "A beginner-friendly goby famous for its symbiotic pairing with pistol shrimp. The shrimp digs, the goby watches for danger. Customers love the dynamic.",
+    "overview": "A beginner-friendly goby famous for its symbiotic pairing with pistol shrimp. The shrimp digs, the goby watches for danger. Most reef keepers love the dynamic once they see it in person.",
     "facts": [
       "One of the easiest gobies to keep and one of the most personable.",
-      "The pistol shrimp pairing is a huge selling point — customers love watching them together.",
+      "The pistol shrimp pairing is a huge selling point — aquarists love watching them together.",
       "Needs a lid — will jump when startled."
     ],
     "bestWith": [
@@ -282,7 +298,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Other burrowing gobies in small spaces",
       "Very aggressive tankmates"
     ],
-    "staffNote": "Sell the shrimp pairing. It's one of the most fascinating things in the hobby for new reefers.",
+    "staffNote": "Lead with the shrimp pairing and explain why it is so compelling to watch. It's one of the most fascinating things in the hobby for new reefers.",
     "photoTitle": "Cryptocentrus cinctus",
     "inStock": false,
     "badges": [],
@@ -300,7 +316,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Burrowing personality fish that pairs with pistol shrimp. Look for bright yellow body with blue speckles and a habit of perching near its burrow entrance. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who want bottom-zone behavior and, ideally, a shrimp partnership done correctly. The better recommendation focuses on lid security, substrate, and burrow habitat rather than just the color pattern.",
+    "recognitionNotes": "Bright yellow body with blue speckles and a habit of perching near its burrow entrance."
   },
   {
     "id": "engineer-goby",
@@ -334,15 +354,15 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "bestWith": [
       "Larger tanks with deep sandbeds",
-      "Owners who enjoy watching construction behavior",
+      "keepers who enjoy watching construction behavior",
       "Secure rockwork that won't collapse"
     ],
     "cautionWith": [
       "Nano tanks",
       "Delicate aquascaping",
-      "Owners who want a static sandbed"
+      "keepers who want a static sandbed"
     ],
-    "staffNote": "Show the juvenile photo and the adult photo together. The transformation is the selling point.",
+    "staffNote": "Show the juvenile photo and the adult photo together. The transformation is The main appeal.",
     "photoTitle": "Pholidichthys_leucotaenia",
     "inStock": false,
     "badges": [],
@@ -360,7 +380,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Tunnel-building goby that looks like an eel as adult. Look for juveniles look like striped catfish in a tight school; adults are long eel-like fish with faded stripes. Plan on at least 75+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Tunnel-building fish that changes the tank physically as much as visually, with constant excavation and dramatic growth from juvenile to adult form. The behavior is fascinating, but it needs rockwork that is genuinely secured against long-term undermining.",
+    "feedingNotes": "Feed as a growing carnivore with a real appetite, not as a cute juvenile oddball. Meaty prepared and frozen foods usually work well, but long-term success also depends on giving the fish enough room and structure to behave naturally while it grows.",
+    "buyingGuidance": "This is a long-term layout decision as much as a fish choice. Recommend it to aquarists who like excavation behavior and already understand that the cute juvenile becomes a much larger, more disruptive tunnel-builder over time.",
+    "recognitionNotes": "Juveniles look like striped catfish in a tight school; adults are long eel-like fish with faded stripes."
   },
   {
     "id": "ruby-red-dragonet",
@@ -401,7 +425,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "New tanks",
       "Tanks without pod populations"
     ],
-    "staffNote": "Same feeding conversation as Mandarin but the red color makes it even more tempting to impulse buyers.",
+    "staffNote": "Same feeding conversation as Mandarin but the red color makes it even more tempting to impulse aquarists.",
     "photoTitle": "Synchiropus sycorax",
     "inStock": false,
     "badges": [],
@@ -419,7 +443,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Copépodos / microfauna viva",
     "origin_es": "Filipinas",
     "headerSummary": "Vivid red dragonet for established reef tanks. Look for bright ruby red body with intricate white-blue patterning. Stunning under any lighting. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Low-slung, deliberate hunter that glides over rock, rubble, and sand while pecking at tiny prey almost nonstop. The beauty is obvious, but the real husbandry story is how constantly it forages and how poorly it competes against faster, rougher feeders.",
+    "feedingNotes": "Feeding success is the whole choice conversation here. Mature pod production or a clearly demonstrated prepared-food response matters more than any other sales-floor feature, because these fish spend the day hunting tiny prey rather than rushing to the surface for one large meal.",
+    "buyingGuidance": "This needs careful planning. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks under blue lights, and the safest recommendation is still the aquarist who already understands pod density, competition pressure, and patient feeding support.",
+    "recognitionNotes": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items."
   },
   {
     "id": "hectors-goby",
@@ -478,7 +506,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Herbívoro / omnívoro",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Tiny peaceful algae-grazing goby for nano tanks. Look for dark body with horizontal neon blue and orange lines. Belly has a bright orange-yellow patch. Plan on at least 10+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Small, methodical grazer that spends more time inspecting sand and lower rock surfaces than chasing food in open water. These fish reward calm observation and mature surfaces more than flashy feeding response.",
+    "feedingNotes": "Use fine frozen foods, small pellets, and frequent gentle feedings that do not get dominated by larger fish. Tiny gobies often look hardy until you realize they are being outcompeted every single day.",
+    "buyingGuidance": "Best in mature calm reefs where the fish can browse naturally and avoid food competition. These are easy to underappreciate in a sterile or overly aggressive system and very rewarding in a settled reef with real micro-life.",
+    "recognitionNotes": "Dark body with horizontal neon blue and orange lines. Belly has a bright orange-yellow patch."
   },
   {
     "id": "randalls-goby",
@@ -505,7 +537,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "careDifficulty": 18,
     "role": "Hardy shrimp goby with orange and white bars",
     "visualCue": "White body with vivid orange diagonal bars and a large watchful eye.",
-    "overview": "A hardy, colorful shrimp goby that pairs beautifully with pistol shrimp. Easier to find and cheaper than Yellow Watchman but equally entertaining.",
+    "overview": "A hardy, colorful shrimp goby that pairs beautifully with pistol shrimp. Easier to find and more budget-friendly than Yellow Watchman but equally entertaining.",
     "facts": [
       "Excellent pistol shrimp pairing candidate.",
       "Very hardy and easy to feed.",
@@ -538,7 +570,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Hardy shrimp goby with orange and white bars. Look for white body with vivid orange diagonal bars and a large watchful eye. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who want bottom-zone behavior and, ideally, a shrimp partnership done correctly. The better recommendation focuses on lid security, substrate, and burrow habitat rather than just the color pattern.",
+    "recognitionNotes": "White body with vivid orange diagonal bars and a large watchful eye."
   },
   {
     "id": "court-jester-goby",
@@ -580,7 +616,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
       "Heavy competition for natural food",
       "Large aggressive tankmates"
     ],
-    "staffNote": "Beautiful but needs a mature tank. Don't sell for new setups.",
+    "staffNote": "Beautiful but needs a mature tank. Not for new setups.",
     "photoTitle": "Koumansetta rainfordi",
     "inStock": false,
     "badges": [],
@@ -598,7 +634,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Herbívoro / microfauna",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Colorful reef goby that grazes on algae and pods. Look for green and orange horizontal stripes with intricate facial markings. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Small, methodical grazer that spends more time inspecting sand and lower rock surfaces than chasing food in open water. These fish reward calm observation and mature surfaces more than flashy feeding response.",
+    "feedingNotes": "Use fine frozen foods, small pellets, and frequent gentle feedings that do not get dominated by larger fish. Tiny gobies often look hardy until you realize they are being outcompeted every single day.",
+    "buyingGuidance": "Best in mature calm reefs where the fish can browse naturally and avoid food competition. These are easy to underappreciate in a sterile or overly aggressive system and very rewarding in a settled reef with real micro-life.",
+    "recognitionNotes": "Green and orange horizontal stripes with intricate facial markings."
   },
   {
     "id": "midas-blenny",
@@ -658,7 +698,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Brilliant golden blenny that hovers in the water column. Look for solid golden-yellow body with blue accents around the eyes. Hovers mid-water unlike most blennies. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "More midwater and eel-like in movement than most blennies, often hovering in the water column and darting into a chosen hole when startled. It brings far more visible motion than the average perch-oriented blenny.",
+    "feedingNotes": "Match the routine to the blenny type: algae and biofilm support for the true grazers, protein-forward offerings for the more darting carnivorous species, and enough distribution that a perched fish can feed without every bite being stolen midwater.",
+    "buyingGuidance": "Recommend after matching the blenny to the actual tank job: some are true grazers, some are more general pickers, and all do better when the aquarist appreciates perch-and-browse behavior.",
+    "recognitionNotes": "Solid golden-yellow body with blue accents around the eyes. Hovers mid-water unlike most blennies."
   },
   {
     "id": "bicolor-blenny",
@@ -693,13 +737,13 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "bestWith": [
       "Reef tanks with rockwork",
       "Small to medium communities",
-      "Owners wanting personality"
+      "keepers wanting personality"
     ],
     "cautionWith": [
       "Prized SPS colonies",
       "Other blennies in tight quarters"
     ],
-    "staffNote": "Cheap, cheerful, and full of character. Great for new reefers.",
+    "staffNote": "budget-friendly, cheerful, and full of character. Great for new reefers.",
     "photoTitle": "Ecsenius bicolor",
     "inStock": false,
     "badges": [],
@@ -717,7 +761,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Herbívoro / omnívoro",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Two-toned blenny with expressive face. Look for front half dark brown/purple, back half bright orange. Expressive face with large eyes. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water cruising. The personality comes from territory, perching, and day-to-day behavior around the rock and sand line.",
+    "feedingNotes": "Food should reach the sand zone or chosen perch reliably so the fish is not forced to compete in the open water every time. Small meaty foods and a calm feeding rhythm usually do more good than simply adding variety for its own sake.",
+    "buyingGuidance": "A strong reef choice when the aquarist has a lid and wants personality near the sand or rockwork without stepping into a full predator profile. Cover, bottom habitat, and feeding access usually matter more than headline size.",
+    "recognitionNotes": "Front half dark brown/purple, back half bright orange. Expressive face with large eyes."
   },
   {
     "id": "spotted-mandarin",
@@ -746,7 +794,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview": "The Spotted Mandarin's pattern is arguably even more complex than its green cousin. Same feeding requirements — copepod-dependent, established tanks only.",
     "facts": [
       "Pattern is more intricate than the Green Mandarin.",
-      "Same copepod dependency — don't sell for new tanks.",
+      "Same copepod dependency — not for new tanks.",
       "Generally even less likely to accept prepared food."
     ],
     "bestWith": [
@@ -757,7 +805,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "cautionWith": [
       "New tanks",
       "Other dragonets competing for pods",
-      "Impulse purchases"
+      "unplanned additions"
     ],
     "staffNote": "Even harder to keep than Green Mandarin. Only recommend for truly established systems.",
     "photoTitle": "Synchiropus picturatus",
@@ -777,7 +825,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Copépodos / microfauna viva",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Psychedelic spotted dragonet for mature reef tanks. Look for green body covered in concentric blue and orange circles and spots. Even more intricate than the Green Mandarin. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Low-slung, deliberate hunter that glides over rock, rubble, and sand while pecking at tiny prey almost nonstop. The beauty is obvious, but the real husbandry story is how constantly it forages and how poorly it competes against faster, rougher feeders.",
+    "feedingNotes": "Feeding success is the whole choice conversation here. Mature pod production or a clearly demonstrated prepared-food response matters more than any other sales-floor feature, because these fish spend the day hunting tiny prey rather than rushing to the surface for one large meal.",
+    "buyingGuidance": "This needs careful planning. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks under blue lights, and the safest recommendation is still the aquarist who already understands pod density, competition pressure, and patient feeding support.",
+    "recognitionNotes": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items."
   },
   {
     "id": "tailspot-blenny",
@@ -836,7 +888,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Herbívoro / omnívoro",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Perfect nano blenny with distinctive tail spot. Look for tan to orange body with a prominent dark spot at the tail base and orange-highlighted eyes. Plan on at least 10+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water cruising. The personality comes from territory, perching, and day-to-day behavior around the rock and sand line.",
+    "feedingNotes": "Food should reach the sand zone or chosen perch reliably so the fish is not forced to compete in the open water every time. Small meaty foods and a calm feeding rhythm usually do more good than simply adding variety for its own sake.",
+    "buyingGuidance": "A strong reef choice when the aquarist has a lid and wants personality near the sand or rockwork without stepping into a full predator profile. Cover, bottom habitat, and feeding access usually matter more than headline size.",
+    "recognitionNotes": "Tan to orange body with a prominent dark spot at the tail base and orange-highlighted eyes."
   },
   {
     "id": "yasha-goby",
@@ -876,9 +932,9 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "cautionWith": [
       "Large aggressive fish",
       "Open-top tanks",
-      "Budget shoppers expecting goby prices"
+      "Budget reef keepers expecting goby prices"
     ],
-    "staffNote": "Premium price for a goby but the beauty justifies it. Sell the shrimp pairing.",
+    "staffNote": "Premium price for a goby but the beauty justifies it. Lead with the shrimp pairing and explain why it is so compelling to watch.",
     "photoTitle": "Stonogobiops yasha",
     "inStock": false,
     "badges": [],
@@ -896,7 +952,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Premium nano shrimp goby with elegant finnage. Look for white body with vivid red-orange horizontal stripes and an elongated first dorsal ray that looks like a flag. Plan on at least 10+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who want bottom-zone behavior and, ideally, a shrimp partnership done correctly. The better recommendation focuses on lid security, substrate, and burrow habitat rather than just the color pattern.",
+    "recognitionNotes": "White body with vivid red-orange horizontal stripes and an elongated first dorsal ray that looks like a flag."
   },
   {
     "id": "neon-goby",
@@ -936,7 +996,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "cautionWith": [
       "Very large predatory fish that might eat it"
     ],
-    "staffNote": "Cheap, tiny, useful, captive-bred. Easy recommendation.",
+    "staffNote": "budget-friendly, tiny, useful, captive-bred. Easy recommendation.",
     "photoTitle": "Elacatinus oceanops",
     "inStock": false,
     "badges": [],
@@ -954,7 +1014,11 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Caribe",
     "headerSummary": "Tiny cleaner goby that picks parasites off tankmates. Look for dark body with a brilliant neon blue horizontal stripe from nose to tail. Plan on at least 10+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Small peaceful fish that hovers near a chosen cave, ledge, or bolt-hole and relies on quick retreats instead of aggression. The best displays happen in calmer tanks where the fish feels safe enough to stay out.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong reef choice when the aquarist has a lid and wants personality near the sand or rockwork without stepping into a full predator profile. Cover, bottom habitat, and feeding access usually matter more than headline size.",
+    "recognitionNotes": "Dark body with a brilliant neon blue horizontal stripe from nose to tail."
   },
   {
     "id": "black-clown-goby",
@@ -984,7 +1048,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Tiny size makes branchy cover and peaceful tankmates especially important."
     ],
     "photoTitle": "Black Clown Goby",
@@ -1012,10 +1076,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Tiny perch-and-pivot goby suited to peaceful reef layouts. Best in peaceful reefs where tiny perch fish are not constantly outcompeted.",
-    "behavior": "Usually perches in place more than it cruises, shifting only short distances between favored spots.",
-    "feedingNotes": "Small foods and low feeding competition matter more than giant meals for a fish this size.",
-    "buyingGuidance": "A better sale for peaceful reefs than for aggressive community mixes where a tiny perch fish gets lost.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Tiny perch-and-peek goby that spends much of the day settled onto branches, polyps, or small high points rather than cruising the tank. The charm comes from close-up behavior and color contrast, not from covering a lot of water.",
+    "feedingNotes": "Use fine frozen foods, small pellets, and frequent gentle feedings that do not get dominated by larger fish. Tiny gobies often look hardy until you realize they are being outcompeted every single day.",
+    "buyingGuidance": "Excellent for smaller peaceful reefs when the aquarist enjoys close-up behavior and understands how tiny these fish really are. The right home values branch work, calmer tankmates, and detail in the rockwork rather than expecting the fish to dominate the whole tank visually.",
+    "recognitionNotes": "Tiny perch-and-peek goby with a compact chunky head and deep black body that stands out against branches and polyps."
   },
   {
     "id": "blue-dot-jawfish",
@@ -1045,7 +1109,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A secure lid and suitable burrow substrate are part of the basic care plan, not optional extras."
     ],
     "photoTitle": "Blue Dot Jawfish",
@@ -1073,10 +1137,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Burrow-building fish that needs a secure substrate and a covered tank. Requires substrate depth and a secure lid from day one.",
-    "behavior": "A settled jawfish spends much of the day hovering over its burrow and retreating fast when startled.",
-    "feedingNotes": "Deliver food in a way that lets the fish eat near the burrow instead of darting long distances into traffic.",
-    "buyingGuidance": "Only a good sale when the buyer already has the lid and substrate depth handled; otherwise the problems start immediately.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Burrow-centered fish that spends the day peeking, hovering, and rebuilding around a chosen entrance instead of patrolling the full tank. Jawfish are at their most engaging when the substrate is deep enough to support natural burrow behavior and the lid is secure enough to survive startle jumps.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "Recommend when the aquarist has a secure lid, real substrate depth, and the patience to let a burrow specialist settle in properly. Jawfish are all personality once established, but the system has to support digging behavior first.",
+    "recognitionNotes": "Upright burrow fish with a large mouth, pale body, and vivid blue spotting across the head and upper body."
   },
   {
     "id": "catalina-goby",
@@ -1102,7 +1166,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "careDifficulty": 70,
     "role": "Stunning red and blue goby that needs COLD water (not tropical)",
     "role_es": "Gobio rojo y azul impresionante que necesita agua FRÍA (no tropical)",
-    "overview": "One of the most beautiful gobies but often mis-sold as tropical. This is a temperate species that needs water around 65-72°F. In a warm reef tank it will slowly die. Cold water specialist only.",
+    "overview": "One of the most beautiful gobies but often mistaken for a tropical species. This is a temperate species that needs water around 65-72°F. In a warm reef tank it will slowly die. Cold water specialist only.",
     "overview_es": "Uno de los gobios más hermosos pero a menudo mal vendido como tropical. Es una especie templada que necesita agua alrededor de 18-22°C. En un acuario cálido morirá lentamente.",
     "facts": [
       "Adult size in this catalog is listed around 2.5 in.",
@@ -1130,15 +1194,15 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Immature tanks or buyers without a long-term care plan",
+      "Immature tanks or aquarists without a long-term care plan",
       "Systems smaller than 10+ gal"
     ],
     "staffNote": "",
     "headerSummary": "Stunning red and blue goby that needs COLD water (not tropical). Plan on roughly 10+ gal or larger long term.",
     "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
     "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "buyingGuidance": "Best for aquarists who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Small cool-colored goby with bright neon striping and a delicate perch-and-dart style around rock and ledges."
   },
   {
     "id": "citrinis-clown-goby",
@@ -1168,7 +1232,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Tiny size makes branchy cover and peaceful tankmates especially important."
     ],
     "photoTitle": "Citrinis Clown Goby",
@@ -1196,10 +1260,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Tiny perch-and-pivot goby suited to peaceful reef layouts. Best in peaceful reefs where tiny perch fish are not constantly outcompeted.",
-    "behavior": "Usually perches in place more than it cruises, shifting only short distances between favored spots.",
-    "feedingNotes": "Small foods and low feeding competition matter more than giant meals for a fish this size.",
-    "buyingGuidance": "A better sale for peaceful reefs than for aggressive community mixes where a tiny perch fish gets lost.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Tiny perch-and-peek goby that spends much of the day settled onto branches, polyps, or small high points rather than cruising the tank. The charm comes from close-up behavior and color contrast, not from covering a lot of water.",
+    "feedingNotes": "Use fine frozen foods, small pellets, and frequent gentle feedings that do not get dominated by larger fish. Tiny gobies often look hardy until you realize they are being outcompeted every single day.",
+    "buyingGuidance": "Excellent for smaller peaceful reefs when the aquarist enjoys close-up behavior and understands how tiny these fish really are. The right home values branch work, calmer tankmates, and detail in the rockwork rather than expecting the fish to dominate the whole tank visually.",
+    "recognitionNotes": "Tiny yellow clown goby with a blunt face and perch-heavy body shape built for sitting on branches and coral heads."
   },
   {
     "id": "diamond-watchman-goby",
@@ -1229,7 +1293,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A stable sand zone and reliable cover improve long-term comfort and feeding response."
     ],
     "photoTitle": "Diamond Watchman Goby",
@@ -1257,10 +1321,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout. Best with sand, cover, and a layout that supports burrow-oriented behavior.",
-    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
-    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time.",
-    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "Best when the aquarist genuinely wants a sand-working fish and can support its constant substrate use without stripping a tiny tank clean. Ask about sand depth, lid security, and whether the system is mature enough to keep the fish fed.",
+    "recognitionNotes": "Long-faced sand goby with a pale body covered in orange spots and the deliberate sand-sifting posture watchman gobies are known for."
   },
   {
     "id": "dracula-goby",
@@ -1290,7 +1354,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Dracula Goby",
@@ -1318,10 +1382,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
-    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
-    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who want bottom-zone behavior and, ideally, a shrimp partnership done correctly. The better recommendation focuses on lid security, substrate, and burrow habitat rather than just the color pattern.",
+    "recognitionNotes": "Very small shrimp goby with a pale body, dark facial mask, and an alert upright stance over the burrow entrance."
   },
   {
     "id": "flaming-prawn-goby",
@@ -1351,7 +1415,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A stable sand zone and reliable cover improve long-term comfort and feeding response."
     ],
     "photoTitle": "Flaming Prawn Goby",
@@ -1379,10 +1443,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout. Best with sand, cover, and a layout that supports burrow-oriented behavior.",
-    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
-    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time.",
-    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who value behavior and bottom-zone personality over sheer speed. The best conversation is about substrate, lids, and whether the aquarist wants to support the shrimp partnership properly instead of just buying the goby for color alone.",
+    "recognitionNotes": "Miniature goby with intense red-and-white striping and oversized eyes that make it look more ornamental than fast-moving."
   },
   {
     "id": "green-clown-goby",
@@ -1440,10 +1504,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Tiny perch-and-pivot goby suited to peaceful reef layouts. Plan on roughly 10+ gal or larger long term.",
-    "behavior": "Usually perches in place more than it cruises, shifting only short distances between favored spots.",
-    "feedingNotes": "Small foods and low feeding competition matter more than giant meals for a fish this size. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A better sale for peaceful reefs than for aggressive community mixes where a tiny perch fish gets lost.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Tiny perch-and-peek goby that spends much of the day settled onto branches, polyps, or small high points rather than cruising the tank. The charm comes from close-up behavior and color contrast, not from covering a lot of water.",
+    "feedingNotes": "Use fine frozen foods, small pellets, and frequent gentle feedings that do not get dominated by larger fish. Tiny gobies often look hardy until you realize they are being outcompeted every single day.",
+    "buyingGuidance": "Excellent for smaller peaceful reefs when the aquarist enjoys close-up behavior and understands how tiny these fish really are. The right home values branch work, calmer tankmates, and detail in the rockwork rather than expecting the fish to dominate the whole tank visually.",
+    "recognitionNotes": "Tiny branch-perching goby with a rounded head, stocky body, and solid green coloration that blends into coral tissue and algae."
   },
   {
     "id": "hi-fin-red-banded-goby",
@@ -1473,7 +1537,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Hi Fin Red Banded Goby",
@@ -1501,10 +1565,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
-    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
-    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who want bottom-zone behavior and, ideally, a shrimp partnership done correctly. The better recommendation focuses on lid security, substrate, and burrow habitat rather than just the color pattern.",
+    "recognitionNotes": "Shrimp-goby with a tall first dorsal fin and crisp red banding that makes it easy to spot when it hovers above a burrow."
   },
   {
     "id": "orange-spotted-goby",
@@ -1534,7 +1598,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Orange Spotted Goby",
@@ -1562,10 +1626,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
-    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
-    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who want bottom-zone behavior and, ideally, a shrimp partnership done correctly. The better recommendation focuses on lid security, substrate, and burrow habitat rather than just the color pattern.",
+    "recognitionNotes": "Pale burrow goby covered in orange spots with a long low body built for sand beds and shrimp partnerships."
   },
   {
     "id": "orange-stripe-prawn-goby",
@@ -1595,7 +1659,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A stable sand zone and reliable cover improve long-term comfort and feeding response."
     ],
     "photoTitle": "Orange Stripe Prawn Goby",
@@ -1623,10 +1687,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout. Best with sand, cover, and a layout that supports burrow-oriented behavior.",
-    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
-    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time.",
-    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who want bottom-zone behavior and, ideally, a shrimp partnership done correctly. The better recommendation focuses on lid security, substrate, and burrow habitat rather than just the color pattern.",
+    "recognitionNotes": "Slender shrimp goby with orange striping, a watchful stance, and the classic pause-and-hover posture above a shared burrow."
   },
   {
     "id": "pink-spotted-watchman-goby",
@@ -1656,7 +1720,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A stable sand zone and reliable cover improve long-term comfort and feeding response."
     ],
     "photoTitle": "Pink Spotted Watchman Goby",
@@ -1684,10 +1748,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout. Best with sand, cover, and a layout that supports burrow-oriented behavior.",
-    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
-    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time.",
-    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who want bottom-zone behavior and, ideally, a shrimp partnership done correctly. The better recommendation focuses on lid security, substrate, and burrow habitat rather than just the color pattern.",
+    "recognitionNotes": "Heavy-headed watchman goby with pink spotting and a thick-bodied sand-perching look compared with slimmer shrimp gobies."
   },
   {
     "id": "rainford-s-goby",
@@ -1717,7 +1781,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Rainford's Goby",
@@ -1745,10 +1809,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
-    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
-    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Small, methodical grazer that spends more time inspecting sand and lower rock surfaces than chasing food in open water. These fish reward calm observation and mature surfaces more than flashy feeding response.",
+    "feedingNotes": "Use fine frozen foods, small pellets, and frequent gentle feedings that do not get dominated by larger fish. Tiny gobies often look hardy until you realize they are being outcompeted every single day.",
+    "buyingGuidance": "Best in mature calm reefs where the fish can browse naturally and avoid food competition. These are easy to underappreciate in a sterile or overly aggressive system and very rewarding in a settled reef with real micro-life.",
+    "recognitionNotes": "Slender algae-picking goby with greenish tones, orange facial striping, and a neat combed pattern along the body."
   },
   {
     "id": "sleeper-banded-goby",
@@ -1778,7 +1842,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Sleeper Banded Goby",
@@ -1806,10 +1870,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
-    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
-    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Constant sand worker that lifts mouthfuls of substrate, filters for edible material, and redeposits the rest elsewhere. It gives a tank obvious movement and utility, but it also throws sand, needs real substrate area, and usually stays busiest where the bed is mature enough to support it.",
+    "feedingNotes": "A mature sand bed should be treated as part of the feeding plan, not just as décor. Supplement with meaty prepared foods, but remember that true sand sifters lose condition quickly when the substrate is too new or too sterile to contribute anything between feedings.",
+    "buyingGuidance": "Best when the tank genuinely has both the sand area and the maturity to feed a true sifting fish. The important question is not whether 30+ gal is written on paper, but whether there is enough established substrate for the fish to work without slowly thinning out.",
+    "recognitionNotes": "Sand-sifting goby with a pale body crossed by darker bands and a long low profile made for cruising the substrate."
   },
   {
     "id": "sleeper-gold-head-goby",
@@ -1839,7 +1903,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Sleeper Gold Head Goby",
@@ -1867,10 +1931,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
-    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
-    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Constant sand worker that lifts mouthfuls of substrate, filters for edible material, and redeposits the rest elsewhere. It gives a tank obvious movement and utility, but it also throws sand, needs real substrate area, and usually stays busiest where the bed is mature enough to support it.",
+    "feedingNotes": "A mature sand bed should be treated as part of the feeding plan, not just as décor. Supplement with meaty prepared foods, but remember that true sand sifters lose condition quickly when the substrate is too new or too sterile to contribute anything between feedings.",
+    "buyingGuidance": "Best when the tank genuinely has both the sand area and the maturity to feed a true sifting fish. The important question is not whether 55+ gal is written on paper, but whether there is enough established substrate for the fish to work without slowly thinning out.",
+    "recognitionNotes": "Elegant sand goby with a bright yellow face, pale body, and blue line detail across the head."
   },
   {
     "id": "tiger-watchman-goby",
@@ -1928,10 +1992,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Striped sand-sifting goby that maintains clean substrate. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
-    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time. Catalog diet listing: Carnivore / sand sifter.",
-    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "Best when the aquarist genuinely wants a sand-working fish and can support its constant substrate use without stripping a tiny tank clean. Ask about sand depth, lid security, and whether the system is mature enough to keep the fish fed.",
+    "recognitionNotes": "Chunky watchman goby with bold orange-brown barring and a broad head that reads more sturdy than delicate."
   },
   {
     "id": "trimma-goby",
@@ -1961,7 +2025,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Trimma Goby",
@@ -1989,10 +2053,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
-    "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
-    "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Small peaceful fish that hovers near a chosen cave, ledge, or bolt-hole and relies on quick retreats instead of aggression. The best displays happen in calmer tanks where the fish feels safe enough to stay out.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong reef choice when the aquarist has a lid and wants personality near the sand or rockwork without stepping into a full predator profile. Cover, bottom habitat, and feeding access usually matter more than headline size.",
+    "recognitionNotes": "Tiny hover-and-perch goby with oversized eyes, a delicate translucent look, and a habit of hanging under ledges."
   },
   {
     "id": "twin-spot-goby",
@@ -2022,7 +2086,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Twin Spot Goby",
@@ -2052,8 +2116,8 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
     "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
     "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "buyingGuidance": "Best for aquarists who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Small signal goby with twin false eye spots near the dorsal area and a neat sand-sifting body shape."
   },
   {
     "id": "wheeler-s-shrimp-goby",
@@ -2083,7 +2147,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Wheeler's Shrimp Goby",
@@ -2111,10 +2175,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Bottom-dwelling goby that appreciates sand, cover, and a calm layout. Best matched to calm layouts with cover near the bottom of the tank.",
-    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
-    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time.",
-    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who want bottom-zone behavior and, ideally, a shrimp partnership done correctly. The better recommendation focuses on lid security, substrate, and burrow habitat rather than just the color pattern.",
+    "recognitionNotes": "White shrimp goby with orange-red banding and black spotting, often standing upright like a sentry above its burrow."
   },
   {
     "id": "yellow-clown-goby",
@@ -2172,10 +2236,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Tiny perch-and-pivot goby suited to peaceful reef layouts. Plan on roughly 10+ gal or larger long term.",
-    "behavior": "Usually perches in place more than it cruises, shifting only short distances between favored spots.",
-    "feedingNotes": "Small foods and low feeding competition matter more than giant meals for a fish this size. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "A better sale for peaceful reefs than for aggressive community mixes where a tiny perch fish gets lost.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Tiny perch-and-peek goby that spends much of the day settled onto branches, polyps, or small high points rather than cruising the tank. The charm comes from close-up behavior and color contrast, not from covering a lot of water.",
+    "feedingNotes": "Use fine frozen foods, small pellets, and frequent gentle feedings that do not get dominated by larger fish. Tiny gobies often look hardy until you realize they are being outcompeted every single day.",
+    "buyingGuidance": "Excellent for smaller peaceful reefs when the aquarist enjoys close-up behavior and understands how tiny these fish really are. The right home values branch work, calmer tankmates, and detail in the rockwork rather than expecting the fish to dominate the whole tank visually.",
+    "recognitionNotes": "Tiny bright-yellow perch goby with a blunt face and a coral-branch sitting posture rather than open-water swimming."
   },
   {
     "id": "yellow-line-goby",
@@ -2205,7 +2269,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cover and low feeding competition usually matter more than flashy open-water behavior."
     ],
     "photoTitle": "Yellow Line Goby",
@@ -2235,8 +2299,8 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "headerSummary": "Small bottom-oriented fish that adds movement without taking over the tank. Best matched to calm layouts with cover near the bottom of the tank.",
     "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
     "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "buyingGuidance": "Best for aquarists who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Small cleaner-style goby with a dark body crossed by a bright yellow line from nose to tail."
   },
   {
     "id": "yellowhead-jawfish",
@@ -2294,10 +2358,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Adorable burrowing jawfish that peeks out from its hole. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "A settled jawfish spends much of the day hovering over its burrow and retreating fast when startled.",
-    "feedingNotes": "Deliver food in a way that lets the fish eat near the burrow instead of darting long distances into traffic. Catalog diet listing: Carnivore / planktivore.",
-    "buyingGuidance": "Only a good sale when the buyer already has the lid and substrate depth handled; otherwise the problems start immediately.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Burrow-centered fish that spends the day peeking, hovering, and rebuilding around a chosen entrance instead of patrolling the full tank. Jawfish are at their most engaging when the substrate is deep enough to support natural burrow behavior and the lid is secure enough to survive startle jumps.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "Recommend when the aquarist has a secure lid, real substrate depth, and the patience to let a burrow specialist settle in properly. Jawfish are all personality once established, but the system has to support digging behavior first.",
+    "recognitionNotes": "Burrow fish with an oversized mouth, bright yellow head, and upright head-out-of-the-hole posture that is instantly distinctive."
   },
   {
     "id": "canary-fang-blenny",
@@ -2354,10 +2418,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Bright fang blenny with bold open-water hovering behavior and a defensive venomous bite. Best in covered community reefs that suit a faster, bolder small fish.",
-    "behavior": "More hover-and-dart than perch-and-graze, with a confident mid-level presence for such a small fish.",
-    "feedingNotes": "Offer small meaty frozen foods, pellets, and other quality prepared fare several times daily.",
-    "buyingGuidance": "A strong choice for buyers who want an active blenny without expecting algae-grazer behavior.",
-    "recognitionNotes": "Look for a bright yellow, fork-tailed fang blenny that hovers in the water column instead of parking on rock all day."
+    "behavior": "Confident perch-and-dart blenny with more swagger than the size suggests. It usually claims a lookout point, makes quick feeding runs, and then returns to survey the tank with a very different energy than the algae-grazing blenny types.",
+    "feedingNotes": "Match the routine to the blenny type: algae and biofilm support for the true grazers, protein-forward offerings for the more darting carnivorous species, and enough distribution that a perched fish can feed without every bite being stolen midwater.",
+    "buyingGuidance": "Great when the aquarist wants personality from a blenny that spends more time in view and less time glued to one patch of algae. The conversation should include temperament and tankmate fit, not just size.",
+    "recognitionNotes": "Look for a bright yellow fang blenny with a long body, forked tail, and a habit of hovering just off the rockwork."
   },
   {
     "id": "ember-blenny",
@@ -2417,8 +2481,8 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "headerSummary": "Personality-heavy blenny that spends the day perching, grazing, and inspecting rockwork. Plan on roughly 10+ gal or larger long term.",
     "behavior": "Perch, inspect, hop, repeat — personality and body language are a big part of the appeal.",
     "feedingNotes": "A mix of prepared foods, film grazing, and appropriate frozen support usually keeps blennies in better long-term condition. Catalog diet listing: Herbivore.",
-    "buyingGuidance": "Usually an easy personality sale, as long as the buyer understands that blennies want territory, perches, and their own feeding rhythm.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "buyingGuidance": "Usually an easy personality fit, as long as the aquarist understands that blennies want territory, perches, and their own feeding rhythm.",
+    "recognitionNotes": "Small orange-red blenny with an expressive face and the short perching profile typical of Ecsenius blennies."
   },
   {
     "id": "linear-blenny",
@@ -2478,8 +2542,8 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "headerSummary": "Personality-heavy blenny that spends the day perching, grazing, and inspecting rockwork. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Perch, inspect, hop, repeat — personality and body language are a big part of the appeal.",
     "feedingNotes": "A mix of prepared foods, film grazing, and appropriate frozen support usually keeps blennies in better long-term condition. Catalog diet listing: Herbivore.",
-    "buyingGuidance": "Usually an easy personality sale, as long as the buyer understands that blennies want territory, perches, and their own feeding rhythm.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "buyingGuidance": "Usually an easy personality fit, as long as the aquarist understands that blennies want territory, perches, and their own feeding rhythm.",
+    "recognitionNotes": "Perching blenny with a slim body crossed by fine horizontal lines and a watchful, head-up resting posture."
   },
   {
     "id": "molly-miller-blenny",
@@ -2509,7 +2573,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Perches, grazing opportunities, and personal space all matter to blenny behavior."
     ],
     "photoTitle": "Molly Miller Blenny",
@@ -2538,8 +2602,8 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "headerSummary": "Personality-heavy blenny that spends the day perching, grazing, and inspecting rockwork. Works best when the tank offers perches, cover, and a steady routine.",
     "behavior": "Perch, inspect, hop, repeat — personality and body language are a big part of the appeal.",
     "feedingNotes": "A mix of prepared foods, film grazing, and appropriate frozen support usually keeps blennies in better long-term condition.",
-    "buyingGuidance": "Usually an easy personality sale, as long as the buyer understands that blennies want territory, perches, and their own feeding rhythm.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "buyingGuidance": "Usually an easy personality fit, as long as the aquarist understands that blennies want territory, perches, and their own feeding rhythm.",
+    "recognitionNotes": "Mottled blenny with a rougher algae-grazer look, cirri over the eyes, and a body built more for perching than cruising."
   },
   {
     "id": "smith-s-blenny",
@@ -2596,10 +2660,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Slender fang blenny with bold hovering behavior and a defensive venomous bite. Best for reef keepers who want a small active fish rather than a grazer.",
-    "behavior": "Often hovers just off the rockwork and darts back to cover instead of sitting on surfaces all day.",
-    "feedingNotes": "Feed small meaty frozen foods and quality prepared fare in portions it can take quickly.",
-    "buyingGuidance": "A good sale for buyers who want a small, active blenny but are not shopping for an algae-picker.",
-    "recognitionNotes": "Look for a slim, contrasting fang blenny that hovers in the water column more than it perches."
+    "behavior": "Confident perch-and-dart blenny with more swagger than the size suggests. It usually claims a lookout point, makes quick feeding runs, and then returns to survey the tank with a very different energy than the algae-grazing blenny types.",
+    "feedingNotes": "Match the routine to the blenny type: algae and biofilm support for the true grazers, protein-forward offerings for the more darting carnivorous species, and enough distribution that a perched fish can feed without every bite being stolen midwater.",
+    "buyingGuidance": "Great when the aquarist wants personality from a blenny that spends more time in view and less time glued to one patch of algae. The conversation should include temperament and tankmate fit, not just size.",
+    "recognitionNotes": "Look for a slim white-to-silver fang blenny with dark striping and a hovering, midwater posture."
   },
   {
     "id": "starry-blenny",
@@ -2657,10 +2721,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Spotted algae-eating blenny with great personality. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Perch, inspect, hop, repeat — personality and body language are a big part of the appeal.",
-    "feedingNotes": "A mix of prepared foods, film grazing, and appropriate frozen support usually keeps blennies in better long-term condition. Catalog diet listing: Herbivore.",
-    "buyingGuidance": "Usually an easy personality sale, as long as the buyer understands that blennies want territory, perches, and their own feeding rhythm.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching grazer that hops from rock to rock, pausing often to watch the room before taking another bite of film algae or biofilm. Much of the personality comes from the face, posture, and the way it treats the reef like a personal network of lookout posts.",
+    "feedingNotes": "Match the routine to the blenny type: algae and biofilm support for the true grazers, protein-forward offerings for the more darting carnivorous species, and enough distribution that a perched fish can feed without every bite being stolen midwater.",
+    "buyingGuidance": "Recommend after matching the blenny to the actual tank job: some are true grazers, some are more general pickers, and all do better when the aquarist appreciates perch-and-browse behavior.",
+    "recognitionNotes": "Dark blenny covered in white speckling, with obvious cirri and a chunky perch-and-graze profile."
   },
   {
     "id": "striped-fang-blenny",
@@ -2691,7 +2755,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "facts": [
       "Usually workable in community reefs when the tank is covered and tankmates are chosen sensibly.",
       "The defensive bite is for protection and does not automatically make it a tank bully.",
-      "A better fit for buyers wanting motion and character than for buyers expecting algae control."
+      "A better fit for aquarists wanting motion and character than for aquarists expecting algae control."
     ],
     "photoTitle": "Striped Fang Blenny",
     "inStock": false,
@@ -2717,10 +2781,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Striped fang blenny with fast open-water movement and a defensive venomous bite. Best in covered reefs that fit a bolder small fish.",
-    "behavior": "Spends much of the day hovering or dashing between cover rather than staying glued to one perch.",
-    "feedingNotes": "Offer small meaty frozen foods and prepared fare that suits an active micro-predator.",
-    "buyingGuidance": "Sell it for personality and movement, not as a substitute for an algae-grazing blenny.",
-    "recognitionNotes": "Look for a slim, horizontally striped fang blenny that hovers in the water column."
+    "behavior": "Confident perch-and-dart blenny with more swagger than the size suggests. It usually claims a lookout point, makes quick feeding runs, and then returns to survey the tank with a very different energy than the algae-grazing blenny types.",
+    "feedingNotes": "Match the routine to the blenny type: algae and biofilm support for the true grazers, protein-forward offerings for the more darting carnivorous species, and enough distribution that a perched fish can feed without every bite being stolen midwater.",
+    "buyingGuidance": "Great when the aquarist wants personality from a blenny that spends more time in view and less time glued to one patch of algae. The conversation should include temperament and tankmate fit, not just size.",
+    "recognitionNotes": "Look for a slim fang blenny with strong horizontal striping and a hovering, darting swim style."
   },
   {
     "id": "mandarin-dragonet",
@@ -2749,7 +2813,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview": "Mandarin Dragonet is a specialist feeder that generally belongs in mature systems with natural grazing opportunities.",
     "overview_es": "",
     "facts": [
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Mature pod support or proven prepared-food response should be treated as a requirement, not a bonus."
     ],
     "photoTitle": "Mandarin Dragonet",
@@ -2777,10 +2841,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Pod-focused dragonet profile that rewards mature systems and careful feeding plans. Best matched to mature systems with natural grazing support.",
-    "behavior": "The normal pattern is slow gliding over rock and sand while pecking continuously for tiny prey.",
-    "feedingNotes": "This is where the sale is won or lost. Natural microfauna support and proven prepared-food response matter far more than generic community-fish feeding advice.",
-    "buyingGuidance": "This should be sold carefully. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks in the store.",
-    "recognitionNotes": "Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming."
+    "behavior": "Low-slung, deliberate hunter that glides over rock, rubble, and sand while pecking at tiny prey almost nonstop. The beauty is obvious, but the real husbandry story is how constantly it forages and how poorly it competes against faster, rougher feeders.",
+    "feedingNotes": "Feeding success is the whole choice conversation here. Mature pod production or a clearly demonstrated prepared-food response matters more than any other sales-floor feature, because these fish spend the day hunting tiny prey rather than rushing to the surface for one large meal.",
+    "buyingGuidance": "This needs careful planning. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks under blue lights, and the safest recommendation is still the aquarist who already understands pod density, competition pressure, and patient feeding support.",
+    "recognitionNotes": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items."
   },
   {
     "id": "red-scooter-dragonet",
@@ -2809,7 +2873,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview": "Red Scooter Dragonet is a specialist feeder that generally belongs in mature systems with natural grazing opportunities.",
     "overview_es": "",
     "facts": [
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Mature pod support or proven prepared-food response should be treated as a requirement, not a bonus."
     ],
     "photoTitle": "Red Scooter Dragonet",
@@ -2837,10 +2901,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Pod-focused dragonet profile that rewards mature systems and careful feeding plans. Best matched to mature systems with natural grazing support.",
-    "behavior": "The normal pattern is slow gliding over rock and sand while pecking continuously for tiny prey.",
-    "feedingNotes": "This is where the sale is won or lost. Natural microfauna support and proven prepared-food response matter far more than generic community-fish feeding advice.",
-    "buyingGuidance": "This should be sold carefully. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks in the store.",
-    "recognitionNotes": "Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming."
+    "behavior": "Low-slung, deliberate hunter that glides over rock, rubble, and sand while pecking at tiny prey almost nonstop. The beauty is obvious, but the real husbandry story is how constantly it forages and how poorly it competes against faster, rougher feeders.",
+    "feedingNotes": "Feeding success is the whole choice conversation here. Mature pod production or a clearly demonstrated prepared-food response matters more than any other sales-floor feature, because these fish spend the day hunting tiny prey rather than rushing to the surface for one large meal.",
+    "buyingGuidance": "This needs careful planning. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks under blue lights, and the safest recommendation is still the aquarist who already understands pod density, competition pressure, and patient feeding support.",
+    "recognitionNotes": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items."
   },
   {
     "id": "scooter-blenny",
@@ -2894,15 +2958,15 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Immature tanks or buyers without a long-term care plan",
+      "Immature tanks or aquarists without a long-term care plan",
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
     "headerSummary": "A dragonet relative that scoots across rockwork hunting pods. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "The normal pattern is slow gliding over rock and sand while pecking continuously for tiny prey.",
-    "feedingNotes": "This is where the sale is won or lost. Natural microfauna support and proven prepared-food response matter far more than generic community-fish feeding advice. Catalog diet listing: Copepods / microfauna.",
-    "buyingGuidance": "This should be sold carefully. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks in the store.",
-    "recognitionNotes": "Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming."
+    "behavior": "Low-slung, deliberate hunter that glides over rock, rubble, and sand while pecking at tiny prey almost nonstop. The beauty is obvious, but the real husbandry story is how constantly it forages and how poorly it competes against faster, rougher feeders.",
+    "feedingNotes": "Feeding success is the whole choice conversation here. Mature pod production or a clearly demonstrated prepared-food response matters more than any other sales-floor feature, because these fish spend the day hunting tiny prey rather than rushing to the surface for one large meal.",
+    "buyingGuidance": "This needs careful planning. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks under blue lights, and the safest recommendation is still the aquarist who already understands pod density, competition pressure, and patient feeding support.",
+    "recognitionNotes": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items."
   },
   {
     "id": "target-mandarin",
@@ -2931,7 +2995,7 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "overview": "Target Mandarin is a specialist feeder that generally belongs in mature systems with natural grazing opportunities.",
     "overview_es": "",
     "facts": [
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Mature pod support or proven prepared-food response should be treated as a requirement, not a bonus."
     ],
     "photoTitle": "Target Mandarin",
@@ -2959,10 +3023,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Pod-focused dragonet profile that rewards mature systems and careful feeding plans. Best matched to mature systems with natural grazing support.",
-    "behavior": "The normal pattern is slow gliding over rock and sand while pecking continuously for tiny prey.",
-    "feedingNotes": "This is where the sale is won or lost. Natural microfauna support and proven prepared-food response matter far more than generic community-fish feeding advice.",
-    "buyingGuidance": "This should be sold carefully. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks in the store.",
-    "recognitionNotes": "Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming."
+    "behavior": "Low-slung, deliberate hunter that glides over rock, rubble, and sand while pecking at tiny prey almost nonstop. The beauty is obvious, but the real husbandry story is how constantly it forages and how poorly it competes against faster, rougher feeders.",
+    "feedingNotes": "Feeding success is the whole choice conversation here. Mature pod production or a clearly demonstrated prepared-food response matters more than any other sales-floor feature, because these fish spend the day hunting tiny prey rather than rushing to the surface for one large meal.",
+    "buyingGuidance": "This needs careful planning. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks under blue lights, and the safest recommendation is still the aquarist who already understands pod density, competition pressure, and patient feeding support.",
+    "recognitionNotes": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items."
   },
   {
     "id": "two-spot-goby",
@@ -3034,8 +3098,8 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "headerSummary": "Unique goby that walks on sand with eyespot fins. Plan on roughly 20+ gal or larger long term.",
     "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
     "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "buyingGuidance": "Best for aquarists who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Small sand goby with two striking false eye spots and a careful hover-and-sift posture over the substrate."
   },
   {
     "id": "wheeler-goby",
@@ -3105,10 +3169,10 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "staffNote": "",
     "headerSummary": "Banded shrimp goby with red and white bars. Plan on roughly 20+ gal or larger long term.",
-    "behavior": "Expect short dashes from a chosen sand perch or burrow rather than constant open swimming.",
-    "feedingNotes": "Food should reach the sand zone reliably so the fish is not forced to compete in the open water every time. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "A strong fit for buyers who want sandbed personality and are willing to support the fish near its chosen burrow area.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "behavior": "Perching burrow fish that relies on the bottom third of the tank rather than open-water speed. Many of the best shrimp gobies look half-relaxed and half-alert all day, stationed at the burrow entrance and ready to back into cover the moment something feels wrong.",
+    "feedingNotes": "Offer small meaty foods and make sure the fish can eat without being bullied away from the bottom half of the tank. These fish usually settle best when food reaches their territory reliably instead of forcing them to sprint into open-water feeding chaos.",
+    "buyingGuidance": "A strong fit for reef keepers who want bottom-zone behavior and, ideally, a shrimp partnership done correctly. The better recommendation focuses on lid security, substrate, and burrow habitat rather than just the color pattern.",
+    "recognitionNotes": "White shrimp goby with orange-red banding and black spotting, usually hovering just above the burrow mouth."
   },
   {
     "id": "orange-line-goby",
@@ -3180,8 +3244,8 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     "headerSummary": "Tiny Caribbean cleaner goby. Plan on roughly 10+ gal or larger long term.",
     "behavior": "This fish usually stays close to the bottom and depends on cover, burrows, or small retreats rather than nonstop open-water swimming.",
     "feedingNotes": "Use appropriately sized foods and make sure this fish can eat without being outcompeted by faster midwater tankmates. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Best sold to buyers who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
-    "recognitionNotes": "Look for a small bottom-oriented fish that perches on rock, sand, or burrows instead of cruising open water."
+    "buyingGuidance": "Best for aquarists who already value cover, calmer layouts, and the bottom half of the tank instead of only chasing centerpiece fish.",
+    "recognitionNotes": "Slender cleaner goby with a bright orange-yellow dorsal stripe and a dark line running through the eye."
   },
   {
     "id": "mandarin-goby-target",
@@ -3247,14 +3311,14 @@ window.LTC_SPECIES_CHUNKS["Gobies & Blennies"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Immature tanks or buyers without a long-term care plan",
+      "Immature tanks or aquarists without a long-term care plan",
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
     "headerSummary": "Spotted mandarin dragonet cousin. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "The normal pattern is slow gliding over rock and sand while pecking continuously for tiny prey.",
-    "feedingNotes": "This is where the sale is won or lost. Natural microfauna support and proven prepared-food response matter far more than generic community-fish feeding advice. Catalog diet listing: Copepods.",
-    "buyingGuidance": "This should be sold carefully. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks in the store.",
-    "recognitionNotes": "Look for a low-slung body and a slow pecking glide across rock and sand rather than fast midwater swimming."
+    "behavior": "Low-slung, deliberate hunter that glides over rock, rubble, and sand while pecking at tiny prey almost nonstop. The beauty is obvious, but the real husbandry story is how constantly it forages and how poorly it competes against faster, rougher feeders.",
+    "feedingNotes": "Feeding success is the whole choice conversation here. Mature pod production or a clearly demonstrated prepared-food response matters more than any other sales-floor feature, because these fish spend the day hunting tiny prey rather than rushing to the surface for one large meal.",
+    "buyingGuidance": "This needs careful planning. Mature pod support or proven prepared-food response matters more than how beautiful the fish looks under blue lights, and the safest recommendation is still the aquarist who already understands pod density, competition pressure, and patient feeding support.",
+    "recognitionNotes": "Look for a low-slung fish that glides over rock and sand while pecking for tiny prey items."
   }
 ];

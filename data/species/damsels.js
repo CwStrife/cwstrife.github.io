@@ -28,7 +28,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "facts": [
       "Best kept in groups of 5 or more for the schooling effect.",
       "Groups may slowly diminish over time as weaker individuals are picked off.",
-      "Cheap enough to buy in quantity for the schooling effect."
+      "budget-friendly enough to buy in quantity for the schooling effect."
     ],
     "bestWith": [
       "Reef tanks wanting upper water column movement",
@@ -39,7 +39,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Single specimens — they need the group",
       "Very aggressive tankmates"
     ],
-    "staffNote": "Sell in groups of 5-7. The schooling effect is the selling point.",
+    "staffNote": "Keep in groups of 5-7. The schooling effect is The main appeal.",
     "photoTitle": "Chromis viridis",
     "inStock": false,
     "badges": [],
@@ -57,7 +57,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Schooling reef fish that adds movement to the upper water column. Look for iridescent blue-green body that shimmers and changes color with the light angle. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Metallic green-blue sheen, forked tail, and a habit of hanging in the open water column instead of parking on the bottom or inside caves.",
+    "behavior": "Loose-schooling chromis that spend the day in the open water column rather than hugging a cave or perch. They look best when allowed to move as a group with room above the rockwork, instead of being reduced to a single nervous fish in a cramped mixed community.",
+    "feedingNotes": "Small prepared foods and frozen fare usually work well, especially when offered in a way that lets the whole group feed. Their appetite is usually straightforward; the long-term challenge is keeping the social group stable and well-conditioned.",
+    "buyingGuidance": "Best when the aquarist actually wants a small visible group of open-water fish and can provide enough space and numbers for them to behave naturally. A lone chromis can work, but it misses the main reason this fish is popular in the first place."
   },
   {
     "id": "springeri-damsel",
@@ -98,7 +102,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Very tiny timid fish",
       "Multiple damsels in small spaces"
     ],
-    "staffNote": "The useful damsel. Sell the bristleworm-eating ability.",
+    "staffNote": "The useful damsel. Mention the bristleworm-control angle, but keep the overall temperament conversation honest.",
     "photoTitle": "Chrysiptera springeri",
     "inStock": false,
     "badges": [],
@@ -116,7 +120,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "diet_es": "Omnívoro",
     "origin_es": "",
     "headerSummary": "Small beautiful damsel that eats bristleworms. Look for deep blue-black body with electric blue highlights on the head and dorsal area. Plan on at least 10+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Deep blue body with clean dark contrast and the quick stop-start swimming style typical of a confident reef damsel.",
+    "behavior": "Compact reef damsel that spends the day darting in and out of rockwork while keeping close track of its chosen territory. Compared with many damsels it is relatively workable, but it still has the fast reflexes and local confidence the group is known for.",
+    "feedingNotes": "Prepared foods are rarely the problem; this species usually eats with enthusiasm. The bigger consideration is keeping portions sensible and making sure the fish is not being used as a substitute for better overall compatibility planning.",
+    "buyingGuidance": "A useful option when the aquarist wants a tougher small fish and understands that “one of the better damsels” is not the same thing as “harmless.” Rockwork territory, tank size, and tankmate temperament still matter."
   },
   {
     "id": "azure-damselfish",
@@ -176,7 +184,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Half-blue, half-yellow damselfish, more peaceful than most. Plan on roughly 15+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -237,7 +245,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Peaceful green chromis similar to Blue-Green Chromis. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore / planktivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -298,7 +306,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Tiny deep blue damsel — less aggressive than most. Plan on roughly 10+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -355,11 +363,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Timid tankmates or crowded stocking plans",
       "Systems smaller than 55+ gal"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed.",
+    "staffNote": "Lead with a quick conversation about territory, adult size, and tankmate choice. This is a moderate profile that should not be rushed.",
     "headerSummary": "Dark velvety damsel that gets large and aggressive. Plan on roughly 55+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -416,11 +424,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Timid tankmates or crowded stocking plans",
       "Systems smaller than 30+ gal"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a easy profile that should not be rushed.",
+    "staffNote": "Lead with a quick conversation about territory, adult size, and tankmate choice. This is an easy profile that should not be rushed.",
     "headerSummary": "Black damsel with white spots — extremely hardy but very aggressive. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -481,7 +489,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Vivid blue damsel from Fiji — moderate aggression. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -542,7 +550,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Half-blue half-yellow damsel from Kupang. Plan on roughly 15+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -603,7 +611,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Bicolor black-and-white damsel — peaceful for a damsel. Plan on roughly 15+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -664,7 +672,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Deep-water blue and yellow damsel from deeper reefs. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -725,7 +733,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Pink and yellow damsel — one of the most peaceful. Plan on roughly 15+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -786,7 +794,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Classic three-stripe damsel found in coral branches. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -847,7 +855,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Tiny golden-lined chromis for nano reefs. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Planktivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -878,7 +886,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Small size does not prevent territorial behavior once the fish has claimed a corner."
     ],
     "photoTitle": "Yellowtail Blue Damsel",
@@ -908,7 +916,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Small, bright damsel profile with more attitude than its size suggests. Hardy does not mean harmless once territory gets established.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -981,7 +989,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Brilliant blue schooling fish. Plan on roughly 30+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -1050,11 +1058,11 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Timid tankmates or crowded stocking plans",
       "Systems smaller than 20+ gal"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a easy profile that should not be rushed.",
+    "staffNote": "Lead with a quick conversation about territory, adult size, and tankmate choice. This is an easy profile that should not be rushed.",
     "headerSummary": "Brilliant blue but highly aggressive. Plan on roughly 20+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   },
   {
@@ -1127,7 +1135,7 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "headerSummary": "Less aggressive blue and yellow damsel. Plan on roughly 15+ gal or larger long term.",
     "behavior": "Small size does not mean passive behavior. Expect quick territory checks and bolder behavior once established.",
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell the color honestly, but sell the temperament honestly too. Small size does not make these fish harmless.",
+    "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
   }
 ];

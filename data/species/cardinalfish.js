@@ -40,7 +40,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
       "Very aggressive fast-moving tankmates",
       "Tanks with zero shelter"
     ],
-    "staffNote": "Easy sell for beginners. Hardy, captive-bred, stunning pattern, peaceful. Check all the boxes.",
+    "staffNote": "Very easy fish to explain. for beginners. Hardy, captive-bred, stunning pattern, peaceful. Check all the boxes.",
     "photoTitle": "Pterapogon kauderni",
     "inStock": false,
     "badges": [],
@@ -58,7 +58,11 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "diet_es": "Carnívoro",
     "origin_es": "",
     "headerSummary": "Striking pattern fish that hovers in place. Look for silver body with bold black vertical bars and elongated flowing fins with white spots. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Silver body with black bars, white spots on the fins, and a hovering posture that often keeps the fish close to urchins, branching cover, or a chosen corner.",
+    "behavior": "Calm hovering cardinal that often chooses one low-stress station and barely seems to move until feeding time. Wild fish are closely associated with long-spined urchins and other protective structure, and that same preference for shelter carries over to captivity.",
+    "feedingNotes": "Offer small meaty foods that drift naturally through the water column, then build in pellets or other prepared foods once the fish is settled. Banggais are usually easy to feed, but they still look best when timid individuals are not being blasted by faster tankmates at every meal.",
+    "buyingGuidance": "Excellent for peaceful reef keepers who want a striking fish without a complicated care story. The main caution is social structure: singles and bonded pairs are straightforward, but random groups often sort themselves out harshly as they mature."
   },
   {
     "id": "pajama-cardinal",
@@ -117,7 +121,11 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "diet_es": "Carnívoro",
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Quirky patterned cardinalfish that hovers in groups. Look for three-part color scheme: greenish-yellow head, black vertical band through the middle, and orange-spotted silver rear half. Red eyes. Plan on at least 20+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "recognitionNotes": "Greenish-yellow face, black mid-body bar, orange-speckled rear half, and red eyes make this one of the easiest cardinalfish to identify instantly.",
+    "behavior": "Slow, almost floating cardinalfish that hovers in loose formation rather than darting constantly around the tank. The charm is in the stillness: a settled group can look almost suspended in place until food hits the water.",
+    "feedingNotes": "Small meaty foods, fine frozen options, and quality prepared foods are usually taken readily. Their calm style means they do best when they are not forced to fight fast aggressive feeders for every bite.",
+    "buyingGuidance": "A very safe recommendation for peaceful community reefs, especially when the goal is gentle motion instead of nonstop speed. If keeping several, give the group enough space and structure that hierarchy can sort itself out without crowding."
   },
   {
     "id": "banggai-cardinal",
@@ -147,7 +155,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Peaceful tankmates usually suit this group better than rough community mixes."
     ],
     "photoTitle": "Banggai Cardinal",
@@ -177,7 +185,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "headerSummary": "Calm hovering fish that adds motion without dominating the tank. Usually best with peaceful tankmates and a calm routine.",
     "behavior": "These fish often hover calmly near cover and do not need to dominate the tank to look good.",
     "feedingNotes": "Small meaty foods offered consistently are usually enough; the goal is steady condition, not drama at feeding time.",
-    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the buyer is not mixing them with much rougher tankmates.",
+    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the aquarist is not mixing them with much rougher tankmates.",
     "recognitionNotes": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover."
   },
   {
@@ -238,7 +246,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "headerSummary": "Calm hovering fish that adds motion without dominating the tank. Plan on roughly 20+ gal or larger long term.",
     "behavior": "These fish often hover calmly near cover and do not need to dominate the tank to look good.",
     "feedingNotes": "Small meaty foods offered consistently are usually enough; the goal is steady condition, not drama at feeding time. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the buyer is not mixing them with much rougher tankmates.",
+    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the aquarist is not mixing them with much rougher tankmates.",
     "recognitionNotes": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover."
   },
   {
@@ -269,7 +277,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Peaceful tankmates usually suit this group better than rough community mixes."
     ],
     "photoTitle": "Orbic Cardinal",
@@ -299,7 +307,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "headerSummary": "Calm hovering fish that adds motion without dominating the tank. Usually best with peaceful tankmates and a calm routine.",
     "behavior": "These fish often hover calmly near cover and do not need to dominate the tank to look good.",
     "feedingNotes": "Small meaty foods offered consistently are usually enough; the goal is steady condition, not drama at feeding time.",
-    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the buyer is not mixing them with much rougher tankmates.",
+    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the aquarist is not mixing them with much rougher tankmates.",
     "recognitionNotes": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover."
   },
   {
@@ -330,7 +338,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Peaceful tankmates usually suit this group better than rough community mixes."
     ],
     "photoTitle": "Red Spot Cardinal",
@@ -360,7 +368,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "headerSummary": "Calm hovering fish that adds motion without dominating the tank. Usually best with peaceful tankmates and a calm routine.",
     "behavior": "These fish often hover calmly near cover and do not need to dominate the tank to look good.",
     "feedingNotes": "Small meaty foods offered consistently are usually enough; the goal is steady condition, not drama at feeding time.",
-    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the buyer is not mixing them with much rougher tankmates.",
+    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the aquarist is not mixing them with much rougher tankmates.",
     "recognitionNotes": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover."
   },
   {
@@ -391,7 +399,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Peaceful tankmates usually suit this group better than rough community mixes."
     ],
     "photoTitle": "Threadfin Cardinal",
@@ -421,7 +429,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "headerSummary": "Calm hovering fish that adds motion without dominating the tank. Usually best with peaceful tankmates and a calm routine.",
     "behavior": "These fish often hover calmly near cover and do not need to dominate the tank to look good.",
     "feedingNotes": "Small meaty foods offered consistently are usually enough; the goal is steady condition, not drama at feeding time.",
-    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the buyer is not mixing them with much rougher tankmates.",
+    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the aquarist is not mixing them with much rougher tankmates.",
     "recognitionNotes": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover."
   },
   {
@@ -452,7 +460,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Peaceful tankmates usually suit this group better than rough community mixes."
     ],
     "photoTitle": "Yellow Stripe Cardinal",
@@ -482,7 +490,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "headerSummary": "Calm hovering fish that adds motion without dominating the tank. Usually best with peaceful tankmates and a calm routine.",
     "behavior": "These fish often hover calmly near cover and do not need to dominate the tank to look good.",
     "feedingNotes": "Small meaty foods offered consistently are usually enough; the goal is steady condition, not drama at feeding time.",
-    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the buyer is not mixing them with much rougher tankmates.",
+    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the aquarist is not mixing them with much rougher tankmates.",
     "recognitionNotes": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover."
   },
   {
@@ -555,7 +563,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "headerSummary": "Translucent schooling cardinalfish. Plan on roughly 10+ gal or larger long term.",
     "behavior": "These fish often hover calmly near cover and do not need to dominate the tank to look good.",
     "feedingNotes": "Small meaty foods offered consistently are usually enough; the goal is steady condition, not drama at feeding time. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the buyer is not mixing them with much rougher tankmates.",
+    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the aquarist is not mixing them with much rougher tankmates.",
     "recognitionNotes": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover."
   },
   {
@@ -628,7 +636,7 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "headerSummary": "Elegant cardinalfish with elongated fins. Plan on roughly 20+ gal or larger long term.",
     "behavior": "These fish often hover calmly near cover and do not need to dominate the tank to look good.",
     "feedingNotes": "Small meaty foods offered consistently are usually enough; the goal is steady condition, not drama at feeding time. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the buyer is not mixing them with much rougher tankmates.",
+    "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the aquarist is not mixing them with much rougher tankmates.",
     "recognitionNotes": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover."
   }
 ];

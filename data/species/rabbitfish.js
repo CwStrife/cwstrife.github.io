@@ -1,4 +1,3 @@
-window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
   {
     "id": "foxface",
@@ -23,24 +22,24 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "invertRisk": 4,
     "careDifficulty": 24,
     "role": "Peaceful algae destroyer with venomous spines",
-    "visualCue": "Bright yellow body with bold black and white face markings and an elongated snout.",
-    "overview": "A fantastic algae eater that's peaceful, hardy, and effective. The venomous dorsal spines demand respect during handling but are no issue in the tank.",
+    "visualCue": "Foxlike face pattern with bright yellow body sections, a dark chest patch, and a long tapering snout.",
+    "overview": "A dependable rabbitfish for larger reef systems that mixes real algae utility with a calm, display-friendly presence. The main catches are venomous spines, adult size, and the need to keep it well fed if corals are in the system.",
     "facts": [
-      "Arguably the best algae-eating fish available for larger tanks.",
-      "Venomous spines — handle with care during netting and acclimation.",
-      "Changes color to mottled brown when stressed or sleeping — this is normal."
+      "Excellent browser on film algae, softer nuisance growth, and leftover vegetable foods.",
+      "Usually peaceful with other community fish, but often quarrels with other rabbitfish or close look-alikes.",
+      "Can darken or blotch dramatically when stressed or sleeping; that color shift is normal."
     ],
     "bestWith": [
-      "Larger reef tanks with algae",
-      "Peaceful to semi-aggressive communities",
-      "Owners wanting natural algae control"
+      "Larger mixed reefs with established rockwork and open swimming room",
+      "Community fish too large to treat it as prey",
+      "Aquarists who want algae help but still want a showy centerpiece herbivore"
     ],
     "cautionWith": [
-      "Bare hands during handling",
-      "Very small tanks",
-      "Occasionally may nip at soft corals if underfed"
+      "Other rabbitfish unless the system is very large",
+      "Tiny tanks that turn a calm grazer into a pacing fish",
+      "Underfed reef tanks where soft corals or fleshy LPS may get sampled"
     ],
-    "staffNote": "Always warn about the spines. Great fish but customers need to know about safe handling.",
+    "staffNote": "Always warn about the spines. Great fish but aquarists need to know about safe handling.",
     "photoTitle": "Siganus vulpinus",
     "inStock": false,
     "badges": [],
@@ -57,12 +56,12 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "role_es": "Herbívoro amarillo con espinas venenosas",
     "diet_es": "Herbívoro",
     "origin_es": "Pacífico Occidental",
-    "headerSummary": "Steady algae grazer with calm presence and real utility in larger reef systems. Look for bright yellow body with bold black and white face markings and an elongated snout. Plan on at least 125+ gal.",
+    "headerSummary": "Classic foxface rabbitfish with real algae utility, calm manners, and venomous spines that deserve respect. Best in larger systems where it can graze, cruise, and stay well fed.",
     "seasonal": null,
-    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
-    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
-    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
-    "recognitionNotes": "Bright yellow body with bold black and white face markings and an elongated snout."
+    "behavior": "Usually spends the day making deliberate grazing passes across rock, glass, and open surfaces instead of acting like a frantic speed swimmer. It is often one of the easier large herbivores to fit into a community, but it still needs open room and usually dislikes other rabbitfish.",
+    "feedingNotes": "Keep seaweed sheets, herbivore pellets, and varied frozen foods in rotation so it is not relying only on whatever algae the tank happens to provide. Well-fed rabbitfish are typically better behaved around corals than underfed ones.",
+    "buyingGuidance": "A strong recommendation for larger reef keepers who want a hardy algae grazer with more personality than a snail crew can offer. The important conversation is about adult size, safe handling because of the spines, and the possibility of coral nipping if feeding support is weak.",
+    "recognitionNotes": "Look for the foxlike face pattern, bold yellow rear body, dark chest patch, and long tapering snout typical of the classic foxface forms."
   },
   {
     "id": "blue-spotted-rabbitfish",
@@ -88,12 +87,12 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "careDifficulty": 42,
     "role": "Roomy algae grazer with calm behavior and venomous dorsal spines",
     "role_es": "",
-    "overview": "Blue Spotted Rabbitfish is a roomy algae grazer with useful browsing behavior and venomous dorsal spines.",
+    "overview": "A patterned rabbitfish for larger reefs that combines algae browsing with a more unusual look than the standard foxface forms. It still needs real swimming room, vegetable-heavy feeding support, and a keeper who understands that rabbitfish are not totally coral-blind.",
     "overview_es": "",
     "facts": [
-      "Plan around a roomy, species-appropriate tank for long-term care.",
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Venomous dorsal spines and long-term swimming room both deserve mention before the sale."
+      "Rabbitfish generally settle well into mixed communities if the tank gives them room and avoids other rabbitfish rivals.",
+      "Venomous spines make handling a logistics issue even when the fish is otherwise calm.",
+      "Most long-term problems come from cramped quarters or weak herbivore feeding rather than from raw aggression."
     ],
     "photoTitle": "Blue Spotted Rabbitfish",
     "inStock": false,
@@ -108,7 +107,7 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "visualCue": "Look for blue spotting across a pale body and the typical rabbitfish snout.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -119,11 +118,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Roomy algae grazer with calm behavior and venomous dorsal spines. Room and spine safety both matter as much as algae utility.",
-    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
-    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
-    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
-    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
+    "headerSummary": "Patterned rabbitfish with useful algae-browsing behavior, calm community potential, and venomous spines. Best treated as a true long-term herbivore, not a temporary cleanup tool.",
+    "behavior": "Usually behaves like a measured cruising grazer that spends more time browsing than bullying. Similar-looking rabbitfish are the bigger compatibility issue; most unrelated tankmates are manageable if size and temperament make sense.",
+    "feedingNotes": "Provide seaweed sheets, herbivore formulas, and a varied prepared-food routine so the fish does not have to scrape every calorie from the rockwork. Like many rabbitfish, this one is usually better around corals when it is well fed.",
+    "buyingGuidance": "Best for larger reef or fish-only systems where the owner wants algae control plus a more distinctive body pattern than the standard foxface. The main reminders are spine safety, long-term space, and coral-sampling risk if the tank runs lean.",
+    "recognitionNotes": "Look for blue spotting across a pale body and the typical rabbitfish snout."
   },
   {
     "id": "foxface-lo",
@@ -149,12 +148,12 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "careDifficulty": 42,
     "role": "Roomy algae grazer with calm behavior and venomous dorsal spines",
     "role_es": "",
-    "overview": "Foxface Lo is a roomy algae grazer with useful browsing behavior and venomous dorsal spines.",
+    "overview": "A dependable rabbitfish for larger reef systems that mixes real algae utility with a calm, display-friendly presence. The main catches are venomous spines, adult size, and the need to keep it well fed if corals are in the system.",
     "overview_es": "",
     "facts": [
-      "Plan around a roomy, species-appropriate tank for long-term care.",
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Venomous dorsal spines and long-term swimming room both deserve mention before the sale."
+      "Excellent browser on film algae, softer nuisance growth, and leftover vegetable foods.",
+      "Usually peaceful with other community fish, but often quarrels with other rabbitfish or close look-alikes.",
+      "Can darken or blotch dramatically when stressed or sleeping; that color shift is normal."
     ],
     "photoTitle": "Foxface Lo",
     "inStock": false,
@@ -169,22 +168,23 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "visualCue": "Foxlike face pattern with bright yellow body sections, a dark chest patch, and a long tapering snout.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Larger mixed reefs with established rockwork and open swimming room",
+      "Community fish too large to treat it as prey",
+      "Aquarists who want algae help but still want a showy centerpiece herbivore"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Other rabbitfish unless the system is very large",
+      "Tiny tanks that turn a calm grazer into a pacing fish",
+      "Underfed reef tanks where soft corals or fleshy LPS may get sampled"
     ],
     "staffNote": "",
-    "headerSummary": "Roomy algae grazer with calm behavior and venomous dorsal spines. Room and spine safety both matter as much as algae utility.",
-    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
-    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
-    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
-    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
+    "headerSummary": "Classic foxface rabbitfish with real algae utility, calm manners, and venomous spines that deserve respect. Best in larger systems where it can graze, cruise, and stay well fed.",
+    "behavior": "Usually spends the day making deliberate grazing passes across rock, glass, and open surfaces instead of acting like a frantic speed swimmer. It is often one of the easier large herbivores to fit into a community, but it still needs open room and usually dislikes other rabbitfish.",
+    "feedingNotes": "Keep seaweed sheets, herbivore pellets, and varied frozen foods in rotation so it is not relying only on whatever algae the tank happens to provide. Well-fed rabbitfish are typically better behaved around corals than underfed ones.",
+    "buyingGuidance": "A strong recommendation for larger reef keepers who want a hardy algae grazer with more personality than a snail crew can offer. The important conversation is about adult size, safe handling because of the spines, and the possibility of coral nipping if feeding support is weak.",
+    "recognitionNotes": "Look for the foxlike face pattern, bold yellow rear body, dark chest patch, and long tapering snout typical of the classic foxface forms."
   },
   {
     "id": "magnificent-foxface",
@@ -210,12 +210,12 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "careDifficulty": 30,
     "role": "Elegant black and white foxface rabbitfish",
     "role_es": "Pez conejo cara de zorro elegante blanco y negro",
-    "overview": "A more elegantly patterned cousin of the common Foxface with a dramatic black and white face pattern. Same venomous spine warning applies. Excellent algae eater.",
+    "overview": "A larger, more dramatic rabbitfish that behaves like a roaming herbivore showpiece rather than just a utility grazer. It is impressive in big reefs, but it needs space, strong feeding support, and careful handling because of the spines.",
     "overview_es": "Un primo con patrón más elegante del Cara de Zorro común con un dramático patrón facial blanco y negro.",
     "facts": [
-      "Adult size in this catalog is listed around 9 in.",
-      "Plan around roughly 100+ gal or larger for long-term care.",
-      "Diet in this catalog: Herbivore."
+      "Gets large enough that the display must be planned around it, not just around the juvenile size in a store.",
+      "Powerful herbivorous browsing makes it useful, but not a substitute for proper nutrient control.",
+      "Venomous dorsal and anal spines mean nets and containers should be handled deliberately."
     ],
     "photoTitle": "Siganus_magnificus",
     "inStock": false,
@@ -230,7 +230,7 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     },
     "seasonal": null,
     "careLabel": "Moderate",
-    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "visualCue": "Large elegant rabbitfish profile with ornate face markings and extended finnage.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Reef-safe community plans with compatible tankmates",
@@ -241,11 +241,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Systems smaller than 100+ gal"
     ],
     "staffNote": "",
-    "headerSummary": "Elegant black and white foxface rabbitfish. Plan on roughly 100+ gal or larger long term.",
-    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
-    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
-    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
-    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
+    "headerSummary": "Large showpiece rabbitfish with heavy algae-grazing value and venomous spines. Best for aquarists already planning around a true adult-sized herbivore.",
+    "behavior": "More of a visible open-water cruiser than the smaller rabbitfish, often making broad passes through the tank before returning to browse. In the wrong size tank it quickly stops feeling calm and starts feeling crowded.",
+    "feedingNotes": "Treat it like a serious herbivore: nori, herbivore pellets, and mixed frozen foods should all be in the plan. Bigger rabbitfish often do best when there is both natural grazing and deliberate prepared feeding.",
+    "buyingGuidance": "Recommend it only when the aquarium is being built around a large adult rabbitfish and the owner understands that venomous spines do not make the fish maintenance-free. This is a better big-display choice than a casual add-on.",
+    "recognitionNotes": "More dramatic foxface/rabbitfish profile with ornate facial patterning and a grander overall presentation than the simpler one-spot forms."
   },
   {
     "id": "masked-rabbitfish",
@@ -271,12 +271,12 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "careDifficulty": 42,
     "role": "Roomy algae grazer with calm behavior and venomous dorsal spines",
     "role_es": "",
-    "overview": "Masked Rabbitfish is a roomy algae grazer with useful browsing behavior and venomous dorsal spines.",
+    "overview": "A sleek rabbitfish variant that still offers the same core benefits—algae browsing, generally calm behavior, and venomous-spine caution. It still needs real swimming room, vegetable-heavy feeding support, and a keeper who understands that rabbitfish are not totally coral-blind.",
     "overview_es": "",
     "facts": [
-      "Plan around a roomy, species-appropriate tank for long-term care.",
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Venomous dorsal spines and long-term swimming room both deserve mention before the sale."
+      "Rabbitfish generally settle well into mixed communities if the tank gives them room and avoids other rabbitfish rivals.",
+      "Venomous spines make handling a logistics issue even when the fish is otherwise calm.",
+      "Most long-term problems come from cramped quarters or weak herbivore feeding rather than from raw aggression."
     ],
     "photoTitle": "Masked Rabbitfish",
     "inStock": false,
@@ -291,7 +291,7 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "visualCue": "Look for mask-like face pattern set against a cleaner body design.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -302,11 +302,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Roomy algae grazer with calm behavior and venomous dorsal spines. Room and spine safety both matter as much as algae utility.",
-    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
-    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
-    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
-    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
+    "headerSummary": "Patterned rabbitfish with useful algae-browsing behavior, calm community potential, and venomous spines. Best treated as a true long-term herbivore, not a temporary cleanup tool.",
+    "behavior": "Usually behaves like a measured cruising grazer that spends more time browsing than bullying. Similar-looking rabbitfish are the bigger compatibility issue; most unrelated tankmates are manageable if size and temperament make sense.",
+    "feedingNotes": "Provide seaweed sheets, herbivore formulas, and a varied prepared-food routine so the fish does not have to scrape every calorie from the rockwork. Like many rabbitfish, this one is usually better around corals when it is well fed.",
+    "buyingGuidance": "Best for larger reef or fish-only systems where the owner wants algae control plus a more distinctive body pattern than the standard foxface. The main reminders are spine safety, long-term space, and coral-sampling risk if the tank runs lean.",
+    "recognitionNotes": "Look for mask-like face pattern set against a cleaner body design."
   },
   {
     "id": "one-spot-foxface",
@@ -332,12 +332,12 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "careDifficulty": 42,
     "role": "Roomy algae grazer with calm behavior and venomous dorsal spines",
     "role_es": "",
-    "overview": "One Spot Foxface is a roomy algae grazer with useful browsing behavior and venomous dorsal spines.",
+    "overview": "A smaller foxface-type rabbitfish that still brings algae-grazing value and venomous-spine caution, but fits more tanks than the biggest rabbitfish. It is often chosen when someone wants foxface behavior without moving all the way into huge-tank territory.",
     "overview_es": "",
     "facts": [
-      "Plan around a roomy, species-appropriate tank for long-term care.",
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Venomous dorsal spines and long-term swimming room both deserve mention before the sale."
+      "Often viewed as the most practical foxface for many home reefs because it stays more manageable than the largest rabbitfish.",
+      "Peaceful in most communities but still best kept away from other rabbitfish in modest systems.",
+      "Can sample soft corals or fleshy polyps if the tank is lean and it is not getting enough vegetable food."
     ],
     "photoTitle": "One Spot Foxface",
     "inStock": false,
@@ -352,7 +352,7 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "visualCue": "Classic foxface mask pattern with a distinct single dark spot on the rear body.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -363,11 +363,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Roomy algae grazer with calm behavior and venomous dorsal spines. Room and spine safety both matter as much as algae utility.",
-    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
-    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
-    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
-    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
+    "headerSummary": "More manageable foxface-style rabbitfish with proven algae utility, calm behavior, and venomous spines. Still needs real room and regular herbivore feeding support.",
+    "behavior": "Calm grazer that alternates between browsing rockwork and taking easy laps through the display. It usually settles well into semi-aggressive communities, but it still has the rabbitfish habit of becoming defensive toward similar-shaped grazers.",
+    "feedingNotes": "Offer seaweed, herbivore formulas, and varied frozen foods instead of expecting the tank to feed it forever. Strong feeding support is especially important in reef tanks where coral sampling would be a problem.",
+    "buyingGuidance": "Often the better foxface recommendation when the aquarist wants rabbitfish utility but does not have room for the biggest species. The sale should still include spine safety, long-term size, and coral-nipping caution if the fish is underfed.",
+    "recognitionNotes": "Usually identified by the classic foxface mask with a distinct dark ocellus on the rear body near the dorsal area."
   },
   {
     "id": "scribbled-rabbitfish",
@@ -393,12 +393,12 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "careDifficulty": 42,
     "role": "Roomy algae grazer with calm behavior and venomous dorsal spines",
     "role_es": "",
-    "overview": "Scribbled Rabbitfish is a roomy algae grazer with useful browsing behavior and venomous dorsal spines.",
+    "overview": "A patterned rabbitfish that reads more as a specialty display grazer than a plain utility fish. It still needs real swimming room, vegetable-heavy feeding support, and a keeper who understands that rabbitfish are not totally coral-blind.",
     "overview_es": "",
     "facts": [
-      "Plan around a roomy, species-appropriate tank for long-term care.",
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Venomous dorsal spines and long-term swimming room both deserve mention before the sale."
+      "Rabbitfish generally settle well into mixed communities if the tank gives them room and avoids other rabbitfish rivals.",
+      "Venomous spines make handling a logistics issue even when the fish is otherwise calm.",
+      "Most long-term problems come from cramped quarters or weak herbivore feeding rather than from raw aggression."
     ],
     "photoTitle": "Scribbled Rabbitfish",
     "inStock": false,
@@ -413,7 +413,7 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "visualCue": "Look for maze-like scribbled patterning over the body and face.",
     "bestWith": [
       "Mature systems that meet the minimum tank size",
       "Tankmates chosen around its behavior and adult size",
@@ -424,11 +424,11 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Roomy algae grazer with calm behavior and venomous dorsal spines. Room and spine safety both matter as much as algae utility.",
-    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
-    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
-    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
-    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
+    "headerSummary": "Patterned rabbitfish with useful algae-browsing behavior, calm community potential, and venomous spines. Best treated as a true long-term herbivore, not a temporary cleanup tool.",
+    "behavior": "Usually behaves like a measured cruising grazer that spends more time browsing than bullying. Similar-looking rabbitfish are the bigger compatibility issue; most unrelated tankmates are manageable if size and temperament make sense.",
+    "feedingNotes": "Provide seaweed sheets, herbivore formulas, and a varied prepared-food routine so the fish does not have to scrape every calorie from the rockwork. Like many rabbitfish, this one is usually better around corals when it is well fed.",
+    "buyingGuidance": "Best for larger reef or fish-only systems where the owner wants algae control plus a more distinctive body pattern than the standard foxface. The main reminders are spine safety, long-term space, and coral-sampling risk if the tank runs lean.",
+    "recognitionNotes": "Look for maze-like scribbled patterning over the body and face."
   },
   {
     "id": "foxface-rabbitfish",
@@ -451,7 +451,7 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "photoTitle": "Siganus_vulpinus",
     "role": "Yellow herbivore with venomous spines",
     "role_es": "Herbívoro amarillo con espinas venenosas",
-    "overview": "Vibrant yellow with black and white face. Excellent algae grazer with venomous dorsal spines. Hardy and peaceful.",
+    "overview": "A dependable rabbitfish for larger reef systems that mixes real algae utility with a calm, display-friendly presence. The main catches are venomous spines, adult size, and the need to keep it well fed if corals are in the system.",
     "overview_es": "Amarillo vibrante con cara blanca y negra. Excelente comedor de algas con espinas venenosas.",
     "inStock": false,
     "price": 0,
@@ -460,9 +460,9 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "badges": [],
     "aliases": [],
     "facts": [
-      "Adult size in this catalog is listed around 10 in.",
-      "Plan around roughly 100+ gal or larger for long-term care.",
-      "Diet in this catalog: Herbivore."
+      "Excellent browser on film algae, softer nuisance growth, and leftover vegetable foods.",
+      "Usually peaceful with other community fish, but often quarrels with other rabbitfish or close look-alikes.",
+      "Can darken or blotch dramatically when stressed or sleeping; that color shift is normal."
     ],
     "water": {
       "ph": [
@@ -486,21 +486,22 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     },
     "seasonal": null,
     "careLabel": "Moderate",
-    "visualCue": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines.",
+    "visualCue": "Foxlike face pattern with bright yellow body sections, a dark chest patch, and a long tapering snout.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Reef-safe community plans with compatible tankmates",
-      "Semi-aggressive tankmates of similar size"
+      "Larger mixed reefs with established rockwork and open swimming room",
+      "Community fish too large to treat it as prey",
+      "Aquarists who want algae help but still want a showy centerpiece herbivore"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Systems smaller than 100+ gal"
+      "Other rabbitfish unless the system is very large",
+      "Tiny tanks that turn a calm grazer into a pacing fish",
+      "Underfed reef tanks where soft corals or fleshy LPS may get sampled"
     ],
     "staffNote": "",
-    "headerSummary": "Yellow herbivore with venomous spines. Plan on roughly 100+ gal or larger long term.",
-    "behavior": "Steady algae grazer with a calm overall presence and long grazing passes across rock and glass. Rabbitfish are usually easier community additions than they look, but they still need room and deserve respect because of their venomous dorsal spines.",
-    "feedingNotes": "Make algae support part of the routine, not an afterthought. Seaweed sheets, herbivore pellets, and occasional frozen rotation usually keep rabbitfish in better long-term condition.",
-    "buyingGuidance": "A strong recommendation when the buyer wants algae help and a larger peaceful display fish, but the conversation should still include spine caution and the need for long-term room.",
-    "recognitionNotes": "Look for the foxface/rabbitfish body shape, browsing behavior, and dorsal spines."
+    "headerSummary": "Classic foxface rabbitfish with real algae utility, calm manners, and venomous spines that deserve respect. Best in larger systems where it can graze, cruise, and stay well fed.",
+    "behavior": "Usually spends the day making deliberate grazing passes across rock, glass, and open surfaces instead of acting like a frantic speed swimmer. It is often one of the easier large herbivores to fit into a community, but it still needs open room and usually dislikes other rabbitfish.",
+    "feedingNotes": "Keep seaweed sheets, herbivore pellets, and varied frozen foods in rotation so it is not relying only on whatever algae the tank happens to provide. Well-fed rabbitfish are typically better behaved around corals than underfed ones.",
+    "buyingGuidance": "A strong recommendation for larger reef keepers who want a hardy algae grazer with more personality than a snail crew can offer. The important conversation is about adult size, safe handling because of the spines, and the possibility of coral nipping if feeding support is weak.",
+    "recognitionNotes": "Look for the foxlike face pattern, bold yellow rear body, dark chest patch, and long tapering snout typical of the classic foxface forms."
   }
 ];

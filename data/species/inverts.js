@@ -1,4 +1,3 @@
-window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Inverts"] = [
   {
     "id": "sand-sifting-sea-cucumber",
@@ -24,12 +23,12 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "careDifficulty": 48,
     "role": "Mature-tank sand processor that ingests substrate and leaves cleaner aerated sand behind",
     "role_es": "",
-    "overview": "Very useful in the right system, but not a beginner add-on. This type of cucumber needs mature sand, stable handling, and a buyer who understands the risks of starvation and injury from pumps or rough tankmates.",
+    "overview": "A true substrate-processing animal that ingests sand, strips out organics, and leaves cleaner-looking sediment behind. Extremely useful in the right mature sand bed, but too specialized for tanks that only have a decorative dusting of sand.",
     "overview_es": "",
     "facts": [
-      "Processes sand continuously and helps keep the substrate turned over.",
-      "Needs large mature sand areas with enough organic material to eat.",
-      "Can be injured by uncovered intakes, rough handling, or harassment."
+      "Needs a mature sand bed with enough ongoing organics and micro-life to process.",
+      "Much more specialized than a snail or hermit cleanup addition.",
+      "Best in peaceful systems where the animal is not harassed or trapped against pumps and overflows."
     ],
     "photoTitle": "Holothuria hilla",
     "inStock": false,
@@ -44,7 +43,7 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "soft elongated cucumber body moving slowly across the sand while feeding continuously.",
+    "visualCue": "Elongated soft-bodied invert slowly processing sand across the substrate.",
     "bestWith": [
       "Larger mature sand-bed reefs",
       "Experienced keepers",
@@ -53,10 +52,14 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "cautionWith": [
       "Small immature tanks",
       "Bare-bottom setups",
-      "Buyers who want a low-risk impulse cleanup animal"
+      "aquarists who want a low-risk impulse cleanup animal"
     ],
     "staffNote": "Great utility animal in mature sand systems. Not for fresh or tiny tanks.",
-    "headerSummary": "Mature-tank sand processor that ingests substrate and leaves cleaner aerated sand behind. Look for soft elongated cucumber body moving slowly across the sand while feeding continuously. Plan on at least 50+ gal."
+    "headerSummary": "Specialized sand-processing cucumber for mature substrate-heavy systems. Great worker when the habitat is right, poor fit when sand is shallow or sterile.",
+    "behavior": "Usually moves slowly over or through the substrate, constantly processing sand rather than grazing visible algae. The work is impressive, but it depends on the tank having enough real sand-bed nutrition to support the animal.",
+    "feedingNotes": "Long-term success depends on the substrate itself being mature and productive. You cannot replace an empty sterile sand bed with wishful thinking and a cucumber purchase.",
+    "buyingGuidance": "Recommend only when the reef has a mature open sand bed and the owner wants a true substrate specialist. These are habitat-driven purchases, not generic cleanup extras.",
+    "recognitionNotes": "Elongated soft-bodied sand specialist usually seen plowing slowly across the substrate while processing sand."
   },
   {
     "id": "tiger-tail-sea-cucumber",
@@ -82,12 +85,12 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "careDifficulty": 46,
     "role": "Popular sand-cleaning cucumber for mature tanks with broad substrate and stable flow",
     "role_es": "",
-    "overview": "A classic sand-processing cucumber for the right reef, especially when the owner wants cleaner looking substrate without adding another fish. The tank just needs to be mature enough to feed it long term.",
+    "overview": "A true substrate-processing animal that ingests sand, strips out organics, and leaves cleaner-looking sediment behind. Extremely useful in the right mature sand bed, but too specialized for tanks that only have a decorative dusting of sand.",
     "overview_es": "",
     "facts": [
-      "Works by processing dirty sand and passing it back out cleaner.",
-      "Needs large stable sand areas and protected pump intakes.",
-      "Best sold after confirming the system is mature and not overcrowded."
+      "Needs a mature sand bed with enough ongoing organics and micro-life to process.",
+      "Much more specialized than a snail or hermit cleanup addition.",
+      "Best in peaceful systems where the animal is not harassed or trapped against pumps and overflows."
     ],
     "photoTitle": "Holothuria hilla",
     "inStock": false,
@@ -102,10 +105,10 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "striped tiger-tail body that cruises the substrate while ingesting and cleaning sand.",
+    "visualCue": "Elongated soft-bodied invert slowly processing sand across the substrate.",
     "bestWith": [
       "Established sand-bed reefs",
-      "Customers specifically asking for sand-processing utility",
+      "aquarists specifically asking for sand-processing utility",
       "Protected-flow systems"
     ],
     "cautionWith": [
@@ -114,7 +117,11 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
       "Aggressive tankmates that pick at slow inverts"
     ],
     "staffNote": "Ask about sand-bed age and pump protection before selling this one.",
-    "headerSummary": "Popular sand-cleaning cucumber for mature tanks with broad substrate and stable flow. Look for striped tiger-tail body that cruises the substrate while ingesting and cleaning sand. Plan on at least 50+ gal."
+    "headerSummary": "Specialized sand-processing cucumber for mature substrate-heavy systems. Great worker when the habitat is right, poor fit when sand is shallow or sterile.",
+    "behavior": "Usually moves slowly over or through the substrate, constantly processing sand rather than grazing visible algae. The work is impressive, but it depends on the tank having enough real sand-bed nutrition to support the animal.",
+    "feedingNotes": "Long-term success depends on the substrate itself being mature and productive. You cannot replace an empty sterile sand bed with wishful thinking and a cucumber purchase.",
+    "buyingGuidance": "Recommend only when the reef has a mature open sand bed and the owner wants a true substrate specialist. These are habitat-driven purchases, not generic cleanup extras.",
+    "recognitionNotes": "Elongated soft-bodied sand specialist usually seen plowing slowly across the substrate while processing sand."
   },
   {
     "id": "coco-worm",
@@ -140,12 +147,12 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "careDifficulty": 42,
     "role": "Tube-dwelling filter feeder kept for its dramatic twin spiral crown and elegant feeding display",
     "role_es": "",
-    "overview": "A beautiful specialty invert that belongs in calm mature reefs where suspended food and stable placement are available. This is more of a display worm than a cleanup animal, and it should be sold that way.",
+    "overview": "Filter-feeding tube worm valued for the crown display as much as for any utility. Best in calmer mature systems with consistent fine suspended food and tankmates that will not pick at the delicate feeding crown.",
     "overview_es": "",
     "facts": [
-      "Needs suspended food in the water column and stable salinity.",
-      "Retracts quickly when startled and can stay closed after repeated stress.",
-      "Best placed where the crown gets flow without being blasted."
+      "Displays a fan or crown that retracts instantly when disturbed.",
+      "Requires suspended foods and stable conditions rather than rough-and-tumble cleanup-crew treatment.",
+      "Poor choice with known worm pickers, large hawkfish, many butterflies, or curious predators."
     ],
     "photoTitle": "Protula bispiralis",
     "inStock": false,
@@ -160,19 +167,23 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "hard tube with a large feather-like double crown that snaps shut when disturbed.",
+    "visualCue": "Feathery filtering crown that retracts into a tube.",
     "bestWith": [
       "Mature mixed reefs",
       "Display-focused invert tanks",
-      "Customers comfortable target-feeding or plankton support"
+      "aquarists comfortable target-feeding or plankton support"
     ],
     "cautionWith": [
       "Rough fish that nip crowns",
       "Ultra-clean sterile systems with no suspended food",
-      "Buyers wanting a low-maintenance cleanup crew item"
+      "aquarists wanting a low-maintenance cleanup crew item"
     ],
-    "staffNote": "Beautiful but specialty. Make sure the buyer understands the filter-feeding side.",
-    "headerSummary": "Tube-dwelling filter feeder kept for its dramatic twin spiral crown and elegant feeding display. Look for hard tube with a large feather-like double crown that snaps shut when disturbed. Plan on at least 30+ gal."
+    "staffNote": "Beautiful but specialty. Make sure the aquarist understands the filter-feeding side.",
+    "headerSummary": "Delicate filter-feeding tube worm best for peaceful mature systems with planktonic feeding support. Ornamental specialist, not cleanup crew.",
+    "behavior": "Usually stays fixed in the tube and opens the crown to filter fine foods from the water. The whole appeal is that elegant display response, which disappears quickly in rough tanks where the animal never feels secure enough to open fully.",
+    "feedingNotes": "Needs a steady supply of fine suspended foods and good water quality. A gorgeous worm in a nutrient-starved tank with no particulate feeding plan often declines quietly.",
+    "buyingGuidance": "Recommend only when the aquarist is intentionally adding a filter-feeding ornamental and can support that. This is not a “throw it in with the cleanup crew” item.",
+    "recognitionNotes": "Feathery crown that retracts into a protective tube at the slightest disturbance."
   },
   {
     "id": "feather-duster-worm",
@@ -198,12 +209,12 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "careDifficulty": 28,
     "role": "Tube worm that adds motion and color while filtering suspended particles from the water",
     "role_es": "",
-    "overview": "An easier worm sale than a coco worm for many customers, especially when they already feed coral foods or run a more naturally rich reef. Best pitched as a display filter feeder rather than a worker invert.",
+    "overview": "Filter-feeding tube worm valued for the crown display as much as for any utility. Best in calmer mature systems with consistent fine suspended food and tankmates that will not pick at the delicate feeding crown.",
     "overview_es": "",
     "facts": [
-      "Needs suspended food and reasonable stability to keep the crown extended.",
-      "Can drop and regrow the crown after stress.",
-      "Works well in peaceful mixed reefs with protected placement."
+      "Displays a fan or crown that retracts instantly when disturbed.",
+      "Requires suspended foods and stable conditions rather than rough-and-tumble cleanup-crew treatment.",
+      "Poor choice with known worm pickers, large hawkfish, many butterflies, or curious predators."
     ],
     "photoTitle": "Sabellastarte",
     "inStock": false,
@@ -218,19 +229,23 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "soft feather-like fan crown that opens from a protective tube and retracts instantly if startled.",
+    "visualCue": "Feathery filtering crown that retracts into a tube.",
     "bestWith": [
       "Peaceful mixed reefs",
-      "Customers who already feed planktonic foods",
+      "aquarists who already feed planktonic foods",
       "Moderate-flow placement on rock"
     ],
     "cautionWith": [
       "Nippy fish and curious crabs",
       "Very sterile tanks with little food in suspension",
-      "Buyers wanting an algae grazer"
+      "aquarists wanting an algae grazer"
     ],
-    "staffNote": "Good entry-level worm sale when the system already supports filter feeders.",
-    "headerSummary": "Tube worm that adds motion and color while filtering suspended particles from the water. Look for soft feather-like fan crown that opens from a protective tube and retracts instantly if startled. Plan on at least 20+ gal."
+    "staffNote": "Good entry-level worm choice when the system already supports filter feeders.",
+    "headerSummary": "Delicate filter-feeding tube worm best for peaceful mature systems with planktonic feeding support. Ornamental specialist, not cleanup crew.",
+    "behavior": "Usually stays fixed in the tube and opens the crown to filter fine foods from the water. The whole appeal is that elegant display response, which disappears quickly in rough tanks where the animal never feels secure enough to open fully.",
+    "feedingNotes": "Needs a steady supply of fine suspended foods and good water quality. A gorgeous worm in a nutrient-starved tank with no particulate feeding plan often declines quietly.",
+    "buyingGuidance": "Recommend only when the aquarist is intentionally adding a filter-feeding ornamental and can support that. This is not a “throw it in with the cleanup crew” item.",
+    "recognitionNotes": "Feathery crown that retracts into a protective tube at the slightest disturbance."
   },
   {
     "id": "amphipods",
@@ -256,12 +271,12 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "careDifficulty": 10,
     "role": "Micro-crustacean biodiversity addition that helps feed picky fish and process fine leftover organics",
     "role_es": "",
-    "overview": "Live microfauna add-on that strengthens biodiversity and supports pod-eating fish, especially in refugia and mature reefs.",
+    "overview": "Utility culture entry focused on larger benthic live food and biodiversity support. Pods are valuable because they strengthen the food web, support pod-dependent fish, and make refugiums or mature reef systems more biologically productive.",
     "overview_es": "",
     "facts": [
-      "Excellent support food for mandarins, wrasses, and other pod pickers depending on tankmates.",
-      "Do best when macroalgae, rubble, or refugia give them safe breeding space.",
-      "A mature tank keeps them around better than a sterile brand-new setup."
+      "Best results come when pods have hiding space or refugium habitat instead of being dumped into open predation instantly.",
+      "Especially useful for mandarins, dragonets, and systems that benefit from constant natural foraging opportunities.",
+      "Value is ecological and nutritional, not ornamental."
     ],
     "photoTitle": "Amphipod",
     "inStock": false,
@@ -276,7 +291,7 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "tiny comma-shaped crustaceans darting through macroalgae, rubble, and the glass after lights-out.",
+    "visualCue": "Microfauna culture for refugiums and pod-dependent fish support.",
     "bestWith": [
       "Refugia",
       "Mandarin-support systems",
@@ -288,7 +303,11 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
       "Expecting immediate visible results in every tank"
     ],
     "staffNote": "Pitch function and biodiversity, not visibility.",
-    "headerSummary": "Micro-crustacean biodiversity addition that helps feed picky fish and process fine leftover organics. Look for tiny comma-shaped crustaceans darting through macroalgae, rubble, and the glass after lights-out. Plan on at least Any stable reef or refugium."
+    "headerSummary": "Pod culture for food-web support, refugium seeding, and pod-dependent fish. A system-function purchase rather than a display-animal purchase.",
+    "behavior": "As a culture, the goal is reproduction, settlement, and availability as forage rather than visible ornamental behavior. In well-structured systems pods become part of the background ecology that makes everything else work better.",
+    "feedingNotes": "Use in tanks with macroalgae, rubble, refugium zones, or at least enough microhabitat for populations to establish. Otherwise the addition often becomes a very expensive one-time snack.",
+    "buyingGuidance": "Recommend when the owner has a real use case: seeding a refugium, supporting pod-feeding fish, or boosting biodiversity. Pods are excellent system tools when the habitat plan exists.",
+    "recognitionNotes": "Live food culture used to seed microfauna populations rather than to provide a visible ornamental display animal."
   },
   {
     "id": "chaeto-refugium-pack",
@@ -314,12 +333,12 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "careDifficulty": 10,
     "role": "Refugium seeding pack built to kick-start biodiversity inside chaeto or protected sump sections",
     "role_es": "",
-    "overview": "This is a system-support product, not a display invert. It sells best to customers setting up or refreshing a refugium who want more life in the macro and more natural feeding support downstream.",
+    "overview": "Functional support package meant for macroalgae/refugium support with attached microfauna value, not for ornamental display. These entries make sense when someone is building a healthier system ecology, not when they are shopping for visible showcase animals.",
     "overview_es": "",
     "facts": [
-      "Best introduced to a protected refugium or chaeto basket.",
-      "Helps seed pods and other beneficial small life into the system.",
-      "More useful in systems that actually have a place for the culture to establish."
+      "Value comes from biological function, biodiversity, and long-term system support.",
+      "Best used by aquarists who understand where the package will live and what problem it is meant to solve.",
+      "Often most effective when paired with refugium space, stable nutrients, and realistic stocking goals."
     ],
     "photoTitle": "Chaeto",
     "inStock": false,
@@ -334,19 +353,23 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "bag or portion of chaeto loaded with tiny life, detritus processors, and microfauna seed organisms.",
+    "visualCue": "Functional package entry meant to support system ecology rather than display one showpiece invert.",
     "bestWith": [
       "Refugium setups",
       "New sump builds",
-      "Customers focused on long-term biodiversity"
+      "aquarists focused on long-term biodiversity"
     ],
     "cautionWith": [
       "Bare display-only systems with heavy pod predation",
       "Selling it like a cleanup crab or snail",
       "Expecting instant display-tank visibility"
     ],
-    "staffNote": "Great support pack when the buyer has a refugium space ready for it.",
-    "headerSummary": "Refugium seeding pack built to kick-start biodiversity inside chaeto or protected sump sections. Look for bag or portion of chaeto loaded with tiny life, detritus processors, and microfauna seed organisms. Plan on at least Refugium-ready system."
+    "staffNote": "Great support pack when the aquarist has a refugium space ready for it.",
+    "headerSummary": "System-support package built around ecology and function rather than showpiece display value. Best for purposeful reef planning.",
+    "behavior": "The benefits are indirect: nutrient support, biodiversity, microfauna housing, and long-term stability rather than obvious day-one spectacle. These are background-improvement tools for people who appreciate system building.",
+    "feedingNotes": "Think habitat and placement first. Packages like this work best when the receiving system has the right space, flow, and purpose—not when they are dropped in with no plan.",
+    "buyingGuidance": "Recommend only after identifying the actual goal: nutrient export, biodiversity support, refugium seeding, or cleanup balancing. These are smart purchases when tied to a plan and wasted purchases when bought on vibes alone.",
+    "recognitionNotes": "Package-style entry centered on refugium or cleanup-system support rather than one visible display animal."
   },
   {
     "id": "copepods",
@@ -372,12 +395,12 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "careDifficulty": 10,
     "role": "Live microfauna culture that supports mandarins and improves the natural food web in reef systems",
     "role_es": "",
-    "overview": "A classic support culture for pod-eating fish and general reef biodiversity. The honest sale is that copepods work best when the tank has safe habitat and the customer understands predators can suppress visible populations.",
+    "overview": "Utility culture entry focused on micro-plankton live food and food-web support. Pods are valuable because they strengthen the food web, support pod-dependent fish, and make refugiums or mature reef systems more biologically productive.",
     "overview_es": "",
     "facts": [
-      "Excellent for refugia and pod-support systems.",
-      "Often used to help support mandarins and other micro-predators.",
-      "Need protected breeding space to maintain numbers long term."
+      "Best results come when pods have hiding space or refugium habitat instead of being dumped into open predation instantly.",
+      "Especially useful for mandarins, dragonets, and systems that benefit from constant natural foraging opportunities.",
+      "Value is ecological and nutritional, not ornamental."
     ],
     "photoTitle": "Copepod",
     "inStock": false,
@@ -392,11 +415,11 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "tiny white specks jittering over glass and through macroalgae, especially at night.",
+    "visualCue": "Microfauna culture for refugiums and pod-dependent fish support.",
     "bestWith": [
       "Mandarin and dragonet systems",
       "Refugia",
-      "Customers building a richer food web"
+      "aquarists building a richer food web"
     ],
     "cautionWith": [
       "Predator-packed displays with no safe pod habitat",
@@ -404,7 +427,11 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
       "Selling it as a cleanup crew substitute"
     ],
     "staffNote": "Useful live-food culture. Ask whether the tank has a refugium or pod-safe zones.",
-    "headerSummary": "Live microfauna culture that supports mandarins and improves the natural food web in reef systems. Look for tiny white specks jittering over glass and through macroalgae, especially at night. Plan on at least Any stable reef or refugium."
+    "headerSummary": "Pod culture for food-web support, refugium seeding, and pod-dependent fish. A system-function purchase rather than a display-animal purchase.",
+    "behavior": "As a culture, the goal is reproduction, settlement, and availability as forage rather than visible ornamental behavior. In well-structured systems pods become part of the background ecology that makes everything else work better.",
+    "feedingNotes": "Use in tanks with macroalgae, rubble, refugium zones, or at least enough microhabitat for populations to establish. Otherwise the addition often becomes a very expensive one-time snack.",
+    "buyingGuidance": "Recommend when the owner has a real use case: seeding a refugium, supporting pod-feeding fish, or boosting biodiversity. Pods are excellent system tools when the habitat plan exists.",
+    "recognitionNotes": "Live food culture used to seed microfauna populations rather than to provide a visible ornamental display animal."
   },
   {
     "id": "live-rock-cleanup-pack",
@@ -428,14 +455,14 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "coralRisk": 0,
     "invertRisk": 0,
     "careDifficulty": 12,
-    "role": "Mixed biodiversity booster for customers who want to repopulate the tiny life on and around live rock",
+    "role": "Mixed biodiversity booster for aquarists who want to repopulate the tiny life on and around live rock",
     "role_es": "",
-    "overview": "This kind of pack should be sold as a biodiversity and utility booster, especially for tanks that feel too sterile or need more life in the rock. It is more about system function than about a specific show animal.",
+    "overview": "Functional support package meant for mixed utility package for establishing cleanup diversity, not for ornamental display. These entries make sense when someone is building a healthier system ecology, not when they are shopping for visible showcase animals.",
     "overview_es": "",
     "facts": [
-      "Useful after aggressive pest treatments or long sterile periods.",
-      "Can help repopulate rock with small scavengers and microfauna.",
-      "Best results come in tanks with porous rock and some protected habitat."
+      "Value comes from biological function, biodiversity, and long-term system support.",
+      "Best used by aquarists who understand where the package will live and what problem it is meant to solve.",
+      "Often most effective when paired with refugium space, stable nutrients, and realistic stocking goals."
     ],
     "photoTitle": "Live rock",
     "inStock": false,
@@ -450,19 +477,23 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "assorted tiny beneficial life rather than a single visible display species.",
+    "visualCue": "Functional package entry meant to support system ecology rather than display one showpiece invert.",
     "bestWith": [
       "Established live-rock systems",
       "Refugium-assisted reefs",
-      "Customers rebuilding biodiversity"
+      "aquarists rebuilding biodiversity"
     ],
     "cautionWith": [
       "Expecting one bag to solve a neglect problem by itself",
       "Heavy predators with no safe zones",
       "Calling it a display livestock item"
     ],
-    "staffNote": "Sell the system benefit clearly so expectations stay realistic.",
-    "headerSummary": "Mixed biodiversity booster for customers who want to repopulate the tiny life on and around live rock. Look for assorted tiny beneficial life rather than a single visible display species. Plan on at least Established live-rock system."
+    "staffNote": "Lead with the system benefit clearly so expectations stay realistic.",
+    "headerSummary": "System-support package built around ecology and function rather than showpiece display value. Best for purposeful reef planning.",
+    "behavior": "The benefits are indirect: nutrient support, biodiversity, microfauna housing, and long-term stability rather than obvious day-one spectacle. These are background-improvement tools for people who appreciate system building.",
+    "feedingNotes": "Think habitat and placement first. Packages like this work best when the receiving system has the right space, flow, and purpose—not when they are dropped in with no plan.",
+    "buyingGuidance": "Recommend only after identifying the actual goal: nutrient export, biodiversity support, refugium seeding, or cleanup balancing. These are smart purchases when tied to a plan and wasted purchases when bought on vibes alone.",
+    "recognitionNotes": "Package-style entry centered on refugium or cleanup-system support rather than one visible display animal."
   },
   {
     "id": "refugium-microfauna-pack",
@@ -488,12 +519,12 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "careDifficulty": 10,
     "role": "Biodiversity seeding blend meant to establish life in refugia and protected low-predation zones",
     "role_es": "",
-    "overview": "Another support-item sale that belongs with refugia, macro baskets, and pod-minded systems. It is about building background life, not about adding something the customer will stare at front and center.",
+    "overview": "Functional support package meant for biodiversity seeding for refugium and food-web support, not for ornamental display. These entries make sense when someone is building a healthier system ecology, not when they are shopping for visible showcase animals.",
     "overview_es": "",
     "facts": [
-      "Works best where predators cannot instantly wipe it out.",
-      "Useful for biodiversity recovery and food-web support.",
-      "Pairs naturally with chaeto and other refugium media."
+      "Value comes from biological function, biodiversity, and long-term system support.",
+      "Best used by aquarists who understand where the package will live and what problem it is meant to solve.",
+      "Often most effective when paired with refugium space, stable nutrients, and realistic stocking goals."
     ],
     "photoTitle": "Microfauna",
     "inStock": false,
@@ -508,7 +539,7 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "mixed tiny life forms moving through macroalgae, detritus, and rubble rather than one obvious display species.",
+    "visualCue": "Functional package entry meant to support system ecology rather than display one showpiece invert.",
     "bestWith": [
       "Refugia and sump sections",
       "Biodiversity recovery plans",
@@ -520,7 +551,11 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
       "Expecting immediate visible display impact"
     ],
     "staffNote": "Support product, not display animal. Frame it that way.",
-    "headerSummary": "Biodiversity seeding blend meant to establish life in refugia and protected low-predation zones. Look for mixed tiny life forms moving through macroalgae, detritus, and rubble rather than one obvious display species. Plan on at least Refugium-ready system."
+    "headerSummary": "System-support package built around ecology and function rather than showpiece display value. Best for purposeful reef planning.",
+    "behavior": "The benefits are indirect: nutrient support, biodiversity, microfauna housing, and long-term stability rather than obvious day-one spectacle. These are background-improvement tools for people who appreciate system building.",
+    "feedingNotes": "Think habitat and placement first. Packages like this work best when the receiving system has the right space, flow, and purpose—not when they are dropped in with no plan.",
+    "buyingGuidance": "Recommend only after identifying the actual goal: nutrient export, biodiversity support, refugium seeding, or cleanup balancing. These are smart purchases when tied to a plan and wasted purchases when bought on vibes alone.",
+    "recognitionNotes": "Package-style entry centered on refugium or cleanup-system support rather than one visible display animal."
   },
   {
     "id": "sea-hare",
@@ -546,12 +581,12 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "careDifficulty": 38,
     "role": "Large soft-bodied algae specialist used when a tank has enough nuisance algae to justify a temporary heavy grazer",
     "role_es": "Babosa masiva comedora de algas que devora algas capilares",
-    "overview": "Sea hares can absolutely crush certain algae problems, but they are a tactical sale, not a permanent decorative livestock recommendation for every tank. Once the algae is gone, the buyer needs a plan for food or rehoming.",
+    "overview": "A specialized algae-eating slug often used as a serious answer to heavy nuisance algae, not as a casual decorative invert. It can be extremely effective, but the keeper must plan for what happens after the algae is gone and understand the stress-ink risk.",
     "overview_es": "La opción nuclear para algas capilares. Las liebres marinas pueden consumir enormes cantidades de algas problemáticas. Sin embargo, pueden morir de hambre una vez que las algas se acaban.",
     "facts": [
-      "Very effective on some nuisance algae, especially heavier patches.",
-      "Soft-bodied and vulnerable to pump intakes, rough handling, and harassment.",
-      "Can starve quickly in overly clean systems after the algae problem is solved."
+      "Can be very effective on certain nuisance algae loads in a short time.",
+      "If badly startled, some sea hares can release purple ink that needs rapid filtration support.",
+      "Best viewed as an algae-management specialist rather than a permanent generic cleanup pet in every reef."
     ],
     "photoTitle": "Dolabella auricularia",
     "inStock": false,
@@ -566,7 +601,7 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "big rounded slug-like body with ear-like flaps and a slow bulldozing graze pattern.",
+    "visualCue": "Large soft-bodied algae slug with rabbit-like head tentacles.",
     "bestWith": [
       "Tanks with real nuisance algae to tackle",
       "Experienced hobbyists with a post-cleanup plan",
@@ -574,10 +609,14 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     ],
     "cautionWith": [
       "Clean tanks with little algae",
-      "Buyers wanting a permanent easy display pet",
+      "aquarists wanting a permanent easy display pet",
       "Aggressive fish and exposed powerheads"
     ],
-    "staffNote": "Good tactical algae sale only if the buyer already has a follow-up plan.",
-    "headerSummary": "Large soft-bodied algae specialist used when a tank has enough nuisance algae to justify a temporary heavy grazer. Look for big rounded slug-like body with ear-like flaps and a slow bulldozing graze pattern. Plan on at least 30+ gal."
+    "staffNote": "Good tactical algae fit only if the aquarist already has a follow-up plan.",
+    "headerSummary": "Powerful algae specialist with real utility, real vulnerability, and a “what happens after the algae is gone?” problem. Great worker when used intentionally.",
+    "behavior": "Usually grazes steadily and purposefully over algae patches rather than wandering like a decorative oddball. In the right algae-heavy system it can feel miraculous; in a clean or aggressive tank it quickly becomes the wrong animal.",
+    "feedingNotes": "Buy only when there is a clear algae food source or a post-cleanup plan. A sea hare that solves the algae problem and is then left with nothing to eat is not a success story.",
+    "buyingGuidance": "Recommend when the aquarist specifically needs heavy algae help and is prepared both for gentle handling and for the aftercare plan once the job is done. This is a specialist tool animal, not a random invert add.",
+    "recognitionNotes": "Large soft-bodied algae slug with rabbit-like head tentacles and a broad grazing profile."
   }
 ];

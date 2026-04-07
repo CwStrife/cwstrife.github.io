@@ -1,4 +1,3 @@
-window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
   {
     "id": "bluejaw-trigger",
@@ -22,14 +21,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Alert triggerfish with strong display presence and bigger-system needs",
+    "role": "Open-water Xanthichthys trigger with color, movement, and a gentler reputation than bruiser triggers",
     "role_es": "",
-    "overview": "Bluejaw Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 9 in. Diet here is listed as Carnivore / planktivore.",
+    "overview": "One of the better-known “safer” trigger options, though safer is not the same as harmless. Bluejaw Triggers are open-water planktivore-style triggers that usually show less rock-bashing aggression than clown, queen, or undulated triggers, but they still need a large stable system and realistic expectations around shrimps, crabs, and assertive tankmates.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 9 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore / planktivore."
+      "Male blue facial color is the feature most customers notice first.",
+      "Generally calmer than many classic trigger bruisers.",
+      "Still needs size, diet structure, and room to behave like a trigger."
     ],
     "photoTitle": "Bluejaw Trigger",
     "inStock": false,
@@ -44,22 +43,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Streamlined trigger profile with blue facial accents and yellow fin edging, moving more like a midwater cruiser than a rock-hopping brawler.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "large mixed predator or big-fish community systems",
+      "customers wanting a trigger with more midwater behavior",
+      "robust fish that suit a large active display"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "small crustacean-heavy reef displays",
+      "undersized tanks that force constant territorial contact",
+      "customers interpreting “reef safer” as “reef safe with everything”"
     ],
-    "staffNote": "",
-    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "More of an open-water cruiser than a rock-bashing bruiser. Usually one of the calmer trigger choices, though it still needs room and can become pushy if crowded or mixed badly.",
-    "feedingNotes": "Offer a varied carnivore/planktivore routine built around quality frozen meaty foods, pellets, and occasional shell-on items for jaw exercise.",
-    "recognitionNotes": "Look for the slimmer trigger profile, blue facial edging, and constant midwater movement.",
-    "buyingGuidance": "Best sold to buyers who want a trigger look without jumping straight to the most aggressive species. Still a large-tank fish, and still a poor fit for shrimp- or crab-heavy displays."
+    "staffNote": "Good trigger gateway fish, but keep the word “relatively” in every compatibility conversation.",
+    "headerSummary": "Open-water Xanthichthys trigger with color, movement, and a gentler reputation than bruiser triggers. Look for blue facial color and yellow-edged fins. Plan on at least 180+ gal.",
+    "behavior": "Usually spends more time in open water than many substrate-working triggers. It tends to read as active and confident rather than destructive, but crowded setups can still turn that confidence into persistent pushiness.",
+    "feedingNotes": "Feed a varied carnivore/planktivore menu with frozen meaty foods, quality pellets, and occasional harder items. It should be fed like an active midwater trigger, not like a sedentary cave predator.",
+    "recognitionNotes": "Slimmer than many triggers, with blue cheek/throat color on males and a more midwater cruising posture.",
+    "buyingGuidance": "A strong recommendation for customers who want triggerfish color and personality without jumping to the most aggressive species. It still belongs in a genuinely large system with realistic shrimp and crab expectations."
   },
   {
     "id": "bursa-trigger",
@@ -83,14 +83,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Alert triggerfish with strong display presence and bigger-system needs",
+    "role": "Stockier rock-working trigger with more classic territorial trigger behavior",
     "role_es": "",
-    "overview": "Bursa Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 10 in. Diet here is listed as Carnivore / omnivore.",
+    "overview": "A more traditional trigger personality than the open-water Xanthichthys group. Bursa Triggers settle into rockwork, claim space, and become bolder over time, making them better suited to fish-only or assertive mixed displays than to delicate community experiments.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 10 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore / omnivore."
+      "Usually becomes more territorial as it settles in.",
+      "Hard-shelled foods help support proper jaw wear.",
+      "Not the first trigger to recommend when someone asks for “peaceful.”"
     ],
     "photoTitle": "Bursa Trigger",
     "inStock": false,
@@ -105,22 +105,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Thick-bodied trigger with a sturdy head and deliberate stop-start movement through caves and rock structure.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "fish-only systems with assertive larger tankmates",
+      "keepers already comfortable with trigger temperament",
+      "rockwork-rich tanks with secure caves"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "ornamental crustaceans",
+      "timid tankmates",
+      "reef buyers wanting a show trigger with low conflict risk"
     ],
-    "staffNote": "",
-    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Confident and territorial compared with gentler trigger species. Often works the rockwork and becomes bolder once established.",
-    "feedingNotes": "Feed a varied meaty diet with frozen marine foods, quality pellets, and occasional shell-on foods to help keep the beak worn properly.",
-    "recognitionNotes": "Watch for the thick trigger body, cautious eye contact, and deliberate stop-and-go swimming.",
-    "buyingGuidance": "A better sale for buyers already comfortable with larger assertive fish. Treat invertebrates as at risk and plan stocking order carefully."
+    "staffNote": "Sell more like a classic territorial trigger than a gentle planktivore trigger.",
+    "headerSummary": "Stockier rock-working trigger with more classic territorial trigger behavior. Look for a thick body and deliberate cave-oriented movement. Plan on at least 125+ gal.",
+    "behavior": "Often claims caves and patrol areas once comfortable. It is not always the tank tyrant, but it behaves like a trigger that knows where home base is and expects other fish to respect it.",
+    "feedingNotes": "Offer a varied meaty routine with quality frozen foods, pellets, and shell-on items often enough to support jaw wear. As with many triggers, diet and enrichment help channel chewing behavior productively.",
+    "recognitionNotes": "Compared with the open-water triggers, this fish reads thicker, more bottom-aware, and more obviously built to work rock and structure.",
+    "buyingGuidance": "Better for customers already planning around trigger temperament than for those just shopping by color. A good fit in a robust fish-only display, a weak fit in delicate mixed communities."
   },
   {
     "id": "clown-trigger",
@@ -144,14 +145,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Alert triggerfish with strong display presence and bigger-system needs",
+    "role": "Showpiece trigger with spectacular juvenile color and very serious adult attitude",
     "role_es": "",
-    "overview": "Clown Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 20 in. Diet here is listed as Carnivore.",
+    "overview": "One of the hobby’s most famous triggerfish and one of the easiest to underestimate when small. Clown Triggers often begin as manageable flashy juveniles and mature into extremely forceful adults that need very large quarters, equally robust companions, and a keeper willing to plan for the fish they become rather than the fish they are today.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 20 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Juveniles often sell on looks before adult temperament is discussed enough.",
+      "Adults are solitary reef predators in nature.",
+      "This is a long-term aggression and size planning fish, not a casual conversation piece."
     ],
     "photoTitle": "Clown Trigger",
     "inStock": false,
@@ -166,22 +167,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Black body with large white spots below, yellow patterning above, and a face that looks dramatic even from across the room.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "very large predator displays",
+      "keepers already comfortable with highly assertive marine fish",
+      "tankmates chosen around a future dominant trigger"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "community reef expectations",
+      "ornamental invertebrates",
+      "customers buying a juvenile without a real adult plan"
     ],
-    "staffNote": "",
-    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Often starts manageable when small and becomes much more forceful with size and confidence. Territoriality and outright aggression can escalate heavily as it matures.",
-    "feedingNotes": "Feed a varied carnivore diet with chunky frozen foods, shell-on marine items, and quality pellets intended for larger predatory marine fish.",
-    "recognitionNotes": "The contrast pattern is unmistakable: black body, bold white spots, and strong yellow facial accents.",
-    "buyingGuidance": "This should be sold as a long-term predator project, not as a flashy juvenile display fish. The right buyer already has the tank size, filtration, and temperament plan for a very assertive adult."
+    "staffNote": "Always sell the adult clown trigger, not the baby clown trigger.",
+    "headerSummary": "Showpiece trigger with spectacular juvenile color and very serious adult attitude. Look for the black, white-spotted, and yellow contrast pattern. Plan on at least 180+ gal.",
+    "behavior": "Often escalates with size from bold to openly dominant. Adults usually behave like singular predator fish, claiming space and testing tankmates much more aggressively than their juvenile stage suggests.",
+    "feedingNotes": "Feed a varied carnivore routine with chunky marine meaty foods, shell-on items, and large-fish pellets. The point is not only growth but giving a hard-jawed predator the diet structure it is built for.",
+    "recognitionNotes": "The black body, large white lower-body spots, yellow upper patterning, and bright face are unmistakable among marine triggers.",
+    "buyingGuidance": "Appropriate only for customers who genuinely want a dominant large trigger as part of a serious long-term predator plan. It should never be positioned as a “maybe it will stay nice” show fish."
   },
   {
     "id": "crosshatch-trigger",
@@ -205,14 +207,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Alert triggerfish with strong display presence and bigger-system needs",
+    "role": "High-end open-water trigger prized for color, movement, and comparatively refined behavior",
     "role_es": "",
-    "overview": "Crosshatch Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 240+ gal. Adult size is listed around 12 in. Diet here is listed as Carnivore / planktivore.",
+    "overview": "A premium trigger choice that appeals to aquarists who want beauty and movement without jumping to the most destructive or belligerent species. Crosshatch Triggers are still large, expensive, and demanding fish, but they usually behave more like active open-water planktivores than classic bulldozer triggers.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 12 in.",
-      "Plan around roughly 240+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore / planktivore."
+      "Male and female coloration differs, with males especially vivid.",
+      "One of the most sought-after Xanthichthys triggers.",
+      "Still a very large-system fish despite its gentler reputation."
     ],
     "photoTitle": "Crosshatch Trigger",
     "inStock": false,
@@ -227,22 +229,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Crosshatched scale pattern with vivid blue and yellow accents, especially striking on males, plus a slimmer open-water trigger profile.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "large premium fish displays",
+      "keepers who value open-water trigger behavior",
+      "well-oxygenated big systems with strong flow and room"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "small crowded rock piles",
+      "customers equating price with ease",
+      "reef tanks loaded with vulnerable decorative crustaceans"
     ],
-    "staffNote": "",
-    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 240+ gal or larger long term.",
-    "behavior": "Often reads calmer than many triggers but remains an active, high-oxygen, open-water fish that needs space and secure cover.",
-    "feedingNotes": "Offer varied meaty foods, larger marine pellets, and frequent quality feeding that supports an active swimmer.",
-    "recognitionNotes": "Look for the clean lattice-like body pattern and open-water cruising behavior.",
-    "buyingGuidance": "Best sold to buyers already committed to a large show tank. The main caution is scale and long-term system size more than random aggression."
+    "staffNote": "Upscale fish, but keep the “still a giant trigger” warning in the conversation.",
+    "headerSummary": "High-end open-water trigger prized for color, movement, and comparatively refined behavior. Look for the crosshatched pattern and vivid blue-yellow accents. Plan on at least 240+ gal.",
+    "behavior": "Usually cruises rather than camps in one cave all day, reading more as a show swimmer than a rock rearranger. That said, it still has trigger confidence and should not be treated like a peaceful reef fish.",
+    "feedingNotes": "Feed a broad carnivore/planktivore menu with high-quality frozen foods, pellets, and varied meaty items. Good flow, good oxygenation, and disciplined feeding all help this fish look and act its best.",
+    "recognitionNotes": "The crosshatched scales and colored fins make it one of the most visually distinctive open-water triggers in the trade.",
+    "buyingGuidance": "Best for advanced customers building a premium large-fish display and specifically wanting a Xanthichthys trigger. Excellent when bought intentionally, poor when bought only because it looks “nicer” than other triggers."
   },
   {
     "id": "niger-trigger",
@@ -266,14 +269,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Alert triggerfish with strong display presence and bigger-system needs",
+    "role": "Large active trigger that behaves more like a current-water feeder than a cave-bound bruiser",
     "role_es": "",
-    "overview": "Niger Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 18 in. Diet here is listed as Carnivore / planktivore.",
+    "overview": "Niger Triggers are often sold simply as hardy aggressive triggers, but their real personality is more interesting than that. In the wild they form aggregations and feed in current-swept reef areas, so in aquaria they often come across as active water-column fish that still need real trigger-compatible tankmate planning.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 18 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore / planktivore."
+      "Wild behavior includes schooling or aggregating to feed on zooplankton.",
+      "Still fully capable of the usual trigger jaw work and invertebrate trouble.",
+      "Can shift from manageable to rough if cramped or mixed badly."
     ],
     "photoTitle": "Niger Trigger",
     "inStock": false,
@@ -288,22 +291,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Deep-bodied dark trigger with active open-water movement and a forked tail that hints at its stronger swimming style.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "large active fish-only systems",
+      "keepers wanting a more open-water trigger look",
+      "big tanks with both swimming room and secure shelter"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "small decorative crustaceans",
+      "tiny passive tankmates",
+      "buyers assuming a juvenile niger will stay community-friendly forever"
     ],
-    "staffNote": "",
-    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Active, visible, and usually more interested in swimming lanes than hiding. Can become dominant in mixed aggressive tanks.",
-    "feedingNotes": "Feed a varied meaty routine with frozen marine foods and good pellets; larger active triggers do better with regular, dependable feeding.",
-    "recognitionNotes": "Deep blue body color and long flowing tail make this one easy to spot from across the room.",
-    "buyingGuidance": "Sell as a large display fish, not as a medium community addition. The right buyer already has the length and filtration for an adult trigger."
+    "staffNote": "Frame it as a big active trigger with planktivore roots, not just a generic cave bruiser.",
+    "headerSummary": "Large active trigger that behaves more like a current-water feeder than a cave-bound bruiser. Look for the dark body, active swimming, and forked tail. Plan on at least 180+ gal.",
+    "behavior": "Frequently out in the water column and often less cave-bound than customers expect. It still becomes more forceful with size, especially where space, food competition, or tankmate choice are poor.",
+    "feedingNotes": "Use a varied carnivore menu with quality frozen marine foods, pellets, and regular harder items. Because it is an active feeder, steady structured feeding tends to work better than random oversized treats.",
+    "recognitionNotes": "The darker body, streamlined tail, and active water-column posture separate it from chunkier reef-cave triggers.",
+    "buyingGuidance": "A strong fit for customers who want a hardy large trigger and have the room to let it swim, not just hide. The right setup still plans around a triggerfish mouth, triggerfish attitude, and crustacean losses."
   },
   {
     "id": "picasso-trigger",
@@ -327,14 +331,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Alert triggerfish with strong display presence and bigger-system needs",
+    "role": "Iconic humu trigger with bold pattern, big personality, and classic trigger cave behavior",
     "role_es": "",
-    "overview": "Picasso Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 11 in. Diet here is listed as Carnivore / omnivore.",
+    "overview": "A classic triggerfish for customers who want obvious personality and one of the hobby’s best-known patterns. Picasso Triggers are hardy and engaging, but they also move rock, claim caves, chew hard foods, and can become distinctly territorial once settled.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 11 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore / omnivore."
+      "One of the hobby’s best-known triggers by pattern alone.",
+      "Often rearranges rock and substrate while exploring.",
+      "Needs hard meaty foods to help wear the teeth properly."
     ],
     "photoTitle": "Picasso Trigger",
     "inStock": false,
@@ -349,22 +353,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Angular head and unmistakable blue-yellow-black Picasso patterning over a sturdy compact trigger body.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "assertive fish-only systems",
+      "keepers who want a classic trigger centerpiece",
+      "secure rockwork with caves and room to patrol"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "shrimp, crabs, and similar inverts",
+      "delicate community fish",
+      "customers wanting a “reef trigger” because the pattern is pretty"
     ],
-    "staffNote": "",
-    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Often patrols rockwork and learns the whole tank quickly. Territoriality tends to show up fast once settled.",
-    "feedingNotes": "Feed a mixed meaty diet with shell-on foods now and then so the beak stays in better condition.",
-    "recognitionNotes": "The face pattern is the giveaway: strong diagonal markings with a painted look.",
-    "buyingGuidance": "A good sale for buyers who want trigger personality and already understand the trade-off with inverts and community peace."
+    "staffNote": "Very sellable fish, but do not let the pretty face hide the trigger behavior talk.",
+    "headerSummary": "Iconic humu trigger with bold pattern, big personality, and classic trigger cave behavior. Look for the angular body and Picasso-style blue-yellow markings. Plan on at least 125+ gal.",
+    "behavior": "Usually spends plenty of time working rockwork and using caves as home base, becoming bolder as it learns the layout. It can be highly entertaining, but it very much behaves like a trigger, not like a polite reef fish.",
+    "feedingNotes": "Offer a varied meaty menu with frozen marine foods, pellets, and hard-shelled items to keep the teeth worn. Chewing is part of normal maintenance for this species, not an optional extra.",
+    "recognitionNotes": "The Picasso/humu face pattern is the immediate giveaway, with angular blue and yellow lines over a compact strong trigger body.",
+    "buyingGuidance": "Best for customers who specifically want classic trigger behavior and have built the tank around it. It is a poor match for reef keepers looking for harmless pattern fish."
   },
   {
     "id": "pinktail-trigger",
@@ -388,14 +393,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Alert triggerfish with strong display presence and bigger-system needs",
+    "role": "Large handsome trigger that is often calmer than the worst triggers but still fully built like one",
     "role_es": "",
-    "overview": "Pinktail Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 20 in. Diet here is listed as Omnivore / carnivore.",
+    "overview": "A very attractive large trigger that often behaves better than clown, queen, or undulated triggers, but should still be treated as a substantial predatory fish. Pinktails need big tanks, room to turn, and tankmates chosen around a powerful omnivorous trigger with real crustacean risk.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 20 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore / carnivore."
+      "Known for the bright pink tail against a darker body.",
+      "Often sold as a “nicer” trigger, which can cause underplanning.",
+      "Will still eat crustaceans and can still become pushy in mixed systems."
     ],
     "photoTitle": "Pinktail Trigger",
     "inStock": false,
@@ -410,22 +415,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Emerald to darker body tones with a vivid pink tail, strong trigger head, and a heavier build than the open-water Xanthichthys species.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "large fish-only systems",
+      "keepers wanting a handsome large trigger without peak aggression",
+      "robust fish communities built around adult size"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "small fish or ornamental crustaceans",
+      "tankmates that cannot handle a large assertive feeder",
+      "buyers hearing “milder trigger” and thinking “easy reef fish”"
     ],
-    "staffNote": "",
-    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Usually steadier and less chaotic than the nastiest trigger species, though size alone makes it a major tank presence.",
-    "feedingNotes": "Feed a varied omnivore-carnivore routine with quality pellets, meaty frozen foods, and some vegetable matter mixed in.",
-    "recognitionNotes": "Watch for the dark heavy body and pink tail that stands out once the fish turns.",
-    "buyingGuidance": "The main question is not whether it looks manageable now, but whether the buyer is ready for the adult size and waste load later."
+    "staffNote": "Better-mannered does not mean mild. Keep the adult size front and center.",
+    "headerSummary": "Large handsome trigger that is often calmer than the worst triggers but still fully built like one. Look for the strong body and bright pink tail. Plan on at least 180+ gal.",
+    "behavior": "Often reads as steady and confident rather than frantic or hyper-territorial, especially when compared to harsher trigger species. It still becomes a dominant feeding presence and can pressure smaller or slower fish.",
+    "feedingNotes": "Use a varied carnivore/omnivore routine with marine meaty foods, pellets, and occasional hard-shelled items. Big active trigger metabolism and jaw wear both need to be accounted for.",
+    "recognitionNotes": "The bright pink tail against an otherwise darker body is the clear field mark customers latch onto immediately.",
+    "buyingGuidance": "A strong candidate for customers building a large showy fish-only system who want size and color without choosing the most notoriously aggressive trigger species. It still requires serious system planning."
   },
   {
     "id": "queen-trigger",
@@ -449,14 +455,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Alert triggerfish with strong display presence and bigger-system needs",
+    "role": "Massive Caribbean trigger with brilliant color and escalating adult aggression",
     "role_es": "",
-    "overview": "Queen Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 24 in. Diet here is listed as Carnivore.",
+    "overview": "A spectacular fish that belongs squarely in the serious predator category. Queen Triggers combine size, speed, attitude, and crushing jaws in a package that can dominate a tank as it matures, making them beautiful but demanding long-term residents.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 24 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "One of the hobby’s most vividly colored large triggers.",
+      "Adult size and confidence both outgrow many early plans.",
+      "Not a sensible compromise trigger for medium or mixed reef systems."
     ],
     "photoTitle": "Queen Trigger",
     "inStock": false,
@@ -471,22 +477,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Yellow-green body, blue-purple fin accents, and striking facial lines around the eye on a large fork-tailed trigger body.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "very large predator systems",
+      "experienced keepers with a taste for dominant show fish",
+      "tankmates chosen specifically for a future large trigger hierarchy"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "small tankmates and inverts",
+      "community-style stocking",
+      "customers drawn only by color and not by the adult behavior"
     ],
-    "staffNote": "",
-    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Confident, food-driven, and capable of becoming a dominant centerpiece fish as it matures.",
-    "feedingNotes": "Feed a substantial carnivore diet with hard marine foods and quality pellets sized for larger triggers.",
-    "recognitionNotes": "Blue face markings and bright body color separate it from the plainer large triggers.",
-    "buyingGuidance": "This sale should start with tank size and long-term stocking plan, not color. Better for buyers already keeping large aggressive marine fish."
+    "staffNote": "Sell as a large aggressive predator project, not as a colorful upgrade over a picasso trigger.",
+    "headerSummary": "Massive Caribbean trigger with brilliant color and escalating adult aggression. Look for the forked tail, facial lines, and vivid blue-yellow tones. Plan on at least 180+ gal.",
+    "behavior": "Confident, active, and increasingly territorial with size. This is the kind of fish that often ends up setting the tone for the whole tank rather than fitting politely into an existing mixed community.",
+    "feedingNotes": "Feed a varied carnivore routine with substantial marine meaty foods, pellets, and shell-on items for jaw maintenance. Strong filtration and big-system nutrient control are part of feeding a queen trigger correctly.",
+    "recognitionNotes": "The eye-ring facial lines, forked tail, and bright color combination separate it from the more black-and-white clown trigger look.",
+    "buyingGuidance": "Best for customers intentionally building a large predator or public-display style system around a dominant show trigger. It is not the right answer for someone “moving up” one step from community fish."
   },
   {
     "id": "sargassum-trigger",
@@ -510,14 +517,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Alert triggerfish with strong display presence and bigger-system needs",
+    "role": "Red-tail Xanthichthys trigger with open-water behavior and a comparatively reef-friendlier reputation",
     "role_es": "",
-    "overview": "Sargassum Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 10 in. Diet here is listed as Carnivore / planktivore.",
+    "overview": "Another of the better-regarded open-water trigger options for large displays. Sargassum Triggers are not harmless, but they often behave more like active planktivore cruisers than rock-smashing territorial bruisers, which makes them appealing for customers wanting movement and trigger presence without jumping straight to the roughest species.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 10 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore / planktivore."
+      "Also commonly sold as a red tail trigger.",
+      "Part of the more open-water Xanthichthys trigger group.",
+      "Still risky with decorative crustaceans despite the gentler reputation."
     ],
     "photoTitle": "Sargassum Trigger",
     "inStock": false,
@@ -532,22 +539,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Purple-toned body with darker spotting and a reddish tail, carried on the slimmer open-water build typical of Xanthichthys triggers.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "large mixed predator displays",
+      "keepers who want trigger color and midwater movement",
+      "big tanks with flow, swimming room, and sensible tankmate size"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "shrimp or crab-centered reef plans",
+      "small timid tankmates",
+      "customers mistaking relative compatibility for guaranteed reef safety"
     ],
-    "staffNote": "",
-    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Often cruises more than it prowls, and usually reads calmer than Rhinecanthus or Balistoides triggers.",
-    "feedingNotes": "Offer varied frozen meaty foods and pellets on a steady schedule that supports a constantly visible swimmer.",
-    "recognitionNotes": "Look for the slimmer open-water trigger silhouette and more restrained coloration.",
-    "buyingGuidance": "A strong trigger recommendation for the right large tank, but still not a small-tank compromise fish."
+    "staffNote": "Another “relative” trigger—good reputation, but only within triggerfish terms.",
+    "headerSummary": "Red-tail Xanthichthys trigger with open-water behavior and a comparatively reef-friendlier reputation. Look for the spotted purple body and reddish tail. Plan on at least 180+ gal.",
+    "behavior": "Usually spends more time cruising than excavating, reading as active and display-friendly when given space. Like other open-water triggers, it still becomes a substantial fish that should not be cramped or mixed casually.",
+    "feedingNotes": "Feed a varied carnivore/planktivore routine with quality frozen marine foods, pellets, and occasional harder items. Strong current and generous swimming room help this species show its best behavior.",
+    "recognitionNotes": "The red tail and slimmer Xanthichthys body shape make it read more like a water-column trigger than a compact cave trigger.",
+    "buyingGuidance": "A good recommendation for advanced customers wanting a showy trigger in a large mixed big-fish setup. It is one of the better-behaved trigger options, not an exception to triggerfish reality."
   },
   {
     "id": "undulated-trigger",
@@ -571,14 +579,14 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Alert triggerfish with strong display presence and bigger-system needs",
+    "role": "Highly territorial red-lined trigger that should be treated as a deliberate aggression project",
     "role_es": "",
-    "overview": "Undulated Trigger is a larger display fish that needs room, feeding structure, and sensible tankmate choices. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 12 in. Diet here is listed as Carnivore.",
+    "overview": "A beautiful fish with one of the roughest reputations in the group. Undulated Triggers are territorial, intense, and often best thought of as single-show triggers or as carefully managed residents in extremely deliberate aggressive systems.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 12 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Often cited as one of the most aggressive common triggerfish in captivity.",
+      "Hardy does not mean easy to mix.",
+      "Its color and size often trick buyers into underestimating it."
     ],
     "photoTitle": "Undulated Trigger",
     "inStock": false,
@@ -593,22 +601,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Green-brown body with orange curved lines and a dark blotch at the tail base, carried on a compact muscular trigger frame.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "very deliberate aggressive setups",
+      "experienced keepers who enjoy species with attitude",
+      "systems planned around one especially forceful trigger"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "mixed community experiments",
+      "small peaceful fish",
+      "customers wanting a “starter trigger” because it is not the largest species"
     ],
-    "staffNote": "",
-    "headerSummary": "Alert triggerfish with strong display presence and bigger-system needs. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Territorial, pushy, and capable of dominating or injuring poorly matched tankmates.",
-    "feedingNotes": "Use a robust carnivore feeding plan with meaty marine foods and hard items for beak wear.",
-    "recognitionNotes": "The wavy striping and confrontational body language make it stand out quickly.",
-    "buyingGuidance": "This should be sold only to buyers who actually want an aggressive trigger and already have a compatible long-term setup."
+    "staffNote": "Treat as a problem child on purpose. Do not soften the aggression conversation.",
+    "headerSummary": "Highly territorial red-lined trigger that should be treated as a deliberate aggression project. Look for orange lines over a green-brown body and a dark tail-base blotch. Plan on at least 125+ gal.",
+    "behavior": "Territorial from an early age and often much more confrontational than similarly sized triggerfish. Adults in particular can become outright belligerent toward tankmates, especially where territory is limited.",
+    "feedingNotes": "Feed a varied meaty diet with shell-on foods included for jaw wear. Dietary structure matters, but no feeding strategy substitutes for choosing tankmates and tank size very carefully.",
+    "recognitionNotes": "Curved orange body lines and the dark tail-base blotch make this one easy to pick out once you know the pattern.",
+    "buyingGuidance": "Only for customers who knowingly want one of the rougher trigger personalities and have the setup to match. It should never be sold as a modest-size compromise trigger."
   },
   {
     "id": "niger-triggerfish",
@@ -629,9 +638,9 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "maxSize": "18 in",
     "minTank": "180+ gal",
     "photoTitle": "Odonus_niger",
-    "role": "Most reef-compatible trigger",
+    "role": "Large active trigger that behaves more like a current-water feeder than a cave-bound bruiser",
     "role_es": "Ballesta más compatible con arrecife",
-    "overview": "The most peaceful triggerfish. Stunning blue-green body with red teeth. One of the few triggers that can work in a reef.",
+    "overview": "Niger Triggers are often sold simply as hardy aggressive triggers, but their real personality is more interesting than that. In the wild they form aggregations and feed in current-swept reef areas, so in aquaria they often come across as active water-column fish that still need real trigger-compatible tankmate planning.",
     "overview_es": "La ballesta más pacífica. Cuerpo azul-verde impresionante con dientes rojos.",
     "inStock": false,
     "price": 0,
@@ -640,9 +649,9 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "badges": [],
     "aliases": [],
     "facts": [
-      "Adult size in this catalog is listed around 18 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore."
+      "Wild behavior includes schooling or aggregating to feed on zooplankton.",
+      "Still fully capable of the usual trigger jaw work and invertebrate trouble.",
+      "Can shift from manageable to rough if cramped or mixed badly."
     ],
     "water": {
       "ph": [
@@ -666,23 +675,23 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Moderate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Deep-bodied dark trigger with active open-water movement and a forked tail that hints at its stronger swimming style.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "large active fish-only systems",
+      "keepers wanting a more open-water trigger look",
+      "big tanks with both swimming room and secure shelter"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Shrimp, snails, crabs, or other ornamental invertebrates"
+      "small decorative crustaceans",
+      "tiny passive tankmates",
+      "buyers assuming a juvenile niger will stay community-friendly forever"
     ],
-    "staffNote": "",
-    "headerSummary": "Most reef-compatible trigger. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Alert, visible behavior is typical, and the fish should have enough room to cruise without turning every pass into a confrontation.",
-    "feedingNotes": "Use a varied carnivore routine with quality prepared foods and occasional harder foods for jaw exercise and enrichment. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Sell it to buyers who want a larger intelligent display fish and already understand the trade-offs with shrimp, crabs, and smaller passive tankmates.",
-    "recognitionNotes": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement."
+    "staffNote": "Frame it as a big active trigger with planktivore roots, not just a generic cave bruiser.",
+    "headerSummary": "Large active trigger that behaves more like a current-water feeder than a cave-bound bruiser. Look for the dark body, active swimming, and forked tail. Plan on at least 180+ gal.",
+    "behavior": "Frequently out in the water column and often less cave-bound than customers expect. It still becomes more forceful with size, especially where space, food competition, or tankmate choice are poor.",
+    "feedingNotes": "Use a varied carnivore menu with quality frozen marine foods, pellets, and regular harder items. Because it is an active feeder, steady structured feeding tends to work better than random oversized treats.",
+    "buyingGuidance": "A strong fit for customers who want a hardy large trigger and have the room to let it swim, not just hide. The right setup still plans around a triggerfish mouth, triggerfish attitude, and crustacean losses.",
+    "recognitionNotes": "The darker body, streamlined tail, and active water-column posture separate it from chunkier reef-cave triggers."
   },
   {
     "id": "clown-triggerfish",
@@ -703,9 +712,9 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "maxSize": "20 in",
     "minTank": "250+ gal",
     "photoTitle": "Balistoides_conspicillum",
-    "role": "Most dramatically patterned triggerfish",
+    "role": "Showpiece trigger with spectacular juvenile color and very serious adult attitude",
     "role_es": "Ballesta con el patrón más dramático",
-    "overview": "Black body, white belly spots, yellow lip. Beautiful but extremely aggressive and not reef safe.",
+    "overview": "One of the hobby’s most famous triggerfish and one of the easiest to underestimate when small. Clown Triggers often begin as manageable flashy juveniles and mature into extremely forceful adults that need very large quarters, equally robust companions, and a keeper willing to plan for the fish they become rather than the fish they are today.",
     "overview_es": "Cuerpo negro, puntos blancos en el vientre, labio amarillo. Hermoso pero extremadamente agresivo.",
     "inStock": false,
     "price": 0,
@@ -714,9 +723,9 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "badges": [],
     "aliases": [],
     "facts": [
-      "Adult size in this catalog is listed around 20 in.",
-      "Plan around roughly 250+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Juveniles often sell on looks before adult temperament is discussed enough.",
+      "Adults are solitary reef predators in nature.",
+      "This is a long-term aggression and size planning fish, not a casual conversation piece."
     ],
     "water": {
       "ph": [
@@ -740,22 +749,22 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement.",
+    "visualCue": "Black body with large white spots below, yellow patterning above, and a face that looks dramatic even from across the room.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Experienced stocking plans with assertive tankmates"
+      "very large predator displays",
+      "keepers already comfortable with highly assertive marine fish",
+      "tankmates chosen around a future dominant trigger"
     ],
     "cautionWith": [
-      "Timid tankmates or crowded stocking plans",
-      "Corals or polyps that could be nipped or disturbed",
-      "Shrimp, snails, crabs, or other ornamental invertebrates"
+      "community reef expectations",
+      "ornamental invertebrates",
+      "customers buying a juvenile without a real adult plan"
     ],
-    "staffNote": "Sell with a quick conversation about territory, adult size, and tankmate choice. This is a intermediate profile that should not be rushed.",
-    "headerSummary": "Most dramatically patterned triggerfish. Plan on roughly 250+ gal or larger long term.",
-    "behavior": "Alert, visible behavior is typical, and the fish should have enough room to cruise without turning every pass into a confrontation.",
-    "feedingNotes": "Use a varied carnivore routine with quality prepared foods and occasional harder foods for jaw exercise and enrichment. Catalog diet listing: Carnivore.",
-    "buyingGuidance": "Sell it to buyers who want a larger intelligent display fish and already understand the trade-offs with shrimp, crabs, and smaller passive tankmates.",
-    "recognitionNotes": "Look for a deeper-bodied fish with a strong jawline, alert posture, and very deliberate movement."
+    "staffNote": "Always sell the adult clown trigger, not the baby clown trigger.",
+    "headerSummary": "Showpiece trigger with spectacular juvenile color and very serious adult attitude. Look for the black, white-spotted, and yellow contrast pattern. Plan on at least 250+ gal.",
+    "behavior": "Often escalates with size from bold to openly dominant. Adults usually behave like singular predator fish, claiming space and testing tankmates much more aggressively than their juvenile stage suggests.",
+    "feedingNotes": "Feed a varied carnivore routine with chunky marine meaty foods, shell-on items, and large-fish pellets. The point is not only growth but giving a hard-jawed predator the diet structure it is built for.",
+    "buyingGuidance": "Appropriate only for customers who genuinely want a dominant large trigger as part of a serious long-term predator plan and already have truly oversized quarters in mind. It should never be positioned as a “maybe it will stay nice” show fish.",
+    "recognitionNotes": "The black body, large white lower-body spots, yellow upper patterning, and bright face are unmistakable among marine triggers."
   }
 ];

@@ -5,7 +5,7 @@
 if(typeof T !== 'function'){ var T = function(k){ return k; }; }
 
 // FISH data loaded from data/fish.js
-const APP_VERSION = '0.089';
+const APP_VERSION = 'v0.100';
 const state = {
   viewMode: (window.matchMedia && window.matchMedia('(pointer: coarse) and (max-width: 900px)').matches) ? 'compact' : 'detailed', category:"All", search:"", sort:"featured", reefOnly:false, easyOnly:false, selectedId:null, mode:"stock", favorites:[], compareList:[], tankFilter:0, idleActive:false };
 const wikiImages = new Map();
@@ -918,8 +918,9 @@ function renderSortOptions(){
       state.sort = btn.dataset.sort;
       playSort();
       addRipple(btn,e);
-      btn.classList.add('shimmer-click');
-      btn.addEventListener('animationend',()=>btn.classList.remove('shimmer-click'),{once:true});
+      spawnBubbleBurst(btn,e,{count:4,spread:22});
+      btn.classList.add('press-flash');
+      btn.addEventListener('animationend',()=>btn.classList.remove('press-flash'),{once:true});
       render();
     });
   });
@@ -1098,8 +1099,7 @@ function hasInfoText(val){
 }
 function cleanInfoText(val){
   if(typeof val !== 'string') return '';
-  const normalized = (typeof stripTemplateNoise === 'function' ? stripTemplateNoise(val) : val);
-  const out = normalized.replace(/\s+/g,' ').trim();
+  const out = val.replace(/\s+/g,' ').trim();
   if(!out || ['undefined','null','none'].includes(out.toLowerCase())) return '';
   return out;
 }
@@ -1137,7 +1137,7 @@ function buildBehaviorParagraph(item){
   if(role) parts.push(role + '.');
   parts.push(`Temperament usually reads ${riskText(item.aggression).toLowerCase()}.`);
   if(minTank) parts.push(`Plan around at least ${minTank}.`);
-  if(care) parts.push(`Best suited to ${care.toLowerCase()} keepers or buyers who already understand the species' needs.`);
+  if(care) parts.push(`Best suited to ${care.toLowerCase()} keepers who already understand the species' needs.`);
   return parts.join(' ').trim();
 }
 function buildFeedingParagraph(item){
@@ -1160,9 +1160,9 @@ function buildBuyingParagraph(item){
   const invert = riskText(item.invertRisk).toLowerCase();
   const minTank = cleanInfoText(item.minTank);
   const care = cleanInfoText(item.careLabel) || riskText(item.careDifficulty, 'difficulty');
-  if(minTank) pieces.push(`Best sold only when the buyer can realistically support at least ${minTank}.`);
+  if(minTank) pieces.push(`Best in systems that can realistically support at least ${minTank}.`);
   pieces.push(`Coral compatibility reads ${coral}, and ornamental invertebrate risk reads ${invert}.`);
-  pieces.push(`Overall, this is best matched to ${care.toLowerCase()} buyers and a stocking plan that fits its long-term needs.`);
+  pieces.push(`Overall, this species is best matched to ${care.toLowerCase()} keepers and a stocking plan that fits its long-term needs.`);
   return pieces.join(' ').trim();
 }
 function buildRecognitionParagraph(item){
@@ -2022,8 +2022,9 @@ on('reefOnlyBtn','click', (e) => {
   const btn=e.currentTarget;
   playToggle();
   addRipple(btn,e);
-  btn.classList.add('shimmer-reef');
-  btn.addEventListener('animationend',()=>btn.classList.remove('shimmer-reef'),{once:true});
+  spawnBubbleBurst(btn,e,{count:5,spread:24});
+  btn.classList.add('press-flash');
+  btn.addEventListener('animationend',()=>btn.classList.remove('press-flash'),{once:true});
   render();
 });
 on('easyOnlyBtn','click', (e) => {
@@ -2031,15 +2032,17 @@ on('easyOnlyBtn','click', (e) => {
   const btn=e.currentTarget;
   playToggle();
   addRipple(btn,e);
-  btn.classList.add('shimmer-gold');
-  btn.addEventListener('animationend',()=>btn.classList.remove('shimmer-gold'),{once:true});
+  spawnBubbleBurst(btn,e,{count:5,spread:24});
+  btn.classList.add('press-flash');
+  btn.addEventListener('animationend',()=>btn.classList.remove('press-flash'),{once:true});
   render();
 });
 on('clearFiltersBtn','click', (e) => {
   playClick();
   addRipple(e.currentTarget,e);
-  e.currentTarget.classList.add('shimmer-purple');
-  e.currentTarget.addEventListener('animationend',()=>e.currentTarget.classList.remove('shimmer-purple'),{once:true});
+  spawnBubbleBurst(e.currentTarget,e,{count:5,spread:24});
+  e.currentTarget.classList.add('press-flash');
+  e.currentTarget.addEventListener('animationend',()=>e.currentTarget.classList.remove('press-flash'),{once:true});
   clearFilters();
 });
 on('closeFishBtn','click', () => { playClose(); closeFishModal(); });
@@ -2135,6 +2138,28 @@ function addRipple(el,e){
   el.appendChild(r);
   r.addEventListener('animationend',()=>r.remove());
 }
+function spawnBubbleBurst(el,e,opts={}){
+  if(!el) return;
+  const rect=el.getBoundingClientRect();
+  const count=opts.count || 4;
+  const spread=opts.spread || 18;
+  const originX=(typeof e.clientX==='number'?e.clientX:rect.left + rect.width/2)-rect.left;
+  const originY=(typeof e.clientY==='number'?e.clientY:rect.top + rect.height/2)-rect.top;
+  for(let i=0;i<count;i++){
+    const bubble=document.createElement('span');
+    bubble.className='bubble';
+    const angle=(-95 + (Math.random()*70)) * (Math.PI/180);
+    const distance=8 + Math.random()*spread;
+    bubble.style.left=originX + 'px';
+    bubble.style.top=originY + 'px';
+    bubble.style.setProperty('--bubble-x', `${Math.cos(angle)*distance}px`);
+    bubble.style.setProperty('--bubble-y', `${Math.sin(angle)*distance - (8 + Math.random()*10)}px`);
+    bubble.style.setProperty('--bubble-scale', (0.7 + Math.random()*0.9).toFixed(2));
+    bubble.style.animationDelay=`${i*22}ms`;
+    el.appendChild(bubble);
+    bubble.addEventListener('animationend',()=>bubble.remove(),{once:true});
+  }
+}
 document.addEventListener('click',ensureAudio,{once:true});
 document.addEventListener('touchstart',ensureAudio,{once:true});
 
@@ -2144,6 +2169,7 @@ document.addEventListener('pointerdown', event => {
   if(!target || target.disabled) return;
   if(target.classList.contains('sort-choice') || target.classList.contains('filter-chip') || target.classList.contains('folder-tab')) return;
   addRipple(target, event);
+  spawnBubbleBurst(target,event,{count:3,spread:16});
 }, {passive:true});
 
 // === MODE TOGGLE ===
@@ -2870,6 +2896,82 @@ function inventoryCategoryLabel(category){
   if(typeof CARD_LABELS !== 'undefined' && CARD_LABELS[category]) return CARD_LABELS[category];
   return TC(category);
 }
+function hasMissingSpeciesCoreData(item){
+  if(!item) return true;
+  const required = ['scientific','overview','minTank','maxSize','diet'];
+  if(required.some(key => !cleanInfoText(item[key]))) return true;
+  const gauges = ['aggression','coralRisk','careDifficulty','invertRisk'];
+  return gauges.some(key => !Number.isFinite(Number(item[key])));
+}
+function hasMissingStoreData(item){
+  if(!item) return true;
+  const qtyReady = Number.isFinite(Number(item.quantity)) && Number(item.quantity) >= 0;
+  const hasPhoto = !!getPrimaryImageSource(item);
+  return !Number.isFinite(Number(item.price)) || !item.tankCode || !item.stockSize || !item.stockNumber || !qtyReady || !hasPhoto;
+}
+function inventoryStatusLabel(item){
+  if(item?.quarantine) return 'QUARANTINE';
+  if(item?.reserved) return item.reservedFor ? `HELD · ${item.reservedFor}` : 'HELD';
+  if(item?.inStock) return 'IN STOCK';
+  if(item?.soldAt) return 'SOLD';
+  if(item?.lossAt) return 'REMOVED';
+  return 'OUT OF STOCK';
+}
+function inventoryStatusClass(item){
+  if(item?.quarantine) return 'is-quarantine';
+  if(item?.reserved) return 'is-held';
+  if(item?.inStock) return 'is-instock';
+  if(item?.soldAt) return 'is-sold';
+  if(item?.lossAt) return 'is-loss';
+  return 'is-out';
+}
+function inventorySummary(items=[]){
+  return {
+    entries: items.length,
+    liveCount: items.reduce((sum, item) => sum + (Number.isFinite(Number(item.quantity)) && item.inStock ? Number(item.quantity) : (item.inStock ? 1 : 0)), 0),
+    reserved: items.filter(item => item?.reserved).length,
+    missingSpeciesCore: items.filter(hasMissingSpeciesCoreData).length,
+    missingStoreSetup: items.filter(hasMissingStoreData).length
+  };
+}
+function populateInventoryCategoryFilter(){
+  const filter = document.getElementById('inventoryCategoryFilter');
+  if(!filter) return;
+  const current = filter.value || 'all';
+  const categories = [...new Set(FISH.map(item => item.category).filter(Boolean))]
+    .sort((a,b) => inventoryCategoryLabel(a).localeCompare(inventoryCategoryLabel(b)));
+  filter.innerHTML = `<option value="all">All categories</option>${categories.map(category => `<option value="${category}">${inventoryCategoryLabel(category)}</option>`).join('')}`;
+  filter.value = categories.includes(current) ? current : 'all';
+}
+function renderInventoryQuickFilters(items=[]){
+  const root = document.getElementById('inventoryQuickFilters');
+  const statusEl = document.getElementById('inventoryStatusFilter');
+  if(!root || !statusEl) return;
+  const current = statusEl.value || 'all';
+  const rows = Array.isArray(items) ? items : [];
+  const countFor = value => {
+    if(value === 'all') return rows.length;
+    if(value === 'instock') return rows.filter(item => item.inStock).length;
+    if(value === 'out') return rows.filter(item => !item.inStock).length;
+    if(value === 'quarantine') return rows.filter(item => item.quarantine).length;
+    if(value === 'reserved') return rows.filter(item => item.reserved).length;
+    if(value === 'missingspecies') return rows.filter(hasMissingSpeciesCoreData).length;
+    if(value === 'missingstore') return rows.filter(hasMissingStoreData).length;
+    if(value === 'recent') return rows.filter(item => Array.isArray(item[STAFF_HISTORY_FIELD]) && item[STAFF_HISTORY_FIELD].length).length;
+    return 0;
+  };
+  const chips = [
+    ['all','All'],
+    ['instock','In Stock'],
+    ['out','Out'],
+    ['quarantine','Quarantine'],
+    ['reserved','Held'],
+    ['recent','Recent'],
+    ['missingspecies','Species Review'],
+    ['missingstore','Store Setup']
+  ];
+  root.innerHTML = chips.map(([value, label]) => `<button class="inventory-chip-filter ${current === value ? 'is-active' : ''}" type="button" onclick="const el=document.getElementById('inventoryStatusFilter'); if(el){ el.value='${value}'; renderInventoryManager(); }">${label}<span>${countFor(value)}</span></button>`).join('');
+}
 function inventorySearchText(item){
   const categoryAliases = CATEGORY_SEARCH_ALIASES[item.category] || [];
   return [
@@ -2970,6 +3072,17 @@ function inventoryHistoryPanelTemplate(items, limit=18, restrictToView=true){
   }
   return `<div class="inventory-history-panel"><div class="inventory-history-panel-head"><div><strong>Recent staff changes</strong><span>Use the rollback buttons here to quickly reverse a sold, loss, quarantine, or hold without hunting through the grid.</span></div></div><div class="inventory-history-list">${sliced.map(({item, entry}) => `<div class="inventory-history-row"><div class="inventory-history-main"><div class="inventory-history-thumb" data-photo="${item.id}"><div class="image-placeholder">LTC</div></div><div><div class="inventory-history-name">${L(item,'name')}</div><div class="inventory-history-meta">${inventoryCategoryLabel(item.category)} · ${entry.action} · ${formatDateTimeShort(entry.time)}</div></div></div><div class="inventory-history-row-actions">${staffHistoryActionButtons(item) || '<span class="inventory-history-muted">No rollback ready</span>'}${state.staffMode ? `<button class="staff-action-btn edit" onclick="showSaleHistory('${item.id}')" style="background:rgba(90,220,200,.12);border-color:rgba(90,220,200,.26);color:#95f2e0">Sale History</button>` : ''}</div></div>`).join('')}</div></div>`;
 }
+const INVENTORY_RENDER_BATCH = 24;
+let inventoryRenderToken = 0;
+let inventoryRenderFrame = null;
+
+function cancelInventoryRenderQueue(){
+  inventoryRenderToken += 1;
+  if(inventoryRenderFrame){
+    cancelAnimationFrame(inventoryRenderFrame);
+    inventoryRenderFrame = null;
+  }
+}
 function openInventoryManager(){
   const overlay = document.getElementById('inventoryOverlay');
   if(!overlay) return;
@@ -2999,16 +3112,21 @@ function openInventoryManager(){
   }
   populateInventoryCategoryFilter();
   overlay.classList.add('show');
-  renderInventoryManager();
+  const root = document.getElementById('inventoryContent');
+  if(root){
+    root.innerHTML = '<div class="inventory-loading-state"><strong>Loading inventory…</strong><span>Building cards in smaller batches so the panel opens faster.</span></div>';
+  }
+  requestAnimationFrame(() => renderInventoryManager());
 }
 function closeInventoryManager(){
+  cancelInventoryRenderQueue();
   const overlay = document.getElementById('inventoryOverlay');
   if(overlay) overlay.classList.remove('show');
 }
 
 function hydrateInventoryPhotos(items=[]){
   requestAnimationFrame(() => applyImagesToDOM());
-  const sample = (Array.isArray(items) ? items : []).slice(0, 60);
+  const sample = (Array.isArray(items) ? items : []).slice(0, 24);
   sample.forEach(item => {
     if(!item) return;
     fetchImageForFish(item).then(() => requestAnimationFrame(() => applyImagesToDOM())).catch(() => {});
@@ -3035,6 +3153,7 @@ function renderInventoryManager(){
   if(!root) return;
   const overlay = document.getElementById('inventoryOverlay');
   if(overlay && !overlay.classList.contains('show')) return;
+  cancelInventoryRenderQueue();
   const query = (document.getElementById('inventorySearch')?.value || '').trim().toLowerCase();
   const status = document.getElementById('inventoryStatusFilter')?.value || 'all';
   const category = document.getElementById('inventoryCategoryFilter')?.value || 'all';
@@ -3051,10 +3170,31 @@ function renderInventoryManager(){
   else if(status === 'missingstore') items = items.filter(item => hasMissingStoreData(item));
   else if(status === 'recent') items = items.filter(item => Array.isArray(item[STAFF_HISTORY_FIELD]) && item[STAFF_HISTORY_FIELD].length);
   renderInventoryQuickFilters(items);
-  if(category !== 'all') items = items.filter(item => item.category === category);
   items.sort((a,b) => a.name.localeCompare(b.name));
-  root.innerHTML = `${inventorySummaryTemplate(items)}<div class="inventory-grid">${items.map(item => inventoryCardTemplate(item)).join('')}</div>`;
-  hydrateInventoryPhotos(items);
+  const token = inventoryRenderToken;
+  root.innerHTML = `${inventorySummaryTemplate(items)}<div class="inventory-grid" id="inventoryGrid"></div>`;
+  const grid = document.getElementById('inventoryGrid');
+  if(!grid) return;
+  if(!items.length){
+    grid.innerHTML = '<div class="inventory-empty-state">No inventory entries match this view.</div>';
+    return;
+  }
+  let index = 0;
+  const paintChunk = () => {
+    if(inventoryRenderToken !== token) return;
+    const slice = items.slice(index, index + INVENTORY_RENDER_BATCH);
+    if(slice.length){
+      grid.insertAdjacentHTML('beforeend', slice.map(item => inventoryCardTemplate(item)).join(''));
+      hydrateInventoryPhotos(slice);
+      index += slice.length;
+    }
+    if(index < items.length){
+      inventoryRenderFrame = requestAnimationFrame(paintChunk);
+    } else {
+      inventoryRenderFrame = null;
+    }
+  };
+  paintChunk();
 }
 
 

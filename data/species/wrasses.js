@@ -33,7 +33,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "bestWith": [
       "Covered reef tanks",
       "Peaceful community fish",
-      "Owners wanting color without coral risk"
+      "keepers wanting color without coral risk"
     ],
     "cautionWith": [
       "Open-top tanks",
@@ -61,10 +61,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for elegant streamlined body with soft pink, gold, and blue tones that intensify under light. Plan on at least 55+ gal.",
     "seasonal": null,
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 55+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "six-line-wrasse",
@@ -99,7 +99,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "bestWith": [
       "Reef tanks with pest concerns",
       "Established communities where it's added last",
-      "Owners wanting a useful worker fish"
+      "keepers wanting a useful worker fish"
     ],
     "cautionWith": [
       "Very peaceful timid fish",
@@ -125,9 +125,9 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for six vivid horizontal purple and orange lines across a small torpedo body. Plan on at least 30+ gal.",
     "seasonal": null,
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "behavior": "Quick, sharp-moving rockwork wrasse with more attitude packed into a small body than many aquarists expect. It spends the day threading through crevices and inspection routes, and once established it can become quite confident about its own patch of rockwork.",
+    "feedingNotes": "Offer small meaty foods on a dependable routine and make sure timid tankmates still get access. These wrasses adapt well to prepared foods, but they can quickly outcompete slower fish if feeding strategy is left to chance.",
+    "buyingGuidance": "Very appealing for personality and hunting behavior, but the small size fools people. Discuss temperament, pod pressure on the tank, and whether the aquarist is comfortable with a wrasse that can become bossy in tight rockwork despite the modest 30+ gal listing.",
     "recognitionNotes": "Six vivid horizontal purple and orange lines across a small torpedo body."
   },
   {
@@ -163,7 +163,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "bestWith": [
       "Covered reef tanks with moderate flow",
       "Peaceful community fish",
-      "Owners wanting movement and color without aggression"
+      "keepers wanting movement and color without aggression"
     ],
     "cautionWith": [
       "Open-top tanks",
@@ -189,10 +189,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "origin_es": "Océano Índico",
     "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for males flash vivid red, orange, and blue fin displays during courtship — one of the most dramatic color shows in a reef tank. Plan on at least 40+ gal.",
     "seasonal": null,
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Open-water display wrasse that spends much of the day flashing through the upper half of the reef and reacting to movement around it. These fish are beautiful because they stay in view, but that same energy makes a secure lid mandatory and makes 40+ gal feel much better when the tank also has true horizontal swimming room.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 40+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "melanurus-wrasse",
@@ -254,9 +254,9 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for green and blue body with pink and orange facial markings and a dark tail spot. Plan on at least 50+ gal.",
     "seasonal": null,
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "behavior": "Active daytime hunter that works rock, sand, and crevices looking for small prey, then dives into sand to sleep or hide when the lights drop. A secure cover and a usable sand bed are part of the basic setup, not optional extras.",
+    "feedingNotes": "A mixed meaty routine usually works well here: quality small pellets, mysis, brine, and other appropriately sized frozen foods. These wrasses are opportunistic hunters, so steady feeding plus natural foraging room around rock and sand keeps them looking fuller and more relaxed.",
+    "buyingGuidance": "Excellent when the aquarist wants an active pest-picking wrasse and already has both a lid and a usable sand bed. The right match is the keeper who values daily movement and utility, not someone trying to force a sand-sleeping wrasse into a bare-bottom compromise.",
     "recognitionNotes": "Green and blue body with pink and orange facial markings and a dark tail spot."
   },
   {
@@ -299,7 +299,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Bare-bottom tanks",
       "Very aggressive tankmates"
     ],
-    "staffNote": "Easy sell. Cheap, pretty, hardy, reef safe. What's not to like?",
+    "staffNote": "Very easy fish to explain. budget-friendly, pretty, hardy, reef safe. What's not to like?",
     "photoTitle": "Halichoeres chrysus",
     "inStock": false,
     "badges": [],
@@ -318,10 +318,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for solid bright yellow body with a faint green tinge and a small black spot near the eye. Plan on at least 50+ gal.",
     "seasonal": null,
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the longer body, stronger jaws, and faster open-water laps that mark the bigger wrasse types."
+    "behavior": "Active daytime hunter that works rock, sand, and crevices looking for small prey, then dives into sand to sleep or hide when the lights drop. A secure cover and a usable sand bed are part of the basic setup, not optional extras.",
+    "feedingNotes": "A mixed meaty routine usually works well here: quality small pellets, mysis, brine, and other appropriately sized frozen foods. These wrasses are opportunistic hunters, so steady feeding plus natural foraging room around rock and sand keeps them looking fuller and more relaxed.",
+    "buyingGuidance": "Excellent when the aquarist wants an active pest-picking wrasse and already has both a lid and a usable sand bed. The right match is the keeper who values daily movement and utility, not someone trying to force a sand-sleeping wrasse into a bare-bottom compromise.",
+    "recognitionNotes": "Look for a long active wrasse body with strong cruising speed and broader jaws."
   },
   {
     "id": "mystery-wrasse",
@@ -361,7 +361,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "cautionWith": [
       "Very small tanks",
       "Timid tankmates",
-      "Budget-conscious customers"
+      "Budget-conscious aquarists"
     ],
     "staffNote": "Premium price but the color is unreal. Sells itself if you have one in the display.",
     "photoTitle": "Pseudocheilinus ocellatus",
@@ -382,9 +382,9 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for deep magenta-red body with white vertical bars and neon blue facial lines. Plan on at least 30+ gal.",
     "seasonal": null,
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "behavior": "Quick, sharp-moving rockwork wrasse with more attitude packed into a small body than many aquarists expect. It spends the day threading through crevices and inspection routes, and once established it can become quite confident about its own patch of rockwork.",
+    "feedingNotes": "Offer small meaty foods on a dependable routine and make sure timid tankmates still get access. These wrasses adapt well to prepared foods, but they can quickly outcompete slower fish if feeding strategy is left to chance.",
+    "buyingGuidance": "Very appealing for personality and hunting behavior, but the small size fools people. Discuss temperament, pod pressure on the tank, and whether the aquarist is comfortable with a wrasse that can become bossy in tight rockwork despite the modest 30+ gal listing.",
     "recognitionNotes": "Deep magenta-red body with white vertical bars and neon blue facial lines."
   },
   {
@@ -413,14 +413,14 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "visualCue": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents.",
     "overview": "A more affordable alternative to McCosker's with similarly impressive flashing behavior. Males display vivid orange and purple fin extensions.",
     "facts": [
-      "More commonly available and cheaper than McCosker's.",
+      "More commonly available and more budget-friendly than McCosker's.",
       "Flashing display is almost as impressive.",
       "Very peaceful and reef safe."
     ],
     "bestWith": [
       "Covered reef tanks",
       "Peaceful communities",
-      "Customers wanting a flasher wrasse without premium pricing"
+      "aquarists wanting a flasher wrasse without premium pricing"
     ],
     "cautionWith": [
       "Open-top tanks",
@@ -446,10 +446,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "origin_es": "Pacífico Occidental",
     "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for orange-red body with purple and blue fins that flash during mating displays. Plan on at least 40+ gal.",
     "seasonal": null,
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Open-water display wrasse that spends much of the day flashing through the upper half of the reef and reacting to movement around it. These fish are beautiful because they stay in view, but that same energy makes a secure lid mandatory and makes 40+ gal feel much better when the tank also has true horizontal swimming room.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 40+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "leopard-wrasse",
@@ -490,7 +490,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "New tanks",
       "Bare-bottom tanks"
     ],
-    "staffNote": "Only sell to experienced reefers with mature systems. This fish needs special care to survive.",
+    "staffNote": "Recommend only to experienced reef keepers with mature systems. This fish needs special care to survive.",
     "photoTitle": "Macropharyngodon meleagris",
     "inStock": false,
     "badges": [],
@@ -509,10 +509,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for dark body covered in bright blue, pink, and green leopard-print spots. males are particularly vivid. Plan on at least 55+ gal.",
     "seasonal": null,
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the fine patterning and sand-focused foraging style that set leopard wrasses apart."
+    "behavior": "More deliberate and ground-oriented than the fairy and flasher types, with frequent hunting passes over rock, rubble, and sand. Leopard wrasses rely on a real sand bed for sleeping and stress relief, so a mature covered reef with soft substrate matters as much as the listed 55+ gal minimum.",
+    "feedingNotes": "Prepared foods matter, but mature live hunting opportunities matter too. These wrasses settle far better when the tank provides pods and small natural prey between feedings, with frozen and pellet foods layered in only after the fish is clearly eating confidently.",
+    "buyingGuidance": "These are not just prettier versions of ordinary wrasses. Recommend them when the reef is mature, pod support is believable, and the aquarist already has the soft sand and patience needed for a wrasse that may bury itself and hide during acclimation.",
+    "recognitionNotes": "Look for a fine-spotted wrasse pattern and constant foraging close to sand and rock."
   },
   {
     "id": "possum-wrasse",
@@ -538,7 +538,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "careDifficulty": 18,
     "role": "Tiny shy nano wrasse perfect for small peaceful tanks",
     "visualCue": "Look for a petite wrasse with quick dashes around rockwork and tight turns near cover.",
-    "overview": "A tiny, shy wrasse that hides frequently but rewards patient owners with subtle beauty. One of the few wrasses suitable for genuine nano tanks.",
+    "overview": "A tiny, shy wrasse that hides frequently but rewards patient keepers with subtle beauty. One of the few wrasses suitable for genuine nano tanks.",
     "facts": [
       "Truly nano-appropriate — comfortable in 10 gallons.",
       "Very shy — needs hiding spots and calm tankmates.",
@@ -547,7 +547,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "bestWith": [
       "Nano reef tanks",
       "Very peaceful communities",
-      "Patient owners who enjoy shy fish"
+      "Patient keepers who enjoy shy fish"
     ],
     "cautionWith": [
       "Large aggressive tankmates",
@@ -572,10 +572,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "origin_es": "Indo-Pacífico",
     "headerSummary": "Fast-moving reef fish that adds motion, color, and daily activity. Look for orange-brown body with thin white horizontal lines and a distinctive dark spot pattern. Plan on at least 10+ gal.",
     "seasonal": null,
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the smaller frame and tight rockwork turns rather than the heavier body of the larger wrasses."
+    "behavior": "Tiny rockwork-hovering wrasse that favors careful creeping movement through caves, ledges, and branching structure over dramatic open-water laps. It is easy to miss in a rough community, but wonderfully detailed in a calm tank where it feels safe enough to stay visible.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders, but their best color and activity usually come from consistency more than from oversized single feedings.",
+    "buyingGuidance": "A great fit for calm reef keepers who want a subtle, detail-rich wrasse instead of a speedster. The ideal home is peaceful and cover-heavy, because the fish is easy to lose visually when tankmates are too boisterous.",
+    "recognitionNotes": "Look for a petite wrasse with quick dashes around rockwork and tight turns near cover."
   },
   {
     "id": "banana-wrasse",
@@ -633,10 +633,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Fast, visible wrasse with more size and attitude than the smaller reef-safe types. Best for roomy covered systems that can handle a stronger appetite.",
-    "behavior": "These larger wrasses combine nonstop motion with more attitude and more appetite than the smaller reef types.",
-    "feedingNotes": "Protein-heavy feeding suits the group, but so does watching that appetite does not turn every smaller crustacean into a menu item.",
-    "buyingGuidance": "Best sold to buyers who want activity and personality but have already planned for the fish’s size and appetite.",
-    "recognitionNotes": "Look for the longer body, stronger jaws, and faster open-water laps that mark the bigger wrasse types."
+    "behavior": "Fast, visible wrasse profile with more size, speed, and habitat impact than the smaller reef-safe display species. Many of these wrasses use sand for sleeping or stress relief, stay in constant motion, and eventually demand a roomier tank with a well-secured aquascape.",
+    "feedingNotes": "Feed enough to support a genuinely active carnivorous hunter, not just enough to trigger a single flashy strike. Meaty frozen foods, quality pellets, and a consistent routine are more important than novelty feeding, especially as the larger species mature.",
+    "buyingGuidance": "Recommend after checking adult size, invertebrate plans, and whether the system is really built for a larger, faster, often rougher wrasse profile. These fish are easy to admire as juveniles and much harder to house well once the full adult behavior shows up.",
+    "recognitionNotes": "Look for a long active wrasse body with strong cruising speed and broader jaws."
   },
   {
     "id": "bird-wrasse",
@@ -694,10 +694,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Fast, visible wrasse with more size and attitude than the smaller reef-safe types. Best for roomy covered systems that can handle a stronger appetite.",
-    "behavior": "These larger wrasses combine nonstop motion with more attitude and more appetite than the smaller reef types.",
-    "feedingNotes": "Protein-heavy feeding suits the group, but so does watching that appetite does not turn every smaller crustacean into a menu item.",
-    "buyingGuidance": "Best sold to buyers who want activity and personality but have already planned for the fish’s size and appetite.",
-    "recognitionNotes": "Look for the longer body, stronger jaws, and faster open-water laps that mark the bigger wrasse types."
+    "behavior": "Fast, visible wrasse profile with more size, speed, and habitat impact than the smaller reef-safe display species. Many of these wrasses use sand for sleeping or stress relief, stay in constant motion, and eventually demand a roomier tank with a well-secured aquascape.",
+    "feedingNotes": "Feed enough to support a genuinely active carnivorous hunter, not just enough to trigger a single flashy strike. Meaty frozen foods, quality pellets, and a consistent routine are more important than novelty feeding, especially as the larger species mature.",
+    "buyingGuidance": "Recommend after checking adult size, invertebrate plans, and whether the system is really built for a larger, faster, often rougher wrasse profile. These fish are easy to admire as juveniles and much harder to house well once the full adult behavior shows up.",
+    "recognitionNotes": "Look for a long active wrasse body with strong cruising speed and broader jaws."
   },
   {
     "id": "black-leopard-wrasse",
@@ -726,7 +726,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview": "Black Leopard Wrasse is a sand-oriented wrasse that usually rewards patient keepers with a mature reef.",
     "overview_es": "",
     "facts": [
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A mature reef and patient acclimation routine matter more here than with many common wrasses."
     ],
     "photoTitle": "Black Leopard Wrasse",
@@ -754,10 +754,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Sand-sleeping wrasse that does best in mature, settled reef systems. Maturity and patient acclimation matter more than speed.",
-    "behavior": "Active foraging over sand and rock is normal once the fish feels secure enough to settle into the daily rhythm.",
-    "feedingNotes": "A mature system and patient feeding routine matter more than flashy food choices with this group.",
-    "buyingGuidance": "Best sold to buyers with a mature reef and patience, not to someone trying to shortcut the system maturity part of the hobby.",
-    "recognitionNotes": "Look for the fine patterning and sand-focused foraging style that set leopard wrasses apart."
+    "behavior": "More deliberate and ground-oriented than the fairy and flasher types, with frequent hunting passes over rock, rubble, and sand. Leopard wrasses rely on a real sand bed for sleeping and stress relief, so a mature covered reef with soft substrate matters as much as the listed 55+ gal minimum.",
+    "feedingNotes": "Prepared foods matter, but mature live hunting opportunities matter too. These wrasses settle far better when the tank provides pods and small natural prey between feedings, with frozen and pellet foods layered in only after the fish is clearly eating confidently.",
+    "buyingGuidance": "These are not just prettier versions of ordinary wrasses. Recommend them when the reef is mature, pod support is believable, and the aquarist already has the soft sand and patience needed for a wrasse that may bury itself and hide during acclimation.",
+    "recognitionNotes": "Look for a fine-spotted wrasse pattern and constant foraging close to sand and rock."
   },
   {
     "id": "blue-flasher-wrasse",
@@ -787,7 +787,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A tight lid is basic equipment with active display wrasses like these."
     ],
     "photoTitle": "Blue Flasher Wrasse",
@@ -815,10 +815,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful open-water wrasse that shines in covered, peaceful reef systems. A covered reef is usually the right long-term home.",
-    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork.",
-    "feedingNotes": "Small frequent feedings and a clean protein-forward routine usually bring out the best color and response.",
-    "buyingGuidance": "A strong reef sale when the buyer has a lid and wants motion and color without stepping into full predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Open-water display wrasse that spends much of the day flashing through the upper half of the reef and reacting to movement around it. These fish are beautiful because they stay in view, but that same energy makes a secure lid mandatory and makes 30+ gal feel much better when the tank also has true horizontal swimming room.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 30+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "bluestreak-cleaner-wrasse",
@@ -844,10 +844,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "careDifficulty": 56,
     "role": "Specialist wrasse whose long-term success depends on careful husbandry and feeding response",
     "role_es": "",
-    "overview": "Bluestreak Cleaner Wrasse is a specialist wrasse that should only be sold when feeding response and long-term care are well understood.",
+    "overview": "Bluestreak Cleaner Wrasse is a specialist wrasse that should only be chosen when feeding response and long-term care are well understood.",
     "overview_es": "",
     "facts": [
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Long-term feeding response is the key question with cleaner wrasses."
     ],
     "photoTitle": "Bluestreak Cleaner Wrasse",
@@ -875,10 +875,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Specialist wrasse whose long-term success depends on careful husbandry and feeding response. Long-term feeding success matters more than first impressions.",
-    "behavior": "A healthy fish stays active and investigative, but the long-term question is always whether it will keep taking prepared foods.",
-    "feedingNotes": "Prepared-food acceptance has to be watched honestly over time rather than assumed from category or appearance alone.",
-    "buyingGuidance": "This is a careful sale even when the fish looks great. Long-term feeding success matters more than immediate display appeal.",
-    "recognitionNotes": "Look for the streamlined profile and purposeful interest in larger fish."
+    "behavior": "Behavior is built around interaction with other fish rather than nonstop grazing or cruising. Cleaner wrasses can be fascinating to watch, but that same specialization is exactly why they need a thoughtful, species-specific husbandry conversation before being treated like an ordinary community wrasse.",
+    "feedingNotes": "Specialized feeding response is the whole conversation here. Confirm the individual is eating prepared foods convincingly before treating it as a normal community fish, because many cleaner wrasses fail when the tank cannot support their natural grazing role.",
+    "buyingGuidance": "This is a specialized choice, not a default wrasse recommendation. Prepared-food success and long-term feeding realism should drive the decision far more than the novelty of watching cleaning behavior in the first week.",
+    "recognitionNotes": "Look for a slim wrasse profile and a purposeful swimming style around larger fish."
   },
   {
     "id": "canary-wrasse",
@@ -908,7 +908,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A covered tank is part of the normal wrasse plan, not a nice extra."
     ],
     "photoTitle": "Canary Wrasse",
@@ -936,10 +936,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Active wrasse profile with strong movement and a need for a covered tank. A covered tank and steady feeding routine are the normal plan.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
+    "behavior": "Active daytime hunter that works rock, sand, and crevices looking for small prey, then dives into sand to sleep or hide when the lights drop. A secure cover and a usable sand bed are part of the basic setup, not optional extras.",
+    "feedingNotes": "A mixed meaty routine usually works well here: quality small pellets, mysis, brine, and other appropriately sized frozen foods. These wrasses are opportunistic hunters, so steady feeding plus natural foraging room around rock and sand keeps them looking fuller and more relaxed.",
+    "buyingGuidance": "Excellent when the aquarist wants an active pest-picking wrasse and already has both a lid and a usable sand bed. The right match is the keeper who values daily movement and utility, not someone trying to force a sand-sleeping wrasse into a bare-bottom compromise.",
+    "recognitionNotes": "Look for a slim active swimmer with quick turns and constant movement around rock and open water."
   },
   {
     "id": "christmas-wrasse",
@@ -997,9 +997,9 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Active wrasse profile with strong movement and a need for a covered tank. Plan on roughly 55+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "behavior": "Active daytime hunter that works rock, sand, and crevices looking for small prey, then dives into sand to sleep or hide when the lights drop. A secure cover and a usable sand bed are part of the basic setup, not optional extras.",
+    "feedingNotes": "A mixed meaty routine usually works well here: quality small pellets, mysis, brine, and other appropriately sized frozen foods. These wrasses are opportunistic hunters, so steady feeding plus natural foraging room around rock and sand keeps them looking fuller and more relaxed.",
+    "buyingGuidance": "Excellent when the aquarist wants an active pest-picking wrasse and already has both a lid and a usable sand bed. The right match is the keeper who values daily movement and utility, not someone trying to force a sand-sleeping wrasse into a bare-bottom compromise.",
     "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
@@ -1059,10 +1059,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Dramatic wrasse that flips rocks and hunts invertebrates. Plan on roughly 100+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the longer body, stronger jaws, and faster open-water laps that mark the bigger wrasse types."
+    "behavior": "Fast, visible wrasse profile with more size, speed, and habitat impact than the smaller reef-safe display species. Many of these wrasses use sand for sleeping or stress relief, stay in constant motion, and eventually demand a roomier tank with a well-secured aquascape.",
+    "feedingNotes": "Feed enough to support a genuinely active carnivorous hunter, not just enough to trigger a single flashy strike. Meaty frozen foods, quality pellets, and a consistent routine are more important than novelty feeding, especially as the larger species mature.",
+    "buyingGuidance": "Recommend after checking adult size, invertebrate plans, and whether the system is really built for a larger, faster, often rougher wrasse profile. These fish are easy to admire as juveniles and much harder to house well once the full adult behavior shows up.",
+    "recognitionNotes": "Look for a long active wrasse body with strong cruising speed and broader jaws."
   },
   {
     "id": "eight-line-wrasse",
@@ -1092,7 +1092,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A covered tank is part of the normal wrasse plan, not a nice extra."
     ],
     "photoTitle": "Eight Line Wrasse",
@@ -1120,10 +1120,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Active wrasse profile with strong movement and a need for a covered tank. A covered tank and steady feeding routine are the normal plan.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
+    "behavior": "Quick, sharp-moving rockwork wrasse with more attitude packed into a small body than many aquarists expect. It spends the day threading through crevices and inspection routes, and once established it can become quite confident about its own patch of rockwork.",
+    "feedingNotes": "Offer small meaty foods on a dependable routine and make sure timid tankmates still get access. These wrasses adapt well to prepared foods, but they can quickly outcompete slower fish if feeding strategy is left to chance.",
+    "buyingGuidance": "Very appealing for personality and hunting behavior, but the small size fools people. Discuss temperament, pod pressure on the tank, and whether the aquarist is comfortable with a wrasse that can become bossy in tight rockwork despite the modest 55+ gal listing.",
+    "recognitionNotes": "Look for a slim active swimmer with quick turns and constant movement around rock and open water."
   },
   {
     "id": "exquisite-fairy-wrasse",
@@ -1181,10 +1181,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful fairy wrasse that flashes during courtship. Plan on roughly 55+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 55+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "filamented-flasher-wrasse",
@@ -1214,7 +1214,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A tight lid is basic equipment with active display wrasses like these."
     ],
     "photoTitle": "Filamented Flasher Wrasse",
@@ -1242,10 +1242,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful open-water wrasse that shines in covered, peaceful reef systems. A covered reef is usually the right long-term home.",
-    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork.",
-    "feedingNotes": "Small frequent feedings and a clean protein-forward routine usually bring out the best color and response.",
-    "buyingGuidance": "A strong reef sale when the buyer has a lid and wants motion and color without stepping into full predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Open-water display wrasse that spends much of the day flashing through the upper half of the reef and reacting to movement around it. These fish are beautiful because they stay in view, but that same energy makes a secure lid mandatory and makes 30+ gal feel much better when the tank also has true horizontal swimming room.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 30+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "flame-wrasse",
@@ -1303,9 +1303,9 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Hawaiian endemic fairy wrasse with intense red coloring. Plan on roughly 55+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 55+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
     "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
@@ -1336,7 +1336,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A covered tank is part of the normal wrasse plan, not a nice extra."
     ],
     "photoTitle": "Four Line Wrasse",
@@ -1364,10 +1364,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Active wrasse profile with strong movement and a need for a covered tank. A covered tank and steady feeding routine are the normal plan.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
+    "behavior": "Quick, sharp-moving rockwork wrasse with more attitude packed into a small body than many aquarists expect. It spends the day threading through crevices and inspection routes, and once established it can become quite confident about its own patch of rockwork.",
+    "feedingNotes": "Offer small meaty foods on a dependable routine and make sure timid tankmates still get access. These wrasses adapt well to prepared foods, but they can quickly outcompete slower fish if feeding strategy is left to chance.",
+    "buyingGuidance": "Very appealing for personality and hunting behavior, but the small size fools people. Discuss temperament, pod pressure on the tank, and whether the aquarist is comfortable with a wrasse that can become bossy in tight rockwork despite the modest 30+ gal listing.",
+    "recognitionNotes": "Look for a slim active swimmer with quick turns and constant movement around rock and open water."
   },
   {
     "id": "harlequin-tusk",
@@ -1397,7 +1397,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Small ornamental invertebrates or undersized tankmates should not be assumed safe here.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "Cleanup-crew safety is not part of the package with tusk-type wrasses."
     ],
     "photoTitle": "Harlequin Tusk",
@@ -1424,11 +1424,11 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
       "Corals or polyps that could be nipped or disturbed"
     ],
     "staffNote": "",
-    "headerSummary": "Bold, heavy-bodied wrasse with strong color and real invertebrate risk. Best for buyers who understand the cleanup-crew trade-off.",
-    "behavior": "Confident open movement and a stronger bite-oriented presence set this fish apart from the gentler reef wrasses.",
-    "feedingNotes": "A meaty routine fits the fish well, and small ornamental inverts should not be treated as compatible cleanup crew by default.",
-    "buyingGuidance": "A strong show-fish sale for buyers who understand that clean-up-crew safety is not part of the package.",
-    "recognitionNotes": "Look for the heavy jaws, visible teeth, and broader body that separate it from the slimmer reef wrasses."
+    "headerSummary": "Bold, heavy-bodied wrasse with strong color and real invertebrate risk. Best for aquarists who understand the cleanup-crew trade-off.",
+    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork. A covered reef with sensible tankmates usually makes the difference between a wrasse that stays visible and one that spends the day launching into the lid or hiding.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders, but their best color and activity usually come from consistency more than from oversized single feedings.",
+    "buyingGuidance": "Great display fish for movement and color, but the aquarist should be ready for an active swimmer and a covered tank. The lid matters as much as the fish: many wrasses read as easy until the first surprise jump.",
+    "recognitionNotes": "Look for a thick-bodied wrasse with oversized teeth and bold striping or patchwork color."
   },
   {
     "id": "hoeven-s-wrasse",
@@ -1458,7 +1458,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A covered tank is part of the normal wrasse plan, not a nice extra."
     ],
     "photoTitle": "Hoeven's Wrasse",
@@ -1486,10 +1486,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Active wrasse profile with strong movement and a need for a covered tank. A covered tank and steady feeding routine are the normal plan.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
+    "behavior": "Active daytime hunter that works rock, sand, and crevices looking for small prey, then dives into sand to sleep or hide when the lights drop. A secure cover and a usable sand bed are part of the basic setup, not optional extras.",
+    "feedingNotes": "A mixed meaty routine usually works well here: quality small pellets, mysis, brine, and other appropriately sized frozen foods. These wrasses are opportunistic hunters, so steady feeding plus natural foraging room around rock and sand keeps them looking fuller and more relaxed.",
+    "buyingGuidance": "Excellent when the aquarist wants an active pest-picking wrasse and already has both a lid and a usable sand bed. The right match is the keeper who values daily movement and utility, not someone trying to force a sand-sleeping wrasse into a bare-bottom compromise.",
+    "recognitionNotes": "Look for a slim active swimmer with quick turns and constant movement around rock and open water."
   },
   {
     "id": "hooded-fairy-wrasse",
@@ -1519,7 +1519,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A tight lid is basic equipment with active display wrasses like these."
     ],
     "photoTitle": "Hooded Fairy Wrasse",
@@ -1547,10 +1547,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful open-water wrasse that shines in covered, peaceful reef systems. A covered reef is usually the right long-term home.",
-    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork.",
-    "feedingNotes": "Small frequent feedings and a clean protein-forward routine usually bring out the best color and response.",
-    "buyingGuidance": "A strong reef sale when the buyer has a lid and wants motion and color without stepping into full predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 50+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "lubbock-s-fairy-wrasse",
@@ -1580,7 +1580,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A tight lid is basic equipment with active display wrasses like these."
     ],
     "photoTitle": "Lubbock's Fairy Wrasse",
@@ -1608,10 +1608,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful open-water wrasse that shines in covered, peaceful reef systems. A covered reef is usually the right long-term home.",
-    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork.",
-    "feedingNotes": "Small frequent feedings and a clean protein-forward routine usually bring out the best color and response.",
-    "buyingGuidance": "A strong reef sale when the buyer has a lid and wants motion and color without stepping into full predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 40+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "lunare-wrasse",
@@ -1669,10 +1669,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Fast, visible wrasse with more size and attitude than the smaller reef-safe types. Best for roomy covered systems that can handle a stronger appetite.",
-    "behavior": "These larger wrasses combine nonstop motion with more attitude and more appetite than the smaller reef types.",
-    "feedingNotes": "Protein-heavy feeding suits the group, but so does watching that appetite does not turn every smaller crustacean into a menu item.",
-    "buyingGuidance": "Best sold to buyers who want activity and personality but have already planned for the fish’s size and appetite.",
-    "recognitionNotes": "Look for the longer body, stronger jaws, and faster open-water laps that mark the bigger wrasse types."
+    "behavior": "Fast, visible wrasse profile with more size, speed, and habitat impact than the smaller reef-safe display species. Many of these wrasses use sand for sleeping or stress relief, stay in constant motion, and eventually demand a roomier tank with a well-secured aquascape.",
+    "feedingNotes": "Feed enough to support a genuinely active carnivorous hunter, not just enough to trigger a single flashy strike. Meaty frozen foods, quality pellets, and a consistent routine are more important than novelty feeding, especially as the larger species mature.",
+    "buyingGuidance": "Recommend after checking adult size, invertebrate plans, and whether the system is really built for a larger, faster, often rougher wrasse profile. These fish are easy to admire as juveniles and much harder to house well once the full adult behavior shows up.",
+    "recognitionNotes": "Look for a long active wrasse body with strong cruising speed and broader jaws."
   },
   {
     "id": "naoko-s-fairy-wrasse",
@@ -1702,7 +1702,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A tight lid is basic equipment with active display wrasses like these."
     ],
     "photoTitle": "Naoko's Fairy Wrasse",
@@ -1730,10 +1730,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful open-water wrasse that shines in covered, peaceful reef systems. A covered reef is usually the right long-term home.",
-    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork.",
-    "feedingNotes": "Small frequent feedings and a clean protein-forward routine usually bring out the best color and response.",
-    "buyingGuidance": "A strong reef sale when the buyer has a lid and wants motion and color without stepping into full predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 50+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "ornate-leopard-wrasse",
@@ -1762,7 +1762,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview": "Ornate Leopard Wrasse is a sand-oriented wrasse that usually rewards patient keepers with a mature reef.",
     "overview_es": "",
     "facts": [
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A mature reef and patient acclimation routine matter more here than with many common wrasses."
     ],
     "photoTitle": "Ornate Leopard Wrasse",
@@ -1790,10 +1790,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Sand-sleeping wrasse that does best in mature, settled reef systems. Maturity and patient acclimation matter more than speed.",
-    "behavior": "Active foraging over sand and rock is normal once the fish feels secure enough to settle into the daily rhythm.",
-    "feedingNotes": "A mature system and patient feeding routine matter more than flashy food choices with this group.",
-    "buyingGuidance": "Best sold to buyers with a mature reef and patience, not to someone trying to shortcut the system maturity part of the hobby.",
-    "recognitionNotes": "Look for the fine patterning and sand-focused foraging style that set leopard wrasses apart."
+    "behavior": "More deliberate and ground-oriented than the fairy and flasher types, with frequent hunting passes over rock, rubble, and sand. Leopard wrasses rely on a real sand bed for sleeping and stress relief, so a mature covered reef with soft substrate matters as much as the listed 55+ gal minimum.",
+    "feedingNotes": "Prepared foods matter, but mature live hunting opportunities matter too. These wrasses settle far better when the tank provides pods and small natural prey between feedings, with frozen and pellet foods layered in only after the fish is clearly eating confidently.",
+    "buyingGuidance": "These are not just prettier versions of ordinary wrasses. Recommend them when the reef is mature, pod support is believable, and the aquarist already has the soft sand and patience needed for a wrasse that may bury itself and hide during acclimation.",
+    "recognitionNotes": "Look for a fine-spotted wrasse pattern and constant foraging close to sand and rock."
   },
   {
     "id": "pink-streaked-wrasse",
@@ -1823,7 +1823,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A covered tank is part of the normal wrasse plan, not a nice extra."
     ],
     "photoTitle": "Pink Streaked Wrasse",
@@ -1851,10 +1851,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Active wrasse profile with strong movement and a need for a covered tank. A covered tank and steady feeding routine are the normal plan.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
+    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork. A covered reef with sensible tankmates usually makes the difference between a wrasse that stays visible and one that spends the day launching into the lid or hiding.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders, but their best color and activity usually come from consistency more than from oversized single feedings.",
+    "buyingGuidance": "Great display fish for movement and color, but the aquarist should be ready for an active swimmer and a covered tank. The lid matters as much as the fish: many wrasses read as easy until the first surprise jump.",
+    "recognitionNotes": "Look for a slim active swimmer with quick turns and constant movement around rock and open water."
   },
   {
     "id": "radiant-wrasse",
@@ -1912,9 +1912,9 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Small iridescent wrasse ideal for nano reef tanks. Plan on roughly 40+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "behavior": "Active daytime hunter that works rock, sand, and crevices looking for small prey, then dives into sand to sleep or hide when the lights drop. A secure cover and a usable sand bed are part of the basic setup, not optional extras.",
+    "feedingNotes": "A mixed meaty routine usually works well here: quality small pellets, mysis, brine, and other appropriately sized frozen foods. These wrasses are opportunistic hunters, so steady feeding plus natural foraging room around rock and sand keeps them looking fuller and more relaxed.",
+    "buyingGuidance": "Excellent when the aquarist wants an active pest-picking wrasse and already has both a lid and a usable sand bed. The right match is the keeper who values daily movement and utility, not someone trying to force a sand-sleeping wrasse into a bare-bottom compromise.",
     "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
@@ -1973,10 +1973,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Fast, visible wrasse with more size and attitude than the smaller reef-safe types. Best for roomy covered systems that can handle a stronger appetite.",
-    "behavior": "These larger wrasses combine nonstop motion with more attitude and more appetite than the smaller reef types.",
-    "feedingNotes": "Protein-heavy feeding suits the group, but so does watching that appetite does not turn every smaller crustacean into a menu item.",
-    "buyingGuidance": "Best sold to buyers who want activity and personality but have already planned for the fish’s size and appetite.",
-    "recognitionNotes": "Look for the longer body, stronger jaws, and faster open-water laps that mark the bigger wrasse types."
+    "behavior": "Fast, visible wrasse profile with more size, speed, and habitat impact than the smaller reef-safe display species. Many of these wrasses use sand for sleeping or stress relief, stay in constant motion, and eventually demand a roomier tank with a well-secured aquascape.",
+    "feedingNotes": "Feed enough to support a genuinely active carnivorous hunter, not just enough to trigger a single flashy strike. Meaty frozen foods, quality pellets, and a consistent routine are more important than novelty feeding, especially as the larger species mature.",
+    "buyingGuidance": "Recommend after checking adult size, invertebrate plans, and whether the system is really built for a larger, faster, often rougher wrasse profile. These fish are easy to admire as juveniles and much harder to house well once the full adult behavior shows up.",
+    "recognitionNotes": "Look for a long active wrasse body with strong cruising speed and broader jaws."
   },
   {
     "id": "red-margin-fairy-wrasse",
@@ -2006,7 +2006,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A tight lid is basic equipment with active display wrasses like these."
     ],
     "photoTitle": "Red Margin Fairy Wrasse",
@@ -2034,10 +2034,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful open-water wrasse that shines in covered, peaceful reef systems. A covered reef is usually the right long-term home.",
-    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork.",
-    "feedingNotes": "Small frequent feedings and a clean protein-forward routine usually bring out the best color and response.",
-    "buyingGuidance": "A strong reef sale when the buyer has a lid and wants motion and color without stepping into full predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 55+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "rhomboid-wrasse",
@@ -2067,7 +2067,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A covered tank is part of the normal wrasse plan, not a nice extra."
     ],
     "photoTitle": "Rhomboid Wrasse",
@@ -2095,10 +2095,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Active wrasse profile with strong movement and a need for a covered tank. A covered tank and steady feeding routine are the normal plan.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 55+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim active swimmer with quick turns and constant movement around rock and open water."
   },
   {
     "id": "ruby-head-fairy-wrasse",
@@ -2128,7 +2128,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A tight lid is basic equipment with active display wrasses like these."
     ],
     "photoTitle": "Ruby Head Fairy Wrasse",
@@ -2156,10 +2156,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful open-water wrasse that shines in covered, peaceful reef systems. A covered reef is usually the right long-term home.",
-    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork.",
-    "feedingNotes": "Small frequent feedings and a clean protein-forward routine usually bring out the best color and response.",
-    "buyingGuidance": "A strong reef sale when the buyer has a lid and wants motion and color without stepping into full predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 55+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "scott-s-fairy-wrasse",
@@ -2189,7 +2189,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A tight lid is basic equipment with active display wrasses like these."
     ],
     "photoTitle": "Scott's Fairy Wrasse",
@@ -2217,10 +2217,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful open-water wrasse that shines in covered, peaceful reef systems. A covered reef is usually the right long-term home.",
-    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork.",
-    "feedingNotes": "Small frequent feedings and a clean protein-forward routine usually bring out the best color and response.",
-    "buyingGuidance": "A strong reef sale when the buyer has a lid and wants motion and color without stepping into full predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 55+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "solar-fairy-wrasse",
@@ -2278,10 +2278,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful open-water wrasse that shines in covered, peaceful reef systems. Plan on roughly 55+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 55+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "tanaka-s-pygmy-wrasse",
@@ -2311,7 +2311,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A covered tank and calmer tankmates usually suit the smaller wrasses best."
     ],
     "photoTitle": "Tanaka's Pygmy Wrasse",
@@ -2339,10 +2339,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Small rockwork-oriented wrasse that adds motion without becoming the tank bully. A covered tank and calmer tankmates usually fit best.",
-    "behavior": "Expect quick movement in and out of the rockwork rather than a heavy-bodied presence.",
-    "feedingNotes": "Small meaty foods and a steady routine are usually enough once the fish settles in.",
-    "buyingGuidance": "A good sale for covered reefs that need motion without another oversized fish dominating the layout.",
-    "recognitionNotes": "Look for the smaller frame and tight rockwork turns rather than the heavier body of the larger wrasses."
+    "behavior": "Tiny rockwork-hovering wrasse that favors careful creeping movement through caves, ledges, and branching structure over dramatic open-water laps. It is easy to miss in a rough community, but wonderfully detailed in a calm tank where it feels safe enough to stay visible.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders, but their best color and activity usually come from consistency more than from oversized single feedings.",
+    "buyingGuidance": "A great fit for calm reef keepers who want a subtle, detail-rich wrasse instead of a speedster. The ideal home is peaceful and cover-heavy, because the fish is easy to lose visually when tankmates are too boisterous.",
+    "recognitionNotes": "Look for a petite wrasse with quick dashes around rockwork and tight turns near cover."
   },
   {
     "id": "timor-wrasse",
@@ -2372,7 +2372,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A covered tank is part of the normal wrasse plan, not a nice extra."
     ],
     "photoTitle": "Timor Wrasse",
@@ -2400,10 +2400,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Active wrasse profile with strong movement and a need for a covered tank. A covered tank and steady feeding routine are the normal plan.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
+    "behavior": "Active daytime hunter that works rock, sand, and crevices looking for small prey, then dives into sand to sleep or hide when the lights drop. A secure cover and a usable sand bed are part of the basic setup, not optional extras.",
+    "feedingNotes": "A mixed meaty routine usually works well here: quality small pellets, mysis, brine, and other appropriately sized frozen foods. These wrasses are opportunistic hunters, so steady feeding plus natural foraging room around rock and sand keeps them looking fuller and more relaxed.",
+    "buyingGuidance": "Excellent when the aquarist wants an active pest-picking wrasse and already has both a lid and a usable sand bed. The right match is the keeper who values daily movement and utility, not someone trying to force a sand-sleeping wrasse into a bare-bottom compromise.",
+    "recognitionNotes": "Look for a slim active swimmer with quick turns and constant movement around rock and open water."
   },
   {
     "id": "yellow-banded-possum-wrasse",
@@ -2433,7 +2433,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A covered tank and calmer tankmates usually suit the smaller wrasses best."
     ],
     "photoTitle": "Yellow Banded Possum Wrasse",
@@ -2461,10 +2461,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Small rockwork-oriented wrasse that adds motion without becoming the tank bully. A covered tank and calmer tankmates usually fit best.",
-    "behavior": "Expect quick movement in and out of the rockwork rather than a heavy-bodied presence.",
-    "feedingNotes": "Small meaty foods and a steady routine are usually enough once the fish settles in.",
-    "buyingGuidance": "A good sale for covered reefs that need motion without another oversized fish dominating the layout.",
-    "recognitionNotes": "Look for the smaller frame and tight rockwork turns rather than the heavier body of the larger wrasses."
+    "behavior": "Tiny rockwork-hovering wrasse that favors careful creeping movement through caves, ledges, and branching structure over dramatic open-water laps. It is easy to miss in a rough community, but wonderfully detailed in a calm tank where it feels safe enough to stay visible.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders, but their best color and activity usually come from consistency more than from oversized single feedings.",
+    "buyingGuidance": "A great fit for calm reef keepers who want a subtle, detail-rich wrasse instead of a speedster. The ideal home is peaceful and cover-heavy, because the fish is easy to lose visually when tankmates are too boisterous.",
+    "recognitionNotes": "Look for a petite wrasse with quick dashes around rockwork and tight turns near cover."
   },
   {
     "id": "yellowfin-flasher-wrasse",
@@ -2494,7 +2494,7 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     "overview_es": "",
     "facts": [
       "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
+      "Best results come from a stable system and a aquarist who already has a routine.",
       "A tight lid is basic equipment with active display wrasses like these."
     ],
     "photoTitle": "Yellowfin Flasher Wrasse",
@@ -2522,10 +2522,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Colorful open-water wrasse that shines in covered, peaceful reef systems. A covered reef is usually the right long-term home.",
-    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork.",
-    "feedingNotes": "Small frequent feedings and a clean protein-forward routine usually bring out the best color and response.",
-    "buyingGuidance": "A strong reef sale when the buyer has a lid and wants motion and color without stepping into full predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Open-water display wrasse that spends much of the day flashing through the upper half of the reef and reacting to movement around it. These fish are beautiful because they stay in view, but that same energy makes a secure lid mandatory and makes 30+ gal feel much better when the tank also has true horizontal swimming room.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 30+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "cleaner-wrasse",
@@ -2591,15 +2591,15 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "cautionWith": [
       "Tankmates that do not match its adult size or activity level",
-      "Immature tanks or buyers without a long-term care plan",
+      "Immature tanks or aquarists without a long-term care plan",
       "Systems smaller than 30+ gal"
     ],
     "staffNote": "",
     "headerSummary": "The original cleaner fish. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the streamlined profile and purposeful interest in larger fish."
+    "behavior": "Behavior is built around interaction with other fish rather than nonstop grazing or cruising. Cleaner wrasses can be fascinating to watch, but that same specialization is exactly why they need a thoughtful, species-specific husbandry conversation before being treated like an ordinary community wrasse.",
+    "feedingNotes": "Specialized feeding response is the whole conversation here. Confirm the individual is eating prepared foods convincingly before treating it as a normal community fish, because many cleaner wrasses fail when the tank cannot support their natural grazing role.",
+    "buyingGuidance": "This is a specialized choice, not a default wrasse recommendation. Prepared-food success and long-term feeding realism should drive the decision far more than the novelty of watching cleaning behavior in the first week.",
+    "recognitionNotes": "Look for a slim wrasse profile and a purposeful swimming style around larger fish."
   },
   {
     "id": "scott-fairy-wrasse",
@@ -2669,10 +2669,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Hardy green fairy wrasse for beginners. Plan on roughly 55+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Constantly visible midwater wrasse that patrols above the rockwork and then darts back to cover when startled. Fairy wrasses are usually at their best in peaceful covered reefs where they can stay out front instead of being pinned into hiding by rougher tankmates.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 55+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "flasher-wrasse-filamented",
@@ -2742,10 +2742,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Tiny flasher wrasse with dramatic fin extensions. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the slimmer profile and ornamental finnage that stand out most when the fish is displaying."
+    "behavior": "Open-water display wrasse that spends much of the day flashing through the upper half of the reef and reacting to movement around it. These fish are beautiful because they stay in view, but that same energy makes a secure lid mandatory and makes 30+ gal feel much better when the tank also has true horizontal swimming room.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. These active display wrasses hold condition better when fed consistently, and flasher types in particular usually look best with smaller feedings spread through the day rather than one big evening meal.",
+    "buyingGuidance": "A strong choice when the aquarist wants visible motion and color in a covered peaceful reef. The key questions are lid security, tankmate pressure, and whether 30+ gal is being treated as a genuine long-term home instead of a temporary stop for a fish that will spend all day using the upper water column.",
+    "recognitionNotes": "Look for a slim wrasse body, strong iridescence, and flowing dorsal or tail accents."
   },
   {
     "id": "halichoeres-wrasse",
@@ -2815,9 +2815,9 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Bright yellow wrasse that hunts flatworms. Plan on roughly 50+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
+    "behavior": "Active daytime hunter that works rock, sand, and crevices looking for small prey, then dives into sand to sleep or hide when the lights drop. A secure cover and a usable sand bed are part of the basic setup, not optional extras.",
+    "feedingNotes": "A mixed meaty routine usually works well here: quality small pellets, mysis, brine, and other appropriately sized frozen foods. These wrasses are opportunistic hunters, so steady feeding plus natural foraging room around rock and sand keeps them looking fuller and more relaxed.",
+    "buyingGuidance": "Excellent when the aquarist wants an active pest-picking wrasse and already has both a lid and a usable sand bed. The right match is the keeper who values daily movement and utility, not someone trying to force a sand-sleeping wrasse into a bare-bottom compromise.",
     "recognitionNotes": "Look for the slimmer body, active swimming style, and quick darting movement common to wrasses."
   },
   {
@@ -2889,10 +2889,10 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Spectacular wrasse relative with blue tusks. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the heavy jaws, visible teeth, and broader body that separate it from the slimmer reef wrasses."
+    "behavior": "These wrasses are built for constant movement and color display in open water above the rockwork. A covered reef with sensible tankmates usually makes the difference between a wrasse that stays visible and one that spends the day launching into the lid or hiding.",
+    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders, but their best color and activity usually come from consistency more than from oversized single feedings.",
+    "buyingGuidance": "Great display fish for movement and color, but the aquarist should be ready for an active swimmer and a covered tank. The lid matters as much as the fish: many wrasses read as easy until the first surprise jump.",
+    "recognitionNotes": "Look for a thick-bodied wrasse with oversized teeth and bold striping or patchwork color."
   },
   {
     "id": "green-bird-wrasse",
@@ -2963,9 +2963,9 @@ window.LTC_SPECIES_CHUNKS["Wrasses"] = [
     ],
     "staffNote": "",
     "headerSummary": "Elongated-snout wrasse that hunts crustaceans. Plan on roughly 100+ gal or larger long term.",
-    "behavior": "Active daytime swimmer with fast stop-start movement and a strong tendency to investigate every inch of the rockwork. Most wrasses appreciate a secure lid, and many settle best when the tank gives them room to cruise without constant pressure from more aggressive fish.",
-    "feedingNotes": "Use a protein-forward omnivore routine with quality small pellets and rotating frozen foods. Many wrasses are enthusiastic feeders once settled, but newer arrivals often respond best to a mix of prepared food and frequent smaller offerings.",
-    "buyingGuidance": "Great display fish for movement and color, but the buyer should be ready for an active swimmer and a covered tank. This is usually a good sale when the owner already keeps a stable reef and wants more motion without stepping into true predator territory.",
-    "recognitionNotes": "Look for the longer body, stronger jaws, and faster open-water laps that mark the bigger wrasse types."
+    "behavior": "Fast, visible wrasse profile with more size, speed, and habitat impact than the smaller reef-safe display species. Many of these wrasses use sand for sleeping or stress relief, stay in constant motion, and eventually demand a roomier tank with a well-secured aquascape.",
+    "feedingNotes": "Feed enough to support a genuinely active carnivorous hunter, not just enough to trigger a single flashy strike. Meaty frozen foods, quality pellets, and a consistent routine are more important than novelty feeding, especially as the larger species mature.",
+    "buyingGuidance": "Recommend after checking adult size, invertebrate plans, and whether the system is really built for a larger, faster, often rougher wrasse profile. These fish are easy to admire as juveniles and much harder to house well once the full adult behavior shows up.",
+    "recognitionNotes": "Look for a long active wrasse body with strong cruising speed and broader jaws."
   }
 ];

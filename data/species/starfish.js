@@ -1,4 +1,3 @@
-window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Starfish"] = [
   {
     "id": "sand-sifting-star",
@@ -23,12 +22,12 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "invertRisk": 8,
     "careDifficulty": 34,
     "role": "Sand bed cleaner that processes and aerates substrate",
-    "visualCue": "Flat five-armed star shape in tan to white color. Burrows through and under the sand.",
-    "overview": "A sand bed utility animal that sifts through substrate eating detritus and small organisms. Effective at keeping sand clean but can strip a sand bed of beneficial fauna in smaller tanks.",
+    "visualCue": "Starfish usually seen working within or just under the sand bed.",
+    "overview": "A sand-bed specialist that constantly works through the substrate hunting microfauna. Useful in the right mature sand bed, but far too often added to tanks that simply cannot feed it long term.",
     "facts": [
-      "Very effective at processing dirty sand beds.",
-      "Can starve in small tanks after consuming all available food.",
-      "Burrows under the sand — sometimes invisible for days."
+      "Consumes life in the sand bed rather than just “cleaning” it in a harmless abstract way.",
+      "Needs a mature, sufficiently large substrate to avoid long-term starvation.",
+      "Poor fit for bare-bottom tanks or new reefs with thin decorative sand only."
     ],
     "bestWith": [
       "Large tanks with deep sand beds",
@@ -56,8 +55,12 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "role_es": "Limpiador de arena que procesa y airea el sustrato",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Sand bed cleaner that processes and aerates substrate. Look for flat five-armed star shape in tan to white color. Burrows through and under the sand. Plan on at least 40+ gal.",
-    "seasonal": null
+    "headerSummary": "Sand-bed specialist that needs a truly mature substrate and often starves in undersized or overly clean tanks. Buy for the right habitat, not for the star shape.",
+    "seasonal": null,
+    "behavior": "Spends most of its life under or on the substrate methodically processing sand in search of edible organisms. It looks industrious, but that visible work also means it is consuming the very fauna the sand bed needs to stay rich.",
+    "feedingNotes": "Long-term success depends on a mature sand bed with enough life to support it. Many tanks cannot replace that food base fast enough once the starfish is established.",
+    "buyingGuidance": "Recommend only when the aquarium has a genuinely mature, roomy sand bed and the owner understands what the animal is actually eating. This is not a safe default cleanup star for every reef.",
+    "recognitionNotes": "Usually seen partially buried or plowing just under the sand surface rather than climbing rockwork like decorative stars."
   },
   {
     "id": "banded-serpent-star",
@@ -83,12 +86,12 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "careDifficulty": 18,
     "role": "Hardy serpent star that spends the day hidden and the evening scavenging for leftovers",
     "role_es": "Estrella quebradiza resistente para equipo de limpieza",
-    "overview": "One of the better star-type sales for normal reef keepers because it is hardy, useful, and not nearly as fragile as linckias. It sells best when the buyer likes hidden scavengers and nighttime activity.",
+    "overview": "Hardy scavenging echinoderm that hides in rock by day and reaches out for food at feeding time. One of the more forgiving star-shaped inverts in the hobby when kept away from outright predators.",
     "overview_es": "Una estrella quebradiza resistente y segura para arrecife con atractivas bandas marrones y crema en los brazos.",
     "facts": [
-      "Usually reaches out from a cave when food hits the tank.",
-      "Much hardier than decorative reef stars like linckias.",
-      "Needs rock crevices and moderate meaty leftovers or target feeding."
+      "Usually spends much of the day hidden, showing arms from caves or crevices.",
+      "Excellent scavenger of leftover meaty foods and detritus.",
+      "Much hardier and less specialized than the delicate reef stars like Linckia or Fromia."
     ],
     "photoTitle": "Ophioderma appressum",
     "inStock": false,
@@ -103,19 +106,23 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "long thin flexible arms with banding and a small central disk hidden under rock.",
+    "visualCue": "Very long flexible arms often protruding from caves with the body hidden.",
     "bestWith": [
       "Mixed reefs with caves",
-      "Customers wanting a durable star-type invert",
+      "aquarists wanting a durable star-type invert",
       "Cleanup crews for leftover foods"
     ],
     "cautionWith": [
       "Tiny tanks with nowhere to hide",
-      "Buyers expecting a bright daytime centerpiece",
+      "aquarists expecting a bright daytime centerpiece",
       "Very aggressive predators"
     ],
-    "staffNote": "Great practical star sale. Much safer than a delicate linckia for average hobbyists.",
-    "headerSummary": "Hardy serpent star that spends the day hidden and the evening scavenging for leftovers. Look for long thin flexible arms with banding and a small central disk hidden under rock. Plan on at least 30+ gal."
+    "staffNote": "Great practical star pick. Much safer than a delicate linckia for average hobbyists.",
+    "headerSummary": "Hardy cave-dwelling scavenger star with long flexible arms and easy-care utility. Great oddball worker for stable reef or fish-only systems.",
+    "behavior": "Typically hides the disk deep in rock and extends the arms to sense food, then becomes surprisingly quick when a feeding event begins. This secretive-to-suddenly-active pattern is exactly what makes serpent stars so fun to keep.",
+    "feedingNotes": "Benefits from meaty leftovers, pellets, and occasional target feeding in cleaner systems. They scavenge well, but they are still living animals that do better when not expected to survive on magic detritus alone.",
+    "buyingGuidance": "A very good recommendation when the aquarist wants an unusual but fairly durable scavenger. Just verify tankmates are not the sort that will chew on echinoderm arms.",
+    "recognitionNotes": "Long flexible arms emerging from rock crevices, often with the central disk hidden from view."
   },
   {
     "id": "blue-linckia-starfish",
@@ -139,14 +146,14 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "coralRisk": 2,
     "invertRisk": 0,
     "careDifficulty": 82,
-    "role": "Delicate decorative sea star that should only be sold into large mature systems with real biofilm resources",
+    "role": "Delicate decorative sea star that belongs only in large mature systems with real biofilm resources",
     "role_es": "",
-    "overview": "These stars are beautiful, but they are shipping-sensitive and far less forgiving than casual buyers think. The right sale is an experienced reefer with a large mature tank, not someone filling out a cleanup crew list.",
+    "overview": "Classic showpiece Linckia star prized for color and graceful movement, but notorious for needing a large mature stable reef to do well. Beautiful animal, poor choice for young tanks or impulse “reef centerpiece” buys.",
     "overview_es": "",
     "facts": [
-      "Often decline slowly in immature tanks even when parameters look fine on paper.",
-      "Need mature rockwork and long-term stability more than they need a huge feeding event.",
-      "Acclimation and handling matter because they are sensitive to sudden changes."
+      "Requires mature stable systems with substantial natural grazing surfaces.",
+      "Shipping and acclimation stress often make Linckia stars more difficult than they appear in a store.",
+      "Chosen for beauty, not because they are easy or broadly useful."
     ],
     "photoTitle": "Linckia laevigata",
     "inStock": false,
@@ -161,7 +168,7 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Expert",
-    "visualCue": "bright blue body with smooth arms and a classic clean sea-star silhouette.",
+    "visualCue": "Smooth long-armed starfish with striking solid coloration.",
     "bestWith": [
       "Large mature established reefs",
       "Experienced hobbyists",
@@ -169,11 +176,15 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     ],
     "cautionWith": [
       "New tanks or recently reworked systems",
-      "Impulse purchases based on color alone",
-      "Customers treating it like a hardy cleanup animal"
+      "unplanned additions based on color alone",
+      "aquarists treating it like a hardy cleanup animal"
     ],
-    "staffNote": "Beautiful but high-risk. Make sure the buyer really has the kind of tank these need.",
-    "headerSummary": "Delicate decorative sea star that should only be sold into large mature systems with real biofilm resources. Look for bright blue body with smooth arms and a classic clean sea-star silhouette. Plan on at least 100+ gal."
+    "staffNote": "Beautiful but high-risk. Make sure the aquarist really has the kind of tank these need.",
+    "headerSummary": "Showpiece Linckia star with incredible color and equally real husbandry difficulty. Best reserved for established reefs and patient experienced keepers.",
+    "behavior": "Usually glides slowly over rock and glass in a very elegant way, but apparent calm should not be mistaken for durability. Many problems are invisible until the animal has already been stressed for too long.",
+    "feedingNotes": "Relies heavily on mature grazing surfaces and stable conditions more than on obvious hand-feeding success. A large old reef is a much better safety margin than a new polished display.",
+    "buyingGuidance": "Recommend sparingly and only when the owner already understands what makes Linckias difficult. This is one of the easiest starfish to admire and one of the easiest to oversell.",
+    "recognitionNotes": "Long smooth arms and vivid solid color with a graceful classic Linckia shape."
   },
   {
     "id": "brittle-star",
@@ -199,12 +210,12 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "careDifficulty": 18,
     "role": "Hardy scavenging star relative that hides in rockwork and helps pick through leftovers",
     "role_es": "",
-    "overview": "A good practical oddball for customers who want movement after lights-out and something tougher than delicate decorative sea stars. These are about scavenging and character, not daytime color.",
+    "overview": "Hardy scavenging echinoderm that hides in rock by day and reaches out for food at feeding time. One of the more forgiving star-shaped inverts in the hobby when kept away from outright predators.",
     "overview_es": "",
     "facts": [
-      "Usually remains tucked in rockwork during the day.",
-      "Responds quickly to meaty foods and leftover feeding.",
-      "Hardier than linckias and fromias for average keepers."
+      "Usually spends much of the day hidden, showing arms from caves or crevices.",
+      "Excellent scavenger of leftover meaty foods and detritus.",
+      "Much hardier and less specialized than the delicate reef stars like Linckia or Fromia."
     ],
     "photoTitle": "Ophiocoma",
     "inStock": false,
@@ -219,19 +230,23 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "small central disk with long whiplike arms that snake through crevices at feeding time.",
+    "visualCue": "Very long flexible arms often protruding from caves with the body hidden.",
     "bestWith": [
       "Rocky reef layouts",
       "Mixed reefs needing scavengers",
-      "Customers comfortable with nocturnal behavior"
+      "aquarists comfortable with nocturnal behavior"
     ],
     "cautionWith": [
       "Expecting a bright visible show star all day",
       "Tiny systems with minimal rock cover",
       "Very aggressive fish that harass star arms"
     ],
-    "staffNote": "An easy honest star-type recommendation when the buyer likes hidden cleanup behavior.",
-    "headerSummary": "Hardy scavenging star relative that hides in rockwork and helps pick through leftovers. Look for small central disk with long whiplike arms that snake through crevices at feeding time. Plan on at least 30+ gal."
+    "staffNote": "An easy honest star-type recommendation when the aquarist likes hidden cleanup behavior.",
+    "headerSummary": "Hardy cave-dwelling scavenger star with long flexible arms and easy-care utility. Great oddball worker for stable reef or fish-only systems.",
+    "behavior": "Typically hides the disk deep in rock and extends the arms to sense food, then becomes surprisingly quick when a feeding event begins. This secretive-to-suddenly-active pattern is exactly what makes serpent stars so fun to keep.",
+    "feedingNotes": "Benefits from meaty leftovers, pellets, and occasional target feeding in cleaner systems. They scavenge well, but they are still living animals that do better when not expected to survive on magic detritus alone.",
+    "buyingGuidance": "A very good recommendation when the aquarist wants an unusual but fairly durable scavenger. Just verify tankmates are not the sort that will chew on echinoderm arms.",
+    "recognitionNotes": "Long flexible arms emerging from rock crevices, often with the central disk hidden from view."
   },
   {
     "id": "chocolate-chip-starfish",
@@ -257,12 +272,12 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "careDifficulty": 22,
     "role": "Bold decorative sea star for fish-only and cautious non-reef systems, not for coral gardens",
     "role_es": "",
-    "overview": "Very saleable because the look is iconic, but this one needs blunt honesty: it is not reef safe with decorative corals and sessile inverts. Great in the right fish-only display, bad surprise in the wrong reef.",
+    "overview": "A durable showy sea star for fish-only or carefully planned systems, but not a reef-safe decorative star for coral tanks. The big raised knobs make it iconic; the appetite for sessile invertebrates makes it risky.",
     "overview_es": "",
     "facts": [
-      "Will eat or damage many corals, sponges, and other sessile inverts.",
-      "Hardier than many decorative reef-safe stars.",
-      "Best sold for fish-only or non-delicate displays."
+      "Frequently sold because it is hardy and attractive, not because it is reef-safe.",
+      "May prey on soft corals, anemones, and other sessile invertebrates.",
+      "Better suited to fish-only or species-appropriate displays than to mixed coral reefs."
     ],
     "photoTitle": "Protoreaster nodosus",
     "inStock": false,
@@ -277,19 +292,23 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "tan to cream star body with large dark cone-like nodules that look like chocolate chips.",
+    "visualCue": "Sea star with thick body and large raised dark knobs.",
     "bestWith": [
       "Fish-only systems",
       "Large open-bottom displays",
-      "Customers who want a bold daytime star"
+      "aquarists who want a bold daytime star"
     ],
     "cautionWith": [
       "Mixed coral reefs",
       "Delicate sessile inverts",
-      "Buyers assuming every starfish is reef safe"
+      "aquarists assuming every starfish is reef safe"
     ],
     "staffNote": "Strong visual seller, but the reef-safe conversation has to be direct.",
-    "headerSummary": "Bold decorative sea star for fish-only and cautious non-reef systems, not for coral gardens. Look for tan to cream star body with large dark cone-like nodules that look like chocolate chips. Plan on at least 75+ gal."
+    "headerSummary": "Iconic knobby sea star with strong display value and poor reef compatibility. Great fish-only oddball, bad coral-tank assumption.",
+    "behavior": "Usually moves slowly over rock and substrate in a very visible, display-oriented way. Its problem is not activity level—it is that the things it may decide to eat are often exactly the reason people built the reef in the first place.",
+    "feedingNotes": "Needs meaty foods and a system appropriate for a predatory or opportunistic starfish. Do not treat it like a harmless detritus processor.",
+    "buyingGuidance": "Recommend only when the owner is not expecting coral safety. This is one of those species that is easy to sell wrong if the conversation stops at “hardy and cool-looking.”",
+    "recognitionNotes": "Thick body with prominent chocolate-chip-like knobs across the upper surface."
   },
   {
     "id": "fromia-starfish",
@@ -315,12 +334,12 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "careDifficulty": 68,
     "role": "More manageable than linckia stars but still a mature-tank decorative sea star, not a beginner cleanup item",
     "role_es": "",
-    "overview": "Fromias are often a better decorative star choice than linckias, but they are still not casual starter animals. They belong with buyers who already keep mature stable reefs and understand starfish attrition risk.",
+    "overview": "Beautiful reef star best suited to mature stable systems where the rockwork can provide ongoing grazing opportunities. Fromia stars are far more delicate than hardy scavenging serpent stars, so they should be sold as advanced ornamental echinoderms, not cleanup crew.",
     "overview_es": "",
     "facts": [
-      "Usually hardier than linckia species, but still sensitive compared with serpent and brittle stars.",
-      "Need mature hard surfaces with natural films to browse.",
-      "Do best in older stable systems with careful acclimation."
+      "Depend heavily on mature biofilm-rich rockwork and system stability.",
+      "Often fail in new or overly sterile tanks despite looking fine at purchase.",
+      "Much better chosen for established reefs than for “complete my cleanup crew” shopping lists."
     ],
     "photoTitle": "Fromia milleporella",
     "inStock": false,
@@ -335,19 +354,23 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Expert",
-    "visualCue": "small patterned reef star with a clean symmetrical look and slow deliberate movement over rock.",
+    "visualCue": "Smooth colorful sea star with a refined clean body shape.",
     "bestWith": [
       "Established reef displays",
-      "Experienced customers wanting a decorative star",
+      "Experienced aquarists wanting a decorative star",
       "Systems with stable long-term parameters"
     ],
     "cautionWith": [
       "Immature tanks",
-      "Impulse decorative purchases",
+      "purely decorative add-ons without a husbandry plan",
       "Expecting it to behave like a heavy scavenger"
     ],
-    "staffNote": "Safer than a linckia does not mean easy. Make sure the buyer knows that.",
-    "headerSummary": "More manageable than linckia stars but still a mature-tank decorative sea star, not a beginner cleanup item. Look for small patterned reef star with a clean symmetrical look and slow deliberate movement over rock. Plan on at least 60+ gal."
+    "staffNote": "Safer than a linckia does not mean easy. Make sure the aquarist knows that.",
+    "headerSummary": "Beautiful but delicate reef star that needs a mature stable system and natural grazing support. Advanced ornamental, not beginner cleanup crew.",
+    "behavior": "Usually roams rock and glass slowly, grazing unseen films rather than scavenging obvious chunks of food. The tank’s maturity matters more here than dramatic feeding response or visible activity.",
+    "feedingNotes": "Success depends more on mature live rock and stable conditions than on target feeding alone. A beautiful Fromia in a new sterile tank is usually a countdown, not a win.",
+    "buyingGuidance": "Recommend only for mature stable reefs where the owner understands that elegance and difficulty often come together in echinoderms. This is not a good “first starfish” for most hobbyists.",
+    "recognitionNotes": "Smooth more refined sea-star form with vivid solid coloration rather than heavy knobs or hairy spines."
   },
   {
     "id": "green-brittle-star",
@@ -373,12 +396,12 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "careDifficulty": 32,
     "role": "Large dramatic brittle star better treated as a semi-predatory oddball than a harmless cleanup helper",
     "role_es": "",
-    "overview": "A classic oddball, but not one to undersell. Bigger green brittles can become very opportunistic, so the proper buyer is someone who wants the animal itself and has tankmates sized accordingly.",
+    "overview": "A larger, more predatory brittle-star type that should be treated with more caution than the usual reef-safe serpent stars. Impressive scavenger, but not the best choice for tanks full of tiny fish or delicate nocturnal livestock.",
     "overview_es": "",
     "facts": [
-      "Much bolder and more predatory than smaller serpent or brittle stars.",
-      "Excellent scavenger, but capable of grabbing weak or tiny tankmates.",
-      "Needs caves and room to spread its arms safely."
+      "Often grows larger and behaves more assertively than typical serpent stars.",
+      "Can act as an opportunistic predator rather than a harmless scavenger under the wrong conditions.",
+      "Best in systems where the stocking plan respects that size and feeding style."
     ],
     "photoTitle": "Ophiarachna incrassata",
     "inStock": false,
@@ -393,19 +416,23 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "thick greenish arms with a larger central disk and a much heavier look than common serpent stars.",
+    "visualCue": "Robust green-toned brittle star with thicker arms and larger presence.",
     "bestWith": [
       "Larger fishy reef or FOWLR systems",
       "Oddball collectors",
-      "Customers comfortable with opportunistic behavior"
+      "aquarists comfortable with opportunistic behavior"
     ],
     "cautionWith": [
       "Tiny gobies and delicate nano fish",
       "Crowded mixed invert displays",
       "Calling it harmless just because it is a star"
     ],
-    "staffNote": "Very cool, but sell it like the opportunistic animal it is.",
-    "headerSummary": "Large dramatic brittle star better treated as a semi-predatory oddball than a harmless cleanup helper. Look for thick greenish arms with a larger central disk and a much heavier look than common serpent stars. Plan on at least 75+ gal."
+    "staffNote": "Very cool, but treat it like the opportunistic animal it is.",
+    "headerSummary": "Big assertive brittle star with strong scavenging ability and a real predator warning. Better for experienced keepers than for beginner reef cleanup lists.",
+    "behavior": "Usually hides like other brittle stars, but once large and confident it can become much more assertive at feeding time. That extra boldness is the whole reason it deserves its own caution label.",
+    "feedingNotes": "Needs regular meaty feeding support so it is not improvising by testing weaker tankmates. A well-fed green brittle star is still not identical to a gentle little serpent star.",
+    "buyingGuidance": "Recommend carefully and only when the tankmates and owner expectations truly fit. This is an impressive oddball scavenger/predator, not a universally safe reef helper.",
+    "recognitionNotes": "Thicker green-toned arms and a more robust, imposing look than the gentler serpent-star types."
   },
   {
     "id": "orange-linckia-starfish",
@@ -429,14 +456,14 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "coralRisk": 2,
     "invertRisk": 0,
     "careDifficulty": 82,
-    "role": "Delicate decorative sea star that should only be sold into large mature systems with real biofilm resources",
+    "role": "Delicate decorative sea star that belongs only in large mature systems with real biofilm resources",
     "role_es": "",
-    "overview": "These stars are beautiful, but they are shipping-sensitive and far less forgiving than casual buyers think. The right sale is an experienced reefer with a large mature tank, not someone filling out a cleanup crew list.",
+    "overview": "Classic showpiece Linckia star prized for color and graceful movement, but notorious for needing a large mature stable reef to do well. Beautiful animal, poor choice for young tanks or impulse “reef centerpiece” buys.",
     "overview_es": "",
     "facts": [
-      "Often decline slowly in immature tanks even when parameters look fine on paper.",
-      "Need mature rockwork and long-term stability more than they need a huge feeding event.",
-      "Acclimation and handling matter because they are sensitive to sudden changes."
+      "Requires mature stable systems with substantial natural grazing surfaces.",
+      "Shipping and acclimation stress often make Linckia stars more difficult than they appear in a store.",
+      "Chosen for beauty, not because they are easy or broadly useful."
     ],
     "photoTitle": "Linckia multifora",
     "inStock": false,
@@ -451,7 +478,7 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Expert",
-    "visualCue": "orange to orange-red body with smooth arms and a classic clean sea-star silhouette.",
+    "visualCue": "Smooth long-armed starfish with striking solid coloration.",
     "bestWith": [
       "Large mature established reefs",
       "Experienced hobbyists",
@@ -459,11 +486,15 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     ],
     "cautionWith": [
       "New tanks or recently reworked systems",
-      "Impulse purchases based on color alone",
-      "Customers treating it like a hardy cleanup animal"
+      "unplanned additions based on color alone",
+      "aquarists treating it like a hardy cleanup animal"
     ],
-    "staffNote": "Beautiful but high-risk. Make sure the buyer really has the kind of tank these need.",
-    "headerSummary": "Delicate decorative sea star that should only be sold into large mature systems with real biofilm resources. Look for orange to orange-red body with smooth arms and a classic clean sea-star silhouette. Plan on at least 100+ gal."
+    "staffNote": "Beautiful but high-risk. Make sure the aquarist really has the kind of tank these need.",
+    "headerSummary": "Showpiece Linckia star with incredible color and equally real husbandry difficulty. Best reserved for established reefs and patient experienced keepers.",
+    "behavior": "Usually glides slowly over rock and glass in a very elegant way, but apparent calm should not be mistaken for durability. Many problems are invisible until the animal has already been stressed for too long.",
+    "feedingNotes": "Relies heavily on mature grazing surfaces and stable conditions more than on obvious hand-feeding success. A large old reef is a much better safety margin than a new polished display.",
+    "buyingGuidance": "Recommend sparingly and only when the owner already understands what makes Linckias difficult. This is one of the easiest starfish to admire and one of the easiest to oversell.",
+    "recognitionNotes": "Long smooth arms and vivid solid color with a graceful classic Linckia shape."
   },
   {
     "id": "red-fromia-starfish",
@@ -489,12 +520,12 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "careDifficulty": 68,
     "role": "More manageable than linckia stars but still a mature-tank decorative sea star, not a beginner cleanup item",
     "role_es": "",
-    "overview": "Fromias are often a better decorative star choice than linckias, but they are still not casual starter animals. They belong with buyers who already keep mature stable reefs and understand starfish attrition risk.",
+    "overview": "Beautiful reef star best suited to mature stable systems where the rockwork can provide ongoing grazing opportunities. Fromia stars are far more delicate than hardy scavenging serpent stars, so they should be sold as advanced ornamental echinoderms, not cleanup crew.",
     "overview_es": "",
     "facts": [
-      "Usually hardier than linckia species, but still sensitive compared with serpent and brittle stars.",
-      "Need mature hard surfaces with natural films to browse.",
-      "Do best in older stable systems with careful acclimation."
+      "Depend heavily on mature biofilm-rich rockwork and system stability.",
+      "Often fail in new or overly sterile tanks despite looking fine at purchase.",
+      "Much better chosen for established reefs than for “complete my cleanup crew” shopping lists."
     ],
     "photoTitle": "Fromia milleporella",
     "inStock": false,
@@ -509,19 +540,23 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Expert",
-    "visualCue": "small patterned reef star with a clean symmetrical look and slow deliberate movement over rock.",
+    "visualCue": "Smooth colorful sea star with a refined clean body shape.",
     "bestWith": [
       "Established reef displays",
-      "Experienced customers wanting a decorative star",
+      "Experienced aquarists wanting a decorative star",
       "Systems with stable long-term parameters"
     ],
     "cautionWith": [
       "Immature tanks",
-      "Impulse decorative purchases",
+      "purely decorative add-ons without a husbandry plan",
       "Expecting it to behave like a heavy scavenger"
     ],
-    "staffNote": "Safer than a linckia does not mean easy. Make sure the buyer knows that.",
-    "headerSummary": "More manageable than linckia stars but still a mature-tank decorative sea star, not a beginner cleanup item. Look for small patterned reef star with a clean symmetrical look and slow deliberate movement over rock. Plan on at least 60+ gal."
+    "staffNote": "Safer than a linckia does not mean easy. Make sure the aquarist knows that.",
+    "headerSummary": "Beautiful but delicate reef star that needs a mature stable system and natural grazing support. Advanced ornamental, not beginner cleanup crew.",
+    "behavior": "Usually roams rock and glass slowly, grazing unseen films rather than scavenging obvious chunks of food. The tank’s maturity matters more here than dramatic feeding response or visible activity.",
+    "feedingNotes": "Success depends more on mature live rock and stable conditions than on target feeding alone. A beautiful Fromia in a new sterile tank is usually a countdown, not a win.",
+    "buyingGuidance": "Recommend only for mature stable reefs where the owner understands that elegance and difficulty often come together in echinoderms. This is not a good “first starfish” for most hobbyists.",
+    "recognitionNotes": "Smooth more refined sea-star form with vivid solid coloration rather than heavy knobs or hairy spines."
   },
   {
     "id": "red-linckia-starfish",
@@ -545,14 +580,14 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "coralRisk": 2,
     "invertRisk": 0,
     "careDifficulty": 82,
-    "role": "Delicate decorative sea star that should only be sold into large mature systems with real biofilm resources",
+    "role": "Delicate decorative sea star that belongs only in large mature systems with real biofilm resources",
     "role_es": "",
-    "overview": "These stars are beautiful, but they are shipping-sensitive and far less forgiving than casual buyers think. The right sale is an experienced reefer with a large mature tank, not someone filling out a cleanup crew list.",
+    "overview": "Classic showpiece Linckia star prized for color and graceful movement, but notorious for needing a large mature stable reef to do well. Beautiful animal, poor choice for young tanks or impulse “reef centerpiece” buys.",
     "overview_es": "",
     "facts": [
-      "Often decline slowly in immature tanks even when parameters look fine on paper.",
-      "Need mature rockwork and long-term stability more than they need a huge feeding event.",
-      "Acclimation and handling matter because they are sensitive to sudden changes."
+      "Requires mature stable systems with substantial natural grazing surfaces.",
+      "Shipping and acclimation stress often make Linckia stars more difficult than they appear in a store.",
+      "Chosen for beauty, not because they are easy or broadly useful."
     ],
     "photoTitle": "Linckia sp.",
     "inStock": false,
@@ -567,7 +602,7 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Expert",
-    "visualCue": "red body with smooth arms and a classic clean sea-star silhouette.",
+    "visualCue": "Smooth long-armed starfish with striking solid coloration.",
     "bestWith": [
       "Large mature established reefs",
       "Experienced hobbyists",
@@ -575,11 +610,15 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     ],
     "cautionWith": [
       "New tanks or recently reworked systems",
-      "Impulse purchases based on color alone",
-      "Customers treating it like a hardy cleanup animal"
+      "unplanned additions based on color alone",
+      "aquarists treating it like a hardy cleanup animal"
     ],
-    "staffNote": "Beautiful but high-risk. Make sure the buyer really has the kind of tank these need.",
-    "headerSummary": "Delicate decorative sea star that should only be sold into large mature systems with real biofilm resources. Look for red body with smooth arms and a classic clean sea-star silhouette. Plan on at least 100+ gal."
+    "staffNote": "Beautiful but high-risk. Make sure the aquarist really has the kind of tank these need.",
+    "headerSummary": "Showpiece Linckia star with incredible color and equally real husbandry difficulty. Best reserved for established reefs and patient experienced keepers.",
+    "behavior": "Usually glides slowly over rock and glass in a very elegant way, but apparent calm should not be mistaken for durability. Many problems are invisible until the animal has already been stressed for too long.",
+    "feedingNotes": "Relies heavily on mature grazing surfaces and stable conditions more than on obvious hand-feeding success. A large old reef is a much better safety margin than a new polished display.",
+    "buyingGuidance": "Recommend sparingly and only when the owner already understands what makes Linckias difficult. This is one of the easiest starfish to admire and one of the easiest to oversell.",
+    "recognitionNotes": "Long smooth arms and vivid solid color with a graceful classic Linckia shape."
   },
   {
     "id": "serpent-star",
@@ -605,12 +644,12 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "careDifficulty": 18,
     "role": "Hardy nocturnal scavenger that is usually one of the safest star-type recommendations in the hobby",
     "role_es": "",
-    "overview": "A great bridge between weird and practical. Serpent stars are useful, hardy, and far easier to place successfully than decorative reef stars, which makes them an excellent honest recommendation.",
+    "overview": "Hardy scavenging echinoderm that hides in rock by day and reaches out for food at feeding time. One of the more forgiving star-shaped inverts in the hobby when kept away from outright predators.",
     "overview_es": "",
     "facts": [
-      "Usually hides during the day and scavenges actively at feeding time.",
-      "Hardier than linckia and fromia stars.",
-      "Needs some rock structure to settle comfortably."
+      "Usually spends much of the day hidden, showing arms from caves or crevices.",
+      "Excellent scavenger of leftover meaty foods and detritus.",
+      "Much hardier and less specialized than the delicate reef stars like Linckia or Fromia."
     ],
     "photoTitle": "Ophioderma",
     "inStock": false,
@@ -625,19 +664,23 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "slender flexible arms extending from rockwork whenever food hits the water.",
+    "visualCue": "Very long flexible arms often protruding from caves with the body hidden.",
     "bestWith": [
       "Mixed reefs with caves",
       "Cleanup crews that need a nocturnal scavenger",
-      "Customers wanting star behavior without expert care"
+      "aquarists wanting star behavior without expert care"
     ],
     "cautionWith": [
       "Expecting a bright visible daytime centerpiece",
       "Tiny bare systems with little cover",
       "Very aggressive predators"
     ],
-    "staffNote": "Easy star-type recommendation when the buyer likes scavengers and caves.",
-    "headerSummary": "Hardy nocturnal scavenger that is usually one of the safest star-type recommendations in the hobby. Look for slender flexible arms extending from rockwork whenever food hits the water. Plan on at least 30+ gal."
+    "staffNote": "Easy star-type recommendation when the aquarist likes scavengers and caves.",
+    "headerSummary": "Hardy cave-dwelling scavenger star with long flexible arms and easy-care utility. Great oddball worker for stable reef or fish-only systems.",
+    "behavior": "Typically hides the disk deep in rock and extends the arms to sense food, then becomes surprisingly quick when a feeding event begins. This secretive-to-suddenly-active pattern is exactly what makes serpent stars so fun to keep.",
+    "feedingNotes": "Benefits from meaty leftovers, pellets, and occasional target feeding in cleaner systems. They scavenge well, but they are still living animals that do better when not expected to survive on magic detritus alone.",
+    "buyingGuidance": "A very good recommendation when the aquarist wants an unusual but fairly durable scavenger. Just verify tankmates are not the sort that will chew on echinoderm arms.",
+    "recognitionNotes": "Long flexible arms emerging from rock crevices, often with the central disk hidden from view."
   },
   {
     "id": "pods-starter-culture",
@@ -663,12 +706,12 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "careDifficulty": 12,
     "role": "Live microfauna culture used to seed biodiversity and support pod-eating fish",
     "role_es": "",
-    "overview": "Live microfauna culture used to seed biodiversity, strengthen refugia, and support pod-eating fish.",
+    "overview": "Functional live-food starter culture meant to seed refugiums, support pod-dependent fish, and strengthen microfauna populations. This is a support product entry, not a decorative invert card.",
     "overview_es": "",
     "facts": [
-      "Works best when the system has rock, macroalgae, or refugium space to protect the population.",
-      "Predators can reduce visible pod numbers quickly in open displays.",
-      "Useful as a starter culture or periodic booster, not a decorative livestock piece."
+      "Useful for mandarins, dragonets, and refugium-based food webs.",
+      "Often best added to lower-predation zones or refugiums so the population can establish.",
+      "Value comes from reproduction and food-web support, not from visibility."
     ],
     "photoTitle": "Copepod",
     "inStock": false,
@@ -683,18 +726,22 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "tiny fast-moving specks scattered through algae, rock pores, and glass at night.",
+    "visualCue": "Live pod culture for seeding refugiums and supporting pod-dependent fish.",
     "bestWith": [
       "Mandarin-support systems",
       "Refugia",
-      "Customers building biodiversity"
+      "aquarists building biodiversity"
     ],
     "cautionWith": [
       "Expecting a visible permanent swarm in a predator display",
       "Sterile brand-new systems with no safe habitat",
       "Selling it as if it were a cleanup crab or snail"
     ],
-    "staffNote": "Good support product. Sell the function clearly.",
-    "headerSummary": "Live microfauna culture used to seed biodiversity and support pod-eating fish. Look for tiny fast-moving specks scattered through algae, rock pores, and glass at night. Plan on at least Any stable refugium or display with pod support."
+    "staffNote": "Good support product. Explain the functional role clearly so expectations stay grounded.",
+    "headerSummary": "Starter pod culture for food-web support and pod-dependent fish. A utility purchase for system function, not display aesthetics.",
+    "behavior": "As a live-food culture, the goal is establishment and reproduction rather than ornamental display behavior. In a predator-heavy display, many pods become food immediately unless there is refuge space.",
+    "feedingNotes": "Best used in systems with refugium space, microhabitat, and a reason to support a continuing pod population. Dumping pods into a hungry tank with nowhere to hide is usually just a feeding event.",
+    "buyingGuidance": "Recommend when the owner has a real need—mandarins, dragonets, refugium seeding, or biodiversity support. This is a system-function add, not a “maybe it helps” impulse purchase.",
+    "recognitionNotes": "Microscopic to tiny live culture intended to seed microfauna populations rather than display as a visible ornamental animal."
   }
 ];

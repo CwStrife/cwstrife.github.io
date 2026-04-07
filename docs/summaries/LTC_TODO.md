@@ -1,18 +1,19 @@
 # LTC Fish Browser — Priority To-Do
 
 ## High priority
-- Verify Inventory Manager full-card fish-photo backgrounds on the live deployed environment.
-- Check whether stronger button/gauge microinteractions are visible enough without being too much.
-- Keep simplifying the staff toolbar and dense inventory controls for non-technical store staff.
-- Keep building an obvious restore/recovery path for loss/sold actions.
+- Fix category / folder rail convenience and any wrap / double-row behavior.
+- Tighten fish popup layout and remove dead space.
+- Diagnose and restore or remove the broken popup video path.
+- Continue deeper source-backed fish refinement family by family, starting with wrasses, gobies/blennies, and angelfish for higher-end polish.
+- Simplify staff-side inventory UX for employees.
 
 ## Medium priority
-- Re-review fish detail information for accuracy and expand species information where useful.
-- Add more catalog entries later as the livestock database grows.
-- Document Shopify field mapping before sync work starts.
-- Consider a compact staff inventory list view for phones.
+- Keep improving useful motion on buttons / pills / tabs without constant shimmer.
+- Continue tangs, then wrasses, then gobies/blennies.
+- Add a compact staff inventory list view for smaller screens.
+- Plan receiving/restock shortcuts for faster employee workflows.
 
 ## Later / architectural
-- Merge desktop/mobile modal templates into one responsive template.
-- Split CSS/JS monoliths into cleaner modules.
-- Add more durable multi-device persistence beyond browser local storage.
+- Define backend field ownership and Shopify/POS sync rules.
+- Add shared persistence beyond browser local storage.
+- Move image/media ownership to backend storage when that layer exists.

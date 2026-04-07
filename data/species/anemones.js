@@ -41,7 +41,7 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
       "Tanks with prized corals that could be stung",
       "Powerheads without guards — anemones wander into them"
     ],
-    "staffNote": "Sell alongside clownfish. The pairing is the ultimate customer experience.",
+    "staffNote": "Pair alongside clownfish. The pairing is one of the most memorable symbiotic behaviors most reef keepers ever get to watch.",
     "photoTitle": "Entacmaea quadricolor",
     "inStock": false,
     "badges": [],
@@ -59,7 +59,11 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
     "diet_es": "Carnívoro / fotosintético",
     "origin_es": "Indo-Pacífico",
     "headerSummary": "The most popular host anemone for clownfish. Look for bulbous-tipped tentacles in green, rose, or red coloration. Hosts clownfish readily. Plan on at least 30+ gal.",
-    "seasonal": null
+    "seasonal": null,
+    "behavior": "Mostly stays anchored once comfortable, but any anemone can shift if lighting, flow, or footing feels wrong. Give it a protected settling zone with room around it so normal expansion or a wandering episode does not turn into a coral-stinging chain reaction.",
+    "feedingNotes": "Light quality and stability do most of the heavy lifting here. Occasional small meaty offerings can support recovery or growth, but overfeeding usually matters less than stable salinity, protected pumps, and a position the animal is actually willing to keep.",
+    "buyingGuidance": "Best for aquarists with a mature reef, guarded pumps, and enough free space that movement will not immediately create a coral problem. The decision is less about color and more about whether the tank can handle a mobile stinging animal long term.",
+    "recognitionNotes": "Bulbous-tipped tentacles in green, rose, or red coloration. Hosts clownfish readily."
   },
   {
     "id": "colorado-sunburst-anemone",
@@ -109,15 +113,19 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
     "bestWith": [
       "Mature reef tanks with stable salinity",
       "Guarded pumps and overflows",
-      "Buyers wanting a premium bubble tip for clownfish or display value"
+      "aquarists wanting a premium bubble tip for clownfish or display value"
     ],
     "cautionWith": [
       "New tanks or tanks still swinging chemically",
       "Coral-packed rockwork with no buffer zone",
       "Ungarded wavemakers or overflows"
     ],
-    "staffNote": "Sell it as a premium bubble tip morph, not as an easy exception to normal anemone rules.",
-    "headerSummary": "Collector bubble tip morph with intense orange-gold center and hot pink tips. Look for bright orange to gold oral disc with red to pink tentacles and contrasting lighter tips. Plan on at least 30+ gal."
+    "staffNote": "Treat it as a premium bubble tip morph, not as an easy exception to normal anemone rules.",
+    "headerSummary": "Collector bubble tip morph with intense orange-gold center and hot pink tips. Look for bright orange to gold oral disc with red to pink tentacles and contrasting lighter tips. Plan on at least 30+ gal.",
+    "behavior": "Mostly stays anchored once comfortable, but any anemone can shift if lighting, flow, or footing feels wrong. Give it a protected settling zone with room around it so normal expansion or a wandering episode does not turn into a coral-stinging chain reaction.",
+    "feedingNotes": "Light quality and stability do most of the heavy lifting here. Occasional small meaty offerings can support recovery or growth, but overfeeding usually matters less than stable salinity, protected pumps, and a position the animal is actually willing to keep.",
+    "buyingGuidance": "Best for aquarists with a mature reef, guarded pumps, and enough free space that movement will not immediately create a coral problem. The decision is less about color and more about whether the tank can handle a mobile stinging animal long term.",
+    "recognitionNotes": "Bright orange to gold oral disc with red to pink tentacles and contrasting lighter tips."
   },
   {
     "id": "long-tentacle-anemone",
@@ -174,8 +182,12 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
       "Rock-only placement attempts",
       "Corals positioned close enough to be stung if it moves"
     ],
-    "staffNote": "Confirm the buyer actually has sand depth for the foot and column. This is not a shelf-on-the-rock anemone.",
-    "headerSummary": "Sand-dwelling host anemone with long flowing tentacles. Look for long tapering tentacles spaced apart above a broad oral disc, usually with a red or orange foot buried in sand. Plan on at least 40+ gal."
+    "staffNote": "Confirm the aquarist actually has sand depth for the foot and column. This is not a shelf-on-the-rock anemone.",
+    "headerSummary": "Sand-dwelling host anemone with long flowing tentacles. Look for long tapering tentacles spaced apart above a broad oral disc, usually with a red or orange foot buried in sand. Plan on at least 40+ gal.",
+    "behavior": "Mostly stays anchored once comfortable, but any anemone can shift if lighting, flow, or footing feels wrong. Give it a protected settling zone with room around it so normal expansion or a wandering episode does not turn into a coral-stinging chain reaction.",
+    "feedingNotes": "Light quality and stability do most of the heavy lifting here. Occasional small meaty offerings can support recovery or growth, but overfeeding usually matters less than stable salinity, protected pumps, and a position the animal is actually willing to keep.",
+    "buyingGuidance": "Best for aquarists with a mature reef, guarded pumps, and enough free space that movement will not immediately create a coral problem. The decision is less about color and more about whether the tank can handle a mobile stinging animal long term.",
+    "recognitionNotes": "Long tapering tentacles spaced apart above a broad oral disc, usually with a red or orange foot buried in sand."
   },
   {
     "id": "magnifica-anemone",
@@ -209,7 +221,7 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
     "facts": [
       "Usually climbs to the highest and brightest rock position it can find.",
       "Healthy specimens become very large and can dominate a section of aquascape.",
-      "Poorly imported or stressed specimens can decline quickly, so this is not a casual sale."
+      "Poorly imported or stressed specimens can decline quickly, so this is not a casual recommendation."
     ],
     "photoTitle": "Magnifica Anemone",
     "inStock": false,
@@ -233,10 +245,14 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
     "cautionWith": [
       "Young tanks or recently changed systems",
       "Crowded mixed reefs with SPS packed around the top",
-      "Buyers wanting a first anemone"
+      "aquarists wanting a first anemone"
     ],
-    "staffNote": "This is an expert-only honesty sale. Confirm tank age, lighting strength, pump protection, and how much room the buyer can devote to it.",
-    "headerSummary": "High-light showpiece host anemone for advanced reef systems. Look for large oral disc with long tentacles on a tall column, usually seeking the brightest high-flow perch in the aquarium. Plan on at least 75+ gal."
+    "staffNote": "This is an expert-only recommendation. Confirm tank age, lighting strength, pump protection, and how much room the aquarist can devote to it.",
+    "headerSummary": "High-light showpiece host anemone for advanced reef systems. Look for large oral disc with long tentacles on a tall column, usually seeking the brightest high-flow perch in the aquarium. Plan on at least 75+ gal.",
+    "behavior": "Mostly stays anchored once comfortable, but any anemone can shift if lighting, flow, or footing feels wrong. Give it a protected settling zone with room around it so normal expansion or a wandering episode does not turn into a coral-stinging chain reaction.",
+    "feedingNotes": "Light quality and stability do most of the heavy lifting here. Occasional small meaty offerings can support recovery or growth, but overfeeding usually matters less than stable salinity, protected pumps, and a position the animal is actually willing to keep.",
+    "buyingGuidance": "Best for aquarists with a mature reef, guarded pumps, and enough free space that movement will not immediately create a coral problem. The decision is less about color and more about whether the tank can handle a mobile stinging animal long term.",
+    "recognitionNotes": "Large oral disc with long tentacles on a tall column, usually seeking the brightest high-flow perch in the aquarium."
   },
   {
     "id": "maxi-mini-carpet-anemone",
@@ -296,8 +312,12 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
       "Corals touching the oral disc",
       "Assuming it behaves like a true clown-hosting carpet"
     ],
-    "staffNote": "Great colorful sale, but remind buyers it is still an anemone with a sting and a tendency to move if annoyed.",
-    "headerSummary": "Small colorful carpet anemone for rockwork and nano reefs. Look for flat sticky disc covered in short tentacles, often in neon speckled or ringed patterns. Plan on at least 10+ gal."
+    "staffNote": "Great colorful pick, but remind aquarists it is still an anemone with a sting and a tendency to move if annoyed.",
+    "headerSummary": "Small colorful carpet anemone for rockwork and nano reefs. Look for flat sticky disc covered in short tentacles, often in neon speckled or ringed patterns. Plan on at least 10+ gal.",
+    "behavior": "Mostly stays anchored once comfortable, but any anemone can shift if lighting, flow, or footing feels wrong. Give it a protected settling zone with room around it so normal expansion or a wandering episode does not turn into a coral-stinging chain reaction.",
+    "feedingNotes": "Light quality and stability do most of the heavy lifting here. Occasional small meaty offerings can support recovery or growth, but overfeeding usually matters less than stable salinity, protected pumps, and a position the animal is actually willing to keep.",
+    "buyingGuidance": "Best for aquarists with a mature reef, guarded pumps, and enough free space that movement will not immediately create a coral problem. The decision is less about color and more about whether the tank can handle a mobile stinging animal long term.",
+    "recognitionNotes": "Flat sticky disc covered in short tentacles, often in neon speckled or ringed patterns."
   },
   {
     "id": "rainbow-bubble-tip-anemone",
@@ -323,7 +343,7 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
     "careDifficulty": 36,
     "role": "Multi-color bubble tip morph prized for rainbow oral disc patterns",
     "role_es": "Morfo multicolor de anémona burbuja apreciado por sus patrones arcoíris",
-    "overview": "A high-end bubble tip morph sold for color more than species novelty. It still needs the same mature, stable bubble-tip setup and enough breathing room that a roaming specimen cannot sting half the tank.",
+    "overview": "A high-end bubble tip morph valued for color more than species novelty. It still needs the same mature, stable bubble-tip setup and enough breathing room that a roaming specimen cannot sting half the tank.",
     "overview_es": "Un morfo premium de burbuja vendido por su coloración. Requiere el mismo acuario maduro y estable que cualquier bubble tip.",
     "facts": [
       "Rainbow bubble tips are Entacmaea quadricolor color morphs, not separate species.",
@@ -352,10 +372,14 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
     "cautionWith": [
       "Brand-new tanks",
       "Frag-packed reefs without a sting buffer",
-      "Buyers expecting the color morph to behave differently from a normal bubble tip"
+      "aquarists expecting the color morph to behave differently from a normal bubble tip"
     ],
     "staffNote": "Pitch the color honestly but keep the care conversation anchored to normal bubble-tip rules.",
-    "headerSummary": "Multi-color bubble tip morph prized for rainbow oral disc patterns. Look for bubble-tip tentacles around an oral disc mixing green, orange, yellow, red, and pink tones under reef lighting. Plan on at least 30+ gal."
+    "headerSummary": "Multi-color bubble tip morph prized for rainbow oral disc patterns. Look for bubble-tip tentacles around an oral disc mixing green, orange, yellow, red, and pink tones under reef lighting. Plan on at least 30+ gal.",
+    "behavior": "Mostly stays anchored once comfortable, but any anemone can shift if lighting, flow, or footing feels wrong. Give it a protected settling zone with room around it so normal expansion or a wandering episode does not turn into a coral-stinging chain reaction.",
+    "feedingNotes": "Light quality and stability do most of the heavy lifting here. Occasional small meaty offerings can support recovery or growth, but overfeeding usually matters less than stable salinity, protected pumps, and a position the animal is actually willing to keep.",
+    "buyingGuidance": "Best for aquarists with a mature reef, guarded pumps, and enough free space that movement will not immediately create a coral problem. The decision is less about color and more about whether the tank can handle a mobile stinging animal long term.",
+    "recognitionNotes": "Bubble-tip tentacles around an oral disc mixing green, orange, yellow, red, and pink tones under reef lighting."
   },
   {
     "id": "rock-flower-anemone",
@@ -381,11 +405,11 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
     "careDifficulty": 24,
     "role": "Hardy colorful anemone that usually stays where it settles",
     "role_es": "Anémona colorida y resistente que suele quedarse en su sitio",
-    "overview": "One of the best anemone sales for mixed reefs because it is colorful, hardy, and usually far less prone to constant wandering than many host anemones. It is more about display color than clownfish hosting.",
+    "overview": "One of the best anemone choices for mixed reefs because it is colorful, hardy, and usually far less prone to constant wandering than many host anemones. It is more about display color than clownfish hosting.",
     "overview_es": "Una de las mejores anémonas para arrecifes mixtos porque es colorida, resistente y suele deambular mucho menos que las anémonas hospedantes.",
     "facts": [
       "Usually stays put once it finds a suitable sand or rock pocket.",
-      "Sold in a huge range of colors and patterns, including garden-style multi-anemone displays.",
+      "Seen in a huge range of colors and patterns, including garden-style multi-anemone displays.",
       "Not normally chosen as a clownfish host the way bubble tips or larger host anemones are."
     ],
     "photoTitle": "Rock Flower Anemone",
@@ -412,8 +436,12 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
       "Corals touching the oral disc",
       "Rough handling during acclimation"
     ],
-    "staffNote": "Very strong sale for buyers who want an anemone look without jumping straight to a giant host species.",
-    "headerSummary": "Hardy colorful anemone that usually stays where it settles. Look for flat oral disc with radial striping and short bead-like rim tentacles in many bright color combinations. Plan on at least 10+ gal."
+    "staffNote": "Very strong fit for aquarists who want an anemone look without jumping straight to a giant host species.",
+    "headerSummary": "Hardy colorful anemone that usually stays where it settles. Look for flat oral disc with radial striping and short bead-like rim tentacles in many bright color combinations. Plan on at least 10+ gal.",
+    "behavior": "Mostly stays anchored once comfortable, but any anemone can shift if lighting, flow, or footing feels wrong. Give it a protected settling zone with room around it so normal expansion or a wandering episode does not turn into a coral-stinging chain reaction.",
+    "feedingNotes": "Light quality and stability do most of the heavy lifting here. Occasional small meaty offerings can support recovery or growth, but overfeeding usually matters less than stable salinity, protected pumps, and a position the animal is actually willing to keep.",
+    "buyingGuidance": "Best for aquarists with a mature reef, guarded pumps, and enough free space that movement will not immediately create a coral problem. The decision is less about color and more about whether the tank can handle a mobile stinging animal long term.",
+    "recognitionNotes": "Flat oral disc with radial striping and short bead-like rim tentacles in many bright color combinations."
   },
   {
     "id": "rose-bubble-tip-anemone",
@@ -470,8 +498,12 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
       "Coral gardens packed tightly around the anemone zone",
       "Ungarded pumps or narrow overflow teeth"
     ],
-    "staffNote": "Easy premium sale, but keep the expectation honest: it is easier than many host anemones, not maintenance-free.",
-    "headerSummary": "Classic red bubble tip morph and reliable clownfish host. Look for deep rose to red bubble-tip tentacles surrounding a compact oral disc anchored in rock crevices. Plan on at least 30+ gal."
+    "staffNote": "Easy premium recommendation, but keep the expectation honest: it is easier than many host anemones, not maintenance-free.",
+    "headerSummary": "Classic red bubble tip morph and reliable clownfish host. Look for deep rose to red bubble-tip tentacles surrounding a compact oral disc anchored in rock crevices. Plan on at least 30+ gal.",
+    "behavior": "Mostly stays anchored once comfortable, but any anemone can shift if lighting, flow, or footing feels wrong. Give it a protected settling zone with room around it so normal expansion or a wandering episode does not turn into a coral-stinging chain reaction.",
+    "feedingNotes": "Light quality and stability do most of the heavy lifting here. Occasional small meaty offerings can support recovery or growth, but overfeeding usually matters less than stable salinity, protected pumps, and a position the animal is actually willing to keep.",
+    "buyingGuidance": "Best for aquarists with a mature reef, guarded pumps, and enough free space that movement will not immediately create a coral problem. The decision is less about color and more about whether the tank can handle a mobile stinging animal long term.",
+    "recognitionNotes": "Deep rose to red bubble-tip tentacles surrounding a compact oral disc anchored in rock crevices."
   },
   {
     "id": "sebae-anemone",
@@ -504,7 +536,7 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
     "facts": [
       "White or bleached specimens are stressed animals, not premium color morphs.",
       "Can grow large and deliver a serious sting to nearby corals.",
-      "Best sold to buyers with established tanks who understand anemone recovery and placement."
+      "Best for aquarists with established tanks who understand anemone recovery and placement."
     ],
     "photoTitle": "Sebae Anemone",
     "inStock": false,
@@ -522,16 +554,20 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
     "visualCue": "Tan to cream oral disc with long tentacles, often showing lavender or purple tips when healthy.",
     "bestWith": [
       "Mature reef tanks with strong lighting",
-      "Buyers specifically building around a host anemone",
+      "aquarists specifically building around a host anemone",
       "Open sand and rock base areas with moderate flow"
     ],
     "cautionWith": [
       "Young tanks",
-      "Impulse purchases based on a pale specimen",
+      "unplanned additions based on a pale specimen",
       "Crowded mixed reefs with delicate corals in reach"
     ],
-    "staffNote": "Have the honesty talk. A healthy tan or colored Sebae is a better sale than a bleached white one that looks flashy in the store.",
-    "headerSummary": "Large host anemone with long flowing tentacles and purple-tipped look. Look for tan to cream oral disc with long tentacles, often showing lavender or purple tips when healthy. Plan on at least 50+ gal."
+    "staffNote": "Have the honesty talk. A healthy tan or colored Sebae is a better choice than a bleached white one that looks flashy in the store.",
+    "headerSummary": "Large host anemone with long flowing tentacles and purple-tipped look. Look for tan to cream oral disc with long tentacles, often showing lavender or purple tips when healthy. Plan on at least 50+ gal.",
+    "behavior": "Mostly stays anchored once comfortable, but any anemone can shift if lighting, flow, or footing feels wrong. Give it a protected settling zone with room around it so normal expansion or a wandering episode does not turn into a coral-stinging chain reaction.",
+    "feedingNotes": "Light quality and stability do most of the heavy lifting here. Occasional small meaty offerings can support recovery or growth, but overfeeding usually matters less than stable salinity, protected pumps, and a position the animal is actually willing to keep.",
+    "buyingGuidance": "Best for aquarists with a mature reef, guarded pumps, and enough free space that movement will not immediately create a coral problem. The decision is less about color and more about whether the tank can handle a mobile stinging animal long term.",
+    "recognitionNotes": "Tan to cream oral disc with long tentacles, often showing lavender or purple tips when healthy."
   },
   {
     "id": "tube-anemone",
@@ -583,14 +619,18 @@ window.LTC_SPECIES_CHUNKS["Anemones"] = [
     "bestWith": [
       "Species-minded or lower-competition reef sections",
       "Deep sand areas away from heavy rock pressure",
-      "Buyers comfortable target feeding specialist invertebrates"
+      "aquarists comfortable target feeding specialist invertebrates"
     ],
     "cautionWith": [
       "Packed coral gardens",
       "Bare-bottom systems",
       "Assuming bright reef lights alone will keep it fed"
     ],
-    "staffNote": "Sell it as a specialist display animal, not a substitute for a clown-hosting anemone.",
-    "headerSummary": "Non-photosynthetic tube dweller with long night-feeding tentacles. Look for long smooth tentacles radiating from a buried tube in the sand, often in neon green, tan, purple, or striped patterns. Plan on at least 20+ gal."
+    "staffNote": "Treat it as a specialist display animal, not a substitute for a clown-hosting anemone.",
+    "headerSummary": "Non-photosynthetic tube dweller with long night-feeding tentacles. Look for long smooth tentacles radiating from a buried tube in the sand, often in neon green, tan, purple, or striped patterns. Plan on at least 20+ gal.",
+    "behavior": "Mostly stays anchored once comfortable, but any anemone can shift if lighting, flow, or footing feels wrong. Give it a protected settling zone with room around it so normal expansion or a wandering episode does not turn into a coral-stinging chain reaction.",
+    "feedingNotes": "Light quality and stability do most of the heavy lifting here. Occasional small meaty offerings can support recovery or growth, but overfeeding usually matters less than stable salinity, protected pumps, and a position the animal is actually willing to keep.",
+    "buyingGuidance": "Best for aquarists with a mature reef, guarded pumps, and enough free space that movement will not immediately create a coral problem. The decision is less about color and more about whether the tank can handle a mobile stinging animal long term.",
+    "recognitionNotes": "Long smooth tentacles radiating from a buried tube in the sand, often in neon green, tan, purple, or striped patterns."
   }
 ];

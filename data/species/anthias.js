@@ -14,33 +14,33 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "maxSize": "5 in",
     "minTank": "70+ gal",
     "careLabel": "Moderate",
-    "diet": "Carnivore",
+    "diet": "Planktivore",
     "origin": "Indo-Pacific",
     "habitat": "Open water above reef slopes",
     "tankCode": "",
     "aggression": 20,
     "coralRisk": 2,
-    "invertRisk": 4,
+    "invertRisk": 2,
     "careDifficulty": 40,
-    "role": "Schooling reef fish with dramatic color difference between sexes",
+    "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "visualCue": "Females are bright orange. Males are purple-pink with elongated dorsal and tail fin streamers. Dramatic sexual dimorphism.",
-    "overview": "A reef-safe schooling fish where males and females look completely different. The male's purple coloration with fin streamers is stunning. Needs multiple feedings per day due to high metabolism.",
+    "overview": "The classic anthias for reef keepers: active, visible, and easier to understand than some of the delicate deepwater species. It still needs multiple feedings and a stable social structure, but it is often the entry point into anthias done right.",
     "facts": [
-      "Males and females look like completely different species.",
-      "Needs 3+ feedings per day due to high metabolism.",
-      "If the male is lost, the dominant female will transform into a male."
+      "Females are orange while mature males develop stronger pink-purple tones and extended fin streamers.",
+      "A harem structure usually works better than a random mixed group.",
+      "One of the more commonly kept anthias, but still not a one-feed-per-day fish."
     ],
     "bestWith": [
-      "Medium to large reef tanks",
-      "Harems of 1 male to 5+ females",
-      "Tanks with auto-feeders for multiple daily feedings"
+      "Mature reefs with open midwater room",
+      "One male with several females",
+      "Keepers who can feed at least 2–3 times daily"
     ],
     "cautionWith": [
-      "Tanks with only once-daily feeding",
-      "Very small tanks",
-      "Single specimens — they need the group"
+      "Single daily feeding routines",
+      "Boisterous fish that dominate food",
+      "Tiny tanks that collapse the social structure"
     ],
-    "staffNote": "The sex change fact always gets a reaction. Sell in harems.",
+    "staffNote": "The sex change fact always gets a reaction. Discuss in harem groups.",
     "photoTitle": "Pseudanthias squamipinnis",
     "inStock": false,
     "badges": [],
@@ -58,10 +58,10 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "role_es": "Pez de cardumen con dimorfismo sexual dramático",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Open-water color fish that rewards stable husbandry and frequent feeding. Look for females are bright orange. males are purple-pink with elongated dorsal and tail fin streamers. dramatic sexual dimorphism. Plan on at least 70+ gal.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for females are bright orange. Males are purple-pink with elongated dorsal and tail fin streamers. Dramatic sexual dimorphism. Plan on at least 70+ gal.",
+    "behavior": "Open-water planktivore that naturally forms large groups above reef structure. In aquariums it usually looks best as one male with several females, using the rockwork as a backdrop rather than hiding in it full time.",
+    "feedingNotes": "Offer small plankton-sized meals multiple times a day, using fine frozen foods and small pellets once acclimated. Good flow and frequent feeding matter more here than giant occasional meals.",
+    "buyingGuidance": "A strong anthias choice for reef keepers ready for the feeding schedule. The real decision is whether the buyer can support harem dynamics and frequent feeding without letting nutrients drift out of control.",
     "recognitionNotes": "Females are bright orange. Males are purple-pink with elongated dorsal and tail fin streamers. Dramatic sexual dimorphism."
   },
   {
@@ -78,22 +78,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "minTank": "40+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Central Pacific",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Bartlett's Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "A bright, high-visibility anthias that tends to adapt more readily than some touchier species. It still wants frequent feeding, but it is one of the more approachable anthias choices for established reefs.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Often does well in peaceful reef communities once feeding is established.",
+      "Can be kept singly, but groups show more natural movement and hierarchy.",
+      "Smaller than many anthias, yet still active enough to need open water."
     ],
     "photoTitle": "Bartlett's Anthias",
     "inStock": false,
@@ -108,22 +108,23 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "visualCue": "Lavender to violet body with a yellow back; males show stronger contrast and more intense color.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
-    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for lavender to violet body with a yellow back; males show stronger contrast and more intense color. Plan on at least 40+ gal.",
+    "behavior": "Active midwater anthias that spends much of the day in the water column but ducks back to rockwork when startled. Socially it still benefits from a one-male-to-female-heavy structure rather than a random pile of aggressive males.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "One of the better anthias to suggest when a customer wants the anthias look and understands the feeding schedule, but does not want to start with the most delicate species.",
+    "recognitionNotes": "Lavender to violet body with a yellow back; males show stronger contrast and more intense color."
   },
   {
     "id": "bicolor-anthias",
@@ -139,22 +140,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "minTank": "70+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Indo-Pacific",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Bicolor Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "Large, high-contrast anthias that stands out on color blocks alone. Better in roomy tanks where its size and constant movement do not crowd out calmer fish.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Most species stay reef safe with corals and ornamental inverts.",
+      "Success depends more on feeding routine and social structure than on brute toughness.",
+      "Open-water swimmers often fade in crowded tanks or with aggressive food competitors."
     ],
     "photoTitle": "Bicolor Anthias",
     "inStock": false,
@@ -169,21 +170,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "visualCue": "Distinct two-tone body with a warm front half and cooler rear half, creating a clean bicolor look in motion.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for distinct two-tone body with a warm front half and cooler rear half, creating a clean bicolor look in motion. Plan on at least 70+ gal.",
+    "behavior": "Midwater planktivore that looks best with open swimming room, steady flow, and a stable social structure. Most anthias do best in mature systems where the keeper can maintain repeated feeding and avoid letting more aggressive fish monopolize the water column.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "Anthias are reef-safe color fish, but they are not low-maintenance filler fish. The right sale depends on whether the buyer can support frequent feeding, strong oxygenation, and the social structure that particular species prefers.",
     "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
@@ -200,22 +202,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "minTank": "70+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Indo-Pacific",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Bimaculatus Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "Large, striking anthias with show-fish color and presence, but still with the same anthias need for repeated small meals and a stable social structure.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Most species stay reef safe with corals and ornamental inverts.",
+      "Success depends more on feeding routine and social structure than on brute toughness.",
+      "Open-water swimmers often fade in crowded tanks or with aggressive food competitors."
     ],
     "photoTitle": "Bimaculatus Anthias",
     "inStock": false,
@@ -230,21 +232,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "visualCue": "Pink to red anthias with stronger purple tones and characteristic dorsal-area markings depending on sex and maturity.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for pink to red anthias with stronger purple tones and characteristic dorsal-area markings depending on sex and maturity. Plan on at least 70+ gal.",
+    "behavior": "Midwater planktivore that looks best with open swimming room, steady flow, and a stable social structure. Most anthias do best in mature systems where the keeper can maintain repeated feeding and avoid letting more aggressive fish monopolize the water column.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "Anthias are reef-safe color fish, but they are not low-maintenance filler fish. The right sale depends on whether the buyer can support frequent feeding, strong oxygenation, and the social structure that particular species prefers.",
     "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
@@ -261,22 +264,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "minTank": "55+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Indian Ocean",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Carberryi Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "A sleek, graceful anthias known for a cleaner, more refined look in motion rather than brute brightness. Best appreciated in groups where their constant midwater movement becomes the display.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Most species stay reef safe with corals and ornamental inverts.",
+      "Success depends more on feeding routine and social structure than on brute toughness.",
+      "Open-water swimmers often fade in crowded tanks or with aggressive food competitors."
     ],
     "photoTitle": "Carberryi Anthias",
     "inStock": false,
@@ -291,21 +294,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "visualCue": "Slim pastel body with cool pink-lavender tones and yellow accents, especially when settled and feeding well.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for slim pastel body with cool pink-lavender tones and yellow accents, especially when settled and feeding well. Plan on at least 55+ gal.",
+    "behavior": "Midwater planktivore that looks best with open swimming room, steady flow, and a stable social structure. Most anthias do best in mature systems where the keeper can maintain repeated feeding and avoid letting more aggressive fish monopolize the water column.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "Anthias are reef-safe color fish, but they are not low-maintenance filler fish. The right sale depends on whether the buyer can support frequent feeding, strong oxygenation, and the social structure that particular species prefers.",
     "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
@@ -322,22 +326,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "minTank": "55+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Indo-Pacific",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Dispar Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "A softer-colored anthias that often appeals to reef keepers looking for movement and group behavior without the bolder swagger of Lyretails. They still need frequent feeding, but their gentler demeanor can work nicely in peaceful reef communities.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Most species stay reef safe with corals and ornamental inverts.",
+      "Success depends more on feeding routine and social structure than on brute toughness.",
+      "Open-water swimmers often fade in crowded tanks or with aggressive food competitors."
     ],
     "photoTitle": "Dispar Anthias",
     "inStock": false,
@@ -352,21 +356,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "visualCue": "Orange to peach body tones with subtler purple or pink highlights depending on sex and condition.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for orange to peach body tones with subtler purple or pink highlights depending on sex and condition. Plan on at least 55+ gal.",
+    "behavior": "Midwater planktivore that looks best with open swimming room, steady flow, and a stable social structure. Most anthias do best in mature systems where the keeper can maintain repeated feeding and avoid letting more aggressive fish monopolize the water column.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "Anthias are reef-safe color fish, but they are not low-maintenance filler fish. The right sale depends on whether the buyer can support frequent feeding, strong oxygenation, and the social structure that particular species prefers.",
     "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
@@ -383,22 +388,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "minTank": "70+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Indo-Pacific",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Evansi Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "A delicate, high-end anthias chosen more for elegance than brute color saturation. Best left to keepers already comfortable with anthias feeding schedules and acclimation challenges.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Most species stay reef safe with corals and ornamental inverts.",
+      "Success depends more on feeding routine and social structure than on brute toughness.",
+      "Open-water swimmers often fade in crowded tanks or with aggressive food competitors."
     ],
     "photoTitle": "Evansi Anthias",
     "inStock": false,
@@ -415,19 +420,20 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least 70+ gal.",
+    "behavior": "Midwater planktivore that looks best with open swimming room, steady flow, and a stable social structure. Most anthias do best in mature systems where the keeper can maintain repeated feeding and avoid letting more aggressive fish monopolize the water column.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "Anthias are reef-safe color fish, but they are not low-maintenance filler fish. The right sale depends on whether the buyer can support frequent feeding, strong oxygenation, and the social structure that particular species prefers.",
     "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
@@ -444,22 +450,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "minTank": "55+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Western Pacific",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Ignitus Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "Compact anthias with vivid warm orange-red coloration that can look spectacular in groups. Better suited to mature reefs where repeated smaller feedings are already normal.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Most species stay reef safe with corals and ornamental inverts.",
+      "Success depends more on feeding routine and social structure than on brute toughness.",
+      "Open-water swimmers often fade in crowded tanks or with aggressive food competitors."
     ],
     "photoTitle": "Ignitus Anthias",
     "inStock": false,
@@ -474,21 +480,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "visualCue": "Small anthias with glowing orange-red body color and a lively midwater presence.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for small anthias with glowing orange-red body color and a lively midwater presence. Plan on at least 55+ gal.",
+    "behavior": "Midwater planktivore that looks best with open swimming room, steady flow, and a stable social structure. Most anthias do best in mature systems where the keeper can maintain repeated feeding and avoid letting more aggressive fish monopolize the water column.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "Anthias are reef-safe color fish, but they are not low-maintenance filler fish. The right sale depends on whether the buyer can support frequent feeding, strong oxygenation, and the social structure that particular species prefers.",
     "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
@@ -505,22 +512,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "minTank": "70+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Western Pacific",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Lori's Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "Premium anthias with purple-magenta tones and a more refined, collector-style look. The usual anthias rules still apply: calm tankmates, stable reef conditions, and plenty of food opportunities.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Most species stay reef safe with corals and ornamental inverts.",
+      "Success depends more on feeding routine and social structure than on brute toughness.",
+      "Open-water swimmers often fade in crowded tanks or with aggressive food competitors."
     ],
     "photoTitle": "Lori's Anthias",
     "inStock": false,
@@ -537,19 +544,20 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least 70+ gal.",
+    "behavior": "Midwater planktivore that looks best with open swimming room, steady flow, and a stable social structure. Most anthias do best in mature systems where the keeper can maintain repeated feeding and avoid letting more aggressive fish monopolize the water column.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "Anthias are reef-safe color fish, but they are not low-maintenance filler fish. The right sale depends on whether the buyer can support frequent feeding, strong oxygenation, and the social structure that particular species prefers.",
     "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
@@ -563,25 +571,25 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "price": 0,
     "stockSize": "",
     "maxSize": "4.5 in",
-    "minTank": "70+ gal",
+    "minTank": "130+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Pacific",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Purple Queen Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "One of the most beautiful and one of the least forgiving anthias in routine aquarium life. Purple Queens are notorious for arriving delicate, going off food, and fading quickly if feeding response, flow, and overall stability are not right from the beginning.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Often considered an expert-level anthias because feeding refusal is common.",
+      "Usually does best only for keepers ready to provide repeated small meaty feedings and very stable conditions.",
+      "Beauty is not the issue here—consistency and feeding response are."
     ],
     "photoTitle": "Purple Queen Anthias",
     "inStock": false,
@@ -595,23 +603,24 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "temp_high": 80
     },
     "seasonal": null,
-    "careLabel": "Intermediate",
-    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "careLabel": "Expert",
+    "visualCue": "Brilliant violet to purple body with a warm orange facial band and a sleek, open-water anthias shape.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
-    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
+    "headerSummary": "Beautiful anthias with more specialized behavior and husbandry demands than the easy-looking display suggests. Look for brilliant violet to purple body with a warm orange facial band and a sleek, open-water anthias shape. Plan on at least 130+ gal.",
+    "behavior": "Peaceful, open-water anthias that wants room, current, and a calm social structure, but stress can shut them down quickly. Even when they look fine on day one, the real test is whether they settle into regular feeding.",
+    "feedingNotes": "Plan on very frequent small meals with fine frozen and other plankton-sized meaty foods, especially during acclimation. This is not the species to buy if the feeding schedule is casual.",
+    "buyingGuidance": "This should be sold conservatively. A gorgeous fish for an experienced reefer, but not one to oversell just because it looks perfect under store lights.",
+    "recognitionNotes": "Brilliant violet to purple body with a warm orange facial band and a sleek, open-water anthias shape."
   },
   {
     "id": "randall-s-anthias",
@@ -627,22 +636,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "minTank": "55+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Indian Ocean",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Randall's Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "A smaller anthias that works well for buyers who want group movement and color without jumping straight to the largest anthias species. Still best in a mature tank with repeated plankton-sized feedings.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Most species stay reef safe with corals and ornamental inverts.",
+      "Success depends more on feeding routine and social structure than on brute toughness.",
+      "Open-water swimmers often fade in crowded tanks or with aggressive food competitors."
     ],
     "photoTitle": "Randall's Anthias",
     "inStock": false,
@@ -659,19 +668,20 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least 55+ gal.",
+    "behavior": "Midwater planktivore that looks best with open swimming room, steady flow, and a stable social structure. Most anthias do best in mature systems where the keeper can maintain repeated feeding and avoid letting more aggressive fish monopolize the water column.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "Anthias are reef-safe color fish, but they are not low-maintenance filler fish. The right sale depends on whether the buyer can support frequent feeding, strong oxygenation, and the social structure that particular species prefers.",
     "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
@@ -688,22 +698,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "minTank": "55+ gal",
     "diet": "Planktivore",
     "diet_es": "",
-    "origin": "Unknown",
+    "origin": "Atlantic",
     "origin_es": "",
     "habitat": "Reef / rocky",
     "tankCode": "",
     "aggression": 14,
-    "coralRisk": 28,
-    "invertRisk": 20,
+    "coralRisk": 2,
+    "invertRisk": 2,
     "careDifficulty": 56,
     "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "",
-    "overview": "Resplendent Anthias is an open-water planktivore that shows best in a stable system with regular feeding.",
+    "overview": "A rarer Atlantic anthias with collector appeal and a more specialized feel than the common starter anthias. Best for keepers who are already comfortable building a routine around planktivores.",
     "overview_es": "",
     "facts": [
-      "Temperament is usually workable in a well-planned community with sensible tankmates.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Frequent small feedings are usually part of long-term success with anthias."
+      "Most species stay reef safe with corals and ornamental inverts.",
+      "Success depends more on feeding routine and social structure than on brute toughness.",
+      "Open-water swimmers often fade in crowded tanks or with aggressive food competitors."
     ],
     "photoTitle": "Resplendent Anthias",
     "inStock": false,
@@ -720,19 +730,20 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Open-water planktivore built for movement, color, and frequent feeding. Best in stable systems that support frequent small feedings.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for look for a slim, colorful midwater swimmer that stays active in open water and around current. Plan on at least 55+ gal.",
+    "behavior": "Midwater planktivore that looks best with open swimming room, steady flow, and a stable social structure. Most anthias do best in mature systems where the keeper can maintain repeated feeding and avoid letting more aggressive fish monopolize the water column.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "Anthias are reef-safe color fish, but they are not low-maintenance filler fish. The right sale depends on whether the buyer can support frequent feeding, strong oxygenation, and the social structure that particular species prefers.",
     "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
   },
   {
@@ -747,7 +758,7 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "stockSize": "",
     "maxSize": "5 in",
     "minTank": "75+ gal",
-    "diet": "Carnivore / planktivore",
+    "diet": "Planktivore",
     "diet_es": "Carnívoro / planctívoro",
     "origin": "Western Pacific",
     "origin_es": "Pacífico Occidental",
@@ -757,9 +768,9 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "coralRisk": 2,
     "invertRisk": 2,
     "careDifficulty": 65,
-    "role": "Rare deep-reef anthias with spectacular sunset coloring",
+    "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "Anthias raro de arrecife profundo con espectacular coloración de atardecer",
-    "overview": "A stunning deep-reef species with orange, yellow, and purple coloring that looks like a sunset. Shy and requires patience to get feeding. Best kept singly or in pairs.",
+    "overview": "A more cave-oriented anthias with a distinctive deeper-body look and warm sunset coloration. It usually appreciates lower-to-moderate light zones, overhangs, and peaceful tankmates more than the constantly exposed shoaling anthias do.",
     "overview_es": "Una especie impresionante de arrecife profundo con coloración naranja, amarilla y púrpura que parece un atardecer.",
     "facts": [
       "Adult size in this catalog is listed around 5 in.",
@@ -779,23 +790,23 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     },
     "seasonal": null,
     "careLabel": "Advanced",
-    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "visualCue": "Peach-orange to gold body with blue accents around the fins and face, plus a thicker 'fathead' profile than most anthias.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Reef-safe community plans with compatible tankmates",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Immature tanks or buyers without a long-term care plan",
-      "Systems smaller than 75+ gal"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Rare deep-reef anthias with spectacular sunset coloring. Plan on roughly 75+ gal or larger long term.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
-    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
+    "headerSummary": "Beautiful anthias with more specialized behavior and husbandry demands than the easy-looking display suggests. Look for peach-orange to gold body with blue accents around the fins and face, plus a thicker 'fathead' profile than most anthias. Plan on at least 75+ gal.",
+    "behavior": "Unlike open shoaling anthias that stay in the water column all day, Sunburst Anthias often hover near caves, ledges, and shaded rock faces. They are still planktivores, but their use of cover makes them read more like a cave fish with anthias feeding needs.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "A strong choice for reef keepers who want anthias color without a nonstop exposed-water-column fish, but it still needs repeated feeding and a calm, well-structured tank.",
+    "recognitionNotes": "Peach-orange to gold body with blue accents around the fins and face, plus a thicker 'fathead' profile than most anthias."
   },
   {
     "id": "bartletts-anthias",
@@ -810,15 +821,15 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "careDifficulty": 45,
     "diet": "Planktivore",
     "diet_es": "Planctívoro",
-    "origin": "Western Pacific",
+    "origin": "Central Pacific",
     "origin_es": "Pacífico Occidental",
     "habitat": "Reef slopes",
     "maxSize": "3.5 in",
     "minTank": "40+ gal",
     "photoTitle": "Pseudanthias_bartlettorum",
-    "role": "Colorful dwarf anthias",
+    "role": "Open-water planktivore built for movement, color, and frequent feeding",
     "role_es": "Anthias enano colorido",
-    "overview": "One of the hardier anthias with vibrant pink-orange and yellow coloring. Needs multiple daily feedings.",
+    "overview": "A bright, high-visibility anthias that tends to adapt more readily than some touchier species. It still wants frequent feeding, but it is one of the more approachable anthias choices for established reefs.",
     "overview_es": "Uno de los anthias más resistentes con coloración rosa-naranja vibrante.",
     "inStock": false,
     "price": 0,
@@ -827,9 +838,9 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "badges": [],
     "aliases": [],
     "facts": [
-      "Adult size in this catalog is listed around 3.5 in.",
-      "Plan around roughly 40+ gal or larger for long-term care.",
-      "Diet in this catalog: Planktivore."
+      "Often does well in peaceful reef communities once feeding is established.",
+      "Can be kept singly, but groups show more natural movement and hierarchy.",
+      "Smaller than many anthias, yet still active enough to need open water."
     ],
     "water": {
       "ph": [
@@ -853,21 +864,22 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for a slim, colorful midwater swimmer that stays active in open water and around current.",
+    "visualCue": "Lavender to violet body with a yellow back; males show stronger contrast and more intense color.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Reef-safe community plans with compatible tankmates",
-      "Peaceful to semi-peaceful community livestock"
+      "Mature reefs with good flow and open midwater room",
+      "Peaceful to moderately active tankmates",
+      "Keepers prepared for frequent small feedings"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Systems smaller than 40+ gal"
+      "Boisterous fish that outcompete them for food",
+      "Single large daily feedings as the whole plan",
+      "Crowded tanks with no social escape routes"
     ],
     "staffNote": "",
-    "headerSummary": "Colorful dwarf anthias. Plan on roughly 40+ gal or larger long term.",
-    "behavior": "Midwater planktivore that looks best when given open swimming room and a calm social structure. Many anthias do best in mature systems where the owner is ready for more frequent feeding and stable day-to-day husbandry.",
-    "feedingNotes": "Plan for smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized foods usually matter more here than giant single meals.",
-    "buyingGuidance": "Anthias are often best sold to buyers who already understand stable reef husbandry and can support more frequent feeding. They look easy from across the room, but the routine behind them is more demanding than many first-time buyers expect.",
-    "recognitionNotes": "Look for a slim, colorful midwater swimmer that stays active in open water and around current."
+    "headerSummary": "Open-water reef fish that brings constant motion and color, but expects a real feeding routine. Look for lavender to violet body with a yellow back; males show stronger contrast and more intense color. Plan on at least 40+ gal.",
+    "behavior": "Active midwater anthias that spends much of the day in the water column but ducks back to rockwork when startled. Socially it still benefits from a one-male-to-female-heavy structure rather than a random pile of aggressive males.",
+    "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
+    "buyingGuidance": "One of the better anthias to suggest when a customer wants the anthias look and understands the feeding schedule, but does not want to start with the most delicate species.",
+    "recognitionNotes": "Lavender to violet body with a yellow back; males show stronger contrast and more intense color."
   }
 ];

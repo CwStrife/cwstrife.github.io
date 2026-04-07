@@ -23,25 +23,25 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "coralRisk": 4,
     "invertRisk": 40,
     "careDifficulty": 32,
-    "role": "Beginner-friendly moray eel with dramatic presence",
+    "role": "Hardier crustacean-oriented moray for aquarists who want eel behavior without jumping straight to giant predator territory.",
     "visualCue": "White to cream body with black and brown snowflake-pattern blotches. Hides in rockwork with head poking out.",
-    "overview": "The most beginner-friendly moray eel. Dramatic appearance and fascinating feeding behavior. Primarily eats crustaceans rather than fish, making it more compatible than most eels.",
+    "overview": "The classic “starter moray” because it is usually hardier and less fish-focused than the monster predators. That reputation is fair, but it still behaves like an eel: it needs escape-proof covers, solid rockwork, and an aquarist who accepts that shrimp and many crabs are always on borrowed time.",
     "facts": [
-      "The easiest moray eel to keep in captivity.",
-      "Primarily hunts crustaceans rather than fish.",
-      "Will escape through any gap — the tank must be completely sealed."
+      "Often one of the better morays for aquarists new to eels.",
+      "Still requires a tightly sealed lid and cave-heavy aquascape.",
+      "Decorative shrimp and crabs should be considered likely prey."
     ],
     "bestWith": [
-      "Fish-only tanks with tight lids",
-      "Owners wanting something dramatic and different",
-      "Medium to large tanks with good rockwork"
+      "Secure covered tanks with stable rockwork",
+      "Medium to larger fish too large to be swallowed",
+      "Aquarists who want interesting eel behavior with manageable size"
     ],
     "cautionWith": [
-      "Any tank with ornamental shrimp or crabs",
-      "Gaps in the lid — they will find them",
-      "Small fish that could be swallowed"
+      "Loose lids or plumbing gaps",
+      "Decorative shrimp and small crabs",
+      "Tiny sleeping fish that could be sampled over time"
     ],
-    "staffNote": "The starter eel. Dramatic, hardy, and fascinating. Always stress the sealed lid.",
+    "staffNote": "Sell the lid and crustacean risk every time, even though this is the “easier” eel.",
     "photoTitle": "Echidna nebulosa",
     "inStock": false,
     "badges": [],
@@ -58,8 +58,12 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "role_es": "Morena para principiantes con presencia dramática",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Beginner-friendly moray eel with dramatic presence. Look for white to cream body with black and brown snowflake-pattern blotches. Hides in rockwork with head poking out. Plan on at least 55+ gal.",
-    "seasonal": null
+    "headerSummary": "Crustacean-focused moray that is easier than many eels, but still needs a sealed top and realistic invert expectations. Look for the cream-and-brown snowflake pattern and blunt-jawed head peeking from caves. Plan on at least 55+ gal.",
+    "seasonal": null,
+    "recognitionNotes": "Cream, white, and brown chain-like pattern with a chunky head and blunt teeth built more for crustaceans than fast fish.",
+    "behavior": "Mostly a cave-and-crevice moray that becomes more active around dusk and feeding time than during the brightest part of the day. A settled fish often rests with only the head exposed, then uses the full rockwork at night, which is why escape-proof covers and stable caves matter so much.",
+    "feedingNotes": "Meaty marine foods are the core routine, with consistency more important than drama. Snowflakes are crustacean-oriented feeders by nature, so ornamental shrimp and crabs should always be discussed before the eel is treated as community-safe.",
+    "buyingGuidance": "One of the better morays for aquarists who want eel behavior without jumping straight to a monster predator, but the tank still has to be sealed and shrimp expectations still have to be realistic. The right home is cave-heavy, secure, and planned around what the eel will eventually hunt."
   },
   {
     "id": "blue-ribbon-eel",
@@ -83,14 +87,14 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Predatory eel profile built around caves, escape prevention, and feeding response",
+    "role": "Expert-only ribbon eel whose beauty is real, but whose feeding difficulty and escape risk are even more real.",
     "role_es": "",
-    "overview": "Blue Ribbon Eel is an eel profile built around caves, secure covers, and reliable feeding response. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 40 in. Diet here is listed as Carnivore.",
+    "overview": "Blue Ribbon Eels are one of the most striking marine fish in the hobby and one of the easiest rare animals to sell badly. The hard part is not admiring them; it is getting a newly imported individual to settle, stay contained, and feed consistently without starving or launching itself out of the system.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 40 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Needs a tight lid, deep sand, and a secure den or buried pipe system.",
+      "Feeding success should be verified before purchase whenever possible.",
+      "Not a good choice for competitive community feeding situations."
     ],
     "photoTitle": "Blue Ribbon Eel",
     "inStock": false,
@@ -107,20 +111,21 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Expert aquarists building a dedicated or carefully planned specialty system",
+      "Quiet tankmates that will not steal food aggressively",
+      "Burrow-rich layouts with pipes or stable caves and sealed tops"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Beginner or impulse aquarists",
+      "Open-topped tanks or loose lids",
+      "Busy predator communities where it will not get enough food"
     ],
-    "staffNote": "",
-    "headerSummary": "Predatory eel profile built around caves, escape prevention, and feeding response. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Secretive at first, then visible in a head-out cave posture once settled. Feeding can be the make-or-break issue.",
-    "feedingNotes": "Needs patient carnivore feeding, often with target-fed meaty foods and careful acclimation to prepared items if it will accept them.",
-    "recognitionNotes": "Nothing else in the tank has the same ribbon body shape and open-mouthed posture.",
-    "buyingGuidance": "This is an expert sale. Only sell it when the buyer is prepared for escape prevention, feeding difficulty, and a genuinely specialized animal."
+    "staffNote": "Treat feeding verification as mandatory conversation, not optional trivia.",
+    "headerSummary": "Expert-only ribbon eel whose beauty is real, but whose feeding difficulty and escape risk are even more real. Look for the electric blue body, yellow dorsal highlights, and ribbon-like head posture emerging from a burrow. Plan on at least 125+ gal.",
+    "behavior": "Usually lives with most of the body hidden, showing only the head and upper body from a fixed burrow or pipe opening. It is secretive, easily stressed, and much more about specialized setup and patience than open-water activity.",
+    "feedingNotes": "This is a species where verified feeding matters enormously. They often need quiet target feeding, minimal competition, and a patient transition onto acceptable meaty foods. Systems with deep sand, buried pipes, and tight lids give them a better shot at settling instead of panicking.",
+    "recognitionNotes": "Long ribbon-like eel with vivid cobalt body color, yellow dorsal ridge, narrow head, and wide gaping mouth used for water flow over the gills.",
+    "buyingGuidance": "Recommend only to aquarists who already understand ribbon eel difficulty and are actively building around it. The right aquarist is not chasing rarity for its own sake; they are prepared for escape prevention, food training, and a genuinely expert-level acclimation project."
   },
   {
     "id": "chainlink-eel",
@@ -144,14 +149,14 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Predatory eel profile built around caves, escape prevention, and feeding response",
+    "role": "Manageable patterned moray that still needs classic eel security and realistic prey expectations.",
     "role_es": "",
-    "overview": "Chainlink Eel is an eel profile built around caves, secure covers, and reliable feeding response. The catalog lists a minimum tank around 75+ gal. Adult size is listed around 30 in. Diet here is listed as Carnivore.",
+    "overview": "Chainlink Eels appeal to aquarists who want moray personality without immediately jumping to monster size. They are still true eels with escape talent, strong feeding response, and a likely appetite for ornamental crustaceans, so the recommendation should feel like predator planning, not novelty shopping.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 30 in.",
-      "Plan around roughly 75+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "More manageable than giant morays, but still fully capable of escape and predation.",
+      "Best kept with secure cover and stable cave structure.",
+      "Ornamental shrimp are poor long-term tankmates."
     ],
     "photoTitle": "Chainlink Eel",
     "inStock": false,
@@ -168,20 +173,21 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Covered tanks with dependable rock caves",
+      "Medium to larger compatible fish",
+      "Aquarists wanting an eel without a monster adult size"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Open overflows and cable gaps",
+      "Tiny resting fish and ornamental crustaceans",
+      "Shoppers treating it like a decorative oddity instead of a predator"
     ],
-    "staffNote": "",
-    "headerSummary": "Predatory eel profile built around caves, escape prevention, and feeding response. Plan on roughly 75+ gal or larger long term.",
-    "behavior": "Mostly cave-oriented with bursts of movement at feeding time or after lights change.",
-    "feedingNotes": "Feed meaty carnivore foods on tongs and avoid tankmates small enough to be treated as food.",
-    "recognitionNotes": "Look for the linked chain-like body pattern and classic moray cave posture.",
-    "buyingGuidance": "A reasonable eel sale for buyers who understand lids, escape prevention, and the near-certain loss of decorative crustaceans."
+    "staffNote": "Stress lid security and crustacean loss. Those are the two conversations that save headaches.",
+    "headerSummary": "Manageable patterned moray that still needs classic eel security and realistic prey expectations. Look for the yellow-gold body covered in dark chainlike markings and a cave-loving head-out posture. Plan on at least 75+ gal.",
+    "behavior": "Usually stays cave-oriented and becomes most visible at feeding time, after lights shift, or once it learns the aquarium routine. Like many morays, it values secure crevices more than open swimming lanes.",
+    "feedingNotes": "Targeted meaty marine foods on tongs work well, and consistent feeding helps keep the fish predictable. Decorative shrimp and similar crustaceans should be treated as prey risk, and very small fish should not be assumed safe just because the eel looks calm by day.",
+    "recognitionNotes": "Golden to yellow-brown body traced with dark reticulated chainlike markings, giving the eel a linked-net appearance.",
+    "buyingGuidance": "A solid recommendation for aquarists who want eel behavior in a medium-size predator setup and understand lids, gaps, and prey size. The best match is realistic about crustacean losses and builds the aquascape around caves instead of aesthetics alone."
   },
   {
     "id": "dragon-moray",
@@ -205,14 +211,14 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "coralRisk": 5,
     "invertRisk": 60,
     "careDifficulty": 55,
-    "role": "Spectacular speckled moray with horn-like nostrils",
+    "role": "Ultra-premium predator moray for serious large-system keepers, not casual rare-fish collectors.",
     "role_es": "Morena moteada espectacular con fosas nasales tipo cuerno",
-    "overview": "One of the most dramatic looking moray eels with leopard-like spots, horn-shaped nostrils, and curved fang-like teeth. A true centerpiece predator for a large FOWLR system.",
+    "overview": "Dragon Morays are spectacular, unmistakable, and completely unsuited to casual ownership. Their rarity and appearance draw people in, but the real match is a seasoned predator-keeper with a large secure system, confident feeding control, and no illusions that this is a forgiving showpiece.",
     "overview_es": "Una de las morenas más dramáticas con manchas tipo leopardo, fosas nasales en forma de cuerno y dientes tipo colmillo.",
     "facts": [
-      "Adult size in this catalog is listed around 36 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "A true centerpiece predator rather than a mixed-community eel.",
+      "Needs a heavily secured large system and deliberate feeding control.",
+      "Rare status should never overshadow the practical care demands."
     ],
     "photoTitle": "Enchelycore_pardalis",
     "inStock": false,
@@ -229,21 +235,21 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Reef-safe community plans with compatible tankmates",
-      "Semi-aggressive tankmates of similar size"
+      "Large predator systems with secure tops and robust aquascape",
+      "Experienced keepers comfortable with tong-feeding and serious predators",
+      "Tankmates too large and sturdy to be viewed as prey"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Shrimp, snails, crabs, or other ornamental invertebrates",
-      "Systems smaller than 180+ gal"
+      "Impulse rare-fish purchases",
+      "Decorative community layouts",
+      "Anyone underestimating adult power and prey risk"
     ],
-    "staffNote": "",
-    "headerSummary": "Spectacular speckled moray with horn-like nostrils. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Confident ambush predator that spends time in caves but commands attention whenever visible.",
-    "feedingNotes": "Needs a substantial carnivore routine with large meaty foods and careful feeding control in a serious predator system.",
-    "recognitionNotes": "The face alone gives it away—large jaws, dramatic nostrils, and unmistakable predatory expression.",
-    "buyingGuidance": "Sell only to buyers already running or building a true large predator system. This is not an impulse rare-fish purchase."
+    "staffNote": "Talk about system readiness first, price and rarity second.",
+    "headerSummary": "Ultra-premium predator moray for serious large-system keepers, not casual rare-fish collectors. Look for the hornlike nostrils, leopard patterning, and curved predatory jaws. Plan on at least 180+ gal.",
+    "behavior": "A cave-based ambush predator with a commanding presence whenever it emerges. Even when still, it reads like a serious animal, and the entire system should be planned around that level of predator intent and strength.",
+    "feedingNotes": "Feed a substantial marine meaty diet under controlled conditions with tools and routines that respect the fish’s power. Tankmates must be chosen by size and toughness, and every feeding plan should assume a serious predator rather than an ornamental eel.",
+    "recognitionNotes": "Thick-bodied moray with ornate leopard spotting, exaggerated nostril horns, and strongly arched jaws that give it a dragonlike face.",
+    "buyingGuidance": "Recommend only to aquarists already comfortable with large predatory fishes and premium rare-animal responsibility. The correct aquarist values containment, husbandry discipline, and adult planning over simply owning something dramatic."
   },
   {
     "id": "golden-dwarf-moray",
@@ -267,14 +273,14 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Predatory eel profile built around caves, escape prevention, and feeding response",
+    "role": "Small moray with big eel behavior—great for a smaller predator concept, not for lax lid discipline.",
     "role_es": "",
-    "overview": "Golden Dwarf Moray is an eel profile built around caves, secure covers, and reliable feeding response. The catalog lists a minimum tank around 30+ gal. Adult size is listed around 12 in. Diet here is listed as Carnivore.",
+    "overview": "Golden Dwarf Morays are popular because they deliver authentic moray behavior in a much smaller package. That does not make them a casual nano ornament: they still need sealed tops, cave structure, and realistic expectations about shrimp and other edible invertebrates.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 12 in.",
-      "Plan around roughly 30+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Offers true moray behavior without the footprint of giant species.",
+      "Still requires a tightly covered system and eel-proof gaps.",
+      "Small ornamental shrimp are poor matches despite the eel’s modest size."
     ],
     "photoTitle": "Golden Dwarf Moray",
     "inStock": false,
@@ -291,20 +297,21 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Secure smaller specialty predator tanks",
+      "Aquarists who want eel behavior without a 4–6 foot adult",
+      "Medium fish and inverts too large to tempt it"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Open-top nano systems",
+      "Tiny shrimp and micro ornamental crustaceans",
+      "Buyers assuming “dwarf” means “community safe”"
     ],
-    "staffNote": "",
-    "headerSummary": "Predatory eel profile built around caves, escape prevention, and feeding response. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Secretive most of the day, then bolder at feeding time or once fully established.",
-    "feedingNotes": "Feed meaty foods by tongs and expect classic eel behavior around hiding places and feeding response.",
-    "recognitionNotes": "Bright golden color and much smaller adult size separate it from the giant morays.",
-    "buyingGuidance": "A strong eel recommendation only when the buyer has secure covers and realistic expectations about invert losses."
+    "staffNote": "This sells well on size—make sure the aquarist also hears “still an eel.”",
+    "headerSummary": "Small moray with big eel behavior—great for a smaller predator concept, not for lax lid discipline. Look for the bright golden body and slender miniature-moray proportions around rock crevices. Plan on at least 30+ gal.",
+    "behavior": "Secretive but often bold at feeding time once established. It spends much of its day weaving through narrow crevices and peering from holes, which is exactly why even a small specimen can find a surprising escape route.",
+    "feedingNotes": "Small meaty marine foods offered by tongs work well, and a predictable feeding schedule helps the fish stay settled. Because the eel is compact, some aquarists underestimate its prey drive; tiny shrimp and similarly sized edible inverts still need to be considered expendable.",
+    "recognitionNotes": "Slender dwarf moray with a rich golden-yellow body and classic head-out-of-the-rock behavior.",
+    "buyingGuidance": "A smart recommendation for the aquarist who wants genuine moray character in a smaller specialty system. The right setup is secure, cave-rich, and built around eel behavior rather than around keeping every ornamental invert safe."
   },
   {
     "id": "jewel-moray",
@@ -328,14 +335,14 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Predatory eel profile built around caves, escape prevention, and feeding response",
+    "role": "Striking patterned moray for experienced keepers who want a predatory centerpiece without going to giant-eel extremes.",
     "role_es": "",
-    "overview": "Jewel Moray is an eel profile built around caves, secure covers, and reliable feeding response. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 32 in. Diet here is listed as Carnivore.",
+    "overview": "Jewel Morays combine showy patterning with true predator behavior. They are easier to justify than the giant monsters for some systems, but they are still best sold to keepers who understand secure covers, prey-size planning, and the difference between an eel display and a community reef.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 32 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Showy patterning makes it a premium display eel.",
+      "Still needs classic moray basics: caves, cover, and prey-size planning.",
+      "Better suited to experienced aquarists than to first-time eel keepers."
     ],
     "photoTitle": "Jewel Moray",
     "inStock": false,
@@ -352,20 +359,21 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Secure covered systems with mature rockwork",
+      "Experienced marine keepers wanting a standout eel",
+      "Tankmates too large to be treated as food"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Reef tanks full of prized crustaceans",
+      "Open-top systems",
+      "Shoppers treating it as a decorative oddity instead of a predator"
     ],
-    "staffNote": "",
-    "headerSummary": "Predatory eel profile built around caves, escape prevention, and feeding response. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Cave-oriented and food-driven, with stronger predatory presence than the more gentle crustacean-focused eels.",
-    "feedingNotes": "Offer varied meaty foods and keep tankmates sized appropriately for a predatory eel.",
-    "recognitionNotes": "Look for the patterned body and stronger predatory head shape.",
-    "buyingGuidance": "Best sold to buyers already familiar with moray basics and already prepared to sacrifice ornamental crustaceans."
+    "staffNote": "A beautiful eel, but beauty does not change the normal moray rules.",
+    "headerSummary": "Striking patterned moray for experienced keepers who want a predatory centerpiece without going to giant-eel extremes. Look for the ornate high-contrast spotting and cave-dwelling, food-driven posture. Plan on at least 125+ gal.",
+    "behavior": "Usually cave-oriented, with activity rising sharply around feeding time and lower-light periods. It reads more like a deliberate ambush predator than a constantly cruising fish, so shelter quality matters more than empty open water.",
+    "feedingNotes": "Varied meaty marine foods on tongs fit the species well, and tankmates should be sized so they are never tempting after dark. Decorative crustaceans and undersized fish should be discussed honestly before the eel is sold into a mixed system.",
+    "recognitionNotes": "Pattern-rich moray with bold contrasting spots and mottling that create a jeweled, ornamental look across the body.",
+    "buyingGuidance": "Recommend Jewel Morays when the aquarist wants a visually special eel and already understands the normal moray rules. The ideal home is a secure established predator or semi-predator display, not a decorative reef that just happens to have extra room."
   },
   {
     "id": "tessalata-eel",
@@ -389,14 +397,14 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Predatory eel profile built around caves, escape prevention, and feeding response",
+    "role": "Massive predator moray for very large dedicated systems and very few suitable homes.",
     "role_es": "",
-    "overview": "Tessalata Eel is an eel profile built around caves, secure covers, and reliable feeding response. The catalog lists a minimum tank around 240+ gal. Adult size is listed around 72 in. Diet here is listed as Carnivore.",
+    "overview": "Tessalata Eels quickly leave the realm of “interesting eel” and enter the realm of true large predator planning. Adults are powerful, imposing, and completely unsuited to compromise systems. This is a fish for aquarists building the tank around the eel, not squeezing the eel into an existing wish list.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 72 in.",
-      "Plan around roughly 240+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "One of the most demanding morays simply because the adult scale is immense.",
+      "Needs a large, secure, predator-style system from the start.",
+      "Tankmate plans should assume a fish that can eventually dominate a display."
     ],
     "photoTitle": "Tessalata Eel",
     "inStock": false,
@@ -413,20 +421,21 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Very large covered predator aquariums",
+      "Advanced keepers with serious long-term system plans",
+      "Robust tankmates chosen around massive adult size"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Upgrade-later thinking",
+      "Mixed community or reef layouts",
+      "Anyone underestimating how quickly juvenile convenience disappears"
     ],
-    "staffNote": "",
-    "headerSummary": "Predatory eel profile built around caves, escape prevention, and feeding response. Plan on roughly 240+ gal or larger long term.",
-    "behavior": "Predatory, powerful, and capable of dominating smaller systems and weaker tankmate plans.",
-    "feedingNotes": "Feed a large-fish carnivore diet and size every husbandry decision around the adult animal, not the juvenile stage.",
-    "recognitionNotes": "The leopard-like pattern and huge head profile make it unmistakable.",
-    "buyingGuidance": "Only for buyers already committed to a very large predator system. This is not a compromise eel."
+    "staffNote": "This is a system-defining animal. Sell it only into a system already built for one.",
+    "headerSummary": "Massive predator moray for very large dedicated systems and very few suitable homes. Look for the heavy-bodied form, mosaic patterning, and unmistakably serious adult scale. Plan on at least 240+ gal.",
+    "behavior": "Predatory, forceful, and increasingly dominant as size comes on. Even when resting in caves, the fish has to be viewed as a major system animal, not as a passive oddball lurking in the aquascape.",
+    "feedingNotes": "Large meaty marine foods and serious predator protocols are required. Everything from tankmate selection to aquascape security should be planned around the adult animal, because juvenile convenience disappears fast as growth and confidence increase.",
+    "recognitionNotes": "Very large, thick-bodied moray with maze-like tessellated patterning and a deeply predatory head shape.",
+    "buyingGuidance": "Recommend only to advanced keepers already committed to a true large predator system. This is not a “we will upgrade later” eel, and it should not be sold on novelty to someone whose tank and budget are still theoretical."
   },
   {
     "id": "white-ribbon-eel",
@@ -450,14 +459,14 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Predatory eel profile built around caves, escape prevention, and feeding response",
+    "role": "White phase ribbon eel with the same expert-level challenges as the blue form.",
     "role_es": "",
-    "overview": "White Ribbon Eel is an eel profile built around caves, secure covers, and reliable feeding response. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 40 in. Diet here is listed as Carnivore.",
+    "overview": "White Ribbon Eels carry all the same caveats as Blue Ribbon Eels: extreme escape risk, specialized burrow needs, and notoriously difficult feeding transitions. The color is different, but the husbandry caution is identical.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 40 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Same expert-level care conversation as the blue ribbon form.",
+      "Needs deep sand, a secure den, and a tightly sealed lid.",
+      "Feeding verification is one of the most important pre-purchase questions."
     ],
     "photoTitle": "White Ribbon Eel",
     "inStock": false,
@@ -474,20 +483,21 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Expert aquarists building around ribbon eel needs",
+      "Quiet specialty systems with protected feeding opportunities",
+      "Layouts with sand, pipe dens, and no easy escape routes"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Beginner curiosity purchases",
+      "Open-topped tanks",
+      "Fast predator communities where food competition is intense"
     ],
-    "staffNote": "",
-    "headerSummary": "Predatory eel profile built around caves, escape prevention, and feeding response. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Secretive at first and often demanding at feeding time. Success depends on patient acclimation and a secure system.",
-    "feedingNotes": "Offer targeted meaty foods and expect a more delicate feeding transition than with beginner eels.",
-    "recognitionNotes": "Long ribbon body and pale coloration identify this phase quickly.",
-    "buyingGuidance": "Treat this exactly like an expert ribbon-eel sale. Beauty does not make it easy."
+    "staffNote": "Do not let the color variation make the species sound easier than it is.",
+    "headerSummary": "White phase ribbon eel with the same expert-level challenges as the blue form. Look for the pale ribbonlike body and narrow head projecting from a deep burrow or pipe. Plan on at least 125+ gal.",
+    "behavior": "Usually spends most of its time anchored in a chosen den, extending the head and upper body into the water column. Stress, poor cover, and feeding competition can all unravel progress quickly, which is why quiet specialized systems matter so much.",
+    "feedingNotes": "Verified feeding remains the central husbandry question. Target feeding, deep sand, sealed tops, and low-competition layouts all improve the odds, but this is still a species that should be approached as a project, not a guaranteed success story.",
+    "recognitionNotes": "Ribbonlike pale or white body with a long narrow head and habitual burrow posture, often showing only part of the animal at a time.",
+    "buyingGuidance": "Recommend only when the aquarist fully understands ribbon eel difficulty and is deliberately asking for it. The conversation should sound almost identical to Blue Ribbon Eel guidance, because the practical challenge level is essentially the same."
   },
   {
     "id": "zebra-moray",
@@ -511,14 +521,14 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Predatory eel profile built around caves, escape prevention, and feeding response",
+    "role": "Large, calmer moray that specializes more on crustaceans than on chasing fish, but still needs major tank planning.",
     "role_es": "",
-    "overview": "Zebra Moray is an eel profile built around caves, secure covers, and reliable feeding response. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 60 in. Diet here is listed as Carnivore / crustacean specialist.",
+    "overview": "Zebra Morays are often the eel people choose when they want a big, impressive specimen without the same fish-hunting profile as many other morays. That makes them appealing, but not casual: adults get very large, still need a sealed system, and still pose a major threat to crustaceans.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 60 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore / crustacean specialist."
+      "Blunt teeth and jaw shape reflect a crustacean-crushing feeding style.",
+      "Often calmer with fish tankmates than many predatory morays.",
+      "Still grows into a large, powerful eel that demands planning."
     ],
     "photoTitle": "Zebra Moray",
     "inStock": false,
@@ -535,19 +545,20 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the elongated body, cave-seeking behavior, and head-first feeding response typical of morays.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Large covered systems with stable rock caves",
+      "Bigger fish that are too large to be sampled",
+      "Aquarists wanting an eel with less fish-focused predation"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Decorative shrimp and crabs",
+      "Tanks that ignore adult size",
+      "Anyone thinking “calmer” means “small or simple”"
     ],
-    "staffNote": "",
-    "headerSummary": "Predatory eel profile built around caves, escape prevention, and feeding response. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Usually calmer and less frantic than many morays, with a strong preference for caves and feeding routines.",
-    "feedingNotes": "Feed crustacean-heavy meaty foods and use the blunt jaw shape as a clue that hard-shelled prey is part of the natural plan.",
-    "recognitionNotes": "The thick zebra striping and blunt head make this one easy to identify.",
-    "buyingGuidance": "A strong eel recommendation for buyers with big tanks and no attachment to shrimp or decorative crabs."
+    "staffNote": "Great big-eel option for the right aquarist, but always tie the calm temperament back to adult size and crustacean risk.",
+    "headerSummary": "Large, calmer moray that specializes more on crustaceans than on chasing fish, but still needs major tank planning. Look for the broad alternating dark-and-light banding and blunt head built for crushing prey. Plan on at least 125+ gal.",
+    "behavior": "Usually calmer and less frantic than many morays, spending much of the day tucked into caves and emerging more fully around feeding time. The mellow pace can fool aquarists into underestimating the eventual size and strength of the fish.",
+    "feedingNotes": "Crustacean-heavy meaty foods fit the species well, and the blunt crushing teeth are the giveaway. Larger fish tankmates are often safer than with fish-eating morays, but shrimp, crabs, and similar hard-shelled prey should be considered menu items, not décor.",
+    "recognitionNotes": "Heavy-bodied moray with broad zebra-like dark bands and blunt jaws suited to crushing shelled prey.",
+    "buyingGuidance": "A very good recommendation for the aquarist who wants a large display moray and accepts that the system has to be built around the eel. The recommendation should stress adult size, lid security, and the fact that “safer with fish” does not mean “easy.”"
   }
 ];

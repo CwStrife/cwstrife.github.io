@@ -22,25 +22,25 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 22,
     "invertRisk": 20,
     "careDifficulty": 62,
-    "role": "Elegant butterflyfish that eats aiptasia anemones",
+    "role": "Elegant specialist butterflyfish best sold on feeding success and mature-rock foraging, not on aiptasia promises.",
     "visualCue": "Compressed silver body with vivid orange-copper vertical bands and a long beak-like snout.",
-    "overview": "A stunningly elegant fish with a reputation for eating aiptasia. However, getting it to eat in captivity can be extremely challenging. Not a guaranteed aiptasia solution — some individuals ignore them entirely.",
+    "overview": "One of the most elegant butterflyfish in the trade and one of the easiest to oversimplify. Copperbands are prized for their long snout, deliberate picking behavior, and occasional appetite for aiptasia, but the real husbandry test is whether the fish is already feeding well on prepared foods in a mature aquarium.",
     "facts": [
-      "May or may not eat aiptasia — not a guaranteed solution.",
-      "Very difficult to get feeding on prepared foods.",
-      "One of the most visually elegant fish in the marine hobby."
+      "Some individuals will eat aiptasia, but it should never be sold as a guaranteed fix.",
+      "Feeding response on frozen or prepared food matters more than how pretty the fish looks in the bag.",
+      "Peaceful, established systems usually work better than aggressive mixed tanks."
     ],
     "bestWith": [
-      "Established tanks with abundant natural food",
-      "Experienced hobbyists prepared for feeding challenges",
-      "Tanks with aiptasia as a bonus"
+      "Established reef or FOWLR systems with mature rockwork",
+      "Peaceful tankmates that will not outcompete it at meals",
+      "Aquarists willing to verify feeding before purchase"
     ],
     "cautionWith": [
-      "New tanks",
-      "Buyers expecting a guaranteed aiptasia eater",
-      "Beginners"
+      "Boisterous feeders and aggressive butterflyfish",
+      "Impulse aquarists expecting an instant aiptasia cure",
+      "Tanks full of delicate worms, fan dusters, or similar ornamental pick targets"
     ],
-    "staffNote": "Be honest: it might eat aiptasia, it might not. Don't oversell the utility.",
+    "staffNote": "Always ask whether it is already eating frozen or prepared food. Never sell the fish on aiptasia alone.",
     "photoTitle": "Chelmon rostratus",
     "inStock": false,
     "badges": [],
@@ -58,11 +58,11 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "role_es": "Pez mariposa elegante que podría comer aiptasias",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Elegant picker with strong display appeal and species-specific care questions. Look for compressed silver body with vivid orange-copper vertical bands and a long beak-like snout. Plan on at least 75+ gal.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Compressed silver body with vivid orange-copper vertical bands and a long beak-like snout."
+    "headerSummary": "Elegant specialist butterflyfish best sold on feeding success and mature-rock foraging, not on aiptasia promises. Look for the slim silver body crossed by orange-copper bars and a long forceps-like snout. Plan on at least 75+ gal.",
+    "behavior": "Usually a calm, deliberate browser that spends the day probing rock, crevices, and tube-rich surfaces for tiny prey. Many settle best in peaceful systems where they are not rushed by aggressive feeders or crowded by similar long-snouted butterflyfish.",
+    "feedingNotes": "Ask the important question up front: is this exact fish taking frozen or prepared foods reliably? Mature rockwork helps, and many do better when offered small meaty foods repeatedly rather than one dramatic dump of large pieces. Aiptasia consumption is a bonus when it happens, not the entire feeding plan.",
+    "buyingGuidance": "Recommend this species when the aquarist already has a stable tank, calm tankmates, and realistic expectations. The right recommendation is about verified feeding response, reef goals, and patience with a species that often looks easier than it really is.",
+    "recognitionNotes": "Slim silver body with bold orange-copper bars, a dark eye stripe, and a long narrow snout built for picking prey from tight crevices."
   },
   {
     "id": "auriga-butterflyfish",
@@ -86,14 +86,14 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Display butterflyfish whose feeding response and reef plans matter before the sale",
+    "role": "Hardier large butterflyfish that fits best in roomy fish-only or live-rock systems rather than delicate reefs.",
     "role_es": "",
-    "overview": "Auriga Butterflyfish is a high-visibility display fish where feeding response and reef plans should be confirmed before the sale.",
+    "overview": "Auriga Butterflyfish are often one of the more forgiving large butterfly options, but they are still not a casual reef-community pick. They need space, hiding structure, and a plan for coral and sessile invertebrate risk before they become a display fish instead of a problem fish.",
     "overview_es": "",
     "facts": [
-      "Mixed reefs should be watched closely for nipping or contact issues.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Prepared-food acceptance and browsing behavior should both be checked before the sale."
+      "Usually considered one of the more adaptable large butterflyfish in captivity.",
+      "Needs room to swim and multiple hiding places while settling in.",
+      "Not a dependable reef-safe choice around corals and sessile inverts."
     ],
     "photoTitle": "Auriga Butterflyfish",
     "inStock": false,
@@ -110,20 +110,21 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Large fish-only or live-rock systems",
+      "Peaceful to semi-aggressive tankmates sized appropriately",
+      "Aquarists wanting a more robust butterfly display fish"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Coral-focused reef plans",
+      "Tiny tanks that force constant pacing",
+      "Overly aggressive tankmates during acclimation"
     ],
-    "staffNote": "",
-    "headerSummary": "Display butterflyfish whose feeding response and reef plans matter before the sale. Feeding response and reef plans should both be confirmed before the sale.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
+    "staffNote": "Sell it as a display butterfly for space and behavior, not as a reef fish.",
+    "headerSummary": "Hardier large butterflyfish that fits best in roomy fish-only or live-rock systems rather than delicate reefs. Look for the bold eye band, trailing dorsal streamer, and active browsing posture. Plan on at least 125+ gal.",
+    "behavior": "Usually shy for the first stretch, then increasingly bold once it learns the layout of the tank. Adults stay busy, cruising between open swimming lanes and rock structure, and they do best when they are not trapped in a cramped coral-heavy layout.",
+    "feedingNotes": "This species usually does better when meals are based on a varied meaty rotation with enough frequency to keep the fish browsing productively instead of nipping out of hunger. A mature tank with hiding spots helps new arrivals settle and start feeding with less stress.",
+    "buyingGuidance": "A good recommendation for aquarists who want a large butterfly in a fish-only or mixed live-rock display and understand that reef safety is not the selling point. The recommendation should center on tank size, rockwork, and whether coral plans have already been ruled out.",
+    "recognitionNotes": "Round-bodied butterflyfish with a dark eye mask, bright yellow highlights, and a trailing dorsal streamer that gives the species its threadfin look."
   },
   {
     "id": "heniochus-butterfly",
@@ -147,14 +148,14 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Display butterflyfish whose feeding response and reef plans matter before the sale",
+    "role": "Banner-style butterflyfish that brings Moorish-idol drama with far more realistic aquarium prospects.",
     "role_es": "",
-    "overview": "Heniochus Butterfly is a high-visibility display fish where feeding response and reef plans should be confirmed before the sale.",
+    "overview": "Heniochus Butterflyfish are popular because they scratch the same visual itch as a Moorish Idol without demanding the same impossible care reputation. They still need swimming room, steady feeding, and realistic reef expectations, but many are better display candidates than their dramatic shape suggests.",
     "overview_es": "",
     "facts": [
-      "Mixed reefs should be watched closely for nipping or contact issues.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Prepared-food acceptance and browsing behavior should both be checked before the sale."
+      "Often chosen as the practical alternative to a Moorish Idol look.",
+      "Needs more open swimming room than many people expect from a butterflyfish.",
+      "Reef compatibility should be treated cautiously, not assumed."
     ],
     "photoTitle": "Heniochus Butterfly",
     "inStock": false,
@@ -171,20 +172,21 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Large community or fish-only marine systems",
+      "Tankmates that will not relentlessly harass slower feeders",
+      "Aquarists who want a visible midwater display fish"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Small tanks that remove open swim lanes",
+      "Delicate coral plans",
+      "Last-minute purchases where feeding has not been observed"
     ],
-    "staffNote": "",
-    "headerSummary": "Display butterflyfish whose feeding response and reef plans matter before the sale. Feeding response and reef plans should both be confirmed before the sale.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
+    "staffNote": "Good banner display fish, but do not let the Moorish Idol resemblance oversell the species.",
+    "headerSummary": "Banner-style butterflyfish that brings Moorish-idol drama with far more realistic aquarium prospects. Look for the black-and-white body, yellow highlights, and long pennant-like dorsal filament. Plan on at least 125+ gal.",
+    "behavior": "More open-water and visible than many round-bodied butterflyfish, often cruising the water column once settled instead of staying glued to the rock. Groups can work when introduced together in large systems, but cramped tanks turn that grace into stress fast.",
+    "feedingNotes": "Most do best on repeated small feedings of meaty marine foods with some plant matter or prepared omnivore support mixed in. As with other butterflyfish, the first question is whether the fish is eating confidently before it leaves the store.",
+    "buyingGuidance": "A strong option for aquarists who want a tall, graphic show fish and have the room for one. The best match is an aquarist after a bold community centerpiece, not a delicate coral-safe specialty animal.",
+    "recognitionNotes": "Black-and-white body crossed by strong diagonal bars, yellow tail and back, and an elongated dorsal filament that waves like a banner."
   },
   {
     "id": "klein-s-butterflyfish",
@@ -208,14 +210,14 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Display butterflyfish whose feeding response and reef plans matter before the sale",
+    "role": "One of the better starter butterflyfish for fish-only systems, but still a real coral nipper.",
     "role_es": "",
-    "overview": "Klein's Butterflyfish is a high-visibility display fish where feeding response and reef plans should be confirmed before the sale.",
+    "overview": "Klein's Butterflyfish has a reputation as one of the tougher, more aquarium-adaptable butterflyfish, which makes it easier to recommend than many of its relatives. That said, 'hardier' does not mean reef-safe, and soft coral or polyp grazing should be part of the conversation before it is sold as a community fish.",
     "overview_es": "",
     "facts": [
-      "Mixed reefs should be watched closely for nipping or contact issues.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Prepared-food acceptance and browsing behavior should both be checked before the sale."
+      "Often considered one of the more aquarium-friendly butterflyfish species.",
+      "May sample soft corals and other fleshy reef livestock.",
+      "Usually easier to feed than specialist species such as Copperbands."
     ],
     "photoTitle": "Klein's Butterflyfish",
     "inStock": false,
@@ -232,20 +234,21 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Fish-only or lightly mixed marine systems",
+      "Aquarists wanting a hardier butterfly starting point",
+      "Tanks with enough room for constant daytime cruising"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Reef tanks built around prized soft corals",
+      "Shoppers assuming “easy butterfly” means “reef safe”",
+      "Tiny or overly aggressive community setups"
     ],
-    "staffNote": "",
-    "headerSummary": "Display butterflyfish whose feeding response and reef plans matter before the sale. Feeding response and reef plans should both be confirmed before the sale.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
+    "staffNote": "Good first butterfly for the right aquarist, but make the coral risk explicit.",
+    "headerSummary": "One of the better starter butterflyfish for fish-only systems, but still a real coral nipper. Look for the tan-gold body, darker facial shading, and active all-day browsing. Plan on at least 75+ gal.",
+    "behavior": "Active, visible, and often less timid than delicate specialist butterflyfish. It spends much of the day cruising rock and open water, and established fish commonly adapt to prepared feeding routines more readily than fussier species.",
+    "feedingNotes": "This is one of the butterflies that often transitions onto prepared diets more easily, but it still benefits from variety and multiple chances to feed. Omnivore-style support with meaty foods and some algae component fits the species better than treating it like a strict grazer or strict predator.",
+    "buyingGuidance": "A very reasonable first butterflyfish for the aquarist who already understands that coral nipping is part of the trade-off. Recommend it when the goal is a hardy, active butterfly in a fish-only or low-risk mixed display rather than a pristine reef showcase.",
+    "recognitionNotes": "Warm yellow-brown butterflyfish with a rounded profile, soft facial banding, and a busy, confident browsing style."
   },
   {
     "id": "longnose-butterflyfish",
@@ -269,14 +272,14 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 30,
     "invertRisk": 20,
     "careDifficulty": 50,
-    "role": "Elegant yellow butterflyfish with an extremely long snout",
+    "role": "Graceful long-snouted butterflyfish that does best with calm competition and small meaty foods.",
     "role_es": "Pez mariposa amarillo elegante con hocico extremadamente largo",
-    "overview": "A striking all-yellow butterflyfish with a needle-like snout used to pick invertebrates from between coral branches. One of the easier butterflies to keep.",
+    "overview": "Longnose Butterflyfish are admired for their slender profile and precision feeding style. They are often more manageable than Copperbands, but their narrow snout and smaller mouth still make food size, feeding pace, and tankmate pressure important parts of long-term success.",
     "overview_es": "Un llamativo pez mariposa completamente amarillo con hocico tipo aguja usado para recoger invertebrados entre ramas de coral.",
     "facts": [
-      "Adult size in this catalog is listed around 9 in.",
-      "Plan around roughly 75+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Uses its long snout to pick worms and tiny invertebrates from narrow crevices.",
+      "Often adapts better than ultra-delicate butterflyfish, but still needs feeding thoughtfulness.",
+      "Best fed small meaty foods that match its mouth shape."
     ],
     "photoTitle": "Forcipiger_flavissimus",
     "inStock": false,
@@ -293,21 +296,21 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Peaceful to semi-peaceful community livestock"
+      "Calm community tanks with room to browse",
+      "Aquarists who can feed smaller foods more than once daily",
+      "Displays where elegance matters more than brute aggression"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed",
-      "Systems smaller than 75+ gal"
+      "Aggressive feeders that outcompete delicate pickers",
+      "Very small tanks with no browsing structure",
+      "Coral plans that cannot tolerate occasional experimentation"
     ],
-    "staffNote": "",
-    "headerSummary": "Elegant yellow butterflyfish with an extremely long snout. Plan on roughly 75+ gal or larger long term.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
+    "staffNote": "Stress food size and feeding pace; the snout is the clue to how this fish wants to eat.",
+    "headerSummary": "Graceful long-snouted butterflyfish that does best with calm competition and small meaty foods. Look for the bright yellow body, black face mask, and narrow forceps-like snout. Plan on at least 75+ gal.",
+    "behavior": "Usually a deliberate picker rather than a frantic swimmer, moving from crevice to crevice and pausing often to inspect holes and rock faces. Settled fish are visible and elegant, but they can lose meals to faster, rougher tankmates if the community is built poorly.",
+    "feedingNotes": "Small meaty items offered more than once per day suit the species better than oversized chunks. Many individuals adapt well once settled, but they still benefit from a calm feeding environment where faster fish do not steal everything first.",
+    "buyingGuidance": "A strong recommendation for aquarists who want a graceful display butterfly and can keep feeding competition reasonable. The recommendation should focus on food size, tankmate pace, and whether the aquarist wants a with-caution reef fish rather than a bulletproof community species.",
+    "recognitionNotes": "Bright yellow butterflyfish with a long narrow snout, black facial mask, and a crisp white chest and belly."
   },
   {
     "id": "pearlscale-butterflyfish",
@@ -331,14 +334,14 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Display butterflyfish whose feeding response and reef plans matter before the sale",
+    "role": "Beautiful rounded butterflyfish that often needs a gentler acclimation period than its looks suggest.",
     "role_es": "",
-    "overview": "Pearlscale Butterflyfish is a high-visibility display fish where feeding response and reef plans should be confirmed before the sale.",
+    "overview": "Pearlscale Butterflyfish are attractive, personable display fish, but many need a calmer start than the hardier beginner butterflies. They reward stable water, peaceful tankmates, and patient acclimation rather than being rushed into a high-energy reef community.",
     "overview_es": "",
     "facts": [
-      "Mixed reefs should be watched closely for nipping or contact issues.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Prepared-food acceptance and browsing behavior should both be checked before the sale."
+      "Often needs more patience during acclimation than the tougher starter butterflyfish.",
+      "Best in mature, stable tanks with peaceful companions.",
+      "Not considered a dependable reef-safe choice."
     ],
     "photoTitle": "Pearlscale Butterflyfish",
     "inStock": false,
@@ -355,20 +358,21 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Mature tanks with predictable feeding routines",
+      "Peaceful companions that will not chase it constantly",
+      "Aquarists comfortable giving a new fish extra settling time"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "High-pressure community tanks",
+      "Coral collections that cannot tolerate nipping",
+      "Buyers who expect instant bold behavior on day one"
     ],
-    "staffNote": "",
-    "headerSummary": "Display butterflyfish whose feeding response and reef plans matter before the sale. Feeding response and reef plans should both be confirmed before the sale.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
+    "staffNote": "Emphasize patience and acclimation. This species can be good, but it often wants a softer landing.",
+    "headerSummary": "Beautiful rounded butterflyfish that often needs a gentler acclimation period than its looks suggest. Look for the pale body outlined in dark netting with a warm yellow wash and eye spot near the rear. Plan on at least 75+ gal.",
+    "behavior": "Usually peaceful and watchful at first, then more confidently visible once the tank feels predictable. Like many butterflyfish, it wants a mix of open water and rock structure, not a bare box or an aggressive feeding scrum.",
+    "feedingNotes": "This is a species where acclimation and early feeding confidence matter. Offer a varied prepared diet with frozen and finely sized foods, and give new arrivals enough calm to settle before expecting nonstop show-fish behavior.",
+    "buyingGuidance": "Recommend Pearlscales when the aquarist wants a classic round-bodied butterfly and can provide a stable, lower-stress start. The right conversation is about acclimation and coral risk, not just whether the fish is pretty.",
+    "recognitionNotes": "Rounded body with dark-edged scale patterning that creates a pearl-net look, yellow highlights, and an eye spot toward the rear of the body."
   },
   {
     "id": "pyramid-butterflyfish",
@@ -392,14 +396,14 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Display butterflyfish whose feeding response and reef plans matter before the sale",
+    "role": "One of the better reef-oriented butterflyfish thanks to its plankton-feeding lifestyle and open-water habits.",
     "role_es": "",
-    "overview": "Pyramid Butterflyfish is a high-visibility display fish where feeding response and reef plans should be confirmed before the sale.",
+    "overview": "Pyramid Butterflyfish stand apart from many butterfly relatives because they are primarily plankton feeders and are often the species people choose when they want butterflyfish looks with lower coral risk. They are still not a “set and forget” fish, but they are among the smartest butterfly choices for larger reef-minded displays.",
     "overview_es": "",
     "facts": [
-      "Mixed reefs should be watched closely for nipping or contact issues.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Prepared-food acceptance and browsing behavior should both be checked before the sale."
+      "Feeds on plankton in the wild rather than specializing in coral picking.",
+      "Often one of the best butterflyfish options for larger reef systems.",
+      "Usually benefits from multiple smaller daily feedings."
     ],
     "photoTitle": "Pyramid Butterflyfish",
     "inStock": false,
@@ -416,20 +420,21 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Large reefs or mixed displays with open water",
+      "Aquarists willing to feed several times daily",
+      "Pairs or groups introduced thoughtfully in spacious systems"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Tiny tanks with no swimming lane",
+      "Infrequent feeding schedules",
+      "Shoppers who hear “reef safe” and stop paying attention"
     ],
-    "staffNote": "",
-    "headerSummary": "Display butterflyfish whose feeding response and reef plans matter before the sale. Feeding response and reef plans should both be confirmed before the sale.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
+    "staffNote": "One of the best butterflyfish for reef-minded aquarists, but keep the “watch the individual” language in the conversation.",
+    "headerSummary": "One of the better reef-oriented butterflyfish thanks to its plankton-feeding lifestyle and open-water habits. Look for the white triangular body, black head patch, and bright yellow fins. Plan on at least 125+ gal.",
+    "behavior": "More midwater and group-oriented than the constant rock-picking species. They can do well singly, in pairs, or in small groups in larger tanks, and they usually appreciate open swimming room plus caves to retreat to when startled.",
+    "feedingNotes": "Because they are planktivores by nature, several smaller feedings each day usually suit them better than one large meal. Underfed fish may become more experimental around soft coral tissue, so consistency matters even for one of the more reef-compatible butterflyfish.",
+    "buyingGuidance": "A standout recommendation for the aquarist who wants butterflyfish movement and color in a larger reef or reef-adjacent system. The right home has room, repeated feeding, and realistic expectations that “reef safe” still means “watch the individual.”",
+    "recognitionNotes": "White wedge-shaped body with a dark head patch and bright yellow dorsal, tail, and anal fins that create the pyramid look."
   },
   {
     "id": "raccoon-butterflyfish",
@@ -453,14 +458,14 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Display butterflyfish whose feeding response and reef plans matter before the sale",
+    "role": "Bold, adaptable butterflyfish for large fish-only systems, not for delicate reef livestock.",
     "role_es": "",
-    "overview": "Raccoon Butterflyfish is a high-visibility display fish where feeding response and reef plans should be confirmed before the sale.",
+    "overview": "Raccoon Butterflyfish are often sold because they are hardy, visible, and quick to command attention. Those strengths are real, but so is the downside: this is one of the butterflyfish that should be treated as a fish-only or live-rock display fish, not as a polite reef ornament.",
     "overview_es": "",
     "facts": [
-      "Mixed reefs should be watched closely for nipping or contact issues.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Prepared-food acceptance and browsing behavior should both be checked before the sale."
+      "Often considered one of the hardier large butterflyfish in captivity.",
+      "Poor choice for coral-heavy reef systems.",
+      "Works best when sold as a display fish rather than as a problem-solving utility fish."
     ],
     "photoTitle": "Raccoon Butterflyfish",
     "inStock": false,
@@ -477,20 +482,21 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Large fish-only or live-rock systems",
+      "Semi-aggressive community fish of suitable size",
+      "Aquarists who want a hardy show butterfly"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Coral-dominant reefs",
+      "Delicate ornamental shrimp and similar inverts",
+      "Under-sized tanks that limit movement"
     ],
-    "staffNote": "",
-    "headerSummary": "Display butterflyfish whose feeding response and reef plans matter before the sale. Feeding response and reef plans should both be confirmed before the sale.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
+    "staffNote": "Good fish-only butterfly. Be very direct that reef safety is not the point here.",
+    "headerSummary": "Bold, adaptable butterflyfish for large fish-only systems, not for delicate reef livestock. Look for the black raccoon-like eye mask, warm yellow body, and white band behind the face. Plan on at least 125+ gal.",
+    "behavior": "Usually confident once settled and often less shy than delicate butterflies. It is an active, assertive browser that can hold its own in a community, which is part of why it works so well in larger fish-only systems.",
+    "feedingNotes": "Most do well on a broad meaty marine diet once established, but like other butterflyfish they still benefit from repeated feeding opportunities and rockwork that gives them something natural to investigate. New arrivals should still be observed eating before the species is treated as easy.",
+    "buyingGuidance": "A very workable large butterflyfish for the aquarist building a fish-only show tank. The right aquarist wants visibility and durability, and already accepts that ornamental shrimp, corals, and many sessile inverts are poor matches.",
+    "recognitionNotes": "Yellow-orange body with a black facial mask, white band behind the eye area, and darker shading across the upper body."
   },
   {
     "id": "saddleback-butterflyfish",
@@ -514,14 +520,14 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Display butterflyfish whose feeding response and reef plans matter before the sale",
+    "role": "Large, dramatic butterflyfish for spacious fish-only systems with room for an adult show fish.",
     "role_es": "",
-    "overview": "Saddleback Butterflyfish is a high-visibility display fish where feeding response and reef plans should be confirmed before the sale.",
+    "overview": "Saddleback Butterflyfish grow into serious display fish, and the adult footprint matters much more than the juvenile size at purchase. They are best thought of as large fish-only or live-rock butterflies that need space, strong water quality, and an aquarist already comfortable with coral and invertebrate risk.",
     "overview_es": "",
     "facts": [
-      "Mixed reefs should be watched closely for nipping or contact issues.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Prepared-food acceptance and browsing behavior should both be checked before the sale."
+      "Gets substantially larger and more imposing than many common butterflyfish.",
+      "Needs more swimming room and stronger long-term planning than mid-size species.",
+      "Not suitable for coral-focused reef expectations."
     ],
     "photoTitle": "Saddleback Butterflyfish",
     "inStock": false,
@@ -538,20 +544,21 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Large FOWLR displays with open swimming space",
+      "Experienced marine keepers planning for adult size",
+      "Robust tankmates that match its eventual scale"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Reef-centered builds",
+      "Buyers focusing only on current juvenile size",
+      "Small tanks with limited turning room"
     ],
-    "staffNote": "",
-    "headerSummary": "Display butterflyfish whose feeding response and reef plans matter before the sale. Feeding response and reef plans should both be confirmed before the sale.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
+    "staffNote": "Talk about the adult footprint first. This is not a “we will upgrade later” fish.",
+    "headerSummary": "Large, dramatic butterflyfish for spacious fish-only systems with room for an adult show fish. Look for the bold dark saddle patch, yellow fins, and inquisitive broad-bodied profile. Plan on at least 180+ gal.",
+    "behavior": "Confident, inquisitive, and increasingly imposing as size comes on. Adults use a lot of visual space and need open lanes to turn comfortably, so this is not a fish that ages gracefully in a squeezed community layout.",
+    "feedingNotes": "A varied meaty diet with frequent smaller offerings works better than treating the species like a once-a-day grazer. Healthy adults are active browsers, and they appreciate both open cruising room and rock structure to inspect between feedings.",
+    "buyingGuidance": "Recommend this fish only when the aquarist is planning around the adult animal rather than the juvenile in the bag. The right home is large, stable, and already headed toward a fish-only or very low-risk mixed display.",
+    "recognitionNotes": "Large-bodied butterflyfish with a strong dark saddle patch high on the back, yellow fins, and a broad, confident profile."
   },
   {
     "id": "teardrop-butterflyfish",
@@ -575,14 +582,14 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Display butterflyfish whose feeding response and reef plans matter before the sale",
+    "role": "Graceful larger butterflyfish that appreciates mature rock, steady feeding, and a calmer social mix.",
     "role_es": "",
-    "overview": "Teardrop Butterflyfish is a high-visibility display fish where feeding response and reef plans should be confirmed before the sale.",
+    "overview": "Teardrop Butterflyfish are striking, elegant fish that often do best when sold into mature systems with good rockwork and predictable feeding. They are not usually the roughest butterfly in the store, and they should not be treated like one just because they reach a respectable adult size.",
     "overview_es": "",
     "facts": [
-      "Mixed reefs should be watched closely for nipping or contact issues.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Prepared-food acceptance and browsing behavior should both be checked before the sale."
+      "Usually benefits from mature rockwork and multiple feedings while settling in.",
+      "Can be a strong display species in larger established tanks.",
+      "Still not a dependable no-risk reef choice."
     ],
     "photoTitle": "Teardrop Butterflyfish",
     "inStock": false,
@@ -599,20 +606,21 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Established large displays with live rock",
+      "Tankmates that are active but not relentlessly aggressive",
+      "Aquarists wanting a bold but not hyper-belligerent butterfly"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Immature tanks with little natural forage",
+      "Fast competitive feeders during acclimation",
+      "Coral collections that cannot absorb experimentation"
     ],
-    "staffNote": "",
-    "headerSummary": "Display butterflyfish whose feeding response and reef plans matter before the sale. Feeding response and reef plans should both be confirmed before the sale.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
+    "staffNote": "A mature tank helps this species a lot. Sell it into stability, not into a brand-new system.",
+    "headerSummary": "Graceful larger butterflyfish that appreciates mature rock, steady feeding, and a calmer social mix. Look for the bright yellow body, dark eye band, and distinct dark teardrop spot high on the rear flank. Plan on at least 125+ gal.",
+    "behavior": "Active during the day but usually more refined than bulldozing. They browse rock and open water alike, and they tend to fare better when housed with fish that will not constantly beat them to every meal.",
+    "feedingNotes": "Frequent varied offerings and a mature tank help this species settle into a dependable rhythm. Natural grazing opportunities on rockwork are useful, especially while a new fish is still building confidence with prepared foods.",
+    "buyingGuidance": "A very good choice for a larger fish-only or mixed live-rock display when the aquarist wants color and movement without jumping straight to the most delicate specialists. The recommendation should still cover coral risk and the need for a mature, well-fed system.",
+    "recognitionNotes": "Bright yellow butterflyfish with a dark eye band and a single large dark “tear” spot set high on the back half of the body."
   },
   {
     "id": "vagabond-butterflyfish",
@@ -636,14 +644,14 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 42,
-    "role": "Display butterflyfish whose feeding response and reef plans matter before the sale",
+    "role": "Robust larger butterflyfish that handles itself well in spacious fish-only displays.",
     "role_es": "",
-    "overview": "Vagabond Butterflyfish is a high-visibility display fish where feeding response and reef plans should be confirmed before the sale.",
+    "overview": "Vagabond Butterflyfish are attractive, active, and often more durable than the delicate specialist species. They still need a large tank and realistic coral expectations, but they make sense when the aquarist wants a big-patterned butterfly that can live in a stronger community than some of the shyer alternatives.",
     "overview_es": "",
     "facts": [
-      "Mixed reefs should be watched closely for nipping or contact issues.",
-      "Best results come from a stable system and a buyer who already has a routine.",
-      "Prepared-food acceptance and browsing behavior should both be checked before the sale."
+      "Often considered one of the tougher larger butterflyfish choices.",
+      "Can hold its own better than many shy butterfly species.",
+      "Needs adult-size planning and is not a reef-safe default."
     ],
     "photoTitle": "Vagabond Butterflyfish",
     "inStock": false,
@@ -660,19 +668,20 @@ window.LTC_SPECIES_CHUNKS["Butterflyfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Tankmates chosen around its behavior and adult size",
-      "Semi-aggressive tankmates of similar size"
+      "Large fish-only or live-rock systems",
+      "Semi-aggressive companions that are not outright bullies",
+      "Buyers seeking a durable patterned butterfly display fish"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Small or crowded tanks",
+      "Coral-dominant reef plans",
+      "Shoppers assuming “hardier” means “careless”"
     ],
-    "staffNote": "",
-    "headerSummary": "Display butterflyfish whose feeding response and reef plans matter before the sale. Feeding response and reef plans should both be confirmed before the sale.",
-    "behavior": "Constant picking fish that spends much of the day moving from rock to rock looking for small food items. These fish are beautiful and highly visible, but many do best in stable established systems rather than rushed new setups.",
-    "feedingNotes": "Feeding success is one of the biggest buying questions here. Confirm the fish is taking prepared foods well, then support it with frozen rotation and a mature tank that already offers natural picking opportunities.",
-    "buyingGuidance": "This is a fish to sell carefully, not casually. The key questions are feeding response, reef plans, and whether the customer is prepared for a more delicate or more coral-curious species than the average community fish.",
-    "recognitionNotes": "Look for a thin, round-bodied fish with a pointed snout and deliberate browsing behavior."
+    "staffNote": "Good sturdy butterfly, but still a large adult with real coral risk.",
+    "headerSummary": "Robust larger butterflyfish that handles itself well in spacious fish-only displays. Look for the white body crossed by dark chevrons, black eye band, and yellow fins. Plan on at least 125+ gal.",
+    "behavior": "Busy and visible once settled, with enough confidence to coexist with somewhat stronger tankmates than the gentle butterflies prefer. It still appreciates rock structure and breathing room, but it is not as easily overwhelmed as the more delicate feeder-first species.",
+    "feedingNotes": "A varied omnivore-leaning marine diet with repeated daily offerings usually works well. Like many larger butterflyfish, it responds well to mature systems where rockwork provides structure and supplemental browsing.",
+    "buyingGuidance": "Recommend this species when the buyer wants a sturdy show butterfly for a fish-only or mixed live-rock display. The right recommendation is about space, tankmate selection, and realistic acceptance that reefs and butterflyfish are still a risky combination.",
+    "recognitionNotes": "White body marked with diagonal dark chevrons, bold eye banding, and yellow dorsal, anal, and caudal fins."
   }
 ];

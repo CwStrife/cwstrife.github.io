@@ -1,17 +1,17 @@
 # LTC Fish Browser — Issues, Lessons, and Known Friction
 
-## Repeated issue patterns
-- The fish detail popup has been the most regression-prone surface. Layout changes there should stay conservative.
-- Inventory card fish-photo rendering has been fragile across multiple attempts; verify it in the deployed environment before piling on more styling.
-- Overly subtle effect passes can technically exist in code but still fail the real-world “can staff/customers notice it?” test.
+## Persistent issues
+- Category / folder tabs still do not feel as convenient as they should.
+- The category/folder area can still behave awkwardly at some widths and may appear to double-row or wrap badly.
+- Fish popup layout is still too roomy in places.
+- Popup video currently does not work.
+- Motion passes have repeatedly drifted toward shimmer / sheen instead of useful interaction feedback.
+- Staff-side editing can still feel dense.
 
 ## Lessons worth preserving
-- When a workflow is already working, do not redesign it unless the gain is obvious.
-- Dense staff UIs need visual grouping, obvious restore paths, and fewer admin controls at the same priority level.
-- Keep separate concepts separate: species facts vs store setup vs recent changes vs sale history.
-- Reduce file count for GitHub sanity, but keep rationale, bug history, and solved-problem notes available in compact docs.
+- Focused surgical fixes work better than giant mixed passes.
+- The popup is a fragile surface; do not destabilize close / scroll behavior casually.
+- Helpful motion is better than decorative motion.
+- Final persistence must be shared/backend-based, not browser-local only.
+- Catalog copy had drifted into a mix of useful husbandry and retail-floor wording; V0.092 corrected a large portion of that, but a premium final pass can still push individuality further in repeat-heavy families.
 
-## Current known watchpoints
-- Live deployment should still be checked for inventory-card image hydration.
-- Multi-device persistence is still limited because staff data is browser-local.
-- Top-traffic species categories should still get future accuracy/expansion passes.

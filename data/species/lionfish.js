@@ -27,21 +27,21 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "visualCue": "Bushy, feather-like pectoral fins with brown and white banding. Venomous spines along the dorsal.",
     "overview": "The manageable-sized lionfish. Dramatic appearance with venomous spines and fan-like fins, but small enough for medium tanks. Eats small fish and shrimp — not reef safe for invertebrates.",
     "facts": [
-      "Venomous dorsal spines — handle with extreme care.",
-      "Small enough for 30-gallon tanks unlike larger lionfish species.",
-      "Will eat any fish or shrimp small enough to swallow."
+      "One of the best lionfish choices when an aquarist wants the look without volitan scale.",
+      "Still venomous and still fully capable of eating small fish or shrimp.",
+      "Often spends long periods perched before exploding into feeding mode."
     ],
     "bestWith": [
-      "Predator tanks",
-      "Fish-only setups with similarly-sized tankmates",
-      "Experienced hobbyists who respect the venom"
+      "Predator or semi-predator tanks with swallow-safe tankmates",
+      "Aquarists ready for venomous-spine precautions",
+      "Keepers wanting lionfish appeal in a medium-size footprint"
     ],
     "cautionWith": [
-      "Any small fish or ornamental shrimp",
-      "Handling with bare hands",
-      "Children reaching into the tank"
+      "Tiny ornamental fish and shrimp",
+      "Rough tankmates that will harass a perched predator",
+      "Anyone treating it like a decorative reef fish"
     ],
-    "staffNote": "Always, always warn about the venom. Great fish but respect is required.",
+    "staffNote": "Great smaller lionfish, but keep the venom and prey-size talk front and center.",
     "photoTitle": "Dendrochirus brachypterus",
     "inStock": false,
     "badges": [],
@@ -58,8 +58,12 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "role_es": "Depredador venenoso pequeño con aletas dramáticas",
     "diet_es": "Carnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Small venomous predator with dramatic fan-like fins. Look for bushy, feather-like pectoral fins with brown and white banding. Venomous spines along the dorsal. Plan on at least 30+ gal.",
-    "seasonal": null
+    "headerSummary": "Compact lionfish with big predator personality and manageable adult size. Look for the fuzzy facial tassels, broad fanlike pectorals, and perched ambush posture. Plan on at least 30+ gal.",
+    "seasonal": null,
+    "recognitionNotes": "Short-bodied dwarf lion with shaggy facial tassels, broad pectoral fins, and a fluffy “fuzzy” look compared with sleeker lionfish species.",
+    "behavior": "Ambush predator that spends long stretches perched or hovering, then suddenly flares into motion when food appears. It is less about nonstop swimming and more about posture, stalking, and using those oversized pectoral fins to look even larger than it is.",
+    "feedingNotes": "Feed as a predator on a deliberate schedule with appropriately sized meaty marine foods. Long-term success comes from getting the fish onto dependable non-live offerings and making sure tankmates are not small enough to become “bonus feedings.”",
+    "buyingGuidance": "A strong predator-tank choice when the aquarist wants lionfish presence without the footprint of a full volitans. The trade-offs are still real: venom, swallow-size compatibility, and a routine built around predator feeding rather than community reef assumptions."
   },
   {
     "id": "antennata-lionfish",
@@ -83,14 +87,14 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Venomous predator with dramatic finnage and deliberate feeding behavior",
+    "role": "Ornate medium lionfish with dramatic finnage and classic hover-and-ambush behavior.",
     "role_es": "",
-    "overview": "Antennata Lionfish is a venomous predator that rewards calm feeding routines and careful tankmate choices. The catalog lists a minimum tank around 75+ gal. Adult size is listed around 8 in. Diet here is listed as Carnivore.",
+    "overview": "Antennata Lionfish bring the full lionfish aesthetic—long fins, venomous spines, and poised predator body language—without the enormous bulk of a volitan. They still need room, thoughtful tankmates, and an aquarist who is ready for predator feeding routines rather than passive community care.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 8 in.",
-      "Plan around roughly 75+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Offers a classic ornate lionfish look without full volitan mass.",
+      "Needs cave structure, calm feeding, and tankmates too large to swallow.",
+      "Venomous spines require careful handling during all maintenance."
     ],
     "photoTitle": "Antennata Lionfish",
     "inStock": false,
@@ -107,20 +111,21 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the large pectoral fins, extended spines, and slow hovering posture of venomous lionfish.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Predator displays with medium to larger tankmates",
+      "Aquarists wanting a show lionfish without a monster adult",
+      "Rocky layouts with shade, perches, and open water"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Fast aggressive feeders",
+      "Small fish and ornamental shrimp",
+      "Casual maintenance routines that ignore venom risk"
     ],
-    "staffNote": "",
-    "headerSummary": "Venomous predator with dramatic finnage and deliberate feeding behavior. Plan on roughly 75+ gal or larger long term.",
-    "behavior": "Usually slow and hovering rather than frantic, but still a capable ambush predator with strong feeding response.",
-    "feedingNotes": "Offer meaty frozen foods and condition it onto prepared items patiently if it arrives feeding narrowly.",
-    "recognitionNotes": "The extended head appendages and broad striping help separate it from the more common fuzzy and volitan types.",
-    "buyingGuidance": "Best sold to buyers who already understand predator compatibility and venomous-spine handling."
+    "staffNote": "Beautiful medium lionfish—sell the feeding style and venom precautions, not just the fins.",
+    "headerSummary": "Ornate medium lionfish with dramatic finnage and classic hover-and-ambush behavior. Look for the long striped fins, elevated dorsal spines, and graceful suspended posture. Plan on at least 75+ gal.",
+    "behavior": "Usually hovers or perches in a measured, deliberate way, then turns intensely focused when food appears. It appreciates shaded rockwork and caves, but a settled fish is often very visible and theatrical in open water too.",
+    "feedingNotes": "A varied meaty marine diet and patient transition onto dependable non-live foods set the species up well. Because it is not the fastest fish in the tank, calmer feeding competition and target placement often help more than simply adding more food.",
+    "recognitionNotes": "Elegant medium lionfish with long banded fins, ornate striping, and tall venomous dorsal spines that create a very airy profile.",
+    "buyingGuidance": "A strong recommendation when the aquarist wants a true lionfish display without committing to the scale of a volitan. The right home is predator-aware, swallow-size conscious, and comfortable with venomous-spine handling rules."
   },
   {
     "id": "fu-manchu-lionfish",
@@ -144,14 +149,14 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Venomous predator with dramatic finnage and deliberate feeding behavior",
+    "role": "Cryptic specialty dwarf lionfish for calm systems and patient feeders.",
     "role_es": "",
-    "overview": "Fu Manchu Lionfish is a venomous predator that rewards calm feeding routines and careful tankmate choices. The catalog lists a minimum tank around 55+ gal. Adult size is listed around 5 in. Diet here is listed as Carnivore.",
+    "overview": "Fu Manchu Lionfish are loved for their facial tassels and moody perching behavior, but they are not the easy dwarf-lion default. They tend to reward quieter systems, patient acclimation, and aquarists who understand that a shy ambush predator may need time before it behaves like a show fish.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 5 in.",
-      "Plan around roughly 55+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "More secretive and specialty-oriented than easy dwarf fuzzy lionfish.",
+      "Often benefits from quieter tankmates and patient target feeding.",
+      "Still venomous and still fully capable of eating very small fish or shrimp."
     ],
     "photoTitle": "Fu Manchu Lionfish",
     "inStock": false,
@@ -168,20 +173,21 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the large pectoral fins, extended spines, and slow hovering posture of venomous lionfish.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Calm predator or semi-predator systems",
+      "Aquarists happy to target feed and wait for confidence to build",
+      "Rocky aquascapes with shaded ledges and caves"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Fast boisterous community feeders",
+      "Tiny fish and ornamental shrimp",
+      "Buyers expecting instant boldness or easy frozen-food transition"
     ],
-    "staffNote": "",
-    "headerSummary": "Venomous predator with dramatic finnage and deliberate feeding behavior. Plan on roughly 55+ gal or larger long term.",
-    "behavior": "Slow, cryptic, and often shy at first. Settled fish tend to perch and wait rather than cruise openly.",
-    "feedingNotes": "Needs a dependable meaty feeding routine and may require more patience than easier dwarf lionfish.",
-    "recognitionNotes": "The facial tassels and compact ornate body shape are the giveaway.",
-    "buyingGuidance": "Sell this as a specialty dwarf predator, not as the beginner lionfish option."
+    "staffNote": "Sell it as a specialty dwarf lion, not as the easiest dwarf lion.",
+    "headerSummary": "Cryptic specialty dwarf lionfish for calm systems and patient feeders. Look for the pronounced moustache-like tassels, compact body, and secretive perch-under-ledges behavior. Plan on at least 55+ gal.",
+    "behavior": "Usually more secretive than the bold dwarf fuzzy types, favoring shaded ledges, caves, and low-pressure territory. Once settled it becomes a compelling perch hunter, but it is still a fish that often shows best for the keeper who waits rather than forces activity.",
+    "feedingNotes": "This species often rewards careful target feeding and patience during the transition to prepared meaty foods. Peaceful tankmates and lower competition help a lot, because it is easy for a timid Fu Manchu to lose out in a crowded feeding lane.",
+    "recognitionNotes": "Compact lionfish with elaborate moustache-like tassels around the mouth, striped fins, and a cryptic perch-ready body shape.",
+    "buyingGuidance": "Recommend to aquarists who specifically want a specialty dwarf lionfish and are willing to build a calmer, more intentional setup around it. It is not the best beginner lionfish, but it is an excellent connoisseur’s dwarf predator when matched correctly."
   },
   {
     "id": "radiata-lionfish",
@@ -205,14 +211,14 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Venomous predator with dramatic finnage and deliberate feeding behavior",
+    "role": "Graceful medium lionfish with elegant striping and a more refined look than the bulky giants.",
     "role_es": "",
-    "overview": "Radiata Lionfish is a venomous predator that rewards calm feeding routines and careful tankmate choices. The catalog lists a minimum tank around 75+ gal. Adult size is listed around 9 in. Diet here is listed as Carnivore.",
+    "overview": "Radiata Lionfish offer beautiful long-fin lionfish form in a size that stays more manageable than a volitan. They still need predator-compatible tankmates and venom respect, but they appeal strongly to aquarists who want elegance and pattern rather than sheer bulk.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 9 in.",
-      "Plan around roughly 75+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Smaller and more refined in appearance than a full volitan.",
+      "Still requires predator planning and venom awareness.",
+      "Benefits from caves, ledges, and feeding routines that prevent outcompetition."
     ],
     "photoTitle": "Radiata Lionfish",
     "inStock": false,
@@ -229,20 +235,21 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the large pectoral fins, extended spines, and slow hovering posture of venomous lionfish.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Medium to large predator displays",
+      "Aquarists who want ornate lionfish form without giant size",
+      "Tankmates too large to swallow and not overly aggressive at feeding time"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Aggressive feeders that outcompete slower predators",
+      "Shrimp and miniature fish",
+      "Maintenance routines that ignore venomous spines"
     ],
-    "staffNote": "",
-    "headerSummary": "Venomous predator with dramatic finnage and deliberate feeding behavior. Plan on roughly 75+ gal or larger long term.",
-    "behavior": "Perch-and-hover predator that often becomes most active at feeding time and toward lower-light periods.",
-    "feedingNotes": "Feed meaty foods with patience and target placement if needed so tankmates do not outcompete it.",
-    "recognitionNotes": "The cleaner white striping helps separate it from the bolder volitan look.",
-    "buyingGuidance": "Best sold to buyers who want lionfish form without the eventual size of a volitan, but who still understand predator trade-offs."
+    "staffNote": "Excellent mid-size lionfish when the aquarist wants elegance more than maximum bulk.",
+    "headerSummary": "Graceful medium lionfish with elegant striping and a more refined look than the bulky giants. Look for the crisp banding, long rays, and poised hover under ledges or in open water. Plan on at least 75+ gal.",
+    "behavior": "Often perches beneath overhangs or hovers near structure, becoming much more focused and assertive when food is introduced. It is a patient ambush hunter, not a nonstop cruiser, so it values caves and perches as much as open display space.",
+    "feedingNotes": "Varied meaty foods and calm target feeding work well, especially in mixed predator tanks where quicker fish may otherwise steal the meal. Like other lionfish, long-term success improves when the fish is on stable non-live foods rather than constantly relying on live feeders.",
+    "recognitionNotes": "Elegant lionfish with strong radial striping, elongated rays, and a refined mid-size profile that looks lighter than the heavier-bodied volitans.",
+    "buyingGuidance": "A great choice for aquarists who want a lionfish with strong pattern and presence but not the footprint of a volitan. The recommendation still covers venom, swallow-size limits, and the need for a more intentional feeding style."
   },
   {
     "id": "volitan-lionfish",
@@ -266,14 +273,14 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Venomous predator with dramatic finnage and deliberate feeding behavior",
+    "role": "Large iconic lionfish centerpiece that turns a tank into a real predator display.",
     "role_es": "",
-    "overview": "Volitan Lionfish is a venomous predator that rewards calm feeding routines and careful tankmate choices. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 15 in. Diet here is listed as Carnivore.",
+    "overview": "Volitan Lionfish are the classic full-scale lionfish: huge fins, commanding presence, and an adult size that changes the entire feel of the aquarium. They are spectacular centerpieces, but they demand an aquarist who is ready for large predator consequences rather than just admiring a juvenile with flowing fins.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 15 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Can reach roughly 15 inches and dominate the visual scale of a display.",
+      "Will eat many fish and crustaceans that fit its mouth.",
+      "Needs more adult-planning discipline than the juvenile size at purchase suggests."
     ],
     "photoTitle": "Volitan Lionfish",
     "inStock": false,
@@ -290,20 +297,21 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the large pectoral fins, extended spines, and slow hovering posture of venomous lionfish.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Large predator systems with robust tankmates",
+      "Aquarists seeking a true centerpiece fish",
+      "Layouts that combine open swimming room with caves or shaded structure"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Small reef fish, shrimp, and other easy prey",
+      "Under-sized tanks or upgrade-later thinking",
+      "Buyers attracted to the juvenile look without adult planning"
     ],
-    "staffNote": "",
-    "headerSummary": "Venomous predator with dramatic finnage and deliberate feeding behavior. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Slow dramatic movement until food is involved, then very focused predatory response.",
-    "feedingNotes": "Feed a varied meaty diet and plan around its adult appetite and eventual bulk, not just the juvenile stage.",
-    "recognitionNotes": "This is the lionfish most people picture first—broad fan fins and heavy striped body.",
-    "buyingGuidance": "Sell as a real predator centerpiece. Great visual payoff, but only for buyers already prepared for adult size and prey risk."
+    "staffNote": "Always bring the conversation back to adult size and prey risk.",
+    "headerSummary": "Large iconic lionfish centerpiece that turns a tank into a real predator display. Look for the broad striped body, enormous fanlike fins, and bold open-water presence. Plan on at least 125+ gal.",
+    "behavior": "Often hides while acclimating, then becomes a dramatic open-water or mid-structure presence once comfortable. Feeding time brings a focused predatory response, and the adult fish uses a lot more visual and physical space than many aquarists imagine from juvenile specimens.",
+    "feedingNotes": "A varied marine meaty diet and disciplined predator feeding routine are essential. This is also where compatibility plans live or die: if it fits in the lion’s mouth, it is eventually at risk, and that list is longer than many community aquarists first assume.",
+    "recognitionNotes": "Large striped lionfish with massive fanlike pectoral fins, long dorsal venom spines, and unmistakable classic lionfish proportions.",
+    "buyingGuidance": "Recommend only when the aquarist is intentionally building a predator or large semi-predator display. The right conversation is about adult footprint, prey-size math, venomous-spine respect, and whether the system is truly being planned around a 15-inch centerpiece."
   },
   {
     "id": "zebra-lionfish",
@@ -327,14 +335,14 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "coralRisk": 28,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Venomous predator with dramatic finnage and deliberate feeding behavior",
+    "role": "Medium lionfish with crisp banding and classic perch-and-ambush behavior.",
     "role_es": "",
-    "overview": "Zebra Lionfish is a venomous predator that rewards calm feeding routines and careful tankmate choices. The catalog lists a minimum tank around 55+ gal. Adult size is listed around 7 in. Diet here is listed as Carnivore.",
+    "overview": "Zebra Lionfish strike a nice balance between manageability and dramatic predator style. They stay smaller than the giant volitans but still need an aquarist who understands venomous spines, predator feeding, and the fact that shrimp and bite-size fish will never be safe tankmates.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 7 in.",
-      "Plan around roughly 55+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Good middle-ground lionfish between tiny dwarfs and giant volitans.",
+      "Still fully venomous and still a threat to small fish and shrimp.",
+      "Does best with caves, perches, and swallow-safe tankmates."
     ],
     "photoTitle": "Zebra Lionfish",
     "inStock": false,
@@ -351,19 +359,20 @@ window.LTC_SPECIES_CHUNKS["Lionfish"] = [
     "careLabel": "Intermediate",
     "visualCue": "Look for the large pectoral fins, extended spines, and slow hovering posture of venomous lionfish.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "Predator or semi-predator systems with moderate-size tankmates",
+      "Aquarists wanting lionfish form in a more manageable adult size",
+      "Rockwork that provides both caves and ambush perches"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "Tiny fish and ornamental shrimp",
+      "Fast aggressive tankmates during meals",
+      "Anyone downplaying venomous-spine handling"
     ],
-    "staffNote": "",
-    "headerSummary": "Venomous predator with dramatic finnage and deliberate feeding behavior. Plan on roughly 55+ gal or larger long term.",
-    "behavior": "Perches, hovers, and ambushes rather than openly cruising the tank.",
-    "feedingNotes": "Provide meaty foods and a feeding routine that ensures it is not bullied away from meals.",
-    "recognitionNotes": "Clear zebra striping and compact lionfish build make this a very recognizable species.",
-    "buyingGuidance": "A strong lionfish sale for buyers who want a medium-size predator and already understand venomous-spine handling."
+    "staffNote": "A nice middle-weight lionfish, but the normal lionfish rules still fully apply.",
+    "headerSummary": "Medium lionfish with crisp banding and classic perch-and-ambush behavior. Look for the striped fins, leaner body, and poised perched posture. Plan on at least 55+ gal.",
+    "behavior": "Usually perches or hovers in a calculated way rather than cruising constantly. It uses structure well, often claiming favored ledges or cave mouths and then shifting into a focused hunting posture as soon as food movement appears.",
+    "feedingNotes": "A stable routine built around meaty marine foods works well, and target feeding is helpful when housed with faster or more assertive predators. Like other lionfish, success is better when the fish is confidently eating non-live foods before long-term community plans are made.",
+    "recognitionNotes": "Striped medium lionfish with a slimmer frame than a volitan, long banded rays, and a very poised hover-or-perch stance.",
+    "buyingGuidance": "A very good option for the aquarist who wants a true lionfish without going full volitan. The recommendation should still cover venom, prey-size compatibility, and the need for an intentionally predator-oriented setup."
   }
 ];

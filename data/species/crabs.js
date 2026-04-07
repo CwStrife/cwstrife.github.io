@@ -1,4 +1,3 @@
-window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Crabs"] = [
   {
     "id": "emerald-crab",
@@ -23,12 +22,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "invertRisk": 8,
     "careDifficulty": 12,
     "role": "Bubble algae destroyer and general cleanup crew",
-    "visualCue": "Bright emerald green body with flat claws adapted for picking algae.",
-    "overview": "The go-to solution for bubble algae (Valonia). One of the few things that reliably eats it. Generally reef safe but large specimens can get opportunistic.",
+    "visualCue": "Look for deep green body and spooned algae-picking claws.",
+    "overview": "Useful algae-picking crab that can help with bubble algae and leftover food when chosen for the right reef. It is still a crab, so the best long-term results come from a well-fed animal in a sensibly stocked tank—not from treating it as a magical algae robot.",
     "facts": [
-      "One of the only reliable solutions for bubble algae.",
-      "Generally reef safe but large ones can occasionally bother corals.",
-      "Cheap and readily available."
+      "Often recommended for bubble algae control, though results vary by individual and tank conditions.",
+      "Usually safer than many crabs in reefs, but opportunistic picking is still possible if food is short.",
+      "Best behavior comes from keeping the crab fed and not forcing it to compete for every scrap."
     ],
     "bestWith": [
       "Any reef tank with bubble algae",
@@ -39,7 +38,7 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
       "Large specimens near prized corals",
       "Multiple large crabs in small spaces"
     ],
-    "staffNote": "Bubble algae? Sell them an Emerald Crab. Simple.",
+    "staffNote": "When bubble algae is the main nuisance, this is one of the clearest first-line cleanup animals to discuss.",
     "photoTitle": "Mithraculus sculptus",
     "inStock": false,
     "badges": [],
@@ -56,8 +55,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "role_es": "Destructor de algas burbuja y equipo de limpieza",
     "diet_es": "Omnívoro / herbívoro",
     "origin_es": "Caribe",
-    "headerSummary": "Bubble algae destroyer and general cleanup crew. Look for bright emerald green body with flat claws adapted for picking algae. Plan on at least 10+ gal.",
-    "seasonal": null
+    "headerSummary": "Helpful algae-picking mithrax crab with real utility and the usual crab caveat: useful does not mean perfectly predictable.",
+    "seasonal": null,
+    "behavior": "Spends much of its time picking over rock surfaces, crevices, and patches of algae rather than roaming constantly in the open. Well-fed mithrax crabs usually behave better than hungry ones.",
+    "feedingNotes": "Will pick algae and detritus, but it still benefits from occasional meaty or herbivore supplemental foods. Tanks with no real food support are more likely to push a crab into opportunistic coral or invertebrate picking.",
+    "buyingGuidance": "Recommend when the owner wants a crab with genuine algae utility and understands that no crab is a zero-risk machine. This is a better fit for practical reef keepers than for people expecting a guaranteed one-animal fix.",
+    "recognitionNotes": "Look for deep green body and spooned algae-picking claws."
   },
   {
     "id": "halloween-hermit",
@@ -83,16 +86,16 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "invertRisk": 6,
     "careDifficulty": 10,
     "role": "Colorful cleanup crew hermit with orange and red stripes",
-    "visualCue": "Bright orange legs with dark red/brown bands. Much more colorful than standard blue-leg hermits.",
-    "overview": "The most visually striking hermit crab available. Does all the normal cleanup crew work but looks dramatically better doing it.",
+    "visualCue": "Look for bold orange-black-white banding and very large shell-bearing build.",
+    "overview": "Active cleanup hermit that adds movement and scavenging value, but still needs empty spare shells and realistic expectations. Hermits are excellent utility animals when stocked appropriately; they become trouble when they are crowded, starving, or forced to fight over housing.",
     "facts": [
-      "Much more colorful than standard blue or red-leg hermits.",
-      "Same cleanup crew function at a slight price premium.",
-      "Needs spare shells to move into as it grows."
+      "Hermits benefit from spare empty shells so they are less likely to harass snails for housing.",
+      "Different hermit species vary in size and attitude, but all are opportunistic scavengers.",
+      "Best used as part of a mixed crew, not as the only answer to algae or detritus."
     ],
     "bestWith": [
       "Any reef tank cleanup crew",
-      "Customers wanting better-looking hermits",
+      "aquarists wanting better-looking hermits",
       "Nano to large tanks"
     ],
     "cautionWith": [
@@ -116,8 +119,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "role_es": "Ermitaño colorido de equipo de limpieza",
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Colorful cleanup crew hermit with orange and red stripes. Look for bright orange legs with dark red/brown bands. Much more colorful than standard blue-leg hermits. Plan on at least 10+ gal.",
-    "seasonal": null
+    "headerSummary": "Useful scavenging hermit crab that needs spare shells and sensible stocking density. Great worker when managed well, annoying when treated like a disposable cleanup plug-in.",
+    "seasonal": null,
+    "behavior": "Usually spends the day roaming over rock and substrate picking through leftovers, films, and loose debris. Shell disputes and snail harassment are far more likely in tanks that offer no extra shells or run too many hermits per gallon.",
+    "feedingNotes": "Hermits scavenge aggressively but should still get enough food support that they are not competing desperately with snails and each other. Occasional pellets, fine frozen foods, and algae support keep crews calmer.",
+    "buyingGuidance": "Recommend based on cleanup-crew balance and shell availability, not because “crabs are cool.” The smartest hermit sale is usually paired with spare shell advice and a reminder that huge hermit armies create their own problems.",
+    "recognitionNotes": "Look for bold orange-black-white banding and very large shell-bearing build."
   },
   {
     "id": "scarlet-hermit",
@@ -142,12 +149,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "invertRisk": 4,
     "careDifficulty": 8,
     "role": "Reef-safe hermit crab for cleanup crews",
-    "visualCue": "Bright red legs with yellow-orange accents emerging from a spiral shell.",
-    "overview": "A small, colorful, reef-safe hermit crab that's less aggressive than blue-leg hermits. Great for cleanup crews without the risk of harassing snails.",
+    "visualCue": "Look for rich red legs with yellow facial details.",
+    "overview": "Active cleanup hermit that adds movement and scavenging value, but still needs empty spare shells and realistic expectations. Hermits are excellent utility animals when stocked appropriately; they become trouble when they are crowded, starving, or forced to fight over housing.",
     "facts": [
-      "Less aggressive than blue-leg hermits toward snails.",
-      "Very colorful — the red stands out.",
-      "Provide extra shells so they don't fight over them."
+      "Hermits benefit from spare empty shells so they are less likely to harass snails for housing.",
+      "Different hermit species vary in size and attitude, but all are opportunistic scavengers.",
+      "Best used as part of a mixed crew, not as the only answer to algae or detritus."
     ],
     "bestWith": [
       "Any reef tank cleanup crew",
@@ -174,8 +181,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "role_es": "Ermitaño seguro para arrecife y equipo de limpieza",
     "diet_es": "Omnívoro",
     "origin_es": "Caribe",
-    "headerSummary": "Reef-safe hermit crab for cleanup crews. Look for bright red legs with yellow-orange accents emerging from a spiral shell. Plan on at least 5+ gal.",
-    "seasonal": null
+    "headerSummary": "Useful scavenging hermit crab that needs spare shells and sensible stocking density. Great worker when managed well, annoying when treated like a disposable cleanup plug-in.",
+    "seasonal": null,
+    "behavior": "Usually spends the day roaming over rock and substrate picking through leftovers, films, and loose debris. Shell disputes and snail harassment are far more likely in tanks that offer no extra shells or run too many hermits per gallon.",
+    "feedingNotes": "Hermits scavenge aggressively but should still get enough food support that they are not competing desperately with snails and each other. Occasional pellets, fine frozen foods, and algae support keep crews calmer.",
+    "buyingGuidance": "Recommend based on cleanup-crew balance and shell availability, not because “crabs are cool.” The smartest hermit sale is usually paired with spare shell advice and a reminder that huge hermit armies create their own problems.",
+    "recognitionNotes": "Look for rich red legs with yellow facial details."
   },
   {
     "id": "blue-leg-hermit",
@@ -200,23 +211,23 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "invertRisk": 6,
     "careDifficulty": 8,
     "role": "Standard cleanup crew hermit that grazes on algae",
-    "visualCue": "Bright blue legs emerging from a small spiral shell. Constantly scavenging across rock and glass.",
-    "overview": "The standard-issue cleanup crew hermit. Cheap, effective, and available everywhere. Eats algae, detritus, and leftover food. Buy them in bulk for best results.",
+    "visualCue": "Look for blue legs with smaller, busier cleanup-crew energy.",
+    "overview": "Active cleanup hermit that adds movement and scavenging value, but still needs empty spare shells and realistic expectations. Hermits are excellent utility animals when stocked appropriately; they become trouble when they are crowded, starving, or forced to fight over housing.",
     "facts": [
-      "The most common cleanup crew hermit in the hobby.",
-      "Cheap enough to buy 10-20 at a time.",
-      "Will fight over shells — provide extras."
+      "Hermits benefit from spare empty shells so they are less likely to harass snails for housing.",
+      "Different hermit species vary in size and attitude, but all are opportunistic scavengers.",
+      "Best used as part of a mixed crew, not as the only answer to algae or detritus."
     ],
     "bestWith": [
       "Any reef tank cleanup crew",
-      "Bulk purchases",
+      "large cleanup-crew groupings",
       "Tanks needing algae control on a budget"
     ],
     "cautionWith": [
       "No spare shells available — they'll kill snails for theirs",
       "Overstocking in very small tanks"
     ],
-    "staffNote": "Sell in bulk. Always sell spare shells with them.",
+    "staffNote": "These are usually stocked in groups matched to the tank size. Always recommend spare shells with them.",
     "photoTitle": "Clibanarius tricolor",
     "inStock": false,
     "badges": [],
@@ -233,8 +244,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "role_es": "Ermitaño estándar de equipo de limpieza",
     "diet_es": "Omnívoro / herbívoro",
     "origin_es": "Caribe",
-    "headerSummary": "Standard cleanup crew hermit that grazes on algae. Look for bright blue legs emerging from a small spiral shell. Constantly scavenging across rock and glass. Plan on at least 5+ gal.",
-    "seasonal": null
+    "headerSummary": "Useful scavenging hermit crab that needs spare shells and sensible stocking density. Great worker when managed well, annoying when treated like a disposable cleanup plug-in.",
+    "seasonal": null,
+    "behavior": "Usually spends the day roaming over rock and substrate picking through leftovers, films, and loose debris. Shell disputes and snail harassment are far more likely in tanks that offer no extra shells or run too many hermits per gallon.",
+    "feedingNotes": "Hermits scavenge aggressively but should still get enough food support that they are not competing desperately with snails and each other. Occasional pellets, fine frozen foods, and algae support keep crews calmer.",
+    "buyingGuidance": "Recommend based on cleanup-crew balance and shell availability, not because “crabs are cool.” The smartest hermit sale is usually paired with spare shell advice and a reminder that huge hermit armies create their own problems.",
+    "recognitionNotes": "Look for blue legs with smaller, busier cleanup-crew energy."
   },
   {
     "id": "anemone-porcelain-crab",
@@ -260,12 +275,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 24,
     "role": "Tiny filter-feeding crab best known for living near host anemones and waving fan-like mouthparts",
     "role_es": "",
-    "overview": "A specialty crab for peaceful reef keepers who want interesting behavior and are comfortable with a smaller, more delicate invert. It is much more about host association and display than brute-force cleanup work.",
+    "overview": "Delicate filter-feeding crab that is best appreciated in calmer reef setups where it can perch, fan-feed, and ideally associate with a host. It is not a bulldozer cleanup crab and should be sold as a specialty ornamental, not as a generic detritus worker.",
     "overview_es": "",
     "facts": [
-      "Often stays in or beside an anemone once established.",
-      "Uses fan-like appendages to catch food from the water column.",
-      "Usually peaceful but can be stressed by rough tankmates."
+      "Uses fan-like appendages to collect suspended food from the water column.",
+      "Usually does best in calmer, more stable reef systems than rough-and-tumble crab mixes.",
+      "Host anemones or suitable perches often make it much bolder and easier to observe."
     ],
     "photoTitle": "Neopetrolisthes maculatus",
     "inStock": false,
@@ -280,19 +295,23 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "flat white to cream crab with spotted patterning and broad claws held low while it fans the water.",
+    "visualCue": "Look for host-association with anemones and feathery filter-feeding fans.",
     "bestWith": [
       "Peaceful reefs with suitable hosts",
       "Nano and smaller display reefs",
-      "Customers who enjoy subtle behavior"
+      "aquarists who enjoy subtle behavior"
     ],
     "cautionWith": [
       "Aggressive fish that constantly disturb the host area",
       "Brand-new tanks without stable feeding routines",
-      "Buyers looking for an algae-eating crab"
+      "aquarists looking for an algae-eating crab"
     ],
-    "staffNote": "Sell it as a host-associated ornamental crab, not as a generic cleanup crew item.",
-    "headerSummary": "Tiny filter-feeding crab best known for living near host anemones and waving fan-like mouthparts. Look for flat white to cream crab with spotted patterning and broad claws held low while it fans the water. Plan on at least 15+ gal."
+    "staffNote": "Treat it as a host-associated ornamental crab, not as a generic cleanup crew item.",
+    "headerSummary": "Filter-feeding ornamental crab best for peaceful reefs and host displays. Great personality when the setup supports it, poor fit for rough mixed-crab tanks.",
+    "behavior": "Often stays perched in one preferred spot and filters suspended foods rather than constantly roaming the tank. That calmer style makes it charming in the right reef and invisible or vulnerable in the wrong one.",
+    "feedingNotes": "Broadcast fine planktonic foods or other small suspended foods so the crab can actually use its filter-feeding fans. It is not designed to live purely on leftover chunks like a hermit.",
+    "buyingGuidance": "Recommend when the aquarist wants a host-style or specialty ornamental crab and understands the feeding difference. This is a better sale for a thoughtful reef display than for a “cleanup crew bundle.”",
+    "recognitionNotes": "Look for host-association with anemones and feathery filter-feeding fans."
   },
   {
     "id": "arrow-crab",
@@ -316,14 +335,14 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "coralRisk": 6,
     "invertRisk": 36,
     "careDifficulty": 28,
-    "role": "Long-legged predator-scavenger often sold for bristleworm control in fishy reef systems",
+    "role": "Long-legged predator-scavenger often chosen for bristleworm control in fishy reef systems",
     "role_es": "Cangrejo tipo araña que caza gusanos de cerdas y gusanos de fuego",
-    "overview": "Arrow crabs are useful and weird-looking, but they are not harmless decorative fillers. They make the most sense for customers who accept that worm-hunting and opportunism go together.",
+    "overview": "An unmistakable long-legged crab that can be useful against some bristle worms, but should always be treated as an opportunistic predator rather than a gentle cleanup mascot. Fascinating animal, not a universally safe reef crab.",
     "overview_es": "Un cangrejo de aspecto bizarro con patas extremadamente largas y delgadas y cabeza puntiaguda. Excelente cazador de gusanos de cerdas.",
     "facts": [
-      "Will pick at worms and leftover meaty foods.",
-      "Can threaten tiny shrimp or weak tankmates as they grow.",
-      "Best viewed as a utility predator, not a pure cleanup grazer."
+      "May prey on bristle worms and other small benthic animals.",
+      "Can bother tiny shrimp, feather dusters, or weak tankmates once established.",
+      "Long legs and spider-like body make it one of the easiest crabs to identify instantly."
     ],
     "photoTitle": "Stenorhynchus seticornis",
     "inStock": false,
@@ -338,19 +357,23 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "spider-like body with an extremely long pointed rostrum and very long legs.",
+    "visualCue": "Very long thin spider-like legs and a narrow pointed body.",
     "bestWith": [
       "Bristleworm-heavy systems",
       "Semi-aggressive community reefs",
-      "Customers who like oddball inverts"
+      "aquarists who like oddball inverts"
     ],
     "cautionWith": [
       "Tiny shrimp and delicate nano fish",
       "Crowded nano reefs",
-      "Buyers assuming it is reef safe in every situation"
+      "aquarists assuming it is reef safe in every situation"
     ],
-    "staffNote": "Great oddball sale when the customer understands the predatory side.",
-    "headerSummary": "Long-legged predator-scavenger often sold for bristleworm control in fishy reef systems. Look for spider-like body with an extremely long pointed rostrum and very long legs. Plan on at least 30+ gal."
+    "staffNote": "Great oddball fit when the aquarist understands the predatory side.",
+    "headerSummary": "Distinctive long-legged reef crab with real oddball appeal and real predatory caveats. Best as a deliberate specialty choice, not a default cleanup add-on.",
+    "behavior": "Usually prowls rockwork and crevices with a slow spider-like gait, investigating anything edible it can reach. It is more predatory and less predictably reef-safe than emerald-type algae crabs.",
+    "feedingNotes": "Accepts meaty foods and scavenges readily, which is useful but also part of why it can become a problem in delicate reef communities. Do not let it become a half-starved opportunist in a tank full of tempting worms and tiny inverts.",
+    "buyingGuidance": "Recommend only when the owner understands the trade-off: unusual look and possible worm control in exchange for more risk to small inverts. Not the right choice for tanks built around tiny ornamental crustaceans or feather duster collections.",
+    "recognitionNotes": "Very long thin legs and a spider-like body profile that stands out instantly from more compact reef crabs."
   },
   {
     "id": "decorator-crab",
@@ -376,12 +399,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 26,
     "role": "Camouflage crab that attaches rubble, macro, and sometimes frags to its body",
     "role_es": "",
-    "overview": "Decorator crabs are fun, but the real story is that they move things and borrow things. That makes them a better fit for casual mixed reefs than for high-end frag gardens where every loose item matters.",
+    "overview": "Specialty crab famous for attaching bits of sponge, algae, or debris to itself for camouflage. Entertaining and unusual, but not a no-risk reef crab because the decorating habit can involve taking material from the display.",
     "overview_es": "",
     "facts": [
-      "More of a behavior animal than a precision cleanup tool.",
-      "Will pick up bits of shell, rubble, and soft material to camouflage itself.",
-      "Should not be sold as a harmless set-and-forget crab in delicate nano reefs."
+      "Uses attached bits of algae, sponge, or other material as camouflage.",
+      "May disturb frags or ornamental growth while gathering decoration material.",
+      "Better sold as an oddball display crab than as practical cleanup crew."
     ],
     "photoTitle": "Camposcia retusa",
     "inStock": false,
@@ -396,11 +419,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "hairy crab body that often disappears under bits of macroalgae, sponge, or rubble it has attached to itself.",
+    "visualCue": "Crab often carrying bits of algae, sponge, or rubble on its body.",
     "bestWith": [
       "Oddball reef displays",
       "Macro and rubble-heavy systems",
-      "Customers who like unusual behavior"
+      "aquarists who like unusual behavior"
     ],
     "cautionWith": [
       "Loose coral frags",
@@ -408,7 +431,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
       "Tiny tanks where constant rearranging becomes annoying"
     ],
     "staffNote": "Fun animal, but be honest that it will redecorate the tank in its own style.",
-    "headerSummary": "Camouflage crab that attaches rubble, macro, and sometimes frags to its body. Look for hairy crab body that often disappears under bits of macroalgae, sponge, or rubble it has attached to itself. Plan on at least 30+ gal."
+    "headerSummary": "Oddball camouflage crab that decorates itself with tank material. Great conversation piece, not a tidy hands-off worker.",
+    "behavior": "Moves more deliberately than busy hermits and spends time collecting and wearing camouflage from the environment. That behavior is exactly why people love it—and exactly why tidy aquascapes may not.",
+    "feedingNotes": "Scavenges and accepts meaty foods, but a stable feeding routine matters if you want less opportunistic picking around the display. A hungry decorator is even less respectful of ornamental material.",
+    "buyingGuidance": "Recommend when the owner wants a genuinely quirky display crab and is okay with the possibility of it stealing bits of macro, sponge, or other decoration. This is a personality sale, not a precision cleanup sale.",
+    "recognitionNotes": "Rounder body and long legs, often carrying attached bits of algae or rubble for camouflage."
   },
   {
     "id": "electric-blue-hermit-crab",
@@ -434,12 +461,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 16,
     "role": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells",
     "role_es": "",
-    "overview": "A solid hermit sale when the customer wants movement and scavenging, but the shell issue should always be part of the conversation. Like most hermits, it is more reliable when spare shells are available and the tank is not grossly overstocked.",
+    "overview": "Active cleanup hermit that adds movement and scavenging value, but still needs empty spare shells and realistic expectations. Hermits are excellent utility animals when stocked appropriately; they become trouble when they are crowded, starving, or forced to fight over housing.",
     "overview_es": "",
     "facts": [
-      "Needs spare shells to reduce shell theft and fighting.",
-      "Helps with leftovers, film algae, and general scavenging.",
-      "Can knock around unsecured frags while climbing."
+      "Hermits benefit from spare empty shells so they are less likely to harass snails for housing.",
+      "Different hermit species vary in size and attitude, but all are opportunistic scavengers.",
+      "Best used as part of a mixed crew, not as the only answer to algae or detritus."
     ],
     "photoTitle": "Calcinus elegans",
     "inStock": false,
@@ -454,19 +481,23 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "electric blue legs and a shell carried like a mobile little bulldozer.",
+    "visualCue": "Look for distinctive hermit-crab striping and shell-carrying body.",
     "bestWith": [
       "Mixed cleanup crews",
       "Tanks with spare shells",
-      "Owners who want more movement on the rockwork"
+      "keepers who want more movement on the rockwork"
     ],
     "cautionWith": [
       "No spare shells in the system",
       "Tiny snails that may be harassed for shells",
-      "Customers expecting zero bulldozing from a crab"
+      "aquarists expecting zero bulldozing from a crab"
     ],
-    "staffNote": "Always add spare shells to the sale. That saves headaches later.",
-    "headerSummary": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells. Look for electric blue legs and a shell carried like a mobile little bulldozer. Plan on at least 20+ gal."
+    "staffNote": "always pair it with spare shells. That saves headaches later.",
+    "headerSummary": "Useful scavenging hermit crab that needs spare shells and sensible stocking density. Great worker when managed well, annoying when treated like a disposable cleanup plug-in.",
+    "behavior": "Usually spends the day roaming over rock and substrate picking through leftovers, films, and loose debris. Shell disputes and snail harassment are far more likely in tanks that offer no extra shells or run too many hermits per gallon.",
+    "feedingNotes": "Hermits scavenge aggressively but should still get enough food support that they are not competing desperately with snails and each other. Occasional pellets, fine frozen foods, and algae support keep crews calmer.",
+    "buyingGuidance": "Recommend based on cleanup-crew balance and shell availability, not because “crabs are cool.” The smartest hermit sale is usually paired with spare shell advice and a reminder that huge hermit armies create their own problems.",
+    "recognitionNotes": "Look for distinctive hermit-crab striping and shell-carrying body."
   },
   {
     "id": "electric-orange-hermit-crab",
@@ -492,12 +523,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 16,
     "role": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells",
     "role_es": "",
-    "overview": "A solid hermit sale when the customer wants movement and scavenging, but the shell issue should always be part of the conversation. Like most hermits, it is more reliable when spare shells are available and the tank is not grossly overstocked.",
+    "overview": "Active cleanup hermit that adds movement and scavenging value, but still needs empty spare shells and realistic expectations. Hermits are excellent utility animals when stocked appropriately; they become trouble when they are crowded, starving, or forced to fight over housing.",
     "overview_es": "",
     "facts": [
-      "Needs spare shells to reduce shell theft and fighting.",
-      "Helps with leftovers, film algae, and general scavenging.",
-      "Can knock around unsecured frags while climbing."
+      "Hermits benefit from spare empty shells so they are less likely to harass snails for housing.",
+      "Different hermit species vary in size and attitude, but all are opportunistic scavengers.",
+      "Best used as part of a mixed crew, not as the only answer to algae or detritus."
     ],
     "photoTitle": "Calcinus sp.",
     "inStock": false,
@@ -512,19 +543,23 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "electric orange legs and a shell carried like a mobile little bulldozer.",
+    "visualCue": "Look for distinctive hermit-crab striping and shell-carrying body.",
     "bestWith": [
       "Mixed cleanup crews",
       "Tanks with spare shells",
-      "Owners who want more movement on the rockwork"
+      "keepers who want more movement on the rockwork"
     ],
     "cautionWith": [
       "No spare shells in the system",
       "Tiny snails that may be harassed for shells",
-      "Customers expecting zero bulldozing from a crab"
+      "aquarists expecting zero bulldozing from a crab"
     ],
-    "staffNote": "Always add spare shells to the sale. That saves headaches later.",
-    "headerSummary": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells. Look for electric orange legs and a shell carried like a mobile little bulldozer. Plan on at least 20+ gal."
+    "staffNote": "always pair it with spare shells. That saves headaches later.",
+    "headerSummary": "Useful scavenging hermit crab that needs spare shells and sensible stocking density. Great worker when managed well, annoying when treated like a disposable cleanup plug-in.",
+    "behavior": "Usually spends the day roaming over rock and substrate picking through leftovers, films, and loose debris. Shell disputes and snail harassment are far more likely in tanks that offer no extra shells or run too many hermits per gallon.",
+    "feedingNotes": "Hermits scavenge aggressively but should still get enough food support that they are not competing desperately with snails and each other. Occasional pellets, fine frozen foods, and algae support keep crews calmer.",
+    "buyingGuidance": "Recommend based on cleanup-crew balance and shell availability, not because “crabs are cool.” The smartest hermit sale is usually paired with spare shell advice and a reminder that huge hermit armies create their own problems.",
+    "recognitionNotes": "Look for distinctive hermit-crab striping and shell-carrying body."
   },
   {
     "id": "mithrax-crab",
@@ -548,14 +583,14 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "coralRisk": 12,
     "invertRisk": 10,
     "careDifficulty": 16,
-    "role": "Algae-picking mithrax-type crab for customers who want a tougher cleanup crab than a hermit",
+    "role": "Algae-picking mithrax-type crab for aquarists who want a tougher cleanup crab than a hermit",
     "role_es": "",
-    "overview": "These mithrax-type crabs are useful for nuisance algae and leftover food, but they should still be sold with a little caution rather than as perfect reef angels. Larger specimens can get opportunistic once easy algae runs low.",
+    "overview": "Useful algae-picking crab that can help with bubble algae and leftover food when chosen for the right reef. It is still a crab, so the best long-term results come from a well-fed animal in a sensibly stocked tank—not from treating it as a magical algae robot.",
     "overview_es": "",
     "facts": [
-      "Broad claws are good for picking bubble algae and heavier nuisance growth.",
-      "Usually tougher and chunkier than small hermit crabs.",
-      "Best results come in tanks that still have something real to graze."
+      "Often recommended for bubble algae control, though results vary by individual and tank conditions.",
+      "Usually safer than many crabs in reefs, but opportunistic picking is still possible if food is short.",
+      "Best behavior comes from keeping the crab fed and not forcing it to compete for every scrap."
     ],
     "photoTitle": "Mithraculus sculptus",
     "inStock": false,
@@ -570,11 +605,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "green to brown mithrax-style body with broad algae-picking claws.",
+    "visualCue": "Look for mithrax body plan with algae-grazing claws.",
     "bestWith": [
       "Reef tanks with nuisance algae",
       "Mixed cleanup crew additions",
-      "Customers who want a sturdier crab"
+      "aquarists who want a sturdier crab"
     ],
     "cautionWith": [
       "Very small frags or polyps if the crab gets large and hungry",
@@ -582,7 +617,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
       "Expecting it to solve every algae problem by itself"
     ],
     "staffNote": "Good utility crab, but keep the pitch honest: algae helper, not miracle worker.",
-    "headerSummary": "Algae-picking mithrax-type crab for customers who want a tougher cleanup crab than a hermit. Look for green to brown mithrax-style body with broad algae-picking claws. Plan on at least 20+ gal."
+    "headerSummary": "Helpful algae-picking mithrax crab with real utility and the usual crab caveat: useful does not mean perfectly predictable.",
+    "behavior": "Spends much of its time picking over rock surfaces, crevices, and patches of algae rather than roaming constantly in the open. Well-fed mithrax crabs usually behave better than hungry ones.",
+    "feedingNotes": "Will pick algae and detritus, but it still benefits from occasional meaty or herbivore supplemental foods. Tanks with no real food support are more likely to push a crab into opportunistic coral or invertebrate picking.",
+    "buyingGuidance": "Recommend when the owner wants a crab with genuine algae utility and understands that no crab is a zero-risk machine. This is a better fit for practical reef keepers than for people expecting a guaranteed one-animal fix.",
+    "recognitionNotes": "Look for mithrax body plan with algae-grazing claws."
   },
   {
     "id": "pom-pom-crab",
@@ -608,12 +647,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 24,
     "role": "Tiny novelty crab famous for carrying miniature anemones in its claws",
     "role_es": "",
-    "overview": "One of the coolest small crab sales in the hobby, but it is a subtle animal that makes more sense for peaceful mature reefs than for chaotic community tanks. Buyers should want the behavior, not just a random cleanup crab.",
+    "overview": "Tiny showpiece crab that carries small anemones in its claws like pom-poms. Charming and unusual, but best appreciated in peaceful reef setups where it is not outcompeted, hunted, or simply lost in a giant rockscape.",
     "overview_es": "",
     "facts": [
-      "Usually hides by day and becomes more visible once settled.",
-      "Carries tiny anemones for defense and feeding.",
-      "Too small and shy to be a heavy-duty cleanup choice."
+      "Famous for carrying tiny anemones in the claws for defense and feeding help.",
+      "Often hides much of the day and shows best in calmer reef or nano environments.",
+      "More of a collectible ornamental than a meaningful cleanup worker."
     ],
     "photoTitle": "Lybia tessellata",
     "inStock": false,
@@ -628,7 +667,7 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "small patterned crab holding fuzzy pom-pom anemones like little boxing gloves.",
+    "visualCue": "Tiny crab carrying tiny anemones in its claws.",
     "bestWith": [
       "Peaceful nano reefs",
       "Oddball invert collectors",
@@ -636,11 +675,15 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     ],
     "cautionWith": [
       "Boisterous fish that never stop picking",
-      "Customers who want a constantly visible show animal",
+      "aquarists who want a constantly visible show animal",
       "Very new tanks with unstable feeding"
     ],
-    "staffNote": "A behavior sale and conversation piece, not a brute-force worker.",
-    "headerSummary": "Tiny novelty crab famous for carrying miniature anemones in its claws. Look for small patterned crab holding fuzzy pom-pom anemones like little boxing gloves. Plan on at least 15+ gal."
+    "staffNote": "A behavior-driven conversation piece, not a brute-force worker.",
+    "headerSummary": "Tiny novelty crab that carries anemone pom-poms and excels in peaceful reef displays. Wonderful oddball, negligible cleanup muscle.",
+    "behavior": "Usually keeps to caves and lower-light areas, emerging in short, memorable appearances that are more about personality than utility. In the right nano reef it becomes a treasure; in a large aggressive tank it becomes folklore.",
+    "feedingNotes": "Eats fine meaty foods and leftovers when they reach it, but tiny size means targeted or calm feeding conditions help. It should not be expected to fend for itself in a fast, crowded feeding rush.",
+    "buyingGuidance": "Recommend only when the aquarist specifically wants a collectible oddball crab and has the right predator-free setting. This is not the crab to recommend when someone asks for brute-force cleanup.",
+    "recognitionNotes": "Very small crab carrying tiny anemones in the claws like white or translucent pom-poms."
   },
   {
     "id": "porcelain-crab",
@@ -666,12 +709,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 24,
     "role": "Tiny filter-feeding crab best known for living near host anemones and waving fan-like mouthparts",
     "role_es": "Cangrejo manchado diminuto que vive en anémonas y filtra alimento",
-    "overview": "A specialty crab for peaceful reef keepers who want interesting behavior and are comfortable with a smaller, more delicate invert. It is much more about host association and display than brute-force cleanup work.",
+    "overview": "Delicate filter-feeding crab that is best appreciated in calmer reef setups where it can perch, fan-feed, and ideally associate with a host. It is not a bulldozer cleanup crab and should be sold as a specialty ornamental, not as a generic detritus worker.",
     "overview_es": "Un cangrejo diminuto y adorable cubierto de manchas marrones que vive dentro de anémonas junto a peces payaso.",
     "facts": [
-      "Often stays in or beside an anemone once established.",
-      "Uses fan-like appendages to catch food from the water column.",
-      "Usually peaceful but can be stressed by rough tankmates."
+      "Uses fan-like appendages to collect suspended food from the water column.",
+      "Usually does best in calmer, more stable reef systems than rough-and-tumble crab mixes.",
+      "Host anemones or suitable perches often make it much bolder and easier to observe."
     ],
     "photoTitle": "Neopetrolisthes maculatus",
     "inStock": false,
@@ -686,19 +729,23 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "flat white to cream crab with spotted patterning and broad claws held low while it fans the water.",
+    "visualCue": "Look for flat-bodied porcelain-crab shape with fan-feeding appendages.",
     "bestWith": [
       "Peaceful reefs with suitable hosts",
       "Nano and smaller display reefs",
-      "Customers who enjoy subtle behavior"
+      "aquarists who enjoy subtle behavior"
     ],
     "cautionWith": [
       "Aggressive fish that constantly disturb the host area",
       "Brand-new tanks without stable feeding routines",
-      "Buyers looking for an algae-eating crab"
+      "aquarists looking for an algae-eating crab"
     ],
-    "staffNote": "Sell it as a host-associated ornamental crab, not as a generic cleanup crew item.",
-    "headerSummary": "Tiny filter-feeding crab best known for living near host anemones and waving fan-like mouthparts. Look for flat white to cream crab with spotted patterning and broad claws held low while it fans the water. Plan on at least 15+ gal."
+    "staffNote": "Treat it as a host-associated ornamental crab, not as a generic cleanup crew item.",
+    "headerSummary": "Filter-feeding ornamental crab best for peaceful reefs and host displays. Great personality when the setup supports it, poor fit for rough mixed-crab tanks.",
+    "behavior": "Often stays perched in one preferred spot and filters suspended foods rather than constantly roaming the tank. That calmer style makes it charming in the right reef and invisible or vulnerable in the wrong one.",
+    "feedingNotes": "Broadcast fine planktonic foods or other small suspended foods so the crab can actually use its filter-feeding fans. It is not designed to live purely on leftover chunks like a hermit.",
+    "buyingGuidance": "Recommend when the aquarist wants a host-style or specialty ornamental crab and understands the feeding difference. This is a better sale for a thoughtful reef display than for a “cleanup crew bundle.”",
+    "recognitionNotes": "Look for flat-bodied porcelain-crab shape with fan-feeding appendages."
   },
   {
     "id": "red-mithrax-crab",
@@ -722,14 +769,14 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "coralRisk": 12,
     "invertRisk": 10,
     "careDifficulty": 16,
-    "role": "Algae-picking mithrax-type crab for customers who want a tougher cleanup crab than a hermit",
+    "role": "Algae-picking mithrax-type crab for aquarists who want a tougher cleanup crab than a hermit",
     "role_es": "",
-    "overview": "These mithrax-type crabs are useful for nuisance algae and leftover food, but they should still be sold with a little caution rather than as perfect reef angels. Larger specimens can get opportunistic once easy algae runs low.",
+    "overview": "Useful algae-picking crab that can help with bubble algae and leftover food when chosen for the right reef. It is still a crab, so the best long-term results come from a well-fed animal in a sensibly stocked tank—not from treating it as a magical algae robot.",
     "overview_es": "",
     "facts": [
-      "Broad claws are good for picking bubble algae and heavier nuisance growth.",
-      "Usually tougher and chunkier than small hermit crabs.",
-      "Best results come in tanks that still have something real to graze."
+      "Often recommended for bubble algae control, though results vary by individual and tank conditions.",
+      "Usually safer than many crabs in reefs, but opportunistic picking is still possible if food is short.",
+      "Best behavior comes from keeping the crab fed and not forcing it to compete for every scrap."
     ],
     "photoTitle": "Mithraculus sculptus",
     "inStock": false,
@@ -744,11 +791,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "red-toned mithrax-style body with broad algae-picking claws.",
+    "visualCue": "Look for reddish mithrax coloration and algae-picking claws.",
     "bestWith": [
       "Reef tanks with nuisance algae",
       "Mixed cleanup crew additions",
-      "Customers who want a sturdier crab"
+      "aquarists who want a sturdier crab"
     ],
     "cautionWith": [
       "Very small frags or polyps if the crab gets large and hungry",
@@ -756,7 +803,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
       "Expecting it to solve every algae problem by itself"
     ],
     "staffNote": "Good utility crab, but keep the pitch honest: algae helper, not miracle worker.",
-    "headerSummary": "Algae-picking mithrax-type crab for customers who want a tougher cleanup crab than a hermit. Look for red-toned mithrax-style body with broad algae-picking claws. Plan on at least 20+ gal."
+    "headerSummary": "Helpful algae-picking mithrax crab with real utility and the usual crab caveat: useful does not mean perfectly predictable.",
+    "behavior": "Spends much of its time picking over rock surfaces, crevices, and patches of algae rather than roaming constantly in the open. Well-fed mithrax crabs usually behave better than hungry ones.",
+    "feedingNotes": "Will pick algae and detritus, but it still benefits from occasional meaty or herbivore supplemental foods. Tanks with no real food support are more likely to push a crab into opportunistic coral or invertebrate picking.",
+    "buyingGuidance": "Recommend when the owner wants a crab with genuine algae utility and understands that no crab is a zero-risk machine. This is a better fit for practical reef keepers than for people expecting a guaranteed one-animal fix.",
+    "recognitionNotes": "Look for reddish mithrax coloration and algae-picking claws."
   },
   {
     "id": "ruby-mithrax-crab",
@@ -780,14 +831,14 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "coralRisk": 12,
     "invertRisk": 10,
     "careDifficulty": 16,
-    "role": "Algae-picking mithrax-type crab for customers who want a tougher cleanup crab than a hermit",
+    "role": "Algae-picking mithrax-type crab for aquarists who want a tougher cleanup crab than a hermit",
     "role_es": "",
-    "overview": "These mithrax-type crabs are useful for nuisance algae and leftover food, but they should still be sold with a little caution rather than as perfect reef angels. Larger specimens can get opportunistic once easy algae runs low.",
+    "overview": "Useful algae-picking crab that can help with bubble algae and leftover food when chosen for the right reef. It is still a crab, so the best long-term results come from a well-fed animal in a sensibly stocked tank—not from treating it as a magical algae robot.",
     "overview_es": "",
     "facts": [
-      "Broad claws are good for picking bubble algae and heavier nuisance growth.",
-      "Usually tougher and chunkier than small hermit crabs.",
-      "Best results come in tanks that still have something real to graze."
+      "Often recommended for bubble algae control, though results vary by individual and tank conditions.",
+      "Usually safer than many crabs in reefs, but opportunistic picking is still possible if food is short.",
+      "Best behavior comes from keeping the crab fed and not forcing it to compete for every scrap."
     ],
     "photoTitle": "Mithraculus sculptus",
     "inStock": false,
@@ -802,11 +853,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "deep ruby red mithrax-style body with broad algae-picking claws.",
+    "visualCue": "Look for ruby-toned mithrax body and compact algae-picking claws.",
     "bestWith": [
       "Reef tanks with nuisance algae",
       "Mixed cleanup crew additions",
-      "Customers who want a sturdier crab"
+      "aquarists who want a sturdier crab"
     ],
     "cautionWith": [
       "Very small frags or polyps if the crab gets large and hungry",
@@ -814,7 +865,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
       "Expecting it to solve every algae problem by itself"
     ],
     "staffNote": "Good utility crab, but keep the pitch honest: algae helper, not miracle worker.",
-    "headerSummary": "Algae-picking mithrax-type crab for customers who want a tougher cleanup crab than a hermit. Look for deep ruby red mithrax-style body with broad algae-picking claws. Plan on at least 20+ gal."
+    "headerSummary": "Helpful algae-picking mithrax crab with real utility and the usual crab caveat: useful does not mean perfectly predictable.",
+    "behavior": "Spends much of its time picking over rock surfaces, crevices, and patches of algae rather than roaming constantly in the open. Well-fed mithrax crabs usually behave better than hungry ones.",
+    "feedingNotes": "Will pick algae and detritus, but it still benefits from occasional meaty or herbivore supplemental foods. Tanks with no real food support are more likely to push a crab into opportunistic coral or invertebrate picking.",
+    "buyingGuidance": "Recommend when the owner wants a crab with genuine algae utility and understands that no crab is a zero-risk machine. This is a better fit for practical reef keepers than for people expecting a guaranteed one-animal fix.",
+    "recognitionNotes": "Look for ruby-toned mithrax body and compact algae-picking claws."
   },
   {
     "id": "sally-lightfoot-crab",
@@ -840,12 +895,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 28,
     "role": "Fast algae-grazing crab that outgrows the gentle-cleanup-crew role in small tanks",
     "role_es": "",
-    "overview": "Fun crab when the buyer has room and accepts that it becomes more assertive with age, but not something to toss blindly into a peaceful nano reef. Think active grazer first, polite community member second.",
+    "overview": "Fast, athletic crab that starts small and useful but can become bold, quick, and opportunistic as it grows. It is often best treated as a “with caution” reef crab rather than a default cleanup crew recommendation.",
     "overview_es": "",
     "facts": [
-      "Very quick and athletic compared with most cleanup crabs.",
-      "Juveniles are usually easier to place than big adults.",
-      "Can become pushy around food and small tankmates as it matures."
+      "Quick movement and climbing ability make it much more active than most cleanup crabs.",
+      "Juveniles are often easier reef citizens than larger established adults.",
+      "Can become opportunistic with fish, inverts, or food competition in cramped systems."
     ],
     "photoTitle": "Percnon gibbesi",
     "inStock": false,
@@ -860,11 +915,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "flat agile crab with long striped legs built for sprinting over rockwork.",
+    "visualCue": "Flat body and long agile legs built for speed.",
     "bestWith": [
       "Larger reefs and fishy mixed systems",
       "Rocky tanks with natural algae growth",
-      "Customers who like active visible inverts"
+      "aquarists who like active visible inverts"
     ],
     "cautionWith": [
       "Tiny peaceful nano communities",
@@ -872,7 +927,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
       "Selling large adults as if they behave like tiny hermits"
     ],
     "staffNote": "Fine in the right tank, but not a throw-in cleanup crab for every reef.",
-    "headerSummary": "Fast algae-grazing crab that outgrows the gentle-cleanup-crew role in small tanks. Look for flat agile crab with long striped legs built for sprinting over rockwork. Plan on at least 55+ gal."
+    "headerSummary": "Fast, agile reef crab with useful scavenging ability and a well-earned caution label as it matures. Better for keepers who understand the trade-off.",
+    "behavior": "Spends much of its time sprinting over rock and glass in a way that makes slower crabs look parked. That activity is entertaining, but it also signals a crab that can become pushy as it gains size and confidence.",
+    "feedingNotes": "Scavenges aggressively and benefits from steady food support so it is not turning every feeding event into a competitive sprint. Like many opportunists, it behaves best when the system is not forcing it to improvise food sources.",
+    "buyingGuidance": "Recommend with restraint. It can be useful and attractive, but it is not the same low-risk sale as a snail or a modest hermit crew. Best for aquarists comfortable removing it later if the personality changes.",
+    "recognitionNotes": "Flat agile body with long legs built for speed and climbing rather than slow deliberate grazing."
   },
   {
     "id": "scarlet-reef-hermit-crab",
@@ -898,12 +957,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 16,
     "role": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells",
     "role_es": "",
-    "overview": "One of the better reef-hermit options for customers who want a smaller, more predictable scavenger. It still needs spare shells, but it is usually a gentler recommendation than some larger hermits.",
+    "overview": "Active cleanup hermit that adds movement and scavenging value, but still needs empty spare shells and realistic expectations. Hermits are excellent utility animals when stocked appropriately; they become trouble when they are crowded, starving, or forced to fight over housing.",
     "overview_es": "",
     "facts": [
-      "Needs spare shells to reduce shell theft and fighting.",
-      "Helps with leftovers, film algae, and general scavenging.",
-      "Can knock around unsecured frags while climbing."
+      "Hermits benefit from spare empty shells so they are less likely to harass snails for housing.",
+      "Different hermit species vary in size and attitude, but all are opportunistic scavengers.",
+      "Best used as part of a mixed crew, not as the only answer to algae or detritus."
     ],
     "photoTitle": "Paguristes cadenati",
     "inStock": false,
@@ -918,19 +977,23 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "scarlet red legs and a shell carried like a mobile little bulldozer.",
+    "visualCue": "Look for distinctive hermit-crab striping and shell-carrying body.",
     "bestWith": [
       "Mixed cleanup crews",
       "Tanks with spare shells",
-      "Owners who want more movement on the rockwork"
+      "keepers who want more movement on the rockwork"
     ],
     "cautionWith": [
       "No spare shells in the system",
       "Tiny snails that may be harassed for shells",
-      "Customers expecting zero bulldozing from a crab"
+      "aquarists expecting zero bulldozing from a crab"
     ],
-    "staffNote": "Always add spare shells to the sale. That saves headaches later.",
-    "headerSummary": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells. Look for scarlet red legs and a shell carried like a mobile little bulldozer. Plan on at least 10+ gal."
+    "staffNote": "always pair it with spare shells. That saves headaches later.",
+    "headerSummary": "Useful scavenging hermit crab that needs spare shells and sensible stocking density. Great worker when managed well, annoying when treated like a disposable cleanup plug-in.",
+    "behavior": "Usually spends the day roaming over rock and substrate picking through leftovers, films, and loose debris. Shell disputes and snail harassment are far more likely in tanks that offer no extra shells or run too many hermits per gallon.",
+    "feedingNotes": "Hermits scavenge aggressively but should still get enough food support that they are not competing desperately with snails and each other. Occasional pellets, fine frozen foods, and algae support keep crews calmer.",
+    "buyingGuidance": "Recommend based on cleanup-crew balance and shell availability, not because “crabs are cool.” The smartest hermit sale is usually paired with spare shell advice and a reminder that huge hermit armies create their own problems.",
+    "recognitionNotes": "Look for distinctive hermit-crab striping and shell-carrying body."
   },
   {
     "id": "strawberry-crab",
@@ -956,12 +1019,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 30,
     "role": "Bright red nocturnal crab better suited to cautious mixed reefs than delicate coral gardens",
     "role_es": "",
-    "overview": "A very attractive crab, but one that should be sold more like an oddball display animal than a safe cleanup crew staple. It is often hidden by day and can get opportunistic around sessile inverts.",
+    "overview": "Beautiful red specialty crab that is usually sold for looks rather than for heavy cleanup value. Like many attractive reef crabs, it should be treated as a with-caution ornamental, not assumed harmless because it is small and colorful.",
     "overview_es": "",
     "facts": [
-      "Usually more nocturnal than many beginner buyers expect.",
-      "Color is the main draw, not algae control.",
-      "Best kept with realistic expectations about coral safety."
+      "Valued more for color and novelty than for major algae or detritus utility.",
+      "Can be cryptic at first and may spend much of its time tucked away.",
+      "Better viewed as a specialty reef crab than as a cleanup-crew foundation animal."
     ],
     "photoTitle": "Neoliomera pubescens",
     "inStock": false,
@@ -976,19 +1039,23 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "fuzzy bright red body that stands out dramatically against rockwork.",
+    "visualCue": "Bright strawberry-red body and claws.",
     "bestWith": [
       "Oddball reef displays",
-      "Customers who want unusual red inverts",
+      "aquarists who want unusual red inverts",
       "Rocky systems with plenty of cover"
     ],
     "cautionWith": [
       "Delicate soft corals and prized polyps",
-      "Buyers expecting a visible daytime grazer",
+      "aquarists expecting a visible daytime grazer",
       "Tiny cramped tanks"
     ],
-    "staffNote": "Sell the look and the oddball factor, not a made-up cleanup role.",
-    "headerSummary": "Bright red nocturnal crab better suited to cautious mixed reefs than delicate coral gardens. Look for fuzzy bright red body that stands out dramatically against rockwork. Plan on at least 30+ gal."
+    "staffNote": "Lead with the unusual look and behavior rather than inventing a cleanup role it does not really fill.",
+    "headerSummary": "Bright red ornamental crab with specialty appeal and the usual crab caution. Better chosen for color and novelty than for raw utility.",
+    "behavior": "Often behaves more like a shy ornamental crab than a tireless visible worker, spending time under ledges and emerging selectively. In mixed crab communities it may be overshadowed by tougher scavengers.",
+    "feedingNotes": "Accepts meaty foods and scavenges lightly, but should not be expected to solve major algae or detritus issues. Supplementary feeding helps keep it from turning opportunistic in a lightly fed reef.",
+    "buyingGuidance": "Recommend when the owner wants an unusual ornamental crab and understands the limits of its utility. This is a style-and-personality animal, not a cleanup crew anchor.",
+    "recognitionNotes": "Bright strawberry-red body and claws that make it stand out sharply against reef rock."
   },
   {
     "id": "thin-stripe-hermit-crab",
@@ -1014,12 +1081,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 16,
     "role": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells",
     "role_es": "",
-    "overview": "A solid hermit sale when the customer wants movement and scavenging, but the shell issue should always be part of the conversation. Like most hermits, it is more reliable when spare shells are available and the tank is not grossly overstocked.",
+    "overview": "Active cleanup hermit that adds movement and scavenging value, but still needs empty spare shells and realistic expectations. Hermits are excellent utility animals when stocked appropriately; they become trouble when they are crowded, starving, or forced to fight over housing.",
     "overview_es": "",
     "facts": [
-      "Needs spare shells to reduce shell theft and fighting.",
-      "Helps with leftovers, film algae, and general scavenging.",
-      "Can knock around unsecured frags while climbing."
+      "Hermits benefit from spare empty shells so they are less likely to harass snails for housing.",
+      "Different hermit species vary in size and attitude, but all are opportunistic scavengers.",
+      "Best used as part of a mixed crew, not as the only answer to algae or detritus."
     ],
     "photoTitle": "Clibanarius sp.",
     "inStock": false,
@@ -1034,19 +1101,23 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "striped tan and cream legs and a shell carried like a mobile little bulldozer.",
+    "visualCue": "Look for distinctive hermit-crab striping and shell-carrying body.",
     "bestWith": [
       "Mixed cleanup crews",
       "Tanks with spare shells",
-      "Owners who want more movement on the rockwork"
+      "keepers who want more movement on the rockwork"
     ],
     "cautionWith": [
       "No spare shells in the system",
       "Tiny snails that may be harassed for shells",
-      "Customers expecting zero bulldozing from a crab"
+      "aquarists expecting zero bulldozing from a crab"
     ],
-    "staffNote": "Always add spare shells to the sale. That saves headaches later.",
-    "headerSummary": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells. Look for striped tan and cream legs and a shell carried like a mobile little bulldozer. Plan on at least 10+ gal."
+    "staffNote": "always pair it with spare shells. That saves headaches later.",
+    "headerSummary": "Useful scavenging hermit crab that needs spare shells and sensible stocking density. Great worker when managed well, annoying when treated like a disposable cleanup plug-in.",
+    "behavior": "Usually spends the day roaming over rock and substrate picking through leftovers, films, and loose debris. Shell disputes and snail harassment are far more likely in tanks that offer no extra shells or run too many hermits per gallon.",
+    "feedingNotes": "Hermits scavenge aggressively but should still get enough food support that they are not competing desperately with snails and each other. Occasional pellets, fine frozen foods, and algae support keep crews calmer.",
+    "buyingGuidance": "Recommend based on cleanup-crew balance and shell availability, not because “crabs are cool.” The smartest hermit sale is usually paired with spare shell advice and a reminder that huge hermit armies create their own problems.",
+    "recognitionNotes": "Look for distinctive hermit-crab striping and shell-carrying body."
   },
   {
     "id": "white-spot-hermit-crab",
@@ -1072,12 +1143,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 16,
     "role": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells",
     "role_es": "",
-    "overview": "A solid hermit sale when the customer wants movement and scavenging, but the shell issue should always be part of the conversation. Like most hermits, it is more reliable when spare shells are available and the tank is not grossly overstocked.",
+    "overview": "Active cleanup hermit that adds movement and scavenging value, but still needs empty spare shells and realistic expectations. Hermits are excellent utility animals when stocked appropriately; they become trouble when they are crowded, starving, or forced to fight over housing.",
     "overview_es": "",
     "facts": [
-      "Needs spare shells to reduce shell theft and fighting.",
-      "Helps with leftovers, film algae, and general scavenging.",
-      "Can knock around unsecured frags while climbing."
+      "Hermits benefit from spare empty shells so they are less likely to harass snails for housing.",
+      "Different hermit species vary in size and attitude, but all are opportunistic scavengers.",
+      "Best used as part of a mixed crew, not as the only answer to algae or detritus."
     ],
     "photoTitle": "Dardanus sp.",
     "inStock": false,
@@ -1092,19 +1163,23 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "dark body with distinct pale spotting legs and a shell carried like a mobile little bulldozer.",
+    "visualCue": "Look for distinctive hermit-crab striping and shell-carrying body.",
     "bestWith": [
       "Mixed cleanup crews",
       "Tanks with spare shells",
-      "Owners who want more movement on the rockwork"
+      "keepers who want more movement on the rockwork"
     ],
     "cautionWith": [
       "No spare shells in the system",
       "Tiny snails that may be harassed for shells",
-      "Customers expecting zero bulldozing from a crab"
+      "aquarists expecting zero bulldozing from a crab"
     ],
-    "staffNote": "Always add spare shells to the sale. That saves headaches later.",
-    "headerSummary": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells. Look for dark body with distinct pale spotting legs and a shell carried like a mobile little bulldozer. Plan on at least 20+ gal."
+    "staffNote": "always pair it with spare shells. That saves headaches later.",
+    "headerSummary": "Useful scavenging hermit crab that needs spare shells and sensible stocking density. Great worker when managed well, annoying when treated like a disposable cleanup plug-in.",
+    "behavior": "Usually spends the day roaming over rock and substrate picking through leftovers, films, and loose debris. Shell disputes and snail harassment are far more likely in tanks that offer no extra shells or run too many hermits per gallon.",
+    "feedingNotes": "Hermits scavenge aggressively but should still get enough food support that they are not competing desperately with snails and each other. Occasional pellets, fine frozen foods, and algae support keep crews calmer.",
+    "buyingGuidance": "Recommend based on cleanup-crew balance and shell availability, not because “crabs are cool.” The smartest hermit sale is usually paired with spare shell advice and a reminder that huge hermit armies create their own problems.",
+    "recognitionNotes": "Look for distinctive hermit-crab striping and shell-carrying body."
   },
   {
     "id": "zebra-hermit-crab",
@@ -1130,12 +1205,12 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "careDifficulty": 16,
     "role": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells",
     "role_es": "",
-    "overview": "A solid hermit sale when the customer wants movement and scavenging, but the shell issue should always be part of the conversation. Like most hermits, it is more reliable when spare shells are available and the tank is not grossly overstocked.",
+    "overview": "Active cleanup hermit that adds movement and scavenging value, but still needs empty spare shells and realistic expectations. Hermits are excellent utility animals when stocked appropriately; they become trouble when they are crowded, starving, or forced to fight over housing.",
     "overview_es": "",
     "facts": [
-      "Needs spare shells to reduce shell theft and fighting.",
-      "Helps with leftovers, film algae, and general scavenging.",
-      "Can knock around unsecured frags while climbing."
+      "Hermits benefit from spare empty shells so they are less likely to harass snails for housing.",
+      "Different hermit species vary in size and attitude, but all are opportunistic scavengers.",
+      "Best used as part of a mixed crew, not as the only answer to algae or detritus."
     ],
     "photoTitle": "Calcinus laevimanus",
     "inStock": false,
@@ -1150,18 +1225,22 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "Look for zebra-striped black-and-white legs and a shell carried like a mobile little bulldozer.",
+    "visualCue": "Look for distinctive hermit-crab striping and shell-carrying body.",
     "bestWith": [
       "Mixed cleanup crews",
       "Tanks with spare shells",
-      "Owners who want more movement on the rockwork"
+      "keepers who want more movement on the rockwork"
     ],
     "cautionWith": [
       "No spare shells in the system",
       "Tiny snails that may be harassed for shells",
-      "Customers expecting zero bulldozing from a crab"
+      "aquarists expecting zero bulldozing from a crab"
     ],
-    "staffNote": "Always add spare shells to the sale. That saves headaches later.",
-    "headerSummary": "Active hermit crab that scavenges film algae and leftover food while constantly shopping for shells. Look for zebra-striped black-and-white legs and a shell carried like a mobile little bulldozer. Plan on at least 15+ gal."
+    "staffNote": "always pair it with spare shells. That saves headaches later.",
+    "headerSummary": "Useful scavenging hermit crab that needs spare shells and sensible stocking density. Great worker when managed well, annoying when treated like a disposable cleanup plug-in.",
+    "behavior": "Usually spends the day roaming over rock and substrate picking through leftovers, films, and loose debris. Shell disputes and snail harassment are far more likely in tanks that offer no extra shells or run too many hermits per gallon.",
+    "feedingNotes": "Hermits scavenge aggressively but should still get enough food support that they are not competing desperately with snails and each other. Occasional pellets, fine frozen foods, and algae support keep crews calmer.",
+    "buyingGuidance": "Recommend based on cleanup-crew balance and shell availability, not because “crabs are cool.” The smartest hermit sale is usually paired with spare shell advice and a reminder that huge hermit armies create their own problems.",
+    "recognitionNotes": "Look for distinctive hermit-crab striping and shell-carrying body."
   }
 ];

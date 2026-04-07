@@ -1382,8 +1382,8 @@ body.light-mode .skeleton-img{
   transform:translateX(-135%) skewX(-14deg);opacity:0;transition:transform .65s cubic-bezier(.22,.8,.2,1), opacity .25s ease;
 }
 .folder-tab:hover::before,.folder-tab:focus-visible::before,.cta:hover::before,.cta:focus-visible::before,.staff-action-btn:hover::before,.staff-action-btn:focus-visible::before,.inventory-chip-filter:hover::before,.inventory-chip-filter:focus-visible::before,.modal-close:hover::before,.modal-close:focus-visible::before,.inventory-field-card:hover::before,.inventory-field-card:focus-visible::before,.input-helper-btn:hover::before,.input-helper-btn:focus-visible::before{transform:translateX(135%) skewX(-14deg);opacity:1}
-.folder-tab.active::before,.inventory-chip-filter.is-active::before,.mode-btn.active::after,.status-pill::after,.mini-pill::after,.tank-pill::after{animation:waterlineSweep 5.8s cubic-bezier(.22,.8,.2,1) infinite}
-.status-pill::after,.mini-pill::after,.tank-pill::after{background:linear-gradient(115deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.18) 42%, rgba(255,255,255,0) 70%);transform:translateX(-120%)}
+.folder-tab.active::before,.inventory-chip-filter.is-active::before,.mode-btn.active::after{animation:waterlineSweep 6.8s cubic-bezier(.22,.8,.2,1) infinite}
+.status-pill::after,.mini-pill::after,.tank-pill::after{background:linear-gradient(115deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.14) 42%, rgba(255,255,255,0) 70%);transform:translateX(-120%);opacity:.0}
 /* === WATER PARAMETERS === */
 .water-param-gauge{display:flex;align-items:center;gap:6px;width:100%}
 .water-track{flex:1;height:6px;border-radius:3px;background:rgba(255,255,255,.06);overflow:visible;position:relative}
@@ -1910,6 +1910,45 @@ body.light-mode .category-row{background:#f0f4f8}
   }
 }
 
+@keyframes pillPopIn{
+  0%{opacity:0;transform:translateY(8px) scale(.92)}
+  70%{opacity:1;transform:translateY(-1px) scale(1.03)}
+  100%{opacity:1;transform:translateY(0) scale(1)}
+}
+@keyframes bubbleLift{
+  0%{opacity:0;transform:translate(-50%,-50%) scale(.3)}
+  18%{opacity:.52}
+  100%{opacity:0;transform:translate(calc(-50% + var(--bubble-x, 0px)), calc(-50% + var(--bubble-y, -18px))) scale(var(--bubble-scale, 1.1))}
+}
+@keyframes pressFlash{
+  0%{box-shadow:inset 0 0 0 1px rgba(255,255,255,0),0 0 0 0 rgba(145,225,255,0)}
+  35%{box-shadow:inset 0 0 0 1px rgba(255,255,255,.12),0 0 0 4px rgba(145,225,255,.08)}
+  100%{box-shadow:inset 0 0 0 1px rgba(255,255,255,0),0 0 0 0 rgba(145,225,255,0)}
+}
+.press-flash{animation:pressFlash .42s cubic-bezier(.22,.8,.2,1)}
+.bubble{
+  position:absolute;width:8px;height:8px;border-radius:999px;pointer-events:none;z-index:3;
+  background:radial-gradient(circle at 35% 35%, rgba(255,255,255,.8), rgba(162,233,255,.42) 52%, rgba(162,233,255,0) 72%);
+  box-shadow:0 0 10px rgba(120,210,255,.18);animation:bubbleLift 520ms cubic-bezier(.2,.8,.2,1) forwards;
+}
+.overlay.show .pill-list > .list-pill,
+.overlay.show .modal-mini > .mini-pill,
+.overlay.show .mini-pill,
+.overlay.show .status-pill{
+  opacity:0;animation:pillPopIn .34s cubic-bezier(.22,.8,.2,1) forwards;
+}
+.overlay.show .pill-list > .list-pill:nth-child(1),
+.overlay.show .modal-mini > .mini-pill:nth-child(1),
+.overlay.show .status-pill:nth-child(1){animation-delay:60ms}
+.overlay.show .pill-list > .list-pill:nth-child(2),
+.overlay.show .modal-mini > .mini-pill:nth-child(2),
+.overlay.show .status-pill:nth-child(2){animation-delay:100ms}
+.overlay.show .pill-list > .list-pill:nth-child(3),
+.overlay.show .modal-mini > .mini-pill:nth-child(3),
+.overlay.show .status-pill:nth-child(3){animation-delay:140ms}
+.overlay.show .pill-list > .list-pill:nth-child(4),
+.overlay.show .modal-mini > .mini-pill:nth-child(4),
+.overlay.show .status-pill:nth-child(4){animation-delay:180ms}
 /* Compare bar — chip truncation for 3 fish */
 .compare-chip{display:flex;align-items:center;gap:4px;min-width:0}
 .chip-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
@@ -1962,9 +2001,9 @@ body.light-mode .category-row{background:#f0f4f8}
 /* Mode toggle sweep animation (premium, non-gaudy) */
 .mode-btn.active::after{
   content:'';position:absolute;inset:0;border-radius:inherit;
-  background:linear-gradient(110deg,transparent 0%,transparent 38%,rgba(255,255,255,.18) 50%,transparent 62%,transparent 100%);
+  background:linear-gradient(110deg,transparent 0%,transparent 40%,rgba(255,255,255,.14) 50%,transparent 60%,transparent 100%);
   transform:translateX(-120%);
-  animation:modeSweep 4.2s linear infinite;
+  animation:modeSweep 6.2s linear infinite;
   pointer-events:none;
 }
 

@@ -1,13 +1,17 @@
 # LTC Fish Browser — Completed / Solved So Far
 
-- Catalog filler/boilerplate scrubbed from the earlier flagged entries.
-- Core species fields backfilled for the major late-added entries.
-- Popup X / mobile scroll / outside-click close stabilized after multiple regressions.
-- Explicit restore actions added for Sold / Loss / Quarantine / Hold.
-- Recent Changes made a first-class staff workflow path.
-- Sale history tracking and previous-price reuse added.
-- Missing species data separated from missing store setup data.
-- ES translation gaps fixed.
-- APP_VERSION / document title sync added.
-- Inventory card image work moved from tiny hero attempts toward full-card background treatment.
-- Documentation consolidated into fewer, more useful files while preserving worklog continuity.
+- Fish browser foundation is built and usable.
+- Staff mode exists with sold / hold / quarantine / loss flows.
+- Inventory button regression was fixed.
+- Quarantine now shows a visible yellow overlay like SOLD.
+- Inventory cards show fish imagery again.
+- Recent Changes became a first-class staff workflow path.
+- Sale history and price reuse paths were added.
+- Catalog boilerplate cleanup has already gone through major passes.
+- Documentation is better organized for handoff and resume work.
+- V0.092 completed a broad fish-entry enrichment pass across the full catalog.
+- All 448 entries now have behavior / feeding / buying-guidance / recognition fields populated.
+- Retail-style wording was scrubbed further out of the species source text.
+- Tangs and wrasses now read more species-group-specific instead of sharing one generic guidance block.
+- Key staples like ocellaris clownfish, royal gramma, banggai cardinal, firefish, snowflake eel, and valentini puffer received stronger encyclopedia-style copy.
+

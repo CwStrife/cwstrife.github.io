@@ -467,3 +467,25 @@
 - Strengthened the first-pass microinteractions so the gauges and button interactions are easier to notice without turning the UI into constant motion.
 - Added compact running-summary docs (current state, todo, done, issues/lessons) so fewer files can still preserve rationale, solved issues, and future direction.
 - Smoke test passed with 0 errors, 0 warnings.
+
+## V0.092
+- Focused on fish-entry quality rather than UI/staff workflows so this lane can run in parallel with Claude work.
+- Added behavior / feeding / buying-guidance / recognition notes to every remaining catalog entry missing them.
+- Reworked tang guidance by genus profile and wrasse/goby-blenny guidance by behavioral subtype to reduce repeated copy.
+- Scrubbed a large amount of lingering retail-floor wording ('sell', 'cheap', 'bulk', shopper/customer framing) out of species text.
+- Added stronger encyclopedia-style copy to several high-visibility staples including clownfish, royal gramma, banggai cardinal, firefish, snowflake eel, dwarf lionfish, and valentini puffer.
+- Smoke test passed with 0 errors, 0 warnings.
+
+
+
+## V0.096
+- Completed Rabbitfish + Hawkfish + Inverts/Cleanup Crew fish-content pass.
+- Updated shrimp, crab, snail, urchin, starfish, and utility-invert entries to remove remaining generic support copy.
+- Updated APP_VERSION to 0.096.
+
+
+## V0.097
+- Continued the fish/catalog content lane only.
+- Completed the Other Fish specialty pass across filefish, anglers, leaf/waspfish, predator oddballs, groupers, porkfish, and coral catshark.
+- Upgraded the weakest remaining specialty-fish wording to more species-aware guidance around camouflage, prey size, venom, coral-feeding specialization, and adult-size honesty.
+- Updated APP_VERSION to 0.097.

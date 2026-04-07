@@ -1,4 +1,3 @@
-window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Shrimp"] = [
   {
     "id": "cleaner-shrimp",
@@ -23,11 +22,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "invertRisk": 4,
     "careDifficulty": 16,
     "role": "Reef-safe invertebrate and natural cleaning station animal",
-    "visualCue": "Bright red body with a bold white stripe and long white antennae.",
-    "overview": "One of the easiest invertebrates for customers to appreciate because the behavior is both useful and fun to watch.",
+    "visualCue": "Look for bold cleaner-shrimp striping and very long white antennae.",
+    "overview": "Hardy and highly visible that adds movement, visible cleaning-station behavior, and real personality to reef tanks. The biggest compatibility concern is not feeding difficulty but keeping it away from hawkfish, larger wrasses, puffers, triggers, and other shrimp predators.",
     "facts": [
-      "Often sets up a cleaning station where fish come in for parasite picking and attention.",
-      "Generally reef friendly and a strong beginner invertebrate option for many systems."
+      "Cleaner shrimps often advertise with antennae and body movement, then groom receptive fish at a cleaning station.",
+      "Most do well singly, in pairs, or in peaceful reef communities if predators are absent.",
+      "Molting periods are when even hardy shrimp are most vulnerable to predation."
     ],
     "bestWith": [
       "Reef tanks",
@@ -56,8 +56,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "role_es": "Camarón que limpia parásitos de otros peces",
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Reef-safe invertebrate and natural cleaning station animal. Look for bright red body with a bold white stripe and long white antennae. Plan on at least 10+ gal.",
-    "seasonal": null
+    "headerSummary": "Visible cleaner shrimp that brings motion, utility, and classic reef behavior. Best in predator-light reef systems where it can molt safely and stay out in the open.",
+    "seasonal": null,
+    "behavior": "Usually spends the day waving antennae, scavenging, and setting up obvious cleaning-station behavior near rock ledges or caves. Once comfortable, these shrimp often become one of the most visible animals in the tank.",
+    "feedingNotes": "Most accept leftover frozen foods, pellets, and fine meaty foods readily, even though they also clean fish. They should still be fed like real invertebrates, not expected to survive only on what they pull off tankmates.",
+    "buyingGuidance": "A very strong recommendation for peaceful reef systems that want visible movement and classic reef interaction. Always ask about hawkfish, large wrasses, dottybacks, triggers, puffers, or other shrimp-eating tankmates before calling it safe.",
+    "recognitionNotes": "Look for bold cleaner-shrimp striping and very long white antennae."
   },
   {
     "id": "fire-shrimp",
@@ -83,17 +87,17 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "invertRisk": 2,
     "careDifficulty": 18,
     "role": "Stunning deep red cleaner shrimp",
-    "visualCue": "Intense blood-red body with bright white antennae and white spots on the legs.",
-    "overview": "The most visually striking of the cleaner shrimps. Hides more than the skunk cleaner but the color is unmatched. A premium invert that customers notice immediately.",
+    "visualCue": "Deep blood-red body with white spotting or bright white antennae.",
+    "overview": "Spectacular deep-red cleaner shrimp that is usually shyer than the skunk cleaners but extremely striking once it claims a cave or ledge. It adds premium color and some cleaning behavior, but is still vulnerable to the same shrimp predators and molt-time losses.",
     "facts": [
-      "More shy than skunk cleaners — prefers cave ceilings and overhangs.",
-      "The deep red color is real and doesn't fade in captivity.",
-      "Will clean fish but less aggressively than Lysmata amboinensis."
+      "Often spends more time under ledges or in caves than skunk cleaners, especially in bright tanks.",
+      "Usually safe in peaceful reefs but still at risk from hawkfish, larger wrasses, and many predator fish.",
+      "Benefits from stable salinity and careful acclimation like most ornamental shrimp."
     ],
     "bestWith": [
       "Reef tanks with rockwork caves",
       "Peaceful communities",
-      "Customers wanting a pop of color in their cleanup crew"
+      "aquarists wanting a pop of color in their cleanup crew"
     ],
     "cautionWith": [
       "Predatory fish like large wrasses or triggers",
@@ -117,8 +121,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "role_es": "Camarón limpiador rojo sangre llamativo",
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Stunning deep red cleaner shrimp. Look for intense blood-red body with bright white antennae and white spots on the legs. Plan on at least 15+ gal.",
-    "seasonal": null
+    "headerSummary": "Deep-red cleaner shrimp with premium color, cave-dwelling habits, and the usual shrimp compatibility cautions. Gorgeous in peaceful reefs, risky in predator-heavy tanks.",
+    "seasonal": null,
+    "behavior": "Usually keeps close to caves, overhangs, or shaded ledges and ventures out more confidently once settled. It may clean fish, but many keepers value it just as much for the contrast color and deliberate movement.",
+    "feedingNotes": "Accepts meaty frozen foods, pellets, and leftovers readily, especially once it knows the feeding routine. Because it may stay tucked in more than a skunk cleaner, target feeding near the cave can help during the adjustment period.",
+    "buyingGuidance": "Recommend it when the aquarist wants a premium ornamental shrimp and understands that “reef safe” does not mean “predator proof.” The right reef setting is calm, stable, and not stocked with fish that view shrimp as moving snacks.",
+    "recognitionNotes": "Look for the deep blood-red body, bright white spotting or antennae, and a preference for shaded ledges or caves."
   },
   {
     "id": "peppermint-shrimp",
@@ -143,12 +151,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "invertRisk": 2,
     "careDifficulty": 14,
     "role": "Aiptasia-eating utility shrimp",
-    "visualCue": "Translucent pink body with thin red longitudinal stripes.",
-    "overview": "The go-to solution for aiptasia anemone problems. Hardy, cheap, and effective. A utility purchase more than a display purchase, but customers need them constantly.",
+    "visualCue": "Semi-transparent body with thin red striping.",
+    "overview": "A practical little reef shrimp best known for scavenging and, in the right species mix, helping with small Aiptasia outbreaks. It is useful, but it should not be sold as guaranteed one-step pest control because different peppermint shrimp species behave differently.",
     "facts": [
-      "Effectiveness against aiptasia varies — some individuals are better hunters than others.",
-      "Very hardy and easy to keep.",
-      "More of a utility purchase but steady repeat business for stores."
+      "Often more active at dusk and after lights out than during peak daytime hours.",
+      "Some peppermint shrimp are helpful with Aiptasia, but results are inconsistent across species and individual animals.",
+      "Can steal food from corals or pick at weak tissue when crowded or underfed."
     ],
     "bestWith": [
       "Any reef tank with aiptasia problems",
@@ -160,7 +168,7 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
       "Large predatory fish",
       "Look-alike species like camel shrimp that don't eat aiptasia"
     ],
-    "staffNote": "Always clarify it's a true peppermint, not a camel shrimp. Customers come back angry when they get the wrong one.",
+    "staffNote": "Always clarify it's a true peppermint, not a camel shrimp. aquarists come back angry when they get the wrong one.",
     "photoTitle": "Lysmata wurdemanni",
     "inStock": false,
     "badges": [],
@@ -177,8 +185,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "role_es": "Camarón que come aiptasias",
     "diet_es": "Omnívoro",
     "origin_es": "",
-    "headerSummary": "Aiptasia-eating utility shrimp. Look for translucent pink body with thin red longitudinal stripes. Plan on at least 10+ gal.",
-    "seasonal": null
+    "headerSummary": "Useful small reef shrimp with scavenging value and sometimes Aiptasia-help potential, but not a miracle cure. Best in peaceful systems where expectations stay realistic.",
+    "seasonal": null,
+    "behavior": "Usually stays around rockwork and caves by day, then becomes more visible when feeding starts or the lights dim. In groups it may be bolder, but it is still more of a practical utility shrimp than a showpiece cleaner.",
+    "feedingNotes": "Will scavenge aggressively and accepts fine meaty foods, pellets, and leftovers easily. Do not rely on hunger games to make it useful; starving shrimp are more likely to bother corals or each other.",
+    "buyingGuidance": "Sell it as a small scavenger with possible Aiptasia value, not as guaranteed pest annihilation. The right conversation includes species uncertainty, shrimp-predator compatibility, and the chance that a healthy well-fed shrimp may ignore problem anemones entirely.",
+    "recognitionNotes": "Semi-transparent body with red striping and a more understated look than the flashier cleaner shrimp."
   },
   {
     "id": "coral-banded-shrimp",
@@ -204,12 +216,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "invertRisk": 18,
     "careDifficulty": 16,
     "role": "Large striking shrimp with boxing-glove claws",
-    "visualCue": "White body with bold red and white banding and oversized front claws held like a boxer.",
-    "overview": "A large, dramatic shrimp with distinctive red and white stripes and oversized claws. Provides cleaning station services but can be aggressive toward other shrimp species.",
+    "visualCue": "Look for bold red-and-white banding with oversized boxing claws.",
+    "overview": "A dramatic boxer shrimp known for giant claws, long antennae, and a cave-based territory. Very interesting to watch, but more aggressive toward other shrimp than the cleaner-shrimp crowd and not always the best choice for mixed shrimp collections.",
     "facts": [
-      "Will attack and kill other shrimp species — keep only one CBS per tank.",
-      "Sets up cleaning stations like Lysmata species.",
-      "The claws are for show — they rarely cause actual harm to fish."
+      "Often forms a favorite cave or ledge territory and defends that space against rival shrimp.",
+      "May clean fish occasionally, but most people buy it for the look and behavior rather than dependable cleaning utility.",
+      "Safer kept singly unless a known pair is obtained."
     ],
     "bestWith": [
       "Reef tanks wanting a large dramatic shrimp",
@@ -238,8 +250,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "role_es": "Camarón grande con pinzas de boxeador",
     "diet_es": "Carnívoro",
     "origin_es": "",
-    "headerSummary": "Large striking shrimp with boxing-glove claws. Look for white body with bold red and white banding and oversized front claws held like a boxer. Plan on at least 20+ gal.",
-    "seasonal": null
+    "headerSummary": "Showy boxer shrimp with huge claws, cave territory, and more attitude than the common cleaner shrimp. Best when the tank is not trying to mix lots of different ornamental shrimp together.",
+    "seasonal": null,
+    "behavior": "Typically hangs in or under a cave, extending long antennae and standing off with the claws when other shrimp intrude. It is more territorial than a skunk cleaner and often behaves like a cave-owning crustacean first and a community helper second.",
+    "feedingNotes": "Easy to feed with meaty frozen foods, pellets, and leftovers delivered near the den. Because it is assertive, it rarely loses out in feeding unless the tankmates are much faster or larger.",
+    "buyingGuidance": "Recommend it for people who specifically want the boxer-shrimp look and understand that not all ornamental shrimp mix well. Ask whether the reef is meant to be a multi-shrimp display, because that answer changes whether this is a fit.",
+    "recognitionNotes": "Look for bold red-and-white banding with oversized boxing claws."
   },
   {
     "id": "sexy-shrimp",
@@ -265,12 +281,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "invertRisk": 2,
     "careDifficulty": 16,
     "role": "Tiny dancing shrimp that lives on anemones and corals",
-    "visualCue": "Tiny amber-brown body with white spots. Constantly sways its abdomen back and forth in a dancing motion.",
-    "overview": "Possibly the most entertaining invertebrate available. These tiny shrimp constantly waggle their bodies in a dancing motion while perched on anemones or coral. Best kept in small groups.",
+    "visualCue": "Tiny ornamental shrimp often seen hovering or bobbing around a host coral or anemone.",
+    "overview": "Tiny group-living shrimp that often dances over anemones or corals. These shrimp are charming in nano reefs, but they are delicate, easy to lose in predator tanks, and should be chosen for the right peaceful display rather than as generic cleanup crew.",
     "facts": [
-      "The constant dancing/swaying motion is endlessly entertaining.",
-      "Tiny — best appreciated in nano tanks where you can see them up close.",
-      "Often host on rock flower anemones."
+      "Often do best in very peaceful tanks where they are not outcompeted or hunted.",
+      "Host animals such as anemones or large-polyp corals often make them bolder and more visible.",
+      "Best appreciated in small groups or species-focused nano setups."
     ],
     "bestWith": [
       "Nano reef tanks",
@@ -281,7 +297,7 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
       "Large fish that might eat them",
       "Tanks where you can't see them due to size"
     ],
-    "staffNote": "Sell the dancing behavior. Groups on a rock flower anemone are mesmerizing.",
+    "staffNote": "Lead with the dancing behavior and group display. Groups on a rock flower anemone are mesmerizing.",
     "photoTitle": "Thor amboinensis",
     "inStock": false,
     "badges": [],
@@ -298,8 +314,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "role_es": "Camarón diminuto que baila sobre anémonas",
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Tiny dancing shrimp that lives on anemones and corals. Look for tiny amber-brown body with white spots. Constantly sways its abdomen back and forth in a dancing motion. Plan on at least 5+ gal.",
-    "seasonal": null
+    "headerSummary": "Delicate host-associated ornamental shrimp best for peaceful nano reefs and anemone-style displays. Great character, poor fit for rough community tanks.",
+    "seasonal": null,
+    "behavior": "Usually stays close to a host or favored perch and becomes more confident when it has that shelter relationship. In larger rougher reefs it may survive invisibly or disappear outright.",
+    "feedingNotes": "Needs small meaty foods delivered consistently, because tiny shrimp lose out easily in mixed-tank feeding frenzies. A calm nano setup makes targeted feeding much easier.",
+    "buyingGuidance": "Recommend only when the aquarist is deliberately building a gentle nano reef or host-animal display. These are poor “throw it in the community tank and hope” choices.",
+    "recognitionNotes": "Look for a very small ornamental shrimp that stays close to a host and is often seen bobbing or dancing in place."
   },
   {
     "id": "anemone-shrimp",
@@ -325,12 +345,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 24,
     "role": "Commensal nano shrimp that often lives in or near host anemones",
     "role_es": "Camarón ornamental asociado a anémonas",
-    "overview": "A small display shrimp best sold for peaceful, stable reefs where the customer wants interesting behavior more than heavy cleanup work. It shines when paired with a suitable host and plenty of hiding spots.",
+    "overview": "Small host-associated shrimp that does best when it has an anemone or similar refuge. These shrimp are charming in nano reefs, but they are delicate, easy to lose in predator tanks, and should be chosen for the right peaceful display rather than as generic cleanup crew.",
     "overview_es": "Pequeño camarón ornamental que suele vivir cerca de una anémona huésped.",
     "facts": [
-      "Usually stays close to a host anemone or similar shelter once settled.",
-      "Best kept away from larger predators and very aggressive tankmates.",
-      "More of an ornamental shrimp than a do-everything cleanup animal."
+      "Often do best in very peaceful tanks where they are not outcompeted or hunted.",
+      "Host animals such as anemones or large-polyp corals often make them bolder and more visible.",
+      "Best appreciated in small groups or species-focused nano setups."
     ],
     "photoTitle": "Periclimenes brevicarpalis",
     "inStock": false,
@@ -345,19 +365,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "clear to cream body with white markings and purple to blue dots, usually tucked into an anemone or coral host.",
+    "visualCue": "Tiny ornamental shrimp often seen hovering or bobbing around a host coral or anemone.",
     "bestWith": [
       "Peaceful nano and small reef tanks",
       "Established systems with anemones or sheltered rockwork",
-      "Owners who want behavior-focused inverts"
+      "keepers who want behavior-focused inverts"
     ],
     "cautionWith": [
       "Predatory wrasses, hawkfish, and larger dottybacks",
       "Fresh unstable tanks",
-      "Impulse buyers expecting a large visible cleaner shrimp"
+      "Impulse aquarists expecting a large visible cleaner shrimp"
     ],
-    "staffNote": "Sell it as a small host-associated ornamental shrimp, not as a heavy-duty cleaner crew piece.",
-    "headerSummary": "Commensal nano shrimp that often lives in or near host anemones. Look for clear to cream body with white markings and purple to blue dots, usually tucked into an anemone or coral host. Plan on at least 15+ gal."
+    "staffNote": "Treat it as a small host-associated ornamental shrimp, not as a heavy-duty cleaner crew piece.",
+    "headerSummary": "Delicate host-associated ornamental shrimp best for peaceful nano reefs and anemone-style displays. Great character, poor fit for rough community tanks.",
+    "behavior": "Usually stays close to a host or favored perch and becomes more confident when it has that shelter relationship. In larger rougher reefs it may survive invisibly or disappear outright.",
+    "feedingNotes": "Needs small meaty foods delivered consistently, because tiny shrimp lose out easily in mixed-tank feeding frenzies. A calm nano setup makes targeted feeding much easier.",
+    "buyingGuidance": "Recommend only when the aquarist is deliberately building a gentle nano reef or host-animal display. These are poor “throw it in the community tank and hope” choices.",
+    "recognitionNotes": "Look for a very small ornamental shrimp that stays close to a host and is often seen bobbing or dancing in place."
   },
   {
     "id": "banded-coral-shrimp",
@@ -383,12 +407,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 28,
     "role": "Bold ornamental shrimp that works best as a centerpiece invert in its own territory",
     "role_es": "Camarón ornamental territorial",
-    "overview": "A strong-looking classic coral banded shrimp that does best when customers understand it is decorative first and community-safe only with the right tankmates. It is much less forgiving around other shrimp than cleaner shrimp are.",
+    "overview": "A dramatic boxer shrimp known for giant claws, long antennae, and a cave-based territory. Very interesting to watch, but more aggressive toward other shrimp than the cleaner-shrimp crowd and not always the best choice for mixed shrimp collections.",
     "overview_es": "Camarón ornamental llamativo que necesita su propio territorio.",
     "facts": [
-      "Can become territorial toward other shrimp, especially in tighter layouts.",
-      "Often hangs under ledges with antennae extended to advertise its space.",
-      "Usually fine with fish, but delicate nano inverts are a different story."
+      "Often forms a favorite cave or ledge territory and defends that space against rival shrimp.",
+      "May clean fish occasionally, but most people buy it for the look and behavior rather than dependable cleaning utility.",
+      "Safer kept singly unless a known pair is obtained."
     ],
     "photoTitle": "Stenopus hispidus",
     "inStock": false,
@@ -403,7 +427,7 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "red-and-white banded body with very long white antennae and oversized front claws.",
+    "visualCue": "Look for banded body and oversized boxer-style claws.",
     "bestWith": [
       "One-specimen invert displays",
       "Peaceful to semi-aggressive fish communities",
@@ -412,10 +436,14 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "cautionWith": [
       "Mixing multiple ornamental shrimp in small tanks",
       "Tiny shrimp and weak newly molted crustaceans",
-      "Customers expecting a guaranteed reef-cleaner role"
+      "aquarists expecting a guaranteed reef-cleaner role"
     ],
-    "staffNote": "Good sale for someone who wants a showpiece shrimp and understands the territorial side.",
-    "headerSummary": "Bold ornamental shrimp that works best as a centerpiece invert in its own territory. Look for red-and-white banded body with very long white antennae and oversized front claws. Plan on at least 30+ gal."
+    "staffNote": "Good fit for someone who wants a showpiece shrimp and understands the territorial side.",
+    "headerSummary": "Showy boxer shrimp with huge claws, cave territory, and more attitude than the common cleaner shrimp. Best when the tank is not trying to mix lots of different ornamental shrimp together.",
+    "behavior": "Typically hangs in or under a cave, extending long antennae and standing off with the claws when other shrimp intrude. It is more territorial than a skunk cleaner and often behaves like a cave-owning crustacean first and a community helper second.",
+    "feedingNotes": "Easy to feed with meaty frozen foods, pellets, and leftovers delivered near the den. Because it is assertive, it rarely loses out in feeding unless the tankmates are much faster or larger.",
+    "buyingGuidance": "Recommend it for people who specifically want the boxer-shrimp look and understand that not all ornamental shrimp mix well. Ask whether the reef is meant to be a multi-shrimp display, because that answer changes whether this is a fit.",
+    "recognitionNotes": "Look for banded body and oversized boxer-style claws."
   },
   {
     "id": "blood-red-fire-shrimp",
@@ -441,12 +469,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 18,
     "role": "Shy cleaner-type shrimp prized for deep red color and reef-safe behavior",
     "role_es": "",
-    "overview": "A darker fire-shrimp style listing that sells on color and reef-safe behavior, but it is usually less outgoing than cleaner shrimp. Best for customers who are fine with a more reserved display animal.",
+    "overview": "Spectacular deep-red cleaner shrimp that is usually shyer than the skunk cleaners but extremely striking once it claims a cave or ledge. It adds premium color and some cleaning behavior, but is still vulnerable to the same shrimp predators and molt-time losses.",
     "overview_es": "",
     "facts": [
-      "Often spends the day under ledges and becomes bolder once settled.",
-      "Usually reef safe and compatible with peaceful community fish.",
-      "Needs stable salinity like any ornamental shrimp."
+      "Often spends more time under ledges or in caves than skunk cleaners, especially in bright tanks.",
+      "Usually safe in peaceful reefs but still at risk from hawkfish, larger wrasses, and many predator fish.",
+      "Benefits from stable salinity and careful acclimation like most ornamental shrimp."
     ],
     "photoTitle": "Lysmata debelius",
     "inStock": false,
@@ -461,19 +489,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "solid deep red body with white speckles and long white antennae.",
+    "visualCue": "Deep blood-red body with white spotting or bright white antennae.",
     "bestWith": [
       "Peaceful reef tanks",
-      "Customers who want strong red coloration",
+      "aquarists who want strong red coloration",
       "Mixed reefs with caves and shade"
     ],
     "cautionWith": [
       "Predators and shrimp-hunting wrasses",
       "Brand-new tanks",
-      "Buyers expecting nonstop open-water activity"
+      "aquarists expecting nonstop open-water activity"
     ],
-    "staffNote": "Sell the color and reef-safe nature, but warn that it may hide more than a cleaner shrimp.",
-    "headerSummary": "Shy cleaner-type shrimp prized for deep red color and reef-safe behavior. Look for solid deep red body with white speckles and long white antennae. Plan on at least 15+ gal."
+    "staffNote": "Lead with the color and reef-safe profile, but note that it may stay more tucked away than a cleaner shrimp.",
+    "headerSummary": "Deep-red cleaner shrimp with premium color, cave-dwelling habits, and the usual shrimp compatibility cautions. Gorgeous in peaceful reefs, risky in predator-heavy tanks.",
+    "behavior": "Usually keeps close to caves, overhangs, or shaded ledges and ventures out more confidently once settled. It may clean fish, but many keepers value it just as much for the contrast color and deliberate movement.",
+    "feedingNotes": "Accepts meaty frozen foods, pellets, and leftovers readily, especially once it knows the feeding routine. Because it may stay tucked in more than a skunk cleaner, target feeding near the cave can help during the adjustment period.",
+    "buyingGuidance": "Recommend it when the aquarist wants a premium ornamental shrimp and understands that “reef safe” does not mean “predator proof.” The right reef setting is calm, stable, and not stocked with fish that view shrimp as moving snacks.",
+    "recognitionNotes": "Look for the deep blood-red body, bright white spotting or antennae, and a preference for shaded ledges or caves."
   },
   {
     "id": "bumblebee-shrimp",
@@ -499,12 +531,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 30,
     "role": "Tiny ornamental shrimp best kept in peaceful nanos and specialty invert systems",
     "role_es": "",
-    "overview": "A niche little shrimp that is bought for appearance, not for broad cleanup duty. It does best in gentle community reefs where it will not be bullied or lost among aggressive tankmates.",
+    "overview": "A tiny specialty shrimp with striking yellow-and-dark striping that is more interesting than practical. It is often kept in small peaceful systems where its unusual behavior can actually be observed, rather than in busy display tanks where it disappears.",
     "overview_es": "",
     "facts": [
-      "Much smaller and more delicate than cleaner or fire shrimp.",
-      "Better treated as a specialty ornamental than a utility invert.",
-      "May pick at very small worms or delicate microfauna while scavenging."
+      "Much less of a general-purpose reef shrimp than cleaner or peppermint species.",
+      "Often hides through much of the day and is best appreciated in smaller, calmer displays.",
+      "May pick at echinoderm tube feet in the wild but usually accepts meaty foods in captivity."
     ],
     "photoTitle": "Gnathophyllum americanum",
     "inStock": false,
@@ -519,19 +551,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "small cream to yellow body with bold dark banding that gives the classic bumblebee look.",
+    "visualCue": "Tiny shrimp with strong yellow and dark banding.",
     "bestWith": [
       "Peaceful nano reefs",
-      "Experienced customers building invert-focused displays",
+      "Experienced aquarists building invert-focused displays",
       "Low-aggression tankmates"
     ],
     "cautionWith": [
       "Large wrasses, hawkfish, and other shrimp hunters",
       "Crowded mixed-shrimp setups",
-      "Buyers wanting a visible workhorse cleaner"
+      "aquarists wanting a visible workhorse cleaner"
     ],
-    "staffNote": "Cute seller, but make sure the buyer understands how tiny and specialty-oriented it is.",
-    "headerSummary": "Tiny ornamental shrimp best kept in peaceful nanos and specialty invert systems. Look for small cream to yellow body with bold dark banding that gives the classic bumblebee look. Plan on at least 15+ gal."
+    "staffNote": "Cute seller, but make sure the aquarist understands how tiny and specialty-oriented it is.",
+    "headerSummary": "Tiny specialty shrimp with bold striping and niche appeal. Best for calm nano-style displays where the keeper actually wants to watch an oddball shrimp, not a high-utility worker.",
+    "behavior": "Usually secretive and deliberate, spending much of its time tucked under rock or moving carefully around the substrate. It is not the sort of shrimp that instantly becomes the star of a busy community reef.",
+    "feedingNotes": "Offer very small meaty foods regularly and do not expect it to thrive on leftovers alone. Small tanks make it much easier to ensure the food reaches the shrimp instead of the fish.",
+    "buyingGuidance": "Recommend it only when the owner specifically wants a niche ornamental shrimp and has a predator-free setup to support that choice. It is a specialty add, not a cleanup crew workhorse.",
+    "recognitionNotes": "Tiny shrimp with strong yellow-and-dark banding that stands out sharply when it is actually visible."
   },
   {
     "id": "camel-shrimp",
@@ -557,12 +593,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 20,
     "role": "Hardy ornamental shrimp that is attractive but not dependable for reef-safe coral mixes",
     "role_es": "",
-    "overview": "These shrimp are hardy and eye-catching, but they should not be sold as interchangeable with cleaner shrimp in coral-heavy reefs. They are better for fish-only or cautious mixed systems where coral picking will not be a disaster.",
+    "overview": "Decorative cave- and crevice-oriented shrimp that are often more nocturnal and less reef-safe than people expect from “just another shrimp.” They can be very attractive, but they are not interchangeable with cleaner shrimp.",
     "overview_es": "",
     "facts": [
-      "Often sold by beginners as a cleaner-shrimp alternative even though the behavior is different.",
-      "May nip at soft corals, zoanthids, or fleshy polyps once established.",
-      "Usually hardy and easy to feed."
+      "Often come out more boldly after lights dim than in peak daytime lighting.",
+      "Some of these shrimp will pick at soft coral or fleshy polyp tissue in reef tanks.",
+      "Usually do best in groups or pairs only when the system and species support it."
     ],
     "photoTitle": "Rhynchocinetes durbanensis",
     "inStock": false,
@@ -577,19 +613,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "arched body profile with bold striping and a pronounced hump-backed look.",
+    "visualCue": "Look for arched back and white striping over a red body.",
     "bestWith": [
       "Fish-only or light mixed reef systems",
-      "Budget-conscious customers wanting an ornamental shrimp",
+      "Budget-conscious aquarists wanting an ornamental shrimp",
       "Tanks with caves and overhangs"
     ],
     "cautionWith": [
       "Zoanthids, fleshy LPS, and delicate soft corals",
-      "Customers specifically asking for reef-safe cleaner behavior",
+      "aquarists specifically asking for reef-safe cleaner behavior",
       "Aggressive shrimp-hunting fish"
     ],
-    "staffNote": "Important honesty sale: attractive and hardy, but not the same thing as a skunk cleaner.",
-    "headerSummary": "Hardy ornamental shrimp that is attractive but not dependable for reef-safe coral mixes. Look for arched body profile with bold striping and a pronounced hump-backed look. Plan on at least 20+ gal."
+    "staffNote": "Important honesty point: attractive and hardy, but not the same thing as a skunk cleaner.",
+    "headerSummary": "Attractive ornamental shrimp with a more nocturnal, cave-oriented personality than classic cleaner shrimp. Best for aquarists who understand the coral-risk caveat.",
+    "behavior": "Most spend the day under ledges and become more active in dimmer conditions, moving with a more secretive scavenger style than open-display cleaners. They are interesting shrimp, but usually not the right recommendation for reef keepers who want visible all-day utility.",
+    "feedingNotes": "Accept meaty frozen foods, pellets, and leftovers well when they can get to them. Because they often hide, targeted evening feeding may give better results than relying on daytime broadcast feeding.",
+    "buyingGuidance": "Recommend them when the aquarist likes the look and understands they are decorative scavengers, not guaranteed reef-safe cleaners. If prized fleshy corals are central to the tank, there are usually safer shrimp choices.",
+    "recognitionNotes": "Look for arched back and white striping over a red body."
   },
   {
     "id": "candy-cane-pistol-shrimp",
@@ -615,12 +655,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 22,
     "role": "Burrowing snapping shrimp that sells best with a sand bed and secure rockwork",
     "role_es": "",
-    "overview": "Pistol shrimp make the most sense for customers who want burrowing behavior or a goby partnership, not for someone expecting an always-visible display shrimp. They need sand, structure, and a stable layout that will not shift when they excavate.",
+    "overview": "Burrowing pistol shrimp that is best appreciated in a proper goby-pair or rubble-rich substrate setup, not as a random loose invertebrate. The snapping behavior is normal, and the right aquascape lets the animal build and maintain a visible tunnel system.",
     "overview_es": "",
     "facts": [
-      "The snapping claw is used for defense and communication.",
-      "Many specimens pair naturally with watchman-type gobies.",
-      "They constantly move sand and rubble at the burrow entrance."
+      "Many pistol shrimp form symbiotic partnerships with shrimp gobies, sharing a burrow and warning network.",
+      "Snapping sounds are normal and not a sign of equipment trouble.",
+      "Deep enough substrate and stable rubble around the burrow matter more than flashy color alone."
     ],
     "photoTitle": "Alpheus randalli",
     "inStock": false,
@@ -635,19 +675,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "fine red-and-white banding with one oversized snapping claw and a burrowing habit.",
+    "visualCue": "Look for red-and-white patterned pistol shrimp suited to goby-pair displays.",
     "bestWith": [
       "Watchman gobies and burrow displays",
       "Tanks with a real sand bed",
-      "Owners who enjoy behavior over nonstop visibility"
+      "keepers who enjoy behavior over nonstop visibility"
     ],
     "cautionWith": [
       "Bare-bottom tanks",
       "Loose rockwork resting directly on sand",
       "Tiny delicate crustaceans kept right beside the burrow"
     ],
-    "staffNote": "Lead with the burrow/goby behavior. Also remind buyers to secure rock before adding it.",
-    "headerSummary": "Burrowing snapping shrimp that sells best with a sand bed and secure rockwork. Look for fine red-and-white banding with one oversized snapping claw and a burrowing habit. Plan on at least 20+ gal."
+    "staffNote": "Lead with the burrow/goby behavior. Also remind aquarists to secure rock before adding it.",
+    "headerSummary": "Burrowing pistol shrimp best for goby-pair displays and sand-rubble structures. Great behavior animal when the tank is built to let it dig, pair, and stay visible.",
+    "behavior": "Usually spends much of its life engineering a burrow, shoveling sand, repositioning rubble, and staying near the entrance. With the right goby partner, the behavior becomes much more visible and far more rewarding to watch.",
+    "feedingNotes": "Will scavenge effectively but still benefits from meaty foods reaching the burrow area. Tanks with heavy competition may need target feeding so the shrimp is not trying to live entirely on scraps.",
+    "buyingGuidance": "Recommend it when the aquarist specifically wants burrow behavior or a goby partnership, not merely because “shrimp are cool.” Ask about substrate depth, rock stability, and whether a suitable goby is already present or planned.",
+    "recognitionNotes": "Look for red-and-white patterned pistol shrimp suited to goby-pair displays."
   },
   {
     "id": "durban-dancing-shrimp",
@@ -673,12 +717,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 20,
     "role": "Hardy ornamental shrimp that is attractive but not dependable for reef-safe coral mixes",
     "role_es": "",
-    "overview": "These shrimp are hardy and eye-catching, but they should not be sold as interchangeable with cleaner shrimp in coral-heavy reefs. They are better for fish-only or cautious mixed systems where coral picking will not be a disaster.",
+    "overview": "Decorative cave- and crevice-oriented shrimp that are often more nocturnal and less reef-safe than people expect from “just another shrimp.” They can be very attractive, but they are not interchangeable with cleaner shrimp.",
     "overview_es": "",
     "facts": [
-      "Often sold by beginners as a cleaner-shrimp alternative even though the behavior is different.",
-      "May nip at soft corals, zoanthids, or fleshy polyps once established.",
-      "Usually hardy and easy to feed."
+      "Often come out more boldly after lights dim than in peak daytime lighting.",
+      "Some of these shrimp will pick at soft coral or fleshy polyp tissue in reef tanks.",
+      "Usually do best in groups or pairs only when the system and species support it."
     ],
     "photoTitle": "Rhynchocinetes durbanensis",
     "inStock": false,
@@ -693,19 +737,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "arched body profile with bold striping and a pronounced hump-backed look.",
+    "visualCue": "Look for hinged beak profile and red-striped nocturnal shrimp look.",
     "bestWith": [
       "Fish-only or light mixed reef systems",
-      "Budget-conscious customers wanting an ornamental shrimp",
+      "Budget-conscious aquarists wanting an ornamental shrimp",
       "Tanks with caves and overhangs"
     ],
     "cautionWith": [
       "Zoanthids, fleshy LPS, and delicate soft corals",
-      "Customers specifically asking for reef-safe cleaner behavior",
+      "aquarists specifically asking for reef-safe cleaner behavior",
       "Aggressive shrimp-hunting fish"
     ],
-    "staffNote": "Important honesty sale: attractive and hardy, but not the same thing as a skunk cleaner.",
-    "headerSummary": "Hardy ornamental shrimp that is attractive but not dependable for reef-safe coral mixes. Look for arched body profile with bold striping and a pronounced hump-backed look. Plan on at least 20+ gal."
+    "staffNote": "Important honesty point: attractive and hardy, but not the same thing as a skunk cleaner.",
+    "headerSummary": "Attractive ornamental shrimp with a more nocturnal, cave-oriented personality than classic cleaner shrimp. Best for aquarists who understand the coral-risk caveat.",
+    "behavior": "Most spend the day under ledges and become more active in dimmer conditions, moving with a more secretive scavenger style than open-display cleaners. They are interesting shrimp, but usually not the right recommendation for reef keepers who want visible all-day utility.",
+    "feedingNotes": "Accept meaty frozen foods, pellets, and leftovers well when they can get to them. Because they often hide, targeted evening feeding may give better results than relying on daytime broadcast feeding.",
+    "buyingGuidance": "Recommend them when the aquarist likes the look and understands they are decorative scavengers, not guaranteed reef-safe cleaners. If prized fleshy corals are central to the tank, there are usually safer shrimp choices.",
+    "recognitionNotes": "Look for hinged beak profile and red-striped nocturnal shrimp look."
   },
   {
     "id": "gold-coral-banded-shrimp",
@@ -731,12 +779,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 28,
     "role": "Bold ornamental shrimp that works best as a centerpiece invert in its own territory",
     "role_es": "Camarón ornamental territorial",
-    "overview": "A strong-looking gold color morph of coral banded-type shrimp that does best when customers understand it is decorative first and community-safe only with the right tankmates. It is much less forgiving around other shrimp than cleaner shrimp are.",
+    "overview": "A dramatic boxer shrimp known for giant claws, long antennae, and a cave-based territory. Very interesting to watch, but more aggressive toward other shrimp than the cleaner-shrimp crowd and not always the best choice for mixed shrimp collections.",
     "overview_es": "Camarón ornamental llamativo que necesita su propio territorio.",
     "facts": [
-      "Can become territorial toward other shrimp, especially in tighter layouts.",
-      "Often hangs under ledges with antennae extended to advertise its space.",
-      "Usually fine with fish, but delicate nano inverts are a different story."
+      "Often forms a favorite cave or ledge territory and defends that space against rival shrimp.",
+      "May clean fish occasionally, but most people buy it for the look and behavior rather than dependable cleaning utility.",
+      "Safer kept singly unless a known pair is obtained."
     ],
     "photoTitle": "Stenopus zanzibaricus",
     "inStock": false,
@@ -751,7 +799,7 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "banded coral shrimp body plan with warm gold tones and long white antennae.",
+    "visualCue": "Look for gold-toned banded body with oversized boxer-style claws.",
     "bestWith": [
       "One-specimen invert displays",
       "Peaceful to semi-aggressive fish communities",
@@ -760,10 +808,14 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "cautionWith": [
       "Mixing multiple ornamental shrimp in small tanks",
       "Tiny shrimp and weak newly molted crustaceans",
-      "Customers expecting a guaranteed reef-cleaner role"
+      "aquarists expecting a guaranteed reef-cleaner role"
     ],
-    "staffNote": "Good sale for someone who wants a showpiece shrimp and understands the territorial side.",
-    "headerSummary": "Bold ornamental shrimp that works best as a centerpiece invert in its own territory. Look for banded coral shrimp body plan with warm gold tones and long white antennae. Plan on at least 30+ gal."
+    "staffNote": "Good fit for someone who wants a showpiece shrimp and understands the territorial side.",
+    "headerSummary": "Showy boxer shrimp with huge claws, cave territory, and more attitude than the common cleaner shrimp. Best when the tank is not trying to mix lots of different ornamental shrimp together.",
+    "behavior": "Typically hangs in or under a cave, extending long antennae and standing off with the claws when other shrimp intrude. It is more territorial than a skunk cleaner and often behaves like a cave-owning crustacean first and a community helper second.",
+    "feedingNotes": "Easy to feed with meaty frozen foods, pellets, and leftovers delivered near the den. Because it is assertive, it rarely loses out in feeding unless the tankmates are much faster or larger.",
+    "buyingGuidance": "Recommend it for people who specifically want the boxer-shrimp look and understand that not all ornamental shrimp mix well. Ask whether the reef is meant to be a multi-shrimp display, because that answer changes whether this is a fit.",
+    "recognitionNotes": "Look for gold-toned banded body with oversized boxer-style claws."
   },
   {
     "id": "harlequin-shrimp",
@@ -787,14 +839,14 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "coralRisk": 2,
     "invertRisk": 70,
     "careDifficulty": 56,
-    "role": "Specialist ornamental shrimp that is only appropriate for buyers prepared to feed starfish",
+    "role": "Specialist ornamental shrimp that is only appropriate for aquarists prepared to feed starfish",
     "role_es": "Camarón moteado impresionante que se alimenta exclusivamente de estrellas",
-    "overview": "One of the most striking shrimp in the hobby, but it is not a casual community invert. The real sale is to someone deliberately targeting Asterina stars or already prepared for the feeding commitment after those are gone.",
+    "overview": "A spectacular specialty shrimp whose beauty is matched by a very narrow diet: it feeds on starfish and similar echinoderms, not on generic reef leftovers. That makes it fascinating but also a serious commitment rather than a casual ornamental.",
     "overview_es": "Uno de los invertebrados más hermosos con cuerpo blanco cubierto de manchas púrpura-rosa. Se alimenta SOLO de estrellas de mar.",
     "facts": [
-      "Feeds on starfish and should be treated as a specialist predator.",
-      "Usually peaceful with fish but absolutely not with echinoderms it can eat.",
-      "Best sold with a clear plan for long-term feeding or relocation."
+      "Famously feeds on sea stars and is often used for Asterina control only when a long-term feeding plan exists.",
+      "Best kept as a deliberate specialty animal or pair, not as a generic mixed-reef shrimp.",
+      "Stable water and successful molting matter, but food planning is the make-or-break issue."
     ],
     "photoTitle": "Hymenocera picta",
     "inStock": false,
@@ -809,19 +861,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "flattened body with dramatic blue, cream, and purple patchwork patterns.",
+    "visualCue": "White body with large colored blotches and ornate flattened front appendages.",
     "bestWith": [
       "Dedicated specialty reef displays",
       "Asterina-control plans with a backup feeding strategy",
       "Experienced hobbyists"
     ],
     "cautionWith": [
-      "Impulse sales based on appearance alone",
-      "Buyers with decorative starfish in the same system",
+      "appearance-only choices without a compatibility check",
+      "aquarists with decorative starfish in the same system",
       "Tanks where no food plan exists after pest stars are gone"
     ],
     "staffNote": "Very cool animal, but it needs a starfish plan before it leaves the store.",
-    "headerSummary": "Specialist ornamental shrimp that is only appropriate for buyers prepared to feed starfish. Look for flattened body with dramatic blue, cream, and purple patchwork patterns. Plan on at least 20+ gal."
+    "headerSummary": "Beautiful specialty shrimp with a starfish-only feeding problem that must be solved before purchase. Stunning animal, terrible impulse buy.",
+    "behavior": "Usually moves deliberately and methodically, especially once it has located food. In a suitable setup it becomes a fascinating long-term project, but in a casual community reef it often becomes a starvation risk disguised as a premium ornament.",
+    "feedingNotes": "Plan starfish feeding before the shrimp is purchased. This is not a species that should be expected to switch to pellets, leftover fish food, or standard mixed invertebrate diets.",
+    "buyingGuidance": "Only recommend when the aquarist already understands and accepts the starfish-feeding commitment. Harlequin shrimp are amazing display animals, but they are not cleanup crew and they are not a “maybe it will figure something out” purchase.",
+    "recognitionNotes": "White to cream body with large colored blotches and ornate flattened appendages that make the shrimp look almost floral."
   },
   {
     "id": "pederson-cleaner-shrimp",
@@ -847,12 +903,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 24,
     "role": "Small Caribbean cleaner shrimp for peaceful reefs and nano displays",
     "role_es": "",
-    "overview": "A tiny cleaner shrimp that works well in peaceful nanos and Caribbean-themed reefs, but it is not as bold or forgiving as a full-size skunk cleaner. The sale should be about behavior and size, not raw cleanup muscle.",
+    "overview": "Smaller and more delicate than the chunky classic cleaners that adds movement, visible cleaning-station behavior, and real personality to reef tanks. The biggest compatibility concern is not feeding difficulty but keeping it away from hawkfish, larger wrasses, puffers, triggers, and other shrimp predators.",
     "overview_es": "",
     "facts": [
-      "Often associates with anemones or sheltered ledges.",
-      "Can set up small cleaning stations for willing fish.",
-      "Needs stable salinity and calmer tankmates than larger cleaner shrimp usually tolerate."
+      "Cleaner shrimps often advertise with antennae and body movement, then groom receptive fish at a cleaning station.",
+      "Most do well singly, in pairs, or in peaceful reef communities if predators are absent.",
+      "Molting periods are when even hardy shrimp are most vulnerable to predation."
     ],
     "photoTitle": "Ancylomenes pedersoni",
     "inStock": false,
@@ -867,19 +923,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "slender transparent body with violet to blue accents and long white antennae.",
+    "visualCue": "Look for a finer, more delicate cleaner-shrimp build with long waving antennae.",
     "bestWith": [
       "Peaceful nano reefs",
       "Caribbean biotope displays",
-      "Customers wanting a small cleaner-style shrimp"
+      "aquarists wanting a small cleaner-style shrimp"
     ],
     "cautionWith": [
       "Wrasses, hawkfish, and boisterous semi-aggressive fish",
       "Very new tanks",
-      "Buyers who really want a larger more visible shrimp"
+      "aquarists who really want a larger more visible shrimp"
     ],
-    "staffNote": "Great nano sale when the customer wants a cleaner-type shrimp without the larger footprint.",
-    "headerSummary": "Small Caribbean cleaner shrimp for peaceful reefs and nano displays. Look for slender transparent body with violet to blue accents and long white antennae. Plan on at least 10+ gal."
+    "staffNote": "great nano fit when the aquarist wants a cleaner-type shrimp without the larger footprint.",
+    "headerSummary": "Visible cleaner shrimp that brings motion, utility, and classic reef behavior. Best in predator-light reef systems where it can molt safely and stay out in the open.",
+    "behavior": "Usually spends the day waving antennae, scavenging, and setting up obvious cleaning-station behavior near rock ledges or caves. Once comfortable, these shrimp often become one of the most visible animals in the tank.",
+    "feedingNotes": "Most accept leftover frozen foods, pellets, and fine meaty foods readily, even though they also clean fish. They should still be fed like real invertebrates, not expected to survive only on what they pull off tankmates.",
+    "buyingGuidance": "A very strong recommendation for peaceful reef systems that want visible movement and classic reef interaction. Always ask about hawkfish, large wrasses, dottybacks, triggers, puffers, or other shrimp-eating tankmates before calling it safe.",
+    "recognitionNotes": "Look for a finer, more delicate cleaner-shrimp build with long waving antennae."
   },
   {
     "id": "pistol-shrimp",
@@ -905,12 +965,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 22,
     "role": "Burrowing snapping shrimp that sells best with a sand bed and secure rockwork",
     "role_es": "",
-    "overview": "Pistol shrimp make the most sense for customers who want burrowing behavior or a goby partnership, not for someone expecting an always-visible display shrimp. They need sand, structure, and a stable layout that will not shift when they excavate.",
+    "overview": "Burrowing pistol shrimp that is best appreciated in a proper goby-pair or rubble-rich substrate setup, not as a random loose invertebrate. The snapping behavior is normal, and the right aquascape lets the animal build and maintain a visible tunnel system.",
     "overview_es": "",
     "facts": [
-      "The snapping claw is used for defense and communication.",
-      "Many specimens pair naturally with watchman-type gobies.",
-      "They constantly move sand and rubble at the burrow entrance."
+      "Many pistol shrimp form symbiotic partnerships with shrimp gobies, sharing a burrow and warning network.",
+      "Snapping sounds are normal and not a sign of equipment trouble.",
+      "Deep enough substrate and stable rubble around the burrow matter more than flashy color alone."
     ],
     "photoTitle": "Alpheus sp.",
     "inStock": false,
@@ -925,19 +985,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "classic pistol shrimp shape with one oversized snapping claw and a habit of constantly moving sand.",
+    "visualCue": "Look for classic burrowing pistol-shrimp form with oversized snapping claw.",
     "bestWith": [
       "Watchman gobies and burrow displays",
       "Tanks with a real sand bed",
-      "Owners who enjoy behavior over nonstop visibility"
+      "keepers who enjoy behavior over nonstop visibility"
     ],
     "cautionWith": [
       "Bare-bottom tanks",
       "Loose rockwork resting directly on sand",
       "Tiny delicate crustaceans kept right beside the burrow"
     ],
-    "staffNote": "Lead with the burrow/goby behavior. Also remind buyers to secure rock before adding it.",
-    "headerSummary": "Burrowing snapping shrimp that sells best with a sand bed and secure rockwork. Look for classic pistol shrimp shape with one oversized snapping claw and a habit of constantly moving sand. Plan on at least 20+ gal."
+    "staffNote": "Lead with the burrow/goby behavior. Also remind aquarists to secure rock before adding it.",
+    "headerSummary": "Burrowing pistol shrimp best for goby-pair displays and sand-rubble structures. Great behavior animal when the tank is built to let it dig, pair, and stay visible.",
+    "behavior": "Usually spends much of its life engineering a burrow, shoveling sand, repositioning rubble, and staying near the entrance. With the right goby partner, the behavior becomes much more visible and far more rewarding to watch.",
+    "feedingNotes": "Will scavenge effectively but still benefits from meaty foods reaching the burrow area. Tanks with heavy competition may need target feeding so the shrimp is not trying to live entirely on scraps.",
+    "buyingGuidance": "Recommend it when the aquarist specifically wants burrow behavior or a goby partnership, not merely because “shrimp are cool.” Ask about substrate depth, rock stability, and whether a suitable goby is already present or planned.",
+    "recognitionNotes": "Look for classic burrowing pistol-shrimp form with oversized snapping claw."
   },
   {
     "id": "randall-s-pistol-shrimp",
@@ -963,12 +1027,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 22,
     "role": "Burrowing snapping shrimp that sells best with a sand bed and secure rockwork",
     "role_es": "",
-    "overview": "Pistol shrimp make the most sense for customers who want burrowing behavior or a goby partnership, not for someone expecting an always-visible display shrimp. They need sand, structure, and a stable layout that will not shift when they excavate.",
+    "overview": "Burrowing pistol shrimp that is best appreciated in a proper goby-pair or rubble-rich substrate setup, not as a random loose invertebrate. The snapping behavior is normal, and the right aquascape lets the animal build and maintain a visible tunnel system.",
     "overview_es": "",
     "facts": [
-      "The snapping claw is used for defense and communication.",
-      "Many specimens pair naturally with watchman-type gobies.",
-      "They constantly move sand and rubble at the burrow entrance."
+      "Many pistol shrimp form symbiotic partnerships with shrimp gobies, sharing a burrow and warning network.",
+      "Snapping sounds are normal and not a sign of equipment trouble.",
+      "Deep enough substrate and stable rubble around the burrow matter more than flashy color alone."
     ],
     "photoTitle": "Alpheus randalli",
     "inStock": false,
@@ -983,19 +1047,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "small red-and-white banded pistol shrimp that stays close to a burrow and goby partner.",
+    "visualCue": "Look for more decorative pistol shrimp with crisp red-and-white patterning.",
     "bestWith": [
       "Watchman gobies and burrow displays",
       "Tanks with a real sand bed",
-      "Owners who enjoy behavior over nonstop visibility"
+      "keepers who enjoy behavior over nonstop visibility"
     ],
     "cautionWith": [
       "Bare-bottom tanks",
       "Loose rockwork resting directly on sand",
       "Tiny delicate crustaceans kept right beside the burrow"
     ],
-    "staffNote": "Lead with the burrow/goby behavior. Also remind buyers to secure rock before adding it.",
-    "headerSummary": "Burrowing snapping shrimp that sells best with a sand bed and secure rockwork. Look for small red-and-white banded pistol shrimp that stays close to a burrow and goby partner. Plan on at least 20+ gal."
+    "staffNote": "Lead with the burrow/goby behavior. Also remind aquarists to secure rock before adding it.",
+    "headerSummary": "Burrowing pistol shrimp best for goby-pair displays and sand-rubble structures. Great behavior animal when the tank is built to let it dig, pair, and stay visible.",
+    "behavior": "Usually spends much of its life engineering a burrow, shoveling sand, repositioning rubble, and staying near the entrance. With the right goby partner, the behavior becomes much more visible and far more rewarding to watch.",
+    "feedingNotes": "Will scavenge effectively but still benefits from meaty foods reaching the burrow area. Tanks with heavy competition may need target feeding so the shrimp is not trying to live entirely on scraps.",
+    "buyingGuidance": "Recommend it when the aquarist specifically wants burrow behavior or a goby partnership, not merely because “shrimp are cool.” Ask about substrate depth, rock stability, and whether a suitable goby is already present or planned.",
+    "recognitionNotes": "Look for more decorative pistol shrimp with crisp red-and-white patterning."
   },
   {
     "id": "skunk-cleaner-shrimp",
@@ -1021,12 +1089,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 16,
     "role": "Reef-safe cleaner shrimp that doubles as one of the easiest display inverts in the hobby",
     "role_es": "",
-    "overview": "This is the classic skunk cleaner entry and it deserves the same practical treatment as a regular cleaner shrimp: easy to understand, useful, and usually visible. Great sale for customers who want a first ornamental crustacean.",
+    "overview": "One of the most dependable ornamental shrimp in the hobby that adds movement, visible cleaning-station behavior, and real personality to reef tanks. The biggest compatibility concern is not feeding difficulty but keeping it away from hawkfish, larger wrasses, puffers, triggers, and other shrimp predators.",
     "overview_es": "",
     "facts": [
-      "Often advertises itself with long antennae and open cleaning-station posture.",
-      "Usually reef safe and well suited to beginner community systems.",
-      "Can be kept singly or in compatible groups in larger peaceful tanks."
+      "Cleaner shrimps often advertise with antennae and body movement, then groom receptive fish at a cleaning station.",
+      "Most do well singly, in pairs, or in peaceful reef communities if predators are absent.",
+      "Molting periods are when even hardy shrimp are most vulnerable to predation."
     ],
     "photoTitle": "Lysmata amboinensis",
     "inStock": false,
@@ -1041,11 +1109,11 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "bright red body with a wide white dorsal stripe and long white antennae.",
+    "visualCue": "Look for the classic skunk-cleaner stripe with bright white antennae.",
     "bestWith": [
       "Beginner reef tanks",
       "Peaceful community fish",
-      "Customers wanting visible useful inverts"
+      "aquarists wanting visible useful inverts"
     ],
     "cautionWith": [
       "Predatory fish and shrimp-hunting wrasses",
@@ -1053,7 +1121,11 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
       "Very aggressive hawkfish"
     ],
     "staffNote": "A comfortable first-shrimp recommendation when the rest of the stocking list is sensible.",
-    "headerSummary": "Reef-safe cleaner shrimp that doubles as one of the easiest display inverts in the hobby. Look for bright red body with a wide white dorsal stripe and long white antennae. Plan on at least 10+ gal."
+    "headerSummary": "Visible cleaner shrimp that brings motion, utility, and classic reef behavior. Best in predator-light reef systems where it can molt safely and stay out in the open.",
+    "behavior": "Usually spends the day waving antennae, scavenging, and setting up obvious cleaning-station behavior near rock ledges or caves. Once comfortable, these shrimp often become one of the most visible animals in the tank.",
+    "feedingNotes": "Most accept leftover frozen foods, pellets, and fine meaty foods readily, even though they also clean fish. They should still be fed like real invertebrates, not expected to survive only on what they pull off tankmates.",
+    "buyingGuidance": "A very strong recommendation for peaceful reef systems that want visible movement and classic reef interaction. Always ask about hawkfish, large wrasses, dottybacks, triggers, puffers, or other shrimp-eating tankmates before calling it safe.",
+    "recognitionNotes": "Look for the classic skunk-cleaner stripe with bright white antennae."
   },
   {
     "id": "tiger-pistol-shrimp",
@@ -1079,12 +1151,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 22,
     "role": "Burrowing snapping shrimp that sells best with a sand bed and secure rockwork",
     "role_es": "Camarón chasqueador excavador que se empareja con gobios vigilantes",
-    "overview": "Pistol shrimp make the most sense for customers who want burrowing behavior or a goby partnership, not for someone expecting an always-visible display shrimp. They need sand, structure, and a stable layout that will not shift when they excavate.",
+    "overview": "Burrowing pistol shrimp that is best appreciated in a proper goby-pair or rubble-rich substrate setup, not as a random loose invertebrate. The snapping behavior is normal, and the right aquascape lets the animal build and maintain a visible tunnel system.",
     "overview_es": "El clásico camarón pistola para emparejar con gobios. Excava sistemas elaborados de madrigueras mientras su compañero gobio vigila.",
     "facts": [
-      "The snapping claw is used for defense and communication.",
-      "Many specimens pair naturally with watchman-type gobies.",
-      "They constantly move sand and rubble at the burrow entrance."
+      "Many pistol shrimp form symbiotic partnerships with shrimp gobies, sharing a burrow and warning network.",
+      "Snapping sounds are normal and not a sign of equipment trouble.",
+      "Deep enough substrate and stable rubble around the burrow matter more than flashy color alone."
     ],
     "photoTitle": "Alpheus bellulus",
     "inStock": false,
@@ -1099,19 +1171,23 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "cream body with tan tiger-like striping and one large snapping claw.",
+    "visualCue": "Look for striped heavier-bodied pistol shrimp often paired with watchman gobies.",
     "bestWith": [
       "Watchman gobies and burrow displays",
       "Tanks with a real sand bed",
-      "Owners who enjoy behavior over nonstop visibility"
+      "keepers who enjoy behavior over nonstop visibility"
     ],
     "cautionWith": [
       "Bare-bottom tanks",
       "Loose rockwork resting directly on sand",
       "Tiny delicate crustaceans kept right beside the burrow"
     ],
-    "staffNote": "Lead with the burrow/goby behavior. Also remind buyers to secure rock before adding it.",
-    "headerSummary": "Burrowing snapping shrimp that sells best with a sand bed and secure rockwork. Look for cream body with tan tiger-like striping and one large snapping claw. Plan on at least 20+ gal."
+    "staffNote": "Lead with the burrow/goby behavior. Also remind aquarists to secure rock before adding it.",
+    "headerSummary": "Burrowing pistol shrimp best for goby-pair displays and sand-rubble structures. Great behavior animal when the tank is built to let it dig, pair, and stay visible.",
+    "behavior": "Usually spends much of its life engineering a burrow, shoveling sand, repositioning rubble, and staying near the entrance. With the right goby partner, the behavior becomes much more visible and far more rewarding to watch.",
+    "feedingNotes": "Will scavenge effectively but still benefits from meaty foods reaching the burrow area. Tanks with heavy competition may need target feeding so the shrimp is not trying to live entirely on scraps.",
+    "buyingGuidance": "Recommend it when the aquarist specifically wants burrow behavior or a goby partnership, not merely because “shrimp are cool.” Ask about substrate depth, rock stability, and whether a suitable goby is already present or planned.",
+    "recognitionNotes": "Look for striped heavier-bodied pistol shrimp often paired with watchman gobies."
   },
   {
     "id": "mysid-shrimp-culture",
@@ -1137,12 +1213,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "careDifficulty": 30,
     "role": "Live food and biodiversity culture used to seed refugia or feed picky predators",
     "role_es": "",
-    "overview": "Live mysid culture used to seed food webs or feed picky predators rather than serve as a display animal.",
+    "overview": "Live food culture entry rather than a display invertebrate. Mysids are valuable because they add moving prey for finicky fish, small predators, and systems that benefit from active live feeding support.",
     "overview_es": "",
     "facts": [
-      "Useful for mandarins, seahorses, pipefish, and finicky feeders depending on system setup.",
-      "Best results come from protected refugia or separate culture containers.",
-      "Predatory fish will wipe them out quickly in open display tanks."
+      "Useful for finicky feeders, pipefish-type feeding routines, and predator conditioning.",
+      "Best treated like a live-food project with harvest and replenishment planning.",
+      "Water quality and predation pressure determine how long a culture lasts in a display."
     ],
     "photoTitle": "Mysid",
     "inStock": false,
@@ -1157,7 +1233,7 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "tiny translucent shrimp-like plankton that pulse through the water column.",
+    "visualCue": "Tiny free-swimming shrimp intended as live food.",
     "bestWith": [
       "Refugium systems",
       "Live-food programs",
@@ -1166,10 +1242,14 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "cautionWith": [
       "Expecting a permanent visible display population in a predator tank",
       "Systems without plankton support or export control",
-      "Customers who really need a cleanup crew item instead"
+      "aquarists who really need a cleanup crew item instead"
     ],
     "staffNote": "Pitch it as live food / refugium biodiversity, not as an ornamental shrimp.",
-    "headerSummary": "Live food and biodiversity culture used to seed refugia or feed picky predators. Look for tiny translucent shrimp-like plankton that pulse through the water column. Plan on at least Any established refugium or culture vessel."
+    "headerSummary": "Live mysid culture for feeding support, not a display shrimp. Best used by keepers intentionally supporting finicky or predatory feeders.",
+    "behavior": "As a culture, the value is in constant motion and nutritional availability rather than in ornamental display behavior. In display tanks they may persist briefly or become immediate prey depending on the stocking list.",
+    "feedingNotes": "Use as part of an intentional feeding program for fish that respond better to moving prey. Expect to replenish or culture more if the display contains efficient hunters.",
+    "buyingGuidance": "Recommend only when the aquarist actually has a feeding use case for live mysids. They are excellent support animals, but they are not decorative shrimp for people who just want something pretty on the rock.",
+    "recognitionNotes": "Small free-swimming shrimp culture meant to be used as active live food rather than ornamental stock."
   },
   {
     "id": "candy-cane-shrimp",
@@ -1192,7 +1272,7 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "photoTitle": "Leandrites_cyrtorhynchus",
     "role": "Tiny striped shrimp",
     "role_es": "Camarón rayado diminuto",
-    "overview": "Red and white candy-cane striping. Shy and nocturnal. Safe with all corals and fish.",
+    "overview": "Decorative cave- and crevice-oriented shrimp that are often more nocturnal and less reef-safe than people expect from “just another shrimp.” They can be very attractive, but they are not interchangeable with cleaner shrimp.",
     "overview_es": "Rayas rojas y blancas tipo bastón de caramelo. Tímido y nocturno.",
     "inStock": false,
     "price": 0,
@@ -1201,9 +1281,9 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "badges": [],
     "aliases": [],
     "facts": [
-      "Adult size in this catalog is listed around 2 in.",
-      "Plan around roughly 10+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore."
+      "Often come out more boldly after lights dim than in peak daytime lighting.",
+      "Some of these shrimp will pick at soft coral or fleshy polyp tissue in reef tanks.",
+      "Usually do best in groups or pairs only when the system and species support it."
     ],
     "water": {
       "ph": [
@@ -1227,7 +1307,7 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     },
     "seasonal": null,
     "careLabel": "Moderate",
-    "visualCue": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner.",
+    "visualCue": "Look for red-and-white striping with a more decorative cave-shrimp presentation.",
     "bestWith": [
       "Stable systems with mature parameters",
       "Tankmates unlikely to harass or overturn invertebrates",
@@ -1237,11 +1317,11 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
       "Unstable salinity, immature systems, or rough handling",
       "Fish known to nip, flip, or harass small invertebrates"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a moderate invertebrate profile, not a generic add-on.",
-    "headerSummary": "Tiny striped shrimp. Plan on roughly 10+ gal or larger long term.",
-    "behavior": "Temperament is usually workable in a well-planned community with sensible tankmates.",
-    "feedingNotes": "Match the food size and routine to the actual species instead of relying only on the category label. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Match the sale to long-term size, feeding pattern, and compatibility instead of impulse color.",
-    "recognitionNotes": "Look for the antennae length, body striping or translucence, and whether it acts as a cleaner, scavenger, or burrow partner."
+    "staffNote": "confirm placement, tank maturity, and specific feeding needs before adding one. Treat this as a moderate invertebrate profile, not a generic add-on.",
+    "headerSummary": "Attractive ornamental shrimp with a more nocturnal, cave-oriented personality than classic cleaner shrimp. Best for aquarists who understand the coral-risk caveat.",
+    "behavior": "Most spend the day under ledges and become more active in dimmer conditions, moving with a more secretive scavenger style than open-display cleaners. They are interesting shrimp, but usually not the right recommendation for reef keepers who want visible all-day utility.",
+    "feedingNotes": "Accept meaty frozen foods, pellets, and leftovers well when they can get to them. Because they often hide, targeted evening feeding may give better results than relying on daytime broadcast feeding.",
+    "buyingGuidance": "Recommend them when the aquarist likes the look and understands they are decorative scavengers, not guaranteed reef-safe cleaners. If prized fleshy corals are central to the tank, there are usually safer shrimp choices.",
+    "recognitionNotes": "Look for red-and-white striping with a more decorative cave-shrimp presentation."
   }
 ];

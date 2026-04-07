@@ -1,4 +1,3 @@
-window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Snails"] = [
   {
     "id": "nassarius-snail",
@@ -24,23 +23,23 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "invertRisk": 2,
     "careDifficulty": 8,
     "role": "Sand-dwelling scavenger that cleans up uneaten food",
-    "visualCue": "Small spiral-shelled snail that buries in sand and erupts when food hits the water.",
-    "overview": "The sand-bed cleanup crew essential. Buries in the sand, detects food from across the tank, and erupts to the surface to eat it. Fascinating behavior and genuinely useful.",
+    "visualCue": "Sand-burrowing snail with a long feeding siphon.",
+    "overview": "Sand-dwelling scavenger snail that excels at finding meaty leftovers rather than scraping algae from glass. It is valuable in reef cleanup crews because it keeps the substrate lively and helps remove waste before it rots.",
     "facts": [
-      "The eruption from the sand when food is detected is entertaining.",
-      "Genuinely useful scavengers that prevent food waste from rotting.",
-      "Cheap enough to buy in bulk."
+      "Often stays buried until it smells food, then erupts from the sand quickly.",
+      "Excellent at consuming leftovers and carrion but not a primary algae grazer.",
+      "Works best in sand-bottom systems with enough feeding activity to justify a scavenger crew."
     ],
     "bestWith": [
       "Any tank with a sand bed",
       "Cleanup crew foundations",
-      "Bulk purchases for larger tanks"
+      "large cleanup-crew groupings for larger tanks"
     ],
     "cautionWith": [
       "Bare-bottom tanks — they need sand",
       "Overstocking in very small tanks"
     ],
-    "staffNote": "Sell in bulk. 5-10 per tank is normal. The sand eruption behavior sells them.",
+    "staffNote": "These are usually stocked in groups matched to the tank size. 5-10 per tank is normal. The sand eruption behavior sells them.",
     "photoTitle": "Nassarius vibex",
     "inStock": false,
     "badges": [],
@@ -57,8 +56,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "role_es": "Carroñero de arena que detecta comida",
     "diet_es": "Carroñero",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Sand-dwelling scavenger that cleans up uneaten food. Look for small spiral-shelled snail that buries in sand and erupts when food hits the water. Plan on at least 5+ gal.",
-    "seasonal": null
+    "headerSummary": "Substrate-burrowing scavenger snail with excellent leftover cleanup value. Great utility animal when the tank actually needs a meat-and-detritus scavenger.",
+    "seasonal": null,
+    "behavior": "Usually lives buried in the sand until food scent hits the water, then rises and moves quickly for a snail. That ambush-scavenger style is exactly what makes it useful in well-fed reef systems.",
+    "feedingNotes": "Needs meaty leftovers or targeted foods to justify its place long term; it is not a replacement for algae snails. Tanks that run extremely lean may not support large nassarius populations well.",
+    "buyingGuidance": "Recommend for sand-bottom reef tanks that need scavenging help, not for bare-bottom systems looking for glass cleaners. The right sale is based on function: leftover cleanup and sand stirring, not shell appearance.",
+    "recognitionNotes": "Small sand-burrowing snail with an obvious siphon used to sniff out food from below the substrate."
   },
   {
     "id": "trochus-snail",
@@ -84,22 +87,22 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "invertRisk": 2,
     "careDifficulty": 8,
     "role": "Best all-around algae-eating snail for reef tanks",
-    "visualCue": "Cone-shaped shell with brown and white banding. Constantly grazes on glass and rock.",
-    "overview": "Widely considered the best cleanup crew snail available. Can right itself if it falls (unlike Astrea), breeds in captivity, and eats a wide variety of algae.",
+    "visualCue": "Conical shell and constant rock-and-glass grazing behavior.",
+    "overview": "Reliable algae-grazing reef snail valued for film algae, glass work, and rock browsing. It is one of the most practical cleanup animals because the job description is simple and it usually sticks to it.",
     "facts": [
-      "Can right itself if knocked over — huge advantage over Astrea snails.",
-      "Breeds in aquariums — self-sustaining population.",
-      "Eats a wider variety of algae than most snails."
+      "Excellent on film algae and lighter grazing jobs rather than heavy meaty cleanup.",
+      "Peaceful and broadly reef-safe with very little downside in sensible numbers.",
+      "Can usually right itself if flipped."
     ],
     "bestWith": [
       "Any reef tank",
       "Cleanup crew foundations",
-      "Bulk purchases"
+      "large cleanup-crew groupings"
     ],
     "cautionWith": [
       "Nothing — this is about as safe as an invertebrate gets"
     ],
-    "staffNote": "The snail to recommend. Better than Astrea, better than Turbo for most tanks. Sell in bulk.",
+    "staffNote": "The snail to recommend. Better than Astrea, better than Turbo for most tanks. These are usually stocked in groups matched to the tank size.",
     "photoTitle": "Trochus niloticus",
     "inStock": false,
     "badges": [],
@@ -116,8 +119,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "role_es": "El mejor caracol comedor de algas para arrecife",
     "diet_es": "Herbívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Best all-around algae-eating snail for reef tanks. Look for cone-shaped shell with brown and white banding. Constantly grazes on glass and rock. Plan on at least 5+ gal.",
-    "seasonal": null
+    "headerSummary": "Practical algae-grazing snail for rock and glass maintenance. A cornerstone cleanup animal when the tank actually has algae for it to work on.",
+    "seasonal": null,
+    "behavior": "Spends most of its time cruising hard surfaces and grazing continuously in a very low-drama way. This is exactly the kind of invisible long-term worker most reef tanks benefit from.",
+    "feedingNotes": "Needs real algae or supplemental feeding support if the system becomes too sterile. Cleanup snails do best when the crew size matches the amount of actual work available.",
+    "buyingGuidance": "A very easy recommendation for reef tanks that need dependable algae support. Trochus is often the safer premium pick when the owner wants a snail that can usually recover from being knocked over.",
+    "recognitionNotes": "Conical shell and classic rock-and-glass grazing behavior associated with reef cleanup snails."
   },
   {
     "id": "turbo-snail",
@@ -142,12 +149,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "invertRisk": 2,
     "careDifficulty": 14,
     "role": "Large aggressive algae grazer",
-    "visualCue": "Large heavy round shell. Bulldozes across rock eating everything green in its path.",
-    "overview": "The heavy artillery of algae control. These large snails will mow down hair algae, film algae, and diatoms. Can knock over loose frags with their bulk.",
+    "visualCue": "Large heavy-bodied algae snail that can bulldoze loose frags while grazing.",
+    "overview": "Powerful algae-eating snail famous for bulldozing through nuisance growth with more brute force than finesse. Great worker when real algae exists, but large turbo snails can shift frags and loose decor as they plow through the tank.",
     "facts": [
-      "Extremely effective algae grazers — the best for heavy outbreaks.",
-      "Can knock over loose coral frags due to their weight.",
-      "Prefers cooler water — can struggle in very warm tanks."
+      "Very effective against heavier algae films and some nuisance growth.",
+      "Size and strength make it more likely than small snails to knock things over.",
+      "Best in tanks that genuinely need a big grazer, not just “more cleanup crew.”"
     ],
     "bestWith": [
       "Tanks with serious algae problems",
@@ -176,8 +183,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "role_es": "Comedor de algas grande y agresivo",
     "diet_es": "Herbívoro",
     "origin_es": "México / Mar de Cortés",
-    "headerSummary": "Large aggressive algae grazer. Look for large heavy round shell. Bulldozes across rock eating everything green in its path. Plan on at least 10+ gal.",
-    "seasonal": null
+    "headerSummary": "Heavy-duty algae snail with real bulldozer energy. Fantastic worker in the right tank, overkill in delicate displays with little algae.",
+    "seasonal": null,
+    "behavior": "Moves with more force and less subtlety than tiny grazer snails, often pushing through algae patches that smaller cleanup animals ignore. That same strength is why unsecured frags and ornaments may get rearranged.",
+    "feedingNotes": "Needs significant algae or deliberate herbivore supplementation long term; a pristine tank can starve a turbo crew surprisingly fast. Size the crew to the actual algae job.",
+    "buyingGuidance": "Recommend when the reef genuinely needs heavier algae pressure and the aquarist accepts the bulldozer trade-off. It is a utility snail first, not a delicate ornamental.",
+    "recognitionNotes": "Large rounder shell and noticeably stronger, more forceful grazing movement than tiny cleanup snails."
   },
   {
     "id": "fighting-conch",
@@ -202,12 +213,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "invertRisk": 2,
     "careDifficulty": 12,
     "role": "Sand-dwelling algae eater and detritus processor",
-    "visualCue": "Spiral conch shell with a long eye stalk and muscular foot used for dramatic lunging movement.",
-    "overview": "A fascinating sand-dwelling snail that eats diatoms, hair algae, and detritus from the substrate. The lunging movement where it plants its foot and vaults forward is surprisingly dramatic for a snail.",
+    "visualCue": "Heavy shell, long probing snout, and obvious movement across open sand.",
+    "overview": "Useful sand-bed snail known for roaming the substrate, turning the top layer, and picking at films and leftovers. Excellent sand-sifting and scavenging utility in ordinary reef sand beds.",
     "facts": [
-      "The lunging locomotion is fascinating to watch.",
-      "Excellent at cleaning diatom-covered sand.",
-      "Very hardy and long-lived with proper care."
+      "Best in tanks with open sand areas instead of wall-to-wall rockwork.",
+      "Excellent for stirring and aerating the substrate while also scavenging.",
+      "Conchs are peaceful with most tankmates but should not be overstocked in sand beds that cannot feed them."
     ],
     "bestWith": [
       "Tanks with sandy substrates",
@@ -235,8 +246,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "role_es": "Comedor de algas de arena con movimiento dramático",
     "diet_es": "Herbívoro / detritívoro",
     "origin_es": "Caribe",
-    "headerSummary": "Sand-dwelling algae eater and detritus processor. Look for spiral conch shell with a long eye stalk and muscular foot used for dramatic lunging movement. Plan on at least 20+ gal.",
-    "seasonal": null
+    "headerSummary": "Sand-working conch that helps keep the substrate active, cleaner, and better aerated. Great specialist for tanks with enough open sand to justify it.",
+    "seasonal": null,
+    "behavior": "Spends much of the day roaming sand surfaces with a purposeful, almost mechanical gait, lifting and pushing across the substrate. That visible work style is exactly why conchs are so valued in sand-focused systems.",
+    "feedingNotes": "Needs a mature sand bed with films, detritus, and occasional supplemental feeding if the tank runs very clean. A beautiful conch in a tiny spotless sand patch is a bad long-term plan.",
+    "buyingGuidance": "Recommend when the aquarium has open sand and a real need for substrate work, not simply because the shell looks cool. One well-placed conch usually helps more than a pile of random substrate snails.",
+    "recognitionNotes": "Heavier shell with a long probing snout and an active roaming style across open sand."
   },
   {
     "id": "cerith-snail",
@@ -261,22 +276,22 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "invertRisk": 2,
     "careDifficulty": 6,
     "role": "Tiny versatile snail that cleans sand, rock, and glass",
-    "visualCue": "Small elongated spiral shell in tan to brown. Active at night, often found on glass and rock.",
-    "overview": "The ultimate versatile cleanup crew snail. Cleans sand, rock, and glass. Active mostly at night. Extremely hardy and cheap enough to buy in large quantities.",
+    "visualCue": "Slim elongated shell with frequent activity along sand lines and rock surfaces.",
+    "overview": "Versatile cleanup snail that works rock, glass, and especially the substrate line better than many specialist grazers. Ceriths are popular because they handle multiple small jobs well without becoming disruptive.",
     "facts": [
-      "One of the most versatile cleanup crew snails available.",
-      "Active primarily at night — don't panic if you don't see them during the day.",
-      "Burrows into sand during the day, cleans glass and rock at night."
+      "Useful on film algae, detritus, and the upper sand surface.",
+      "Often active after lights out, where much of their cleanup work goes unnoticed.",
+      "Smaller forms are especially good for tighter areas and nano reefs."
     ],
     "bestWith": [
       "Any reef tank",
-      "Bulk cleanup crew purchases",
+      "oversized cleanup-crew orders",
       "Supplementing other snail species"
     ],
     "cautionWith": [
       "Literally nothing — this is one of the safest inverts available"
     ],
-    "staffNote": "Sell in bulk alongside Trochus and Nassarius for a complete cleanup crew.",
+    "staffNote": "These are usually stocked in groups matched to the tank size. alongside Trochus and Nassarius for a complete cleanup crew.",
     "photoTitle": "Cerithium",
     "inStock": false,
     "badges": [],
@@ -293,8 +308,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "role_es": "Caracol versátil que limpia arena, roca y vidrio",
     "diet_es": "Herbívoro / detritívoro",
     "origin_es": "Caribe",
-    "headerSummary": "Tiny versatile snail that cleans sand, rock, and glass. Look for small elongated spiral shell in tan to brown. Active at night, often found on glass and rock. Plan on at least 5+ gal.",
-    "seasonal": null
+    "headerSummary": "Versatile day-and-night cleanup snail that works both hard surfaces and sand edges. One of the easiest mixed-crew recommendations in reef keeping.",
+    "seasonal": null,
+    "behavior": "Usually cruises rock, glass, and substrate margins in a quieter, finer-scale way than turbo or top-shell snails. That flexibility is what makes ceriths such dependable mixed-cleanup animals.",
+    "feedingNotes": "Benefits from a tank with light films, detritus, and biofilm rather than only one narrow food source. Like all cleanup snails, they should be stocked to the available work, not to a fixed formula.",
+    "buyingGuidance": "A very safe recommendation for mixed cleanup crews, especially when the aquarist wants a general-purpose snail that can work multiple surfaces. Ceriths are usually an easy yes unless the tank is simply too sterile to feed them.",
+    "recognitionNotes": "Slim elongated shell and a habit of working both substrate edges and hard surfaces."
   },
   {
     "id": "astrea-snail",
@@ -320,12 +339,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 10,
     "role": "Classic film- and microalgae-grazing snail for rock and glass maintenance",
     "role_es": "",
-    "overview": "A dependable algae snail for customers who want straightforward cleanup help on rock and glass. The important talk track is that they are workers, but they are not great at flipping themselves if they land upside down.",
+    "overview": "Reliable algae-grazing reef snail valued for film algae, glass work, and rock browsing. It is one of the most practical cleanup animals because the job description is simple and it usually sticks to it.",
     "overview_es": "",
     "facts": [
-      "Excellent at film algae and light nuisance growth on hard surfaces.",
-      "May need help if it falls onto its back and cannot right itself.",
-      "Best sold in numbers that match the actual amount of algae available."
+      "Excellent on film algae and lighter grazing jobs rather than heavy meaty cleanup.",
+      "Peaceful and broadly reef-safe with very little downside in sensible numbers.",
+      "Often struggles more than trochus when flipped and may need occasional help."
     ],
     "photoTitle": "Astraea tecta",
     "inStock": false,
@@ -340,7 +359,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "conical shell with a sturdy pointed top and a habit of grazing exposed hard surfaces.",
+    "visualCue": "Conical shell and constant rock-and-glass grazing behavior.",
     "bestWith": [
       "New cleanup crews",
       "Rock and glass algae issues",
@@ -352,7 +371,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Sand-bed-only expectations"
     ],
     "staffNote": "Good worker snail. Just remind people to check any upside-down individuals.",
-    "headerSummary": "Classic film- and microalgae-grazing snail for rock and glass maintenance. Look for conical shell with a sturdy pointed top and a habit of grazing exposed hard surfaces. Plan on at least 10+ gal."
+    "headerSummary": "Practical algae-grazing snail for rock and glass maintenance. A cornerstone cleanup animal when the tank actually has algae for it to work on.",
+    "behavior": "Spends most of its time cruising hard surfaces and grazing continuously in a very low-drama way. This is exactly the kind of invisible long-term worker most reef tanks benefit from.",
+    "feedingNotes": "Needs real algae or supplemental feeding support if the system becomes too sterile. Cleanup snails do best when the crew size matches the amount of actual work available.",
+    "buyingGuidance": "A very easy recommendation for reef tanks that need dependable algae support. Trochus is often the safer premium pick when the owner wants a snail that can usually recover from being knocked over.",
+    "recognitionNotes": "Conical shell and classic rock-and-glass grazing behavior associated with reef cleanup snails."
   },
   {
     "id": "bumblebee-snail",
@@ -378,12 +401,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 16,
     "role": "Small scavenging snail often added for leftover meaty foods and niche pest cleanup",
     "role_es": "",
-    "overview": "Bumblebee snails are not a replacement for trochus or cerith crews. They are better sold as a niche scavenger with cool patterning and occasional utility around leftover food and certain nuisance organisms.",
+    "overview": "A striking little snail with yellow-and-dark striping that is often sold as cleanup crew even though it behaves more like a tiny carnivorous scavenger than a broad algae grazer. Interesting animal, but not a substitute for ceriths, trochus, or conchs.",
     "overview_es": "",
     "facts": [
-      "Better at scavenging and poking through crevices than mowing algae.",
-      "Should be mixed with true algae grazers instead of replacing them.",
-      "Can reduce tiny worms and other microfauna while hunting."
+      "Often feeds on meaty leftovers and small benthic foods more than on nuisance algae.",
+      "Useful in certain small scavenger roles but easy to misunderstand in cleanup crews.",
+      "Best kept because the owner actually knows what it does, not because it looks cool on a list."
     ],
     "photoTitle": "Engina mendicaria",
     "inStock": false,
@@ -398,19 +421,23 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "tiny black-and-yellow banded shell with a more predatory look than a typical algae grazer.",
+    "visualCue": "Small shell with bold yellow and dark striping.",
     "bestWith": [
       "Mixed cleanup crews",
       "Rubble-heavy reefs",
-      "Customers who understand role specialization"
+      "aquarists who understand role specialization"
     ],
     "cautionWith": [
       "Expecting broad algae control",
       "Ultra-clean tanks with very little available food",
       "Delicate microfauna-focused systems"
     ],
-    "staffNote": "Important sales note: neat little snail, but not the main algae solution.",
-    "headerSummary": "Small scavenging snail often added for leftover meaty foods and niche pest cleanup. Look for tiny black-and-yellow banded shell with a more predatory look than a typical algae grazer. Plan on at least 10+ gal."
+    "staffNote": "Important staff note: neat little snail, but not the main algae solution.",
+    "headerSummary": "Striped specialty snail with carnivorous/scavenging tendencies rather than major algae-grazing value. Better as a niche oddball than as a cleanup-crew default.",
+    "behavior": "Usually moves with a deliberate scavenger style and may spend time around crevices, meaty foods, and benthic microfauna instead of mowing visible algae fields. It fills a narrower role than most beginner cleanup lists suggest.",
+    "feedingNotes": "Expect it to respond better to meaty leftovers than to film algae. If the tank needs herbivorous cleanup, other snail groups usually make more sense.",
+    "buyingGuidance": "Recommend only when the aquarist understands it is a niche scavenger, not a broad algae solution. A cool shell pattern should not be the whole logic for adding it.",
+    "recognitionNotes": "Small snail with bold yellow-and-dark banding that stands out sharply against rock and sand."
   },
   {
     "id": "dwarf-cerith-snail",
@@ -436,12 +463,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 8,
     "role": "Versatile cleanup snail that works both the sand bed and hard surfaces",
     "role_es": "",
-    "overview": "Cerith-type snails are some of the easiest honest cleanup recommendations because they help in more than one zone of the tank. They are especially good for customers building the first real cleanup crew in a reef or nano reef.",
+    "overview": "Versatile cleanup snail that works rock, glass, and especially the substrate line better than many specialist grazers. Ceriths are popular because they handle multiple small jobs well without becoming disruptive.",
     "overview_es": "",
     "facts": [
-      "Works film algae, detritus, and leftover organics in multiple zones.",
-      "Usually safe around corals and other cleanup crew members.",
-      "Small size makes them easy to mix into larger snail groups."
+      "Useful on film algae, detritus, and the upper sand surface.",
+      "Often active after lights out, where much of their cleanup work goes unnoticed.",
+      "Smaller forms are especially good for tighter areas and nano reefs."
     ],
     "photoTitle": "Cerithium",
     "inStock": false,
@@ -456,7 +483,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "tiny dark cerith shell that works sand, rock, and glass without taking much space.",
+    "visualCue": "Slim elongated shell with frequent activity along sand lines and rock surfaces.",
     "bestWith": [
       "Nano reefs",
       "Sand-and-rock cleanup crews",
@@ -468,7 +495,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Expecting one species to solve every algae issue"
     ],
     "staffNote": "A very safe foundational cleanup-crew recommendation.",
-    "headerSummary": "Versatile cleanup snail that works both the sand bed and hard surfaces. Look for tiny dark cerith shell that works sand, rock, and glass without taking much space. Plan on at least 5+ gal."
+    "headerSummary": "Versatile day-and-night cleanup snail that works both hard surfaces and sand edges. One of the easiest mixed-crew recommendations in reef keeping.",
+    "behavior": "Usually cruises rock, glass, and substrate margins in a quieter, finer-scale way than turbo or top-shell snails. That flexibility is what makes ceriths such dependable mixed-cleanup animals.",
+    "feedingNotes": "Benefits from a tank with light films, detritus, and biofilm rather than only one narrow food source. Like all cleanup snails, they should be stocked to the available work, not to a fixed formula.",
+    "buyingGuidance": "A very safe recommendation for mixed cleanup crews, especially when the aquarist wants a smaller snail that can work multiple surfaces. Ceriths are usually an easy yes unless the tank is simply too sterile to feed them.",
+    "recognitionNotes": "Slim elongated shell and a habit of working both substrate edges and hard surfaces."
   },
   {
     "id": "florida-cerith-snail",
@@ -494,12 +525,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 8,
     "role": "Versatile cleanup snail that works both the sand bed and hard surfaces",
     "role_es": "",
-    "overview": "Cerith-type snails are some of the easiest honest cleanup recommendations because they help in more than one zone of the tank. They are especially good for customers building the first real cleanup crew in a reef or nano reef.",
+    "overview": "Versatile cleanup snail that works rock, glass, and especially the substrate line better than many specialist grazers. Ceriths are popular because they handle multiple small jobs well without becoming disruptive.",
     "overview_es": "",
     "facts": [
-      "Works film algae, detritus, and leftover organics in multiple zones.",
-      "Usually safe around corals and other cleanup crew members.",
-      "Small size makes them easy to mix into larger snail groups."
+      "Useful on film algae, detritus, and the upper sand surface.",
+      "Often active after lights out, where much of their cleanup work goes unnoticed.",
+      "Smaller forms are especially good for tighter areas and nano reefs."
     ],
     "photoTitle": "Cerithium",
     "inStock": false,
@@ -514,7 +545,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "slender cerith shell that moves between sand bed and hard surfaces while scavenging.",
+    "visualCue": "Slim elongated shell with frequent activity along sand lines and rock surfaces.",
     "bestWith": [
       "Nano reefs",
       "Sand-and-rock cleanup crews",
@@ -526,7 +557,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Expecting one species to solve every algae issue"
     ],
     "staffNote": "A very safe foundational cleanup-crew recommendation.",
-    "headerSummary": "Versatile cleanup snail that works both the sand bed and hard surfaces. Look for slender cerith shell that moves between sand bed and hard surfaces while scavenging. Plan on at least 5+ gal."
+    "headerSummary": "Versatile day-and-night cleanup snail that works both hard surfaces and sand edges. One of the easiest mixed-crew recommendations in reef keeping.",
+    "behavior": "Usually cruises rock, glass, and substrate margins in a quieter, finer-scale way than turbo or top-shell snails. That flexibility is what makes ceriths such dependable mixed-cleanup animals.",
+    "feedingNotes": "Benefits from a tank with light films, detritus, and biofilm rather than only one narrow food source. Like all cleanup snails, they should be stocked to the available work, not to a fixed formula.",
+    "buyingGuidance": "A very safe recommendation for mixed cleanup crews, especially when the aquarist wants a general-purpose snail that can work multiple surfaces. Ceriths are usually an easy yes unless the tank is simply too sterile to feed them.",
+    "recognitionNotes": "Slim elongated shell and a habit of working both substrate edges and hard surfaces."
   },
   {
     "id": "money-cowrie",
@@ -552,12 +587,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 18,
     "role": "Attractive cowrie snail that adds movement and some grazing but is not the first-choice utility snail",
     "role_es": "",
-    "overview": "A good sale for someone who wants a decorative snail with some utility, but not for someone building the most practical cleanup crew possible. Cowries are more about the look and novelty than pure work rate.",
+    "overview": "A beautifully polished ornamental snail that can graze and scavenge, but is usually chosen as much for the shell as for pure cleanup efficiency. Better treated as a display invertebrate with some utility than as a dedicated algae specialist.",
     "overview_es": "",
     "facts": [
-      "Smooth shell gives it a very different look from standard cleanup snails.",
-      "Can graze film and browse leftovers, especially at night.",
-      "Some individuals may bother delicate soft tissue if food is scarce."
+      "Smooth glossy shell gives it a more ornamental look than most cleanup snails.",
+      "Can grow large enough to become a noticeable moving ornament in the display.",
+      "May bulldoze more than the smallest snails simply because of body size and shell weight."
     ],
     "photoTitle": "Monetaria moneta",
     "inStock": false,
@@ -572,11 +607,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "glossy smooth shell with the classic polished cowrie look.",
+    "visualCue": "Smooth polished cowrie shell often partially covered by a fleshy mantle.",
     "bestWith": [
       "Display-focused reef tanks",
       "Mixed snail crews",
-      "Customers wanting more variety than just conical grazers"
+      "aquarists wanting more variety than just conical grazers"
     ],
     "cautionWith": [
       "Expecting heavy algae removal",
@@ -584,7 +619,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Tiny tanks where its roaming stands out too much"
     ],
     "staffNote": "Pretty snail with some utility, but not a workhorse grazer like trochus or cerith.",
-    "headerSummary": "Attractive cowrie snail that adds movement and some grazing but is not the first-choice utility snail. Look for glossy smooth shell with the classic polished cowrie look. Plan on at least 20+ gal."
+    "headerSummary": "Glossy ornamental cowrie with some grazing value and much higher display appeal than an average cleanup snail. Chosen for beauty first, utility second.",
+    "behavior": "Usually roams rock and substrate methodically, but the shell and mantle make it feel more like a display invertebrate than a background maintenance worker. It is the kind of snail people notice instead of forgetting exists.",
+    "feedingNotes": "Will graze and scavenge, but should not be expected to solve major algae issues alone. Match the purchase to a real tank role rather than assuming every large snail is a cleanup powerhouse.",
+    "buyingGuidance": "Recommend when the owner wants an ornamental snail with some utility and has a tank that can support a larger roaming grazer/scavenger. Not the first-choice answer to serious algae control.",
+    "recognitionNotes": "Smooth polished cowrie shell, often partly covered by a living mantle when the animal is active."
   },
   {
     "id": "nerite-snail",
@@ -610,12 +649,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 10,
     "role": "Strong film-algae grazer that often works the glass and upper hard surfaces",
     "role_es": "",
-    "overview": "A good practical grazer for film algae, especially on glass, with the usual warning that nerites are adventurous and may roam toward the top of the tank. Great in mixed crews when the owner checks lids and overflow areas.",
+    "overview": "Small active grazer valued for film algae and glass work, especially in smaller reef systems. Useful, attractive, and generally low drama, though some species are famous for exploring high and sometimes finding their way out of open tops.",
     "overview_es": "",
     "facts": [
-      "Excellent on film algae and light diatom growth.",
-      "May head toward the waterline or lid area more than some other snails.",
-      "Works best in mixed crews instead of by itself."
+      "Excellent on glass and lighter film algae.",
+      "Small size makes them easy to use in nanos and mixed cleanup crews.",
+      "Some nerites are escape-prone around open top edges and waterline exploration."
     ],
     "photoTitle": "Nerita",
     "inStock": false,
@@ -630,7 +669,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "rounded patterned shell and a habit of cruising glass, seams, and the upper rock line.",
+    "visualCue": "Small rounded snail often found grazing glass near the waterline.",
     "bestWith": [
       "Glass-cleanup goals",
       "Nano and midsize reefs",
@@ -641,8 +680,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Expecting sand-turning behavior",
       "Buying too many for minimal algae growth"
     ],
-    "staffNote": "Useful grazer; just remind customers these can wander.",
-    "headerSummary": "Strong film-algae grazer that often works the glass and upper hard surfaces. Look for rounded patterned shell and a habit of cruising glass, seams, and the upper rock line. Plan on at least 5+ gal."
+    "staffNote": "Useful grazer; just remind aquarists these can wander.",
+    "headerSummary": "Small active algae grazer especially handy for glass and nano systems. Great worker when lids and waterline habits are taken into account.",
+    "behavior": "Usually keeps moving and spends a lot of time around glass, waterline zones, and hard surfaces where film algae grows. That active pattern is exactly why some keepers notice them near tank edges more than other snails.",
+    "feedingNotes": "Needs light films and biofilm support, not meaty leftovers. In very polished systems they may need supplementary feeding or simply fewer snail competitors.",
+    "buyingGuidance": "Recommend for smaller reefs or mixed crews that need more glass-focused grazing. Just mention the escape habit if the system is open and the owner is the type who will care when a snail wanders.",
+    "recognitionNotes": "Small rounded grazing snail often found working glass and upper hard surfaces."
   },
   {
     "id": "queen-conch",
@@ -668,12 +711,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 38,
     "role": "Large sand-bed conch that belongs only in big mature systems with real room and food",
     "role_es": "",
-    "overview": "A queen conch is not a standard cleanup crew add-on. It should only be sold to customers with very large, mature systems because it grows large, needs open sand, and will quickly outstrip food in smaller tanks.",
+    "overview": "Useful sand-bed snail known for roaming the substrate, turning the top layer, and picking at films and leftovers. Larger conch profile that needs real room and feeding support.",
     "overview_es": "",
     "facts": [
-      "Can become impressively large compared with common fighting or strawberry conchs.",
-      "Needs broad mature sand areas with natural film and detritus to graze.",
-      "Far better suited to big systems than to average home nano or midsize reefs."
+      "Best in tanks with open sand areas instead of wall-to-wall rockwork.",
+      "Excellent for stirring and aerating the substrate while also scavenging.",
+      "Conchs are peaceful with most tankmates but should not be overstocked in sand beds that cannot feed them."
     ],
     "photoTitle": "Aliger gigas",
     "inStock": false,
@@ -688,7 +731,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "heavy long shell and a muscular hopping foot built for crossing open sand.",
+    "visualCue": "Heavy shell, long probing snout, and obvious movement across open sand.",
     "bestWith": [
       "Large established sand-bed tanks",
       "Caribbean-themed systems",
@@ -697,10 +740,14 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "cautionWith": [
       "Small and medium reefs",
       "Impulse cleanup-crew bundles",
-      "Customers confusing it with smaller conch species"
+      "aquarists confusing it with smaller conch species"
     ],
-    "staffNote": "This one needs a size reality check before sale.",
-    "headerSummary": "Large sand-bed conch that belongs only in big mature systems with real room and food. Look for heavy long shell and a muscular hopping foot built for crossing open sand. Plan on at least 125+ gal."
+    "staffNote": "This one needs a size reality check before adding one.",
+    "headerSummary": "Sand-working conch that helps keep the substrate active, cleaner, and better aerated. Great specialist for tanks with enough open sand to justify it.",
+    "behavior": "Spends much of the day roaming sand surfaces with a purposeful, almost mechanical gait, lifting and pushing across the substrate. That visible work style is exactly why conchs are so valued in sand-focused systems.",
+    "feedingNotes": "Needs a mature sand bed with films, detritus, and occasional supplemental feeding if the tank runs very clean. A beautiful conch in a tiny spotless sand patch is a bad long-term plan.",
+    "buyingGuidance": "Recommend when the aquarium has open sand and a real need for substrate work, not simply because the shell looks cool. One well-placed conch usually helps more than a pile of random substrate snails.",
+    "recognitionNotes": "Heavier shell with a long probing snout and an active roaming style across open sand."
   },
   {
     "id": "stomatella-snail",
@@ -726,12 +773,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 8,
     "role": "Slug-like algae grazer valued for quiet utility and easy reef compatibility",
     "role_es": "",
-    "overview": "One of the best underappreciated cleanup animals in the hobby. It is not flashy, but it is reef safe, useful, and often reproduces or persists quietly in mature systems.",
+    "overview": "One of the most underrated algae grazers in reef tanks: fast, slug-like, reef-safe, and surprisingly effective for film algae. Most keepers end up loving them once they realize they are helpers, not pests.",
     "overview_es": "",
     "facts": [
-      "Excellent grazer for film and softer nuisance growth.",
-      "Much faster and more flexible than many shelled snails.",
-      "Usually harmless and easy to keep once established."
+      "Often reproduces in healthy systems and becomes a self-sustaining micro-cleanup crew.",
+      "Slug-like body with a reduced shell confuses many new hobbyists at first.",
+      "Excellent on films and biofilm with almost no downside in reef tanks."
     ],
     "photoTitle": "Stomatella varia",
     "inStock": false,
@@ -746,19 +793,23 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "flattened shell and slug-like body that moves much faster than most snails.",
+    "visualCue": "Slug-like body with only a tiny reduced shell plate.",
     "bestWith": [
       "Mature reefs",
-      "Customers who appreciate low-drama utility animals",
+      "aquarists who appreciate low-drama utility animals",
       "Mixed cleanup crews"
     ],
     "cautionWith": [
       "Predators that target small soft-bodied grazers",
-      "Customers expecting a showpiece snail",
+      "aquarists expecting a showpiece snail",
       "New tanks with little natural food"
     ],
-    "staffNote": "Very honest reef-safe recommendation for practical customers.",
-    "headerSummary": "Slug-like algae grazer valued for quiet utility and easy reef compatibility. Look for flattened shell and slug-like body that moves much faster than most snails. Plan on at least Any mature reef."
+    "staffNote": "Very honest reef-safe recommendation for practical aquarists.",
+    "headerSummary": "Underrated reef grazer with slug-like body and excellent film-algae utility. One of the best “bonus cleanup crew” animals a healthy reef can have.",
+    "behavior": "Moves faster than most snails and works rock and glass without the heavy bulldozing of big-shell species. In mature reefs it often becomes an appreciated background grazer that quietly multiplies.",
+    "feedingNotes": "Thrives where there is ongoing biofilm and light algae to graze. It is less about direct feeding and more about maintaining a reef mature enough to support a living micro-cleanup community.",
+    "buyingGuidance": "An easy recommendation for reef keepers who appreciate subtle utility animals. If someone sees them as “weird pest snails,” they usually just have not yet learned how valuable stomatellas can be.",
+    "recognitionNotes": "Slug-like body with a very reduced shell plate and movement faster than a typical snail."
   },
   {
     "id": "strawberry-conch",
@@ -784,12 +835,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 16,
     "role": "Small active conch for sand-bed cleanup in tanks too small for a queen conch",
     "role_es": "",
-    "overview": "A better conch-style recommendation for many home reefs because it stays far more manageable than a queen conch. It still needs real sand and natural food, but it is much easier to place in normal systems.",
+    "overview": "Useful sand-bed snail known for roaming the substrate, turning the top layer, and picking at films and leftovers. Ornamental conch with the same useful sand-stirring habits in a more colorful package.",
     "overview_es": "",
     "facts": [
-      "Works surface detritus and film on open sand.",
-      "More practical for average reef tanks than giant conch species.",
-      "Needs open sand space rather than a rock-packed bottom."
+      "Best in tanks with open sand areas instead of wall-to-wall rockwork.",
+      "Excellent for stirring and aerating the substrate while also scavenging.",
+      "Conchs are peaceful with most tankmates but should not be overstocked in sand beds that cannot feed them."
     ],
     "photoTitle": "Conomurex",
     "inStock": false,
@@ -804,19 +855,23 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "colorful conch shell and a hopping snout-forward gait across open sand.",
+    "visualCue": "Heavy shell, long probing snout, and obvious movement across open sand.",
     "bestWith": [
       "Open sand-bed reefs",
       "Cleanup crews needing a conch-sized grazer",
-      "Customers who like visible sand-bed activity"
+      "aquarists who like visible sand-bed activity"
     ],
     "cautionWith": [
       "Bare-bottom tanks",
       "Very tiny nanos with little grazing area",
       "Confusing it with giant conch species"
     ],
-    "staffNote": "Nice compromise conch for customers who want movement on the sand.",
-    "headerSummary": "Small active conch for sand-bed cleanup in tanks too small for a queen conch. Look for colorful conch shell and a hopping snout-forward gait across open sand. Plan on at least 20+ gal."
+    "staffNote": "Nice compromise conch for aquarists who want movement on the sand.",
+    "headerSummary": "Sand-working conch that helps keep the substrate active, cleaner, and better aerated. Great specialist for tanks with enough open sand to justify it.",
+    "behavior": "Spends much of the day roaming sand surfaces with a purposeful, almost mechanical gait, lifting and pushing across the substrate. That visible work style is exactly why conchs are so valued in sand-focused systems.",
+    "feedingNotes": "Needs a mature sand bed with films, detritus, and occasional supplemental feeding if the tank runs very clean. A beautiful conch in a tiny spotless sand patch is a bad long-term plan.",
+    "buyingGuidance": "Recommend when the aquarium has open sand and a real need for substrate work, not simply because the shell looks cool. One well-placed conch usually helps more than a pile of random substrate snails.",
+    "recognitionNotes": "Heavier shell with a long probing snout and an active roaming style across open sand."
   },
   {
     "id": "super-tongan-nassarius",
@@ -842,12 +897,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 10,
     "role": "Larger nassarius-type scavenger for meaty leftovers in bigger sand beds",
     "role_es": "",
-    "overview": "This is the bigger meaty-leftovers version of the nassarius idea, so it makes the most sense in tanks with deeper sand and larger feeding events. It is not really an algae snail, and the sale should stay honest about that.",
+    "overview": "Sand-dwelling scavenger snail that excels at finding meaty leftovers rather than scraping algae from glass. It is valuable in reef cleanup crews because it keeps the substrate lively and helps remove waste before it rots.",
     "overview_es": "",
     "facts": [
-      "Excellent at finding and removing leftover meaty foods.",
-      "Spends much of the day buried in sand until feeding time.",
-      "Best sold into systems that actually have a sand bed and a use for a larger scavenger."
+      "Often stays buried until it smells food, then erupts from the sand quickly.",
+      "Excellent at consuming leftovers and carrion but not a primary algae grazer.",
+      "Works best in sand-bottom systems with enough feeding activity to justify a scavenger crew."
     ],
     "photoTitle": "Nassarius distortus",
     "inStock": false,
@@ -862,11 +917,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "larger elongated nassarius shell that stays buried until it smells food.",
+    "visualCue": "Sand-burrowing snail with a long feeding siphon.",
     "bestWith": [
       "Larger reef and predator-community sand beds",
       "Cleanup crews focused on leftover food control",
-      "Customers already familiar with nassarius behavior"
+      "aquarists already familiar with nassarius behavior"
     ],
     "cautionWith": [
       "Bare-bottom tanks",
@@ -874,7 +929,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Overbuying for a tiny lightly fed reef"
     ],
     "staffNote": "Bigger scavenger, not a glass-grazing snail.",
-    "headerSummary": "Larger nassarius-type scavenger for meaty leftovers in bigger sand beds. Look for larger elongated nassarius shell that stays buried until it smells food. Plan on at least 20+ gal."
+    "headerSummary": "Substrate-burrowing scavenger snail with excellent leftover cleanup value. Great utility animal when the tank actually needs a meat-and-detritus scavenger.",
+    "behavior": "Usually lives buried in the sand until food scent hits the water, then rises and moves quickly for a snail. That ambush-scavenger style is exactly what makes it useful in well-fed reef systems.",
+    "feedingNotes": "Needs meaty leftovers or targeted foods to justify its place long term; it is not a replacement for algae snails. Tanks that run extremely lean may not support large nassarius populations well.",
+    "buyingGuidance": "Recommend for sand-bottom reef tanks that need scavenging help, not for bare-bottom systems looking for glass cleaners. The right sale is based on function: leftover cleanup and sand stirring, not shell appearance.",
+    "recognitionNotes": "Small sand-burrowing snail with an obvious siphon used to sniff out food from below the substrate."
   },
   {
     "id": "tectus-snail",
@@ -900,12 +959,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 10,
     "role": "Strong all-around algae grazer often used as a trochus-style worker in reef tanks",
     "role_es": "",
-    "overview": "A reliable grazing snail for film algae and light nuisance growth, especially in tanks that need honest utility over novelty. Easy to recommend when the customer simply needs more grazers.",
+    "overview": "Strong algae-grazing top-shell snail that behaves a lot like a trochus-type grazer but is less forgiving when overturned. Very useful on hard surfaces, but worth monitoring in busy tanks where snails get flipped often.",
     "overview_es": "",
     "facts": [
-      "Good on film algae and light nuisance algae on hard surfaces.",
-      "Works well in mixed snail crews with cerith and nassarius roles covered by others.",
-      "Usually a more practical sale than ornamental snails."
+      "Good algae grazer on rock and glass.",
+      "Often less able to right itself than true banded trochus snails.",
+      "Works best in reefs that want a hard-surface herbivore, not a meaty scavenger."
     ],
     "photoTitle": "Tectus fenestratus",
     "inStock": false,
@@ -920,7 +979,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "sharp conical shell and steady grazing pattern over rock and glass.",
+    "visualCue": "Conical top-shell snail that cruises hard surfaces for algae.",
     "bestWith": [
       "Rock-and-glass cleanup",
       "Beginner reef tanks",
@@ -931,8 +990,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Buying too many for a spotless tank",
       "Predatory wrasses that target snails"
     ],
-    "staffNote": "Straightforward worker snail. Easy sell when algae is the main issue.",
-    "headerSummary": "Strong all-around algae grazer often used as a trochus-style worker in reef tanks. Look for sharp conical shell and steady grazing pattern over rock and glass. Plan on at least 10+ gal."
+    "staffNote": "Straightforward worker snail. Very easy fish to explain. when algae is the main issue.",
+    "headerSummary": "Top-shell algae grazer with good utility and a known downside when overturned. Best for keepers willing to check snails occasionally instead of assuming every one can self-rescue.",
+    "behavior": "Spends the day grazing hard surfaces steadily, doing the same kind of quiet maintenance work as other top-shell snails. The only real caution is that a flipped animal may need intervention.",
+    "feedingNotes": "Needs rock and film algae support or supplemental herbivore foods if the tank is too polished. Like other grazers, it should be stocked to the real algae load, not to a generic rule of thumb.",
+    "buyingGuidance": "Recommend when a reef needs more hard-surface algae control and the keeper understands the self-righting limitation. It is a function-first snail, not an ornamental centerpiece.",
+    "recognitionNotes": "Top-shell cone shape with a grazing pattern similar to trochus-type snails."
   },
   {
     "id": "tiger-conch",
@@ -958,12 +1021,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 18,
     "role": "Sand-bed conch that adds visible movement while grazing detritus and films",
     "role_es": "",
-    "overview": "A nice visible sand-bed worker for customers with open substrate and enough tank footprint to support a conch. Better sold as a sand specialist than as a general purpose snail.",
+    "overview": "Useful sand-bed snail known for roaming the substrate, turning the top layer, and picking at films and leftovers. Patterned conch with active substrate-cleaning behavior.",
     "overview_es": "",
     "facts": [
-      "Works open sand better than rock-packed layouts.",
-      "Adds movement and personality compared with standard buried scavenger snails.",
-      "Needs mature substrate with food available."
+      "Best in tanks with open sand areas instead of wall-to-wall rockwork.",
+      "Excellent for stirring and aerating the substrate while also scavenging.",
+      "Conchs are peaceful with most tankmates but should not be overstocked in sand beds that cannot feed them."
     ],
     "photoTitle": "Conomurex",
     "inStock": false,
@@ -978,10 +1041,10 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "striped tiger-pattern shell and a strong hopping foot used to cruise the sand bed.",
+    "visualCue": "Heavy shell, long probing snout, and obvious movement across open sand.",
     "bestWith": [
       "Open sand-bed reefs",
-      "Customers wanting visible sand activity",
+      "aquarists wanting visible sand activity",
       "Moderate to larger tanks"
     ],
     "cautionWith": [
@@ -990,7 +1053,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Expecting heavy glass algae grazing"
     ],
     "staffNote": "Good sand specialist. Make sure the tank actually has sand for it to work.",
-    "headerSummary": "Sand-bed conch that adds visible movement while grazing detritus and films. Look for striped tiger-pattern shell and a strong hopping foot used to cruise the sand bed. Plan on at least 30+ gal."
+    "headerSummary": "Sand-working conch that helps keep the substrate active, cleaner, and better aerated. Great specialist for tanks with enough open sand to justify it.",
+    "behavior": "Spends much of the day roaming sand surfaces with a purposeful, almost mechanical gait, lifting and pushing across the substrate. That visible work style is exactly why conchs are so valued in sand-focused systems.",
+    "feedingNotes": "Needs a mature sand bed with films, detritus, and occasional supplemental feeding if the tank runs very clean. A beautiful conch in a tiny spotless sand patch is a bad long-term plan.",
+    "buyingGuidance": "Recommend when the aquarium has open sand and a real need for substrate work, not simply because the shell looks cool. One well-placed conch usually helps more than a pile of random substrate snails.",
+    "recognitionNotes": "Heavier shell with a long probing snout and an active roaming style across open sand."
   },
   {
     "id": "berghia-nudibranch",
@@ -1016,12 +1083,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "careDifficulty": 52,
     "role": "Specialist biological control for Aiptasia, not a general cleanup nudibranch",
     "role_es": "",
-    "overview": "Berghia are a purpose-built sale: they are for Aiptasia control and should be pitched that way, period. Once the pest anemones are gone, the buyer needs a plan because the food source disappears too.",
+    "overview": "A true specialty biological-control animal for Aiptasia, not a generic cleanup slug. Berghia can be extremely effective over time, but they are tiny, nocturnal, vulnerable to predation, and only make sense when the tank actually has an Aiptasia problem to feed them.",
     "overview_es": "",
     "facts": [
-      "They eat Aiptasia and very little else of practical value to the aquarist.",
-      "Predators and strong flow can wipe them out before they establish.",
-      "Best used when the customer understands the process takes time, not overnight magic."
+      "Feeds specifically on Aiptasia and can starve once the pest is gone if not moved or shared.",
+      "Small size and nocturnal habits mean results often take time and are not dramatic overnight.",
+      "Best used in systems without wrasses, peppermint shrimp, or other animals likely to eat them."
     ],
     "photoTitle": "Berghia stephanieae",
     "inStock": false,
@@ -1036,7 +1103,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "small white nudibranch with delicate cerata that usually hides in rockwork until lights dim.",
+    "visualCue": "Tiny pale nudibranch used specifically for Aiptasia control.",
     "bestWith": [
       "Dedicated Aiptasia-removal plans",
       "Predator-light reef systems",
@@ -1047,8 +1114,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Buying them for decorative value alone",
       "Expecting long-term survival after the pest food source is gone"
     ],
-    "staffNote": "One of the most specialized sales in the catalog. Confirm the buyer actually has Aiptasia and a reasonable plan.",
-    "headerSummary": "Specialist biological control for Aiptasia, not a general cleanup nudibranch. Look for small white nudibranch with delicate cerata that usually hides in rockwork until lights dim. Plan on at least Any stable Aiptasia-infested reef."
+    "staffNote": "One of the most specialized sales in the catalog. Confirm the aquarist actually has Aiptasia and a reasonable plan.",
+    "headerSummary": "Specialty Aiptasia-control nudibranch with real utility and real limitations. Great biological tool, terrible impulse cleanup purchase.",
+    "behavior": "Usually works at night and out of sight, which makes impatient keepers think nothing is happening until the pest population finally declines. Success comes from patience, protection, and enough nudibranchs for the scale of the outbreak.",
+    "feedingNotes": "Requires Aiptasia. There is no generic backup diet that makes sense once the target pest is gone.",
+    "buyingGuidance": "Recommend only when the aquarist actually has an Aiptasia problem, understands the slow-burn nature of Berghia control, and can protect the animals from predators. This is not a decorative slug or a broad cleanup crew addition.",
+    "recognitionNotes": "Tiny pale nudibranch usually seen only up close, working directly on Aiptasia rather than roaming openly like a display snail."
   },
   {
     "id": "lettuce-nudibranch",
@@ -1072,14 +1143,14 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "coralRisk": 0,
     "invertRisk": 0,
     "careDifficulty": 36,
-    "role": "Delicate slug-like grazer sold mainly for appearance and light algae-browsing behavior",
+    "role": "Delicate slug-like grazer valued mainly for appearance and light algae-browsing behavior",
     "role_es": "",
-    "overview": "A cool oddball for calm established reefs, but not something to sell as a brute-force algae fix. It is delicate, can be injured easily, and should go to buyers who specifically want the animal itself.",
+    "overview": "A delicate algae-grazing sea slug most often chosen for bryopsis-leaning nuisance algae situations or as a specialty nano oddball. Beautiful and interesting, but easily overestimated as a general-purpose cleanup animal.",
     "overview_es": "",
     "facts": [
-      "More delicate than standard cleanup snails and easily damaged by pumps or rough handling.",
-      "Best thought of as an ornamental grazer, not a miracle bryopsis fix.",
-      "Needs gentle stable conditions and appropriate natural food."
+      "Better treated as a niche algae helper than as universal cleanup crew.",
+      "Delicate body makes it vulnerable to pumps, overflows, and rough tankmates.",
+      "Works best in calmer systems where the target algae is actually present."
     ],
     "photoTitle": "Elysia crispata",
     "inStock": false,
@@ -1094,7 +1165,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "ruffled leaf-like green body that looks like a tiny floating head of lettuce.",
+    "visualCue": "Leafy ruffled slug body with no protective shell.",
     "bestWith": [
       "Peaceful established reefs",
       "Oddball invert collectors",
@@ -1102,11 +1173,15 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     ],
     "cautionWith": [
       "Pump intakes and overflows",
-      "Buyers expecting a hardy workhorse cleanup animal",
+      "aquarists expecting a hardy workhorse cleanup animal",
       "Aggressive fish that pick at soft-bodied inverts"
     ],
-    "staffNote": "Beautiful and unusual, but not a throw-in cleanup crew sale.",
-    "headerSummary": "Delicate slug-like grazer sold mainly for appearance and light algae-browsing behavior. Look for ruffled leaf-like green body that looks like a tiny floating head of lettuce. Plan on at least 15+ gal."
+    "staffNote": "Beautiful and unusual, but not a throw-in cleanup crew add-on.",
+    "headerSummary": "Delicate algae-focused sea slug with niche utility and high vulnerability to equipment and predators. Best as a deliberate specialty choice.",
+    "behavior": "Usually grazes softly over rock and algae patches rather than roaming like a hard-shelled cleanup snail. In the wrong tank it vanishes into pumps, overflows, or predator mouths long before it solves anything.",
+    "feedingNotes": "Needs the right algae to browse and should not be treated like a creature that will simply switch to prepared foods. Many failures come from buying the animal before confirming the food source.",
+    "buyingGuidance": "Recommend only when the algae problem and the tank design actually suit a delicate sea slug. It is a specialist helper, not a durable all-purpose cleanup crew member.",
+    "recognitionNotes": "Leafy ruffled body with a slug-like shape rather than a hard shell."
   },
   {
     "id": "astraea-snail",
@@ -1129,7 +1204,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "photoTitle": "Astraea_tecta",
     "role": "Classic cleanup crew snail",
     "role_es": "Caracol clásico del equipo de limpieza",
-    "overview": "Staple cleanup crew snail. Cannot right itself if knocked over. Very affordable in bulk.",
+    "overview": "Reliable algae-grazing reef snail valued for film algae, glass work, and rock browsing. It is one of the most practical cleanup animals because the job description is simple and it usually sticks to it.",
     "overview_es": "Caracol básico del equipo de limpieza. No puede enderezarse si se voltea.",
     "inStock": false,
     "price": 0,
@@ -1138,9 +1213,9 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "badges": [],
     "aliases": [],
     "facts": [
-      "Adult size in this catalog is listed around 1 in.",
-      "Plan around roughly 5+ gal or larger for long-term care.",
-      "Diet in this catalog: Herbivore."
+      "Excellent on film algae and lighter grazing jobs rather than heavy meaty cleanup.",
+      "Peaceful and broadly reef-safe with very little downside in sensible numbers.",
+      "Often struggles more than trochus when flipped and may need occasional help."
     ],
     "water": {
       "ph": [
@@ -1164,7 +1239,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Easy",
-    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "visualCue": "Conical shell and constant rock-and-glass grazing behavior.",
     "bestWith": [
       "Stable systems with mature parameters",
       "Tankmates unlikely to harass or overturn invertebrates",
@@ -1174,12 +1249,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Unstable salinity, immature systems, or rough handling",
       "Fish known to nip, flip, or harass small invertebrates"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a easy invertebrate profile, not a generic add-on.",
-    "headerSummary": "Classic cleanup crew snail. Plan on roughly 5+ gal or larger long term.",
-    "behavior": "Temperament is usually workable in a well-planned community with sensible tankmates.",
-    "feedingNotes": "Match the food size and routine to the actual species instead of relying only on the category label. Catalog diet listing: Herbivore.",
-    "buyingGuidance": "Match the sale to long-term size, feeding pattern, and compatibility instead of impulse color.",
-    "recognitionNotes": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass."
+    "staffNote": "confirm placement, tank maturity, and specific feeding needs before adding one. Treat this as an easy invertebrate profile, not a generic add-on.",
+    "headerSummary": "Practical algae-grazing snail for rock and glass maintenance. A cornerstone cleanup animal when the tank actually has algae for it to work on.",
+    "behavior": "Spends most of its time cruising hard surfaces and grazing continuously in a very low-drama way. This is exactly the kind of invisible long-term worker most reef tanks benefit from.",
+    "feedingNotes": "Needs real algae or supplemental feeding support if the system becomes too sterile. Cleanup snails do best when the crew size matches the amount of actual work available.",
+    "buyingGuidance": "A very easy recommendation for reef tanks that need dependable algae support. Trochus is often the safer premium pick when the owner wants a snail that can usually recover from being knocked over.",
+    "recognitionNotes": "Conical shell and classic rock-and-glass grazing behavior associated with reef cleanup snails."
   },
   {
     "id": "lettuce-sea-slug",
@@ -1202,7 +1277,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "photoTitle": "Elysia_crispata",
     "role": "Solar-powered slug that eats hair algae",
     "role_es": "Babosa solar que come algas capilares",
-    "overview": "Incorporates chloroplasts from algae allowing photosynthesis. Effective hair algae eater.",
+    "overview": "A delicate algae-grazing sea slug most often chosen for bryopsis-leaning nuisance algae situations or as a specialty nano oddball. Beautiful and interesting, but easily overestimated as a general-purpose cleanup animal.",
     "overview_es": "Incorpora cloroplastos de algas permitiendo fotosíntesis. Efectivo comedor de algas capilares.",
     "inStock": false,
     "price": 0,
@@ -1211,9 +1286,9 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "badges": [],
     "aliases": [],
     "facts": [
-      "Adult size in this catalog is listed around 3 in.",
-      "Plan around roughly 10+ gal or larger for long-term care.",
-      "Diet in this catalog: Algae / photosynthetic."
+      "Better treated as a niche algae helper than as universal cleanup crew.",
+      "Delicate body makes it vulnerable to pumps, overflows, and rough tankmates.",
+      "Works best in calmer systems where the target algae is actually present."
     ],
     "water": {
       "ph": [
@@ -1237,7 +1312,7 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass.",
+    "visualCue": "Leafy ruffled slug body with no protective shell.",
     "bestWith": [
       "Stable systems with mature parameters",
       "Tankmates unlikely to harass or overturn invertebrates",
@@ -1247,11 +1322,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Unstable salinity, immature systems, or rough handling",
       "Fish known to nip, flip, or harass small invertebrates"
     ],
-    "staffNote": "Confirm placement, tank maturity, and specific feeding needs before sale. Treat this as a intermediate invertebrate profile, not a generic add-on.",
-    "headerSummary": "Solar-powered slug that eats hair algae. Plan on roughly 10+ gal or larger long term.",
-    "behavior": "Temperament is usually workable in a well-planned community with sensible tankmates.",
-    "feedingNotes": "Match the food size and routine to the actual species instead of relying only on the category label. Catalog diet listing: Algae / photosynthetic.",
-    "buyingGuidance": "Match the sale to long-term size, feeding pattern, and compatibility instead of impulse color.",
-    "recognitionNotes": "Look for shell shape, shell texture, and grazing behavior on rock, sand, or glass."
+    "staffNote": "confirm placement, tank maturity, and specific feeding needs before adding one. Treat this as an intermediate invertebrate profile, not a generic add-on.",
+    "headerSummary": "Delicate algae-focused sea slug with niche utility and high vulnerability to equipment and predators. Best as a deliberate specialty choice.",
+    "behavior": "Usually grazes softly over rock and algae patches rather than roaming like a hard-shelled cleanup snail. In the wrong tank it vanishes into pumps, overflows, or predator mouths long before it solves anything.",
+    "feedingNotes": "Needs the right algae to browse and should not be treated like a creature that will simply switch to prepared foods. Many failures come from buying the animal before confirming the food source.",
+    "buyingGuidance": "Recommend only when the algae problem and the tank design actually suit a delicate sea slug. It is a specialist helper, not a durable all-purpose cleanup crew member.",
+    "recognitionNotes": "Leafy ruffled body with a slug-like shape rather than a hard shell."
   }
 ];

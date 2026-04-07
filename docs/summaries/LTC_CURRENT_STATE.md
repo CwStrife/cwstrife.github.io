@@ -1,32 +1,20 @@
-# LTC Fish Browser — Current State (V0.089)
+# LTC Fish Browser — Current State (V0.097)
 
-## What this project is
-A customer-facing fish browser plus a staff-facing inventory, history, and restore tool for Low Tide Corals & Aquatics.
+Use **V0.097** as the latest working handoff build in this zip.
 
-## Stable baseline
-Use **V0.089** as the current audited working baseline. It is based on the cleaned V0.088 package with additional fixes for inventory-card full-background fish images and a more visible first-pass microinteraction layer.
+## What changed in V0.097
+- Completed the **Other Fish specialty pass**.
+- Reworked the weakest remaining oddball/specialty entries, especially **filefish, anglers, waspfish, leaf scorpionfish, groupers, grunts, and catshark**.
+- Replaced some of the last generic “specialty fish” copy with more species-aware guidance around camouflage, prey risk, venom, coral-feeding specialization, shark-specific handling, and adult-size honesty.
+- Kept the pass in the **catalog/content lane only** for safer merging with outside UI/staff/category work.
+- Updated `APP_VERSION` to **0.097**.
 
-## What is currently stable
-- 448 species load correctly.
-- Smoke test passes cleanly with **0 errors, 0 warnings**.
-- EN/ES translations are complete.
-- Staff restore flows exist for sold, loss, quarantine, and hold.
-- Recent Changes exists as a top-level staff workflow entry.
-- Sale history exists and can be reused during restock flows.
-- Fish popup X / outside-click / mobile scroll are currently considered stable enough to keep unless a new regression is reproduced.
+## Stable baseline reminders
+- Inventory-card photo issue was previously confirmed fixed in live use.
+- Staff-mode quarantine badge and inventory button bug were previously fixed in the V0.091 lane.
+- Local image bake-in remains intentionally deferred; long-term image persistence should be handled by the future backend/media layer.
 
-## Active items still worth checking in live use
-- Inventory Manager fish-photo full-card backgrounds in the real deployed environment.
-- Whether the stronger button/gauge microinteractions now read clearly enough in actual use.
-- Staff density/usability on tablet and phone-sized screens.
-
-## Principles to preserve
-- Staff UX must stay easy for non-technical store staff.
-- Species information trust matters as much as visuals.
-- Missing **species/core** data and missing **store setup** data must stay separate concepts.
-- Effects should feel alive and premium, never noisy or gimmicky.
-
-## Future notes to preserve
-- Clicking the LTC logo should eventually route to the main LTC store homepage when the larger site exists.
-- Continue re-reviewing fish detail accuracy later and expand entries as the catalog grows.
-- Shopify/POS sync should not be attempted until field mapping and conflict rules are written down.
+## Best next content lanes
+1. Small polish pass for any still-generic leftovers in damsels, cardinalfish, basslets/dottybacks, and duplicate-name specialty entries
+2. Human spot-check of the newly enriched specialty fish entries
+3. Backend + Shopify/POS sync planning once access is available

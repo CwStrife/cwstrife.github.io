@@ -1,4 +1,3 @@
-window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Puffers"] = [
   {
     "id": "valentini-puffer",
@@ -23,25 +22,25 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "coralRisk": 28,
     "invertRisk": 32,
     "careDifficulty": 24,
-    "role": "Tiny curious puffer with big personality",
-    "visualCue": "Cream body with four dark saddle-shaped patches and orange-tan coloring on the back. Small beak-like mouth.",
-    "overview": "A tiny puffer with enormous personality. Constantly curious, investigating everything in the tank with its beady eyes. Not truly reef safe as it may nip corals and eat small invertebrates.",
+    "role": "Sharpnose toby with constant curiosity and real reef-tradeoff baggage",
+    "visualCue": "Cream to tan sharpnose puffer with dark saddle patches, thin blue accents, and the compact pointed face typical of Canthigaster species.",
+    "overview": "A classic sharpnose toby: active, observant, and full of attitude in a small package. Valentini Puffers are easier to place than large Arothron puffers, but they are still not dependable reef fish because corals, tube worms, tiny crustaceans, and clams can all become targets.",
     "facts": [
-      "Personality is the main selling point — watches you back through the glass.",
-      "Will nip at corals, clams, and small invertebrates.",
-      "The beak can deliver a painful bite — handle carefully."
+      "One of the most interactive small puffers in the trade.",
+      "Often mixed into reef systems only with full acceptance that nipping can happen.",
+      "Needs a varied diet that helps keep the beak from overgrowing."
     ],
     "bestWith": [
-      "Fish-only or FOWLR tanks",
-      "Owners wanting maximum personality",
-      "Medium-sized communities"
+      "FOWLR or mixed systems with realistic compatibility expectations",
+      "keepers who want puffer personality without giant-tank size",
+      "rockwork-heavy tanks with room to inspect and patrol"
     ],
     "cautionWith": [
-      "Reef tanks with prized corals or clams",
-      "Small ornamental shrimp",
-      "Handling with bare hands"
+      "ornamental shrimp and small mobile invertebrates",
+      "clam-focused or coral-prized reef displays",
+      "customers expecting a truly reef-safe nano show fish"
     ],
-    "staffNote": "Pure personality fish. Customers fall in love watching it investigate the tank.",
+    "staffNote": "Great personality fish, but sell it honestly as a toby puffer with reef and invert trade-offs.",
     "photoTitle": "Canthigaster valentini",
     "inStock": false,
     "badges": [],
@@ -58,8 +57,12 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "role_es": "Puffer diminuto y curioso con gran personalidad",
     "diet_es": "Omnívoro",
     "origin_es": "Indo-Pacífico",
-    "headerSummary": "Tiny curious puffer with big personality. Look for cream body with four dark saddle-shaped patches and orange-tan coloring on the back. Small beak-like mouth. Plan on at least 30+ gal.",
-    "seasonal": null
+    "headerSummary": "Sharpnose toby with constant curiosity and real reef-tradeoff baggage. Look for cream to tan color, dark saddle patches, and the pointed Canthigaster face. Plan on at least 30+ gal.",
+    "seasonal": null,
+    "recognitionNotes": "The dark saddle patches, blue-lined facial detail, and compact pointed toby profile separate it from larger rounder puffers.",
+    "behavior": "Usually busy from lights-on to lights-out, weaving through rockwork and checking every surface for food or novelty. Fish this size can still be surprisingly assertive with other timid nano livestock, and mature males can be territorial.",
+    "feedingNotes": "Use a varied omnivore routine with marine meaty foods, quality pellets, and harder items often enough to keep the beak naturally worn. Do not treat it like a fish that can live on only soft frozen foods long term.",
+    "buyingGuidance": "Best for keepers who want a small high-personality oddball and fully understand that “small puffer” does not mean “reef safe.” The right match is someone who values behavior and interaction more than perfect invert compatibility."
   },
   {
     "id": "blue-spot-puffer",
@@ -83,14 +86,14 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "coralRisk": 78,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs",
+    "role": "Blue-spotted toby that stays smaller than big Arothron puffers but still bites like a puffer",
     "role_es": "",
-    "overview": "Blue Spot Puffer is an interactive puffer sale where personality, beak care, and invert safety all matter. The catalog lists a minimum tank around 30+ gal. Adult size is listed around 5 in. Diet here is listed as Omnivore.",
+    "overview": "A lively sharpnose puffer with the same small-body, big-attitude appeal that makes tobys so popular. It is more practical than a giant puffer for modest systems, but the usual puffer caveats still apply: shrimp, snails, clams, and coral tissue are never guaranteed safe.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 5 in.",
-      "Plan around roughly 30+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore."
+      "Small-bodied but still equipped with a true fused beak.",
+      "Often bolder than its size suggests.",
+      "Better approached as a specialty community fish than a casual reef add-on."
     ],
     "photoTitle": "Blue Spot Puffer",
     "inStock": false,
@@ -105,22 +108,23 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "visualCue": "Compact Canthigaster profile with blue spotting over a pale body, quick turns, and the alert pointed face of a sharpnose puffer.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "mature smaller predator or specialty community systems",
+      "keepers comfortable feeding for beak health",
+      "semi-aggressive fish that will not bully a small puffer"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "tiny ornamental inverts",
+      "delicate passive nano fish",
+      "reef buyers who only want algae-grazing cleanup crews left untouched"
     ],
-    "staffNote": "",
-    "headerSummary": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Curious, alert, and always investigating rockwork and equipment. Often one of the most interactive fish in the tank.",
-    "feedingNotes": "Offer varied prepared foods plus harder meaty items now and then to help keep the beak worn down.",
-    "recognitionNotes": "Small puffer body, quick turns, and blue spotting over a lighter body color.",
-    "buyingGuidance": "Best sold to buyers who want puffer personality and already accept the trade-off with shrimp, snails, and possible coral nipping."
+    "staffNote": "Sell as a toby with real nipping potential, not as a mini reef puffer miracle.",
+    "headerSummary": "Blue-spotted toby that stays smaller than big Arothron puffers but still bites like a puffer. Look for blue spotting, a pointed face, and quick inquisitive movement. Plan on at least 30+ gal.",
+    "behavior": "Inquisitive and fast-moving, usually spending the day sampling rockwork, following movement outside the glass, and testing the tank for weak compatibility choices. Confidence tends to rise quickly once established.",
+    "feedingNotes": "Feed a varied meaty omnivore diet with enough hard-textured foods to keep the beak in check. These smaller puffers still need dietary variety and dental wear, not just soft convenience foods.",
+    "recognitionNotes": "Blue spotting and the sharpnose puffer silhouette make it read more like a toby than a chunky dogface-style puffer.",
+    "buyingGuidance": "A strong choice for someone who wants puffer behavior in a more manageable footprint, provided they are already comfortable with puffer rules about inverts, nipping, and beak care."
   },
   {
     "id": "camel-cowfish",
@@ -144,14 +148,14 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "coralRisk": 78,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs",
+    "role": "Oddball humpback boxfish that needs calm tankmates and careful stress management",
     "role_es": "",
-    "overview": "Camel Cowfish is an interactive puffer sale where personality, beak care, and invert safety all matter. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 20 in. Diet here is listed as Omnivore.",
+    "overview": "A strange and memorable show fish, but not a casual novelty purchase. Camel Cowfish are boxfish oddballs that do best in calm mature systems where they are not harassed, rushed, or forced to compete with rough boisterous tankmates.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 20 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore."
+      "Not a true puffer even though customers often group it with them.",
+      "Stress sensitivity matters as much as diet and size.",
+      "Poison concerns are why stable calm husbandry matters with boxfish and cowfish."
     ],
     "photoTitle": "Camel Cowfish",
     "inStock": false,
@@ -166,22 +170,23 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "visualCue": "Boxy body with a raised camel-like back, slow deliberate movement, and the unmistakable armored look of an ostraciid rather than a true puffer.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "large peaceful fish-only systems",
+      "experienced keepers who understand boxfish stress",
+      "tanks with stable water and low chaos"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "trigger-heavy or hyper-aggressive displays",
+      "rough handling or rushed acclimation",
+      "buyers looking only at the novelty shape and not the long-term care"
     ],
-    "staffNote": "",
-    "headerSummary": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Usually calm and oddly graceful rather than aggressive, but easily stressed by rough companions and chaotic tank layouts.",
-    "feedingNotes": "Feed a varied omnivore routine with mixed meaty foods and vegetable content while keeping water quality very stable.",
-    "recognitionNotes": "Nothing else in the tank moves or looks quite like a cowfish.",
-    "buyingGuidance": "Sell as an advanced oddball, not a cute novelty fish. The right buyer already understands stress sensitivity, adult size, and the need for a calm stable system."
+    "staffNote": "Boxfish/cowfish rules apply here: calm tankmates, low stress, and no rough handling.",
+    "headerSummary": "Oddball humpback boxfish that needs calm tankmates and careful stress management. Look for the arched back and armored boxfish shape. Plan on at least 125+ gal.",
+    "behavior": "Usually deliberate, almost hovering through the tank instead of charging around it. The fish can look sturdy because of its armor, but behaviorally it is closer to a stress-sensitive oddball than a bruiser.",
+    "feedingNotes": "Feed a varied omnivore menu with marine meaty foods and some vegetable content while protecting water quality. Calm feeding conditions matter because these fish do poorly when they are constantly outcompeted.",
+    "recognitionNotes": "The humpback profile and armored body make it stand apart from horned cowfish and round puffers immediately.",
+    "buyingGuidance": "Best for advanced oddball keepers who already understand that boxfish success is about environment and stress control as much as it is about food or tank volume. It should never be sold as a goofy beginner centerpiece."
   },
   {
     "id": "dogface-puffer",
@@ -205,14 +210,14 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "coralRisk": 78,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs",
+    "role": "Large personable puffer that becomes a pet-like centerpiece in fish-only systems",
     "role_es": "",
-    "overview": "Dogface Puffer is an interactive puffer sale where personality, beak care, and invert safety all matter. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 13 in. Diet here is listed as Carnivore.",
+    "overview": "One of the classic large marine puffers for people who want a true personality fish. Dogface Puffers often become interactive centerpiece animals, but that charm comes with the usual puffer costs: invertebrates are food, reef safety is poor, and long-term care revolves around diet, space, and beak management.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 13 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Often shy at first but becomes extremely interactive once settled.",
+      "Better moved in a specimen container than a net when possible.",
+      "Will usually eat snails, crabs, shrimp, and other crunchy tankmates."
     ],
     "photoTitle": "Dogface Puffer",
     "inStock": false,
@@ -227,22 +232,23 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "visualCue": "Rounded face, expressive eyes, and thick-bodied Arothron build with dog-like facial proportions rather than the pointed toby look.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "large fish-only displays",
+      "keepers who want a true wet-pet style fish",
+      "robust tankmates that are not fin-nippers"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "reef tanks full of inverts",
+      "rough net handling",
+      "customers underestimating adult waste load and feeding demands"
     ],
-    "staffNote": "",
-    "headerSummary": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Interactive, food-driven, and often immediately aware of the person standing in front of the tank.",
-    "feedingNotes": "Feed a varied carnivore diet with shell-on foods to help control beak growth and support long-term feeding success.",
-    "recognitionNotes": "The face is the appeal: expressive eyes, blunt snout, and dog-like look.",
-    "buyingGuidance": "Excellent for buyers who want personality in a large fish-only system. Poor fit for reef buyers who expect shrimp, snails, or delicate corals to survive unchanged."
+    "staffNote": "Great centerpiece puffer, but be blunt about inverts, waste, and beak care.",
+    "headerSummary": "Large personable puffer that becomes a pet-like centerpiece in fish-only systems. Look for the rounded dog-like face and expressive eyes. Plan on at least 125+ gal.",
+    "behavior": "Often cautious during acclimation, then transforms into a front-glass beggar that watches the room and tracks feeding routines closely. It is usually less about constant aggression and more about persistent opportunism around anything edible.",
+    "feedingNotes": "Feed a varied carnivore routine with shell-on marine foods in rotation so the fused beak stays worn. These fish are enthusiastic eaters, so feed for long-term health and dentition rather than letting “cute begging” turn into overfeeding.",
+    "recognitionNotes": "The blunt rounded face and expressive “dogface” look are what separate it from porcupinefish and the sharper Arothron forms.",
+    "buyingGuidance": "A strong fit for keepers who knowingly want a large fish-only personality animal and have filtration, space, and diet planning ready. It is a poor fit for customers hoping to “try a puffer” in a casual mixed reef."
   },
   {
     "id": "longhorn-cowfish",
@@ -266,14 +272,14 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "coralRisk": 78,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs",
+    "role": "Expert-only horned cowfish with huge personality and serious stress-sensitivity",
     "role_es": "",
-    "overview": "Longhorn Cowfish is an interactive puffer sale where personality, beak care, and invert safety all matter. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 20 in. Diet here is listed as Omnivore.",
+    "overview": "A famous oddball for a reason, but not a forgiving one. Longhorn Cowfish combine amazing presence with real husbandry liabilities: they stress easily, need calm tankmates, grow large, and can release toxins when severely stressed.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 20 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore."
+      "One of the most recognizable marine oddballs in the hobby.",
+      "Often called yellow boxfish incorrectly, which causes confusion with Ostracion cubicus.",
+      "Stress and harassment are more dangerous here than customers usually realize."
     ],
     "photoTitle": "Longhorn Cowfish",
     "inStock": false,
@@ -288,22 +294,23 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "visualCue": "Horned head, angular armored body, and floating gliding movement unlike almost anything else offered for marine aquariums.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "very large calm systems",
+      "experienced oddball keepers",
+      "peaceful large fish that will not ram, chase, or harass slow boxfish"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "aggressive triggers or tang packs",
+      "cramped or chaotic aquascapes",
+      "buyers who just want the meme fish without the responsibility"
     ],
-    "staffNote": "",
-    "headerSummary": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Usually calm and slow rather than confrontational, but easily stressed by fast aggressive fish.",
-    "feedingNotes": "Feed a varied omnivore diet and protect water quality; the husbandry challenge is usually the system, not just the menu.",
-    "recognitionNotes": "The horns and box-shaped body make this fish unmistakable.",
-    "buyingGuidance": "This should be sold as a dedicated oddball project fish, not as a novelty add-on to a busy community tank."
+    "staffNote": "Treat as expert-only and keep the toxin/stress conversation honest.",
+    "headerSummary": "Expert-only horned cowfish with huge personality and serious stress-sensitivity. Look for the forward horns and floating armored shape. Plan on at least 180+ gal.",
+    "behavior": "Usually more curious than combative, moving in a hovering glide and learning routines quickly. That calm demeanor should not be mistaken for toughness—these fish do worst in rough social setups.",
+    "feedingNotes": "Feed a varied omnivore menu with mixed marine meaty foods and vegetable content while avoiding frantic feeding situations. Stable conditions and calm mealtimes matter as much as what is on the menu.",
+    "recognitionNotes": "The horned head, spotted tan-yellow body, and boxy drifting posture are unmistakable.",
+    "buyingGuidance": "The right home is an experienced large-tank oddball keeper who already understands cowfish stress, adult size, and the consequences of mixing one into a chaotic predator tank. It should not be sold as a cute conversation piece alone."
   },
   {
     "id": "porcupine-puffer",
@@ -327,14 +334,14 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "coralRisk": 78,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs",
+    "role": "Large long-spined porcupinefish with huge charm, huge waste output, and real crustacean appetite",
     "role_es": "",
-    "overview": "Porcupine Puffer is an interactive puffer sale where personality, beak care, and invert safety all matter. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 20 in. Diet here is listed as Carnivore.",
+    "overview": "A beloved large predator with tremendous personality, but it belongs in a real big-fish plan. Porcupine Puffers become messy interactive centerpieces that need room, strong filtration, meaty foods, and tankmates that can coexist with a fish that views crabs, snails, and similar invertebrates as dinner.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 20 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Naturally hunts hard-shelled prey and needs that reflected in diet.",
+      "Juveniles may associate with floating sargassum in the wild.",
+      "Gets far larger and messier than many impulse buyers expect."
     ],
     "photoTitle": "Porcupine Puffer",
     "inStock": false,
@@ -349,22 +356,23 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "visualCue": "Rounder body than a dogface puffer, obvious long spines when inflated, and a broad cartoonish face that makes it one of the hobby’s classic personality fish.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "large fish-only predator systems",
+      "keepers who want a classic interactive puffer",
+      "robust tankmates that are not easily bullied or bitten"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "cleanup crews and ornamental crustaceans",
+      "undersized filtration",
+      "customers treating a juvenile as if it will stay manageable forever"
     ],
-    "staffNote": "",
-    "headerSummary": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Usually interactive and bold, often becoming one of the most outgoing fish in the room.",
-    "feedingNotes": "Feed a varied carnivore diet with hard-shelled foods regularly so the beak stays manageable.",
-    "recognitionNotes": "Spot pattern, visible spines, and very obvious face make identification easy.",
-    "buyingGuidance": "Great for the right big predator display, bad for a reef buyer who just wants a cute puffer. Sell the adult fish, not the juvenile look."
+    "staffNote": "Fun fish, but make sure the customer is actually buying the adult lifestyle, not the baby face.",
+    "headerSummary": "Large long-spined porcupinefish with huge charm, huge waste output, and real crustacean appetite. Look for the rounded face and obvious porcupine spines. Plan on at least 180+ gal.",
+    "behavior": "Usually bold, aware of people, and food-driven, though not especially graceful. They can look clownish and slow, but they are efficient night-oriented crunchers when given suitable prey items.",
+    "feedingNotes": "Feed a varied carnivore diet built around marine meaty foods and regular shell-on items to keep the beak worn. Heavy feeding means heavy filtration, so nutrition and system design need to be considered together.",
+    "recognitionNotes": "The long inflatable spines and rounded porcupinefish face separate it from smoother-skinned dogface and stars-and-stripes puffers.",
+    "buyingGuidance": "Excellent for customers who truly want a large wet-pet predator and already have the system for it. Poor fit for reef keepers, cleanup-crew lovers, or anyone trying to squeeze a show puffer into a medium tank."
   },
   {
     "id": "saddle-valentini-puffer",
@@ -388,14 +396,14 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "coralRisk": 78,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs",
+    "role": "Small saddle-pattern toby with puffer attitude and no promise of reef safety",
     "role_es": "",
-    "overview": "Saddle Valentini Puffer is an interactive puffer sale where personality, beak care, and invert safety all matter. The catalog lists a minimum tank around 30+ gal. Adult size is listed around 4 in. Diet here is listed as Omnivore.",
+    "overview": "This smaller toby type is all about interaction and curiosity, not peaceful cleanup-crew coexistence. It fits where giant puffers cannot, but it still brings the same core puffer rules about beak care, coral nipping, and invertebrate risk.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 4 in.",
-      "Plan around roughly 30+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore."
+      "A small puffer with real oddball appeal.",
+      "Much easier to house than a giant puffer, but not automatically easier to mix.",
+      "Needs the same honesty about shrimp, snails, and clam risk as other tobys."
     ],
     "photoTitle": "Saddle Valentini Puffer",
     "inStock": false,
@@ -410,22 +418,23 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "visualCue": "Compact sharpnose puffer with saddle markings, pointed face, and quick stop-and-go movement through rockwork.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "specialty smaller FOWLR setups",
+      "keepers who want personality in a moderate-size tank",
+      "semi-aggressive community fish that will not terrorize a small puffer"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "ornamental shrimp and tiny snails",
+      "high-value coral collections",
+      "customers assuming “small” means “safe”"
     ],
-    "staffNote": "",
-    "headerSummary": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs. Plan on roughly 30+ gal or larger long term.",
-    "behavior": "Puffers are usually curious and interactive, inspecting rock, equipment, and anyone approaching the tank.",
-    "feedingNotes": "Use a varied meaty diet and include harder items when appropriate so the beak and feeding behavior stay in good shape. Catalog diet listing: Omnivore.",
-    "buyingGuidance": "Great personality sale, but only when the buyer accepts the trade-offs with invertebrates, nipping risk, and long-term feeding needs.",
-    "recognitionNotes": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style."
+    "staffNote": "Sell like a true toby puffer, not like a quirky reef nano fish.",
+    "headerSummary": "Small saddle-pattern toby with puffer attitude and no promise of reef safety. Look for compact size, pointed face, and saddle markings. Plan on at least 30+ gal.",
+    "behavior": "Confident for its size and usually in motion, checking crevices and watching the room. These fish can seem charmingly busy right up until they decide a decorative invert or coral edge needs to be tested.",
+    "feedingNotes": "Offer a varied omnivore routine that includes enough hard-textured foods to keep the beak trimmed naturally. Routine variety matters more than one favorite frozen food used over and over.",
+    "buyingGuidance": "A good specialty choice for someone who wants a smaller personality fish and already understands toby trade-offs. It is not the right answer for a customer who needs guaranteed reef safety.",
+    "recognitionNotes": "Saddle markings and a pointed Canthigaster profile identify it as a toby rather than a large round-bodied puffer."
   },
   {
     "id": "spiny-box-puffer",
@@ -449,14 +458,14 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "coralRisk": 78,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs",
+    "role": "Nocturnal box puffer oddball that needs room, crustacean-heavy feeding, and realistic expectations",
     "role_es": "",
-    "overview": "Spiny Box Puffer is an interactive puffer sale where personality, beak care, and invert safety all matter. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 14 in. Diet here is listed as Carnivore.",
+    "overview": "A distinctive oddball often bought for its look before its care is understood. Spiny box puffers need roomy systems, meaty foods, and tankmates chosen around their slower, more deliberate pace and their tendency to eat crustaceans and other vulnerable invertebrates.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 14 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "An oddball feeder better suited to specialty systems than mixed reefs.",
+      "More about deliberate crunching than flashy speed.",
+      "Adult size and feeding style make it a serious long-term commitment."
     ],
     "photoTitle": "Spiny Box Puffer",
     "inStock": false,
@@ -471,22 +480,23 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "visualCue": "Rounded body with short stout spines, slower hovering movement, and a boxy armored look that reads more oddball than sleek predator.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "large specialty or fish-only systems",
+      "keepers who enjoy unusual morphology fish",
+      "calmer robust tankmates that will not harass a slower oddball"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "ornamental shrimp and crabs",
+      "small crowded rock mazes",
+      "customers wanting a set-and-forget beginner puffer"
     ],
-    "staffNote": "",
-    "headerSummary": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Usually calmer than its look suggests, but still a big eater with a lot of tank presence.",
-    "feedingNotes": "Use a robust meaty diet with shell-on foods to help control beak growth and wear.",
-    "recognitionNotes": "Rounded body, short spines, and a burrfish-like face separate it from the sleeker puffers.",
-    "buyingGuidance": "Best for a buyer who wants personality and accepts that this is an invertebrate-risk, heavy-waste fish."
+    "staffNote": "Good conversation fish, but do not undersell the size and oddball care needs.",
+    "headerSummary": "Nocturnal box puffer oddball that needs room, crustacean-heavy feeding, and realistic expectations. Look for the short spines and armored oddball shape. Plan on at least 125+ gal.",
+    "behavior": "Usually deliberate and more interested in methodical foraging than racing around the tank. It tends to work the bottom and structure with a slow, heavy oddball presence.",
+    "feedingNotes": "Feed a varied carnivore routine with crustacean-rich marine foods and enough hard texture to support proper beak wear. Stable water and controlled feeding competition matter because these fish are not elegant swimmers.",
+    "recognitionNotes": "The squat boxy form with short projecting spines gives it a rougher, stranger look than smooth boxfish or long-spined porcupinefish.",
+    "buyingGuidance": "Best for customers who want a genuine oddball predator and have a large stable system ready. Poor fit for reef customers or anyone expecting the convenience of a small community puffer."
   },
   {
     "id": "stars-and-stripes-puffer",
@@ -510,14 +520,14 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "coralRisk": 78,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs",
+    "role": "Huge stars-and-stripes show puffer that belongs in a serious big-predator plan",
     "role_es": "",
-    "overview": "Stars and Stripes Puffer is an interactive puffer sale where personality, beak care, and invert safety all matter. The catalog lists a minimum tank around 180+ gal. Adult size is listed around 20 in. Diet here is listed as Carnivore.",
+    "overview": "A dramatic large puffer that becomes a true showpiece only when the tank is built around it. This species combines size, appetite, waste output, and beak-management needs at a level that pushes it firmly into large-system territory.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 20 in.",
-      "Plan around roughly 180+ gal or larger for long-term care.",
-      "Diet in this catalog: Carnivore."
+      "Named for the split pattern of spots above and stripes below.",
+      "Can outgrow casual “big tank” assumptions quickly.",
+      "Demands the same hard-food beak maintenance as other large puffers."
     ],
     "photoTitle": "Stars and Stripes Puffer",
     "inStock": false,
@@ -532,22 +542,23 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "visualCue": "White spots across the upper body, striped lower body, and a thick massive Arothron build that reads like a heavyweight version of the dogface group.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "very large fish-only systems",
+      "experienced keepers comfortable with giant puffers",
+      "robust companions that will not nip at a slow thick-bodied puffer"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "reef invertebrates and cleanup crews",
+      "weak filtration",
+      "buyers who love the pattern but are not ready for a true heavyweight puffer"
     ],
-    "staffNote": "",
-    "headerSummary": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs. Plan on roughly 180+ gal or larger long term.",
-    "behavior": "Bold, food-motivated, and usually very aware of the room outside the tank.",
-    "feedingNotes": "Offer a meaty varied diet with hard foods often enough to help keep the beak in shape.",
-    "recognitionNotes": "Heavy body, blunt face, and the obvious striping/spotting pattern make it easy to spot.",
-    "buyingGuidance": "Sell with adult size front and center. The fish is lovable, but the long-term bioload and invertebrate risk are substantial."
+    "staffNote": "Treat as a serious adult project fish, not just a prettier dogface.",
+    "headerSummary": "Huge stars-and-stripes show puffer that belongs in a serious big-predator plan. Look for white spotting above, striping below, and a thick heavyweight body. Plan on at least 180+ gal.",
+    "behavior": "Usually bold and food-oriented, though not especially agile. Its size and confidence often make it the tank’s center of gravity, even when it is not the most overtly aggressive fish present.",
+    "feedingNotes": "Feed a varied carnivore routine with frequent shell-on marine foods to keep the beak worn. Because these fish are large, messy, and enthusiastic eaters, every feeding choice shows up in filtration demand.",
+    "recognitionNotes": "The split pattern is the giveaway: star-like white spotting on top and horizontal striping below.",
+    "buyingGuidance": "Appropriate for customers building a large dedicated predator or fish-only display who actually want a giant puffer as the centerpiece. It is a bad recommendation for “maybe we can make it work” reef plans."
   },
   {
     "id": "yellow-boxfish",
@@ -571,14 +582,14 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "coralRisk": 78,
     "invertRisk": 20,
     "careDifficulty": 56,
-    "role": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs",
+    "role": "Juvenile-yellow boxfish oddball that needs peaceful tankmates and low-stress care",
     "role_es": "",
-    "overview": "Yellow Boxfish is an interactive puffer sale where personality, beak care, and invert safety all matter. The catalog lists a minimum tank around 125+ gal. Adult size is listed around 18 in. Diet here is listed as Omnivore.",
+    "overview": "One of the most charming juvenile oddballs in the trade, but also one of the easiest to underestimate. Yellow Boxfish need peaceful surroundings, careful long-term planning, and the same stress awareness that makes all boxfish a more specialized recommendation than their cute appearance suggests.",
     "overview_es": "",
     "facts": [
-      "Adult size in this catalog is listed around 18 in.",
-      "Plan around roughly 125+ gal or larger for long-term care.",
-      "Diet in this catalog: Omnivore."
+      "Juveniles are bright yellow and can look very different from adults.",
+      "Customers often confuse this fish with longhorn cowfish naming.",
+      "Peaceful tankmate selection matters a lot more than people expect."
     ],
     "photoTitle": "Yellow Boxfish",
     "inStock": false,
@@ -593,21 +604,22 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     },
     "seasonal": null,
     "careLabel": "Intermediate",
-    "visualCue": "Look for the rounded puffer body, beak-like mouth, and curious, interactive swimming style.",
+    "visualCue": "Box-shaped body with bright yellow juvenile coloration and darker spotting, changing substantially as it matures.",
     "bestWith": [
-      "Mature systems that meet the minimum tank size",
-      "Fish-only or mixed systems built around assertive livestock",
-      "Semi-aggressive tankmates of similar size"
+      "peaceful larger systems",
+      "experienced hobbyists comfortable with oddballs",
+      "mature tanks with stable water and gentle community structure"
     ],
     "cautionWith": [
-      "Tankmates that do not match its adult size or activity level",
-      "Corals or polyps that could be nipped or disturbed"
+      "hyper-aggressive or fast predator mixes",
+      "buyers purchasing for juvenile color alone",
+      "systems where stress and chasing are likely"
     ],
-    "staffNote": "",
-    "headerSummary": "Interactive puffer profile with beak care and invertebrate compatibility trade-offs. Plan on roughly 125+ gal or larger long term.",
-    "behavior": "Usually peaceful and oddly graceful, but easily stressed by chaotic or aggressive tankmates.",
-    "feedingNotes": "Feed a broad omnivore routine and prioritize stability over fancy feeding tricks.",
-    "recognitionNotes": "The box body and bright juvenile yellow pattern make this fish instantly recognizable.",
-    "buyingGuidance": "This should be sold as a long-term oddball commitment, not a novelty fish for a casual mixed tank."
+    "staffNote": "Great oddball when placed correctly; bad fit when sold only on the cute yellow juvenile stage.",
+    "headerSummary": "Juvenile-yellow boxfish oddball that needs peaceful tankmates and low-stress care. Look for the box shape and spotted yellow juvenile pattern. Plan on at least 125+ gal.",
+    "behavior": "Usually peaceful and deliberate, with a hovering style that makes it look easygoing rather than competitive. That calm behavior is exactly why rough communities can overwhelm it.",
+    "feedingNotes": "Use a varied omnivore routine with marine meaty foods and naturalistic variety while making sure the fish is not bullied away from food. Boxfish do best when the whole system is built to keep stress low.",
+    "recognitionNotes": "The juvenile stage is the familiar bright yellow spotted cube, while adults darken and lose much of the toy-like look customers expect.",
+    "buyingGuidance": "Best for keepers who understand oddball fish and want a peaceful specialty display, not a rough predator tank. The sale should focus on the adult animal and its stress sensitivity, not just the adorable juvenile color."
   }
 ];
