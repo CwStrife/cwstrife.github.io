@@ -45,12 +45,12 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
-      "temp_high": 82
+      "temp_low": 75,
+      "temp_high": 80
     },
     "name_es": "Almeja Maxima",
     "overview_es": "Una gema viviente. Los patrones del manto bajo iluminación de arrecife son de las cosas más hermosas del hobby.",
@@ -99,12 +99,12 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
-      "temp_high": 82
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -161,12 +161,12 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
-      "temp_high": 82
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -223,12 +223,12 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
-      "temp_high": 82
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -287,7 +287,7 @@ window.LTC_SPECIES_CHUNKS["Clams"] = [
     "water": {
       "ph_low": 8,
       "ph_high": 8.4,
-      "sal_low": 1.023,
+      "sal_low": 1.024,
       "sal_high": 1.026,
       "temp_low": 75,
       "temp_high": 80

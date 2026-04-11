@@ -1,9 +1,13 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
   {
     "id": "bluejaw-trigger",
     "name": "Bluejaw Trigger",
     "name_es": "Bluejaw Trigger",
-    "aliases": [],
+    "aliases": [
+      "Blue Throat Triggerfish",
+      "Bluechin Triggerfish"
+    ],
     "scientific": "Xanthichthys auromarginatus",
     "category": "Triggerfish",
     "type": "Saltwater Fish",
@@ -251,7 +255,9 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "id": "niger-trigger",
     "name": "Niger Trigger",
     "name_es": "Niger Trigger",
-    "aliases": [],
+    "aliases": [
+      "Redtoothed Triggerfish"
+    ],
     "scientific": "Odonus niger",
     "category": "Triggerfish",
     "type": "Saltwater Fish",
@@ -654,24 +660,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
       "Can shift from manageable to rough if cramped or mixed badly."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -728,24 +722,12 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
       "This is a long-term aggression and size planning fish, not a casual conversation piece."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -766,5 +748,266 @@ window.LTC_SPECIES_CHUNKS["Triggerfish"] = [
     "feedingNotes": "Feed a varied carnivore routine with chunky marine meaty foods, shell-on items, and large-fish pellets. The point is not only growth but giving a hard-jawed predator the diet structure it is built for.",
     "buyingGuidance": "Appropriate only for customers who genuinely want a dominant large trigger as part of a serious long-term predator plan and already have truly oversized quarters in mind. It should never be positioned as a “maybe it will stay nice” show fish.",
     "recognitionNotes": "The black body, large white lower-body spots, yellow upper patterning, and bright face are unmistakable among marine triggers."
+  },
+  {
+    "id": "rectangle-triggerfish-rhinecanthus-rectangulus",
+    "name": "Rectangle Triggerfish",
+    "aliases": [
+      "Humu, Rectangle",
+      "Humu Rectangle",
+      "Rectangulus triggerfish"
+    ],
+    "scientific": "Rhinecanthus rectangulus",
+    "category": "Triggerfish",
+    "type": "Saltwater Fish",
+    "price": 80,
+    "stockSize": "Medium",
+    "maxSize": "20 in",
+    "minTank": "180+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore / planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 38,
+    "coralRisk": 28,
+    "invertRisk": 20,
+    "careDifficulty": 56,
+    "role": "Rectangle Triggerfish — high-personality predator sold around adult behavior",
+    "visualCue": "Rectangle Triggerfish is easiest to spot by triggerfish profile and thick jawline on a heavy-bodied triggerfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Rectangle Triggerfish stands out for triggerfish profile and thick jawline more than for brute size alone. It works best when the buyer's system can honestly support adult aggression, inverts, and future tankmate damage, because this is not the kind of triggerfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: triggerfish profile and thick jawline.",
+      "Venta correcta: conversar sobre adult aggression, inverts, and future tankmate damage.",
+      "Riesgo clave: some coral trade-off, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Rectangle Triggerfish.",
+      "Compradores que entienden adult aggression, inverts, and future tankmate damage."
+    ],
+    "cautionWith": [
+      "The buyer still wants a polite invert-safe community fish.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Rectangle Triggerfish.",
+      "Sistemas que no pueden sostener adult aggression, inverts, and future tankmate damage."
+    ],
+    "staffNote": "Punto de venta: resaltar triggerfish profile and thick jawline y luego aterrizar la conversación en adult aggression, inverts, and future tankmate damage.",
+    "photoTitle": "Rhinecanthus rectangulus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Rectangle Triggerfish",
+    "overview_es": "Rectangle Triggerfish destaca por triggerfish profile and thick jawline más que por tamaño bruto. La venta correcta depende de adult aggression, inverts, and future tankmate damage y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Rectangle Triggerfish — high-personality predator sold around adult behavior",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Rectangle Triggerfish brings triggerfish profile and thick jawline on a heavy-bodied triggerfish, but the sale still needs an honest talk about adult aggression, inverts, and future tankmate damage. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: triggerfish profile and thick jawline, carried on a heavy-bodied triggerfish. That combination is what separates Rectangle Triggerfish from plainer lookalikes in the same lane.",
+    "behavior": "Rectangle Triggerfish is built to be visible, alert, and highly engaged with the whole tank rather than tucked away in one corner. Triggerfish often become front-glass favorites, but they also test hierarchy and hardscape in ways that calmer community fish never do.",
+    "feedingNotes": "Feed Rectangle Triggerfish like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Rectangle Triggerfish suits a buyer whose tank plan already matches the species. Pass when the buyer still wants a polite invert-safe community fish."
+  },
+  {
+    "id": "striped-triggerfish-xanthichthys-lineopunctatus",
+    "name": "Striped Triggerfish",
+    "aliases": [
+      "Striped",
+      "Lineopunctatus triggerfish"
+    ],
+    "scientific": "Xanthichthys lineopunctatus",
+    "category": "Triggerfish",
+    "type": "Saltwater Fish",
+    "price": 130,
+    "stockSize": "Medium",
+    "maxSize": "20 in",
+    "minTank": "180+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore / planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 38,
+    "coralRisk": 28,
+    "invertRisk": 20,
+    "careDifficulty": 56,
+    "role": "Striped Triggerfish — high-personality predator sold around adult behavior",
+    "visualCue": "Striped Triggerfish is easiest to spot by striping and triggerfish profile and thick jawline on a heavy-bodied triggerfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Striped Triggerfish stands out for striping and triggerfish profile and thick jawline more than for brute size alone. It works best when the buyer's system can honestly support adult aggression, inverts, and future tankmate damage, because this is not the kind of triggerfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: striping and triggerfish profile and thick jawline.",
+      "Venta correcta: conversar sobre adult aggression, inverts, and future tankmate damage.",
+      "Riesgo clave: some coral trade-off, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Striped Triggerfish.",
+      "Compradores que entienden adult aggression, inverts, and future tankmate damage."
+    ],
+    "cautionWith": [
+      "The buyer still wants a polite invert-safe community fish.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Striped Triggerfish.",
+      "Sistemas que no pueden sostener adult aggression, inverts, and future tankmate damage."
+    ],
+    "staffNote": "Punto de venta: resaltar striping and triggerfish profile and thick jawline y luego aterrizar la conversación en adult aggression, inverts, and future tankmate damage.",
+    "photoTitle": "Xanthichthys lineopunctatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Striped Triggerfish",
+    "overview_es": "Striped Triggerfish destaca por striping and triggerfish profile and thick jawline más que por tamaño bruto. La venta correcta depende de adult aggression, inverts, and future tankmate damage y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Striped Triggerfish — high-personality predator sold around adult behavior",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Striped Triggerfish brings striping and triggerfish profile and thick jawline on a heavy-bodied triggerfish, but the sale still needs an honest talk about adult aggression, inverts, and future tankmate damage. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: striping and triggerfish profile and thick jawline, carried on a heavy-bodied triggerfish. That combination is what separates Striped Triggerfish from plainer lookalikes in the same lane.",
+    "behavior": "Striped Triggerfish is built to be visible, alert, and highly engaged with the whole tank rather than tucked away in one corner. Triggerfish often become front-glass favorites, but they also test hierarchy and hardscape in ways that calmer community fish never do.",
+    "feedingNotes": "Feed Striped Triggerfish like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Striped Triggerfish suits a buyer whose tank plan already matches the species. Pass when the buyer still wants a polite invert-safe community fish."
+  },
+  {
+    "id": "titan-triggerfish-balistoides-viridescens",
+    "name": "Titan Triggerfish",
+    "aliases": [
+      "Titan / Dotty",
+      "Viridescens triggerfish"
+    ],
+    "scientific": "Balistoides viridescens",
+    "category": "Triggerfish",
+    "type": "Saltwater Fish",
+    "price": 250,
+    "stockSize": "Medium",
+    "maxSize": "20 in",
+    "minTank": "180+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore / planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 38,
+    "coralRisk": 28,
+    "invertRisk": 20,
+    "careDifficulty": 56,
+    "role": "Titan Triggerfish — high-personality predator sold around adult behavior",
+    "visualCue": "Titan Triggerfish is easiest to spot by triggerfish profile and thick jawline on a heavy-bodied triggerfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Titan Triggerfish stands out for triggerfish profile and thick jawline more than for brute size alone. It works best when the buyer's system can honestly support adult aggression, inverts, and future tankmate damage, because this is not the kind of triggerfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: triggerfish profile and thick jawline.",
+      "Venta correcta: conversar sobre adult aggression, inverts, and future tankmate damage.",
+      "Riesgo clave: some coral trade-off, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Titan Triggerfish.",
+      "Compradores que entienden adult aggression, inverts, and future tankmate damage."
+    ],
+    "cautionWith": [
+      "The buyer still wants a polite invert-safe community fish.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Titan Triggerfish.",
+      "Sistemas que no pueden sostener adult aggression, inverts, and future tankmate damage."
+    ],
+    "staffNote": "Punto de venta: resaltar triggerfish profile and thick jawline y luego aterrizar la conversación en adult aggression, inverts, and future tankmate damage.",
+    "photoTitle": "Balistoides viridescens",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Titan Triggerfish",
+    "overview_es": "Titan Triggerfish destaca por triggerfish profile and thick jawline más que por tamaño bruto. La venta correcta depende de adult aggression, inverts, and future tankmate damage y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Titan Triggerfish — high-personality predator sold around adult behavior",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Titan Triggerfish brings triggerfish profile and thick jawline on a heavy-bodied triggerfish, but the sale still needs an honest talk about adult aggression, inverts, and future tankmate damage. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: triggerfish profile and thick jawline, carried on a heavy-bodied triggerfish. That combination is what separates Titan Triggerfish from plainer lookalikes in the same lane.",
+    "behavior": "Titan Triggerfish is built to be visible, alert, and highly engaged with the whole tank rather than tucked away in one corner. Triggerfish often become front-glass favorites, but they also test hierarchy and hardscape in ways that calmer community fish never do.",
+    "feedingNotes": "Feed Titan Triggerfish like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Titan Triggerfish suits a buyer whose tank plan already matches the species. Pass when the buyer still wants a polite invert-safe community fish."
+  },
+  {
+    "id": "yellowmargin-triggerfish-pseudobalistes-flavimarginatus",
+    "name": "Yellowmargin Triggerfish",
+    "aliases": [
+      "Yellowmargin",
+      "Flavimarginatus triggerfish"
+    ],
+    "scientific": "Pseudobalistes flavimarginatus",
+    "category": "Triggerfish",
+    "type": "Saltwater Fish",
+    "price": 160,
+    "stockSize": "Medium",
+    "maxSize": "20 in",
+    "minTank": "180+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore / planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 38,
+    "coralRisk": 28,
+    "invertRisk": 20,
+    "careDifficulty": 56,
+    "role": "Yellowmargin Triggerfish — high-personality predator sold around adult behavior",
+    "visualCue": "Yellowmargin Triggerfish is easiest to spot by a yellow fin margin and triggerfish profile and thick jawline on a heavy-bodied triggerfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Yellowmargin Triggerfish stands out for a yellow fin margin and triggerfish profile and thick jawline more than for brute size alone. It works best when the buyer's system can honestly support adult aggression, inverts, and future tankmate damage, because this is not the kind of triggerfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: a yellow fin margin and triggerfish profile and thick jawline.",
+      "Venta correcta: conversar sobre adult aggression, inverts, and future tankmate damage.",
+      "Riesgo clave: some coral trade-off, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Yellowmargin Triggerfish.",
+      "Compradores que entienden adult aggression, inverts, and future tankmate damage."
+    ],
+    "cautionWith": [
+      "The buyer still wants a polite invert-safe community fish.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Yellowmargin Triggerfish.",
+      "Sistemas que no pueden sostener adult aggression, inverts, and future tankmate damage."
+    ],
+    "staffNote": "Punto de venta: resaltar a yellow fin margin and triggerfish profile and thick jawline y luego aterrizar la conversación en adult aggression, inverts, and future tankmate damage.",
+    "photoTitle": "Pseudobalistes flavimarginatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Yellowmargin Triggerfish",
+    "overview_es": "Yellowmargin Triggerfish destaca por a yellow fin margin and triggerfish profile and thick jawline más que por tamaño bruto. La venta correcta depende de adult aggression, inverts, and future tankmate damage y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Yellowmargin Triggerfish — high-personality predator sold around adult behavior",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Yellowmargin Triggerfish brings a yellow fin margin and triggerfish profile and thick jawline on a heavy-bodied triggerfish, but the sale still needs an honest talk about adult aggression, inverts, and future tankmate damage. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: a yellow fin margin and triggerfish profile and thick jawline, carried on a heavy-bodied triggerfish. That combination is what separates Yellowmargin Triggerfish from plainer lookalikes in the same lane.",
+    "behavior": "Yellowmargin Triggerfish is built to be visible, alert, and highly engaged with the whole tank rather than tucked away in one corner. Triggerfish often become front-glass favorites, but they also test hierarchy and hardscape in ways that calmer community fish never do.",
+    "feedingNotes": "Feed Yellowmargin Triggerfish like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Yellowmargin Triggerfish suits a buyer whose tank plan already matches the species. Pass when the buyer still wants a polite invert-safe community fish."
   }
 ];

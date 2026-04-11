@@ -1,3 +1,4 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Snails"] = [
   {
     "id": "nassarius-snail",
@@ -44,11 +45,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Caracol Nassarius",
@@ -107,11 +108,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Caracol Trochus",
@@ -171,11 +172,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Caracol Turbo Mexicano",
@@ -234,11 +235,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Caracol Concha Luchador",
@@ -296,11 +297,11 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Caracol Cerith",
@@ -1218,24 +1219,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Often struggles more than trochus when flipped and may need occasional help."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Easy",
@@ -1291,24 +1280,12 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
       "Works best in calmer systems where the target algae is actually present."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -1328,5 +1305,332 @@ window.LTC_SPECIES_CHUNKS["Snails"] = [
     "feedingNotes": "Needs the right algae to browse and should not be treated like a creature that will simply switch to prepared foods. Many failures come from buying the animal before confirming the food source.",
     "buyingGuidance": "Recommend only when the algae problem and the tank design actually suit a delicate sea slug. It is a specialist helper, not a durable all-purpose cleanup crew member.",
     "recognitionNotes": "Leafy ruffled body with a slug-like shape rather than a hard shell."
+  },
+  {
+    "id": "fighting-conch-strombus-gibberulus",
+    "name": "Fighting Conch",
+    "aliases": [
+      "Conch Fighter",
+      "Gibberulus snail"
+    ],
+    "scientific": "Strombus gibberulus",
+    "category": "Snails",
+    "type": "Invertebrate",
+    "price": 18,
+    "stockSize": "Small",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Detritivore / herbivore",
+    "origin": "Tropical marine shallows",
+    "habitat": "Open sand beds",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 12,
+    "role": "Fighting Conch — cleanup snail matched to a specific algae or substrate job",
+    "visualCue": "Fighting Conch is easiest to spot by the 'fighting conch' look used in the trade name on a grazing snail; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Fighting Conch stands out for the 'fighting conch' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support matching the animal to sand, film algae, or heavier cleanup work, because this is not the kind of snail that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'fighting conch' look used in the trade name.",
+      "Venta correcta: conversar sobre matching the animal to sand, film algae, or heavier cleanup work.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 20+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Fighting Conch.",
+      "Compradores que entienden matching the animal to sand, film algae, or heavier cleanup work."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Fighting Conch.",
+      "Sistemas que no pueden sostener matching the animal to sand, film algae, or heavier cleanup work."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'fighting conch' look used in the trade name y luego aterrizar la conversación en matching the animal to sand, film algae, or heavier cleanup work.",
+    "photoTitle": "Strombus gibberulus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Fighting Conch",
+    "overview_es": "Fighting Conch destaca por the 'fighting conch' look used in the trade name más que por tamaño bruto. La venta correcta depende de matching the animal to sand, film algae, or heavier cleanup work y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Fighting Conch — cleanup caracol matched to a specific algae or substrate job",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical marine shallows",
+    "headerSummary": "Fighting Conch brings the 'fighting conch' look used in the trade name on a grazing snail, but the sale still needs an honest talk about matching the animal to sand, film algae, or heavier cleanup work. Plan on at least 20+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'fighting conch' look used in the trade name, carried on a grazing snail. That combination is what separates Fighting Conch from plainer lookalikes in the same lane.",
+    "behavior": "Fighting Conch is more valuable for the work it does over time than for dramatic visible behavior. The right sale depends on whether the snail’s actual niche matches the tank’s algae, detritus, sand, or scavenging needs.",
+    "feedingNotes": "Keep greens and natural grazing in front of Fighting Conch; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Fighting Conch suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "cowrie-tiger-snail-cypraea-tigris",
+    "name": "Cowrie Tiger Snail",
+    "aliases": [
+      "Cowrie, Tiger",
+      "Cowrie Tiger",
+      "Tigris snail"
+    ],
+    "scientific": "Cypraea tigris",
+    "category": "Snails",
+    "type": "Invertebrate",
+    "price": 19,
+    "stockSize": "Small",
+    "maxSize": "4 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore / grazer",
+    "origin": "Tropical reef zones",
+    "habitat": "Rock and sand reef zones",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 18,
+    "role": "Cowrie Tiger Snail — cleanup snail matched to a specific algae or substrate job",
+    "visualCue": "Cowrie Tiger Snail is easiest to spot by the 'cowrie tiger' look used in the trade name on a grazing snail; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Cowrie Tiger Snail stands out for the 'cowrie tiger' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support matching the animal to sand, film algae, or heavier cleanup work, because this is not the kind of snail that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'cowrie tiger' look used in the trade name.",
+      "Venta correcta: conversar sobre matching the animal to sand, film algae, or heavier cleanup work.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 20+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Cowrie Tiger Snail.",
+      "Compradores que entienden matching the animal to sand, film algae, or heavier cleanup work."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Cowrie Tiger Snail.",
+      "Sistemas que no pueden sostener matching the animal to sand, film algae, or heavier cleanup work."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'cowrie tiger' look used in the trade name y luego aterrizar la conversación en matching the animal to sand, film algae, or heavier cleanup work.",
+    "photoTitle": "Cypraea tigris",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Cowrie Tiger Snail",
+    "overview_es": "Cowrie Tiger Snail destaca por the 'cowrie tiger' look used in the trade name más que por tamaño bruto. La venta correcta depende de matching the animal to sand, film algae, or heavier cleanup work y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Cowrie Tiger Snail — cleanup caracol matched to a specific algae or substrate job",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "Cowrie Tiger Snail brings the 'cowrie tiger' look used in the trade name on a grazing snail, but the sale still needs an honest talk about matching the animal to sand, film algae, or heavier cleanup work. Plan on at least 20+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'cowrie tiger' look used in the trade name, carried on a grazing snail. That combination is what separates Cowrie Tiger Snail from plainer lookalikes in the same lane.",
+    "behavior": "Cowrie Tiger Snail is more valuable for the work it does over time than for dramatic visible behavior. The right sale depends on whether the snail’s actual niche matches the tank’s algae, detritus, sand, or scavenging needs.",
+    "feedingNotes": "Keep greens and natural grazing in front of Cowrie Tiger Snail; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Cowrie Tiger Snail suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "margarite-green-spiral-snail-tegula-verdispira",
+    "name": "Margarite Green Spiral Snail",
+    "aliases": [
+      "Margarite, Green Spiral",
+      "Margarite Green Spiral",
+      "Verdispira snail"
+    ],
+    "scientific": "Tegula verdispira",
+    "category": "Snails",
+    "type": "Invertebrate",
+    "price": 10,
+    "stockSize": "Small",
+    "maxSize": "1.5 in",
+    "minTank": "10+ gal",
+    "careLabel": "Easy",
+    "diet": "Herbivore",
+    "origin": "Cooler rocky marine zones",
+    "habitat": "Rocky grazing surfaces",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 10,
+    "role": "Margarite Green Spiral Snail — cleanup snail matched to a specific algae or substrate job",
+    "visualCue": "Margarite Green Spiral Snail is easiest to spot by the 'margarite green spiral' look used in the trade name on a grazing snail; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Margarite Green Spiral Snail stands out for the 'margarite green spiral' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support matching the animal to sand, film algae, or heavier cleanup work, because this is not the kind of snail that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'margarite green spiral' look used in the trade name.",
+      "Venta correcta: conversar sobre matching the animal to sand, film algae, or heavier cleanup work.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 10+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Margarite Green Spiral Snail.",
+      "Compradores que entienden matching the animal to sand, film algae, or heavier cleanup work."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Margarite Green Spiral Snail.",
+      "Sistemas que no pueden sostener matching the animal to sand, film algae, or heavier cleanup work."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'margarite green spiral' look used in the trade name y luego aterrizar la conversación en matching the animal to sand, film algae, or heavier cleanup work.",
+    "photoTitle": "Tegula verdispira",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Margarite Green Spiral Snail",
+    "overview_es": "Margarite Green Spiral Snail destaca por the 'margarite green spiral' look used in the trade name más que por tamaño bruto. La venta correcta depende de matching the animal to sand, film algae, or heavier cleanup work y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Margarite Green Spiral Snail — cleanup caracol matched to a specific algae or substrate job",
+    "diet_es": "Herbívoro",
+    "origin_es": "Cooler rocky marine zones",
+    "headerSummary": "Margarite Green Spiral Snail brings the 'margarite green spiral' look used in the trade name on a grazing snail, but the sale still needs an honest talk about matching the animal to sand, film algae, or heavier cleanup work. Plan on at least 10+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'margarite green spiral' look used in the trade name, carried on a grazing snail. That combination is what separates Margarite Green Spiral Snail from plainer lookalikes in the same lane.",
+    "behavior": "Margarite Green Spiral Snail is more valuable for the work it does over time than for dramatic visible behavior. The right sale depends on whether the snail’s actual niche matches the tank’s algae, detritus, sand, or scavenging needs.",
+    "feedingNotes": "Keep greens and natural grazing in front of Margarite Green Spiral Snail; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Margarite Green Spiral Snail suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "red-collar-snail-norrisia-norrisi",
+    "name": "Red Collar Snail",
+    "aliases": [
+      "Red Collar",
+      "Norrisi snail"
+    ],
+    "scientific": "Norrisia norrisi",
+    "category": "Snails",
+    "type": "Invertebrate",
+    "price": 10,
+    "stockSize": "Small",
+    "maxSize": "2 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Herbivore",
+    "origin": "Eastern Pacific",
+    "habitat": "Rocky graze-heavy marine systems",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 18,
+    "role": "Red Collar Snail — cleanup snail matched to a specific algae or substrate job",
+    "visualCue": "Red Collar Snail is easiest to spot by the 'red collar' look used in the trade name on a grazing snail; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Red Collar Snail stands out for the 'red collar' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support matching the animal to sand, film algae, or heavier cleanup work, because this is not the kind of snail that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'red collar' look used in the trade name.",
+      "Venta correcta: conversar sobre matching the animal to sand, film algae, or heavier cleanup work.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 20+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Red Collar Snail.",
+      "Compradores que entienden matching the animal to sand, film algae, or heavier cleanup work."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Red Collar Snail.",
+      "Sistemas que no pueden sostener matching the animal to sand, film algae, or heavier cleanup work."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'red collar' look used in the trade name y luego aterrizar la conversación en matching the animal to sand, film algae, or heavier cleanup work.",
+    "photoTitle": "Norrisia norrisi",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Red Collar Snail",
+    "overview_es": "Red Collar Snail destaca por the 'red collar' look used in the trade name más que por tamaño bruto. La venta correcta depende de matching the animal to sand, film algae, or heavier cleanup work y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Red Collar Snail — cleanup caracol matched to a specific algae or substrate job",
+    "diet_es": "Herbívoro",
+    "origin_es": "Pacífico oriental",
+    "headerSummary": "Red Collar Snail brings the 'red collar' look used in the trade name on a grazing snail, but the sale still needs an honest talk about matching the animal to sand, film algae, or heavier cleanup work. Plan on at least 20+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'red collar' look used in the trade name, carried on a grazing snail. That combination is what separates Red Collar Snail from plainer lookalikes in the same lane.",
+    "behavior": "Red Collar Snail is more valuable for the work it does over time than for dramatic visible behavior. The right sale depends on whether the snail’s actual niche matches the tank’s algae, detritus, sand, or scavenging needs.",
+    "feedingNotes": "Keep greens and natural grazing in front of Red Collar Snail; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Red Collar Snail suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "tulip-snail-fasciolaria-tulipa",
+    "name": "Tulip Snail",
+    "aliases": [
+      "Tulip",
+      "Tulipa snail"
+    ],
+    "scientific": "Fasciolaria tulipa",
+    "category": "Snails",
+    "type": "Invertebrate",
+    "price": 15,
+    "stockSize": "Small",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore / scavenger",
+    "origin": "Western Atlantic",
+    "habitat": "Sand and rubble zones",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 10,
+    "invertRisk": 10,
+    "careDifficulty": 24,
+    "role": "Tulip Snail — cleanup snail matched to a specific algae or substrate job",
+    "visualCue": "Tulip Snail is easiest to spot by the 'tulip' look used in the trade name on a grazing snail; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Tulip Snail stands out for the 'tulip' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support matching the animal to sand, film algae, or heavier cleanup work, because this is not the kind of snail that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'tulip' look used in the trade name.",
+      "Venta correcta: conversar sobre matching the animal to sand, film algae, or heavier cleanup work.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Tulip Snail.",
+      "Compradores que entienden matching the animal to sand, film algae, or heavier cleanup work."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Tulip Snail.",
+      "Sistemas que no pueden sostener matching the animal to sand, film algae, or heavier cleanup work."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'tulip' look used in the trade name y luego aterrizar la conversación en matching the animal to sand, film algae, or heavier cleanup work.",
+    "photoTitle": "Fasciolaria tulipa",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Tulip Snail",
+    "overview_es": "Tulip Snail destaca por the 'tulip' look used in the trade name más que por tamaño bruto. La venta correcta depende de matching the animal to sand, film algae, or heavier cleanup work y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Tulip Snail — cleanup caracol matched to a specific algae or substrate job",
+    "diet_es": "Carnívoro",
+    "origin_es": "Atlántico occidental",
+    "headerSummary": "Tulip Snail brings the 'tulip' look used in the trade name on a grazing snail, but the sale still needs an honest talk about matching the animal to sand, film algae, or heavier cleanup work. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'tulip' look used in the trade name, carried on a grazing snail. That combination is what separates Tulip Snail from plainer lookalikes in the same lane.",
+    "behavior": "Tulip Snail is more valuable for the work it does over time than for dramatic visible behavior. The right sale depends on whether the snail’s actual niche matches the tank’s algae, detritus, sand, or scavenging needs.",
+    "feedingNotes": "The real feeding lane for Tulip Snail is the tank itself, so match the animal to a system that already has the right film, detritus, algae, or benthic food base.",
+    "buyingGuidance": "Tulip Snail suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
   }
 ];

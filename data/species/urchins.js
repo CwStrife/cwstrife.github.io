@@ -1,3 +1,4 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Urchins"] = [
   {
     "id": "tuxedo-urchin",
@@ -44,11 +45,11 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Erizo Esmoquin",
@@ -470,24 +471,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
       "Poor fit for bare-bottom tanks or very shallow decorative sand patches."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -543,24 +532,12 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
       "Shorter spines make it more manageable than the huge long-spine urchin types."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Easy",
@@ -580,5 +557,266 @@ window.LTC_SPECIES_CHUNKS["Urchins"] = [
     "feedingNotes": "Needs real algal films or supplemental vegetable foods once the display gets too clean. Like many cleanup animals, it does best when there is ongoing work instead of one giant binge followed by starvation.",
     "buyingGuidance": "A strong recommendation for reef keepers who want a manageable urchin with genuine grazing value. Just mention the camouflage habit and the chance it relocates tiny frags or shell decorations.",
     "recognitionNotes": "Round compact urchin with short neat spines and a tendency to carry bits of rubble or shell on top."
+  },
+  {
+    "id": "jewel-urchin",
+    "name": "Jewel Urchin",
+    "name_es": "Erizo Joya",
+    "aliases": [
+      "Green Jewel Urchin",
+      "Rock Boring Urchin"
+    ],
+    "scientific": "Lytechinus williamsi",
+    "category": "Urchins",
+    "type": "Invertebrate",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Herbivore",
+    "diet_es": "Herbívoro",
+    "origin": "Caribbean / Tropical Western Atlantic",
+    "origin_es": "Caribe / Atlántico Occidental Tropical",
+    "habitat": "Algae-covered rockwork and reef rubble",
+    "tankCode": "",
+    "aggression": 2,
+    "coralRisk": 4,
+    "invertRisk": 2,
+    "careDifficulty": 14,
+    "role": "Compact peaceful algae grazer for reef cleanup crews",
+    "role_es": "Erizo compacto y pacífico para control de algas",
+    "visualCue": "Small tidy urchin with jewel-like symmetry and a neat compact spine profile.",
+    "overview": "A very nice utility addition because it fills the 'small peaceful grazer' lane cleanly. It offers real algae value without the visual bulk or hazard of the large long-spine types, which makes it easier to recommend to mixed reef keepers.",
+    "overview_es": "Una excelente utilidad para el arrecife: pequeño, pacífico y efectivo contra algas sin el tamaño ni el riesgo de los erizos grandes de espinas largas.",
+    "facts": [
+      "Biota describes it as compact, peaceful, and useful on both tougher algae on rockwork and film algae on glass.",
+      "Its smaller size makes it easier to place in mixed reefs than oversized urchin species.",
+      "It still needs real grazing opportunity or supplemental feeding once the tank becomes too clean."
+    ],
+    "bestWith": [
+      "Mixed reefs with algae to graze",
+      "Customers wanting a smaller urchin option",
+      "Cleanup-crew upgrades beyond snails alone"
+    ],
+    "cautionWith": [
+      "Loose frags that any urchin may nudge around",
+      "Ultra-clean systems with no ongoing algae growth",
+      "Assuming one urchin replaces all other cleanup animals"
+    ],
+    "staffNote": "Easy good-looking utility add. Great when someone wants an urchin but not a giant spiky bruiser.",
+    "photoTitle": "Lytechinus williamsi",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "headerSummary": "Compact peaceful urchin with real algae-cleanup value on rock and glass. A very good mixed-reef urchin when the tank has enough grazing to support it.",
+    "seasonal": null,
+    "behavior": "Moves methodically over rock and glass while grazing, without the oversized bulldozer feel of larger urchins. It is still an urchin and can nudge unsecured items, but the compact scale makes it a friendlier recommendation for many display reefs.",
+    "feedingNotes": "Works best when there is active algae film and natural grazing available. If the tank is already polished clean, the aquarist should be prepared to supplement with appropriate algae foods rather than assuming the animal can live on reputation alone.",
+    "buyingGuidance": "A strong recommendation for customers who want to step up from snails into a more visible cleanup grazer. Keep the sale grounded: useful, peaceful, compact, but still dependent on ongoing food and a secured aquascape.",
+    "recognitionNotes": "Look for a small neat urchin with compact symmetry and a refined 'jewel-like' appearance rather than long hazardous spines."
+  },
+  {
+    "id": "variegated-urchin",
+    "name": "Variegated Urchin",
+    "aliases": [
+      "Variegated Collector Urchin"
+    ],
+    "scientific": "Lytechinus variegatus",
+    "category": "Urchins",
+    "type": "Invertebrate",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "careLabel": "Moderate",
+    "diet": "Herbivore / grazer",
+    "diet_es": "Herbívoro / pastador",
+    "origin": "Western Atlantic",
+    "origin_es": "Atlántico Occidental",
+    "habitat": "Seagrass beds, sandy hardbottom, and algae-coated reef surfaces",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 6,
+    "invertRisk": 2,
+    "careDifficulty": 26,
+    "role": "Atlantic grazing urchin that adds utility without just repeating tuxedo or long-spine forms",
+    "role_es": "Erizo atlántico pastador con buena utilidad",
+    "visualCue": "Rounded urchin with short-to-medium spines and pale mottled coloration that can vary from cream to greenish or purple tones.",
+    "overview": "A good urchin addition because it broadens the cleanup crew beyond the same tuxedo/long-spine conversation. It is still a grazer first and an ornament second, so the real recommendation is for customers who need algae support and understand that urchins move decor.",
+    "overview_es": "Buena adición para ampliar la sección de erizos más allá del tuxedo o long-spine típicos.",
+    "facts": [
+      "Biota lists Variegated Urchin among cultured invertebrate offerings.",
+      "Like other urchins, it can carry shells, frags, and loose rubble across the tank.",
+      "The practical value is algae grazing, not delicate reef-sculpture precision."
+    ],
+    "bestWith": [
+      "Rocky reefs with algae films",
+      "Customers who understand urchin behavior",
+      "Systems where loose items are secured"
+    ],
+    "cautionWith": [
+      "Unsecured frags",
+      "Very small decorative nano layouts",
+      "Customers wanting a zero-disturbance cleanup crew"
+    ],
+    "staffNote": "Good utility urchin. Make sure customers know it may move objects while grazing.",
+    "photoTitle": "Lytechinus variegatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Erizo Variegado",
+    "headerSummary": "Practical algae-grazing urchin that broadens the cleanup-crew lane beyond tuxedos and long-spines.",
+    "seasonal": null,
+    "behavior": "Grazes steadily over rock and hard surfaces, often carrying bits of shell or rubble for cover. It is more of a methodical grazer than a visually dramatic centerpiece.",
+    "feedingNotes": "Should have natural algae to work on, but may also need supplemental dried algae or herbivore foods in cleaner systems. Like other urchins, it does best when not left to starve after it finishes the obvious nuisance growth.",
+    "buyingGuidance": "Recommend when the customer wants a real grazing tool and has already secured frags and loose decor. The sale should emphasize utility, object-moving behavior, and the need to support herbivores even after the tank looks cleaner.",
+    "recognitionNotes": "Look for a rounded urchin with mottled pale tones and shorter-to-medium spines rather than the dramatic needle look of long-spines."
+  },
+  {
+    "id": "purple-pink-hairy-urchin-pseudoboletia-maculata",
+    "name": "Purple / Pink Hairy Urchin",
+    "aliases": [
+      "Hairy, Purple/Pink",
+      "Hairy Purple/Pink",
+      "Maculata urchin"
+    ],
+    "scientific": "Pseudoboletia maculata",
+    "category": "Urchins",
+    "type": "Invertebrate",
+    "price": 45,
+    "stockSize": "Medium",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Rock and algae zones",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 4,
+    "invertRisk": 0,
+    "careDifficulty": 24,
+    "role": "Purple / Pink Hairy Urchin — grazing urchin sold around rockwork movement and algae work",
+    "visualCue": "Purple / Pink Hairy Urchin is easiest to spot by hair-like spine texture on a spiny urchin; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Purple / Pink Hairy Urchin stands out for hair-like spine texture more than for brute size alone. It works best when the buyer's system can honestly support grazing utility and bulldozing risk, because this is not the kind of urchin that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: hair-like spine texture.",
+      "Venta correcta: conversar sobre grazing utility and bulldozing risk.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Purple / Pink Hairy Urchin.",
+      "Compradores que entienden grazing utility and bulldozing risk."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Purple / Pink Hairy Urchin.",
+      "Sistemas que no pueden sostener grazing utility and bulldozing risk."
+    ],
+    "staffNote": "Punto de venta: resaltar hair-like spine texture y luego aterrizar la conversación en grazing utility and bulldozing risk.",
+    "photoTitle": "Pseudoboletia maculata",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Purple / Pink Hairy Urchin",
+    "overview_es": "Purple / Pink Hairy Urchin destaca por hair-like spine texture más que por tamaño bruto. La venta correcta depende de grazing utility and bulldozing risk y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Purple / Pink Hairy Urchin — grazing erizo sold around rockwork movement and algae work",
+    "diet_es": "Herbívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Purple / Pink Hairy Urchin brings hair-like spine texture on a spiny urchin, but the sale still needs an honest talk about grazing utility and bulldozing risk. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: hair-like spine texture, carried on a spiny urchin. That combination is what separates Purple / Pink Hairy Urchin from plainer lookalikes in the same lane.",
+    "behavior": "Purple / Pink Hairy Urchin turns rockwork and hard surfaces into a route map, grazing steadily and moving more firmly than many aquarists expect. Urchins are useful, but they are not delicate decorative ornaments once they start carrying rubble or bulldozing loose frags.",
+    "feedingNotes": "Keep greens and natural grazing in front of Purple / Pink Hairy Urchin; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Purple / Pink Hairy Urchin suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "red-pincushion-urchin-salmacis-bicolor",
+    "name": "Red Pincushion Urchin",
+    "aliases": [
+      "Pincushion, Red",
+      "Pincushion Red",
+      "Bicolor urchin"
+    ],
+    "scientific": "Salmacis bicolor",
+    "category": "Urchins",
+    "type": "Invertebrate",
+    "price": 45,
+    "stockSize": "Medium",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Rock and algae zones",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 4,
+    "invertRisk": 0,
+    "careDifficulty": 24,
+    "role": "Red Pincushion Urchin — grazing urchin sold around rockwork movement and algae work",
+    "visualCue": "Red Pincushion Urchin is easiest to spot by tight pincushion-like spine spacing on a spiny urchin; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Red Pincushion Urchin stands out for tight pincushion-like spine spacing more than for brute size alone. It works best when the buyer's system can honestly support grazing utility and bulldozing risk, because this is not the kind of urchin that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: tight pincushion-like spine spacing.",
+      "Venta correcta: conversar sobre grazing utility and bulldozing risk.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Red Pincushion Urchin.",
+      "Compradores que entienden grazing utility and bulldozing risk."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Red Pincushion Urchin.",
+      "Sistemas que no pueden sostener grazing utility and bulldozing risk."
+    ],
+    "staffNote": "Punto de venta: resaltar tight pincushion-like spine spacing y luego aterrizar la conversación en grazing utility and bulldozing risk.",
+    "photoTitle": "Salmacis bicolor",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Red Pincushion Urchin",
+    "overview_es": "Red Pincushion Urchin destaca por tight pincushion-like spine spacing más que por tamaño bruto. La venta correcta depende de grazing utility and bulldozing risk y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Red Pincushion Urchin — grazing erizo sold around rockwork movement and algae work",
+    "diet_es": "Herbívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Red Pincushion Urchin brings tight pincushion-like spine spacing on a spiny urchin, but the sale still needs an honest talk about grazing utility and bulldozing risk. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: tight pincushion-like spine spacing, carried on a spiny urchin. That combination is what separates Red Pincushion Urchin from plainer lookalikes in the same lane.",
+    "behavior": "Red Pincushion Urchin turns rockwork and hard surfaces into a route map, grazing steadily and moving more firmly than many aquarists expect. Urchins are useful, but they are not delicate decorative ornaments once they start carrying rubble or bulldozing loose frags.",
+    "feedingNotes": "Keep greens and natural grazing in front of Red Pincushion Urchin; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Red Pincushion Urchin suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
   }
 ];

@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-title" content="LTC Fish Browser">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#0a0c12">
-<title>Low Tide Corals &amp; Aquatics — Fish Browser V0.090</title>
+<title>Low Tide Corals &amp; Aquatics — Fish Browser V0.108</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -59,7 +59,7 @@
     </div>
     <div class="topbar-actions">
       <div class="header-pill"><span class="dot"></span><span id="headerPillText">Touch-friendly kiosk mockup</span></div>
-      <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">🌙</button>
+      <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" hidden>🌙</button>
       <button class="theme-toggle" onclick="toggleMute()" title="Toggle sound" id="muteBtn">🔊</button>
       <button class="theme-toggle" onclick="toggleLang()" title="Language" id="langBtn">EN/ES</button>
       <button class="theme-toggle" onclick="window.print()" title="Print inventory">🖨</button>
@@ -139,6 +139,41 @@
   </section>
 </main>
 
+<!-- v0.174 → v0.175 — Kelp forest ambient strip pinned at the bottom
+     of the viewport. Now denser (21 strands instead of 10) with
+     bubbles rising through and a fish drifting across, per Chris's
+     "looks like bamboo, needs bubbles and a fish" feedback. -->
+<div class="ltc-kelp-forest" aria-hidden="true">
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-strand"></span>
+  <span class="ltc-kelp-bubble"></span>
+  <span class="ltc-kelp-bubble"></span>
+  <span class="ltc-kelp-bubble"></span>
+  <span class="ltc-kelp-bubble"></span>
+  <span class="ltc-kelp-bubble"></span>
+  <span class="ltc-kelp-bubble"></span>
+  <span class="ltc-kelp-fish"></span>
+</div>
+
 <div class="overlay" id="fishOverlay" aria-hidden="true">
   <div class="fish-modal" role="dialog" aria-modal="true" aria-label="Fish detail profile">
     <video class="detail-bg-video" id="detailBgVideo" autoplay muted loop playsinline preload="metadata"><source src="detail-bg.mp4" type="video/mp4"></video>
@@ -203,36 +238,179 @@
         <h2 id="inventoryPanelTitle" style="margin:0;font-size:22px">Inventory Manager</h2>
         <div class="inventory-subtitle">Quick staff edits for price, tank, stock #, size, quantity, holds, stock details, notes, photos, per-fish rollback actions, and stock status. Holds remain staff-only local flags in this build.</div>
       </div>
-      <button onclick="closeInventoryManager()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+      <button id="inventoryTopbarBackBtn" onclick="inventoryTopbarBack()" class="inventory-topbar-back">
+        <svg class="ipb-icon ipb-icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        <svg class="ipb-icon ipb-icon-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+        <span class="ipb-label">Close</span>
+      </button>
     </div>
-    <div class="inventory-toolbar">
-      <label class="inventory-control inventory-control-search"><span>Search</span><input id="inventorySearch" class="inventory-search" type="search" placeholder="Search fish, category, tank…" oninput="renderInventoryManager()"></label>
-      <label class="inventory-control"><span>Status</span><select id="inventoryStatusFilter" class="inventory-filter" onchange="renderInventoryManager()">
-        <option value="all">All statuses</option>
-        <option value="instock">In stock</option>
-        <option value="out">Out of stock</option>
-        <option value="quarantine">Quarantine</option>
-        <option value="reserved">Held / reserved</option>
-        <option value="missingspecies">Missing species data</option>
-        <option value="missingstore">Missing store data</option>
-        <option value="recent">Recent changes</option>
-      </select></label>
-      <label class="inventory-control"><span>Category</span><select id="inventoryCategoryFilter" class="inventory-filter" onchange="renderInventoryManager()">
-        <option value="all">All categories</option>
-      </select></label>
-      <span class="inventory-toolbar-note">Rollback is handled per fish with Undo Sold / Undo Loss / Undo Quarantine / Undo Hold.</span><button class="food-toolbar-btn" type="button" onclick="openInventoryHistoryOverlay()">Recent Changes</button><button class="food-toolbar-btn" type="button" onclick="exportStaffEdits()">Export Staff Data</button>
-      <button class="food-toolbar-btn" type="button" onclick="document.getElementById('staffImportFile').click()">Import Staff Data</button>
-      <button class="food-toolbar-btn" type="button" onclick="openFoodSettings()">Food Settings</button>
-      <button class="food-toolbar-btn danger" type="button" onclick="resetStaffEdits()">Reset Staff Data</button>
-      <input id="staffImportFile" type="file" accept="application/json,.json" style="display:none">
+    <div class="inventory-toolbar-shell">
+      <div class="inventory-toolbar">
+        <label class="inventory-control inventory-control-search"><span>Search</span><div class="inventory-search-wrap"><input id="inventorySearch" class="inventory-search" type="search" placeholder="Search fish, category, tank…" oninput="debouncedInventoryRender();syncInventorySearchState()"><button type="button" class="inventory-search-clear" id="inventorySearchClear" aria-label="Clear search" tabindex="-1" onclick="clearInventorySearch()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div></label>
+        <label class="inventory-control"><span>Status</span><select id="inventoryStatusFilter" class="inventory-filter" onchange="renderInventoryManager()">
+          <option value="all">All statuses</option>
+          <option value="instock">In stock</option>
+          <option value="out">Out of stock</option>
+          <option value="quarantine">Quarantine</option>
+          <option value="reserved">Held / reserved</option>
+          <option value="missingspecies">Missing species data</option>
+          <option value="missingstore">Missing store data</option>
+          <option value="recent">Recent changes</option>
+        </select></label>
+        <label class="inventory-control"><span>Category</span><select id="inventoryCategoryFilter" class="inventory-filter" onchange="renderInventoryManager()">
+          <option value="all">All categories</option>
+        </select></label>
+        <div class="inventory-toolbar-actions">
+          <button id="inventoryBackBtn" class="food-toolbar-btn inventory-back-btn" type="button" onclick="resetInventoryFilters('overview')" hidden>← Back to overview</button>
+          <button class="food-toolbar-btn inventory-add-toolbar" type="button" onclick="staffBulkReceiveFish()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;flex-shrink:0"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            Receive new fish
+          </button>
+          <input id="staffImportFile" type="file" accept="application/json,.json" style="display:none">
+        </div>
+      </div>
     </div>
     <div class="inventory-quickbar" id="inventoryQuickFilters"></div>
     <div id="inventoryContent"></div>
   </div>
 </div>
 
+<!-- v0.150 — RECEIVE FLOW OVERLAY (Add Fish/Invert rebuild)
+     Two-step custom modal: Step 1 = fish picker grid, Step 2 = themed
+     form with essentials + collapsible "more details". Replaces the old
+     showInputModal-based wall-of-fields layout. -->
+<div class="receive-flow-overlay" id="receiveFlowOverlay" aria-hidden="true">
+  <div class="receive-flow-panel">
+    <div class="rf-header">
+      <button type="button" class="rf-back-btn" id="rfBackBtn" onclick="receiveFlow.goToStep1()" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+        <span>Back to picker</span>
+      </button>
+      <div class="rf-title">
+        <span class="rf-title-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+        </span>
+        <div class="rf-title-text">
+          <strong>Add fish to inventory</strong>
+          <span id="rfStepLabel">Step 1 of 2 · Pick a fish</span>
+        </div>
+      </div>
+      <button type="button" class="rf-close-btn" onclick="receiveFlow.close()" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div class="rf-stepbar">
+      <div class="rf-step rf-step-1 is-active"><span class="rf-step-num">1</span><span class="rf-step-name">Pick fish</span></div>
+      <div class="rf-step-line"></div>
+      <div class="rf-step rf-step-2"><span class="rf-step-num">2</span><span class="rf-step-name">Add details</span></div>
+    </div>
+
+    <!-- STEP 1: Fish Picker -->
+    <div class="rf-step1-body" id="rfStep1Body">
+      <div class="rf-search-bar">
+        <span class="rf-search-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </span>
+        <input type="search" id="rfSearchInput" class="rf-search-input" placeholder="Search by name, alias, or scientific name..." autocomplete="off">
+        <button type="button" class="rf-search-clear" id="rfSearchClear" onclick="receiveFlow.clearSearch()" hidden>×</button>
+      </div>
+      <!-- v0.151 — small subtle "add custom entry" link. Moved out of the
+           prominent bottom slot so people stop accidentally tapping it
+           when they just wanted to receive a normal catalog fish. With
+           ~700 fish in the catalog, the custom entry path is rare. -->
+      <div class="rf-add-custom-row">
+        <span class="rf-add-custom-hint">Almost everything is in the catalog. Can't find it?</span>
+        <button type="button" class="rf-add-custom-link" onclick="receiveFlow.openAddAnyway()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          <span>Add a custom entry</span>
+        </button>
+      </div>
+      <div class="rf-cat-chips" id="rfCatChips"></div>
+      <div class="rf-results-grid" id="rfResultsGrid"></div>
+    </div>
+
+    <!-- STEP 2: Form -->
+    <div class="rf-step2-body" id="rfStep2Body" hidden>
+      <div class="rf-selected-card" id="rfSelectedCard"></div>
+
+      <div class="rf-essentials">
+        <div class="rf-field rf-field-qty">
+          <label>
+            <svg class="rf-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+            <span>Quantity received</span>
+          </label>
+          <input type="number" id="rfQty" min="1" value="1">
+        </div>
+
+        <div class="rf-field rf-field-price">
+          <label>
+            <svg class="rf-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <span>Display price</span>
+          </label>
+          <div class="rf-price-input-wrap">
+            <span class="rf-price-prefix">$</span>
+            <input type="text" id="rfPrice" inputmode="decimal" placeholder="29.99">
+          </div>
+        </div>
+
+        <div class="rf-field rf-field-size rf-field-wide">
+          <label>
+            <svg class="rf-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="20" height="6" rx="1"/><path d="M6 9v3M10 9v3M14 9v3M18 9v3"/></svg>
+            <span>Size / grade</span>
+          </label>
+          <div class="rf-size-pills" id="rfSizePills"></div>
+        </div>
+      </div>
+
+      <button type="button" class="rf-more-toggle" id="rfMoreToggle" hidden>
+        <span class="rf-more-toggle-text">Tank, vendor, stock #, arrival date</span>
+      </button>
+      <div class="rf-more-fields" id="rfMoreFields">
+        <div class="rf-field rf-field-tank rf-field-wide">
+          <label>
+            <svg class="rf-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 11h18"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
+            <span>Tank assignment</span>
+          </label>
+          <div class="rf-tank-pills" id="rfTankPills"></div>
+        </div>
+        <div class="rf-field rf-field-stocknum">
+          <label>
+            <svg class="rf-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/><line x1="10" y1="3" x2="8" y2="21"/><line x1="16" y1="3" x2="14" y2="21"/></svg>
+            <span>Stock #</span>
+          </label>
+          <input type="text" id="rfStockNum" placeholder="Optional">
+        </div>
+        <div class="rf-field rf-field-arrival">
+          <label>
+            <svg class="rf-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span>Arrival date</span>
+          </label>
+          <input type="date" id="rfArrival">
+        </div>
+        <div class="rf-field rf-field-vendor rf-field-wide">
+          <label>
+            <svg class="rf-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <span>Vendor / source</span>
+          </label>
+          <input type="text" id="rfVendor" placeholder="ORA, Biota, local breeder, wholesaler...">
+        </div>
+      </div>
+
+      <div class="rf-actions">
+        <button type="button" class="rf-cancel-btn" onclick="receiveFlow.close()">Cancel</button>
+        <button type="button" class="rf-submit-btn" id="rfSubmitBtn" onclick="receiveFlow.submit()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>Add to stock</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <!-- INVENTORY HISTORY OVERLAY -->
-<div class="analytics-overlay" id="inventoryHistoryOverlay" onclick="if(event.target.id==='inventoryHistoryOverlay') closeInventoryHistoryOverlay()">
+<div class="analytics-overlay" id="inventoryHistoryOverlay">
   <div class="analytics-panel inventory-history-overlay-panel">
     <div class="inventory-topbar">
       <div>
@@ -255,6 +433,21 @@
     <div class="food-settings-toolbar" id="foodsSettingsToolbar"></div>
     <input id="foodsSettingsImportFile" type="file" accept="application/json,.json" style="display:none">
     <div id="foodsSettingsContent"></div>
+  </div>
+</div>
+
+<!-- TANK MOVER OVERLAY (V0.127 — rough version, tap-to-move) -->
+<div class="analytics-overlay tank-mover-overlay" id="tankMoverOverlay">
+  <div class="analytics-panel tank-mover-panel">
+    <div class="tank-mover-topbar">
+      <div>
+        <h2 style="margin:0;font-size:22px">Tank Mover</h2>
+        <div class="tank-mover-subtitle">Tap a fish to pick it up, then tap a tank column to drop it. Adding fish to new tanks is just as easy — make a tank first.</div>
+      </div>
+      <button onclick="closeTankMover()" style="padding:8px 16px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:14px;font-weight:700;cursor:pointer">Close</button>
+    </div>
+    <div class="tank-mover-statusbar" id="tankMoverStatusBar"></div>
+    <div id="tankMoverContent"></div>
   </div>
 </div>
 
@@ -290,7 +483,6 @@
 <script src="data/species/anthias.js"></script>
 <script src="data/species/butterflyfish.js"></script>
 <script src="data/species/starfish.js"></script>
-<script src="data/species/anemones.js"></script>
 <script src="data/species/clams.js"></script>
 <script src="data/species/lionfish.js"></script>
 <script src="data/species/triggerfish.js"></script>
@@ -299,7 +491,10 @@
 <script src="data/foods/catalog.js"></script>
 <script src="data/foods/store-settings.js"></script>
 <script src="data/foods/profile-rules.js"></script>
+<script src="data/foods/image-overrides.js"></script>
+<script src="data/staff-config.js"></script>
 <script src="js/app.js"></script>
 <script src="js/features.js"></script>
+<script src="js/gaugeFishMarker.js"></script>
 </body>
 </html>

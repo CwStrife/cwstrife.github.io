@@ -1,3 +1,4 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Puffers"] = [
   {
     "id": "valentini-puffer",
@@ -192,7 +193,9 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "id": "dogface-puffer",
     "name": "Dogface Puffer",
     "name_es": "Dogface Puffer",
-    "aliases": [],
+    "aliases": [
+      "Dogface Porcupinefish"
+    ],
     "scientific": "Arothron nigropunctatus",
     "category": "Puffers",
     "type": "Saltwater Fish",
@@ -316,7 +319,10 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "id": "porcupine-puffer",
     "name": "Porcupine Puffer",
     "name_es": "Porcupine Puffer",
-    "aliases": [],
+    "aliases": [
+      "Porcupinefish",
+      "Balloonfish"
+    ],
     "scientific": "Diodon holocanthus",
     "category": "Puffers",
     "type": "Saltwater Fish",
@@ -621,5 +627,201 @@ window.LTC_SPECIES_CHUNKS["Puffers"] = [
     "feedingNotes": "Use a varied omnivore routine with marine meaty foods and naturalistic variety while making sure the fish is not bullied away from food. Boxfish do best when the whole system is built to keep stress low.",
     "recognitionNotes": "The juvenile stage is the familiar bright yellow spotted cube, while adults darken and lose much of the toy-like look customers expect.",
     "buyingGuidance": "Best for keepers who understand oddball fish and want a peaceful specialty display, not a rough predator tank. The sale should focus on the adult animal and its stress sensitivity, not just the adorable juvenile color."
+  },
+  {
+    "id": "caribbean-sharpnose-puffer-canthigaster-rostrata",
+    "name": "Caribbean Sharpnose Puffer",
+    "aliases": [
+      "Caribbean Sharpnose",
+      "Rostrata puffer"
+    ],
+    "scientific": "Canthigaster rostrata",
+    "category": "Puffers",
+    "type": "Saltwater Fish",
+    "price": 70,
+    "stockSize": "Medium",
+    "maxSize": "5 in",
+    "minTank": "30+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Shallow reef faces and rubble",
+    "tankCode": "",
+    "aggression": 24,
+    "coralRisk": 70,
+    "invertRisk": 80,
+    "careDifficulty": 34,
+    "role": "Caribbean Sharpnose Puffer — beak-faced personality fish sold around nipping and prey reality",
+    "visualCue": "Caribbean Sharpnose Puffer is easiest to spot by beak-faced puffer profile on a thick-bodied puffer; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Caribbean Sharpnose Puffer stands out for beak-faced puffer profile more than for brute size alone. It works best when the buyer's system can honestly support beak feeding, inverts, and the reality of nipping damage, because this is not the kind of puffer that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: beak-faced puffer profile.",
+      "Venta correcta: conversar sobre beak feeding, inverts, and the reality of nipping damage.",
+      "Riesgo clave: real coral risk, real invert risk."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Caribbean Sharpnose Puffer.",
+      "Compradores que entienden beak feeding, inverts, and the reality of nipping damage."
+    ],
+    "cautionWith": [
+      "The buyer expects zero nipping or wants to keep delicate inverts untouched.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Caribbean Sharpnose Puffer.",
+      "Sistemas que no pueden sostener beak feeding, inverts, and the reality of nipping damage."
+    ],
+    "staffNote": "Punto de venta: resaltar beak-faced puffer profile y luego aterrizar la conversación en beak feeding, inverts, and the reality of nipping damage.",
+    "photoTitle": "Canthigaster rostrata",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Caribbean Sharpnose Puffer",
+    "overview_es": "Caribbean Sharpnose Puffer destaca por beak-faced puffer profile más que por tamaño bruto. La venta correcta depende de beak feeding, inverts, and the reality of nipping damage y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Caribbean Sharpnose Puffer — beak-faced personality fish sold around nipping and prey reality",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Caribbean Sharpnose Puffer brings beak-faced puffer profile on a thick-bodied puffer, but the sale still needs an honest talk about beak feeding, inverts, and the reality of nipping damage. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: beak-faced puffer profile, carried on a thick-bodied puffer. That combination is what separates Caribbean Sharpnose Puffer from plainer lookalikes in the same lane.",
+    "behavior": "Caribbean Sharpnose Puffer is alert, investigative, and often interactive with the front glass, which is exactly why puffers sell themselves so quickly. That same curiosity also translates into testing snails, crabs, equipment, and any tankmate small enough to be reconsidered as prey or competition.",
+    "feedingNotes": "Treat Caribbean Sharpnose Puffer as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Caribbean Sharpnose Puffer suits a buyer whose tank plan already matches the species. Pass when the buyer expects zero nipping or wants to keep delicate inverts untouched."
+  },
+  {
+    "id": "map-puffer-arothron-mappa",
+    "name": "Map Puffer",
+    "aliases": [
+      "Mappa, Scribbled",
+      "Mappa Scribbled",
+      "Mappa puffer"
+    ],
+    "scientific": "Arothron mappa",
+    "category": "Puffers",
+    "type": "Saltwater Fish",
+    "price": 150,
+    "stockSize": "Medium",
+    "maxSize": "20 in",
+    "minTank": "180+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Lagoons and reef slopes",
+    "tankCode": "",
+    "aggression": 32,
+    "coralRisk": 80,
+    "invertRisk": 90,
+    "careDifficulty": 52,
+    "role": "Map Puffer — beak-faced personality fish sold around nipping and prey reality",
+    "visualCue": "Map Puffer is easiest to spot by beak-faced puffer profile on a thick-bodied puffer; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Map Puffer stands out for beak-faced puffer profile more than for brute size alone. It works best when the buyer's system can honestly support beak feeding, inverts, and the reality of nipping damage, because this is not the kind of puffer that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: beak-faced puffer profile.",
+      "Venta correcta: conversar sobre beak feeding, inverts, and the reality of nipping damage.",
+      "Riesgo clave: real coral risk, real invert risk, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Map Puffer.",
+      "Compradores que entienden beak feeding, inverts, and the reality of nipping damage."
+    ],
+    "cautionWith": [
+      "The buyer expects zero nipping or wants to keep delicate inverts untouched.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Map Puffer.",
+      "Sistemas que no pueden sostener beak feeding, inverts, and the reality of nipping damage."
+    ],
+    "staffNote": "Punto de venta: resaltar beak-faced puffer profile y luego aterrizar la conversación en beak feeding, inverts, and the reality of nipping damage.",
+    "photoTitle": "Arothron mappa",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Map Puffer",
+    "overview_es": "Map Puffer destaca por beak-faced puffer profile más que por tamaño bruto. La venta correcta depende de beak feeding, inverts, and the reality of nipping damage y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Map Puffer — beak-faced personality fish sold around nipping and prey reality",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Map Puffer brings beak-faced puffer profile on a thick-bodied puffer, but the sale still needs an honest talk about beak feeding, inverts, and the reality of nipping damage. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: beak-faced puffer profile, carried on a thick-bodied puffer. That combination is what separates Map Puffer from plainer lookalikes in the same lane.",
+    "behavior": "Map Puffer is alert, investigative, and often interactive with the front glass, which is exactly why puffers sell themselves so quickly. That same curiosity also translates into testing snails, crabs, equipment, and any tankmate small enough to be reconsidered as prey or competition.",
+    "feedingNotes": "Treat Map Puffer as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Map Puffer suits a buyer whose tank plan already matches the species. Pass when the buyer expects zero nipping or wants to keep delicate inverts untouched."
+  },
+  {
+    "id": "spotted-sharpnose-puffer-canthigaster-punctatissima",
+    "name": "Spotted Sharpnose Puffer",
+    "aliases": [
+      "Spotted Sharpnose",
+      "Punctatissima puffer"
+    ],
+    "scientific": "Canthigaster punctatissima",
+    "category": "Puffers",
+    "type": "Saltwater Fish",
+    "price": 80,
+    "stockSize": "Medium",
+    "maxSize": "5 in",
+    "minTank": "30+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Shallow reef faces and rubble",
+    "tankCode": "",
+    "aggression": 24,
+    "coralRisk": 70,
+    "invertRisk": 80,
+    "careDifficulty": 34,
+    "role": "Spotted Sharpnose Puffer — beak-faced personality fish sold around nipping and prey reality",
+    "visualCue": "Spotted Sharpnose Puffer is easiest to spot by spotted patterning and beak-faced puffer profile on a thick-bodied puffer; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Spotted Sharpnose Puffer stands out for spotted patterning and beak-faced puffer profile more than for brute size alone. It works best when the buyer's system can honestly support beak feeding, inverts, and the reality of nipping damage, because this is not the kind of puffer that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: spotted patterning and beak-faced puffer profile.",
+      "Venta correcta: conversar sobre beak feeding, inverts, and the reality of nipping damage.",
+      "Riesgo clave: real coral risk, real invert risk."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Spotted Sharpnose Puffer.",
+      "Compradores que entienden beak feeding, inverts, and the reality of nipping damage."
+    ],
+    "cautionWith": [
+      "The buyer expects zero nipping or wants to keep delicate inverts untouched.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Spotted Sharpnose Puffer.",
+      "Sistemas que no pueden sostener beak feeding, inverts, and the reality of nipping damage."
+    ],
+    "staffNote": "Punto de venta: resaltar spotted patterning and beak-faced puffer profile y luego aterrizar la conversación en beak feeding, inverts, and the reality of nipping damage.",
+    "photoTitle": "Canthigaster punctatissima",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Spotted Sharpnose Puffer",
+    "overview_es": "Spotted Sharpnose Puffer destaca por spotted patterning and beak-faced puffer profile más que por tamaño bruto. La venta correcta depende de beak feeding, inverts, and the reality of nipping damage y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Spotted Sharpnose Puffer — beak-faced personality fish sold around nipping and prey reality",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Spotted Sharpnose Puffer brings spotted patterning and beak-faced puffer profile on a thick-bodied puffer, but the sale still needs an honest talk about beak feeding, inverts, and the reality of nipping damage. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: spotted patterning and beak-faced puffer profile, carried on a thick-bodied puffer. That combination is what separates Spotted Sharpnose Puffer from plainer lookalikes in the same lane.",
+    "behavior": "Spotted Sharpnose Puffer is alert, investigative, and often interactive with the front glass, which is exactly why puffers sell themselves so quickly. That same curiosity also translates into testing snails, crabs, equipment, and any tankmate small enough to be reconsidered as prey or competition.",
+    "feedingNotes": "Treat Spotted Sharpnose Puffer as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Spotted Sharpnose Puffer suits a buyer whose tank plan already matches the species. Pass when the buyer expects zero nipping or wants to keep delicate inverts untouched."
   }
 ];

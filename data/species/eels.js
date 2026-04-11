@@ -5,7 +5,8 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "name": "Snowflake Moray Eel",
     "aliases": [
       "Snowflake Eel",
-      "Clouded Moray"
+      "Clouded Moray",
+      "Snowflake Moray"
     ],
     "scientific": "Echidna nebulosa",
     "category": "Eels",
@@ -48,9 +49,9 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "water": {
       "ph_low": 8,
       "ph_high": 8.4,
-      "sal_low": 1.02,
-      "sal_high": 1.025,
-      "temp_low": 74,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Morena Copo de Nieve",
@@ -503,7 +504,9 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "id": "zebra-moray",
     "name": "Zebra Moray",
     "name_es": "Zebra Moray",
-    "aliases": [],
+    "aliases": [
+      "Zebra Eel"
+    ],
     "scientific": "Gymnomuraena zebra",
     "category": "Eels",
     "type": "Saltwater Fish",
@@ -560,5 +563,265 @@ window.LTC_SPECIES_CHUNKS["Eels"] = [
     "feedingNotes": "Crustacean-heavy meaty foods fit the species well, and the blunt crushing teeth are the giveaway. Larger fish tankmates are often safer than with fish-eating morays, but shrimp, crabs, and similar hard-shelled prey should be considered menu items, not décor.",
     "recognitionNotes": "Heavy-bodied moray with broad zebra-like dark bands and blunt jaws suited to crushing shelled prey.",
     "buyingGuidance": "A very good recommendation for the aquarist who wants a large display moray and accepts that the system has to be built around the eel. The recommendation should stress adult size, lid security, and the fact that “safer with fish” does not mean “easy.”"
+  },
+  {
+    "id": "cobra-eel-muraena-melanotis",
+    "name": "Cobra Eel",
+    "aliases": [
+      "Cobra",
+      "Melanotis eel"
+    ],
+    "scientific": "Muraena melanotis",
+    "category": "Eels",
+    "type": "Saltwater Fish",
+    "price": 120,
+    "stockSize": "Medium",
+    "maxSize": "40 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore",
+    "origin": "Indo-Pacific and eastern Atlantic",
+    "habitat": "Rock caves and deep crevices",
+    "tankCode": "",
+    "aggression": 42,
+    "coralRisk": 2,
+    "invertRisk": 70,
+    "careDifficulty": 56,
+    "role": "Cobra Eel — escape-prone predator sold around prey size and secure covers",
+    "visualCue": "Cobra Eel is easiest to spot by elongate moray silhouette on a elongate moray profile; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Cobra Eel stands out for elongate moray silhouette more than for brute size alone. It works best when the buyer's system can honestly support lid security, prey size, and escape risk, because this is not the kind of eel that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: elongate moray silhouette.",
+      "Venta correcta: conversar sobre lid security, prey size, and escape risk.",
+      "Riesgo clave: real invert risk, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Cobra Eel.",
+      "Compradores que entienden lid security, prey size, and escape risk."
+    ],
+    "cautionWith": [
+      "The system has gaps, tiny tankmates, or unsecured plumbing.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Cobra Eel.",
+      "Sistemas que no pueden sostener lid security, prey size, and escape risk."
+    ],
+    "staffNote": "Punto de venta: resaltar elongate moray silhouette y luego aterrizar la conversación en lid security, prey size, and escape risk.",
+    "photoTitle": "Muraena melanotis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Cobra Eel",
+    "overview_es": "Cobra Eel destaca por elongate moray silhouette más que por tamaño bruto. La venta correcta depende de lid security, prey size, and escape risk y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Cobra Eel — escape-prone predator sold around prey size and secure covers",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico y eastern Atlántico",
+    "headerSummary": "Cobra Eel brings elongate moray silhouette on a elongate moray profile, but the sale still needs an honest talk about lid security, prey size, and escape risk. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: elongate moray silhouette, carried on a elongate moray profile. That combination is what separates Cobra Eel from plainer lookalikes in the same lane.",
+    "behavior": "Cobra Eel spends much of the day working caves, overhangs, and hidden routes rather than cruising visibly in the open. The fish can look calm once established, but it is still a predator with a strong instinct to test gaps, follow scent, and treat small crustaceans or fish as food.",
+    "feedingNotes": "Offer meaty marine foods sized to the mouth and keep prey-size reality in mind; Cobra Eel is not a tiny-grazing community feeder.",
+    "buyingGuidance": "Cobra Eel suits a buyer whose tank plan already matches the species. Pass when the system has gaps, tiny tankmates, or unsecured plumbing."
+  },
+  {
+    "id": "ghost-eel-pseudechidna-brummeri",
+    "name": "Ghost Eel",
+    "aliases": [
+      "Ghost",
+      "Brummeri eel"
+    ],
+    "scientific": "Pseudechidna brummeri",
+    "category": "Eels",
+    "type": "Saltwater Fish",
+    "price": 120,
+    "stockSize": "Medium",
+    "maxSize": "24 in",
+    "minTank": "55+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore / crustacean specialist",
+    "origin": "Indo-Pacific",
+    "habitat": "Rock caves and crevices",
+    "tankCode": "",
+    "aggression": 18,
+    "coralRisk": 2,
+    "invertRisk": 70,
+    "careDifficulty": 42,
+    "role": "Ghost Eel — escape-prone predator sold around prey size and secure covers",
+    "visualCue": "Ghost Eel is easiest to spot by elongate moray silhouette on a elongate moray profile; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Ghost Eel stands out for elongate moray silhouette more than for brute size alone. It works best when the buyer's system can honestly support lid security, prey size, and escape risk, because this is not the kind of eel that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: elongate moray silhouette.",
+      "Venta correcta: conversar sobre lid security, prey size, and escape risk.",
+      "Riesgo clave: real invert risk."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 55+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Ghost Eel.",
+      "Compradores que entienden lid security, prey size, and escape risk."
+    ],
+    "cautionWith": [
+      "The system has gaps, tiny tankmates, or unsecured plumbing.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Ghost Eel.",
+      "Sistemas que no pueden sostener lid security, prey size, and escape risk."
+    ],
+    "staffNote": "Punto de venta: resaltar elongate moray silhouette y luego aterrizar la conversación en lid security, prey size, and escape risk.",
+    "photoTitle": "Pseudechidna brummeri",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Ghost Eel",
+    "overview_es": "Ghost Eel destaca por elongate moray silhouette más que por tamaño bruto. La venta correcta depende de lid security, prey size, and escape risk y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Ghost Eel — escape-prone predator sold around prey size and secure covers",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Ghost Eel brings elongate moray silhouette on a elongate moray profile, but the sale still needs an honest talk about lid security, prey size, and escape risk. Plan on at least 55+ gal.",
+    "recognitionNotes": "Fastest ID cue: elongate moray silhouette, carried on a elongate moray profile. That combination is what separates Ghost Eel from plainer lookalikes in the same lane.",
+    "behavior": "Ghost Eel spends much of the day working caves, overhangs, and hidden routes rather than cruising visibly in the open. The fish can look calm once established, but it is still a predator with a strong instinct to test gaps, follow scent, and treat small crustaceans or fish as food.",
+    "feedingNotes": "Offer meaty marine foods sized to the mouth and keep prey-size reality in mind; Ghost Eel is not a tiny-grazing community feeder.",
+    "buyingGuidance": "Ghost Eel suits a buyer whose tank plan already matches the species. Pass when the system has gaps, tiny tankmates, or unsecured plumbing."
+  },
+  {
+    "id": "palenose-eel-echidna-nocturna",
+    "name": "Palenose Eel",
+    "aliases": [
+      "Palenose",
+      "Nocturna eel"
+    ],
+    "scientific": "Echidna nocturna",
+    "category": "Eels",
+    "type": "Saltwater Fish",
+    "price": 120,
+    "stockSize": "Medium",
+    "maxSize": "30 in",
+    "minTank": "75+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore / crustacean specialist",
+    "origin": "Indo-Pacific",
+    "habitat": "Rock caves and reef crevices",
+    "tankCode": "",
+    "aggression": 24,
+    "coralRisk": 2,
+    "invertRisk": 70,
+    "careDifficulty": 46,
+    "role": "Palenose Eel — escape-prone predator sold around prey size and secure covers",
+    "visualCue": "Palenose Eel is easiest to spot by elongate moray silhouette on a elongate moray profile; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Palenose Eel stands out for elongate moray silhouette more than for brute size alone. It works best when the buyer's system can honestly support lid security, prey size, and escape risk, because this is not the kind of eel that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: elongate moray silhouette.",
+      "Venta correcta: conversar sobre lid security, prey size, and escape risk.",
+      "Riesgo clave: real invert risk."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 75+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Palenose Eel.",
+      "Compradores que entienden lid security, prey size, and escape risk."
+    ],
+    "cautionWith": [
+      "The system has gaps, tiny tankmates, or unsecured plumbing.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Palenose Eel.",
+      "Sistemas que no pueden sostener lid security, prey size, and escape risk."
+    ],
+    "staffNote": "Punto de venta: resaltar elongate moray silhouette y luego aterrizar la conversación en lid security, prey size, and escape risk.",
+    "photoTitle": "Echidna nocturna",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Palenose Eel",
+    "overview_es": "Palenose Eel destaca por elongate moray silhouette más que por tamaño bruto. La venta correcta depende de lid security, prey size, and escape risk y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Palenose Eel — escape-prone predator sold around prey size and secure covers",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Palenose Eel brings elongate moray silhouette on a elongate moray profile, but the sale still needs an honest talk about lid security, prey size, and escape risk. Plan on at least 75+ gal.",
+    "recognitionNotes": "Fastest ID cue: elongate moray silhouette, carried on a elongate moray profile. That combination is what separates Palenose Eel from plainer lookalikes in the same lane.",
+    "behavior": "Palenose Eel spends much of the day working caves, overhangs, and hidden routes rather than cruising visibly in the open. The fish can look calm once established, but it is still a predator with a strong instinct to test gaps, follow scent, and treat small crustaceans or fish as food.",
+    "feedingNotes": "Offer meaty marine foods sized to the mouth and keep prey-size reality in mind; Palenose Eel is not a tiny-grazing community feeder.",
+    "buyingGuidance": "Palenose Eel suits a buyer whose tank plan already matches the species. Pass when the system has gaps, tiny tankmates, or unsecured plumbing."
+  },
+  {
+    "id": "yellow-edged-eel-gymnothorax-flavimarginatus",
+    "name": "Yellow-Edged Eel",
+    "aliases": [
+      "Yellow-Edged",
+      "Flavimarginatus eel"
+    ],
+    "scientific": "Gymnothorax flavimarginatus",
+    "category": "Eels",
+    "type": "Saltwater Fish",
+    "price": 120,
+    "stockSize": "Medium",
+    "maxSize": "30 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore",
+    "origin": "Indo-Pacific and eastern Atlantic",
+    "habitat": "Rock caves and deep crevices",
+    "tankCode": "",
+    "aggression": 42,
+    "coralRisk": 2,
+    "invertRisk": 70,
+    "careDifficulty": 56,
+    "role": "Yellow-Edged Eel — escape-prone predator sold around prey size and secure covers",
+    "visualCue": "Yellow-Edged Eel is easiest to spot by elongate moray silhouette on a elongate moray profile; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Yellow-Edged Eel stands out for elongate moray silhouette more than for brute size alone. It works best when the buyer's system can honestly support lid security, prey size, and escape risk, because this is not the kind of eel that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: elongate moray silhouette.",
+      "Venta correcta: conversar sobre lid security, prey size, and escape risk.",
+      "Riesgo clave: real invert risk, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Yellow-Edged Eel.",
+      "Compradores que entienden lid security, prey size, and escape risk."
+    ],
+    "cautionWith": [
+      "The system has gaps, tiny tankmates, or unsecured plumbing.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Yellow-Edged Eel.",
+      "Sistemas que no pueden sostener lid security, prey size, and escape risk."
+    ],
+    "staffNote": "Punto de venta: resaltar elongate moray silhouette y luego aterrizar la conversación en lid security, prey size, and escape risk.",
+    "photoTitle": "Gymnothorax flavimarginatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Yellow-Edged Eel",
+    "overview_es": "Yellow-Edged Eel destaca por elongate moray silhouette más que por tamaño bruto. La venta correcta depende de lid security, prey size, and escape risk y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Yellow-Edged Eel — escape-prone predator sold around prey size and secure covers",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico y eastern Atlántico",
+    "headerSummary": "Yellow-Edged Eel brings elongate moray silhouette on a elongate moray profile, but the sale still needs an honest talk about lid security, prey size, and escape risk. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: elongate moray silhouette, carried on a elongate moray profile. That combination is what separates Yellow-Edged Eel from plainer lookalikes in the same lane.",
+    "behavior": "Yellow-Edged Eel spends much of the day working caves, overhangs, and hidden routes rather than cruising visibly in the open. The fish can look calm once established, but it is still a predator with a strong instinct to test gaps, follow scent, and treat small crustaceans or fish as food.",
+    "feedingNotes": "Offer meaty marine foods sized to the mouth and keep prey-size reality in mind; Yellow-Edged Eel is not a tiny-grazing community feeder.",
+    "buyingGuidance": "Yellow-Edged Eel suits a buyer whose tank plan already matches the species. Pass when the system has gaps, tiny tankmates, or unsecured plumbing."
   }
 ];

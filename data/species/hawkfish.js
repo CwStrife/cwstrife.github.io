@@ -1,3 +1,4 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
   {
     "id": "flame-hawkfish",
@@ -370,5 +371,135 @@ window.LTC_SPECIES_CHUNKS["Hawkfish"] = [
     "feedingNotes": "Frozen mysis, chopped meaty foods, and prepared carnivore diets are usually accepted readily. A well-fed hawkfish is still a hawkfish, so feeding does not erase the shrimp risk entirely.",
     "buyingGuidance": "Best for aquarists who like visible ambush-predator behavior and understand that “reef safe with caution” usually means shrimp caution first. Pick this lane because you enjoy the fish, not because you forgot about the cleanup crew.",
     "recognitionNotes": "Look for small body, crisp patterning, and a compact reef-percher look."
+  },
+  {
+    "id": "giant-hawkfish-cirrhitus-rivulatus",
+    "name": "Giant Hawkfish",
+    "aliases": [
+      "Giant",
+      "Rivulatus hawkfish"
+    ],
+    "scientific": "Cirrhitus rivulatus",
+    "category": "Hawkfish",
+    "type": "Saltwater Fish",
+    "price": 60,
+    "stockSize": "Medium",
+    "maxSize": "6 in",
+    "minTank": "30+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Rock perches and coral heads",
+    "tankCode": "",
+    "aggression": 34,
+    "coralRisk": 6,
+    "invertRisk": 60,
+    "careDifficulty": 32,
+    "role": "Giant Hawkfish — perching ambush fish sold around shrimp risk and attitude",
+    "visualCue": "Giant Hawkfish is easiest to spot by the 'giant' look used in the trade name on a perching hawkfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Giant Hawkfish stands out for the 'giant' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support shrimp risk and perching territory, because this is not the kind of hawkfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'giant' look used in the trade name.",
+      "Venta correcta: conversar sobre shrimp risk and perching territory.",
+      "Riesgo clave: real invert risk, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Giant Hawkfish.",
+      "Compradores que entienden shrimp risk and perching territory."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Giant Hawkfish.",
+      "Sistemas que no pueden sostener shrimp risk and perching territory."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'giant' look used in the trade name y luego aterrizar la conversación en shrimp risk and perching territory.",
+    "photoTitle": "Cirrhitus rivulatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Giant Hawkfish",
+    "overview_es": "Giant Hawkfish destaca por the 'giant' look used in the trade name más que por tamaño bruto. La venta correcta depende de shrimp risk and perching territory y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Giant Hawkfish — perching ambush fish sold around camarón risk and attitude",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Giant Hawkfish brings the 'giant' look used in the trade name on a perching hawkfish, but the sale still needs an honest talk about shrimp risk and perching territory. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'giant' look used in the trade name, carried on a perching hawkfish. That combination is what separates Giant Hawkfish from plainer lookalikes in the same lane.",
+    "behavior": "Giant Hawkfish spends much of the day sitting on rock, coral branches, or ledges and then lunging at food or small prey with little warning. The charm is real, but so is the predator profile, especially for ornamental shrimp and tiny bottom fish.",
+    "feedingNotes": "Feed Giant Hawkfish with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Giant Hawkfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "red-hawkfish-cyprinocirrhites-polyactus",
+    "name": "Red Hawkfish",
+    "aliases": [
+      "Red",
+      "Polyactus hawkfish"
+    ],
+    "scientific": "Cyprinocirrhites polyactus",
+    "category": "Hawkfish",
+    "type": "Saltwater Fish",
+    "price": 60,
+    "stockSize": "Medium",
+    "maxSize": "5 in",
+    "minTank": "30+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Rock perches and coral heads",
+    "tankCode": "",
+    "aggression": 34,
+    "coralRisk": 6,
+    "invertRisk": 60,
+    "careDifficulty": 32,
+    "role": "Red Hawkfish — perching ambush fish sold around shrimp risk and attitude",
+    "visualCue": "Red Hawkfish is easiest to spot by the 'red' look used in the trade name on a perching hawkfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Red Hawkfish stands out for the 'red' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support shrimp risk and perching territory, because this is not the kind of hawkfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'red' look used in the trade name.",
+      "Venta correcta: conversar sobre shrimp risk and perching territory.",
+      "Riesgo clave: real invert risk, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Red Hawkfish.",
+      "Compradores que entienden shrimp risk and perching territory."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Red Hawkfish.",
+      "Sistemas que no pueden sostener shrimp risk and perching territory."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'red' look used in the trade name y luego aterrizar la conversación en shrimp risk and perching territory.",
+    "photoTitle": "Cyprinocirrhites polyactus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8.0,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Red Hawkfish",
+    "overview_es": "Red Hawkfish destaca por the 'red' look used in the trade name más que por tamaño bruto. La venta correcta depende de shrimp risk and perching territory y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Red Hawkfish — perching ambush fish sold around camarón risk and attitude",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Red Hawkfish brings the 'red' look used in the trade name on a perching hawkfish, but the sale still needs an honest talk about shrimp risk and perching territory. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'red' look used in the trade name, carried on a perching hawkfish. That combination is what separates Red Hawkfish from plainer lookalikes in the same lane.",
+    "behavior": "Red Hawkfish spends much of the day sitting on rock, coral branches, or ledges and then lunging at food or small prey with little warning. The charm is real, but so is the predator profile, especially for ornamental shrimp and tiny bottom fish.",
+    "feedingNotes": "Feed Red Hawkfish with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Red Hawkfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
   }
 ];

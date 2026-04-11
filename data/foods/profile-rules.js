@@ -77,7 +77,7 @@ window.FOOD_PROFILE_RULES = {
     },
     {
       id:"filter-feeder",
-      categoryRegex:/(Clams|Anemones|Starfish|Urchins|Inverts|Shrimp|Crabs|Snails)/i,
+      categoryRegex:/(Clams|Starfish|Urchins|Inverts|Shrimp|Crabs|Snails)/i,
       dietRegex:/(filter|phytoplankton|detritus|scavenger|algae)/i,
       preferredProducts:["reef-nutrition-phyto-feast","reef-nutrition-oyster-feast","reef-nutrition-roe","ocean-nutrition-green-marine-algae","lrs-premium-seaweed"],
       family:"invert-support",

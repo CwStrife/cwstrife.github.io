@@ -528,24 +528,12 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
       "Diet in this catalog: Carnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -601,24 +589,12 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
       "Diet in this catalog: Carnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -638,5 +614,393 @@ window.LTC_SPECIES_CHUNKS["Cardinalfish"] = [
     "feedingNotes": "Small meaty foods offered consistently are usually enough; the goal is steady condition, not drama at feeding time. Catalog diet listing: Carnivore.",
     "buyingGuidance": "Usually a safe recommendation for peaceful systems as long as the aquarist is not mixing them with much rougher tankmates.",
     "recognitionNotes": "Look for a hovering, big-eyed fish that often hangs calmly around rock or branching cover."
+  },
+  {
+    "id": "amboina-cardinalfish",
+    "name": "Amboina Cardinalfish",
+    "name_es": "Cardenal de Amboina",
+    "aliases": [
+      "Ambon Cardinalfish"
+    ],
+    "scientific": "Fibramia amboinensis",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Indo-Pacific",
+    "origin_es": "Indo-Pacífico",
+    "habitat": "Sheltered reef margins and mangrove-associated structure",
+    "tankCode": "",
+    "aggression": 8,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 18,
+    "role": "Peaceful cardinalfish addition with real captive-bred appeal",
+    "role_es": "Cardenal pacífico con buen perfil de cría en cautividad",
+    "visualCue": "Slender cardinal shape with warm gold-red accents and fine banding around a bright eye.",
+    "overview": "A good way to make the cardinalfish section feel deeper than just Banggais and Pajamas. It brings the calm hovering cardinal behavior customers expect, but with a different shape and a more uncommon look.",
+    "overview_es": "Una buena forma de ampliar la sección de cardenales más allá de Banggai y Pijama. Conserva el comportamiento tranquilo típico del grupo.",
+    "facts": [
+      "Biota lists it as a reef- and mangrove-associated cardinalfish now available as captive bred.",
+      "Cardinalfish behavior is usually best appreciated in calm tanks with shelter, not in chaotic high-aggression mixes.",
+      "This is a good catalog-depth addition because it feels different without becoming difficult."
+    ],
+    "bestWith": [
+      "Peaceful community reefs",
+      "Mangrove-style or sheltered rock layouts",
+      "Customers wanting something gentler than damsels"
+    ],
+    "cautionWith": [
+      "Big aggressive tankmates",
+      "Very tiny ornamental crustaceans",
+      "Expecting nonstop daytime activity in the open"
+    ],
+    "staffNote": "Nice uncommon cardinalfish option that makes the section feel more complete.",
+    "photoTitle": "Fibramia amboinensis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "headerSummary": "Peaceful captive-bred cardinalfish with a different silhouette and look than Banggai or Pajama cards. Best in calm structured reefs.",
+    "seasonal": null,
+    "behavior": "Like many cardinals, it holds close to structure by day and looks best in a calm tank where the fish can hover naturally instead of getting pinned into hiding by boisterous tankmates. The charm is subtle movement and a refined shape, not loud pacing.",
+    "feedingNotes": "Small meaty frozen foods, enriched brine, mysis, and prepared diets usually work well once settled. Feed as you would other peaceful cardinalfish: enough small portions that it does not get crowded out by faster feeders.",
+    "buyingGuidance": "A strong recommendation for reef keepers who like Banggais and Pajamas but want something less common. Keep the sale focused on calm community fit and structure, not on pretending every cardinalfish is a schooling show fish.",
+    "recognitionNotes": "Look for a slim hovering cardinal with warm gold-red accents, a bright eye, and a quieter more delicate look than the chunkier Banggai type."
+  },
+  {
+    "id": "blue-streak-cardinalfish",
+    "name": "Blue Streak Cardinalfish",
+    "name_es": "Cardenal de Raya Azul",
+    "aliases": [
+      "Threadfin Cardinal",
+      "Longspine Cardinal",
+      "Slendertail Cardinal"
+    ],
+    "scientific": "Zoramia leptacantha",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Moderate",
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Indo-Pacific",
+    "origin_es": "Indo-Pacífico",
+    "habitat": "Sheltered reef schools under ledges and among coral heads",
+    "tankCode": "",
+    "aggression": 8,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 24,
+    "role": "Schooling-style transparent cardinal with blue and yellow iridescent detail",
+    "role_es": "Cardenal translúcido con reflejos azules y amarillos",
+    "visualCue": "Semi-transparent silver body with yellow lines and iridescent blue markings around the eyes, fins, and body.",
+    "overview": "A much more delicate-looking cardinalfish than the chunky, perchy Banggai style. In groups it adds a slow drifting school effect around coral heads and ledges, which makes it a great visual counterpoint to bolder single-show fish.",
+    "overview_es": "Un cardenal más fino y translúcido que los tipos robustos como Banggai. En grupo da un efecto de cardumen lento muy elegante.",
+    "facts": [
+      "ORA describes it as a peaceful 3-inch species best kept with non-aggressive fish.",
+      "The species shelters under ledges by day and becomes more active at night.",
+      "ORA notes it was commercially bred only sporadically because it is a difficult mouthbrooder to raise."
+    ],
+    "bestWith": [
+      "Peaceful reef communities",
+      "Open ledges and coral-head layouts",
+      "Customers wanting a hovering group effect"
+    ],
+    "cautionWith": [
+      "Aggressive fish",
+      "Tiny crustaceans that fit in a cardinal mouth",
+      "Bright barren tanks with nowhere to shelter by day"
+    ],
+    "staffNote": "A nice higher-end cardinal choice when someone wants a more graceful group fish than Banggais.",
+    "photoTitle": "Zoramia leptacantha",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "headerSummary": "Graceful transparent cardinalfish with blue and yellow iridescence. Best appreciated in calm groups around ledges and coral structure.",
+    "seasonal": null,
+    "behavior": "Prefers the security of ledges and branching structure by day, then drifts more freely once it feels safe. The appeal is the group movement and translucency, not bold front-and-center solo behavior all day long.",
+    "feedingNotes": "Offer fine frozen meaty foods and small prepared items. It does best when feeding is not a speed contest with larger tankmates, especially if the aquarist wants to keep more than one and preserve the gentle schooling look.",
+    "buyingGuidance": "Best sold to customers building a peaceful reef where subtle motion matters. This is a much stronger recommendation in a calm mixed reef than in a rougher fish-only setup where the fish never get to behave naturally.",
+    "recognitionNotes": "Look for a slim almost glassy cardinalfish with yellow lines and blue iridescent accents around the eyes and fins."
+  },
+  {
+    "id": "five-lined-cardinalfish",
+    "name": "Five-lined Cardinalfish",
+    "aliases": [
+      "Five Lined Cardinalfish"
+    ],
+    "scientific": "Cheilodipterus quinquelineatus",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "5 in",
+    "minTank": "30+ gal",
+    "careLabel": "Moderate",
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Indo-Pacific",
+    "origin_es": "Indo-Pacífico",
+    "habitat": "Ledges, caves, and coral-head shelter zones",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 6,
+    "careDifficulty": 28,
+    "role": "Striped hover-cardinal with more body length and contrast than the usual Banggai lane",
+    "role_es": "Cardenal rayado con silueta más larga y elegante",
+    "visualCue": "Silver body crossed by five dark horizontal stripes with large cardinalfish eyes.",
+    "overview": "A useful cardinal addition because it broadens the section away from Banggais and pajama cardinals. The longer body and horizontal striping give it a more classic reef-schooling look, while the care profile stays manageable in peaceful to moderate community setups.",
+    "overview_es": "Amplía la sección de cardenales con un aspecto distinto al Banggai o al Pajama.",
+    "facts": [
+      "Biota currently lists Five-lined Cardinalfish in its cultured fish offerings.",
+      "The fish reads more as a ledge-and-shadow hoverer than a front-and-center show fish all day.",
+      "Its longer body and striped profile make it visually distinct from chunkier cardinal favorites."
+    ],
+    "bestWith": [
+      "Peaceful to moderate reefs",
+      "Ledge-heavy aquascapes",
+      "Customers wanting variety beyond Banggais and Pajamas"
+    ],
+    "cautionWith": [
+      "Large predatory fish",
+      "Tiny shrimp that fit in a cardinal mouth",
+      "Bright barren tanks with no shadow structure"
+    ],
+    "staffNote": "Great add when someone likes cardinalfish but wants something less common and more reef-school looking than the standard options.",
+    "photoTitle": "Cheilodipterus quinquelineatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Cardenal de Cinco Líneas",
+    "headerSummary": "Longer-bodied striped cardinalfish that gives the section a more classic hovering-ledge look than the usual chunky favorites.",
+    "seasonal": null,
+    "behavior": "Usually hovers in and out of shadows, ledges, or branching cover rather than owning one rock and staring out like a Banggai. The effect is calmer and more drifting when the tank gives it the shelter pattern it expects.",
+    "feedingNotes": "Feed small meaty frozen items and prepared foods. Like many cardinals, success is easier when the fish is not forced to compete in frantic top-water feeding scrums.",
+    "buyingGuidance": "Recommend to customers who want a cardinalfish with a little more elegance and a little less common-store familiarity. The best fit is still a peaceful to moderate reef where shadow structure is part of the aquascape.",
+    "recognitionNotes": "Look for the longer silver cardinalfish body marked by five clean dark stripes and oversized cardinal eyes."
+  },
+  {
+    "id": "flame-tailspot-cardinalfish-apogon-dovii",
+    "name": "Flame Tailspot Cardinalfish",
+    "aliases": [
+      "Flame Tailspot",
+      "Dovii cardinalfish"
+    ],
+    "scientific": "Apogon dovii",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 30,
+    "stockSize": "Small",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Moderate",
+    "diet": "Carnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 14,
+    "coralRisk": 15,
+    "invertRisk": 12,
+    "careDifficulty": 31,
+    "role": "Flame Tailspot Cardinalfish — hovering cardinalfish for calmer, lower-pressure reef lanes",
+    "visualCue": "Flame Tailspot Cardinalfish is easiest to spot by a tailspot mark and a bright tailspot and warm base color on a small hovering cardinalfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Flame Tailspot Cardinalfish stands out for a tailspot mark and a bright tailspot and warm base color more than for brute size alone. It works best when the buyer's system can honestly support calmer tankmates and shaded structure, because this is not the kind of cardinalfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: a tailspot mark and a bright tailspot and warm base color.",
+      "Venta correcta: conversar sobre calmer tankmates and shaded structure.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 20+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Flame Tailspot Cardinalfish.",
+      "Compradores que entienden calmer tankmates and shaded structure."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Flame Tailspot Cardinalfish.",
+      "Sistemas que no pueden sostener calmer tankmates and shaded structure."
+    ],
+    "staffNote": "Punto de venta: resaltar a tailspot mark and a bright tailspot and warm base color y luego aterrizar la conversación en calmer tankmates and shaded structure.",
+    "photoTitle": "Apogon dovii",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Flame Tailspot Cardinalfish",
+    "overview_es": "Flame Tailspot Cardinalfish destaca por a tailspot mark and a bright tailspot and warm base color más que por tamaño bruto. La venta correcta depende de calmer tankmates and shaded structure y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Flame Tailspot Cardinalfish — hovering cardinalfish for calmer, lower-pressure reef lanes",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Flame Tailspot Cardinalfish brings a tailspot mark and a bright tailspot and warm base color on a small hovering cardinalfish, but the sale still needs an honest talk about calmer tankmates and shaded structure. Plan on at least 20+ gal.",
+    "recognitionNotes": "Fastest ID cue: a tailspot mark and a bright tailspot and warm base color, carried on a small hovering cardinalfish. That combination is what separates Flame Tailspot Cardinalfish from plainer lookalikes in the same lane.",
+    "behavior": "Flame Tailspot Cardinalfish usually holds position in or near cover and reads as much calmer than the busier damsels, wrasses, or anthias around it. The fish is often best appreciated once the aquarist understands that the display is about hovering, contrast, and group texture rather than about constant racing.",
+    "feedingNotes": "Feed Flame Tailspot Cardinalfish with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Flame Tailspot Cardinalfish suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "picket-fence-cardinalfish-apogon-oxina",
+    "name": "Picket Fence Cardinalfish",
+    "aliases": [
+      "Picket Fence",
+      "Oxina cardinalfish"
+    ],
+    "scientific": "Apogon oxina",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 30,
+    "stockSize": "Small",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Moderate",
+    "diet": "Carnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 14,
+    "coralRisk": 15,
+    "invertRisk": 12,
+    "careDifficulty": 31,
+    "role": "Picket Fence Cardinalfish — hovering cardinalfish for calmer, lower-pressure reef lanes",
+    "visualCue": "Picket Fence Cardinalfish is easiest to spot by fence-like striping on a small hovering cardinalfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Picket Fence Cardinalfish stands out for fence-like striping more than for brute size alone. It works best when the buyer's system can honestly support calmer tankmates and shaded structure, because this is not the kind of cardinalfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: fence-like striping.",
+      "Venta correcta: conversar sobre calmer tankmates and shaded structure.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 20+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Picket Fence Cardinalfish.",
+      "Compradores que entienden calmer tankmates and shaded structure."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Picket Fence Cardinalfish.",
+      "Sistemas que no pueden sostener calmer tankmates and shaded structure."
+    ],
+    "staffNote": "Punto de venta: resaltar fence-like striping y luego aterrizar la conversación en calmer tankmates and shaded structure.",
+    "photoTitle": "Apogon oxina",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Picket Fence Cardinalfish",
+    "overview_es": "Picket Fence Cardinalfish destaca por fence-like striping más que por tamaño bruto. La venta correcta depende de calmer tankmates and shaded structure y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Picket Fence Cardinalfish — hovering cardinalfish for calmer, lower-pressure reef lanes",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Picket Fence Cardinalfish brings fence-like striping on a small hovering cardinalfish, but the sale still needs an honest talk about calmer tankmates and shaded structure. Plan on at least 20+ gal.",
+    "recognitionNotes": "Fastest ID cue: fence-like striping, carried on a small hovering cardinalfish. That combination is what separates Picket Fence Cardinalfish from plainer lookalikes in the same lane.",
+    "behavior": "Picket Fence Cardinalfish usually holds position in or near cover and reads as much calmer than the busier damsels, wrasses, or anthias around it. The fish is often best appreciated once the aquarist understands that the display is about hovering, contrast, and group texture rather than about constant racing.",
+    "feedingNotes": "Feed Picket Fence Cardinalfish with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Picket Fence Cardinalfish suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "tubifer-cardinalfish-siphamia-tubifer",
+    "name": "Tubifer Cardinalfish",
+    "aliases": [
+      "Tubifer"
+    ],
+    "scientific": "Siphamia tubifer",
+    "category": "Cardinalfish",
+    "type": "Saltwater Fish",
+    "price": 30,
+    "stockSize": "Small",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Moderate",
+    "diet": "Carnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 14,
+    "coralRisk": 15,
+    "invertRisk": 12,
+    "careDifficulty": 31,
+    "role": "Tubifer Cardinalfish — hovering cardinalfish for calmer, lower-pressure reef lanes",
+    "visualCue": "Tubifer Cardinalfish is easiest to spot by the 'tubifer' look used in the trade name on a small hovering cardinalfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Tubifer Cardinalfish stands out for the 'tubifer' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support calmer tankmates and shaded structure, because this is not the kind of cardinalfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'tubifer' look used in the trade name.",
+      "Venta correcta: conversar sobre calmer tankmates and shaded structure.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 20+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Tubifer Cardinalfish.",
+      "Compradores que entienden calmer tankmates and shaded structure."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Tubifer Cardinalfish.",
+      "Sistemas que no pueden sostener calmer tankmates and shaded structure."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'tubifer' look used in the trade name y luego aterrizar la conversación en calmer tankmates and shaded structure.",
+    "photoTitle": "Siphamia tubifer",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Tubifer Cardinalfish",
+    "overview_es": "Tubifer Cardinalfish destaca por the 'tubifer' look used in the trade name más que por tamaño bruto. La venta correcta depende de calmer tankmates and shaded structure y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Tubifer Cardinalfish — hovering cardinalfish for calmer, lower-pressure reef lanes",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Tubifer Cardinalfish brings the 'tubifer' look used in the trade name on a small hovering cardinalfish, but the sale still needs an honest talk about calmer tankmates and shaded structure. Plan on at least 20+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'tubifer' look used in the trade name, carried on a small hovering cardinalfish. That combination is what separates Tubifer Cardinalfish from plainer lookalikes in the same lane.",
+    "behavior": "Tubifer Cardinalfish usually holds position in or near cover and reads as much calmer than the busier damsels, wrasses, or anthias around it. The fish is often best appreciated once the aquarist understands that the display is about hovering, contrast, and group texture rather than about constant racing.",
+    "feedingNotes": "Feed Tubifer Cardinalfish with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Tubifer Cardinalfish suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
   }
 ];

@@ -1,3 +1,4 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Starfish"] = [
   {
     "id": "sand-sifting-star",
@@ -43,11 +44,11 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Estrella Tamizadora de Arena",
@@ -743,5 +744,267 @@ window.LTC_SPECIES_CHUNKS["Starfish"] = [
     "feedingNotes": "Best used in systems with refugium space, microhabitat, and a reason to support a continuing pod population. Dumping pods into a hungry tank with nowhere to hide is usually just a feeding event.",
     "buyingGuidance": "Recommend when the owner has a real need—mandarins, dragonets, refugium seeding, or biodiversity support. This is a system-function add, not a “maybe it helps” impulse purchase.",
     "recognitionNotes": "Microscopic to tiny live culture intended to seed microfauna populations rather than display as a visible ornamental animal."
+  },
+  {
+    "id": "african-red-tip-starfish-protoreaster-lincki",
+    "name": "African Red Tip Starfish",
+    "aliases": [
+      "African Red Tip",
+      "Lincki starfish"
+    ],
+    "scientific": "Protoreaster lincki",
+    "category": "Starfish",
+    "type": "Invertebrate",
+    "price": 50,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "100+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Scavenger",
+    "origin": "Indo-Pacific",
+    "habitat": "Open sand and seagrass zones",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 20,
+    "invertRisk": 10,
+    "careDifficulty": 44,
+    "role": "African Red Tip Starfish — mature-system starfish that needs realistic feeding expectations",
+    "visualCue": "African Red Tip Starfish is easiest to spot by red-tipped arm color on a starfish profile; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "African Red Tip Starfish stands out for red-tipped arm color more than for brute size alone. It works best when the buyer's system can honestly support mature-system stability and whether the tank can feed the animal long term, because this is not the kind of starfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: red-tipped arm color.",
+      "Venta correcta: conversar sobre mature-system stability and whether the tank can feed the animal long term.",
+      "Riesgo clave: some coral trade-off."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 100+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de African Red Tip Starfish.",
+      "Compradores que entienden mature-system stability and whether the tank can feed the animal long term."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de African Red Tip Starfish.",
+      "Sistemas que no pueden sostener mature-system stability and whether the tank can feed the animal long term."
+    ],
+    "staffNote": "Punto de venta: resaltar red-tipped arm color y luego aterrizar la conversación en mature-system stability and whether the tank can feed the animal long term.",
+    "photoTitle": "Protoreaster lincki",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "African Red Tip Starfish",
+    "overview_es": "African Red Tip Starfish destaca por red-tipped arm color más que por tamaño bruto. La venta correcta depende de mature-system stability and whether the tank can feed the animal long term y de que el sistema realmente encaje con esta especie.",
+    "role_es": "African Red Tip Starfish — mature-system estrella de mar that needs realistic feeding expectations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "African Red Tip Starfish brings red-tipped arm color on a starfish profile, but the sale still needs an honest talk about mature-system stability and whether the tank can feed the animal long term. Plan on at least 100+ gal.",
+    "recognitionNotes": "Fastest ID cue: red-tipped arm color, carried on a starfish profile. That combination is what separates African Red Tip Starfish from plainer lookalikes in the same lane.",
+    "behavior": "African Red Tip Starfish moves slowly and deliberately, often looking easier than it really is because problems show up long after the sale. The visible pace is calm, but the husbandry question is whether the system can keep supporting it once the easy food is gone.",
+    "feedingNotes": "The real feeding lane for African Red Tip Starfish is the tank itself, so match the animal to a system that already has the right film, detritus, algae, or benthic food base.",
+    "buyingGuidance": "African Red Tip Starfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "granulated-sea-star-choriaster-granulatus",
+    "name": "Granulated Sea Star",
+    "aliases": [
+      "Granulated",
+      "Granulatus starfish"
+    ],
+    "scientific": "Choriaster granulatus",
+    "category": "Starfish",
+    "type": "Invertebrate",
+    "price": 70,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "100+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Scavenger",
+    "origin": "Indo-Pacific",
+    "habitat": "Mature reef flats and lagoons",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 10,
+    "invertRisk": 0,
+    "careDifficulty": 36,
+    "role": "Granulated Sea Star — mature-system starfish that needs realistic feeding expectations",
+    "visualCue": "Granulated Sea Star is easiest to spot by granulated, knobby surface texture on a starfish profile; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Granulated Sea Star stands out for granulated, knobby surface texture more than for brute size alone. It works best when the buyer's system can honestly support mature-system stability and whether the tank can feed the animal long term, because this is not the kind of starfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: granulated, knobby surface texture.",
+      "Venta correcta: conversar sobre mature-system stability and whether the tank can feed the animal long term.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 100+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Granulated Sea Star.",
+      "Compradores que entienden mature-system stability and whether the tank can feed the animal long term."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Granulated Sea Star.",
+      "Sistemas que no pueden sostener mature-system stability and whether the tank can feed the animal long term."
+    ],
+    "staffNote": "Punto de venta: resaltar granulated, knobby surface texture y luego aterrizar la conversación en mature-system stability and whether the tank can feed the animal long term.",
+    "photoTitle": "Choriaster granulatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Granulated Sea Star",
+    "overview_es": "Granulated Sea Star destaca por granulated, knobby surface texture más que por tamaño bruto. La venta correcta depende de mature-system stability and whether the tank can feed the animal long term y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Granulated Sea Star — mature-system estrella de mar that needs realistic feeding expectations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Granulated Sea Star brings granulated, knobby surface texture on a starfish profile, but the sale still needs an honest talk about mature-system stability and whether the tank can feed the animal long term. Plan on at least 100+ gal.",
+    "recognitionNotes": "Fastest ID cue: granulated, knobby surface texture, carried on a starfish profile. That combination is what separates Granulated Sea Star from plainer lookalikes in the same lane.",
+    "behavior": "Granulated Sea Star moves slowly and deliberately, often looking easier than it really is because problems show up long after the sale. The visible pace is calm, but the husbandry question is whether the system can keep supporting it once the easy food is gone.",
+    "feedingNotes": "The real feeding lane for Granulated Sea Star is the tank itself, so match the animal to a system that already has the right film, detritus, algae, or benthic food base.",
+    "buyingGuidance": "Granulated Sea Star suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "colored-phataria-sea-star-phataria-unifascialis",
+    "name": "Colored Phataria Sea Star",
+    "aliases": [
+      "Phataria, Colored",
+      "Phataria Colored",
+      "Unifascialis starfish"
+    ],
+    "scientific": "Phataria unifascialis",
+    "category": "Starfish",
+    "type": "Invertebrate",
+    "price": 50,
+    "stockSize": "Medium",
+    "maxSize": "8 in",
+    "minTank": "50+ gal",
+    "careLabel": "Easy",
+    "diet": "Biofilm / surface grazer",
+    "origin": "Eastern Pacific",
+    "habitat": "Rocky reef surfaces",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 2,
+    "invertRisk": 0,
+    "careDifficulty": 24,
+    "role": "Colored Phataria Sea Star — mature-system starfish that needs realistic feeding expectations",
+    "visualCue": "Colored Phataria Sea Star is easiest to spot by bold orange-red starfish color on a starfish profile; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Colored Phataria Sea Star stands out for bold orange-red starfish color more than for brute size alone. It works best when the buyer's system can honestly support mature-system stability and whether the tank can feed the animal long term, because this is not the kind of starfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: bold orange-red starfish color.",
+      "Venta correcta: conversar sobre mature-system stability and whether the tank can feed the animal long term.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 50+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Colored Phataria Sea Star.",
+      "Compradores que entienden mature-system stability and whether the tank can feed the animal long term."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Colored Phataria Sea Star.",
+      "Sistemas que no pueden sostener mature-system stability and whether the tank can feed the animal long term."
+    ],
+    "staffNote": "Punto de venta: resaltar bold orange-red starfish color y luego aterrizar la conversación en mature-system stability and whether the tank can feed the animal long term.",
+    "photoTitle": "Phataria unifascialis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Colored Phataria Sea Star",
+    "overview_es": "Colored Phataria Sea Star destaca por bold orange-red starfish color más que por tamaño bruto. La venta correcta depende de mature-system stability and whether the tank can feed the animal long term y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Colored Phataria Sea Star — mature-system estrella de mar that needs realistic feeding expectations",
+    "diet_es": "Herbívoro",
+    "origin_es": "Pacífico oriental",
+    "headerSummary": "Colored Phataria Sea Star brings bold orange-red starfish color on a starfish profile, but the sale still needs an honest talk about mature-system stability and whether the tank can feed the animal long term. Plan on at least 50+ gal.",
+    "recognitionNotes": "Fastest ID cue: bold orange-red starfish color, carried on a starfish profile. That combination is what separates Colored Phataria Sea Star from plainer lookalikes in the same lane.",
+    "behavior": "Colored Phataria Sea Star moves slowly and deliberately, often looking easier than it really is because problems show up long after the sale. The visible pace is calm, but the husbandry question is whether the system can keep supporting it once the easy food is gone.",
+    "feedingNotes": "Keep greens and natural grazing in front of Colored Phataria Sea Star; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Colored Phataria Sea Star suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "colored-pyramid-sea-star-pharia-pyramidata",
+    "name": "Colored Pyramid Sea Star",
+    "aliases": [
+      "Pyramid, Colored",
+      "Pyramid Colored",
+      "Pyramidata starfish"
+    ],
+    "scientific": "Pharia pyramidata",
+    "category": "Starfish",
+    "type": "Invertebrate",
+    "price": 50,
+    "stockSize": "Medium",
+    "maxSize": "10 in",
+    "minTank": "75+ gal",
+    "careLabel": "Easy",
+    "diet": "Biofilm / surface grazer",
+    "origin": "Eastern Pacific",
+    "habitat": "Rocky reef surfaces",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 2,
+    "invertRisk": 0,
+    "careDifficulty": 24,
+    "role": "Colored Pyramid Sea Star — mature-system starfish that needs realistic feeding expectations",
+    "visualCue": "Colored Pyramid Sea Star is easiest to spot by a geometric pentagonal star outline on a starfish profile; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Colored Pyramid Sea Star stands out for a geometric pentagonal star outline more than for brute size alone. It works best when the buyer's system can honestly support mature-system stability and whether the tank can feed the animal long term, because this is not the kind of starfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: a geometric pentagonal star outline.",
+      "Venta correcta: conversar sobre mature-system stability and whether the tank can feed the animal long term.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 75+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Colored Pyramid Sea Star.",
+      "Compradores que entienden mature-system stability and whether the tank can feed the animal long term."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Colored Pyramid Sea Star.",
+      "Sistemas que no pueden sostener mature-system stability and whether the tank can feed the animal long term."
+    ],
+    "staffNote": "Punto de venta: resaltar a geometric pentagonal star outline y luego aterrizar la conversación en mature-system stability and whether the tank can feed the animal long term.",
+    "photoTitle": "Pharia pyramidata",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Colored Pyramid Sea Star",
+    "overview_es": "Colored Pyramid Sea Star destaca por a geometric pentagonal star outline más que por tamaño bruto. La venta correcta depende de mature-system stability and whether the tank can feed the animal long term y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Colored Pyramid Sea Star — mature-system estrella de mar that needs realistic feeding expectations",
+    "diet_es": "Herbívoro",
+    "origin_es": "Pacífico oriental",
+    "headerSummary": "Colored Pyramid Sea Star brings a geometric pentagonal star outline on a starfish profile, but the sale still needs an honest talk about mature-system stability and whether the tank can feed the animal long term. Plan on at least 75+ gal.",
+    "recognitionNotes": "Fastest ID cue: a geometric pentagonal star outline, carried on a starfish profile. That combination is what separates Colored Pyramid Sea Star from plainer lookalikes in the same lane.",
+    "behavior": "Colored Pyramid Sea Star moves slowly and deliberately, often looking easier than it really is because problems show up long after the sale. The visible pace is calm, but the husbandry question is whether the system can keep supporting it once the easy food is gone.",
+    "feedingNotes": "Keep greens and natural grazing in front of Colored Pyramid Sea Star; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Colored Pyramid Sea Star suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
   }
 ];

@@ -1,3 +1,4 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
   {
     "id": "foxface",
@@ -465,24 +466,12 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
       "Can darken or blotch dramatically when stressed or sleeping; that color shift is normal."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -503,5 +492,334 @@ window.LTC_SPECIES_CHUNKS["Rabbitfish"] = [
     "feedingNotes": "Keep seaweed sheets, herbivore pellets, and varied frozen foods in rotation so it is not relying only on whatever algae the tank happens to provide. Well-fed rabbitfish are typically better behaved around corals than underfed ones.",
     "buyingGuidance": "A strong recommendation for larger reef keepers who want a hardy algae grazer with more personality than a snail crew can offer. The important conversation is about adult size, safe handling because of the spines, and the possibility of coral nipping if feeding support is weak.",
     "recognitionNotes": "Look for the foxlike face pattern, bold yellow rear body, dark chest patch, and long tapering snout typical of the classic foxface forms."
+  },
+  {
+    "id": "two-barred-rabbitfish",
+    "name": "Two-Barred Rabbitfish",
+    "aliases": [
+      "Double Bar Rabbitfish"
+    ],
+    "scientific": "Siganus virgatus",
+    "category": "Rabbitfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "10 in",
+    "minTank": "100+ gal",
+    "careLabel": "Moderate",
+    "diet": "Herbivore / omnivore",
+    "diet_es": "Herbívoro / omnívoro",
+    "origin": "Indo-Pacific",
+    "origin_es": "Indo-Pacífico",
+    "habitat": "Seagrass edges, coastal reefs, and algae-rich shallows",
+    "tankCode": "",
+    "aggression": 18,
+    "coralRisk": 16,
+    "invertRisk": 2,
+    "careDifficulty": 30,
+    "role": "Boldly patterned rabbitfish with strong algae utility and a cleaner black-and-yellow mask look",
+    "role_es": "Rabbitfish llamativo con buen valor como comedor de algas",
+    "visualCue": "White body with two dark bars, yellow highlights, and a distinctly masked rabbitfish face.",
+    "overview": "A very useful rabbitfish addition because it has the practical algae-grazing role customers want, but in a pattern that looks quite different from foxface forms. It still needs the same adult-size and venom-spine respect that applies to the rest of the group.",
+    "overview_es": "Aporta utilidad como comedor de algas, pero con un patrón distinto a los foxface más comunes.",
+    "facts": [
+      "Biota currently lists Two-Barred Rabbitfish in its cultured fish offerings.",
+      "Like other rabbitfish, it can darken or blotch under stress or sleep, which is normal.",
+      "The species gives the rabbitfish section more variety than simply adding more foxface look-alikes."
+    ],
+    "bestWith": [
+      "Larger mixed reefs",
+      "Fish-only systems needing herbivores",
+      "Customers wanting a patterned algae grazer"
+    ],
+    "cautionWith": [
+      "Other rabbitfish in modest tanks",
+      "Underfed reef systems",
+      "Careless handling because of venomous spines"
+    ],
+    "staffNote": "Good rabbitfish add for customers who want utility but not another standard foxface shape/color story.",
+    "photoTitle": "Siganus virgatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Rabbitfish de Dos Barras",
+    "headerSummary": "Patterned rabbitfish with algae-grazing utility, venomous spines, and a distinct two-bar mask look separate from foxfaces.",
+    "seasonal": null,
+    "behavior": "Cruises methodically across rock and open surfaces, nibbling algae and investigating structure without the frantic energy of a tang. It is usually calm with dissimilar fish but still wants space and often dislikes other rabbitfish.",
+    "feedingNotes": "Keep seaweed, herbivore pellets, and varied omnivore foods in rotation so the fish is not relying only on nuisance algae. Well-fed rabbitfish are usually easier around reef inverts and corals than hungry ones.",
+    "buyingGuidance": "A strong recommendation for larger tanks where the customer wants real grazing help and appreciates distinctive patterning. The sale should include the usual rabbitfish notes: venomous spines, adult size, and reef-with-caution if food support is weak.",
+    "recognitionNotes": "Look for the white body with two dark bars, yellow accents, and classic rabbitfish face shape."
+  },
+  {
+    "id": "golden-lined-rabbitfish",
+    "name": "Golden-Lined Rabbitfish",
+    "aliases": [
+      "Golden Rabbitfish",
+      "Goldenline Rabbitfish"
+    ],
+    "scientific": "Siganus lineatus",
+    "category": "Rabbitfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "15 in",
+    "minTank": "180+ gal",
+    "careLabel": "Advanced",
+    "diet": "Herbivore / omnivore",
+    "diet_es": "Herbívoro / omnívoro",
+    "origin": "Indo-Pacific",
+    "origin_es": "Indo-Pacífico",
+    "habitat": "Lagoon reefs, seagrass flats, and coastal algae beds",
+    "tankCode": "",
+    "aggression": 22,
+    "coralRisk": 18,
+    "invertRisk": 2,
+    "careDifficulty": 42,
+    "role": "Very large striped rabbitfish with serious algae utility and serious adult-size demands",
+    "role_es": "Rabbitfish rayado muy grande con gran utilidad y gran tamaño adulto",
+    "visualCue": "Long golden horizontal striping over a silver body with a large commanding rabbitfish profile.",
+    "overview": "This is not a 'just another rabbitfish' entry. Golden-lined rabbitfish become very large and are best thought of as heavy-duty herbivores for customers building genuinely big fish systems, public-display style layouts, or oversized mixed reefs.",
+    "overview_es": "No es un rabbitfish promedio: alcanza gran tamaño y exige un sistema realmente amplio.",
+    "facts": [
+      "The long gold striping is the standout visual marker.",
+      "Adult size is the main sales conversation here, because this fish quickly outgrows average reef expectations.",
+      "It broadens the catalog by adding a true large-scale rabbitfish rather than another medium foxface-like grazer."
+    ],
+    "bestWith": [
+      "Very large displays",
+      "Big fish communities",
+      "Customers deliberately stocking a large herbivore lane"
+    ],
+    "cautionWith": [
+      "Average home reefs",
+      "Customers focused on small-fish community setups",
+      "Any system not planned around adult size"
+    ],
+    "staffNote": "Only recommend when the customer truly has the tank for it. This is a large rabbitfish, not a decorative medium grazer.",
+    "photoTitle": "Siganus lineatus",
+    "inStock": false,
+    "badges": [
+      "Large System"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Rabbitfish de Líneas Doradas",
+    "headerSummary": "Large striped rabbitfish for truly big systems. Strong grazer, venomous-spined, and much larger than the usual foxface conversation.",
+    "seasonal": null,
+    "behavior": "Browses broadly and deliberately over a large range once established, using far more of the tank than a compact foxface. In undersized systems it will feel constrained and quickly stop reading like an appropriate stock choice.",
+    "feedingNotes": "Feed like a large herbivore: seaweed sheets, herbivore pellets, and varied prepared foods along with natural grazing. Hungry big rabbitfish are more likely to sample things customers do not want sampled.",
+    "buyingGuidance": "Recommend only when the customer already understands they are buying a large long-term herbivore. The right sale is about tank scale, adult size, and utility—not just the appeal of the stripes on a juvenile specimen.",
+    "recognitionNotes": "Look for the long horizontal golden striping and large-bodied rabbitfish build."
+  },
+  {
+    "id": "bicolor-foxface-siganus-uspi",
+    "name": "Bicolor Foxface",
+    "aliases": [
+      "Foxface, Bicolor",
+      "Foxface Bicolor",
+      "Uspi rabbitfish"
+    ],
+    "scientific": "Siganus uspi",
+    "category": "Rabbitfish",
+    "type": "Saltwater Fish",
+    "price": 80,
+    "stockSize": "Medium",
+    "maxSize": "9 in",
+    "minTank": "100+ gal",
+    "careLabel": "Moderate",
+    "diet": "Herbivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Lagoons and reef flats",
+    "tankCode": "",
+    "aggression": 24,
+    "coralRisk": 12,
+    "invertRisk": 8,
+    "careDifficulty": 34,
+    "role": "Bicolor Foxface — algae-focused rabbitfish with spine and adult-size considerations",
+    "visualCue": "Bicolor Foxface is easiest to spot by foxface facial mask on a deep-bodied rabbitfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Bicolor Foxface stands out for foxface facial mask more than for brute size alone. It works best when the buyer's system can honestly support adult size, algae pressure, and venomous-spine handling, because this is not the kind of rabbitfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: foxface facial mask.",
+      "Venta correcta: conversar sobre adult size, algae pressure, and venomous-spine handling.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 100+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Bicolor Foxface.",
+      "Compradores que entienden adult size, algae pressure, and venomous-spine handling."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Bicolor Foxface.",
+      "Sistemas que no pueden sostener adult size, algae pressure, and venomous-spine handling."
+    ],
+    "staffNote": "Punto de venta: resaltar foxface facial mask y luego aterrizar la conversación en adult size, algae pressure, and venomous-spine handling.",
+    "photoTitle": "Siganus uspi",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Bicolor Foxface",
+    "overview_es": "Bicolor Foxface destaca por foxface facial mask más que por tamaño bruto. La venta correcta depende de adult size, algae pressure, and venomous-spine handling y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Bicolor Foxface — algae-focused rabbitfish with spine and adult-size considerations",
+    "diet_es": "Herbívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Bicolor Foxface brings foxface facial mask on a deep-bodied rabbitfish, but the sale still needs an honest talk about adult size, algae pressure, and venomous-spine handling. Plan on at least 100+ gal.",
+    "recognitionNotes": "Fastest ID cue: foxface facial mask, carried on a deep-bodied rabbitfish. That combination is what separates Bicolor Foxface from plainer lookalikes in the same lane.",
+    "behavior": "Bicolor Foxface spends much of the day grazing and patrolling in a calmer, more browsing-oriented way than a typical tang. Rabbitfish can still become territorial enough to matter, but they usually read more as utility herbivores than as nonstop surgeons.",
+    "feedingNotes": "Keep greens and natural grazing in front of Bicolor Foxface; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Bicolor Foxface suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "streaked-spinefoot-siganus-javus",
+    "name": "Streaked Spinefoot",
+    "aliases": [
+      "Spinefoot, Streaked",
+      "Spinefoot Streaked",
+      "Javus rabbitfish"
+    ],
+    "scientific": "Siganus javus",
+    "category": "Rabbitfish",
+    "type": "Saltwater Fish",
+    "price": 80,
+    "stockSize": "Medium",
+    "maxSize": "9 in",
+    "minTank": "100+ gal",
+    "careLabel": "Moderate",
+    "diet": "Herbivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Lagoons and reef flats",
+    "tankCode": "",
+    "aggression": 24,
+    "coralRisk": 12,
+    "invertRisk": 8,
+    "careDifficulty": 34,
+    "role": "Streaked Spinefoot — algae-focused rabbitfish with spine and adult-size considerations",
+    "visualCue": "Streaked Spinefoot is easiest to spot by deep rabbitfish body and sharp dorsal spines on a deep-bodied rabbitfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Streaked Spinefoot stands out for deep rabbitfish body and sharp dorsal spines more than for brute size alone. It works best when the buyer's system can honestly support adult size, algae pressure, and venomous-spine handling, because this is not the kind of rabbitfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: deep rabbitfish body and sharp dorsal spines.",
+      "Venta correcta: conversar sobre adult size, algae pressure, and venomous-spine handling.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 100+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Streaked Spinefoot.",
+      "Compradores que entienden adult size, algae pressure, and venomous-spine handling."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Streaked Spinefoot.",
+      "Sistemas que no pueden sostener adult size, algae pressure, and venomous-spine handling."
+    ],
+    "staffNote": "Punto de venta: resaltar deep rabbitfish body and sharp dorsal spines y luego aterrizar la conversación en adult size, algae pressure, and venomous-spine handling.",
+    "photoTitle": "Siganus javus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Streaked Spinefoot",
+    "overview_es": "Streaked Spinefoot destaca por deep rabbitfish body and sharp dorsal spines más que por tamaño bruto. La venta correcta depende de adult size, algae pressure, and venomous-spine handling y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Streaked Spinefoot — algae-focused rabbitfish with spine and adult-size considerations",
+    "diet_es": "Herbívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Streaked Spinefoot brings deep rabbitfish body and sharp dorsal spines on a deep-bodied rabbitfish, but the sale still needs an honest talk about adult size, algae pressure, and venomous-spine handling. Plan on at least 100+ gal.",
+    "recognitionNotes": "Fastest ID cue: deep rabbitfish body and sharp dorsal spines, carried on a deep-bodied rabbitfish. That combination is what separates Streaked Spinefoot from plainer lookalikes in the same lane.",
+    "behavior": "Streaked Spinefoot spends much of the day grazing and patrolling in a calmer, more browsing-oriented way than a typical tang. Rabbitfish can still become territorial enough to matter, but they usually read more as utility herbivores than as nonstop surgeons.",
+    "feedingNotes": "Keep greens and natural grazing in front of Streaked Spinefoot; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Streaked Spinefoot suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "two-bar-spinefoot-siganus-doliatus",
+    "name": "Two Bar Spinefoot",
+    "aliases": [
+      "Spinefoot, Two Bar",
+      "Spinefoot Two Bar",
+      "Doliatus rabbitfish"
+    ],
+    "scientific": "Siganus doliatus",
+    "category": "Rabbitfish",
+    "type": "Saltwater Fish",
+    "price": 80,
+    "stockSize": "Medium",
+    "maxSize": "9 in",
+    "minTank": "100+ gal",
+    "careLabel": "Moderate",
+    "diet": "Herbivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Lagoons and reef flats",
+    "tankCode": "",
+    "aggression": 24,
+    "coralRisk": 12,
+    "invertRisk": 8,
+    "careDifficulty": 34,
+    "role": "Two Bar Spinefoot — algae-focused rabbitfish with spine and adult-size considerations",
+    "visualCue": "Two Bar Spinefoot is easiest to spot by deep rabbitfish body and sharp dorsal spines on a deep-bodied rabbitfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Two Bar Spinefoot stands out for deep rabbitfish body and sharp dorsal spines more than for brute size alone. It works best when the buyer's system can honestly support adult size, algae pressure, and venomous-spine handling, because this is not the kind of rabbitfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: deep rabbitfish body and sharp dorsal spines.",
+      "Venta correcta: conversar sobre adult size, algae pressure, and venomous-spine handling.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 100+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Two Bar Spinefoot.",
+      "Compradores que entienden adult size, algae pressure, and venomous-spine handling."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Two Bar Spinefoot.",
+      "Sistemas que no pueden sostener adult size, algae pressure, and venomous-spine handling."
+    ],
+    "staffNote": "Punto de venta: resaltar deep rabbitfish body and sharp dorsal spines y luego aterrizar la conversación en adult size, algae pressure, and venomous-spine handling.",
+    "photoTitle": "Siganus doliatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Two Bar Spinefoot",
+    "overview_es": "Two Bar Spinefoot destaca por deep rabbitfish body and sharp dorsal spines más que por tamaño bruto. La venta correcta depende de adult size, algae pressure, and venomous-spine handling y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Two Bar Spinefoot — algae-focused rabbitfish with spine and adult-size considerations",
+    "diet_es": "Herbívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Two Bar Spinefoot brings deep rabbitfish body and sharp dorsal spines on a deep-bodied rabbitfish, but the sale still needs an honest talk about adult size, algae pressure, and venomous-spine handling. Plan on at least 100+ gal.",
+    "recognitionNotes": "Fastest ID cue: deep rabbitfish body and sharp dorsal spines, carried on a deep-bodied rabbitfish. That combination is what separates Two Bar Spinefoot from plainer lookalikes in the same lane.",
+    "behavior": "Two Bar Spinefoot spends much of the day grazing and patrolling in a calmer, more browsing-oriented way than a typical tang. Rabbitfish can still become territorial enough to matter, but they usually read more as utility herbivores than as nonstop surgeons.",
+    "feedingNotes": "Keep greens and natural grazing in front of Two Bar Spinefoot; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Two Bar Spinefoot suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
   }
 ];

@@ -303,12 +303,12 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
-      "sal_low": 1.023,
-      "sal_high": 1.025,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
       "temp_low": 75,
-      "temp_high": 79
+      "temp_high": 80
     },
     "name_es": "Tang Azul Polvo",
     "overview_es": "Uno de los tangs más llamativos disponibles. Hermoso pero puede ser agresivo y propenso al ich si está estresado.",
@@ -706,7 +706,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "id": "achilles-tang",
     "name": "Achilles Tang",
     "name_es": "Achilles Tang",
-    "aliases": [],
+    "aliases": [
+      "Achilles Surgeonfish"
+    ],
     "scientific": "Acanthurus achilles",
     "category": "Tangs",
     "type": "Saltwater Fish",
@@ -768,7 +770,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "id": "atlantic-blue-tang",
     "name": "Atlantic Blue Tang",
     "name_es": "Atlantic Blue Tang",
-    "aliases": [],
+    "aliases": [
+      "Atlantic Surgeonfish"
+    ],
     "scientific": "Acanthurus coeruleus",
     "category": "Tangs",
     "type": "Saltwater Fish",
@@ -829,7 +833,10 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "id": "blonde-naso-tang",
     "name": "Blonde Naso Tang",
     "name_es": "Blonde Naso Tang",
-    "aliases": [],
+    "aliases": [
+      "Blonde Naso",
+      "Lipstick Tang"
+    ],
     "scientific": "Naso elegans",
     "category": "Tangs",
     "type": "Saltwater Fish",
@@ -951,7 +958,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "id": "chevron-tang",
     "name": "Chevron Tang",
     "name_es": "Chevron Tang",
-    "aliases": [],
+    "aliases": [
+      "Chevron Surgeonfish"
+    ],
     "scientific": "Ctenochaetus hawaiiensis",
     "category": "Tangs",
     "type": "Saltwater Fish",
@@ -1073,7 +1082,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "id": "clown-tang",
     "name": "Clown Tang",
     "name_es": "Clown Tang",
-    "aliases": [],
+    "aliases": [
+      "Clown Surgeonfish"
+    ],
     "scientific": "Acanthurus lineatus",
     "category": "Tangs",
     "type": "Saltwater Fish",
@@ -1440,7 +1451,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "id": "orange-shoulder-tang",
     "name": "Orange Shoulder Tang",
     "name_es": "Orange Shoulder Tang",
-    "aliases": [],
+    "aliases": [
+      "Orange Shoulder Surgeonfish"
+    ],
     "scientific": "Acanthurus olivaceus",
     "category": "Tangs",
     "type": "Saltwater Fish",
@@ -1501,7 +1514,9 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "id": "powder-brown-tang",
     "name": "Powder Brown Tang",
     "name_es": "Powder Brown Tang",
-    "aliases": [],
+    "aliases": [
+      "White-faced Surgeonfish"
+    ],
     "scientific": "Acanthurus japonicus",
     "category": "Tangs",
     "type": "Saltwater Fish",
@@ -1654,24 +1669,12 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Diet in this catalog: Herbivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -1727,24 +1730,12 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
       "Diet in this catalog: Planktivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -1764,5 +1755,919 @@ window.LTC_SPECIES_CHUNKS["Tangs"] = [
     "feedingNotes": "Keep algae support constant and use prepared foods with enough variety to maintain condition during acclimation. Many Acanthurus tangs are less forgiving when fed inconsistently, so steady seaweed access plus a dependable herbivore staple is the safer path.",
     "buyingGuidance": "Recommend when the aquarist already has strong flow, oxygenation, and the confidence to manage a more assertive surgeonfish. These species reward roomy mature systems, but they are rarely the best tang for a lightly planned tank that only just meets the stated 125+ gal minimum.",
     "recognitionNotes": "Slender open-water surgeonfish with a noticeably pale tail and a cleaner, more streamlined look than a chunky bristletooth tang."
+  },
+  {
+    "id": "black-longnose-tang-zebrasoma-rostratum",
+    "name": "Black Longnose Tang",
+    "aliases": [
+      "Black Longnose",
+      "Rostratum tang"
+    ],
+    "scientific": "Zebrasoma rostratum",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 1000,
+    "stockSize": "Medium",
+    "maxSize": "8 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 40,
+    "coralRisk": 5,
+    "invertRisk": 5,
+    "careDifficulty": 40,
+    "role": "Black Longnose Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Black Longnose Tang is easiest to spot by an extended snout and a dark body and extended snout on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Black Longnose Tang stands out for an extended snout and a dark body and extended snout more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: an extended snout and a dark body and extended snout.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Black Longnose Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Black Longnose Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar an extended snout and a dark body and extended snout y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Zebrasoma rostratum",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Black Longnose Tang",
+    "overview_es": "Black Longnose Tang destaca por an extended snout and a dark body and extended snout más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Black Longnose Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Black Longnose Tang brings an extended snout and a dark body and extended snout on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: an extended snout and a dark body and extended snout, carried on a active surgeonfish. That combination is what separates Black Longnose Tang from plainer lookalikes in the same lane.",
+    "behavior": "Black Longnose Tang spends the day cruising and circling with quick bursts toward favored grazing lanes, then settles into a very defined territory once established. Like other Zebrasoma tangs, it can become especially opinionated toward similar body shapes in tighter reef layouts.",
+    "feedingNotes": "Keep greens and natural grazing in front of Black Longnose Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Black Longnose Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "black-spot-surgeonfish-tang-acanthurus-bariene",
+    "name": "Black Spot Surgeonfish Tang",
+    "aliases": [
+      "Black Spot Surgeonfish",
+      "Bariene tang"
+    ],
+    "scientific": "Acanthurus bariene",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 170,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Tropical reef zones",
+    "habitat": "Open reef slopes and grazing lanes",
+    "tankCode": "",
+    "aggression": 46,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 44,
+    "role": "Black Spot Surgeonfish Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Black Spot Surgeonfish Tang is easiest to spot by the 'black spot surgeonfish' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Black Spot Surgeonfish Tang stands out for the 'black spot surgeonfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'black spot surgeonfish' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Black Spot Surgeonfish Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Black Spot Surgeonfish Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'black spot surgeonfish' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Acanthurus bariene",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Black Spot Surgeonfish Tang",
+    "overview_es": "Black Spot Surgeonfish Tang destaca por the 'black spot surgeonfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Black Spot Surgeonfish Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "Black Spot Surgeonfish Tang brings the 'black spot surgeonfish' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'black spot surgeonfish' look used in the trade name, carried on a active surgeonfish. That combination is what separates Black Spot Surgeonfish Tang from plainer lookalikes in the same lane.",
+    "behavior": "Black Spot Surgeonfish Tang is an active surgeonfish that uses open lanes aggressively once settled and can become pushy about access to food or territory. The fish reads best in mature systems where it can cruise and turn freely instead of bouncing around a crowded scape.",
+    "feedingNotes": "Keep greens and natural grazing in front of Black Spot Surgeonfish Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Black Spot Surgeonfish Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "black-eared-tang-acanthurus-maculiceps",
+    "name": "Black-Eared Tang",
+    "aliases": [
+      "Black-Eared",
+      "Maculiceps tang"
+    ],
+    "scientific": "Acanthurus maculiceps",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 170,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Tropical reef zones",
+    "habitat": "Open reef slopes and grazing lanes",
+    "tankCode": "",
+    "aggression": 46,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 44,
+    "role": "Black-Eared Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Black-Eared Tang is easiest to spot by the 'black-eared' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Black-Eared Tang stands out for the 'black-eared' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'black-eared' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Black-Eared Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Black-Eared Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'black-eared' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Acanthurus maculiceps",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Black-Eared Tang",
+    "overview_es": "Black-Eared Tang destaca por the 'black-eared' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Black-Eared Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "Black-Eared Tang brings the 'black-eared' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'black-eared' look used in the trade name, carried on a active surgeonfish. That combination is what separates Black-Eared Tang from plainer lookalikes in the same lane.",
+    "behavior": "Black-Eared Tang is an active surgeonfish that uses open lanes aggressively once settled and can become pushy about access to food or territory. The fish reads best in mature systems where it can cruise and turn freely instead of bouncing around a crowded scape.",
+    "feedingNotes": "Keep greens and natural grazing in front of Black-Eared Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Black-Eared Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "bristletooth-short-tail-tang-ctenochaetus-cyanocheilus",
+    "name": "Bristletooth Short-Tail Tang",
+    "aliases": [
+      "Bristletooth Short-Tail",
+      "Cyanocheilus tang"
+    ],
+    "scientific": "Ctenochaetus cyanocheilus",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 140,
+    "stockSize": "Medium",
+    "maxSize": "8 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 40,
+    "coralRisk": 5,
+    "invertRisk": 5,
+    "careDifficulty": 40,
+    "role": "Bristletooth Short-Tail Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Bristletooth Short-Tail Tang is easiest to spot by the 'bristletooth short-tail' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Bristletooth Short-Tail Tang stands out for the 'bristletooth short-tail' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'bristletooth short-tail' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Bristletooth Short-Tail Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Bristletooth Short-Tail Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'bristletooth short-tail' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Ctenochaetus cyanocheilus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Bristletooth Short-Tail Tang",
+    "overview_es": "Bristletooth Short-Tail Tang destaca por the 'bristletooth short-tail' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Bristletooth Short-Tail Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Bristletooth Short-Tail Tang brings the 'bristletooth short-tail' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'bristletooth short-tail' look used in the trade name, carried on a active surgeonfish. That combination is what separates Bristletooth Short-Tail Tang from plainer lookalikes in the same lane.",
+    "behavior": "Bristletooth Short-Tail Tang spends much of the day picking film algae and detritus from hard surfaces rather than charging nonstop through the water column. It is still a tang and still wants room, but the behavior reads as busy and deliberate instead of purely high-strung.",
+    "feedingNotes": "Keep greens and natural grazing in front of Bristletooth Short-Tail Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Bristletooth Short-Tail Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "doctorfish-tang-acanthurus-monroviae",
+    "name": "Doctorfish Tang",
+    "aliases": [
+      "Doctorfish",
+      "Monroviae tang"
+    ],
+    "scientific": "Acanthurus monroviae",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 130,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Tropical reef zones",
+    "habitat": "Open reef slopes and grazing lanes",
+    "tankCode": "",
+    "aggression": 46,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 44,
+    "role": "Doctorfish Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Doctorfish Tang is easiest to spot by the 'doctorfish' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Doctorfish Tang stands out for the 'doctorfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'doctorfish' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Doctorfish Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Doctorfish Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'doctorfish' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Acanthurus monroviae",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Doctorfish Tang",
+    "overview_es": "Doctorfish Tang destaca por the 'doctorfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Doctorfish Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "Doctorfish Tang brings the 'doctorfish' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'doctorfish' look used in the trade name, carried on a active surgeonfish. That combination is what separates Doctorfish Tang from plainer lookalikes in the same lane.",
+    "behavior": "Doctorfish Tang is an active surgeonfish that uses open lanes aggressively once settled and can become pushy about access to food or territory. The fish reads best in mature systems where it can cruise and turn freely instead of bouncing around a crowded scape.",
+    "feedingNotes": "Keep greens and natural grazing in front of Doctorfish Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Doctorfish Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "mimic-half-black-tang-acanthurus-chronixis",
+    "name": "Mimic Half Black Tang",
+    "aliases": [
+      "Mimic, Half Black",
+      "Mimic Half Black",
+      "Chronixis tang"
+    ],
+    "scientific": "Acanthurus chronixis",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 170,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Tropical reef zones",
+    "habitat": "Open reef slopes and grazing lanes",
+    "tankCode": "",
+    "aggression": 46,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 44,
+    "role": "Mimic Half Black Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Mimic Half Black Tang is easiest to spot by the 'mimic half black' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Mimic Half Black Tang stands out for the 'mimic half black' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'mimic half black' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Mimic Half Black Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Mimic Half Black Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'mimic half black' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Acanthurus chronixis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Mimic Half Black Tang",
+    "overview_es": "Mimic Half Black Tang destaca por the 'mimic half black' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Mimic Half Black Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "Mimic Half Black Tang brings the 'mimic half black' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'mimic half black' look used in the trade name, carried on a active surgeonfish. That combination is what separates Mimic Half Black Tang from plainer lookalikes in the same lane.",
+    "behavior": "Mimic Half Black Tang is an active surgeonfish that uses open lanes aggressively once settled and can become pushy about access to food or territory. The fish reads best in mature systems where it can cruise and turn freely instead of bouncing around a crowded scape.",
+    "feedingNotes": "Keep greens and natural grazing in front of Mimic Half Black Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Mimic Half Black Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "mustard-guttatus-tang-acanthurus-guttatus",
+    "name": "Mustard Guttatus Tang",
+    "aliases": [
+      "Mustard, Guttatus",
+      "Mustard Guttatus",
+      "Guttatus tang"
+    ],
+    "scientific": "Acanthurus guttatus",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 190,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Tropical reef zones",
+    "habitat": "Open reef slopes and grazing lanes",
+    "tankCode": "",
+    "aggression": 46,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 44,
+    "role": "Mustard Guttatus Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Mustard Guttatus Tang is easiest to spot by the 'mustard guttatus' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Mustard Guttatus Tang stands out for the 'mustard guttatus' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'mustard guttatus' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Mustard Guttatus Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Mustard Guttatus Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'mustard guttatus' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Acanthurus guttatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Mustard Guttatus Tang",
+    "overview_es": "Mustard Guttatus Tang destaca por the 'mustard guttatus' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Mustard Guttatus Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "Mustard Guttatus Tang brings the 'mustard guttatus' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'mustard guttatus' look used in the trade name, carried on a active surgeonfish. That combination is what separates Mustard Guttatus Tang from plainer lookalikes in the same lane.",
+    "behavior": "Mustard Guttatus Tang is an active surgeonfish that uses open lanes aggressively once settled and can become pushy about access to food or territory. The fish reads best in mature systems where it can cruise and turn freely instead of bouncing around a crowded scape.",
+    "feedingNotes": "Keep greens and natural grazing in front of Mustard Guttatus Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Mustard Guttatus Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "ocean-surgeon-tang-acanthurus-bahianus",
+    "name": "Ocean Surgeon Tang",
+    "aliases": [
+      "Ocean Surgeon",
+      "Bahianus tang"
+    ],
+    "scientific": "Acanthurus bahianus",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 170,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Tropical reef zones",
+    "habitat": "Open reef slopes and grazing lanes",
+    "tankCode": "",
+    "aggression": 46,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 44,
+    "role": "Ocean Surgeon Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Ocean Surgeon Tang is easiest to spot by the 'ocean surgeon' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Ocean Surgeon Tang stands out for the 'ocean surgeon' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'ocean surgeon' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Ocean Surgeon Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Ocean Surgeon Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'ocean surgeon' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Acanthurus bahianus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Ocean Surgeon Tang",
+    "overview_es": "Ocean Surgeon Tang destaca por the 'ocean surgeon' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Ocean Surgeon Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "Ocean Surgeon Tang brings the 'ocean surgeon' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'ocean surgeon' look used in the trade name, carried on a active surgeonfish. That combination is what separates Ocean Surgeon Tang from plainer lookalikes in the same lane.",
+    "behavior": "Ocean Surgeon Tang is an active surgeonfish that uses open lanes aggressively once settled and can become pushy about access to food or territory. The fish reads best in mature systems where it can cruise and turn freely instead of bouncing around a crowded scape.",
+    "feedingNotes": "Keep greens and natural grazing in front of Ocean Surgeon Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Ocean Surgeon Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "pale-surgeonfish-mata-tang-acanthurus-mata",
+    "name": "Pale Surgeonfish Mata Tang",
+    "aliases": [
+      "Pale Surgeonfish Mata",
+      "Mata tang"
+    ],
+    "scientific": "Acanthurus mata",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 170,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Tropical reef zones",
+    "habitat": "Open reef slopes and grazing lanes",
+    "tankCode": "",
+    "aggression": 46,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 44,
+    "role": "Pale Surgeonfish Mata Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Pale Surgeonfish Mata Tang is easiest to spot by the 'pale surgeonfish mata' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Pale Surgeonfish Mata Tang stands out for the 'pale surgeonfish mata' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'pale surgeonfish mata' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Pale Surgeonfish Mata Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Pale Surgeonfish Mata Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'pale surgeonfish mata' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Acanthurus mata",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Pale Surgeonfish Mata Tang",
+    "overview_es": "Pale Surgeonfish Mata Tang destaca por the 'pale surgeonfish mata' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Pale Surgeonfish Mata Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "Pale Surgeonfish Mata Tang brings the 'pale surgeonfish mata' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'pale surgeonfish mata' look used in the trade name, carried on a active surgeonfish. That combination is what separates Pale Surgeonfish Mata Tang from plainer lookalikes in the same lane.",
+    "behavior": "Pale Surgeonfish Mata Tang is an active surgeonfish that uses open lanes aggressively once settled and can become pushy about access to food or territory. The fish reads best in mature systems where it can cruise and turn freely instead of bouncing around a crowded scape.",
+    "feedingNotes": "Keep greens and natural grazing in front of Pale Surgeonfish Mata Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Pale Surgeonfish Mata Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "surgeon-epaulette-tang-acanthurus-nigricauda",
+    "name": "Surgeon Epaulette Tang",
+    "aliases": [
+      "Surgeon, Epaulette",
+      "Surgeon Epaulette",
+      "Nigricauda tang"
+    ],
+    "scientific": "Acanthurus nigricauda",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 140,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Tropical reef zones",
+    "habitat": "Open reef slopes and grazing lanes",
+    "tankCode": "",
+    "aggression": 46,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 44,
+    "role": "Surgeon Epaulette Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Surgeon Epaulette Tang is easiest to spot by the 'surgeon epaulette' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Surgeon Epaulette Tang stands out for the 'surgeon epaulette' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'surgeon epaulette' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Surgeon Epaulette Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Surgeon Epaulette Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'surgeon epaulette' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Acanthurus nigricauda",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Surgeon Epaulette Tang",
+    "overview_es": "Surgeon Epaulette Tang destaca por the 'surgeon epaulette' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Surgeon Epaulette Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "Surgeon Epaulette Tang brings the 'surgeon epaulette' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'surgeon epaulette' look used in the trade name, carried on a active surgeonfish. That combination is what separates Surgeon Epaulette Tang from plainer lookalikes in the same lane.",
+    "behavior": "Surgeon Epaulette Tang is an active surgeonfish that uses open lanes aggressively once settled and can become pushy about access to food or territory. The fish reads best in mature systems where it can cruise and turn freely instead of bouncing around a crowded scape.",
+    "feedingNotes": "Keep greens and natural grazing in front of Surgeon Epaulette Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Surgeon Epaulette Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "unicorn-tang-naso-unicornis",
+    "name": "Unicorn Tang",
+    "aliases": [
+      "Unicorn",
+      "Unicornis tang"
+    ],
+    "scientific": "Naso unicornis",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 200,
+    "stockSize": "Medium",
+    "maxSize": "18 in",
+    "minTank": "240+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Outer reef slopes and surge areas",
+    "tankCode": "",
+    "aggression": 34,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 46,
+    "role": "Unicorn Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Unicorn Tang is easiest to spot by the 'unicorn' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Unicorn Tang stands out for the 'unicorn' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'unicorn' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 240+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Unicorn Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Unicorn Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'unicorn' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Naso unicornis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Unicorn Tang",
+    "overview_es": "Unicorn Tang destaca por the 'unicorn' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Unicorn Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Unicorn Tang brings the 'unicorn' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 240+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'unicorn' look used in the trade name, carried on a active surgeonfish. That combination is what separates Unicorn Tang from plainer lookalikes in the same lane.",
+    "behavior": "Unicorn Tang is built for long gliding passes and turns that use real tank length, not just decorative laps around rockwork. Juveniles can look manageable for a while, but the behavior and body plan both point toward a genuinely roomy future home.",
+    "feedingNotes": "Keep greens and natural grazing in front of Unicorn Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Unicorn Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "unicorn-blue-tang-naso-brevirostris",
+    "name": "Unicorn Blue Tang",
+    "aliases": [
+      "Unicorn, Blue",
+      "Unicorn Blue",
+      "Brevirostris tang"
+    ],
+    "scientific": "Naso brevirostris",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 230,
+    "stockSize": "Medium",
+    "maxSize": "18 in",
+    "minTank": "240+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Outer reef slopes and surge areas",
+    "tankCode": "",
+    "aggression": 34,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 46,
+    "role": "Unicorn Blue Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Unicorn Blue Tang is easiest to spot by the 'unicorn blue' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Unicorn Blue Tang stands out for the 'unicorn blue' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'unicorn blue' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 240+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Unicorn Blue Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Unicorn Blue Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'unicorn blue' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Naso brevirostris",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Unicorn Blue Tang",
+    "overview_es": "Unicorn Blue Tang destaca por the 'unicorn blue' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Unicorn Blue Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Unicorn Blue Tang brings the 'unicorn blue' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 240+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'unicorn blue' look used in the trade name, carried on a active surgeonfish. That combination is what separates Unicorn Blue Tang from plainer lookalikes in the same lane.",
+    "behavior": "Unicorn Blue Tang is built for long gliding passes and turns that use real tank length, not just decorative laps around rockwork. Juveniles can look manageable for a while, but the behavior and body plan both point toward a genuinely roomy future home.",
+    "feedingNotes": "Keep greens and natural grazing in front of Unicorn Blue Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Unicorn Blue Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "white-spine-surgeon-tang-acanthurus-leucocheilus",
+    "name": "White-Spine Surgeon Tang",
+    "aliases": [
+      "White-Spine Surgeon",
+      "Leucocheilus tang"
+    ],
+    "scientific": "Acanthurus leucocheilus",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 170,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Tropical reef zones",
+    "habitat": "Open reef slopes and grazing lanes",
+    "tankCode": "",
+    "aggression": 46,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 44,
+    "role": "White-Spine Surgeon Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "White-Spine Surgeon Tang is easiest to spot by the 'white-spine surgeon' look used in the trade name on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "White-Spine Surgeon Tang stands out for the 'white-spine surgeon' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'white-spine surgeon' look used in the trade name.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de White-Spine Surgeon Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de White-Spine Surgeon Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'white-spine surgeon' look used in the trade name y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Acanthurus leucocheilus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "White-Spine Surgeon Tang",
+    "overview_es": "White-Spine Surgeon Tang destaca por the 'white-spine surgeon' look used in the trade name más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "White-Spine Surgeon Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "White-Spine Surgeon Tang brings the 'white-spine surgeon' look used in the trade name on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'white-spine surgeon' look used in the trade name, carried on a active surgeonfish. That combination is what separates White-Spine Surgeon Tang from plainer lookalikes in the same lane.",
+    "behavior": "White-Spine Surgeon Tang is an active surgeonfish that uses open lanes aggressively once settled and can become pushy about access to food or territory. The fish reads best in mature systems where it can cruise and turn freely instead of bouncing around a crowded scape.",
+    "feedingNotes": "Keep greens and natural grazing in front of White-Spine Surgeon Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "White-Spine Surgeon Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
+  },
+  {
+    "id": "zebra-black-barred-tang-acanthurus-polyzona",
+    "name": "Zebra Black-Barred Tang",
+    "aliases": [
+      "Zebra Black-Barred",
+      "Polyzona tang"
+    ],
+    "scientific": "Acanthurus polyzona",
+    "category": "Tangs",
+    "type": "Saltwater Fish",
+    "price": 170,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Herbivore",
+    "origin": "Tropical reef zones",
+    "habitat": "Open reef slopes and grazing lanes",
+    "tankCode": "",
+    "aggression": 46,
+    "coralRisk": 4,
+    "invertRisk": 4,
+    "careDifficulty": 44,
+    "role": "Zebra Black-Barred Tang — open-water grazer built around swimming length and stocking order",
+    "visualCue": "Zebra Black-Barred Tang is easiest to spot by barred markings on a active surgeonfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Zebra Black-Barred Tang stands out for barred markings more than for brute size alone. It works best when the buyer's system can honestly support tank length, algae lane, and future adult size, because this is not the kind of tang that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: barred markings.",
+      "Venta correcta: conversar sobre tank length, algae lane, and future adult size.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Zebra Black-Barred Tang.",
+      "Compradores que entienden tank length, algae lane, and future adult size."
+    ],
+    "cautionWith": [
+      "The tank is short, crowded, or already loaded with competing grazers.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Zebra Black-Barred Tang.",
+      "Sistemas que no pueden sostener tank length, algae lane, and future adult size."
+    ],
+    "staffNote": "Punto de venta: resaltar barred markings y luego aterrizar la conversación en tank length, algae lane, and future adult size.",
+    "photoTitle": "Acanthurus polyzona",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Zebra Black-Barred Tang",
+    "overview_es": "Zebra Black-Barred Tang destaca por barred markings más que por tamaño bruto. La venta correcta depende de tank length, algae lane, and future adult size y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Zebra Black-Barred Tang — open-water grazer built around swimming length and stocking order",
+    "diet_es": "Herbívoro",
+    "origin_es": "Tropical reef zones",
+    "headerSummary": "Zebra Black-Barred Tang brings barred markings on a active surgeonfish, but the sale still needs an honest talk about tank length, algae lane, and future adult size. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: barred markings, carried on a active surgeonfish. That combination is what separates Zebra Black-Barred Tang from plainer lookalikes in the same lane.",
+    "behavior": "Zebra Black-Barred Tang is an active surgeonfish that uses open lanes aggressively once settled and can become pushy about access to food or territory. The fish reads best in mature systems where it can cruise and turn freely instead of bouncing around a crowded scape.",
+    "feedingNotes": "Keep greens and natural grazing in front of Zebra Black-Barred Tang; nori, algae-based foods, and mixed herbivore fare should be the core diet.",
+    "buyingGuidance": "Zebra Black-Barred Tang suits a buyer whose tank plan already matches the species. Pass when the tank is short, crowded, or already loaded with competing grazers."
   }
 ];

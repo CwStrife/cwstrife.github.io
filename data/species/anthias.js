@@ -843,24 +843,12 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
       "Smaller than many anthias, yet still active enough to need open water."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -881,5 +869,935 @@ window.LTC_SPECIES_CHUNKS["Anthias"] = [
     "feedingNotes": "Plan on smaller, more frequent feedings than with most community fish. Fine frozen foods, high-quality small pellets, and plankton-sized meaty foods usually work far better than one oversized daily meal.",
     "buyingGuidance": "One of the better anthias to suggest when a customer wants the anthias look and understands the feeding schedule, but does not want to start with the most delicate species.",
     "recognitionNotes": "Lavender to violet body with a yellow back; males show stronger contrast and more intense color."
+  },
+  {
+    "id": "checked-swallowtail-anthias-odontanthias-borbonius",
+    "name": "Checked Swallowtail Anthias",
+    "aliases": [
+      "Borbonius, Checked Swallowtail",
+      "Borbonius Checked Swallowtail",
+      "Borbonius anthias"
+    ],
+    "scientific": "Odontanthias borbonius",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 170,
+    "stockSize": "Small",
+    "maxSize": "6 in",
+    "minTank": "90+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Western Pacific",
+    "habitat": "Deeper rubble and ledge habitat",
+    "tankCode": "",
+    "aggression": 10,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 60,
+    "role": "Checked Swallowtail Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Checked Swallowtail Anthias is easiest to spot by a swallowtail tail shape, checkered markings, and upper-water anthias profile on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Checked Swallowtail Anthias stands out for a swallowtail tail shape, checkered markings, and upper-water anthias profile more than for brute size alone. It works best when the buyer's system can honestly support frequent feeding and stable group dynamics, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: a swallowtail tail shape, checkered markings, and upper-water anthias profile.",
+      "Venta correcta: conversar sobre frequent feeding and stable group dynamics.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 90+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Checked Swallowtail Anthias.",
+      "Compradores que entienden frequent feeding and stable group dynamics."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Checked Swallowtail Anthias.",
+      "Sistemas que no pueden sostener frequent feeding and stable group dynamics."
+    ],
+    "staffNote": "Punto de venta: resaltar a swallowtail tail shape, checkered markings, and upper-water anthias profile y luego aterrizar la conversación en frequent feeding and stable group dynamics.",
+    "photoTitle": "Odontanthias borbonius",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Checked Swallowtail Anthias",
+    "overview_es": "Checked Swallowtail Anthias destaca por a swallowtail tail shape, checkered markings, and upper-water anthias profile más que por tamaño bruto. La venta correcta depende de frequent feeding and stable group dynamics y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Checked Swallowtail Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Pacífico occidental",
+    "headerSummary": "Checked Swallowtail Anthias brings a swallowtail tail shape, checkered markings, and upper-water anthias profile on a slim open-water anthias, but the sale still needs an honest talk about frequent feeding and stable group dynamics. Plan on at least 90+ gal.",
+    "recognitionNotes": "Fastest ID cue: a swallowtail tail shape, checkered markings, and upper-water anthias profile, carried on a slim open-water anthias. That combination is what separates Checked Swallowtail Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Checked Swallowtail Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Checked Swallowtail Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Checked Swallowtail Anthias suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "cooper-s-fairy-anthias-pseudanthias-cooperi",
+    "name": "Cooper's Fairy Anthias",
+    "aliases": [
+      "Red Bar Anthias",
+      "Cooper's Anthias",
+      "Silverstreak Anthias",
+      "Red Bar Fairy Basslet"
+    ],
+    "scientific": "Pseudanthias cooperi",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 90,
+    "stockSize": "Small-Medium",
+    "maxSize": "5 in",
+    "minTank": "75+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore",
+    "origin": "Indo-Pacific (East Africa to Samoa, southern Japan, Great Barrier Reef)",
+    "habitat": "Current-swept drop-offs and isolated bommies at 30-300 ft",
+    "tankCode": "",
+    "aggression": 18,
+    "coralRisk": 0,
+    "invertRisk": 5,
+    "careDifficulty": 38,
+    "role": "Hardy midwater anthias — one of the few reasonable starter Pseudanthias",
+    "visualCue": "Males show a pinkish-red body with a short vertical red bar through the mid-flank, a red caudal with elongated upper and lower rays often tipped pale blue, and pale blue edging through the fins. Females are pinkish-orange with a silver belly and red-tipped tail.",
+    "overview": "Probably the hardiest member of the Pseudanthias genus and the right anthias to start with if you've ever been told 'anthias are too hard.' Reef safe, accepts frozen food faster than most of the family, and forgives the slightly cooler temperatures of a standard reef better than the Bartlett's or Lyretail crowd. You still need the basics — open swimming room, multiple feedings a day, and a covered top — but if you can offer those, this is one of the most rewarding anthias in the hobby.",
+    "facts": [
+      "Protogynous hermaphrodite — every Cooper's starts life as a female, and if no male is present, the dominant female will change sex and take over the male role.",
+      "More tolerant of standard reef temperatures than the deepwater anthias species, which makes it one of the few you can keep without chasing tighter parameters.",
+      "Schools below the surface in the upper third of the tank when given strong flow and a clear midwater swimming lane."
+    ],
+    "bestWith": [
+      "Tanks with strong flow and plenty of open swimming room",
+      "Harem stocking — one male with three or more females added at the same time",
+      "Refugium-fed systems with healthy pod populations to graze between meals"
+    ],
+    "cautionWith": [
+      "Open-top tanks — anthias are reliable jumpers when startled",
+      "Once-a-day feeding routines — these fish need three or more small meals to hold weight",
+      "Two males in any tank under about 200 gallons — they'll fight"
+    ],
+    "staffNote": "When a customer wants an anthias, this is the one that gives them the best shot at success. Hardier than Bartlett's, more affordable than Resplendent, and the color holds up.",
+    "photoTitle": "Pseudanthias cooperi",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "",
+    "overview_es": "",
+    "role_es": "",
+    "diet_es": "",
+    "origin_es": "",
+    "headerSummary": "Pink-red anthias with a vertical mid-body red bar (males) or pink-orange with a red-tipped tail (females). One of the hardier Pseudanthias and the right starter anthias for an established reef. 75+ gal with a covered top.",
+    "recognitionNotes": "Males show a pinkish-red body with a short vertical red bar through the mid-flank, a red caudal fin with elongated upper and lower rays often tipped pale blue, and pale blue edging through the fins. Females are pinkish-orange with a silver belly and red-tipped tail lobes. Both sexes carry the elongated lyretail body shape typical of Pseudanthias.",
+    "behavior": "Schools in the upper third of the tank facing into the current, picking pelagic zooplankton out of the flow throughout the day. Drops back into the rockwork to rest or sleep at night. The dominant male will display for the females during the day, sometimes flashing a brighter whitish streak along the back.",
+    "feedingNotes": "Three or more small feedings per day is the minimum for keeping weight on. Mysis, enriched brine, cyclops, calanus, and a high-quality pellet rotation all work. A refugium full of live pods makes a noticeable difference in body condition between meals — these are constant grazers in the wild and they don't do well on a single big feed.",
+    "buyingGuidance": "If you're running an established 75-gallon-or-larger reef and you're willing to feed three or more small meals a day, this is one of the most forgiving anthias you can keep. They're noticeably hardier than most of their family and will forgive small mistakes that would sink the fussier deepwater species. Just plan on a covered top — they're confident jumpers — and stick to one male unless your tank is genuinely large enough for a second to claim its own territory."
+  },
+  {
+    "id": "deepwater-pseudanthias-pseudanthias-kashiwae",
+    "name": "Deepwater Pseudanthias",
+    "aliases": [
+      "Deepwater Anthias",
+      "Kashiwae Anthias"
+    ],
+    "scientific": "Pseudanthias kashiwae",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 100,
+    "stockSize": "Small",
+    "maxSize": "5 in",
+    "minTank": "70+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Open-water reef slopes with current",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 56,
+    "role": "Deepwater Pseudanthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Deepwater Pseudanthias is easiest to spot by upper-water anthias profile on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Deepwater Pseudanthias stands out for upper-water anthias profile more than for brute size alone. It works best when the buyer's system can honestly support frequent feeding and stable group dynamics, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile.",
+      "Venta correcta: conversar sobre frequent feeding and stable group dynamics.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 70+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Deepwater Pseudanthias.",
+      "Compradores que entienden frequent feeding and stable group dynamics."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Deepwater Pseudanthias.",
+      "Sistemas que no pueden sostener frequent feeding and stable group dynamics."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile y luego aterrizar la conversación en frequent feeding and stable group dynamics.",
+    "photoTitle": "Pseudanthias kashiwae",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Deepwater Pseudanthias",
+    "overview_es": "Deepwater Pseudanthias destaca por upper-water anthias profile más que por tamaño bruto. La venta correcta depende de frequent feeding and stable group dynamics y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Deepwater Pseudanthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Deepwater Pseudanthias brings upper-water anthias profile on a slim open-water anthias, but the sale still needs an honest talk about frequent feeding and stable group dynamics. Plan on at least 70+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile, carried on a slim open-water anthias. That combination is what separates Deepwater Pseudanthias from plainer lookalikes in the same lane.",
+    "behavior": "Deepwater Pseudanthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Deepwater Pseudanthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Deepwater Pseudanthias suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "highfin-perchlet-anthias-plectranthias-inermis",
+    "name": "Highfin Perchlet Anthias",
+    "aliases": [
+      "Highfin Perchlet",
+      "Inermis anthias"
+    ],
+    "scientific": "Plectranthias inermis",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 70,
+    "stockSize": "Small",
+    "maxSize": "4 in",
+    "minTank": "40+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Cave-rich deeper reef structure",
+    "tankCode": "",
+    "aggression": 8,
+    "coralRisk": 2,
+    "invertRisk": 6,
+    "careDifficulty": 48,
+    "role": "Highfin Perchlet Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Highfin Perchlet Anthias is easiest to spot by upper-water anthias profile on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Highfin Perchlet Anthias stands out for upper-water anthias profile more than for brute size alone. It works best when the buyer's system can honestly support frequent feeding and stable group dynamics, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile.",
+      "Venta correcta: conversar sobre frequent feeding and stable group dynamics.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 40+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Highfin Perchlet Anthias.",
+      "Compradores que entienden frequent feeding and stable group dynamics."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Highfin Perchlet Anthias.",
+      "Sistemas que no pueden sostener frequent feeding and stable group dynamics."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile y luego aterrizar la conversación en frequent feeding and stable group dynamics.",
+    "photoTitle": "Plectranthias inermis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Highfin Perchlet Anthias",
+    "overview_es": "Highfin Perchlet Anthias destaca por upper-water anthias profile más que por tamaño bruto. La venta correcta depende de frequent feeding and stable group dynamics y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Highfin Perchlet Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Highfin Perchlet Anthias brings upper-water anthias profile on a slim open-water anthias, but the sale still needs an honest talk about frequent feeding and stable group dynamics. Plan on at least 40+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile, carried on a slim open-water anthias. That combination is what separates Highfin Perchlet Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Highfin Perchlet Anthias spends more time working ledges, dimmer overhangs, and cave mouths than the nonstop midwater anthias most buyers picture. It is more of a detail fish than a crowding, flashing shoaler.",
+    "feedingNotes": "Feed Highfin Perchlet Anthias with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Highfin Perchlet Anthias suits a buyer whose tank plan already matches the species. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "hutchi-anthias-pseudanthias-hutchi",
+    "name": "Hutchi Anthias",
+    "aliases": [
+      "Hutchi"
+    ],
+    "scientific": "Pseudanthias hutchi",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 90,
+    "stockSize": "Small",
+    "maxSize": "5 in",
+    "minTank": "70+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Open-water reef slopes with current",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 56,
+    "role": "Hutchi Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Hutchi Anthias is easiest to spot by upper-water anthias profile on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Hutchi Anthias stands out for upper-water anthias profile more than for brute size alone. It works best when the buyer's system can honestly support frequent feeding and stable group dynamics, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile.",
+      "Venta correcta: conversar sobre frequent feeding and stable group dynamics.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 70+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Hutchi Anthias.",
+      "Compradores que entienden frequent feeding and stable group dynamics."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Hutchi Anthias.",
+      "Sistemas que no pueden sostener frequent feeding and stable group dynamics."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile y luego aterrizar la conversación en frequent feeding and stable group dynamics.",
+    "photoTitle": "Pseudanthias hutchi",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Hutchi Anthias",
+    "overview_es": "Hutchi Anthias destaca por upper-water anthias profile más que por tamaño bruto. La venta correcta depende de frequent feeding and stable group dynamics y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Hutchi Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Hutchi Anthias brings upper-water anthias profile on a slim open-water anthias, but the sale still needs an honest talk about frequent feeding and stable group dynamics. Plan on at least 70+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile, carried on a slim open-water anthias. That combination is what separates Hutchi Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Hutchi Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Hutchi Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Hutchi Anthias suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "pacific-creole-anthias-paranthias-colonus",
+    "name": "Pacific Creole Anthias",
+    "aliases": [
+      "Pacific Creole",
+      "Colonus anthias"
+    ],
+    "scientific": "Paranthias colonus",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 70,
+    "stockSize": "Small",
+    "maxSize": "10 in",
+    "minTank": "125+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Tropical eastern Pacific and western Atlantic",
+    "habitat": "Open-water reef dropoffs",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 54,
+    "role": "Pacific Creole Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Pacific Creole Anthias is easiest to spot by upper-water anthias profile on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Pacific Creole Anthias stands out for upper-water anthias profile more than for brute size alone. It works best when the buyer's system can honestly support frequent feeding and stable group dynamics, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile.",
+      "Venta correcta: conversar sobre frequent feeding and stable group dynamics.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 125+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Pacific Creole Anthias.",
+      "Compradores que entienden frequent feeding and stable group dynamics."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Pacific Creole Anthias.",
+      "Sistemas que no pueden sostener frequent feeding and stable group dynamics."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile y luego aterrizar la conversación en frequent feeding and stable group dynamics.",
+    "photoTitle": "Paranthias colonus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Pacific Creole Anthias",
+    "overview_es": "Pacific Creole Anthias destaca por upper-water anthias profile más que por tamaño bruto. La venta correcta depende de frequent feeding and stable group dynamics y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Pacific Creole Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Tropical eastern Pacific y Atlántico occidental",
+    "headerSummary": "Pacific Creole Anthias brings upper-water anthias profile on a slim open-water anthias, but the sale still needs an honest talk about frequent feeding and stable group dynamics. Plan on at least 125+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile, carried on a slim open-water anthias. That combination is what separates Pacific Creole Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Pacific Creole Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Pacific Creole Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Pacific Creole Anthias suits a buyer whose tank plan already matches the species. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "female-pictilis-anthias-pseudanthias-pictilis",
+    "name": "Female Pictilis Anthias",
+    "aliases": [
+      "Pictilis, Female",
+      "Pictilis Female",
+      "Pictilis Anthias"
+    ],
+    "scientific": "Pseudanthias pictilis",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 140,
+    "stockSize": "Small",
+    "maxSize": "5 in",
+    "minTank": "70+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Open-water reef slopes with current",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 56,
+    "role": "Female Pictilis Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Female Pictilis Anthias is easiest to spot by upper-water anthias profile, male display coloration, and female phase patterning on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Female Pictilis Anthias stands out for upper-water anthias profile, male display coloration, and female phase patterning more than for brute size alone. It works best when the buyer's system can honestly support sex-phase expectations and whether the buyer wants that display phase, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile, male display coloration, and female phase patterning.",
+      "Venta correcta: conversar sobre sex-phase expectations and whether the buyer wants that display phase.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 70+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Female Pictilis Anthias.",
+      "Compradores que entienden sex-phase expectations and whether the buyer wants that display phase."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Female Pictilis Anthias.",
+      "Sistemas que no pueden sostener sex-phase expectations and whether the buyer wants that display phase."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile, male display coloration, and female phase patterning y luego aterrizar la conversación en sex-phase expectations and whether the buyer wants that display phase.",
+    "photoTitle": "Pseudanthias pictilis",
+    "inStock": false,
+    "badges": [
+      "Male",
+      "Female"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Female Pictilis Anthias",
+    "overview_es": "Female Pictilis Anthias destaca por upper-water anthias profile, male display coloration, and female phase patterning más que por tamaño bruto. La venta correcta depende de sex-phase expectations and whether the buyer wants that display phase y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Female Pictilis Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Female Pictilis Anthias brings upper-water anthias profile, male display coloration, and female phase patterning on a slim open-water anthias, but the sale still needs an honest talk about sex-phase expectations and whether the buyer wants that display phase. Plan on at least 70+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile, male display coloration, and female phase patterning, carried on a slim open-water anthias. That combination is what separates Female Pictilis Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Female Pictilis Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Female Pictilis Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Female Pictilis Anthias suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "purple-pygmy-anthias-luzonichthys-waitei",
+    "name": "Purple Pygmy Anthias",
+    "aliases": [
+      "Purple Pygmy",
+      "Waitei anthias"
+    ],
+    "scientific": "Luzonichthys waitei",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 70,
+    "stockSize": "Small",
+    "maxSize": "3 in",
+    "minTank": "55+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Open reef edges and current lanes",
+    "tankCode": "",
+    "aggression": 8,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 48,
+    "role": "Purple Pygmy Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Purple Pygmy Anthias is easiest to spot by upper-water anthias profile on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Purple Pygmy Anthias stands out for upper-water anthias profile more than for brute size alone. It works best when the buyer's system can honestly support frequent feeding and stable group dynamics, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile.",
+      "Venta correcta: conversar sobre frequent feeding and stable group dynamics.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 55+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Purple Pygmy Anthias.",
+      "Compradores que entienden frequent feeding and stable group dynamics."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Purple Pygmy Anthias.",
+      "Sistemas que no pueden sostener frequent feeding and stable group dynamics."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile y luego aterrizar la conversación en frequent feeding and stable group dynamics.",
+    "photoTitle": "Luzonichthys waitei",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Purple Pygmy Anthias",
+    "overview_es": "Purple Pygmy Anthias destaca por upper-water anthias profile más que por tamaño bruto. La venta correcta depende de frequent feeding and stable group dynamics y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Purple Pygmy Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Purple Pygmy Anthias brings upper-water anthias profile on a slim open-water anthias, but the sale still needs an honest talk about frequent feeding and stable group dynamics. Plan on at least 55+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile, carried on a slim open-water anthias. That combination is what separates Purple Pygmy Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Purple Pygmy Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Purple Pygmy Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Purple Pygmy Anthias suits a buyer whose tank plan already matches the species. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "red-saddled-anthias-pyronotanthias-flavoguttatus",
+    "name": "Red Saddled Anthias",
+    "aliases": [
+      "Red Saddled",
+      "Flavoguttatus anthias"
+    ],
+    "scientific": "Pyronotanthias flavoguttatus",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 120,
+    "stockSize": "Small",
+    "maxSize": "5 in",
+    "minTank": "70+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Open-water reef slopes with current",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 56,
+    "role": "Red Saddled Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Red Saddled Anthias is easiest to spot by a saddle-like body bar and upper-water anthias profile on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Red Saddled Anthias stands out for a saddle-like body bar and upper-water anthias profile more than for brute size alone. It works best when the buyer's system can honestly support frequent feeding and stable group dynamics, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: a saddle-like body bar and upper-water anthias profile.",
+      "Venta correcta: conversar sobre frequent feeding and stable group dynamics.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 70+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Red Saddled Anthias.",
+      "Compradores que entienden frequent feeding and stable group dynamics."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Red Saddled Anthias.",
+      "Sistemas que no pueden sostener frequent feeding and stable group dynamics."
+    ],
+    "staffNote": "Punto de venta: resaltar a saddle-like body bar and upper-water anthias profile y luego aterrizar la conversación en frequent feeding and stable group dynamics.",
+    "photoTitle": "Pyronotanthias flavoguttatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Red Saddled Anthias",
+    "overview_es": "Red Saddled Anthias destaca por a saddle-like body bar and upper-water anthias profile más que por tamaño bruto. La venta correcta depende de frequent feeding and stable group dynamics y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Red Saddled Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Red Saddled Anthias brings a saddle-like body bar and upper-water anthias profile on a slim open-water anthias, but the sale still needs an honest talk about frequent feeding and stable group dynamics. Plan on at least 70+ gal.",
+    "recognitionNotes": "Fastest ID cue: a saddle-like body bar and upper-water anthias profile, carried on a slim open-water anthias. That combination is what separates Red Saddled Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Red Saddled Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Red Saddled Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Red Saddled Anthias suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "smithvanizi-princess-anthias-pyronotanthias-smithvanizi",
+    "name": "Smithvanizi Princess Anthias",
+    "aliases": [
+      "Smithvanizi Princess",
+      "Smithvanizi anthias"
+    ],
+    "scientific": "Pyronotanthias smithvanizi",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 130,
+    "stockSize": "Small",
+    "maxSize": "5 in",
+    "minTank": "70+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Open-water reef slopes with current",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 56,
+    "role": "Smithvanizi Princess Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Smithvanizi Princess Anthias is easiest to spot by upper-water anthias profile on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Smithvanizi Princess Anthias stands out for upper-water anthias profile more than for brute size alone. It works best when the buyer's system can honestly support frequent feeding and stable group dynamics, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile.",
+      "Venta correcta: conversar sobre frequent feeding and stable group dynamics.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 70+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Smithvanizi Princess Anthias.",
+      "Compradores que entienden frequent feeding and stable group dynamics."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Smithvanizi Princess Anthias.",
+      "Sistemas que no pueden sostener frequent feeding and stable group dynamics."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile y luego aterrizar la conversación en frequent feeding and stable group dynamics.",
+    "photoTitle": "Pyronotanthias smithvanizi",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Smithvanizi Princess Anthias",
+    "overview_es": "Smithvanizi Princess Anthias destaca por upper-water anthias profile más que por tamaño bruto. La venta correcta depende de frequent feeding and stable group dynamics y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Smithvanizi Princess Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Smithvanizi Princess Anthias brings upper-water anthias profile on a slim open-water anthias, but the sale still needs an honest talk about frequent feeding and stable group dynamics. Plan on at least 70+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile, carried on a slim open-water anthias. That combination is what separates Smithvanizi Princess Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Smithvanizi Princess Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Smithvanizi Princess Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Smithvanizi Princess Anthias suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "squareback-female-anthias-pseudanthias-pleurotaenia",
+    "name": "Squareback Female Anthias",
+    "aliases": [
+      "Squareback Female",
+      "Squareback Anthias",
+      "Pleurotaenia anthias"
+    ],
+    "scientific": "Pseudanthias pleurotaenia",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 75,
+    "stockSize": "Small",
+    "maxSize": "5 in",
+    "minTank": "70+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Open-water reef slopes with current",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 56,
+    "role": "Squareback Female Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Squareback Female Anthias is easiest to spot by upper-water anthias profile, male display coloration, and female phase patterning on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Squareback Female Anthias stands out for upper-water anthias profile, male display coloration, and female phase patterning more than for brute size alone. It works best when the buyer's system can honestly support sex-phase expectations and whether the buyer wants that display phase, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile, male display coloration, and female phase patterning.",
+      "Venta correcta: conversar sobre sex-phase expectations and whether the buyer wants that display phase.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 70+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Squareback Female Anthias.",
+      "Compradores que entienden sex-phase expectations and whether the buyer wants that display phase."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Squareback Female Anthias.",
+      "Sistemas que no pueden sostener sex-phase expectations and whether the buyer wants that display phase."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile, male display coloration, and female phase patterning y luego aterrizar la conversación en sex-phase expectations and whether the buyer wants that display phase.",
+    "photoTitle": "Pseudanthias pleurotaenia",
+    "inStock": false,
+    "badges": [
+      "Male",
+      "Female"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Squareback Female Anthias",
+    "overview_es": "Squareback Female Anthias destaca por upper-water anthias profile, male display coloration, and female phase patterning más que por tamaño bruto. La venta correcta depende de sex-phase expectations and whether the buyer wants that display phase y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Squareback Female Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Squareback Female Anthias brings upper-water anthias profile, male display coloration, and female phase patterning on a slim open-water anthias, but the sale still needs an honest talk about sex-phase expectations and whether the buyer wants that display phase. Plan on at least 70+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile, male display coloration, and female phase patterning, carried on a slim open-water anthias. That combination is what separates Squareback Female Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Squareback Female Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Squareback Female Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Squareback Female Anthias suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "male-stocky-anthias-pseudanthias-hypselosoma",
+    "name": "Male Stocky Anthias",
+    "aliases": [
+      "Stocky, Male",
+      "Stocky Male",
+      "Stocky Anthias",
+      "Hypselosoma anthias"
+    ],
+    "scientific": "Pseudanthias hypselosoma",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 100,
+    "stockSize": "Small",
+    "maxSize": "5 in",
+    "minTank": "70+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Open-water reef slopes with current",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 56,
+    "role": "Male Stocky Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Male Stocky Anthias is easiest to spot by upper-water anthias profile and male display coloration on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Male Stocky Anthias stands out for upper-water anthias profile and male display coloration more than for brute size alone. It works best when the buyer's system can honestly support sex-phase expectations and whether the buyer wants that display phase, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile and male display coloration.",
+      "Venta correcta: conversar sobre sex-phase expectations and whether the buyer wants that display phase.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 70+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Male Stocky Anthias.",
+      "Compradores que entienden sex-phase expectations and whether the buyer wants that display phase."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Male Stocky Anthias.",
+      "Sistemas que no pueden sostener sex-phase expectations and whether the buyer wants that display phase."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile and male display coloration y luego aterrizar la conversación en sex-phase expectations and whether the buyer wants that display phase.",
+    "photoTitle": "Pseudanthias hypselosoma",
+    "inStock": false,
+    "badges": [
+      "Male"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Male Stocky Anthias",
+    "overview_es": "Male Stocky Anthias destaca por upper-water anthias profile and male display coloration más que por tamaño bruto. La venta correcta depende de sex-phase expectations and whether the buyer wants that display phase y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Male Stocky Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Male Stocky Anthias brings upper-water anthias profile and male display coloration on a slim open-water anthias, but the sale still needs an honest talk about sex-phase expectations and whether the buyer wants that display phase. Plan on at least 70+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile and male display coloration, carried on a slim open-water anthias. That combination is what separates Male Stocky Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Male Stocky Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Male Stocky Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Male Stocky Anthias suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "male-hutchi-anthias-pseudanthias-hutchi",
+    "name": "Male Hutchi Anthias",
+    "aliases": [
+      "Hutchi, Male",
+      "Hutchi Male",
+      "Hutchi Anthias"
+    ],
+    "scientific": "Pseudanthias hutchi",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 100,
+    "stockSize": "Small",
+    "maxSize": "5 in",
+    "minTank": "70+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Open-water reef slopes with current",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 56,
+    "role": "Male Hutchi Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Male Hutchi Anthias is easiest to spot by upper-water anthias profile and male display coloration on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Male Hutchi Anthias stands out for upper-water anthias profile and male display coloration more than for brute size alone. It works best when the buyer's system can honestly support sex-phase expectations and whether the buyer wants that display phase, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile and male display coloration.",
+      "Venta correcta: conversar sobre sex-phase expectations and whether the buyer wants that display phase.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 70+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Male Hutchi Anthias.",
+      "Compradores que entienden sex-phase expectations and whether the buyer wants that display phase."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Male Hutchi Anthias.",
+      "Sistemas que no pueden sostener sex-phase expectations and whether the buyer wants that display phase."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile and male display coloration y luego aterrizar la conversación en sex-phase expectations and whether the buyer wants that display phase.",
+    "photoTitle": "Pseudanthias hutchi",
+    "inStock": false,
+    "badges": [
+      "Male"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Male Hutchi Anthias",
+    "overview_es": "Male Hutchi Anthias destaca por upper-water anthias profile and male display coloration más que por tamaño bruto. La venta correcta depende de sex-phase expectations and whether the buyer wants that display phase y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Male Hutchi Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Male Hutchi Anthias brings upper-water anthias profile and male display coloration on a slim open-water anthias, but the sale still needs an honest talk about sex-phase expectations and whether the buyer wants that display phase. Plan on at least 70+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile and male display coloration, carried on a slim open-water anthias. That combination is what separates Male Hutchi Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Male Hutchi Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Male Hutchi Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Male Hutchi Anthias suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the feeding routine is really just one dump of food per day."
+  },
+  {
+    "id": "male-pictilis-anthias-pseudanthias-pictilis",
+    "name": "Male Pictilis Anthias",
+    "aliases": [
+      "Pictilis, Male",
+      "Pictilis Male",
+      "Pictilis Anthias"
+    ],
+    "scientific": "Pseudanthias pictilis",
+    "category": "Anthias",
+    "type": "Saltwater Fish",
+    "price": 140,
+    "stockSize": "Small",
+    "maxSize": "5 in",
+    "minTank": "70+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Planktivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Open-water reef slopes with current",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 56,
+    "role": "Male Pictilis Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "visualCue": "Male Pictilis Anthias is easiest to spot by upper-water anthias profile and male display coloration on a slim open-water anthias; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Male Pictilis Anthias stands out for upper-water anthias profile and male display coloration more than for brute size alone. It works best when the buyer's system can honestly support sex-phase expectations and whether the buyer wants that display phase, because this is not the kind of anthias that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: upper-water anthias profile and male display coloration.",
+      "Venta correcta: conversar sobre sex-phase expectations and whether the buyer wants that display phase.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 70+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Male Pictilis Anthias.",
+      "Compradores que entienden sex-phase expectations and whether the buyer wants that display phase."
+    ],
+    "cautionWith": [
+      "The feeding routine is really just one dump of food per day.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Male Pictilis Anthias.",
+      "Sistemas que no pueden sostener sex-phase expectations and whether the buyer wants that display phase."
+    ],
+    "staffNote": "Punto de venta: resaltar upper-water anthias profile and male display coloration y luego aterrizar la conversación en sex-phase expectations and whether the buyer wants that display phase.",
+    "photoTitle": "Pseudanthias pictilis",
+    "inStock": false,
+    "badges": [
+      "Male"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Male Pictilis Anthias",
+    "overview_es": "Male Pictilis Anthias destaca por upper-water anthias profile and male display coloration más que por tamaño bruto. La venta correcta depende de sex-phase expectations and whether the buyer wants that display phase y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Male Pictilis Anthias — upper-water planktivore for motion, color, and repeated feeding",
+    "diet_es": "Planctívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Male Pictilis Anthias brings upper-water anthias profile and male display coloration on a slim open-water anthias, but the sale still needs an honest talk about sex-phase expectations and whether the buyer wants that display phase. Plan on at least 70+ gal.",
+    "recognitionNotes": "Fastest ID cue: upper-water anthias profile and male display coloration, carried on a slim open-water anthias. That combination is what separates Male Pictilis Anthias from plainer lookalikes in the same lane.",
+    "behavior": "Male Pictilis Anthias is built to stay in the water column and pulse through open space rather than perching on the bottom or hiding in one cave all day. Anthias usually look best when they have calm tankmates, good flow, and enough social structure or open room to keep moving naturally.",
+    "feedingNotes": "Feed Male Pictilis Anthias like a planktivore: repeated small plankton-sized meals, fine frozen fare, and small pellets once settled.",
+    "buyingGuidance": "Male Pictilis Anthias suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the feeding routine is really just one dump of food per day."
   }
 ];

@@ -894,24 +894,12 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
       "Diet in this catalog: Carnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -967,24 +955,12 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
       "Diet in this catalog: Carnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Easy",
@@ -1040,24 +1016,12 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
       "Diet in this catalog: Carnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -1077,5 +1041,585 @@ window.LTC_SPECIES_CHUNKS["Basslets & Dottybacks"] = [
     "feedingNotes": "Offer small meaty foods and avoid making timid tankmates compete with a fish that is already confident around caves and feeding stations. Catalog diet listing: Carnivore.",
     "buyingGuidance": "Great for aquarists who want color in the rockwork, but not for people expecting every small fish to behave like a passive schooling fish.",
     "recognitionNotes": "Look for a small cave-oriented fish with strong color contrast and confident darting behavior near rockwork."
+  },
+  {
+    "id": "blue-assessor",
+    "name": "Blue Assessor",
+    "name_es": "Assessor Azul",
+    "aliases": [
+      "Yellow Assessor"
+    ],
+    "scientific": "Assessor macneilli",
+    "category": "Basslets & Dottybacks",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Western Pacific",
+    "origin_es": "Pacífico Occidental",
+    "habitat": "Caves, ledges, and shaded rockwork",
+    "tankCode": "",
+    "aggression": 10,
+    "coralRisk": 2,
+    "invertRisk": 2,
+    "careDifficulty": 20,
+    "role": "Peaceful blue cave fish famous for upside-down swimming",
+    "role_es": "Pez azul de cuevas famoso por nadar boca abajo",
+    "visualCue": "Solid deep blue body and fins, often hovering upside down beneath overhangs.",
+    "overview": "One of the coolest small reef fish for customers who appreciate behavior as much as color. The intense blue is already strong, but the real hook is the strange upside-down posture under ledges and in caves.",
+    "overview_es": "Uno de los peces pequeños de arrecife más interesantes por su color azul intenso y su raro hábito de nadar boca abajo bajo salientes.",
+    "facts": [
+      "ORA notes a maximum size of about 3 inches in reef aquariums.",
+      "Prepared frozen and dry foods are usually accepted well.",
+      "Multiple assessors need abundant cave structure or a larger tank because they can be territorial with their own kind."
+    ],
+    "bestWith": [
+      "Peaceful community reefs",
+      "Ledge-heavy aquascapes",
+      "Customers wanting unusual behavior without aggression"
+    ],
+    "cautionWith": [
+      "Congener groups in small tanks",
+      "Bare brightly lit scapes with little overhang cover",
+      "Aggressive fish that dominate the caves"
+    ],
+    "staffNote": "Show off the upside-down swimming. That is usually the moment the customer gets it.",
+    "photoTitle": "Assessor macneilli",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "headerSummary": "Deep blue cave fish that often swims upside down under ledges. Peaceful, distinctive, and much more behaviorally interesting than a simple color fish.",
+    "seasonal": null,
+    "behavior": "Usually hugs the shadow line under caves and overhangs, where it hovers in one spot or drifts short distances while inverted. That posture is not stress behavior — it is one of the defining assessor traits when they feel secure.",
+    "feedingNotes": "Frozen meaty foods and prepared diets are generally taken well once acclimated. Feed gently into the structure where the fish actually lives instead of expecting bold surface feeding from day one.",
+    "buyingGuidance": "An excellent recommendation for reef keepers who want something genuinely different without stepping into specialist care. The best tanks give it caves, calm tankmates, and room to display the upside-down ledge behavior.",
+    "recognitionNotes": "Solid deep blue body and the tendency to hover upside down beneath rock ledges or overhangs."
+  },
+  {
+    "id": "yellow-dottyback",
+    "name": "Yellow Dottyback",
+    "name_es": "Dottyback Amarillo",
+    "aliases": [
+      "Canary Dottyback"
+    ],
+    "scientific": "Pseudochromis fuscus",
+    "category": "Basslets & Dottybacks",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Western Pacific",
+    "origin_es": "Pacífico Occidental",
+    "habitat": "Rock crevices and compact reef structure",
+    "tankCode": "",
+    "aggression": 42,
+    "coralRisk": 2,
+    "invertRisk": 10,
+    "careDifficulty": 24,
+    "role": "Bright yellow semi-aggressive dottyback for tougher reef communities",
+    "role_es": "Dottyback amarillo para comunidades más firmes",
+    "visualCue": "Sunflower-yellow body with the compact muscular shape typical of assertive dottybacks.",
+    "overview": "A lot of color packed into a very confident little fish. This is not one for timid nano communities, but it is a strong option when the customer wants a small fish with attitude for a tougher reef or fish-only mix.",
+    "overview_es": "Mucho color y mucha actitud en un pez pequeño. No es para acuarios tímidos, pero sí para montajes más firmes donde se quiera un pez intenso.",
+    "facts": [
+      "ORA describes it as a high-energy fish that belongs in semi-aggressive systems rather than peaceful communities.",
+      "It will defend a rockwork home vigorously despite small size.",
+      "Use this as a color-and-attitude recommendation, not as a peaceful nano filler fish."
+    ],
+    "bestWith": [
+      "Semi-aggressive reefs",
+      "Boisterous but compatible community fish",
+      "Customers who understand dottyback attitude"
+    ],
+    "cautionWith": [
+      "Peaceful nano fish",
+      "Tiny ornamental shrimp",
+      "Shoppers expecting all small yellow fish to be community-safe"
+    ],
+    "staffNote": "Beautiful fish, but do not undersell the attitude.",
+    "photoTitle": "Pseudochromis fuscus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "headerSummary": "Sunflower-yellow dottyback with real attitude. Great for semi-aggressive systems, not for peaceful nano communities.",
+    "seasonal": null,
+    "behavior": "Claims caves and short rock corridors quickly, then patrols them with the confidence of a much larger fish. It can coexist well in the right setup, but it behaves like a territorial dottyback first and a pretty yellow accent second.",
+    "feedingNotes": "Easy to feed on meaty frozen and prepared foods. The real issue is not feeding difficulty but making sure customers understand this fish is confident enough to turn feeding time into a territory statement in small tanks.",
+    "buyingGuidance": "Sell this to aquarists deliberately building a firmer community, not to shoppers filling in a peaceful mixed nano. The color is excellent, but the success story comes from matching the fish to a system that can absorb that attitude.",
+    "recognitionNotes": "A compact all-yellow dottyback with a bold stance and the body shape of a fish that intends to own its cave."
+  },
+  {
+    "id": "black-margin-dottyback",
+    "name": "Black Margin Dottyback",
+    "name_es": "Dottyback de Margen Negro",
+    "aliases": [
+      "Horseshoe-Tailed Dottyback"
+    ],
+    "scientific": "Pseudochromis tapeinosoma",
+    "category": "Basslets & Dottybacks",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Moderate",
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Indo-Pacific",
+    "origin_es": "Indo-Pacífico",
+    "habitat": "Tight rock crevices and cave systems",
+    "tankCode": "",
+    "aggression": 34,
+    "coralRisk": 2,
+    "invertRisk": 10,
+    "careDifficulty": 26,
+    "role": "Rare-looking dottyback with mood-shifting color and more character than size",
+    "role_es": "Dottyback llamativo y poco común con mucho carácter",
+    "visualCue": "Male shows yellow body with blue spangles and a dark horseshoe-like dorsal stripe around the tail.",
+    "overview": "A more unusual dottyback that feels special even next to already-popular pseudochromis species. The changing intensity of the male coloration is part of the appeal, but the care story still centers on territorial rockwork behavior.",
+    "overview_es": "Un dottyback menos común, con color muy atractivo y comportamiento territorial típico del grupo.",
+    "facts": [
+      "ORA describes females as gray with a yellow tail and males as yellow with blue spangles and a dark horseshoe dorsal stripe.",
+      "Color intensity shifts with mood, making the fish look different depending on comfort and social context.",
+      "Like many dottybacks, it should not be sold as if rarity automatically means peaceful."
+    ],
+    "bestWith": [
+      "Rock-heavy reefs",
+      "Aquarists who appreciate unusual dottybacks",
+      "Semi-aggressive communities with defined territories"
+    ],
+    "cautionWith": [
+      "Small passive bottom dwellers",
+      "Tiny ornamental shrimp",
+      "Tanks too small to break sight lines"
+    ],
+    "staffNote": "Great premium dottyback when someone wants something less common than orchid or springeri.",
+    "photoTitle": "Pseudochromis tapeinosoma",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "headerSummary": "Distinctive dottyback with rare look, shifting mood color, and the same territorial cave-owner personality expected from a serious pseudochromis.",
+    "seasonal": null,
+    "behavior": "Acts like a classic cave-owning dottyback: quick bursts through rockwork, confident feeding, and strong defense of a chosen corridor or hideout. The difference is the more unusual color story rather than softer behavior.",
+    "feedingNotes": "Readily accepts meaty frozen and prepared foods. Feed is usually easy; placement is the real question, because customers need enough structure that the fish can claim space without turning the whole lower reef into a dispute zone.",
+    "buyingGuidance": "Best sold as a premium character fish for people who already understand pseudochromis behavior. The rarity and color are the draw, but success still depends on matching that confidence to the right tankmates and aquascape.",
+    "recognitionNotes": "Look for the male’s yellow body, blue spangling, and dark horseshoe-like line that wraps toward the tail region."
+  },
+  {
+    "id": "diadema-dottyback",
+    "name": "Diadema Dottyback",
+    "aliases": [
+      "Sunrise Dottyback"
+    ],
+    "scientific": "Pseudochromis diadema",
+    "category": "Basslets & Dottybacks",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Moderate",
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Western Indian Ocean",
+    "origin_es": "Océano Índico Occidental",
+    "habitat": "Tight reef crevices and rock caves",
+    "tankCode": "",
+    "aggression": 34,
+    "coralRisk": 2,
+    "invertRisk": 10,
+    "careDifficulty": 24,
+    "role": "Bold cave-owning dottyback with strong contrast and classic pseudochromis confidence",
+    "role_es": "Dottyback seguro de sí mismo con fuerte contraste y personalidad típica",
+    "visualCue": "Bright yellow-to-orange face fading into a vivid blue-violet rear body.",
+    "overview": "A great dottyback add because the split-color look is instantly eye-catching, but the behavior is still honest pseudochromis behavior. It is best sold as a compact territorial fish with real personality rather than as a passive little reef decoration.",
+    "overview_es": "Muy llamativo por su color dividido, pero sigue siendo un pseudochromis territorial y con carácter.",
+    "facts": [
+      "The dramatic two-tone front-to-back color split is the visual draw.",
+      "Like other pseudochromis, it does best when rockwork creates real territories instead of one open field.",
+      "This is a good premium step up from orchid-style dottybacks for customers who want more attitude and a rarer look."
+    ],
+    "bestWith": [
+      "Rock-heavy reef tanks",
+      "Semi-aggressive communities",
+      "Customers who like compact fish with visible personality"
+    ],
+    "cautionWith": [
+      "Tiny ornamental shrimp",
+      "Very passive gobies",
+      "Small tanks with no broken sight lines"
+    ],
+    "staffNote": "Recommend as a real pseudochromis, not as a peaceful nano filler fish.",
+    "photoTitle": "Pseudochromis diadema",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Dottyback Diadema",
+    "headerSummary": "Two-tone dottyback with yellow front, blue-violet rear, and the assertive cave-owning behavior expected from pseudochromis.",
+    "seasonal": null,
+    "behavior": "Claims a section of rockwork quickly and then defends that corridor with short fast dashes rather than open-water chasing all day. It feels much bigger than it is once it picks a cave system.",
+    "feedingNotes": "Usually easy to feed on meaty frozen and prepared foods. The challenge is not appetite but social placement, because a confident dottyback can harass weaker fish if the aquascape is too simple.",
+    "buyingGuidance": "A strong recommendation for customers who actively want a compact territorial character fish. The right sale centers on rock structure, tankmate confidence, and honest expectations about pseudochromis behavior.",
+    "recognitionNotes": "Look for the sharp transition from warm yellow-orange front half to vivid blue-violet rear half."
+  },
+  {
+    "id": "elongate-dottyback",
+    "name": "Elongate Dottyback",
+    "aliases": [
+      "Long Dottyback"
+    ],
+    "scientific": "Pseudochromis elongatus",
+    "category": "Basslets & Dottybacks",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "2.5 in",
+    "minTank": "20+ gal",
+    "careLabel": "Moderate",
+    "diet": "Carnivore",
+    "diet_es": "Carnívoro",
+    "origin": "Western Pacific",
+    "origin_es": "Pacífico Occidental",
+    "habitat": "Branching coral heads and narrow reef crevices",
+    "tankCode": "",
+    "aggression": 30,
+    "coralRisk": 2,
+    "invertRisk": 8,
+    "careDifficulty": 24,
+    "role": "Slim vivid-purple pseudochromis that looks elegant but still behaves like a serious little territory holder",
+    "role_es": "Pseudochromis delgado y púrpura con mucho carácter",
+    "visualCue": "Long slender body with strong magenta-purple tone and narrow dottyback profile.",
+    "overview": "This one stands out by shape as much as color. The elongated body gives it a more refined look than stockier dottybacks, but the care conversation is still about territory, crevices, and not underestimating a small pseudochromis.",
+    "overview_es": "Su forma alargada lo hace ver distinto, pero sigue siendo un dottyback territorial.",
+    "facts": [
+      "The longer body profile makes it look more elegant than many common dottybacks.",
+      "It still wants rock cover and a defined territory just like the rest of the group.",
+      "This is the kind of fish that appeals to customers who want a small purple show fish with more edge than a basslet."
+    ],
+    "bestWith": [
+      "Reef tanks with lots of structure",
+      "Semi-aggressive small fish communities",
+      "Aquarists who appreciate uncommon pseudochromis species"
+    ],
+    "cautionWith": [
+      "Tiny shy fish",
+      "Very small shrimp",
+      "Sparse nano tanks"
+    ],
+    "staffNote": "Nice premium dottyback for customers who want purple color without just defaulting to royal gramma again.",
+    "photoTitle": "Pseudochromis elongatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Dottyback Alargado",
+    "headerSummary": "Elegant long-bodied purple dottyback with all the usual pseudochromis cave-ownership attitude in a more refined-looking package.",
+    "seasonal": null,
+    "behavior": "Works in and around narrow rock lanes, shooting out to grab food and then dropping back into cover. The long slim body gives it a graceful look, but the social behavior is still dottyback logic rather than basslet softness.",
+    "feedingNotes": "Easy on meaty foods and prepared diets once settled. The bigger success factor is making sure it is not jammed into a tiny peaceful fish mix where its territorial side becomes the whole story.",
+    "buyingGuidance": "Best sold to someone who wants a compact semi-aggressive purple fish and understands the difference between a dottyback and a gentle hover fish. The fish rewards good aquascaping more than extra pampering.",
+    "recognitionNotes": "Look for the narrow elongated body and rich magenta-purple color compared with stockier dottybacks."
+  },
+  {
+    "id": "belted-sandfish-basslet-serranus-subligarius",
+    "name": "Belted Sandfish Basslet",
+    "aliases": [
+      "Belted Sandfish",
+      "Subligarius basslet or dottyback"
+    ],
+    "scientific": "Serranus subligarius",
+    "category": "Basslets & Dottybacks",
+    "type": "Saltwater Fish",
+    "price": 40,
+    "stockSize": "Medium",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "careLabel": "Easy",
+    "diet": "Carnivore",
+    "origin": "Western Atlantic and Caribbean",
+    "habitat": "Rock crevices and ledges",
+    "tankCode": "",
+    "aggression": 18,
+    "coralRisk": 5,
+    "invertRisk": 12,
+    "careDifficulty": 28,
+    "role": "Belted Sandfish Basslet — small cave fish sold around territory and tankmate fit",
+    "visualCue": "Belted Sandfish Basslet is easiest to spot by the 'belted sandfish' look used in the trade name on a compact cave-oriented fish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Belted Sandfish Basslet stands out for the 'belted sandfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support territory and tankmate pressure, because this is not the kind of basslet or dottyback that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'belted sandfish' look used in the trade name.",
+      "Venta correcta: conversar sobre territory and tankmate pressure.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Belted Sandfish Basslet.",
+      "Compradores que entienden territory and tankmate pressure."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Belted Sandfish Basslet.",
+      "Sistemas que no pueden sostener territory and tankmate pressure."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'belted sandfish' look used in the trade name y luego aterrizar la conversación en territory and tankmate pressure.",
+    "photoTitle": "Serranus subligarius",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Belted Sandfish Basslet",
+    "overview_es": "Belted Sandfish Basslet destaca por the 'belted sandfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de territory and tankmate pressure y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Belted Sandfish Basslet — small cave fish sold around territory and tankmate fit",
+    "diet_es": "Carnívoro",
+    "origin_es": "Atlántico occidental y Caribe",
+    "headerSummary": "Belted Sandfish Basslet brings the 'belted sandfish' look used in the trade name on a compact cave-oriented fish, but the sale still needs an honest talk about territory and tankmate pressure. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'belted sandfish' look used in the trade name, carried on a compact cave-oriented fish. That combination is what separates Belted Sandfish Basslet from plainer lookalikes in the same lane.",
+    "behavior": "Belted Sandfish Basslet works the rockwork like a small ambush predator, staying close to caves and making short assertive runs when food or territory is involved. The fish can be fascinating in a properly matched tank and exhausting in a cramped one.",
+    "feedingNotes": "Feed Belted Sandfish Basslet with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Belted Sandfish Basslet suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "harlequin-basslet-serranus-tigrinus",
+    "name": "Harlequin Basslet",
+    "aliases": [
+      "Harlequin",
+      "Tigrinus basslet or dottyback"
+    ],
+    "scientific": "Serranus tigrinus",
+    "category": "Basslets & Dottybacks",
+    "type": "Saltwater Fish",
+    "price": 40,
+    "stockSize": "Medium",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "careLabel": "Easy",
+    "diet": "Carnivore",
+    "origin": "Western Atlantic and Caribbean",
+    "habitat": "Rock crevices and ledges",
+    "tankCode": "",
+    "aggression": 18,
+    "coralRisk": 5,
+    "invertRisk": 12,
+    "careDifficulty": 28,
+    "role": "Harlequin Basslet — small cave fish sold around territory and tankmate fit",
+    "visualCue": "Harlequin Basslet is easiest to spot by the 'harlequin' look used in the trade name on a compact cave-oriented fish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Harlequin Basslet stands out for the 'harlequin' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support territory and tankmate pressure, because this is not the kind of basslet or dottyback that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'harlequin' look used in the trade name.",
+      "Venta correcta: conversar sobre territory and tankmate pressure.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Harlequin Basslet.",
+      "Compradores que entienden territory and tankmate pressure."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Harlequin Basslet.",
+      "Sistemas que no pueden sostener territory and tankmate pressure."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'harlequin' look used in the trade name y luego aterrizar la conversación en territory and tankmate pressure.",
+    "photoTitle": "Serranus tigrinus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Harlequin Basslet",
+    "overview_es": "Harlequin Basslet destaca por the 'harlequin' look used in the trade name más que por tamaño bruto. La venta correcta depende de territory and tankmate pressure y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Harlequin Basslet — small cave fish sold around territory and tankmate fit",
+    "diet_es": "Carnívoro",
+    "origin_es": "Atlántico occidental y Caribe",
+    "headerSummary": "Harlequin Basslet brings the 'harlequin' look used in the trade name on a compact cave-oriented fish, but the sale still needs an honest talk about territory and tankmate pressure. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'harlequin' look used in the trade name, carried on a compact cave-oriented fish. That combination is what separates Harlequin Basslet from plainer lookalikes in the same lane.",
+    "behavior": "Harlequin Basslet works the rockwork like a small ambush predator, staying close to caves and making short assertive runs when food or territory is involved. The fish can be fascinating in a properly matched tank and exhausting in a cramped one.",
+    "feedingNotes": "Feed Harlequin Basslet with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Harlequin Basslet suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "lantern-basslet-serranus-baldwini",
+    "name": "Lantern Basslet",
+    "aliases": [
+      "Lantern",
+      "Baldwini basslet or dottyback"
+    ],
+    "scientific": "Serranus baldwini",
+    "category": "Basslets & Dottybacks",
+    "type": "Saltwater Fish",
+    "price": 40,
+    "stockSize": "Medium",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "careLabel": "Easy",
+    "diet": "Carnivore",
+    "origin": "Western Atlantic and Caribbean",
+    "habitat": "Rock crevices and ledges",
+    "tankCode": "",
+    "aggression": 18,
+    "coralRisk": 5,
+    "invertRisk": 12,
+    "careDifficulty": 28,
+    "role": "Lantern Basslet — small cave fish sold around territory and tankmate fit",
+    "visualCue": "Lantern Basslet is easiest to spot by the 'lantern' look used in the trade name on a compact cave-oriented fish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Lantern Basslet stands out for the 'lantern' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support territory and tankmate pressure, because this is not the kind of basslet or dottyback that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'lantern' look used in the trade name.",
+      "Venta correcta: conversar sobre territory and tankmate pressure.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Lantern Basslet.",
+      "Compradores que entienden territory and tankmate pressure."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Lantern Basslet.",
+      "Sistemas que no pueden sostener territory and tankmate pressure."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'lantern' look used in the trade name y luego aterrizar la conversación en territory and tankmate pressure.",
+    "photoTitle": "Serranus baldwini",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Lantern Basslet",
+    "overview_es": "Lantern Basslet destaca por the 'lantern' look used in the trade name más que por tamaño bruto. La venta correcta depende de territory and tankmate pressure y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Lantern Basslet — small cave fish sold around territory and tankmate fit",
+    "diet_es": "Carnívoro",
+    "origin_es": "Atlántico occidental y Caribe",
+    "headerSummary": "Lantern Basslet brings the 'lantern' look used in the trade name on a compact cave-oriented fish, but the sale still needs an honest talk about territory and tankmate pressure. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'lantern' look used in the trade name, carried on a compact cave-oriented fish. That combination is what separates Lantern Basslet from plainer lookalikes in the same lane.",
+    "behavior": "Lantern Basslet works the rockwork like a small ambush predator, staying close to caves and making short assertive runs when food or territory is involved. The fish can be fascinating in a properly matched tank and exhausting in a cramped one.",
+    "feedingNotes": "Feed Lantern Basslet with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Lantern Basslet suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "damperia-dottyback-labracinus-cyclophthalmus",
+    "name": "Damperia Dottyback",
+    "aliases": [
+      "Damperia",
+      "Cyclophthalmus basslet or dottyback"
+    ],
+    "scientific": "Labracinus cyclophthalmus",
+    "category": "Basslets & Dottybacks",
+    "type": "Saltwater Fish",
+    "price": 40,
+    "stockSize": "Medium",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 38,
+    "coralRisk": 28,
+    "invertRisk": 20,
+    "careDifficulty": 42,
+    "role": "Damperia Dottyback — small cave fish sold around territory and tankmate fit",
+    "visualCue": "Damperia Dottyback is easiest to spot by the 'damperia' look used in the trade name on a compact cave-oriented fish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Damperia Dottyback stands out for the 'damperia' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support territory and tankmate pressure, because this is not the kind of basslet or dottyback that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'damperia' look used in the trade name.",
+      "Venta correcta: conversar sobre territory and tankmate pressure.",
+      "Riesgo clave: some coral trade-off, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 20+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Damperia Dottyback.",
+      "Compradores que entienden territory and tankmate pressure."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Damperia Dottyback.",
+      "Sistemas que no pueden sostener territory and tankmate pressure."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'damperia' look used in the trade name y luego aterrizar la conversación en territory and tankmate pressure.",
+    "photoTitle": "Labracinus cyclophthalmus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Damperia Dottyback",
+    "overview_es": "Damperia Dottyback destaca por the 'damperia' look used in the trade name más que por tamaño bruto. La venta correcta depende de territory and tankmate pressure y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Damperia Dottyback — small cave fish sold around territory and tankmate fit",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Damperia Dottyback brings the 'damperia' look used in the trade name on a compact cave-oriented fish, but the sale still needs an honest talk about territory and tankmate pressure. Plan on at least 20+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'damperia' look used in the trade name, carried on a compact cave-oriented fish. That combination is what separates Damperia Dottyback from plainer lookalikes in the same lane.",
+    "behavior": "Damperia Dottyback works the rockwork like a small ambush predator, staying close to caves and making short assertive runs when food or territory is involved. The fish can be fascinating in a properly matched tank and exhausting in a cramped one.",
+    "feedingNotes": "Feed Damperia Dottyback with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Damperia Dottyback suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
   }
 ];

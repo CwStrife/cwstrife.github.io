@@ -1,3 +1,4 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Crabs"] = [
   {
     "id": "emerald-crab",
@@ -43,11 +44,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Cangrejo Esmeralda",
@@ -107,11 +108,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Cangrejo Ermitaño Halloween",
@@ -169,11 +170,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Ermitaño Escarlata",
@@ -232,11 +233,11 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Ermitaño Pata Azul",
@@ -1242,5 +1243,201 @@ window.LTC_SPECIES_CHUNKS["Crabs"] = [
     "feedingNotes": "Hermits scavenge aggressively but should still get enough food support that they are not competing desperately with snails and each other. Occasional pellets, fine frozen foods, and algae support keep crews calmer.",
     "buyingGuidance": "Recommend based on cleanup-crew balance and shell availability, not because “crabs are cool.” The smartest hermit sale is usually paired with spare shell advice and a reminder that huge hermit armies create their own problems.",
     "recognitionNotes": "Look for distinctive hermit-crab striping and shell-carrying body."
+  },
+  {
+    "id": "horseshoe-crab-limulus-polyphemus",
+    "name": "Horseshoe Crab",
+    "aliases": [
+      "Horseshoe",
+      "Polyphemus crab"
+    ],
+    "scientific": "Limulus polyphemus",
+    "category": "Crabs",
+    "type": "Invertebrate",
+    "price": 30,
+    "stockSize": "Small",
+    "maxSize": "20 in",
+    "minTank": "180+ gal",
+    "careLabel": "Specialist",
+    "diet": "Scavenger / sand forager",
+    "origin": "Western Atlantic",
+    "habitat": "Cooler shallow sand flats",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 70,
+    "role": "Horseshoe Crab — cleanup or oddball crab sold around reef-safety expectations",
+    "visualCue": "Horseshoe Crab is easiest to spot by the 'horseshoe' look used in the trade name on a armored roaming crab; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Horseshoe Crab stands out for the 'horseshoe' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support reef safety and whether the customer wants a scavenger or a decorative oddball, because this is not the kind of crab that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'horseshoe' look used in the trade name.",
+      "Venta correcta: conversar sobre reef safety and whether the customer wants a scavenger or a decorative oddball.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Horseshoe Crab.",
+      "Compradores que entienden reef safety and whether the customer wants a scavenger or a decorative oddball."
+    ],
+    "cautionWith": [
+      "The customer expects every crab to act like harmless cleanup crew filler.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Horseshoe Crab.",
+      "Sistemas que no pueden sostener reef safety and whether the customer wants a scavenger or a decorative oddball."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'horseshoe' look used in the trade name y luego aterrizar la conversación en reef safety and whether the customer wants a scavenger or a decorative oddball.",
+    "photoTitle": "Limulus polyphemus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Horseshoe Crab",
+    "overview_es": "Horseshoe Crab destaca por the 'horseshoe' look used in the trade name más que por tamaño bruto. La venta correcta depende de reef safety and whether the customer wants a scavenger or a decorative oddball y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Horseshoe Crab — cleanup or oddball cangrejo sold around reef-safety expectations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Atlántico occidental",
+    "headerSummary": "Horseshoe Crab brings the 'horseshoe' look used in the trade name on a armored roaming crab, but the sale still needs an honest talk about reef safety and whether the customer wants a scavenger or a decorative oddball. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'horseshoe' look used in the trade name, carried on a armored roaming crab. That combination is what separates Horseshoe Crab from plainer lookalikes in the same lane.",
+    "behavior": "Horseshoe Crab spends much of the day picking through crevices, rock, or substrate rather than cruising in the open. Crabs and hermits are often helpful, but once they run short on food or shell options they can become much more opportunistic than buyers expect.",
+    "feedingNotes": "Horseshoe Crab will do best with a scavenger-style marine invertebrate diet built around meaty bits, stable calcium, and predictable feeding windows.",
+    "buyingGuidance": "Horseshoe Crab suits a buyer whose tank plan already matches the species. Pass when the customer expects every crab to act like harmless cleanup crew filler."
+  },
+  {
+    "id": "longnose-spider-crab-libinia-dubia",
+    "name": "Longnose Spider Crab",
+    "aliases": [
+      "Spider, Longnose",
+      "Spider Longnose",
+      "Dubia crab"
+    ],
+    "scientific": "Libinia dubia",
+    "category": "Crabs",
+    "type": "Invertebrate",
+    "price": 25,
+    "stockSize": "Small",
+    "maxSize": "4 in",
+    "minTank": "30+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Omnivore / scavenger",
+    "origin": "Western Atlantic",
+    "habitat": "Rock and seagrass shallows",
+    "tankCode": "",
+    "aggression": 8,
+    "coralRisk": 10,
+    "invertRisk": 10,
+    "careDifficulty": 24,
+    "role": "Longnose Spider Crab — cleanup or oddball crab sold around reef-safety expectations",
+    "visualCue": "Longnose Spider Crab is easiest to spot by an extended snout on a armored roaming crab; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Longnose Spider Crab stands out for an extended snout more than for brute size alone. It works best when the buyer's system can honestly support reef safety and whether the customer wants a scavenger or a decorative oddball, because this is not the kind of crab that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: an extended snout.",
+      "Venta correcta: conversar sobre reef safety and whether the customer wants a scavenger or a decorative oddball.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 30+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Longnose Spider Crab.",
+      "Compradores que entienden reef safety and whether the customer wants a scavenger or a decorative oddball."
+    ],
+    "cautionWith": [
+      "The customer expects every crab to act like harmless cleanup crew filler.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Longnose Spider Crab.",
+      "Sistemas que no pueden sostener reef safety and whether the customer wants a scavenger or a decorative oddball."
+    ],
+    "staffNote": "Punto de venta: resaltar an extended snout y luego aterrizar la conversación en reef safety and whether the customer wants a scavenger or a decorative oddball.",
+    "photoTitle": "Libinia dubia",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Longnose Spider Crab",
+    "overview_es": "Longnose Spider Crab destaca por an extended snout más que por tamaño bruto. La venta correcta depende de reef safety and whether the customer wants a scavenger or a decorative oddball y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Longnose Spider Crab — cleanup or oddball cangrejo sold around reef-safety expectations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Atlántico occidental",
+    "headerSummary": "Longnose Spider Crab brings an extended snout on a armored roaming crab, but the sale still needs an honest talk about reef safety and whether the customer wants a scavenger or a decorative oddball. Plan on at least 30+ gal.",
+    "recognitionNotes": "Fastest ID cue: an extended snout, carried on a armored roaming crab. That combination is what separates Longnose Spider Crab from plainer lookalikes in the same lane.",
+    "behavior": "Longnose Spider Crab spends much of the day picking through crevices, rock, or substrate rather than cruising in the open. Crabs and hermits are often helpful, but once they run short on food or shell options they can become much more opportunistic than buyers expect.",
+    "feedingNotes": "Treat Longnose Spider Crab as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Longnose Spider Crab suits a buyer whose tank plan already matches the species. Pass when the customer expects every crab to act like harmless cleanup crew filler."
+  },
+  {
+    "id": "red-tip-hermit-crab-clibanarius-digueti",
+    "name": "Red Tip Hermit Crab",
+    "aliases": [
+      "Red Tip",
+      "Digueti crab"
+    ],
+    "scientific": "Clibanarius digueti",
+    "category": "Crabs",
+    "type": "Invertebrate",
+    "price": 9,
+    "stockSize": "Small",
+    "maxSize": "1.5 in",
+    "minTank": "10+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore / scavenger",
+    "origin": "Eastern Pacific",
+    "habitat": "Shallow intertidal rock and sand",
+    "tankCode": "",
+    "aggression": 4,
+    "coralRisk": 2,
+    "invertRisk": 4,
+    "careDifficulty": 10,
+    "role": "Red Tip Hermit Crab — cleanup or oddball crab sold around reef-safety expectations",
+    "visualCue": "Red Tip Hermit Crab is easiest to spot by the 'red tip hermit' look used in the trade name on a armored roaming crab; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Red Tip Hermit Crab stands out for the 'red tip hermit' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support reef safety and whether the customer wants a scavenger or a decorative oddball, because this is not the kind of crab that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'red tip hermit' look used in the trade name.",
+      "Venta correcta: conversar sobre reef safety and whether the customer wants a scavenger or a decorative oddball.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 10+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Red Tip Hermit Crab.",
+      "Compradores que entienden reef safety and whether the customer wants a scavenger or a decorative oddball."
+    ],
+    "cautionWith": [
+      "The customer expects every crab to act like harmless cleanup crew filler.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Red Tip Hermit Crab.",
+      "Sistemas que no pueden sostener reef safety and whether the customer wants a scavenger or a decorative oddball."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'red tip hermit' look used in the trade name y luego aterrizar la conversación en reef safety and whether the customer wants a scavenger or a decorative oddball.",
+    "photoTitle": "Clibanarius digueti",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Red Tip Hermit Crab",
+    "overview_es": "Red Tip Hermit Crab destaca por the 'red tip hermit' look used in the trade name más que por tamaño bruto. La venta correcta depende de reef safety and whether the customer wants a scavenger or a decorative oddball y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Red Tip Hermit Crab — cleanup or oddball cangrejo sold around reef-safety expectations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Pacífico oriental",
+    "headerSummary": "Red Tip Hermit Crab brings the 'red tip hermit' look used in the trade name on a armored roaming crab, but the sale still needs an honest talk about reef safety and whether the customer wants a scavenger or a decorative oddball. Plan on at least 10+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'red tip hermit' look used in the trade name, carried on a armored roaming crab. That combination is what separates Red Tip Hermit Crab from plainer lookalikes in the same lane.",
+    "behavior": "Red Tip Hermit Crab spends much of the day picking through crevices, rock, or substrate rather than cruising in the open. Crabs and hermits are often helpful, but once they run short on food or shell options they can become much more opportunistic than buyers expect.",
+    "feedingNotes": "Treat Red Tip Hermit Crab as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Red Tip Hermit Crab suits a buyer whose tank plan already matches the species. Pass when the customer expects every crab to act like harmless cleanup crew filler."
   }
 ];

@@ -1,3 +1,4 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Shrimp"] = [
   {
     "id": "cleaner-shrimp",
@@ -44,11 +45,11 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "inStock": true,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Camarón Limpiador",
@@ -109,11 +110,11 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Camarón de Fuego",
@@ -173,11 +174,11 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Camarón Menta",
@@ -238,11 +239,11 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Camarón de Banda de Coral",
@@ -302,11 +303,11 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "inStock": false,
     "badges": [],
     "water": {
-      "ph_low": 8.1,
+      "ph_low": 8,
       "ph_high": 8.4,
       "sal_low": 1.024,
       "sal_high": 1.026,
-      "temp_low": 76,
+      "temp_low": 75,
       "temp_high": 80
     },
     "name_es": "Camarón Sexy",
@@ -1286,24 +1287,12 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
       "Usually do best in groups or pairs only when the system and species support it."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -1323,5 +1312,272 @@ window.LTC_SPECIES_CHUNKS["Shrimp"] = [
     "feedingNotes": "Accept meaty frozen foods, pellets, and leftovers well when they can get to them. Because they often hide, targeted evening feeding may give better results than relying on daytime broadcast feeding.",
     "buyingGuidance": "Recommend them when the aquarist likes the look and understands they are decorative scavengers, not guaranteed reef-safe cleaners. If prized fleshy corals are central to the tank, there are usually safer shrimp choices.",
     "recognitionNotes": "Look for red-and-white striping with a more decorative cave-shrimp presentation."
+  },
+  {
+    "id": "monaco-peppermint-shrimp",
+    "name": "Monaco Peppermint Shrimp",
+    "aliases": [
+      "Monaco Shrimp"
+    ],
+    "scientific": "Lysmata seticaudata",
+    "category": "Shrimp",
+    "type": "Invertebrate",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "2.5 in",
+    "minTank": "10+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore / scavenger",
+    "diet_es": "Omnívoro / carroñero",
+    "origin": "Mediterranean and eastern Atlantic",
+    "origin_es": "Mediterráneo y Atlántico oriental",
+    "habitat": "Rock crevices, shaded rubble, and cave openings",
+    "tankCode": "",
+    "aggression": 4,
+    "coralRisk": 2,
+    "invertRisk": 2,
+    "careDifficulty": 16,
+    "role": "Small cave-dwelling peppermint shrimp with practical scavenger value and a distinct non-Caribbean origin story",
+    "role_es": "Camarón peppermint pequeño y útil para arrecife",
+    "visualCue": "Translucent shrimp with fine red striping and classic peppermint shrimp body shape.",
+    "overview": "A nice shrimp add because it expands the peppermint lane beyond the common Caribbean look and gives the invert section another practical cleaner-scavenger choice. Like other peppermint types, the appeal is subtle utility and reef compatibility rather than flashy show-animal behavior.",
+    "overview_es": "Amplía la línea de peppermint shrimp con otra especie útil, discreta y compatible con arrecife.",
+    "facts": [
+      "Mediterranean peppermint shrimp are valued more for scavenging and subtle utility than for dramatic display behavior.",
+      "As with other peppermint-style shrimp, exact pest-eating expectations should be kept realistic instead of oversold.",
+      "The fish browser benefits from having more than one peppermint-type shrimp option."
+    ],
+    "bestWith": [
+      "Peaceful reef tanks",
+      "Rocky nano and small reef setups",
+      "Customers wanting utility inverts with low drama"
+    ],
+    "cautionWith": [
+      "Large predatory wrasses",
+      "Triggerfish or puffers",
+      "Customers expecting guaranteed pest control miracles"
+    ],
+    "staffNote": "Sell the shrimp honestly as a practical scavenger and peppermint-type cleaner, not as a guaranteed aiptasia machine.",
+    "photoTitle": "Lysmata seticaudata",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Camarón Peppermint de Mónaco",
+    "headerSummary": "Small peppermint-style shrimp that adds subtle utility, scavenging, and reef-safe interest to nano and small reef systems.",
+    "seasonal": null,
+    "behavior": "Usually spends much of the day under ledges or in crevices, then becomes more visible at feeding time and after lights dim. It is a background utility invert rather than a nonstop front-glass showpiece.",
+    "feedingNotes": "Will scavenge broadly but should still be fed small meaty foods and general invert-safe fare. Do not rely on a pest-control fantasy as the sole nutrition plan.",
+    "buyingGuidance": "Easy recommendation for peaceful reefs where the customer wants a practical shrimp and understands that shrimp are prey to many larger fish. The main job here is keeping tankmate compatibility realistic.",
+    "recognitionNotes": "Look for the translucent peppermint-shrimp body with fine red striping and cave-dwelling posture."
+  },
+  {
+    "id": "boggessi-peppermint-shrimp-lysmata-boggessi",
+    "name": "Boggessi Peppermint Shrimp",
+    "aliases": [
+      "Peppermint, Boggessi",
+      "Peppermint Boggessi",
+      "Boggessi shrimp"
+    ],
+    "scientific": "Lysmata boggessi",
+    "category": "Shrimp",
+    "type": "Invertebrate",
+    "price": 25,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "10+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Florida, Gulf of Mexico, and western Atlantic",
+    "habitat": "Reef crevices and cleaning stations",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 18,
+    "role": "Boggessi Peppermint Shrimp — ornamental shrimp sold around predator compatibility and molt stability",
+    "visualCue": "Boggessi Peppermint Shrimp is easiest to spot by the 'boggessi peppermint' look used in the trade name on a ornamental shrimp; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Boggessi Peppermint Shrimp stands out for the 'boggessi peppermint' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support predator safety, molt stability, and the actual job this shrimp is meant to do, because this is not the kind of shrimp that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'boggessi peppermint' look used in the trade name.",
+      "Venta correcta: conversar sobre predator safety, molt stability, and the actual job this shrimp is meant to do.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 10+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Boggessi Peppermint Shrimp.",
+      "Compradores que entienden predator safety, molt stability, and the actual job this shrimp is meant to do."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Boggessi Peppermint Shrimp.",
+      "Sistemas que no pueden sostener predator safety, molt stability, and the actual job this shrimp is meant to do."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'boggessi peppermint' look used in the trade name y luego aterrizar la conversación en predator safety, molt stability, and the actual job this shrimp is meant to do.",
+    "photoTitle": "Lysmata boggessi",
+    "inStock": false,
+    "badges": [
+      "Aquacultured"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Boggessi Peppermint Shrimp",
+    "overview_es": "Boggessi Peppermint Shrimp destaca por the 'boggessi peppermint' look used in the trade name más que por tamaño bruto. La venta correcta depende de predator safety, molt stability, and the actual job this shrimp is meant to do y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Boggessi Peppermint Shrimp — ornamental camarón sold around predator compatibility and molt stability",
+    "diet_es": "Omnívoro",
+    "origin_es": "Florida, Golfo de México, y Atlántico occidental",
+    "headerSummary": "Boggessi Peppermint Shrimp brings the 'boggessi peppermint' look used in the trade name on a ornamental shrimp, but the sale still needs an honest talk about predator safety, molt stability, and the actual job this shrimp is meant to do. Plan on at least 10+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'boggessi peppermint' look used in the trade name, carried on a ornamental shrimp. That combination is what separates Boggessi Peppermint Shrimp from plainer lookalikes in the same lane.",
+    "behavior": "Boggessi Peppermint Shrimp is appealing because the behavior is visible: antennae always working, quick scavenging or cleaning passes, and a tendency to claim a cave, overhang, or host area. Once established, shrimp often become part of the tank’s rhythm rather than just an ornament.",
+    "feedingNotes": "Treat Boggessi Peppermint Shrimp as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Boggessi Peppermint Shrimp suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "junda-lin-s-peppermint-shrimp-lysmata-jundalini",
+    "name": "Junda Lin's Peppermint Shrimp",
+    "aliases": [
+      "Peppermint, Junda Lin's",
+      "Peppermint Junda Lin's",
+      "Junda Lins Peppermint Shrimp",
+      "Jundalini shrimp"
+    ],
+    "scientific": "Lysmata jundalini",
+    "category": "Shrimp",
+    "type": "Invertebrate",
+    "price": 30,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "10+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Puerto Rico and Caribbean",
+    "habitat": "Reef crevices and cleaning stations",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 18,
+    "role": "Junda Lin's Peppermint Shrimp — ornamental shrimp sold around predator compatibility and molt stability",
+    "visualCue": "Junda Lin's Peppermint Shrimp is easiest to spot by the 'junda lin peppermint' look used in the trade name on a ornamental shrimp; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Junda Lin's Peppermint Shrimp stands out for the 'junda lin peppermint' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support predator safety, molt stability, and the actual job this shrimp is meant to do, because this is not the kind of shrimp that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'junda lin peppermint' look used in the trade name.",
+      "Venta correcta: conversar sobre predator safety, molt stability, and the actual job this shrimp is meant to do.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 10+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Junda Lin's Peppermint Shrimp.",
+      "Compradores que entienden predator safety, molt stability, and the actual job this shrimp is meant to do."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Junda Lin's Peppermint Shrimp.",
+      "Sistemas que no pueden sostener predator safety, molt stability, and the actual job this shrimp is meant to do."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'junda lin peppermint' look used in the trade name y luego aterrizar la conversación en predator safety, molt stability, and the actual job this shrimp is meant to do.",
+    "photoTitle": "Lysmata jundalini",
+    "inStock": false,
+    "badges": [
+      "Aquacultured"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Junda Lin's Peppermint Shrimp",
+    "overview_es": "Junda Lin's Peppermint Shrimp destaca por the 'junda lin peppermint' look used in the trade name más que por tamaño bruto. La venta correcta depende de predator safety, molt stability, and the actual job this shrimp is meant to do y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Junda Lin's Peppermint Shrimp — ornamental camarón sold around predator compatibility and molt stability",
+    "diet_es": "Omnívoro",
+    "origin_es": "Puerto Rico y Caribe",
+    "headerSummary": "Junda Lin's Peppermint Shrimp brings the 'junda lin peppermint' look used in the trade name on a ornamental shrimp, but the sale still needs an honest talk about predator safety, molt stability, and the actual job this shrimp is meant to do. Plan on at least 10+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'junda lin peppermint' look used in the trade name, carried on a ornamental shrimp. That combination is what separates Junda Lin's Peppermint Shrimp from plainer lookalikes in the same lane.",
+    "behavior": "Junda Lin's Peppermint Shrimp is appealing because the behavior is visible: antennae always working, quick scavenging or cleaning passes, and a tendency to claim a cave, overhang, or host area. Once established, shrimp often become part of the tank’s rhythm rather than just an ornament.",
+    "feedingNotes": "Treat Junda Lin's Peppermint Shrimp as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Junda Lin's Peppermint Shrimp suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "bruuns-cleaning-partner-shrimp-urocaridella-antonbruunii",
+    "name": "Bruuns' Cleaning Partner Shrimp",
+    "aliases": [
+      "Bruuns' Cleaning Partner",
+      "Bruuns Cleaning Partner Shrimp",
+      "Antonbruunii shrimp"
+    ],
+    "scientific": "Urocaridella antonbruunii",
+    "category": "Shrimp",
+    "type": "Invertebrate",
+    "price": 40,
+    "stockSize": "Small",
+    "maxSize": "2 in",
+    "minTank": "20+ gal",
+    "careLabel": "Moderate",
+    "diet": "Omnivore",
+    "origin": "Tropical Indo-Pacific",
+    "habitat": "Marine invertebrate habitat associated with rock, sand, or reef structure",
+    "tankCode": "",
+    "aggression": 4,
+    "coralRisk": 2,
+    "invertRisk": 8,
+    "careDifficulty": 22,
+    "role": "Bruuns' Cleaning Partner Shrimp — ornamental shrimp sold around predator compatibility and molt stability",
+    "visualCue": "Bruuns' Cleaning Partner Shrimp is easiest to spot by the 'bruuns' cleaning partner' look used in the trade name on a ornamental shrimp; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Bruuns' Cleaning Partner Shrimp stands out for the 'bruuns' cleaning partner' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support predator safety, molt stability, and the actual job this shrimp is meant to do, because this is not the kind of shrimp that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'bruuns' cleaning partner' look used in the trade name.",
+      "Venta correcta: conversar sobre predator safety, molt stability, and the actual job this shrimp is meant to do.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 20+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Bruuns' Cleaning Partner Shrimp.",
+      "Compradores que entienden predator safety, molt stability, and the actual job this shrimp is meant to do."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Bruuns' Cleaning Partner Shrimp.",
+      "Sistemas que no pueden sostener predator safety, molt stability, and the actual job this shrimp is meant to do."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'bruuns' cleaning partner' look used in the trade name y luego aterrizar la conversación en predator safety, molt stability, and the actual job this shrimp is meant to do.",
+    "photoTitle": "Urocaridella antonbruunii",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Bruuns' Cleaning Partner Shrimp",
+    "overview_es": "Bruuns' Cleaning Partner Shrimp destaca por the 'bruuns' cleaning partner' look used in the trade name más que por tamaño bruto. La venta correcta depende de predator safety, molt stability, and the actual job this shrimp is meant to do y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Bruuns' Cleaning Partner Shrimp — ornamental camarón sold around predator compatibility and molt stability",
+    "diet_es": "Omnívoro",
+    "origin_es": "Tropical Indo-Pacífico",
+    "headerSummary": "Bruuns' Cleaning Partner Shrimp brings the 'bruuns' cleaning partner' look used in the trade name on a ornamental shrimp, but the sale still needs an honest talk about predator safety, molt stability, and the actual job this shrimp is meant to do. Plan on at least 20+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'bruuns' cleaning partner' look used in the trade name, carried on a ornamental shrimp. That combination is what separates Bruuns' Cleaning Partner Shrimp from plainer lookalikes in the same lane.",
+    "behavior": "Bruuns' Cleaning Partner Shrimp is appealing because the behavior is visible: antennae always working, quick scavenging or cleaning passes, and a tendency to claim a cave, overhang, or host area. Once established, shrimp often become part of the tank’s rhythm rather than just an ornament.",
+    "feedingNotes": "Treat Bruuns' Cleaning Partner Shrimp as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Bruuns' Cleaning Partner Shrimp suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
   }
 ];

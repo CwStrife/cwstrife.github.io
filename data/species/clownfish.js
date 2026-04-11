@@ -1883,24 +1883,12 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Diet in this catalog: Omnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Easy",
@@ -1956,24 +1944,12 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Diet in this catalog: Omnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -2029,24 +2005,12 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
       "Diet in this catalog: Omnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -2066,5 +2030,137 @@ window.LTC_SPECIES_CHUNKS["Clownfish"] = [
     "feedingNotes": "These fish usually adapt well to quality prepared foods, with frozen rotation used to maintain condition and interest. Catalog diet listing: Omnivore.",
     "buyingGuidance": "A strong beginner-to-intermediate choice when the aquarist understands pair behavior, territory, and how much personality clownfish can bring to a small area.",
     "recognitionNotes": "Warm orange-brown clownfish with two crisp body bars and a stronger yellow cast in the fins and tail."
+  },
+  {
+    "id": "true-skunk-clownfish-amphiprion-nigripes",
+    "name": "True Skunk Clownfish",
+    "aliases": [
+      "Skunk Rose, True",
+      "Skunk Rose True",
+      "Nigripes clownfish"
+    ],
+    "scientific": "Amphiprion nigripes",
+    "category": "Clownfish",
+    "type": "Saltwater Fish",
+    "price": 50,
+    "stockSize": "Small",
+    "maxSize": "4 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 20,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 15,
+    "role": "True Skunk Clownfish — territorial clownfish built around pairing and host behavior",
+    "visualCue": "True Skunk Clownfish is easiest to spot by the 'true skunk' look used in the trade name on a stocky anemonefish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "True Skunk Clownfish stands out for the 'true skunk' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support pairing, territory, and host expectations, because this is not the kind of clownfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'true skunk' look used in the trade name.",
+      "Venta correcta: conversar sobre pairing, territory, and host expectations.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 20+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de True Skunk Clownfish.",
+      "Compradores que entienden pairing, territory, and host expectations."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de True Skunk Clownfish.",
+      "Sistemas que no pueden sostener pairing, territory, and host expectations."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'true skunk' look used in the trade name y luego aterrizar la conversación en pairing, territory, and host expectations.",
+    "photoTitle": "Amphiprion nigripes",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "True Skunk Clownfish",
+    "overview_es": "True Skunk Clownfish destaca por the 'true skunk' look used in the trade name más que por tamaño bruto. La venta correcta depende de pairing, territory, and host expectations y de que el sistema realmente encaje con esta especie.",
+    "role_es": "True Skunk Clownfish — territorial clownfish built around pairing and host behavior",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "True Skunk Clownfish brings the 'true skunk' look used in the trade name on a stocky anemonefish, but the sale still needs an honest talk about pairing, territory, and host expectations. Plan on at least 20+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'true skunk' look used in the trade name, carried on a stocky anemonefish. That combination is what separates True Skunk Clownfish from plainer lookalikes in the same lane.",
+    "behavior": "True Skunk Clownfish is peaceful and usually easy to place with other non-bullying fish. It tends to make more sense in tanks that mimic its natural reef-associated marine habitat.",
+    "feedingNotes": "Treat True Skunk Clownfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "True Skunk Clownfish suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "barberi-tomato-clownfish-amphiprion-barberi",
+    "name": "Barberi Tomato Clownfish",
+    "aliases": [
+      "Tomato, Barberi",
+      "Tomato Barberi",
+      "Barberi Clownfish"
+    ],
+    "scientific": "Amphiprion barberi",
+    "category": "Clownfish",
+    "type": "Saltwater Fish",
+    "price": 50,
+    "stockSize": "Small",
+    "maxSize": "4 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 20,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 15,
+    "role": "Barberi Tomato Clownfish — territorial clownfish built around pairing and host behavior",
+    "visualCue": "Barberi Tomato Clownfish is easiest to spot by the 'barberi tomato' look used in the trade name on a stocky anemonefish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Barberi Tomato Clownfish stands out for the 'barberi tomato' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support pairing, territory, and host expectations, because this is not the kind of clownfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'barberi tomato' look used in the trade name.",
+      "Venta correcta: conversar sobre pairing, territory, and host expectations.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 20+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Barberi Tomato Clownfish.",
+      "Compradores que entienden pairing, territory, and host expectations."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Barberi Tomato Clownfish.",
+      "Sistemas que no pueden sostener pairing, territory, and host expectations."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'barberi tomato' look used in the trade name y luego aterrizar la conversación en pairing, territory, and host expectations.",
+    "photoTitle": "Amphiprion barberi",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Barberi Tomato Clownfish",
+    "overview_es": "Barberi Tomato Clownfish destaca por the 'barberi tomato' look used in the trade name más que por tamaño bruto. La venta correcta depende de pairing, territory, and host expectations y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Barberi Tomato Clownfish — territorial clownfish built around pairing and host behavior",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Barberi Tomato Clownfish brings the 'barberi tomato' look used in the trade name on a stocky anemonefish, but the sale still needs an honest talk about pairing, territory, and host expectations. Plan on at least 20+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'barberi tomato' look used in the trade name, carried on a stocky anemonefish. That combination is what separates Barberi Tomato Clownfish from plainer lookalikes in the same lane.",
+    "behavior": "Barberi Tomato Clownfish behaves much more like a tomato-type clown than like a gentle small ocellaris. Expect a bolder relationship with territory, chosen hosts, and the immediate area around its claimed corner once it settles.",
+    "feedingNotes": "Treat Barberi Tomato Clownfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Barberi Tomato Clownfish suits a buyer who wants visible behavior without an overly hard care lane. Pass when the buyer is shopping the color without the system match."
   }
 ];

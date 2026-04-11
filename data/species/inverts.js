@@ -1,3 +1,4 @@
+window.LTC_SPECIES_CHUNKS = window.LTC_SPECIES_CHUNKS || {};
 window.LTC_SPECIES_CHUNKS["Inverts"] = [
   {
     "id": "sand-sifting-sea-cucumber",
@@ -618,5 +619,534 @@ window.LTC_SPECIES_CHUNKS["Inverts"] = [
     "feedingNotes": "Buy only when there is a clear algae food source or a post-cleanup plan. A sea hare that solves the algae problem and is then left with nothing to eat is not a success story.",
     "buyingGuidance": "Recommend when the aquarist specifically needs heavy algae help and is prepared both for gentle handling and for the aftercare plan once the job is done. This is a specialist tool animal, not a random invert add.",
     "recognitionNotes": "Large soft-bodied algae slug with rabbit-like head tentacles and a broad grazing profile."
+  },
+  {
+    "id": "mimic-octopus-thaumoctopus-mimicus",
+    "name": "Mimic Octopus",
+    "aliases": [
+      "Octopus, Mimic",
+      "Octopus Mimic",
+      "Mimicus invertebrate"
+    ],
+    "scientific": "Thaumoctopus mimicus",
+    "category": "Inverts",
+    "type": "Saltwater Invert",
+    "price": 200,
+    "stockSize": "Medium",
+    "maxSize": "8 in",
+    "minTank": "50+ gal",
+    "careLabel": "Moderate",
+    "diet": "Detritivore / sand processor",
+    "origin": "Tropical Indo-Pacific",
+    "habitat": "Marine invertebrate habitat associated with rock, sand, or reef structure",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 20,
+    "role": "Mimic Octopus — specialty invertebrate that belongs in the right system, not every reef",
+    "visualCue": "Mimic Octopus is easiest to spot by arm-first octopus movement on a specialist marine invertebrate; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Mimic Octopus stands out for arm-first octopus movement more than for brute size alone. It works best when the buyer's system can honestly support specialized system fit instead of impulse novelty, because this is not the kind of invertebrate that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: arm-first octopus movement.",
+      "Venta correcta: conversar sobre specialized system fit instead of impulse novelty.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 50+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Mimic Octopus.",
+      "Compradores que entienden specialized system fit instead of impulse novelty."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Mimic Octopus.",
+      "Sistemas que no pueden sostener specialized system fit instead of impulse novelty."
+    ],
+    "staffNote": "Punto de venta: resaltar arm-first octopus movement y luego aterrizar la conversación en specialized system fit instead of impulse novelty.",
+    "photoTitle": "Thaumoctopus mimicus",
+    "inStock": false,
+    "badges": [
+      "Review"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Mimic Octopus",
+    "overview_es": "Mimic Octopus destaca por arm-first octopus movement más que por tamaño bruto. La venta correcta depende de specialized system fit instead of impulse novelty y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Mimic Octopus — specialty invertebrate that belongs in the right system, not every reef",
+    "diet_es": "Detritívoro",
+    "origin_es": "Tropical Indo-Pacífico",
+    "headerSummary": "Mimic Octopus brings arm-first octopus movement on a specialist marine invertebrate, but the sale still needs an honest talk about specialized system fit instead of impulse novelty. Plan on at least 50+ gal.",
+    "recognitionNotes": "Fastest ID cue: arm-first octopus movement, carried on a specialist marine invertebrate. That combination is what separates Mimic Octopus from plainer lookalikes in the same lane.",
+    "behavior": "Mimic Octopus is intelligent, curious, and fully capable of turning every seam, lid, and opening into a test point. The behavior is extraordinary, but it belongs in a system designed around the cephalopod first and everything else second.",
+    "feedingNotes": "Mimic Octopus does best when the tank already has natural detritus, film, or surface growth for it to work between direct feedings.",
+    "buyingGuidance": "Mimic Octopus suits an experienced keeper building around the animal. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "prickly-octopus-abdopus-aculeatus",
+    "name": "Prickly Octopus",
+    "aliases": [
+      "Octopus, Prickly",
+      "Octopus Prickly",
+      "Aculeatus invertebrate"
+    ],
+    "scientific": "Abdopus aculeatus",
+    "category": "Inverts",
+    "type": "Saltwater Invert",
+    "price": 120,
+    "stockSize": "Medium",
+    "maxSize": "8 in",
+    "minTank": "50+ gal",
+    "careLabel": "Moderate",
+    "diet": "Detritivore / sand processor",
+    "origin": "Tropical Indo-Pacific",
+    "habitat": "Marine invertebrate habitat associated with rock, sand, or reef structure",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 20,
+    "role": "Prickly Octopus — specialty invertebrate that belongs in the right system, not every reef",
+    "visualCue": "Prickly Octopus is easiest to spot by arm-first octopus movement on a specialist marine invertebrate; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Prickly Octopus stands out for arm-first octopus movement more than for brute size alone. It works best when the buyer's system can honestly support specialized system fit instead of impulse novelty, because this is not the kind of invertebrate that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: arm-first octopus movement.",
+      "Venta correcta: conversar sobre specialized system fit instead of impulse novelty.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 50+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Prickly Octopus.",
+      "Compradores que entienden specialized system fit instead of impulse novelty."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Prickly Octopus.",
+      "Sistemas que no pueden sostener specialized system fit instead of impulse novelty."
+    ],
+    "staffNote": "Punto de venta: resaltar arm-first octopus movement y luego aterrizar la conversación en specialized system fit instead of impulse novelty.",
+    "photoTitle": "Abdopus aculeatus",
+    "inStock": false,
+    "badges": [
+      "Review"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Prickly Octopus",
+    "overview_es": "Prickly Octopus destaca por arm-first octopus movement más que por tamaño bruto. La venta correcta depende de specialized system fit instead of impulse novelty y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Prickly Octopus — specialty invertebrate that belongs in the right system, not every reef",
+    "diet_es": "Detritívoro",
+    "origin_es": "Tropical Indo-Pacífico",
+    "headerSummary": "Prickly Octopus brings arm-first octopus movement on a specialist marine invertebrate, but the sale still needs an honest talk about specialized system fit instead of impulse novelty. Plan on at least 50+ gal.",
+    "recognitionNotes": "Fastest ID cue: arm-first octopus movement, carried on a specialist marine invertebrate. That combination is what separates Prickly Octopus from plainer lookalikes in the same lane.",
+    "behavior": "Prickly Octopus is intelligent, curious, and fully capable of turning every seam, lid, and opening into a test point. The behavior is extraordinary, but it belongs in a system designed around the cephalopod first and everything else second.",
+    "feedingNotes": "Prickly Octopus does best when the tank already has natural detritus, film, or surface growth for it to work between direct feedings.",
+    "buyingGuidance": "Prickly Octopus suits an experienced keeper building around the animal. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "black-sea-cucumber-holothuria-atra",
+    "name": "Black Sea Cucumber",
+    "aliases": [
+      "Black",
+      "Atra invertebrate"
+    ],
+    "scientific": "Holothuria atra",
+    "category": "Inverts",
+    "type": "Saltwater Invert",
+    "price": 50,
+    "stockSize": "Medium",
+    "maxSize": "10 in",
+    "minTank": "50+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Detritivore / sand processor",
+    "origin": "Red Sea to tropical Indo-Pacific",
+    "habitat": "Open mature sand beds",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 48,
+    "role": "Black Sea Cucumber — specialty invertebrate that belongs in the right system, not every reef",
+    "visualCue": "Black Sea Cucumber is easiest to spot by the 'black' look used in the trade name on a specialist marine invertebrate; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Black Sea Cucumber stands out for the 'black' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support specialized system fit instead of impulse novelty, because this is not the kind of invertebrate that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'black' look used in the trade name.",
+      "Venta correcta: conversar sobre specialized system fit instead of impulse novelty.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 50+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Black Sea Cucumber.",
+      "Compradores que entienden specialized system fit instead of impulse novelty."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Black Sea Cucumber.",
+      "Sistemas que no pueden sostener specialized system fit instead of impulse novelty."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'black' look used in the trade name y luego aterrizar la conversación en specialized system fit instead of impulse novelty.",
+    "photoTitle": "Holothuria atra",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Black Sea Cucumber",
+    "overview_es": "Black Sea Cucumber destaca por the 'black' look used in the trade name más que por tamaño bruto. La venta correcta depende de specialized system fit instead of impulse novelty y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Black Sea Cucumber — specialty invertebrate that belongs in the right system, not every reef",
+    "diet_es": "Detritívoro",
+    "origin_es": "Mar Rojo to tropical Indo-Pacífico",
+    "headerSummary": "Black Sea Cucumber brings the 'black' look used in the trade name on a specialist marine invertebrate, but the sale still needs an honest talk about specialized system fit instead of impulse novelty. Plan on at least 50+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'black' look used in the trade name, carried on a specialist marine invertebrate. That combination is what separates Black Sea Cucumber from plainer lookalikes in the same lane.",
+    "behavior": "Black Sea Cucumber behaves like a niche specialist rather than a generic cleanup crew plug-in, spending much of its time processing substrate or positioned to exploit a particular feeding lane. These animals reward mature systems and punish decorative assumptions.",
+    "feedingNotes": "Black Sea Cucumber does best when the tank already has natural detritus, film, or surface growth for it to work between direct feedings.",
+    "buyingGuidance": "Black Sea Cucumber suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "florida-sea-cucumber-holothuria-floridana",
+    "name": "Florida Sea Cucumber",
+    "aliases": [
+      "Florida",
+      "Floridana invertebrate"
+    ],
+    "scientific": "Holothuria floridana",
+    "category": "Inverts",
+    "type": "Saltwater Invert",
+    "price": 50,
+    "stockSize": "Medium",
+    "maxSize": "10 in",
+    "minTank": "50+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Detritivore / sand processor",
+    "origin": "Florida, Gulf of Mexico, and Caribbean",
+    "habitat": "Open mature sand beds",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 48,
+    "role": "Florida Sea Cucumber — specialty invertebrate that belongs in the right system, not every reef",
+    "visualCue": "Florida Sea Cucumber is easiest to spot by the 'florida' look used in the trade name on a specialist marine invertebrate; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Florida Sea Cucumber stands out for the 'florida' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support specialized system fit instead of impulse novelty, because this is not the kind of invertebrate that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'florida' look used in the trade name.",
+      "Venta correcta: conversar sobre specialized system fit instead of impulse novelty.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 50+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Florida Sea Cucumber.",
+      "Compradores que entienden specialized system fit instead of impulse novelty."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Florida Sea Cucumber.",
+      "Sistemas que no pueden sostener specialized system fit instead of impulse novelty."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'florida' look used in the trade name y luego aterrizar la conversación en specialized system fit instead of impulse novelty.",
+    "photoTitle": "Holothuria floridana",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Florida Sea Cucumber",
+    "overview_es": "Florida Sea Cucumber destaca por the 'florida' look used in the trade name más que por tamaño bruto. La venta correcta depende de specialized system fit instead of impulse novelty y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Florida Sea Cucumber — specialty invertebrate that belongs in the right system, not every reef",
+    "diet_es": "Detritívoro",
+    "origin_es": "Florida, Golfo de México, y Caribe",
+    "headerSummary": "Florida Sea Cucumber brings the 'florida' look used in the trade name on a specialist marine invertebrate, but the sale still needs an honest talk about specialized system fit instead of impulse novelty. Plan on at least 50+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'florida' look used in the trade name, carried on a specialist marine invertebrate. That combination is what separates Florida Sea Cucumber from plainer lookalikes in the same lane.",
+    "behavior": "Florida Sea Cucumber behaves like a niche specialist rather than a generic cleanup crew plug-in, spending much of its time processing substrate or positioned to exploit a particular feeding lane. These animals reward mature systems and punish decorative assumptions.",
+    "feedingNotes": "Florida Sea Cucumber does best when the tank already has natural detritus, film, or surface growth for it to work between direct feedings.",
+    "buyingGuidance": "Florida Sea Cucumber suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "red-black-sea-cucumber-holothuria-edulis",
+    "name": "Red & Black Sea Cucumber",
+    "aliases": [
+      "Red & Black",
+      "Edulis invertebrate"
+    ],
+    "scientific": "Holothuria edulis",
+    "category": "Inverts",
+    "type": "Saltwater Invert",
+    "price": 50,
+    "stockSize": "Medium",
+    "maxSize": "10 in",
+    "minTank": "50+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Detritivore / sand processor",
+    "origin": "Tropical Indo-Pacific",
+    "habitat": "Open mature sand beds",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 48,
+    "role": "Red & Black Sea Cucumber — specialty invertebrate that belongs in the right system, not every reef",
+    "visualCue": "Red & Black Sea Cucumber is easiest to spot by the 'red and black' look used in the trade name on a specialist marine invertebrate; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Red & Black Sea Cucumber stands out for the 'red and black' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support specialized system fit instead of impulse novelty, because this is not the kind of invertebrate that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'red and black' look used in the trade name.",
+      "Venta correcta: conversar sobre specialized system fit instead of impulse novelty.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 50+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Red & Black Sea Cucumber.",
+      "Compradores que entienden specialized system fit instead of impulse novelty."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Red & Black Sea Cucumber.",
+      "Sistemas que no pueden sostener specialized system fit instead of impulse novelty."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'red and black' look used in the trade name y luego aterrizar la conversación en specialized system fit instead of impulse novelty.",
+    "photoTitle": "Holothuria edulis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Red & Black Sea Cucumber",
+    "overview_es": "Red & Black Sea Cucumber destaca por the 'red and black' look used in the trade name más que por tamaño bruto. La venta correcta depende de specialized system fit instead of impulse novelty y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Red & Black Sea Cucumber — specialty invertebrate that belongs in the right system, not every reef",
+    "diet_es": "Detritívoro",
+    "origin_es": "Tropical Indo-Pacífico",
+    "headerSummary": "Red & Black Sea Cucumber brings the 'red and black' look used in the trade name on a specialist marine invertebrate, but the sale still needs an honest talk about specialized system fit instead of impulse novelty. Plan on at least 50+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'red and black' look used in the trade name, carried on a specialist marine invertebrate. That combination is what separates Red & Black Sea Cucumber from plainer lookalikes in the same lane.",
+    "behavior": "Red & Black Sea Cucumber behaves like a niche specialist rather than a generic cleanup crew plug-in, spending much of its time processing substrate or positioned to exploit a particular feeding lane. These animals reward mature systems and punish decorative assumptions.",
+    "feedingNotes": "Red & Black Sea Cucumber does best when the tank already has natural detritus, film, or surface growth for it to work between direct feedings.",
+    "buyingGuidance": "Red & Black Sea Cucumber suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "yellow-sea-cucumber-colochirus-robustus",
+    "name": "Yellow Sea Cucumber",
+    "aliases": [
+      "Yellow",
+      "Robustus invertebrate"
+    ],
+    "scientific": "Colochirus robustus",
+    "category": "Inverts",
+    "type": "Saltwater Invert",
+    "price": 50,
+    "stockSize": "Medium",
+    "maxSize": "6 in",
+    "minTank": "50+ gal",
+    "careLabel": "Specialist",
+    "diet": "Filter feeder",
+    "origin": "Indo-Pacific",
+    "habitat": "Stable reef systems with suspended food",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 60,
+    "role": "Yellow Sea Cucumber — specialty invertebrate that belongs in the right system, not every reef",
+    "visualCue": "Yellow Sea Cucumber is easiest to spot by the 'yellow' look used in the trade name on a specialist marine invertebrate; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Yellow Sea Cucumber stands out for the 'yellow' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support specialized system fit instead of impulse novelty, because this is not the kind of invertebrate that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'yellow' look used in the trade name.",
+      "Venta correcta: conversar sobre specialized system fit instead of impulse novelty.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 50+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Yellow Sea Cucumber.",
+      "Compradores que entienden specialized system fit instead of impulse novelty."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Yellow Sea Cucumber.",
+      "Sistemas que no pueden sostener specialized system fit instead of impulse novelty."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'yellow' look used in the trade name y luego aterrizar la conversación en specialized system fit instead of impulse novelty.",
+    "photoTitle": "Colochirus robustus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Yellow Sea Cucumber",
+    "overview_es": "Yellow Sea Cucumber destaca por the 'yellow' look used in the trade name más que por tamaño bruto. La venta correcta depende de specialized system fit instead of impulse novelty y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Yellow Sea Cucumber — specialty invertebrate that belongs in the right system, not every reef",
+    "diet_es": "Filtrador",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Yellow Sea Cucumber brings the 'yellow' look used in the trade name on a specialist marine invertebrate, but the sale still needs an honest talk about specialized system fit instead of impulse novelty. Plan on at least 50+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'yellow' look used in the trade name, carried on a specialist marine invertebrate. That combination is what separates Yellow Sea Cucumber from plainer lookalikes in the same lane.",
+    "behavior": "Yellow Sea Cucumber behaves like a niche specialist rather than a generic cleanup crew plug-in, spending much of its time processing substrate or positioned to exploit a particular feeding lane. These animals reward mature systems and punish decorative assumptions.",
+    "feedingNotes": "The feeding plan for Yellow Sea Cucumber needs suspended fine foods and a system that already has the right particulate lane, not just big hand-fed chunks.",
+    "buyingGuidance": "Yellow Sea Cucumber suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "moon-jellyfish-aurelia-aurita",
+    "name": "Moon Jellyfish",
+    "aliases": [
+      "Moon",
+      "Aurita invertebrate"
+    ],
+    "scientific": "Aurelia aurita",
+    "category": "Inverts",
+    "type": "Saltwater Invert",
+    "price": 100,
+    "stockSize": "Medium",
+    "maxSize": "12 in",
+    "minTank": "75+ gal",
+    "careLabel": "Specialist",
+    "diet": "Carnivore / zooplankton feeder",
+    "origin": "Temperate and tropical seas worldwide",
+    "habitat": "Dedicated kreisel jelly systems",
+    "tankCode": "",
+    "aggression": 0,
+    "coralRisk": 0,
+    "invertRisk": 0,
+    "careDifficulty": 80,
+    "role": "Moon Jellyfish — specialty invertebrate that belongs in the right system, not every reef",
+    "visualCue": "Moon Jellyfish is easiest to spot by the 'moon' look used in the trade name on a specialist marine invertebrate; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Moon Jellyfish stands out for the 'moon' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support specialized system fit instead of impulse novelty, because this is not the kind of invertebrate that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'moon' look used in the trade name.",
+      "Venta correcta: conversar sobre specialized system fit instead of impulse novelty.",
+      "Riesgo clave: generally easier community behavior when the tank fits."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen Specialized system o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Moon Jellyfish.",
+      "Compradores que entienden specialized system fit instead of impulse novelty."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Moon Jellyfish.",
+      "Sistemas que no pueden sostener specialized system fit instead of impulse novelty."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'moon' look used in the trade name y luego aterrizar la conversación en specialized system fit instead of impulse novelty.",
+    "photoTitle": "Aurelia aurita",
+    "inStock": false,
+    "badges": [
+      "Aquacultured",
+      "Review"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Moon Jellyfish",
+    "overview_es": "Moon Jellyfish destaca por the 'moon' look used in the trade name más que por tamaño bruto. La venta correcta depende de specialized system fit instead of impulse novelty y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Moon Jellyfish — specialty invertebrate that belongs in the right system, not every reef",
+    "diet_es": "Planctívoro",
+    "origin_es": "Temperate y tropical seas mundial",
+    "headerSummary": "Moon Jellyfish brings the 'moon' look used in the trade name on a specialist marine invertebrate, but the sale still needs an honest talk about specialized system fit instead of impulse novelty. Plan on at least 75+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'moon' look used in the trade name, carried on a specialist marine invertebrate. That combination is what separates Moon Jellyfish from plainer lookalikes in the same lane.",
+    "behavior": "Moon Jellyfish depends on continuous gentle suspension and cannot simply be dropped into ordinary reef flow and overflows without consequence. The display is all about graceful pulsing, but the husbandry is all about system design.",
+    "feedingNotes": "Feed Moon Jellyfish with foods matched to its mouth size and pace rather than one oversized meal; it should settle better with repeated, predictable offerings.",
+    "buyingGuidance": "Moon Jellyfish suits an experienced keeper building around the animal. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "slipper-lobster-scyllarides-squammosus",
+    "name": "Slipper Lobster",
+    "aliases": [
+      "Scaly Slipper Lobster",
+      "Shovel-Nosed Lobster"
+    ],
+    "scientific": "Scyllarides squammosus",
+    "category": "Inverts",
+    "type": "Saltwater Invert",
+    "price": 79,
+    "stockSize": "Medium",
+    "maxSize": "18 in",
+    "minTank": "90+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Carnivore / scavenger",
+    "origin": "Indo-Pacific",
+    "habitat": "Sandy, rubble, reef, and ledge habitats where it can hide by day and roam at night",
+    "tankCode": "",
+    "aggression": 18,
+    "coralRisk": 6,
+    "invertRisk": 62,
+    "careDifficulty": 56,
+    "role": "Slipper Lobster — nocturnal reef oddball sold around hiding space, size, and invertebrate risk",
+    "visualCue": "Slipper Lobster is easiest to spot by the wide flattened antenna plates, armored body, and low reef-crawling lobster profile that make slipper lobsters obvious even before the exact species is discussed",
+    "overview": "Slipper Lobster is a flattened nocturnal reef lobster sold around cave cover, large-system behavior, and prey reality rather than around novelty. Choosing a single stable catalog identity keeps the browser clean while still acknowledging that the trade often mixes slipper-lobster species.",
+    "facts": [
+      "Flattened antenna plates are the obvious field mark.",
+      "Most activity shows after lights down or from cave mouths.",
+      "Snails and slower inverts are the real compatibility question."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Slipper Lobster.",
+      "Compradores que entienden specialized system fit instead of impulse novelty."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Slipper Lobster.",
+      "Sistemas que no pueden sostener specialized system fit instead of impulse novelty."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'slipper' look used in the trade name y luego aterrizar la conversación en specialized system fit instead of impulse novelty.",
+    "photoTitle": "Scyllarides squammosus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Langosta zapatilla",
+    "overview_es": "La langosta zapatilla es una langosta nocturna y aplanada que debe venderse pensando en refugios, tamaño final y riesgo para invertebrados, no como una curiosidad inocente.",
+    "role_es": "Langosta zapatilla — invertebrado nocturno para sistemas grandes con cuevas",
+    "diet_es": "Carnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Slipper Lobster brings a flattened armored lobster profile and nocturnal behavior, but the sale still needs an honest talk about caves, size, and invert risk. Plan on at least 90+ gal.",
+    "recognitionNotes": "Fastest ID cue: flattened shovel-like antenna plates and a broad armored body rather than the long-spined silhouette of spiny lobsters.",
+    "behavior": "Spends the day hidden under structure or along protected ledges, then becomes much more active after lights-out while foraging over sand, rubble, and rock. Its appeal is the unusual body plan and nocturnal presence, but that same behavior is why it belongs in thoughtfully planned systems.",
+    "feedingNotes": "Offer meaty marine foods after lights down and expect the animal to work more like a nocturnal lobster than a decorative reef-safe cleanup piece.",
+    "buyingGuidance": "Slipper Lobster suits an experienced buyer with rock caves, room, and realistic expectations about snails or slower inverts. Pass when the customer wants a tiny harmless cleanup oddball."
   }
 ];

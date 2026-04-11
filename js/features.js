@@ -8,55 +8,205 @@ document.addEventListener('DOMContentLoaded', () => {
   if(il && typeof IDLE_LOGO !== 'undefined') il.src = IDLE_LOGO;
 });
 
-// === WATER PARAMETERS UI ===
-function waterParamGauge(low, high, absMin, absMax, unit, color){
-  if(low == null || high == null || Number.isNaN(low) || Number.isNaN(high)){
-    return `<div class="wp-gauge wp-gauge-unknown">
-      <div class="wp-track"></div>
-      <div class="wp-labels">
-        <span class="wp-min">${absMin}${unit}</span>
-        <span class="wp-value" style="color:${color}">Unknown</span>
-        <span class="wp-max">${absMax}${unit}</span>
-      </div>
-    </div>`;
+// === WATER PARAMETERS UI — V0.105 canvas water + 8 params ===
+// Each parameter card holds a canvas. After the modal renders,
+// initWaterParamsCanvas() sets up an animation loop that draws
+// flowing water filling the ideal zone of each bar.
+//
+// Phosphate and Nitrate are shown with reef-standard defaults so the
+// data shape is in place for future coral-side population.
+
+var WP_PARAM_DEFS = [
+  {key:'temp', n:'Temperature', u:'°F',  min:72,    max:86,    defLo:76,   defHi:80,   tint:'cyan',   forFish:true},
+  {key:'sal',  n:'Salinity',    u:'',    min:1.020, max:1.030, defLo:1.024,defHi:1.026,tint:'teal',   forFish:true},
+  {key:'ph',   n:'pH',          u:'',    min:7.8,   max:8.6,   defLo:8.1,  defHi:8.4,  tint:'aqua',   forFish:true},
+  // The five params below are kept in the schema (with reef-standard
+  // defaults) so the data shape exists for future coral-side rendering.
+  // They are NOT shown on fish detail popups — only Temperature,
+  // Salinity, and pH are clinically relevant for keeping fish alive.
+  // dKH / Ca / Mg / PO4 / NO3 matter for coral growth and chemistry,
+  // not for fish survival, so they're filtered out by waterParamsSection.
+  {key:'dkh',  n:'dKH',         u:'',    min:6,     max:14,    defLo:8,    defHi:11,   tint:'lime',   forFish:false, forCoral:true},
+  {key:'ca',   n:'Calcium',     u:'ppm', min:350,   max:500,   defLo:400,  defHi:450,  tint:'gold',   forFish:false, forCoral:true},
+  {key:'mg',   n:'Magnesium',   u:'ppm', min:1200,  max:1550,  defLo:1300, defHi:1450, tint:'violet', forFish:false, forCoral:true},
+  {key:'po4',  n:'Phosphate',   u:'ppm', min:0,     max:0.10,  defLo:0,    defHi:0.03, tint:'rose',   forFish:false, forCoral:true},
+  {key:'no3',  n:'Nitrate',     u:'ppm', min:0,     max:25,    defLo:0,    defHi:10,   tint:'amber',  forFish:false, forCoral:true}
+];
+
+var WP_TINTS = {
+  cyan:   {fill:'rgba(60,180,255,.55)',  deep:'rgba(20,80,160,.5)',  foam:'rgba(190,235,255,.55)', glow:'rgba(140,220,255,.55)', text:'#5ee0ff'},
+  teal:   {fill:'rgba(50,210,200,.55)',  deep:'rgba(15,90,100,.55)', foam:'rgba(170,255,240,.55)', glow:'rgba(120,240,220,.55)', text:'#5eebc8'},
+  aqua:   {fill:'rgba(80,200,220,.55)',  deep:'rgba(20,90,120,.55)', foam:'rgba(190,240,250,.55)', glow:'rgba(150,230,250,.55)', text:'#7be0e8'},
+  lime:   {fill:'rgba(140,220,80,.55)',  deep:'rgba(60,110,30,.55)', foam:'rgba(220,255,180,.6)',  glow:'rgba(180,240,120,.55)', text:'#caf66e'},
+  gold:   {fill:'rgba(245,200,70,.55)',  deep:'rgba(120,80,20,.55)', foam:'rgba(255,235,180,.6)',  glow:'rgba(255,215,120,.55)', text:'#ffe275'},
+  violet: {fill:'rgba(170,130,240,.55)', deep:'rgba(70,40,130,.55)', foam:'rgba(225,205,255,.6)',  glow:'rgba(190,160,255,.55)', text:'#c8b2ff'},
+  rose:   {fill:'rgba(255,130,170,.55)', deep:'rgba(120,30,60,.55)', foam:'rgba(255,205,225,.6)',  glow:'rgba(255,160,190,.55)', text:'#ff9bb6'},
+  amber:  {fill:'rgba(255,160,80,.55)',  deep:'rgba(120,60,15,.55)', foam:'rgba(255,220,180,.6)',  glow:'rgba(255,180,110,.55)', text:'#ffba60'}
+};
+
+function wpFmt(v){
+  if(v==null) return '—';
+  if(v>=100) return Math.round(v).toString();
+  if(v>=10) return v.toFixed(1).replace(/\.0$/,'');
+  // v0.140 — salinity (1.01–1.05 range) always needs 3 decimal places
+  // because the precision is clinically meaningful: 1.024 vs 1.026 is the
+  // difference between low-end and natural sea water. The previous toFixed(2)
+  // was rounding 1.024 → "1.02" and 1.026 → "1.03" which made every card
+  // look like it was reading near-freshwater.
+  if(v>=1.01 && v<1.05) return v.toFixed(3);
+  if(v>=1) return v.toFixed(2).replace(/0$/,'').replace(/\.$/,'');
+  return v.toFixed(3).replace(/0+$/,'').replace(/\.$/,'');
+}
+function wpPct(val,min,max){return Math.max(0,Math.min(100,((val-min)/(max-min))*100))}
+
+function wpResolveValue(item, def){
+  // Pull lo/hi from species water object using legacy keys.
+  if(!item.water) return {lo:def.defLo,hi:def.defHi,fromSpecies:false};
+  var w = item.water;
+  var loKey, hiKey;
+  if(def.key === 'temp'){loKey='temp_low';hiKey='temp_high'}
+  else if(def.key === 'sal'){loKey='sal_low';hiKey='sal_high'}
+  else if(def.key === 'ph'){loKey='ph_low';hiKey='ph_high'}
+  else {loKey=def.key+'_low';hiKey=def.key+'_high'}
+  var lo = w[loKey], hi = w[hiKey];
+  if(lo == null || hi == null || isNaN(lo) || isNaN(hi)){
+    return {lo:def.defLo,hi:def.defHi,fromSpecies:false};
   }
-  const range = absMax - absMin;
-  const pctLow = ((low - absMin) / range) * 100;
-  const pctHigh = ((high - absMin) / range) * 100;
-  return `<div class="wp-gauge">
-    <div class="wp-track">
-      <div class="wp-fill" style="left:${pctLow}%;width:${pctHigh-pctLow}%;background:${color};box-shadow:0 0 8px ${color}66"></div>
-    </div>
-    <div class="wp-labels">
-      <span class="wp-min">${absMin}${unit}</span>
-      <span class="wp-value" style="color:${color}">${low}${unit} — ${high}${unit}</span>
-      <span class="wp-max">${absMax}${unit}</span>
-    </div>
-  </div>`;
+  return {lo:lo,hi:hi,fromSpecies:true};
 }
 
 function waterParamsSection(item){
-  if(!item.water) return '';
-  const w = item.water;
-  return `
-    <div class="modal-section modal-water">
-      <div class="section-title"><h3>${T("waterParams")}</h3></div>
-      <div class="water-param-grid">
-        <div class="water-param-card ph">
-          <div class="water-param-label">${T("ph")}</div>
-          ${waterParamGauge(w.ph_low, w.ph_high, 7.5, 9.0, '', '#4eddbb')}
-        </div>
-        <div class="water-param-card sal">
-          <div class="water-param-label">${T("salinity")}</div>
-          ${waterParamGauge(w.sal_low, w.sal_high, 1.018, 1.030, '', '#60b0ff')}
-        </div>
-        <div class="water-param-card temp">
-          <div class="water-param-label">${T("temperature")}</div>
-          ${waterParamGauge(w.temp_low, w.temp_high, 65, 85, '°F', '#e89838')}
-        </div>
-      </div>
-    </div>`;
+  var label = (typeof T === 'function' ? T('waterParams') : 'Water parameters');
+  // Fish detail popups only show params clinically relevant for keeping
+  // fish alive: Temperature, Salinity, pH. The other params (dKH, Ca,
+  // Mg, PO4, NO3) are kept in WP_PARAM_DEFS for future coral rendering
+  // but are filtered out here.
+  var defs = WP_PARAM_DEFS.filter(function(d){return d.forFish});
+  var cards = defs.map(function(def){
+    var v = wpResolveValue(item, def);
+    var tint = WP_TINTS[def.tint];
+    var loPct = wpPct(v.lo, def.min, def.max);
+    var hiPct = wpPct(v.hi, def.min, def.max);
+    var unitDisplay = def.u ? ' '+def.u : '';
+    var sourceTag = v.fromSpecies ? '' : '<span class="wp-default" title="Reef standard default">·</span>';
+    return ''+
+      '<div class="wp-card" data-tint="'+def.tint+'">'+
+        '<div class="wp-head">'+
+          '<span class="wp-name">'+def.n+sourceTag+'</span>'+
+          '<span class="wp-ideal" style="color:'+tint.text+'">'+wpFmt(v.lo)+' – '+wpFmt(v.hi)+unitDisplay+'</span>'+
+        '</div>'+
+        '<div class="wp-bar">'+
+          '<canvas data-wp-canvas data-lo="'+loPct+'" data-hi="'+hiPct+'" data-tint="'+def.tint+'"></canvas>'+
+          '<span class="wp-zlbl wp-zlbl-start" style="left:calc('+loPct+'% + 4px)">'+wpFmt(v.lo)+'</span>'+
+          '<span class="wp-zlbl wp-zlbl-end" style="left:calc('+hiPct+'% - 4px)">'+wpFmt(v.hi)+'</span>'+
+        '</div>'+
+        '<div class="wp-scale"><span>'+wpFmt(def.min)+unitDisplay+'</span><span>'+wpFmt(def.max)+unitDisplay+'</span></div>'+
+      '</div>';
+  }).join('');
+  return ''+
+    '<div class="modal-section modal-water">'+
+      '<div class="section-title"><h3>'+label+'</h3></div>'+
+      '<div class="wp-grid">'+cards+'</div>'+
+    '</div>';
 }
+
+// Animation loop — kicked off by initWaterParamsCanvas() after modal renders.
+var WP_RAF = null;
+var WP_DRAW_FNS = [];
+
+function makeWpZoneWater(canvas, idealStartPct, idealEndPct, tintName, staggerMs){
+  var tint = WP_TINTS[tintName] || WP_TINTS.cyan;
+  var ctx = canvas.getContext('2d');
+  var W=0,H=0,dpr=1;
+  var fillProgress=0,startTime=-1,fillDur=1400;
+  var t = Math.random()*200;
+
+  function sizeCanvas(){
+    var r=canvas.parentElement.getBoundingClientRect();
+    if(r.width<1) return false;
+    dpr=window.devicePixelRatio||1;
+    W=r.width;H=r.height;
+    canvas.width=Math.round(W*dpr);
+    canvas.height=Math.round(H*dpr);
+    return true;
+  }
+  function ease(x){return 1-Math.pow(1-x,3)}
+  function surfaceY(x,zoneStart,zoneWidth,amplitude){
+    var a=amplitude;
+    return Math.sin(x/45+t*1.5)*a + Math.sin(x/26+t*2.7)*a*.55 + Math.sin(x/72+t*.8)*a*.75;
+  }
+  return function draw(now){
+    if(W<1){if(!sizeCanvas())return}
+    if(startTime<0) startTime=now;
+    var el=now-startTime-staggerMs;
+    if(el<0) fillProgress=0;
+    else if(el<fillDur) fillProgress=ease(el/fillDur);
+    else fillProgress=1;
+    t+=.025;
+    ctx.save();ctx.scale(dpr,dpr);ctx.clearRect(0,0,W,H);
+    var zoneStart = (idealStartPct/100)*W;
+    var zoneEnd = (idealEndPct/100)*W;
+    var zoneWidth = zoneEnd - zoneStart;
+    var fillW = zoneWidth * fillProgress;
+    var fillStart = zoneStart + (zoneWidth - fillW)/2;
+    var fillEnd = fillStart + fillW;
+    if(fillW<3){ctx.restore();return}
+    var mY = H*.42;
+    var amp = 4.4;
+    ctx.beginPath();ctx.rect(fillStart, 0, fillW, H);ctx.clip();
+    // deep
+    ctx.beginPath();ctx.moveTo(fillStart,H);ctx.lineTo(fillEnd,H);
+    for(var x=fillEnd;x>=fillStart;x-=2) ctx.lineTo(x,mY+3+surfaceY(x,zoneStart,zoneWidth,amp*.7)+2);
+    ctx.closePath();ctx.fillStyle=tint.deep;ctx.fill();
+    // main
+    ctx.beginPath();ctx.moveTo(fillStart,H);ctx.lineTo(fillEnd,H);
+    for(var x=fillEnd;x>=fillStart;x-=2) ctx.lineTo(x,mY+surfaceY(x,zoneStart,zoneWidth,amp));
+    ctx.closePath();ctx.fillStyle=tint.fill;ctx.fill();
+    // foam
+    ctx.beginPath();var s2=false;
+    for(var x=fillStart;x<=fillEnd;x+=2){var wy=mY+surfaceY(x,zoneStart,zoneWidth,amp);if(!s2){ctx.moveTo(x,wy);s2=true}else ctx.lineTo(x,wy)}
+    ctx.strokeStyle=tint.foam;ctx.lineWidth=2;ctx.stroke();
+    ctx.beginPath();s2=false;
+    for(var x=fillStart;x<=fillEnd;x+=2){var wy=mY+surfaceY(x,zoneStart,zoneWidth,amp)-.5;if(!s2){ctx.moveTo(x,wy);s2=true}else ctx.lineTo(x,wy)}
+    ctx.strokeStyle='rgba(255,255,255,.16)';ctx.lineWidth=5;ctx.stroke();
+    // subsurface
+    ctx.beginPath();
+    for(var x=fillStart;x<=fillEnd;x+=2){var wy=mY+surfaceY(x,zoneStart,zoneWidth,amp);if(x===fillStart)ctx.moveTo(x,wy+1);else ctx.lineTo(x,wy+1)}
+    for(var x=fillEnd;x>=fillStart;x-=2) ctx.lineTo(x,mY+surfaceY(x,zoneStart,zoneWidth,amp)+6);
+    ctx.closePath();ctx.fillStyle='rgba(255,255,255,.13)';ctx.fill();
+    // edge glows
+    if(fillW>10){
+      var g1=ctx.createRadialGradient(fillStart,mY,0,fillStart,mY,18);
+      g1.addColorStop(0,tint.glow);g1.addColorStop(1,'rgba(0,0,0,0)');
+      ctx.fillStyle=g1;ctx.beginPath();ctx.arc(fillStart,mY,16,0,Math.PI*2);ctx.fill();
+      var g2=ctx.createRadialGradient(fillEnd,mY,0,fillEnd,mY,18);
+      g2.addColorStop(0,tint.glow);g2.addColorStop(1,'rgba(0,0,0,0)');
+      ctx.fillStyle=g2;ctx.beginPath();ctx.arc(fillEnd,mY,16,0,Math.PI*2);ctx.fill();
+    }
+    ctx.restore();
+  };
+}
+
+function initWaterParamsCanvas(){
+  // Cancel old loop if any
+  if(WP_RAF){cancelAnimationFrame(WP_RAF);WP_RAF=null}
+  WP_DRAW_FNS = [];
+  var canvases = document.querySelectorAll('canvas[data-wp-canvas]');
+  if(!canvases.length) return;
+  canvases.forEach(function(c, idx){
+    var lo = parseFloat(c.dataset.lo);
+    var hi = parseFloat(c.dataset.hi);
+    var tint = c.dataset.tint;
+    if(isNaN(lo) || isNaN(hi)) return;
+    WP_DRAW_FNS.push(makeWpZoneWater(c, lo, hi, tint, idx*100));
+  });
+  function loop(now){
+    for(var i=0;i<WP_DRAW_FNS.length;i++) WP_DRAW_FNS[i](now);
+    WP_RAF = requestAnimationFrame(loop);
+  }
+  WP_RAF = requestAnimationFrame(loop);
+}
+window.initWaterParamsCanvas = initWaterParamsCanvas;
 
 // === FISH OF THE WEEK ===
 function getFishOfTheWeek(){
@@ -246,9 +396,9 @@ const TRANSLATIONS = {
     catButterfly: "Butterflies", catHawks: "Hawkfish", catRabbits: "Rabbitfish",
     catTriggers: "Triggers", catPuffers: "Puffers", catEels: "Eels", catLionfish: "Lionfish",
     catOther: "Other Fish", catShrimp: "Shrimp", catCrabs: "Crabs", catSnails: "Snails",
-    catUrchins: "Urchins", catStarfish: "Starfish", catAnemones: "Anemones", catClams: "Clams",
+    catUrchins: "Urchins", catStarfish: "Starfish", catClams: "Clams",
     catInverts: "Inverts",
-    catSmallReef: "Small Reef Fish", catButterflies: "Butterflies & Rabbits", catPredators: "Predators & Oddballs", catAnemones: "Anemones & Clams",
+    catSmallReef: "Small Reef Fish", catButterflies: "Butterflies & Rabbits", catPredators: "Predators & Oddballs",
     
     // Badges
     badgeStaffPick: "Staff Pick", badgeNewArrival: "New Arrival", badgeRareFind: "Rare Find", badgeBegFav: "Beginner Favorite",
@@ -367,9 +517,9 @@ const TRANSLATIONS = {
     catButterfly: "Mariposas", catHawks: "Halcones", catRabbits: "Conejos",
     catTriggers: "Ballestas", catPuffers: "Puffers", catEels: "Morenas", catLionfish: "Pez León",
     catOther: "Otros", catShrimp: "Camarones", catCrabs: "Cangrejos", catSnails: "Caracoles",
-    catUrchins: "Erizos", catStarfish: "Estrellas", catAnemones: "Anémonas", catClams: "Almejas",
+    catUrchins: "Erizos", catStarfish: "Estrellas", catClams: "Almejas",
     catInverts: "Invertebrados",
-    catSmallReef: "Peces Pequeños", catButterflies: "Mariposas y Conejos", catPredators: "Depredadores", catAnemones: "Anémonas y Almejas",
+    catSmallReef: "Peces Pequeños", catButterflies: "Mariposas y Conejos", catPredators: "Depredadores",
     
     // Badges
     badgeStaffPick: "Selección del Personal", badgeNewArrival: "Recién Llegado", badgeRareFind: "Hallazgo Raro", badgeBegFav: "Favorito Principiante",
@@ -484,8 +634,7 @@ const CATEGORY_TINTS = {
   "Small Reef Fish":    {tint:"rgba(46,136,68,.22)",  border:"rgba(46,136,68,.4)",  glow:"rgba(46,136,68,.15)"},
   "Butterflies & Rabbits":{tint:"rgba(238,187,51,.20)",border:"rgba(238,187,51,.4)",glow:"rgba(238,187,51,.12)"},
   "Predators & Oddballs":{tint:"rgba(187,51,68,.22)", border:"rgba(187,51,68,.4)",  glow:"rgba(187,51,68,.15)"},
-  "Inverts":            {tint:"rgba(58,154,138,.22)", border:"rgba(58,154,138,.4)", glow:"rgba(58,154,138,.15)"},
-  "Anemones & Clams":   {tint:"rgba(85,170,204,.22)",border:"rgba(85,170,204,.4)", glow:"rgba(85,170,204,.15)"}
+  "Inverts":            {tint:"rgba(58,154,138,.22)", border:"rgba(58,154,138,.4)", glow:"rgba(58,154,138,.15)"}
 };
 
 function updateCategoryTint(){
@@ -515,29 +664,88 @@ function updateCategoryTint(){
 let _inputModalCallback = null;
 let _inputModalFields = [];
 
-function showInputModal(title, desc, fields, callback){
+// v0.128 — rainbow palette for input modal pills + field accents. Breaks
+// up the wall-of-aqua look and makes pill rows read as a colorful band.
+// v0.178pre — Reordered to lead with warm/neutral colors. Was
+// ['#7bcfff','#5eebc8',...] which made fields 0 and 1 of any modal
+// (typically the most prominent fields like "Display name" and
+// "Category") read as blue → teal, which Chris flagged as "blue/aqua
+// pillboxes" repeatedly. Now leads with amber, then rotates through
+// warm tones before hitting blue/teal at the end of the cycle.
+const INPUT_MODAL_PALETTE = ['#ffcb5e','#ff9bb6','#c8b2ff','#ffa850','#b8e860','#5eebc8','#7bcfff'];
+
+function showInputModal(title, desc, fields, callback, options){
+  options = options || {};
   const overlay = document.getElementById('inputModalOverlay');
   const titleEl = document.getElementById('inputModalTitle');
   const descEl = document.getElementById('inputModalDesc');
   const fieldsEl = document.getElementById('inputModalFields');
   if(!overlay||!titleEl||!descEl||!fieldsEl) return;
-  
-  titleEl.textContent = title;
+
+  // v0.148 — theme + icon support. Each staff edit action passes a theme
+  // ('green'/'blue'/'purple'/'amber'/'rose'/'red'/'cyan') and an SVG icon
+  // so the modal has visual identity per action. Falls back to a neutral
+  // teal default if no options are passed.
+  const modal = overlay.querySelector('.input-modal');
+  if(modal){
+    // Reset themed classes
+    modal.classList.remove(
+      'input-modal-themed',
+      'input-modal-theme-green','input-modal-theme-blue','input-modal-theme-purple',
+      'input-modal-theme-amber','input-modal-theme-rose','input-modal-theme-red',
+      'input-modal-theme-cyan','input-modal-destructive','input-modal-grid-2col'
+    );
+    if(options.theme){
+      modal.classList.add('input-modal-themed');
+      modal.classList.add('input-modal-theme-' + options.theme);
+    }
+    if(options.destructive) modal.classList.add('input-modal-destructive');
+    if(fields && fields.length >= 5) modal.classList.add('input-modal-grid-2col');
+  }
+
+  // v0.148 — title with optional icon glyph in a colored circle
+  if(options.icon){
+    titleEl.innerHTML = '<span class="input-modal-icon-wrap">' + options.icon + '</span><span class="input-modal-title-text">' + title + '</span>';
+  } else {
+    titleEl.textContent = title;
+  }
   descEl.textContent = desc || '';
   _inputModalCallback = callback;
   _inputModalFields = fields;
   const cancelBtn = document.getElementById('inputModalCancel');
   const confirmBtn = document.getElementById('inputModalConfirm');
-  if(cancelBtn) cancelBtn.textContent = 'Cancel';
-  if(confirmBtn) confirmBtn.style.display = '';
-  
+  if(cancelBtn) cancelBtn.textContent = options.cancelText || 'Cancel';
+  if(confirmBtn){
+    confirmBtn.style.display = '';
+    confirmBtn.textContent = options.confirmText || 'Save';
+    // v0.148 — gradient sweep + bubble particles on confirm tap. Replaces
+    // the boring "click and hope" feel with visible feedback that the
+    // action fired. Applied via class toggle so the animation can replay.
+    confirmBtn.classList.remove('btn-confirm-sweeping');
+  }
+
   fieldsEl.innerHTML = fields.map((f, i) => {
+    const fieldAccent = INPUT_MODAL_PALETTE[i % INPUT_MODAL_PALETTE.length];
     if(f.type === 'select'){
       const options = (f.options || []);
       const optionsHtml = options.map(o => `<option value="${o}" ${String(o)===String(f.value)?'selected':''}>${o}</option>`).join('');
-      const choiceHtml = options.map(o => `<button type="button" class="input-choice-btn ${String(o)===String(f.value)?'is-active':''}" data-choice-target="inputField${i}" data-choice-value="${o}">${o}</button>`).join('');
+      if(f.compact){
+        return `
+          <div class="input-modal-field input-modal-field-select input-modal-field-compact" style="--field-accent:${fieldAccent}">
+            <label>${f.label}</label>
+            <div class="input-compact-select-wrap">
+              <select id="inputField${i}" data-field-index="${i}" class="input-compact-select">${optionsHtml}</select>
+              <span class="input-compact-chev">▾</span>
+            </div>
+          </div>
+        `;
+      }
+      const choiceHtml = options.map((o, oi) => {
+        const pillColor = INPUT_MODAL_PALETTE[oi % INPUT_MODAL_PALETTE.length];
+        return `<button type="button" class="input-choice-btn ${String(o)===String(f.value)?'is-active':''}" style="--pill-c:${pillColor}" data-choice-target="inputField${i}" data-choice-value="${o}">${o}</button>`;
+      }).join('');
       return `
-        <div class="input-modal-field input-modal-field-select">
+        <div class="input-modal-field input-modal-field-select" style="--field-accent:${fieldAccent}">
           <label>${f.label}</label>
           <select id="inputField${i}" data-field-index="${i}">${optionsHtml}</select>
           <div class="input-choice-grid" data-choice-grid-for="inputField${i}">${choiceHtml}</div>
@@ -546,20 +754,20 @@ function showInputModal(title, desc, fields, callback){
     }
     if(f.type === 'textarea'){
       return `
-        <div class="input-modal-field">
+        <div class="input-modal-field input-modal-field-wide" style="--field-accent:${fieldAccent}">
           <label>${f.label}</label>
           <textarea id="inputField${i}" placeholder="${f.placeholder||''}" rows="${f.rows||4}">${f.value||''}</textarea>
         </div>
       `;
     }
     return `
-      <div class="input-modal-field">
+      <div class="input-modal-field" style="--field-accent:${fieldAccent}">
         <label>${f.label}</label>
         <input id="inputField${i}" type="${f.type||'text'}" value="${f.value||''}" placeholder="${f.placeholder||''}">
       </div>
     `;
   }).join('');
-  
+
   fieldsEl.querySelectorAll('select').forEach(selectEl => {
     const syncChoiceGrid = () => {
       const grid = fieldsEl.querySelector(`[data-choice-grid-for="${selectEl.id}"]`);
@@ -573,6 +781,8 @@ function showInputModal(title, desc, fields, callback){
   });
   fieldsEl.querySelectorAll('.input-choice-btn').forEach(btn => {
     btn.addEventListener('click', () => {
+      // v0.128 — tactile feedback on pill tap
+      if(typeof ltcFx !== 'undefined' && ltcFx.jelly) ltcFx.jelly(btn);
       const target = document.getElementById(btn.dataset.choiceTarget);
       if(!target) return;
       target.value = btn.dataset.choiceValue;
@@ -580,32 +790,73 @@ function showInputModal(title, desc, fields, callback){
       target.focus();
     });
   });
-  
+
+  overlay.classList.remove('wide');
+  if(fields && fields.length >= 5) overlay.classList.add('wide');
   overlay.classList.add('show');
   const firstInput = fieldsEl.querySelector('input,select,textarea');
   if(firstInput) setTimeout(()=>firstInput.focus(), 100);
-  
+
   fieldsEl.querySelectorAll('input,select').forEach(inp => {
     inp.addEventListener('keydown', e => { if(e.key==='Enter') confirmInputModal(); });
   });
 }
 
+function showConfirmModal(title, desc, onConfirm, options={}){
+  const overlay = document.getElementById('inputModalOverlay');
+  const titleEl = document.getElementById('inputModalTitle');
+  const descEl = document.getElementById('inputModalDesc');
+  const fieldsEl = document.getElementById('inputModalFields');
+  const cancelBtn = document.getElementById('inputModalCancel');
+  const confirmBtn = document.getElementById('inputModalConfirm');
+  if(!overlay||!titleEl||!descEl||!fieldsEl||!cancelBtn||!confirmBtn) return;
+  titleEl.textContent = title;
+  descEl.textContent = desc || '';
+  fieldsEl.innerHTML = options.html || '';
+  _inputModalCallback = () => { if(typeof onConfirm === 'function') onConfirm(); };
+  _inputModalFields = [];
+  cancelBtn.textContent = options.cancelText || 'Cancel';
+  confirmBtn.textContent = options.confirmText || 'Confirm';
+  confirmBtn.style.display = '';
+  overlay.classList.remove('wide');
+  overlay.classList.add('show');
+  triggerGaugeFx(overlay);
+}
+
 function confirmInputModal(){
+  // v0.148 — gradient sweep + bubble particles before firing the callback.
+  // Gives staff visible confirmation that their tap registered. The actual
+  // state change still fires after a short delay so the animation reads.
+  const confirmBtn = document.getElementById('inputModalConfirm');
+  if(confirmBtn){
+    confirmBtn.classList.remove('btn-confirm-sweeping');
+    void confirmBtn.offsetWidth;
+    confirmBtn.classList.add('btn-confirm-sweeping');
+    if(typeof ltcFx !== 'undefined' && ltcFx.bubbles){
+      try { ltcFx.bubbles(confirmBtn, {count:14}); } catch(_){}
+    }
+  }
   const values = _inputModalFields.map((f,i) => {
     const el = document.getElementById('inputField'+i);
     return el ? el.value : '';
   });
-  closeInputModal();
-  if(_inputModalCallback) _inputModalCallback(values);
+  // Small delay so the sweep animation is visible before the modal closes
+  setTimeout(function(){
+    closeInputModal();
+    if(_inputModalCallback) _inputModalCallback(values);
+  }, 240);
 }
 
 function closeInputModal(){
   const overlay = document.getElementById('inputModalOverlay');
-  if(overlay) overlay.classList.remove('show');
+  if(overlay){ overlay.classList.remove('show'); overlay.classList.remove('wide'); }
   const cancelBtn = document.getElementById('inputModalCancel');
   const confirmBtn = document.getElementById('inputModalConfirm');
   if(cancelBtn) cancelBtn.textContent = 'Cancel';
-  if(confirmBtn) confirmBtn.style.display = '';
+  if(confirmBtn){
+    confirmBtn.style.display = '';
+    confirmBtn.textContent = 'Confirm';
+  }
   _inputModalCallback = null;
 }
 

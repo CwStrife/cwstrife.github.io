@@ -389,7 +389,9 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "id": "african-flameback-angel",
     "name": "African Flameback Angel",
     "name_es": "African Flameback Angel",
-    "aliases": [],
+    "aliases": [
+      "African Flameback Angelfish"
+    ],
     "scientific": "Centropyge acanthops",
     "category": "Angelfish",
     "type": "Saltwater Fish",
@@ -513,7 +515,10 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "id": "bellus-angel",
     "name": "Bellus Angel",
     "name_es": "Bellus Angel",
-    "aliases": [],
+    "aliases": [
+      "Bellus Angelfish",
+      "Ornate Angelfish"
+    ],
     "scientific": "Genicanthus bellus",
     "category": "Angelfish",
     "type": "Saltwater Fish",
@@ -575,7 +580,10 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "id": "blueface-angel",
     "name": "Blueface Angel",
     "name_es": "Blueface Angel",
-    "aliases": [],
+    "aliases": [
+      "Blueface Angelfish",
+      "Yellowface Angelfish"
+    ],
     "scientific": "Pomacanthus xanthometopon",
     "category": "Angelfish",
     "type": "Saltwater Fish",
@@ -942,68 +950,6 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "feedingNotes": "Offer varied angel preparations plus algae and meaty foods, with sponge-inclusive foods especially valuable for many large angels. These fish do best in mature systems where live rock, caves, and consistent feeding are already established.",
     "buyingGuidance": "This is a true centerpiece purchase, not an impulse color buy. The keeper should already be comfortable with large-tank husbandry, reef-safe-with-caution at best, and the long-term adult size and authority these angels bring to a display.",
     "recognitionNotes": "Tall yellow angelfish with darker facial contrast and a very obvious flag-like dorsal profile."
-  },
-  {
-    "id": "french-angel",
-    "name": "French Angel",
-    "name_es": "French Angel",
-    "aliases": [],
-    "scientific": "Pomacanthus paru",
-    "category": "Angelfish",
-    "type": "Saltwater Fish",
-    "price": 0,
-    "stockSize": "",
-    "maxSize": "15 in",
-    "minTank": "250+ gal",
-    "diet": "Omnivore",
-    "diet_es": "",
-    "origin": "Unknown",
-    "origin_es": "",
-    "habitat": "Reef / rocky",
-    "tankCode": "",
-    "aggression": 38,
-    "coralRisk": 55,
-    "invertRisk": 24,
-    "careDifficulty": 56,
-    "role": "Large angelfish with centerpiece presence and bigger-system requirements",
-    "role_es": "",
-    "overview": "A broad-bodied Atlantic angel that grows into a heavy, confident show fish. Best sold to buyers already planning a large FOWLR display rather than a mixed reef.",
-    "overview_es": "",
-    "facts": [
-      "Plan around a roomy, species-appropriate tank for long-term care.",
-      "Mixed reefs should be watched closely for nipping or contact issues.",
-      "Coral and clam compatibility should not be assumed just because the fish looks settled in the store."
-    ],
-    "photoTitle": "French Angel",
-    "inStock": false,
-    "badges": [],
-    "water": {
-      "ph_low": 8,
-      "ph_high": 8.4,
-      "sal_low": 1.024,
-      "sal_high": 1.026,
-      "temp_low": 75,
-      "temp_high": 80
-    },
-    "seasonal": null,
-    "careLabel": "Intermediate",
-    "visualCue": "Look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels.",
-    "bestWith": [
-      "Large mature FOWLR or carefully planned mixed systems",
-      "Confident tankmates that can handle a showpiece angel",
-      "Keepers planning around adult size, not juvenile size"
-    ],
-    "cautionWith": [
-      "Coral- or clam-centered reefs",
-      "Cramped tanks or weak aquascape",
-      "Other large angels unless the system is exceptional"
-    ],
-    "staffNote": "",
-    "headerSummary": "Showpiece angelfish built for mature large systems, serious rockwork, and long-term planning. Look for look for the tall body shape, bold facial markings, and slow cruising pattern common to marine angels. Plan on at least 250+ gal.",
-    "behavior": "Large angels are bold, high-visibility fish that claim rockwork, caves, and feeding lanes once they settle in. They are usually best kept as the showpiece angel in a roomy system and can become territorial toward similar-shaped fish as they mature.",
-    "feedingNotes": "Offer varied angel preparations plus algae and meaty foods, with sponge-inclusive foods especially valuable for many large angels. These fish do best in mature systems where live rock, caves, and consistent feeding are already established.",
-    "buyingGuidance": "This is a true centerpiece purchase, not an impulse color buy. The keeper should already be comfortable with large-tank husbandry, reef-safe-with-caution at best, and the long-term adult size and authority these angels bring to a display.",
-    "recognitionNotes": "Large Caribbean angel with a dark body outlined in gold-edged scales and a strong yellow facial highlight in adults."
   },
   {
     "id": "goldflake-angel",
@@ -1815,7 +1761,9 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "id": "swallowtail-angel",
     "name": "Swallowtail Angel",
     "name_es": "Swallowtail Angel",
-    "aliases": [],
+    "aliases": [
+      "Swallowtail Angelfish"
+    ],
     "scientific": "Genicanthus melanospilos",
     "category": "Angelfish",
     "type": "Saltwater Fish",
@@ -1939,7 +1887,9 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "id": "watanabei-angel",
     "name": "Watanabei Angel",
     "name_es": "Watanabei Angel",
-    "aliases": [],
+    "aliases": [
+      "Watanabei Angelfish"
+    ],
     "scientific": "Genicanthus watanabei",
     "category": "Angelfish",
     "type": "Saltwater Fish",
@@ -2087,31 +2037,21 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "stockSize": "",
     "tankCode": "",
     "badges": [],
-    "aliases": [],
+    "aliases": [
+      "French Angel"
+    ],
     "facts": [
       "Adult size in this catalog is listed around 15 in.",
       "Plan around roughly 250+ gal or larger for long-term care.",
       "Diet in this catalog: Omnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -2161,31 +2101,21 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "stockSize": "",
     "tankCode": "",
     "badges": [],
-    "aliases": [],
+    "aliases": [
+      "Queen Angel"
+    ],
     "facts": [
       "Adult size in this catalog is listed around 18 in.",
       "Plan around roughly 250+ gal or larger for long-term care.",
       "Diet in this catalog: Omnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -2235,31 +2165,22 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "stockSize": "",
     "tankCode": "",
     "badges": [],
-    "aliases": [],
+    "aliases": [
+      "Regal Angel",
+      "Royal Angelfish"
+    ],
     "facts": [
       "Adult size in this catalog is listed around 10 in.",
       "Plan around roughly 125+ gal or larger for long-term care.",
       "Diet in this catalog: Omnivore / spongivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Specialist",
@@ -2316,24 +2237,12 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Diet in this catalog: Planktivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -2390,24 +2299,12 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Diet in this catalog: Omnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -2464,24 +2361,12 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Diet in this catalog: Planktivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Intermediate",
@@ -2538,24 +2423,12 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
       "Diet in this catalog: Omnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Specialist",
@@ -2576,5 +2449,976 @@ window.LTC_SPECIES_CHUNKS["Angelfish"] = [
     "feedingNotes": "Feed a varied omnivore routine with marine algae, quality angel preparations, and frozen foods. Dwarf angels usually look and behave better when they can graze between feedings, so mature live rock and regular prepared meals both matter.",
     "buyingGuidance": "This is usually a color-versus-reef-risk decision. Dwarf angels can be excellent long-term display fish, but reef safety is never a blanket yes—some individuals ignore corals while others sample fleshy LPS, polyps, or clam mantles.",
     "recognitionNotes": "Rare dwarf angel with a pale body crossed by red-orange peppermint striping and a very delicate collector look."
+  },
+  {
+    "id": "colins-angelfish",
+    "name": "Colin's Angelfish",
+    "name_es": "Ángel de Colin",
+    "aliases": [
+      "Colin's Pygmy Angel"
+    ],
+    "scientific": "Centropyge colini",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3.5 in",
+    "minTank": "30+ gal",
+    "careLabel": "Advanced",
+    "diet": "Omnivore",
+    "diet_es": "Omnívoro",
+    "origin": "Western Pacific",
+    "origin_es": "Pacífico Occidental",
+    "habitat": "Deeper reef slopes and shaded rock faces",
+    "tankCode": "",
+    "aggression": 16,
+    "coralRisk": 16,
+    "invertRisk": 4,
+    "careDifficulty": 62,
+    "role": "Premium dwarf angelfish with blue-and-yellow contrast and a rarer profile",
+    "role_es": "Ángel enano premium de color azul y amarillo",
+    "visualCue": "Bright yellow body with intense blue dorsal region that gives the fish a mohawk-like look.",
+    "overview": "A genuinely premium dwarf angel that looks different from the usual coral beauty or flame angel lane. The color combination is striking, but this is still a more delicate, more considered recommendation than the standard hardy starter dwarf angels.",
+    "overview_es": "Un ángel enano realmente premium y distinto a los más comunes. El color es impresionante, pero requiere una recomendación más cuidadosa.",
+    "facts": [
+      "Biota describes the fish as a bright yellow-and-blue dwarf angel with a signature blue dorsal 'mohawk' look.",
+      "Because this is a rarer premium angelfish, the buyer should already understand mature rockwork, grazing, and reef-with-caution expectations.",
+      "It adds depth to the angel section because it fills the small-premium slot instead of another large show angel slot."
+    ],
+    "bestWith": [
+      "Mature reef systems",
+      "Experienced dwarf-angel keepers",
+      "Customers wanting a premium but still compact angelfish"
+    ],
+    "cautionWith": [
+      "Immature tanks",
+      "Customers expecting zero coral risk",
+      "Crowded aggressive dwarf-angel mixes"
+    ],
+    "staffNote": "Treat this like a premium specialist dwarf angel, not a casual impulse add.",
+    "photoTitle": "Centropyge colini",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "headerSummary": "Premium dwarf angelfish with vivid yellow-and-blue contrast and a blue dorsal 'mohawk' profile. Best in mature, thoughtfully stocked systems.",
+    "seasonal": null,
+    "behavior": "Usually works close to rock faces and shaded structure, grazing and inspecting the reef rather than charging openly through the tank. It feels more refined and deliberate than the bolder, rougher dwarf angel types.",
+    "feedingNotes": "Offer a varied omnivore diet with marine algae support, sponge-leaning angelfish foods, and repeated opportunities to browse mature rock. The issue is not just getting it to eat, but keeping the fish thriving in a setup that matches its more premium nature.",
+    "buyingGuidance": "Recommend this to aquarists who already understand dwarf angel tradeoffs and who have a mature tank worth putting a premium angel into. The sale should center on fit and long-term care, not just the fact that the fish is rare and beautiful.",
+    "recognitionNotes": "Look for the bright yellow body and striking blue dorsal region that gives the fish a distinctive mohawk-like profile."
+  },
+  {
+    "id": "maculosus-angelfish",
+    "name": "Maculosus Angelfish",
+    "aliases": [
+      "Yellowbar Angelfish"
+    ],
+    "scientific": "Pomacanthus maculosus",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "18 in",
+    "minTank": "220+ gal",
+    "careLabel": "Advanced",
+    "diet": "Omnivore / sponge",
+    "diet_es": "Omnívoro / esponja",
+    "origin": "Red Sea and northwestern Indian Ocean",
+    "origin_es": "Mar Rojo y noroeste del Índico",
+    "habitat": "Outer reef slopes and large coral-rich reef faces",
+    "tankCode": "",
+    "aggression": 44,
+    "coralRisk": 28,
+    "invertRisk": 8,
+    "careDifficulty": 56,
+    "role": "Large show angelfish with deep blue body and bold yellow side panel",
+    "role_es": "Ángel grande de exhibición con cuerpo azul y franja amarilla",
+    "visualCue": "Dark navy body with bright yellow saddle-like patch on the flank and electric blue facial accents.",
+    "overview": "A true big-show angelfish that belongs in the same conversation as Emperor and Blueface, not in the dwarf angel lane. The draw is huge display presence and color contrast, but the recommendation only makes sense for customers with genuinely large mature systems.",
+    "overview_es": "Un ángel grande de exhibición que requiere un acuario grande y maduro, no un sistema promedio.",
+    "facts": [
+      "Biota currently lists Maculosus Angelfish in its saltwater fish offerings.",
+      "Adult size is the defining issue here, not whether the juvenile is manageable for a few months.",
+      "Like many large Pomacanthus angels, reef use is always with caution rather than as a no-risk coral fish."
+    ],
+    "bestWith": [
+      "Large fish-only or reef-with-caution systems",
+      "Experienced angelfish keepers",
+      "Customers building a true show tank"
+    ],
+    "cautionWith": [
+      "Average mixed reefs",
+      "Customers focused on zero coral risk",
+      "Undersized systems that will be quickly outgrown"
+    ],
+    "staffNote": "This is a real large-show angel. Sell the tank requirement first, the color second.",
+    "photoTitle": "Pomacanthus maculosus",
+    "inStock": false,
+    "badges": [
+      "Showpiece"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Ángel Maculosus",
+    "headerSummary": "Large Pomacanthus show angel with deep blue body, yellow side panel, and serious long-term tank-size demands.",
+    "seasonal": null,
+    "behavior": "Cruises openly and deliberately through the full tank once established, inspecting rock faces and commanding far more visual space than a dwarf angel ever could. In cramped systems it will look wrong and act wrong long before it reaches full size on paper.",
+    "feedingNotes": "Feed a varied omnivore diet with marine algae, sponge-based angel foods, and substantial prepared fare. The fish should be treated like a large long-term display animal with a serious feeding footprint, not like a one-note pellet eater.",
+    "buyingGuidance": "Recommend only when the customer already has or is actively building the kind of large stable system this fish deserves. The right conversation centers on adult size, reef-with-caution reality, and the fact that beautiful juveniles do not stay medium forever.",
+    "recognitionNotes": "Look for the broad yellow flank patch against a dark blue body and the classic large Pomacanthus outline."
+  },
+  {
+    "id": "brazilian-flameback-angelfish",
+    "name": "Brazilian Flameback Angelfish",
+    "aliases": [
+      "Flameback Angelfish"
+    ],
+    "scientific": "Centropyge aurantonotus",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "30+ gal",
+    "careLabel": "Moderate",
+    "diet": "Omnivore",
+    "diet_es": "Omnívoro",
+    "origin": "Western Atlantic",
+    "origin_es": "Atlántico Occidental",
+    "habitat": "Rocky reef faces and sponge-rich Caribbean cover",
+    "tankCode": "",
+    "aggression": 24,
+    "coralRisk": 18,
+    "invertRisk": 4,
+    "careDifficulty": 34,
+    "role": "Compact Atlantic dwarf angel with glowing orange back and deep blue lower body",
+    "role_es": "Ángel enano atlántico con espalda naranja intensa",
+    "visualCue": "Bright orange upper back over a dark royal-blue lower body and belly.",
+    "overview": "This is a very useful add because it gives the angelfish section a second flameback-style dwarf angel without just repeating the African species already in the catalog. It reads as a premium compact angel for customers who want dwarf-angelfish color without jumping into large Pomacanthus territory.",
+    "overview_es": "Amplía la línea de ángeles enanos con un flameback atlántico muy colorido y compacto.",
+    "facts": [
+      "Biota currently lists Flameback Angelfish in its saltwater fish offerings.",
+      "It fills a premium small-angel slot while staying visually distinct from coral beauties and flames.",
+      "Like other dwarf angels, reef use is still with caution rather than as a guaranteed coral-safe choice."
+    ],
+    "bestWith": [
+      "Mature reef-with-caution systems",
+      "Customers wanting a compact premium dwarf angel",
+      "Rock-heavy aquascapes with grazing room"
+    ],
+    "cautionWith": [
+      "Delicate coral collections",
+      "Crowded dwarf-angel mixes",
+      "Immature tanks with little natural browse"
+    ],
+    "staffNote": "Good premium dwarf angel when someone wants a compact show fish and understands dwarf-angel coral risk.",
+    "photoTitle": "Centropyge aurantonotus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Ángel Flameback Brasileño",
+    "headerSummary": "Compact dwarf angelfish with orange upper back, dark blue lower body, and classic reef-with-caution dwarf-angel behavior.",
+    "seasonal": null,
+    "behavior": "Works the rockwork constantly, grazing and inspecting surfaces with the alert confidence typical of dwarf angels. It feels bolder than its size suggests, especially once it has picked out a favored section of the reef.",
+    "feedingNotes": "Offer mixed omnivore fare, marine algae, and sponge-support foods in a mature tank where the fish can also browse naturally. Dwarf angels do best when prepared food is part of a broader grazing environment instead of the whole plan.",
+    "buyingGuidance": "A strong recommendation for customers who want a compact premium angelfish and already accept dwarf-angel tradeoffs. The sale should focus on mature rock, realistic coral expectations, and avoiding overcrowded angel mixes.",
+    "recognitionNotes": "Look for the bright orange back over a compact dark blue dwarf-angelfish body."
+  },
+  {
+    "id": "multibar-angelfish",
+    "name": "Multibar Angelfish",
+    "aliases": [
+      "Multibarred Angelfish"
+    ],
+    "scientific": "Paracentropyge multifasciata",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "4 in",
+    "minTank": "55+ gal",
+    "careLabel": "Specialist",
+    "diet": "Omnivore / sponge",
+    "diet_es": "Omnívoro / esponja",
+    "origin": "Indo-Pacific",
+    "origin_es": "Indo-Pacífico",
+    "habitat": "Deep reef slopes, caves, and shadowed rubble zones",
+    "tankCode": "",
+    "aggression": 12,
+    "coralRisk": 18,
+    "invertRisk": 4,
+    "careDifficulty": 72,
+    "role": "Deepwater specialty angel with zebra-like bars and a much more delicate profile than standard dwarf angels",
+    "role_es": "Ángel de aguas profundas con barras llamativas y perfil delicado",
+    "visualCue": "Creamy body crossed by multiple dark vertical bars with a pointed, delicate angel profile.",
+    "overview": "A true specialty angelfish for customers who want something unusual and understand that rarity and delicacy go together here. The barred pattern is the selling point, but this should be treated as a calm-system, careful-placement fish rather than a hardy dwarf angel substitute.",
+    "overview_es": "Ángel realmente especial y delicado, más para clientes avanzados que para una venta impulsiva.",
+    "facts": [
+      "Biota currently lists Multibar Angelfish among its saltwater offerings.",
+      "It belongs in the specialist lane because it prefers calmer, more mature, more sheltered systems than hardy dwarf angels.",
+      "The fish deepens the catalog by adding a genuinely different body plan and behavior profile."
+    ],
+    "bestWith": [
+      "Established quiet reef systems",
+      "Advanced aquarists",
+      "Customers specifically asking for specialty angels"
+    ],
+    "cautionWith": [
+      "Aggressive fast-feeding tankmates",
+      "Bright barren tanks",
+      "Customers expecting hardy starter-angelfish behavior"
+    ],
+    "staffNote": "Premium specialty angel. Recommend only when the customer is already comfortable with advanced fish and mature-system care.",
+    "photoTitle": "Paracentropyge multifasciata",
+    "inStock": false,
+    "badges": [
+      "Specialty"
+    ],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Ángel Multibar",
+    "headerSummary": "Specialty barred angelfish for calm mature systems. Much more delicate and specialist than standard dwarf angels.",
+    "seasonal": null,
+    "behavior": "Usually stays close to overhangs, caves, and protected rock faces rather than striding boldly across the full tank. It behaves more like a shy deepwater specialty fish than a front-and-center community dwarf angel.",
+    "feedingNotes": "Offer varied prepared foods, sponge-support angel fare, and a mature system that provides quiet browsing opportunities. Feeding success improves dramatically when the fish is not being forced to compete with louder tankmates.",
+    "buyingGuidance": "Recommend only to advanced customers with mature calm systems and realistic expectations. This is not the right sale for someone simply asking for 'another small angel' without understanding the specialist nature of the fish.",
+    "recognitionNotes": "Look for the cream body marked by many dark vertical bars and a more delicate pointed angelfish shape."
+  },
+  {
+    "id": "annularis-angelfish-pomacanthus-annularis",
+    "name": "Annularis Angelfish",
+    "aliases": [
+      "Annularis"
+    ],
+    "scientific": "Pomacanthus annularis",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 180,
+    "stockSize": "Medium",
+    "maxSize": "14 in",
+    "minTank": "180+ gal",
+    "careLabel": "Moderate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Outer reef slopes and coral-rich reef faces",
+    "tankCode": "",
+    "aggression": 48,
+    "coralRisk": 55,
+    "invertRisk": 20,
+    "careDifficulty": 60,
+    "role": "Annularis Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Annularis Angelfish is easiest to spot by the 'annularis' look used in the trade name on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Annularis Angelfish stands out for the 'annularis' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'annularis' look used in the trade name.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: real coral risk, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Annularis Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Annularis Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'annularis' look used in the trade name y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Pomacanthus annularis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Annularis Angelfish",
+    "overview_es": "Annularis Angelfish destaca por the 'annularis' look used in the trade name más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Annularis Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Annularis Angelfish brings the 'annularis' look used in the trade name on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'annularis' look used in the trade name, carried on a deep-bodied angelfish. That combination is what separates Annularis Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Annularis Angelfish uses the tank with the confidence of a large angelfish, moving from rock face to open lane and gradually claiming feeding routes as its own. Juveniles may look manageable, but these fish are sold correctly only when the adult profile and attitude stay front and center.",
+    "feedingNotes": "Treat Annularis Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Annularis Angelfish suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "armitage-angelfish-apolemichthys-armitage",
+    "name": "Armitage Angelfish",
+    "aliases": [
+      "Armitage"
+    ],
+    "scientific": "Apolemichthys armitage",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 500,
+    "stockSize": "Medium",
+    "maxSize": "8 in",
+    "minTank": "90+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Outer reef slopes and rubble areas",
+    "tankCode": "",
+    "aggression": 28,
+    "coralRisk": 35,
+    "invertRisk": 12,
+    "careDifficulty": 50,
+    "role": "Armitage Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Armitage Angelfish is easiest to spot by the 'armitage' look used in the trade name on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Armitage Angelfish stands out for the 'armitage' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'armitage' look used in the trade name.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: some coral trade-off."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 90+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Armitage Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Armitage Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'armitage' look used in the trade name y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Apolemichthys armitage",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Armitage Angelfish",
+    "overview_es": "Armitage Angelfish destaca por the 'armitage' look used in the trade name más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Armitage Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Armitage Angelfish brings the 'armitage' look used in the trade name on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 90+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'armitage' look used in the trade name, carried on a deep-bodied angelfish. That combination is what separates Armitage Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Armitage Angelfish is moderately assertive once settled and should be given room to establish its lane. It tends to make more sense in tanks that mimic its natural reef-face lifestyle than in crowded decorative layouts.",
+    "feedingNotes": "Treat Armitage Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Armitage Angelfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "blue-line-angelfish-chaetodontoplus-septentrionalis",
+    "name": "Blue Line Angelfish",
+    "aliases": [
+      "Blue Line",
+      "Septentrionalis angelfish"
+    ],
+    "scientific": "Chaetodontoplus septentrionalis",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 170,
+    "stockSize": "Medium",
+    "maxSize": "7 in",
+    "minTank": "90+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Deeper reef faces and rubble zones",
+    "tankCode": "",
+    "aggression": 30,
+    "coralRisk": 35,
+    "invertRisk": 12,
+    "careDifficulty": 52,
+    "role": "Blue Line Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Blue Line Angelfish is easiest to spot by blue linework on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Blue Line Angelfish stands out for blue linework more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: blue linework.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: some coral trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 90+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Blue Line Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Blue Line Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar blue linework y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Chaetodontoplus septentrionalis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Blue Line Angelfish",
+    "overview_es": "Blue Line Angelfish destaca por blue linework más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Blue Line Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Blue Line Angelfish brings blue linework on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 90+ gal.",
+    "recognitionNotes": "Fastest ID cue: blue linework, carried on a deep-bodied angelfish. That combination is what separates Blue Line Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Blue Line Angelfish is moderately assertive once settled and should be given room to establish its lane. It tends to make more sense in tanks that mimic its natural reef-face lifestyle than in crowded decorative layouts.",
+    "feedingNotes": "Treat Blue Line Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Blue Line Angelfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "chrysurus-angelfish-pomacanthus-chrysurus",
+    "name": "Chrysurus Angelfish",
+    "aliases": [
+      "Chrysurus"
+    ],
+    "scientific": "Pomacanthus chrysurus",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 180,
+    "stockSize": "Medium",
+    "maxSize": "14 in",
+    "minTank": "180+ gal",
+    "careLabel": "Moderate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Outer reef slopes and coral-rich reef faces",
+    "tankCode": "",
+    "aggression": 48,
+    "coralRisk": 55,
+    "invertRisk": 20,
+    "careDifficulty": 60,
+    "role": "Chrysurus Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Chrysurus Angelfish is easiest to spot by the 'chrysurus' look used in the trade name on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Chrysurus Angelfish stands out for the 'chrysurus' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'chrysurus' look used in the trade name.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: real coral risk, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Chrysurus Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Chrysurus Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'chrysurus' look used in the trade name y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Pomacanthus chrysurus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Chrysurus Angelfish",
+    "overview_es": "Chrysurus Angelfish destaca por the 'chrysurus' look used in the trade name más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Chrysurus Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Chrysurus Angelfish brings the 'chrysurus' look used in the trade name on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'chrysurus' look used in the trade name, carried on a deep-bodied angelfish. That combination is what separates Chrysurus Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Chrysurus Angelfish uses the tank with the confidence of a large angelfish, moving from rock face to open lane and gradually claiming feeding routes as its own. Juveniles may look manageable, but these fish are sold correctly only when the adult profile and attitude stay front and center.",
+    "feedingNotes": "Treat Chrysurus Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Chrysurus Angelfish suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "coco-peel-angelfish-centropyge-cocosensis",
+    "name": "Coco Peel Angelfish",
+    "aliases": [
+      "Coco Peel",
+      "Cocosensis angelfish"
+    ],
+    "scientific": "Centropyge cocosensis",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 100,
+    "stockSize": "Medium",
+    "maxSize": "5 in",
+    "minTank": "55+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Rock crevices and patch reefs",
+    "tankCode": "",
+    "aggression": 30,
+    "coralRisk": 40,
+    "invertRisk": 12,
+    "careDifficulty": 46,
+    "role": "Coco Peel Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Coco Peel Angelfish is easiest to spot by elongate moray silhouette on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Coco Peel Angelfish stands out for elongate moray silhouette more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: elongate moray silhouette.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: some coral trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 55+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Coco Peel Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Coco Peel Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar elongate moray silhouette y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Centropyge cocosensis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Coco Peel Angelfish",
+    "overview_es": "Coco Peel Angelfish destaca por elongate moray silhouette más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Coco Peel Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Coco Peel Angelfish brings elongate moray silhouette on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 55+ gal.",
+    "recognitionNotes": "Fastest ID cue: elongate moray silhouette, carried on a deep-bodied angelfish. That combination is what separates Coco Peel Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Coco Peel Angelfish spends the day weaving through rock faces, checking crevices, and becoming steadily bolder about its chosen territory. Dwarf angels often read as manageable at sale size, but they still bring real attitude and occasional nipping habits into the reef.",
+    "feedingNotes": "Treat Coco Peel Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Coco Peel Angelfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "cortez-angelfish-pomacanthus-zonipectus",
+    "name": "Cortez Angelfish",
+    "aliases": [
+      "Cortez",
+      "Zonipectus angelfish"
+    ],
+    "scientific": "Pomacanthus zonipectus",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 180,
+    "stockSize": "Medium",
+    "maxSize": "14 in",
+    "minTank": "180+ gal",
+    "careLabel": "Moderate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Outer reef slopes and coral-rich reef faces",
+    "tankCode": "",
+    "aggression": 48,
+    "coralRisk": 55,
+    "invertRisk": 20,
+    "careDifficulty": 60,
+    "role": "Cortez Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Cortez Angelfish is easiest to spot by the 'cortez' look used in the trade name on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Cortez Angelfish stands out for the 'cortez' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'cortez' look used in the trade name.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: real coral risk, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Cortez Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Cortez Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'cortez' look used in the trade name y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Pomacanthus zonipectus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Cortez Angelfish",
+    "overview_es": "Cortez Angelfish destaca por the 'cortez' look used in the trade name más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Cortez Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Cortez Angelfish brings the 'cortez' look used in the trade name on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'cortez' look used in the trade name, carried on a deep-bodied angelfish. That combination is what separates Cortez Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Cortez Angelfish uses the tank with the confidence of a large angelfish, moving from rock face to open lane and gradually claiming feeding routes as its own. Juveniles may look manageable, but these fish are sold correctly only when the adult profile and attitude stay front and center.",
+    "feedingNotes": "Treat Cortez Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Cortez Angelfish suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "passer-angelfish-holacanthus-passer",
+    "name": "Passer Angelfish",
+    "aliases": [
+      "Passer"
+    ],
+    "scientific": "Holacanthus passer",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 190,
+    "stockSize": "Medium",
+    "maxSize": "14 in",
+    "minTank": "180+ gal",
+    "careLabel": "Moderate",
+    "diet": "Omnivore",
+    "origin": "Eastern Pacific from the Gulf of California to Peru",
+    "habitat": "Rocky reef structure and coral heads",
+    "tankCode": "",
+    "aggression": 50,
+    "coralRisk": 60,
+    "invertRisk": 20,
+    "careDifficulty": 60,
+    "role": "Passer Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Passer Angelfish is easiest to spot by the 'passer' look used in the trade name on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Passer Angelfish stands out for the 'passer' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'passer' look used in the trade name.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: real coral risk, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Passer Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Passer Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'passer' look used in the trade name y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Holacanthus passer",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Passer Angelfish",
+    "overview_es": "Passer Angelfish destaca por the 'passer' look used in the trade name más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Passer Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Pacífico oriental from the Gulf of California to Peru",
+    "headerSummary": "Passer Angelfish brings the 'passer' look used in the trade name on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'passer' look used in the trade name, carried on a deep-bodied angelfish. That combination is what separates Passer Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Passer Angelfish uses the tank with the confidence of a large angelfish, moving from rock face to open lane and gradually claiming feeding routes as its own. Juveniles may look manageable, but these fish are sold correctly only when the adult profile and attitude stay front and center.",
+    "feedingNotes": "Treat Passer Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Passer Angelfish suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "semicircle-angelfish-pomacanthus-semicirculatus",
+    "name": "Semicircle Angelfish",
+    "aliases": [
+      "Semicircle",
+      "Semicirculatus angelfish"
+    ],
+    "scientific": "Pomacanthus semicirculatus",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 180,
+    "stockSize": "Medium",
+    "maxSize": "14 in",
+    "minTank": "180+ gal",
+    "careLabel": "Moderate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Outer reef slopes and coral-rich reef faces",
+    "tankCode": "",
+    "aggression": 48,
+    "coralRisk": 55,
+    "invertRisk": 20,
+    "careDifficulty": 60,
+    "role": "Semicircle Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Semicircle Angelfish is easiest to spot by the 'semicircle' look used in the trade name on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Semicircle Angelfish stands out for the 'semicircle' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'semicircle' look used in the trade name.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: real coral risk, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Semicircle Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Semicircle Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'semicircle' look used in the trade name y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Pomacanthus semicirculatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Semicircle Angelfish",
+    "overview_es": "Semicircle Angelfish destaca por the 'semicircle' look used in the trade name más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Semicircle Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Semicircle Angelfish brings the 'semicircle' look used in the trade name on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'semicircle' look used in the trade name, carried on a deep-bodied angelfish. That combination is what separates Semicircle Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Semicircle Angelfish uses the tank with the confidence of a large angelfish, moving from rock face to open lane and gradually claiming feeding routes as its own. Juveniles may look manageable, but these fish are sold correctly only when the adult profile and attitude stay front and center.",
+    "feedingNotes": "Treat Semicircle Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Semicircle Angelfish suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "singapore-angelfish-chaetodontoplus-mesoleucus",
+    "name": "Singapore Angelfish",
+    "aliases": [
+      "Singapore",
+      "Mesoleucus angelfish"
+    ],
+    "scientific": "Chaetodontoplus mesoleucus",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 170,
+    "stockSize": "Medium",
+    "maxSize": "7 in",
+    "minTank": "90+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Deeper reef faces and rubble zones",
+    "tankCode": "",
+    "aggression": 30,
+    "coralRisk": 35,
+    "invertRisk": 12,
+    "careDifficulty": 52,
+    "role": "Singapore Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Singapore Angelfish is easiest to spot by the 'singapore' look used in the trade name on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Singapore Angelfish stands out for the 'singapore' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'singapore' look used in the trade name.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: some coral trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 90+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Singapore Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Singapore Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'singapore' look used in the trade name y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Chaetodontoplus mesoleucus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Singapore Angelfish",
+    "overview_es": "Singapore Angelfish destaca por the 'singapore' look used in the trade name más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Singapore Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Singapore Angelfish brings the 'singapore' look used in the trade name on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 90+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'singapore' look used in the trade name, carried on a deep-bodied angelfish. That combination is what separates Singapore Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Singapore Angelfish is moderately assertive once settled and should be given room to establish its lane. It tends to make more sense in tanks that mimic its natural reef-face lifestyle than in crowded decorative layouts.",
+    "feedingNotes": "Treat Singapore Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Singapore Angelfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "six-bar-angelfish-pomacanthus-sexstriatus",
+    "name": "Six Bar Angelfish",
+    "aliases": [
+      "Six Bar",
+      "Sexstriatus angelfish"
+    ],
+    "scientific": "Pomacanthus sexstriatus",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 180,
+    "stockSize": "Medium",
+    "maxSize": "14 in",
+    "minTank": "180+ gal",
+    "careLabel": "Moderate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Outer reef slopes and coral-rich reef faces",
+    "tankCode": "",
+    "aggression": 48,
+    "coralRisk": 55,
+    "invertRisk": 20,
+    "careDifficulty": 60,
+    "role": "Six Bar Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Six Bar Angelfish is easiest to spot by the 'six bar' look used in the trade name on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Six Bar Angelfish stands out for the 'six bar' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'six bar' look used in the trade name.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: real coral risk, some invert trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 180+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Six Bar Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Six Bar Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'six bar' look used in the trade name y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Pomacanthus sexstriatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Six Bar Angelfish",
+    "overview_es": "Six Bar Angelfish destaca por the 'six bar' look used in the trade name más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Six Bar Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Six Bar Angelfish brings the 'six bar' look used in the trade name on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 180+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'six bar' look used in the trade name, carried on a deep-bodied angelfish. That combination is what separates Six Bar Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Six Bar Angelfish uses the tank with the confidence of a large angelfish, moving from rock face to open lane and gradually claiming feeding routes as its own. Juveniles may look manageable, but these fish are sold correctly only when the adult profile and attitude stay front and center.",
+    "feedingNotes": "Treat Six Bar Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Six Bar Angelfish suits a reef keeper who already understands feeding rhythm and compatibility. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "yellow-black-angelfish-centropyge-woodheadi",
+    "name": "Yellow & Black Angelfish",
+    "aliases": [
+      "Yellow & Black",
+      "Woodheadi angelfish"
+    ],
+    "scientific": "Centropyge woodheadi",
+    "category": "Angelfish",
+    "type": "Saltwater Fish",
+    "price": 100,
+    "stockSize": "Medium",
+    "maxSize": "5 in",
+    "minTank": "55+ gal",
+    "careLabel": "Intermediate",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Rock crevices and patch reefs",
+    "tankCode": "",
+    "aggression": 30,
+    "coralRisk": 40,
+    "invertRisk": 12,
+    "careDifficulty": 46,
+    "role": "Yellow & Black Angelfish — large angel display fish with adult-size and coral-picking considerations",
+    "visualCue": "Yellow & Black Angelfish is easiest to spot by the 'yellow and black' look used in the trade name on a deep-bodied angelfish; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Yellow & Black Angelfish stands out for the 'yellow and black' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support adult size, coral picking, and long-term tank maturity, because this is not the kind of angelfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'yellow and black' look used in the trade name.",
+      "Venta correcta: conversar sobre adult size, coral picking, and long-term tank maturity.",
+      "Riesgo clave: some coral trade-off, moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 55+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Yellow & Black Angelfish.",
+      "Compradores que entienden adult size, coral picking, and long-term tank maturity."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Yellow & Black Angelfish.",
+      "Sistemas que no pueden sostener adult size, coral picking, and long-term tank maturity."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'yellow and black' look used in the trade name y luego aterrizar la conversación en adult size, coral picking, and long-term tank maturity.",
+    "photoTitle": "Centropyge woodheadi",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Yellow & Black Angelfish",
+    "overview_es": "Yellow & Black Angelfish destaca por the 'yellow and black' look used in the trade name más que por tamaño bruto. La venta correcta depende de adult size, coral picking, and long-term tank maturity y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Yellow & Black Angelfish — large angel pez de exhibición with adult-size and coral-picking considerations",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Yellow & Black Angelfish brings the 'yellow and black' look used in the trade name on a deep-bodied angelfish, but the sale still needs an honest talk about adult size, coral picking, and long-term tank maturity. Plan on at least 55+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'yellow and black' look used in the trade name, carried on a deep-bodied angelfish. That combination is what separates Yellow & Black Angelfish from plainer lookalikes in the same lane.",
+    "behavior": "Yellow & Black Angelfish spends the day weaving through rock faces, checking crevices, and becoming steadily bolder about its chosen territory. Dwarf angels often read as manageable at sale size, but they still bring real attitude and occasional nipping habits into the reef.",
+    "feedingNotes": "Treat Yellow & Black Angelfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Yellow & Black Angelfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
   }
 ];

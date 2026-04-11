@@ -4,7 +4,9 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "id": "green-chromis",
     "name": "Blue Green Chromis",
     "aliases": [
-      "Green Chromis"
+      "Green Chromis",
+      "Blue Green Chromis",
+      "Blue-Green Reef Chromis"
     ],
     "scientific": "Chromis viridis",
     "category": "Damsels",
@@ -954,24 +956,12 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Diet in this catalog: Omnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Moderate",
@@ -1027,24 +1017,12 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Diet in this catalog: Omnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Easy",
@@ -1100,24 +1078,12 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
       "Diet in this catalog: Omnivore."
     ],
     "water": {
-      "ph": [
-        8,
-        8.4
-      ],
-      "salinity": [
-        1.023,
-        1.026
-      ],
-      "temp": [
-        75,
-        80
-      ],
-      "ph_low": null,
-      "ph_high": null,
-      "sal_low": null,
-      "sal_high": null,
-      "temp_low": null,
-      "temp_high": null
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
     },
     "seasonal": null,
     "careLabel": "Easy",
@@ -1137,5 +1103,720 @@ window.LTC_SPECIES_CHUNKS["Damsels"] = [
     "feedingNotes": "Most damsels take prepared foods readily, but routine and portion control still matter more than dumping in extra food. Catalog diet listing: Omnivore.",
     "buyingGuidance": "The color is easy to love, but temperament should be discussed just as clearly. Small size does not make these fish harmless.",
     "recognitionNotes": "Look for a compact, fast-moving fish that stays alert in the water column and around cover."
+  },
+  {
+    "id": "pavo-damsel",
+    "name": "Pavo Damsel",
+    "name_es": "Damisela Pavo",
+    "aliases": [
+      "Sapphire Damsel"
+    ],
+    "scientific": "Pomacentrus pavo",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3.5 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "diet_es": "Omnívoro",
+    "origin": "Indo-Pacific",
+    "origin_es": "Indo-Pacífico",
+    "habitat": "Lagoon reefs and sheltered rockwork",
+    "tankCode": "",
+    "aggression": 22,
+    "coralRisk": 2,
+    "invertRisk": 2,
+    "careDifficulty": 16,
+    "role": "Hardy reef-safe damsel that adds real color without clownfish clutter",
+    "role_es": "Damisela resistente y segura para arrecife con mucho color",
+    "visualCue": "Vivid blue-green damsel with a clean sleek body and bright reflective tone under reef lighting.",
+    "overview": "A strong catalog addition because it gives the damsel section another legitimate easy reef fish without just repeating the same yellowtail/azure vibe. It is hardy, reef-safe in broad terms, and bright enough to read well in a store display.",
+    "overview_es": "Una excelente adición a la sección de damiselas: resistente, segura para arrecife y con color fuerte sin repetir siempre las mismas especies.",
+    "facts": [
+      "Biota lists it in reef-safe and beginner-oriented fish groupings.",
+      "Like most damsels, success still depends on respecting territory and tankmate fit instead of pretending 'reef safe' means passive.",
+      "This is a better depth add than another clownfish morph because it widens the actual fish variety."
+    ],
+    "bestWith": [
+      "Beginner reef systems",
+      "Community tanks with similarly confident fish",
+      "Customers wanting hardy color on a budget-friendly footprint"
+    ],
+    "cautionWith": [
+      "Tiny timid nano fish",
+      "Very small tanks where damsel territory dominates the whole layout",
+      "Mixes that already have several assertive damsels"
+    ],
+    "staffNote": "Useful add for the easy-reef lane. Remind people that hardy damsel does not mean zero attitude.",
+    "photoTitle": "Pomacentrus pavo",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "headerSummary": "Hardy blue-green damsel that broadens the easy-reef lane without becoming just another clownfish or yellowtail repeat. Bright, practical, and reef-safe in the usual damsel sense.",
+    "seasonal": null,
+    "behavior": "Acts like a classic small reef damsel: quick, alert, territorial around a chosen patch of rock, but usually manageable when the tank is large enough and the community is not built entirely around fragile timid fish.",
+    "feedingNotes": "Usually very easy to feed on mixed omnivore fare, frozen foods, and pellets. The main advice is to match the fish to a tank where its confidence is a plus rather than a problem.",
+    "buyingGuidance": "Great for customers who want hardy color and do not need every fish to behave like a passive cardinal. Keep the recommendation honest: this is a practical easy damsel, not a magical zero-attitude community fish.",
+    "recognitionNotes": "Look for a vivid blue-green reflective damsel with a sleek body and classic quick reef-fish movement."
+  },
+  {
+    "id": "lemon-damsel",
+    "name": "Lemon Damsel",
+    "aliases": [
+      "Lemon Damselfish"
+    ],
+    "scientific": "Pomacentrus moluccensis",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 0,
+    "stockSize": "",
+    "maxSize": "3 in",
+    "minTank": "20+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "diet_es": "Omnívoro",
+    "origin": "Indo-Pacific",
+    "origin_es": "Indo-Pacífico",
+    "habitat": "Lagoon reefs and branching coral cover",
+    "tankCode": "",
+    "aggression": 22,
+    "coralRisk": 2,
+    "invertRisk": 2,
+    "careDifficulty": 16,
+    "role": "Bright yellow beginner-friendly damsel that adds a cleaner classic reef look than the usual blue-only options",
+    "role_es": "Damisela amarilla resistente y vistosa para arrecifes fáciles",
+    "visualCue": "Solid lemon-yellow body with sleek damsel shape and bright reflective fins.",
+    "overview": "A strong practical add because it broadens the easy damsel lane with a clean all-yellow fish instead of another blue variation. It is hardy and reef-safe in the usual damsel sense, which makes it great for entry-level reef systems as long as the customer still understands damsel territory.",
+    "overview_es": "Amplía bien la línea de damiselas fáciles con una especie amarilla muy visible y resistente.",
+    "facts": [
+      "The species is a classic hardy reef damsel used widely in community reef tanks.",
+      "Yellow color makes it a nice complement to blue and green damsels already in the catalog.",
+      "Like other damsels, success depends on tank size and territory structure, not on pretending the fish is passive."
+    ],
+    "bestWith": [
+      "Beginner reefs",
+      "Moderately active community tanks",
+      "Customers wanting bright hardy color"
+    ],
+    "cautionWith": [
+      "Tiny timid nano fish",
+      "Very small tanks",
+      "Overmixed aggressive damsel groups"
+    ],
+    "staffNote": "Great easy-color fish. Just keep the normal damsel-territory conversation honest.",
+    "photoTitle": "Pomacentrus moluccensis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "name_es": "Damisela Limón",
+    "headerSummary": "Bright yellow hardy damsel that brings easy reef color and classic small-territory damsel behavior.",
+    "seasonal": null,
+    "behavior": "Acts like a typical small reef damsel: quick, alert, and territorial around a chosen patch of rock or coral. In the right tank that confidence reads as lively rather than annoying.",
+    "feedingNotes": "Easy to feed on omnivore flakes, pellets, frozen foods, and general reef fare. The main point is matching it to a tank where its assertiveness stays proportionate to the rest of the fish list.",
+    "buyingGuidance": "A simple recommendation for customers who want hardy yellow motion in a reef tank and understand that 'easy' does not mean 'completely passive.' It is best when the aquascape leaves room for small territories instead of one open box.",
+    "recognitionNotes": "Look for the clean solid lemon-yellow body and classic small damsel shape."
+  },
+  {
+    "id": "2-stripe-damselfish-dascyllus-reticulatus",
+    "name": "2 Stripe Damselfish",
+    "aliases": [
+      "2 Stripe",
+      "Reticulatus damselfish"
+    ],
+    "scientific": "Dascyllus reticulatus",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 19,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "15+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 36,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 10,
+    "role": "2 Stripe Damselfish — small, durable damsel that still needs an aggression conversation",
+    "visualCue": "2 Stripe Damselfish is easiest to spot by striping on a small, fast damsel; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "2 Stripe Damselfish stands out for striping more than for brute size alone. It works best when the buyer's system can honestly support aggression and grouping, because this is not the kind of damselfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: striping.",
+      "Venta correcta: conversar sobre aggression and grouping.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 15+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de 2 Stripe Damselfish.",
+      "Compradores que entienden aggression and grouping."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de 2 Stripe Damselfish.",
+      "Sistemas que no pueden sostener aggression and grouping."
+    ],
+    "staffNote": "Punto de venta: resaltar striping y luego aterrizar la conversación en aggression and grouping.",
+    "photoTitle": "Dascyllus reticulatus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "2 Stripe Damselfish",
+    "overview_es": "2 Stripe Damselfish destaca por striping más que por tamaño bruto. La venta correcta depende de aggression and grouping y de que el sistema realmente encaje con esta especie.",
+    "role_es": "2 Stripe Damselfish — small, durable damsel that still needs an aggression conversation",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "2 Stripe Damselfish brings striping on a small, fast damsel, but the sale still needs an honest talk about aggression and grouping. Plan on at least 15+ gal.",
+    "recognitionNotes": "Fastest ID cue: striping, carried on a small, fast damsel. That combination is what separates 2 Stripe Damselfish from plainer lookalikes in the same lane.",
+    "behavior": "2 Stripe Damselfish is bold, fast, and very willing to defend a chosen rock or branching zone once it settles. These fish often look like easy beginner livestock until the territory line appears and the rest of the tank has to live with it.",
+    "feedingNotes": "Treat 2 Stripe Damselfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "2 Stripe Damselfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "chromis-weber-s-damselfish-chromis-weberi",
+    "name": "Chromis Weber's Damselfish",
+    "aliases": [
+      "Chromis, Weber's",
+      "Chromis Weber's",
+      "Chromis Webers Damselfish",
+      "Weberi damselfish"
+    ],
+    "scientific": "Chromis weberi",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 19,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "15+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 36,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 10,
+    "role": "Chromis Weber's Damselfish — small, durable damsel that still needs an aggression conversation",
+    "visualCue": "Chromis Weber's Damselfish is easiest to spot by the 'chromis weber damselfish' look used in the trade name on a small, fast damsel; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Chromis Weber's Damselfish stands out for the 'chromis weber damselfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support aggression and grouping, because this is not the kind of damselfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'chromis weber damselfish' look used in the trade name.",
+      "Venta correcta: conversar sobre aggression and grouping.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 15+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Chromis Weber's Damselfish.",
+      "Compradores que entienden aggression and grouping."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Chromis Weber's Damselfish.",
+      "Sistemas que no pueden sostener aggression and grouping."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'chromis weber damselfish' look used in the trade name y luego aterrizar la conversación en aggression and grouping.",
+    "photoTitle": "Chromis weberi",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Chromis Weber's Damselfish",
+    "overview_es": "Chromis Weber's Damselfish destaca por the 'chromis weber damselfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de aggression and grouping y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Chromis Weber's Damselfish — small, durable damsel that still needs an aggression conversation",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Chromis Weber's Damselfish brings the 'chromis weber damselfish' look used in the trade name on a small, fast damsel, but the sale still needs an honest talk about aggression and grouping. Plan on at least 15+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'chromis weber damselfish' look used in the trade name, carried on a small, fast damsel. That combination is what separates Chromis Weber's Damselfish from plainer lookalikes in the same lane.",
+    "behavior": "Chromis Weber's Damselfish stays more in motion and more in view than the tight rock-hugging damsels, but it still develops hierarchy and can thin out weak groups when the tank is too small or too stressed. The fish reads best when the buyer understands that shoaling hope and real damsel behavior are not always the same thing.",
+    "feedingNotes": "Treat Chromis Weber's Damselfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Chromis Weber's Damselfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "dark-fin-chromis-damselfish-chromis-atripes",
+    "name": "Dark-Fin Chromis Damselfish",
+    "aliases": [
+      "Dark-Fin Chromis",
+      "Atripes damselfish"
+    ],
+    "scientific": "Chromis atripes",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 19,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "15+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 36,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 10,
+    "role": "Dark-Fin Chromis Damselfish — small, durable damsel that still needs an aggression conversation",
+    "visualCue": "Dark-Fin Chromis Damselfish is easiest to spot by the 'dark-fin chromis damselfish' look used in the trade name on a small, fast damsel; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Dark-Fin Chromis Damselfish stands out for the 'dark-fin chromis damselfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support aggression and grouping, because this is not the kind of damselfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'dark-fin chromis damselfish' look used in the trade name.",
+      "Venta correcta: conversar sobre aggression and grouping.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 15+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Dark-Fin Chromis Damselfish.",
+      "Compradores que entienden aggression and grouping."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Dark-Fin Chromis Damselfish.",
+      "Sistemas que no pueden sostener aggression and grouping."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'dark-fin chromis damselfish' look used in the trade name y luego aterrizar la conversación en aggression and grouping.",
+    "photoTitle": "Chromis atripes",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Dark-Fin Chromis Damselfish",
+    "overview_es": "Dark-Fin Chromis Damselfish destaca por the 'dark-fin chromis damselfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de aggression and grouping y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Dark-Fin Chromis Damselfish — small, durable damsel that still needs an aggression conversation",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Dark-Fin Chromis Damselfish brings the 'dark-fin chromis damselfish' look used in the trade name on a small, fast damsel, but the sale still needs an honest talk about aggression and grouping. Plan on at least 15+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'dark-fin chromis damselfish' look used in the trade name, carried on a small, fast damsel. That combination is what separates Dark-Fin Chromis Damselfish from plainer lookalikes in the same lane.",
+    "behavior": "Dark-Fin Chromis Damselfish stays more in motion and more in view than the tight rock-hugging damsels, but it still develops hierarchy and can thin out weak groups when the tank is too small or too stressed. The fish reads best when the buyer understands that shoaling hope and real damsel behavior are not always the same thing.",
+    "feedingNotes": "Treat Dark-Fin Chromis Damselfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Dark-Fin Chromis Damselfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "domino-gold-damselfish-dascyllus-auripinnis",
+    "name": "Domino Gold Damselfish",
+    "aliases": [
+      "Domino Gold",
+      "Auripinnis damselfish"
+    ],
+    "scientific": "Dascyllus auripinnis",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 19,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "15+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 36,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 10,
+    "role": "Domino Gold Damselfish — small, durable damsel that still needs an aggression conversation",
+    "visualCue": "Domino Gold Damselfish is easiest to spot by the 'domino gold damselfish' look used in the trade name on a small, fast damsel; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Domino Gold Damselfish stands out for the 'domino gold damselfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support aggression and grouping, because this is not the kind of damselfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'domino gold damselfish' look used in the trade name.",
+      "Venta correcta: conversar sobre aggression and grouping.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 15+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Domino Gold Damselfish.",
+      "Compradores que entienden aggression and grouping."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Domino Gold Damselfish.",
+      "Sistemas que no pueden sostener aggression and grouping."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'domino gold damselfish' look used in the trade name y luego aterrizar la conversación en aggression and grouping.",
+    "photoTitle": "Dascyllus auripinnis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Domino Gold Damselfish",
+    "overview_es": "Domino Gold Damselfish destaca por the 'domino gold damselfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de aggression and grouping y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Domino Gold Damselfish — small, durable damsel that still needs an aggression conversation",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Domino Gold Damselfish brings the 'domino gold damselfish' look used in the trade name on a small, fast damsel, but the sale still needs an honest talk about aggression and grouping. Plan on at least 15+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'domino gold damselfish' look used in the trade name, carried on a small, fast damsel. That combination is what separates Domino Gold Damselfish from plainer lookalikes in the same lane.",
+    "behavior": "Domino Gold Damselfish is bold, fast, and very willing to defend a chosen rock or branching zone once it settles. These fish often look like easy beginner livestock until the territory line appears and the rest of the tank has to live with it.",
+    "feedingNotes": "Treat Domino Gold Damselfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Domino Gold Damselfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "neon-blue-damselfish-pomacentrus-coelestis",
+    "name": "Neon Blue Damselfish",
+    "aliases": [
+      "Neon Blue",
+      "Coelestis damselfish"
+    ],
+    "scientific": "Pomacentrus coelestis",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 19,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "15+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 36,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 10,
+    "role": "Neon Blue Damselfish — small, durable damsel that still needs an aggression conversation",
+    "visualCue": "Neon Blue Damselfish is easiest to spot by the 'neon blue damselfish' look used in the trade name on a small, fast damsel; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Neon Blue Damselfish stands out for the 'neon blue damselfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support aggression and grouping, because this is not the kind of damselfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'neon blue damselfish' look used in the trade name.",
+      "Venta correcta: conversar sobre aggression and grouping.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 15+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Neon Blue Damselfish.",
+      "Compradores que entienden aggression and grouping."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Neon Blue Damselfish.",
+      "Sistemas que no pueden sostener aggression and grouping."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'neon blue damselfish' look used in the trade name y luego aterrizar la conversación en aggression and grouping.",
+    "photoTitle": "Pomacentrus coelestis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Neon Blue Damselfish",
+    "overview_es": "Neon Blue Damselfish destaca por the 'neon blue damselfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de aggression and grouping y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Neon Blue Damselfish — small, durable damsel that still needs an aggression conversation",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Neon Blue Damselfish brings the 'neon blue damselfish' look used in the trade name on a small, fast damsel, but the sale still needs an honest talk about aggression and grouping. Plan on at least 15+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'neon blue damselfish' look used in the trade name, carried on a small, fast damsel. That combination is what separates Neon Blue Damselfish from plainer lookalikes in the same lane.",
+    "behavior": "Neon Blue Damselfish tends to stay busy around rock faces and chosen corners, with more bite and territory awareness than the size alone suggests. Many damsels are attractive because they stay active and tough, but that same toughness has to be matched to the rest of the tank.",
+    "feedingNotes": "Treat Neon Blue Damselfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Neon Blue Damselfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "ocellate-damselfish-pomacentrus-vaiuli",
+    "name": "Ocellate Damselfish",
+    "aliases": [
+      "Ocellate",
+      "Vaiuli damselfish"
+    ],
+    "scientific": "Pomacentrus vaiuli",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 19,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "15+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 36,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 10,
+    "role": "Ocellate Damselfish — small, durable damsel that still needs an aggression conversation",
+    "visualCue": "Ocellate Damselfish is easiest to spot by the 'ocellate damselfish' look used in the trade name on a small, fast damsel; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Ocellate Damselfish stands out for the 'ocellate damselfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support aggression and grouping, because this is not the kind of damselfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'ocellate damselfish' look used in the trade name.",
+      "Venta correcta: conversar sobre aggression and grouping.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 15+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Ocellate Damselfish.",
+      "Compradores que entienden aggression and grouping."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Ocellate Damselfish.",
+      "Sistemas que no pueden sostener aggression and grouping."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'ocellate damselfish' look used in the trade name y luego aterrizar la conversación en aggression and grouping.",
+    "photoTitle": "Pomacentrus vaiuli",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Ocellate Damselfish",
+    "overview_es": "Ocellate Damselfish destaca por the 'ocellate damselfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de aggression and grouping y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Ocellate Damselfish — small, durable damsel that still needs an aggression conversation",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Ocellate Damselfish brings the 'ocellate damselfish' look used in the trade name on a small, fast damsel, but the sale still needs an honest talk about aggression and grouping. Plan on at least 15+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'ocellate damselfish' look used in the trade name, carried on a small, fast damsel. That combination is what separates Ocellate Damselfish from plainer lookalikes in the same lane.",
+    "behavior": "Ocellate Damselfish tends to stay busy around rock faces and chosen corners, with more bite and territory awareness than the size alone suggests. Many damsels are attractive because they stay active and tough, but that same toughness has to be matched to the rest of the tank.",
+    "feedingNotes": "Treat Ocellate Damselfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Ocellate Damselfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "similar-damselfish-pomacentrus-similis",
+    "name": "Similar Damselfish",
+    "aliases": [
+      "Similar",
+      "Similis damselfish"
+    ],
+    "scientific": "Pomacentrus similis",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 19,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "15+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 36,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 10,
+    "role": "Similar Damselfish — small, durable damsel that still needs an aggression conversation",
+    "visualCue": "Similar Damselfish is easiest to spot by the 'similar damselfish' look used in the trade name on a small, fast damsel; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Similar Damselfish stands out for the 'similar damselfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support aggression and grouping, because this is not the kind of damselfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'similar damselfish' look used in the trade name.",
+      "Venta correcta: conversar sobre aggression and grouping.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 15+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Similar Damselfish.",
+      "Compradores que entienden aggression and grouping."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Similar Damselfish.",
+      "Sistemas que no pueden sostener aggression and grouping."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'similar damselfish' look used in the trade name y luego aterrizar la conversación en aggression and grouping.",
+    "photoTitle": "Pomacentrus similis",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Similar Damselfish",
+    "overview_es": "Similar Damselfish destaca por the 'similar damselfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de aggression and grouping y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Similar Damselfish — small, durable damsel that still needs an aggression conversation",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Similar Damselfish brings the 'similar damselfish' look used in the trade name on a small, fast damsel, but the sale still needs an honest talk about aggression and grouping. Plan on at least 15+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'similar damselfish' look used in the trade name, carried on a small, fast damsel. That combination is what separates Similar Damselfish from plainer lookalikes in the same lane.",
+    "behavior": "Similar Damselfish tends to stay busy around rock faces and chosen corners, with more bite and territory awareness than the size alone suggests. Many damsels are attractive because they stay active and tough, but that same toughness has to be matched to the rest of the tank.",
+    "feedingNotes": "Treat Similar Damselfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Similar Damselfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "tuxedo-damselfish-chrysiptera-tricincta",
+    "name": "Tuxedo Damselfish",
+    "aliases": [
+      "Tuxedo",
+      "Tricincta damselfish"
+    ],
+    "scientific": "Chrysiptera tricincta",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 19,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "15+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 36,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 10,
+    "role": "Tuxedo Damselfish — small, durable damsel that still needs an aggression conversation",
+    "visualCue": "Tuxedo Damselfish is easiest to spot by the 'tuxedo damselfish' look used in the trade name on a small, fast damsel; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Tuxedo Damselfish stands out for the 'tuxedo damselfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support aggression and grouping, because this is not the kind of damselfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'tuxedo damselfish' look used in the trade name.",
+      "Venta correcta: conversar sobre aggression and grouping.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 15+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Tuxedo Damselfish.",
+      "Compradores que entienden aggression and grouping."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Tuxedo Damselfish.",
+      "Sistemas que no pueden sostener aggression and grouping."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'tuxedo damselfish' look used in the trade name y luego aterrizar la conversación en aggression and grouping.",
+    "photoTitle": "Chrysiptera tricincta",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Tuxedo Damselfish",
+    "overview_es": "Tuxedo Damselfish destaca por the 'tuxedo damselfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de aggression and grouping y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Tuxedo Damselfish — small, durable damsel that still needs an aggression conversation",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Tuxedo Damselfish brings the 'tuxedo damselfish' look used in the trade name on a small, fast damsel, but the sale still needs an honest talk about aggression and grouping. Plan on at least 15+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'tuxedo damselfish' look used in the trade name, carried on a small, fast damsel. That combination is what separates Tuxedo Damselfish from plainer lookalikes in the same lane.",
+    "behavior": "Tuxedo Damselfish tends to stay busy around rock faces and chosen corners, with more bite and territory awareness than the size alone suggests. Many damsels are attractive because they stay active and tough, but that same toughness has to be matched to the rest of the tank.",
+    "feedingNotes": "Treat Tuxedo Damselfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Tuxedo Damselfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
+  },
+  {
+    "id": "yellow-aureus-damselfish-amblyglyphidodon-aureus",
+    "name": "Yellow Aureus Damselfish",
+    "aliases": [
+      "Yellow Aureus",
+      "Aureus damselfish"
+    ],
+    "scientific": "Amblyglyphidodon aureus",
+    "category": "Damsels",
+    "type": "Saltwater Fish",
+    "price": 19,
+    "stockSize": "Small",
+    "maxSize": "2.5 in",
+    "minTank": "15+ gal",
+    "careLabel": "Easy",
+    "diet": "Omnivore",
+    "origin": "Indo-Pacific",
+    "habitat": "Reef-associated marine habitat",
+    "tankCode": "",
+    "aggression": 36,
+    "coralRisk": 3,
+    "invertRisk": 3,
+    "careDifficulty": 10,
+    "role": "Yellow Aureus Damselfish — small, durable damsel that still needs an aggression conversation",
+    "visualCue": "Yellow Aureus Damselfish is easiest to spot by the 'yellow aureus damselfish' look used in the trade name on a small, fast damsel; that is the quickest visual read before temperament or care even enters the conversation",
+    "overview": "Yellow Aureus Damselfish stands out for the 'yellow aureus damselfish' look used in the trade name more than for brute size alone. It works best when the buyer's system can honestly support aggression and grouping, because this is not the kind of damselfish that should be sold on color without the system match.",
+    "facts": [
+      "Rasgo visual principal: the 'yellow aureus damselfish' look used in the trade name.",
+      "Venta correcta: conversar sobre aggression and grouping.",
+      "Riesgo clave: moderate attitude."
+    ],
+    "bestWith": [
+      "Sistemas que sí tienen 15+ gal o más y el tipo de espacio que la especie usa.",
+      "Compañeros acordes al carácter y a la velocidad de alimentación de Yellow Aureus Damselfish.",
+      "Compradores que entienden aggression and grouping."
+    ],
+    "cautionWith": [
+      "The buyer is shopping the color without the system match.",
+      "Ventas impulsivas basadas solo en el color o el nombre comercial de Yellow Aureus Damselfish.",
+      "Sistemas que no pueden sostener aggression and grouping."
+    ],
+    "staffNote": "Punto de venta: resaltar the 'yellow aureus damselfish' look used in the trade name y luego aterrizar la conversación en aggression and grouping.",
+    "photoTitle": "Amblyglyphidodon aureus",
+    "inStock": false,
+    "badges": [],
+    "water": {
+      "ph_low": 8,
+      "ph_high": 8.4,
+      "sal_low": 1.024,
+      "sal_high": 1.026,
+      "temp_low": 75,
+      "temp_high": 80
+    },
+    "seasonal": null,
+    "name_es": "Yellow Aureus Damselfish",
+    "overview_es": "Yellow Aureus Damselfish destaca por the 'yellow aureus damselfish' look used in the trade name más que por tamaño bruto. La venta correcta depende de aggression and grouping y de que el sistema realmente encaje con esta especie.",
+    "role_es": "Yellow Aureus Damselfish — small, durable damsel that still needs an aggression conversation",
+    "diet_es": "Omnívoro",
+    "origin_es": "Indo-Pacífico",
+    "headerSummary": "Yellow Aureus Damselfish brings the 'yellow aureus damselfish' look used in the trade name on a small, fast damsel, but the sale still needs an honest talk about aggression and grouping. Plan on at least 15+ gal.",
+    "recognitionNotes": "Fastest ID cue: the 'yellow aureus damselfish' look used in the trade name, carried on a small, fast damsel. That combination is what separates Yellow Aureus Damselfish from plainer lookalikes in the same lane.",
+    "behavior": "Yellow Aureus Damselfish tends to stay busy around rock faces and chosen corners, with more bite and territory awareness than the size alone suggests. Many damsels are attractive because they stay active and tough, but that same toughness has to be matched to the rest of the tank.",
+    "feedingNotes": "Treat Yellow Aureus Damselfish as a mixed feeder and keep both meaty and prepared foods in rotation so it does not stall on one lane only.",
+    "buyingGuidance": "Yellow Aureus Damselfish suits a buyer whose tank plan already matches the species. Pass when the buyer is shopping the color without the system match."
   }
 ];

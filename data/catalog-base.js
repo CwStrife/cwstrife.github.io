@@ -11,10 +11,9 @@ const STOREFRONT_MAP = {
   "Small Reef Fish": ["Gobies & Blennies","Basslets & Dottybacks","Damsels","Cardinalfish","Anthias","Hawkfish","Firefish"],
   "Butterflies & Rabbits": ["Butterflyfish","Rabbitfish"],
   "Predators & Oddballs": ["Triggerfish","Puffers","Eels","Lionfish","Sharks","Groupers","Filefish","Other Fish"],
-  "Inverts": ["Shrimp","Crabs","Snails","Urchins","Starfish","Inverts","Cucumbers","Worms"],
-  "Anemones & Clams": ["Anemones","Clams"]
+  "Inverts": ["Shrimp","Crabs","Snails","Urchins","Starfish","Inverts","Clams","Cucumbers","Worms"]
 };
-const STOREFRONT_ORDER = ["All","Tangs","Angelfish","Wrasses","Clownfish","Small Reef Fish","Butterflies & Rabbits","Predators & Oddballs","Inverts","Anemones & Clams"];
+const STOREFRONT_ORDER = ["All","Tangs","Angelfish","Wrasses","Clownfish","Small Reef Fish","Butterflies & Rabbits","Predators & Oddballs","Inverts"];
 const STOREFRONT_STYLES = {
   "All": ["#3a8a6a","#1a4a3a","rgba(60,180,140,.4)"],
   "Tangs": ["#2855a8","#142a54","rgba(40,85,168,.4)"],
@@ -24,11 +23,10 @@ const STOREFRONT_STYLES = {
   "Small Reef Fish": ["#2e8844","#174422","rgba(46,136,68,.4)"],
   "Butterflies & Rabbits": ["#eebb33","#775d19","rgba(238,187,51,.4)"],
   "Predators & Oddballs": ["#bb3344","#5d1922","rgba(187,51,68,.4)"],
-  "Inverts": ["#3a9a8a","#1d4d45","rgba(58,154,138,.4)"],
-  "Anemones & Clams": ["#55aacc","#2a5566","rgba(85,170,204,.4)"]
+  "Inverts": ["#3a9a8a","#1d4d45","rgba(58,154,138,.4)"]
 };
 
-const CARD_LABELS = {"Gobies & Blennies": "Goby", "Basslets & Dottybacks": "Basslet", "Butterflyfish": "Butterfly", "Triggerfish": "Trigger", "Cardinalfish": "Cardinal", "Rabbitfish": "Rabbit", "Predators & Oddballs": "Oddball", "Anemones & Clams": "Anemone", "Small Reef Fish": "Reef Fish"};
+const CARD_LABELS = {"Gobies & Blennies": "Goby", "Basslets & Dottybacks": "Basslet", "Butterflyfish": "Butterfly", "Triggerfish": "Trigger", "Cardinalfish": "Cardinal", "Rabbitfish": "Rabbit", "Predators & Oddballs": "Oddball", "Small Reef Fish": "Reef Fish"};
 
 const SIZE_SCALE = {
   "Tiny": "< 1\"",
@@ -44,7 +42,7 @@ const SIZE_SCALE = {
 };
 
 
-const CATEGORY_ORDER = ["All", "Tangs", "Angelfish", "Wrasses", "Clownfish", "Gobies & Blennies", "Damsels", "Basslets & Dottybacks", "Cardinalfish", "Anthias", "Butterflyfish", "Hawkfish", "Rabbitfish", "Triggerfish", "Puffers", "Eels", "Lionfish", "Other Fish", "Shrimp", "Crabs", "Snails", "Urchins", "Starfish", "Anemones", "Clams", "Inverts"];
+const CATEGORY_ORDER = ["All", "Tangs", "Angelfish", "Wrasses", "Clownfish", "Gobies & Blennies", "Damsels", "Basslets & Dottybacks", "Cardinalfish", "Anthias", "Butterflyfish", "Hawkfish", "Rabbitfish", "Triggerfish", "Puffers", "Eels", "Lionfish", "Other Fish", "Shrimp", "Crabs", "Snails", "Urchins", "Starfish", "Clams", "Inverts"];
 
 const CATEGORY_STYLES = {
   "All": ["#3a8a6a","#1a4a3a","rgba(60,180,140,.4)"],
@@ -70,7 +68,6 @@ const CATEGORY_STYLES = {
   "Snails": ["#669966","#334d33","rgba(102,153,102,.4)"],
   "Urchins": ["#884488","#442244","rgba(136,68,136,.4)"],
   "Starfish": ["#cc6688","#663344","rgba(204,102,136,.4)"],
-  "Anemones": ["#55aacc","#2a5566","rgba(85,170,204,.4)"],
   "Clams": ["#7799bb","#3b4d5d","rgba(119,153,187,.4)"],
   "Inverts": ["#3a9a8a","#1d4d45","rgba(58,154,138,.4)"],
 };
