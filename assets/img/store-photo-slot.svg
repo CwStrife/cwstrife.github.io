@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+    <defs>
+      <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="#2b302f"/><stop offset="50%" stop-color="#5f6763"/><stop offset="100%" stop-color="#8a948f"/>
+      </linearGradient>
+    </defs>
+    <rect width="1200" height="900" fill="url(#g)"/>
+    <rect x="50" y="50" width="1100" height="800" rx="30" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)"/>
+    <path d="M200 650 L430 420 L600 570 L760 340 L1020 650 Z" fill="rgba(255,255,255,0.10)"/>
+    <circle cx="360" cy="300" r="70" fill="rgba(119,201,198,0.75)"/>
+    <text x="600" y="300" text-anchor="middle" fill="#ffffff" font-size="66" font-family="Arial, sans-serif" font-weight="700">Store Photo Slot</text>
+    <text x="600" y="380" text-anchor="middle" fill="#d9dfdc" font-size="34" font-family="Arial, sans-serif">Replace with actual exterior or interior image file</text>
+    <text x="600" y="720" text-anchor="middle" fill="#d9dfdc" font-size="28" font-family="Arial, sans-serif">Prepared layout so the real photos drop in cleanly later</text>
+    </svg>

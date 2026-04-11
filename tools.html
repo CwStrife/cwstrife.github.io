@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dosing Calculator — Low Tide Corals &amp; Aquatics</title>
+<meta name="description" content="Free reef dosing calculators from Low Tide Corals &amp; Aquatics — alkalinity, calcium, magnesium, salt mix, 2-part. Grouped by brand. All math sourced from manufacturer labels.">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="page-tools">
+<div class="site-shell">
+
+<header class="site-header">
+  <div class="page-wrap">
+    <div class="header-row">
+      <a class="brand" href="index.html" aria-label="Low Tide Corals &amp; Aquatics home">
+        <img src="assets/img/logo.png" alt="Low Tide Corals &amp; Aquatics">
+        <div class="brand-copy">
+          <span class="brand-kicker">Syracuse · NY</span>
+          <span class="brand-name">Low Tide Corals &amp; Aquatics</span>
+          <span class="brand-sub">Reef · Fish · Dry Goods</span>
+        </div>
+      </a>
+      <nav class="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="fish/index.html">Fish Browser</a>
+        <a href="coral-browser.html">Coral</a>
+        <a href="dry-goods.html">Dry Goods</a>
+        <a href="tools.html" class="is-current">Dosing</a>
+        <a href="visit.html">Visit</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>☰</button>
+    </div>
+    <div class="mobile-menu" data-mobile-nav>
+      <a href="index.html">Home</a>
+      <a href="fish/index.html">Fish Browser</a>
+      <a href="coral-browser.html">Coral</a>
+      <a href="dry-goods.html">Dry Goods</a>
+      <a href="tools.html" class="is-current">Dosing</a>
+      <a href="visit.html">Visit</a>
+    </div>
+  </div>
+</header>
+
+<div class="util-bar">
+  <div class="page-wrap">
+    <div class="util-row">
+      <span class="util-item" data-open-status><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-open-text>Loading hours…</span></span>
+      <span class="util-item"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>130 Seeley Rd, Syracuse</span>
+      <a class="util-item" href="tel:+13154733389"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7"/></svg>(315) 473-3389</a>
+      <span class="util-spacer"></span>
+      <span class="util-status">Free dosing calculators</span>
+    </div>
+  </div>
+</div>
+
+<main class="tools-shell">
+  <div class="page-wrap">
+
+    <!-- ── HERO ── -->
+    <section class="tools-hero">
+      <div class="tools-hero-bg" aria-hidden="true"></div>
+      <div class="tools-hero-text">
+        <span class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M16 15h0"/></svg>Dosing calculator</span>
+        <h1>Find your bottle.<br>Get the math.</h1>
+        <p>Pick the brand you actually own from the row below. We'll jump you to that brand's calculators — every one is transcribed from the bottle label and cited so you can verify.</p>
+        <p class="tools-disclaimer-inline">Always verify against your product label. Start at half the calculated dose for new tanks.</p>
+      </div>
+    </section>
+
+    <!-- ── BRAND PICKER ── -->
+    <section class="brand-picker">
+      <div class="brand-picker-head">
+        <h3>Pick your brand</h3>
+        <small>Click a brand to jump to its calculators</small>
+      </div>
+      <div class="brand-picker-grid">
+        <a class="brand-tile" href="#brand-brightwell" data-brand-jump="brightwell">
+          <div class="brand-tile-icon brand-brightwell"><span>B</span></div>
+          <strong>Brightwell Aquatics</strong>
+          <small>2 calculators · ready</small>
+        </a>
+        <a class="brand-tile" href="#brand-brs" data-brand-jump="brs">
+          <div class="brand-tile-icon brand-brs"><span>BRS</span></div>
+          <strong>BRS Pharma</strong>
+          <small>1 calculator · ready</small>
+        </a>
+        <a class="brand-tile" href="#brand-generic" data-brand-jump="generic">
+          <div class="brand-tile-icon brand-generic"><span>S</span></div>
+          <strong>Salt Mix</strong>
+          <small>1 calculator · ready</small>
+        </a>
+        <a class="brand-tile is-soon" href="#brand-seachem" data-brand-jump="seachem">
+          <div class="brand-tile-icon brand-seachem"><span>S</span></div>
+          <strong>Seachem</strong>
+          <small>Coming soon</small>
+        </a>
+        <a class="brand-tile is-soon" href="#brand-esv" data-brand-jump="esv">
+          <div class="brand-tile-icon brand-esv"><span>E</span></div>
+          <strong>ESV B-Ionic</strong>
+          <small>Coming soon</small>
+        </a>
+        <a class="brand-tile is-soon" href="#brand-redsea" data-brand-jump="redsea">
+          <div class="brand-tile-icon brand-redsea"><span>R</span></div>
+          <strong>Red Sea</strong>
+          <small>Coming soon</small>
+        </a>
+        <a class="brand-tile is-soon" href="#brand-tropic" data-brand-jump="tropic">
+          <div class="brand-tile-icon brand-tropic"><span>T</span></div>
+          <strong>Tropic Marin</strong>
+          <small>Coming soon</small>
+        </a>
+        <a class="brand-tile is-soon" href="#brand-fritz" data-brand-jump="fritz">
+          <div class="brand-tile-icon brand-fritz"><span>F</span></div>
+          <strong>Fritz Aquatics</strong>
+          <small>Coming soon</small>
+        </a>
+      </div>
+    </section>
+
+    <!-- ── BRIGHTWELL SECTION ── -->
+    <section class="brand-section" id="brand-brightwell" data-brand="brightwell">
+      <div class="brand-section-head">
+        <div class="brand-section-icon brand-brightwell"><span>B</span></div>
+        <div>
+          <span class="eyebrow" style="color:var(--acc-sage)">Brightwell Aquatics</span>
+          <h2>Brightwell calculators</h2>
+          <p>Two of Brightwell's most-used dosing products. Each one cites the dated label it was transcribed from.</p>
+        </div>
+      </div>
+
+      <div class="calc-card" data-calc="alk" id="calc-alkalin83">
+        <div class="calc-card-head">
+          <div class="calc-card-product">
+            <strong>Alkalin8.3</strong>
+            <small>Liquid alkalinity buffer · per official label dated 2025</small>
+          </div>
+          <a class="calc-source" href="https://brightwellaquatics.com/products/alkalin8.3" target="_blank" rel="noopener">View label →</a>
+        </div>
+        <div class="calc-body">
+          <div class="calc-inputs">
+            <label class="calc-input">
+              <span class="calc-input-label">Tank volume</span>
+              <div class="calc-input-row">
+                <input type="number" data-calc-field="vol" min="1" max="10000" step="1" value="50">
+                <select data-calc-field="volUnit">
+                  <option value="gal" selected>gallons</option>
+                  <option value="l">liters</option>
+                </select>
+              </div>
+            </label>
+            <label class="calc-input">
+              <span class="calc-input-label">Raise alk by</span>
+              <div class="calc-input-row">
+                <input type="number" data-calc-field="raise" min="0.1" max="10" step="0.1" value="1.0">
+                <span class="calc-unit-static">dKH</span>
+              </div>
+            </label>
+          </div>
+          <div class="calc-result">
+            <span class="calc-result-label">Add</span>
+            <span class="calc-result-value" data-calc-result="0">— ml</span>
+            <span class="calc-result-sub" data-calc-result-sub>over 4–6 hours</span>
+          </div>
+        </div>
+        <div class="calc-foot">
+          <strong>How this works:</strong> Brightwell Alkalin8.3 raises alkalinity by 1.4 dKH per 1 mL added per gallon (3.785 L). For tanks under 100 gallons, dose into a high-flow area. For new tanks or tanks below 6 dKH, halve this dose and re-test in 12 hours.
+        </div>
+      </div>
+
+      <div class="calc-card" data-calc="cal" id="calc-calcionp">
+        <div class="calc-card-head">
+          <div class="calc-card-product">
+            <strong>Calcion-P (Powder)</strong>
+            <small>Concentrated calcium · per official label dated 2025</small>
+          </div>
+          <a class="calc-source" href="https://brightwellaquatics.com/products/calcion-p" target="_blank" rel="noopener">View label →</a>
+        </div>
+        <div class="calc-body">
+          <div class="calc-inputs">
+            <label class="calc-input">
+              <span class="calc-input-label">Tank volume</span>
+              <div class="calc-input-row">
+                <input type="number" data-calc-field="vol" min="1" max="10000" step="1" value="50">
+                <select data-calc-field="volUnit">
+                  <option value="gal" selected>gallons</option>
+                  <option value="l">liters</option>
+                </select>
+              </div>
+            </label>
+            <label class="calc-input">
+              <span class="calc-input-label">Raise calcium by</span>
+              <div class="calc-input-row">
+                <input type="number" data-calc-field="raise" min="1" max="200" step="1" value="20">
+                <span class="calc-unit-static">ppm</span>
+              </div>
+            </label>
+          </div>
+          <div class="calc-result">
+            <span class="calc-result-label">Add</span>
+            <span class="calc-result-value" data-calc-result="0">— g</span>
+            <span class="calc-result-sub" data-calc-result-sub>predissolved in RO/DI</span>
+          </div>
+        </div>
+        <div class="calc-foot">
+          <strong>How this works:</strong> Brightwell Calcion-P raises calcium by 18 ppm per 1 g added per gallon. Always predissolve in RO/DI water before adding. Never dose dry powder directly. If your alkalinity is below 7 dKH, raise alk first — calcium and alk consume each other.
+        </div>
+      </div>
+    </section>
+
+    <!-- ── BRS SECTION ── -->
+    <section class="brand-section" id="brand-brs" data-brand="brs">
+      <div class="brand-section-head">
+        <div class="brand-section-icon brand-brs"><span>BRS</span></div>
+        <div>
+          <span class="eyebrow" style="color:var(--acc-amber)">BRS Pharma</span>
+          <h2>BRS 2-part calculator</h2>
+          <p>Standard 2-part recipe. Soda Ash for alkalinity, Calcium Chloride for calcium, dosed daily based on tank consumption.</p>
+        </div>
+      </div>
+
+      <div class="calc-card" data-calc="twopart" id="calc-brs2part">
+        <div class="calc-card-head">
+          <div class="calc-card-product">
+            <strong>Soda Ash + Calcium Chloride (2-part)</strong>
+            <small>Standard BRS Pharma recipe</small>
+          </div>
+          <a class="calc-source" href="https://www.bulkreefsupply.com/two-part-calcium-and-alkalinity.html" target="_blank" rel="noopener">View recipe →</a>
+        </div>
+        <div class="calc-body">
+          <div class="calc-inputs">
+            <label class="calc-input">
+              <span class="calc-input-label">Tank volume</span>
+              <div class="calc-input-row">
+                <input type="number" data-calc-field="vol" min="1" max="10000" step="1" value="75">
+                <select data-calc-field="volUnit">
+                  <option value="gal" selected>gallons</option>
+                  <option value="l">liters</option>
+                </select>
+              </div>
+            </label>
+            <label class="calc-input">
+              <span class="calc-input-label">Daily alk consumption</span>
+              <div class="calc-input-row">
+                <input type="number" data-calc-field="raise" min="0.1" max="5" step="0.1" value="0.5">
+                <span class="calc-unit-static">dKH/day</span>
+              </div>
+            </label>
+          </div>
+          <div class="calc-result calc-result-twopart">
+            <div class="calc-result-twopart-row">
+              <span class="calc-result-label">Part 1 (Alk)</span>
+              <span class="calc-result-value" data-calc-result="0">— ml/day</span>
+            </div>
+            <div class="calc-result-twopart-row">
+              <span class="calc-result-label">Part 2 (Cal)</span>
+              <span class="calc-result-value" data-calc-result-sub>— ml/day</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-foot">
+          <strong>How this works:</strong> Standard BRS recipe maintains a 1:1 ratio between Part 1 (alk) and Part 2 (calcium) consumption. Each 1 mL of Part 1 raises alk by 1.05 dKH per gallon. Always dose Part 1 and Part 2 at opposite ends of the tank, never together. Split into 4–6 doses per day if possible — a doser is the easy answer.
+        </div>
+      </div>
+    </section>
+
+    <!-- ── GENERIC SALT SECTION ── -->
+    <section class="brand-section" id="brand-generic" data-brand="generic">
+      <div class="brand-section-head">
+        <div class="brand-section-icon brand-generic"><span>S</span></div>
+        <div>
+          <span class="eyebrow" style="color:var(--acc-cyan)">Salt mix · all brands</span>
+          <h2>How much salt do I need?</h2>
+          <p>Works for any standard reef-grade salt — Tropic Marin, Red Sea, Instant Ocean, Fritz, BRS. Picks the average across the lineup.</p>
+        </div>
+      </div>
+
+      <div class="calc-card" data-calc="salt" id="calc-saltmix">
+        <div class="calc-card-head">
+          <div class="calc-card-product">
+            <strong>Generic reef salt mix</strong>
+            <small>Average across major reef salts</small>
+          </div>
+          <a class="calc-source" href="https://www.bulkreefsupply.com/52-week-reef-salt-test.html" target="_blank" rel="noopener">BRS salt comparison →</a>
+        </div>
+        <div class="calc-body">
+          <div class="calc-inputs">
+            <label class="calc-input">
+              <span class="calc-input-label">Water volume to mix</span>
+              <div class="calc-input-row">
+                <input type="number" data-calc-field="vol" min="1" max="10000" step="1" value="25">
+                <select data-calc-field="volUnit">
+                  <option value="gal" selected>gallons</option>
+                  <option value="l">liters</option>
+                </select>
+              </div>
+            </label>
+            <label class="calc-input">
+              <span class="calc-input-label">Target salinity</span>
+              <div class="calc-input-row">
+                <select data-calc-field="raise">
+                  <option value="1.024">1.024 (FOWLR)</option>
+                  <option value="1.025" selected>1.025 (Reef standard)</option>
+                  <option value="1.026">1.026 (SPS dominant)</option>
+                </select>
+                <span class="calc-unit-static">sg</span>
+              </div>
+            </label>
+          </div>
+          <div class="calc-result">
+            <span class="calc-result-label">You need</span>
+            <span class="calc-result-value" data-calc-result="0">— lb</span>
+            <span class="calc-result-sub" data-calc-result-sub>≈ — cups</span>
+          </div>
+        </div>
+        <div class="calc-foot">
+          <strong>How this works:</strong> Reef salts vary slightly, but the working average is about 0.5 lb per gallon to hit 1.025 sg. Always mix in RO/DI water, never tap. Let the new salt mix circulate and warm to tank temperature for at least 12 hours before using for a water change.
+        </div>
+      </div>
+    </section>
+
+    <!-- ── COMING SOON SECTIONS ── -->
+    <section class="brand-section is-soon" id="brand-seachem" data-brand="seachem">
+      <div class="brand-section-head">
+        <div class="brand-section-icon brand-seachem"><span>S</span></div>
+        <div>
+          <span class="eyebrow" style="color:var(--acc-purple)">Seachem · coming soon</span>
+          <h2>Seachem dosing</h2>
+          <p>Reef Buffer, Reef Advantage Calcium, Reef Advantage Magnesium, Reef Complete, Reef Plus. We'll transcribe each one from the bottle.</p>
+        </div>
+      </div>
+      <div class="brand-soon-card">
+        <p>In the meantime, Seachem maintains an excellent multi-product calculator on their official site:</p>
+        <a class="btn btn-primary" href="https://www.seachem.com/aquacalculator.php" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M21 3l-9 9M10 21H3v-7M3 21l9-9"/></svg>
+          Seachem Aquacalculator
+        </a>
+      </div>
+    </section>
+
+    <section class="brand-section is-soon" id="brand-esv" data-brand="esv">
+      <div class="brand-section-head">
+        <div class="brand-section-icon brand-esv"><span>E</span></div>
+        <div>
+          <span class="eyebrow" style="color:var(--acc-coral)">ESV B-Ionic · coming soon</span>
+          <h2>ESV B-Ionic 2-part</h2>
+          <p>The original B-Ionic system. Calcium Buffer A and Alkalinity Buffer B in 1:1 ratio.</p>
+        </div>
+      </div>
+      <div class="brand-soon-card">
+        <p>Notify us if you'd like this calculator built next — we'll prioritize based on demand. For now ESV's instructions are on the bottle.</p>
+      </div>
+    </section>
+
+    <section class="brand-section is-soon" id="brand-redsea" data-brand="redsea">
+      <div class="brand-section-head">
+        <div class="brand-section-icon brand-redsea"><span>R</span></div>
+        <div>
+          <span class="eyebrow" style="color:var(--acc-rose)">Red Sea · coming soon</span>
+          <h2>Red Sea Foundation A/B/C</h2>
+          <p>The full Red Sea Reef Care Program — Foundation A (calcium), B (alkalinity), C (magnesium) plus Coral Colors and Reef Energy.</p>
+        </div>
+      </div>
+      <div class="brand-soon-card">
+        <p>Red Sea has a comprehensive calculator on their Reef Care Program site:</p>
+        <a class="btn btn-primary" href="https://www.redseafish.com/reef-care-program/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M21 3l-9 9M10 21H3v-7M3 21l9-9"/></svg>
+          Red Sea Reef Care Program
+        </a>
+      </div>
+    </section>
+
+    <section class="brand-section is-soon" id="brand-tropic" data-brand="tropic">
+      <div class="brand-section-head">
+        <div class="brand-section-icon brand-tropic"><span>T</span></div>
+        <div>
+          <span class="eyebrow" style="color:var(--acc-lime)">Tropic Marin · coming soon</span>
+          <h2>Tropic Marin All-For-Reef</h2>
+          <p>The premium single-bottle balanced supplement plus Bio-Calcium and the K+ Mineral system.</p>
+        </div>
+      </div>
+      <div class="brand-soon-card">
+        <p>Tropic Marin's documentation is brand-direct:</p>
+        <a class="btn btn-primary" href="https://www.tropic-marin.com/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M21 3l-9 9M10 21H3v-7M3 21l9-9"/></svg>
+          Tropic Marin
+        </a>
+      </div>
+    </section>
+
+    <section class="brand-section is-soon" id="brand-fritz" data-brand="fritz">
+      <div class="brand-section-head">
+        <div class="brand-section-icon brand-fritz"><span>F</span></div>
+        <div>
+          <span class="eyebrow" style="color:var(--acc-champagne)">Fritz Aquatics · coming soon</span>
+          <h2>Fritz dosing line</h2>
+          <p>Fritz RPM salt is everywhere on the floor here, plus their two-part dosing products and reef supplements.</p>
+        </div>
+      </div>
+      <div class="brand-soon-card">
+        <p>Fritz keeps dosing instructions on each individual product page at <a href="https://fritzaquatics.com/" target="_blank" rel="noopener">fritzaquatics.com</a>.</p>
+      </div>
+    </section>
+
+    <!-- ── DISCLAIMER FOOTER ── -->
+    <section class="tools-disclaimer">
+      <strong>The fine print:</strong> Calculator outputs are based on manufacturer-published dosing instructions transcribed at the date noted on each card. Brands occasionally reformulate their products — always verify against the bottle in your hand. New tanks, tanks under 50 gallons, and tanks with parameters outside the normal range should always start at half the calculated dose and re-test in 12 hours. When in doubt, ask us at the shop.
+    </section>
+
+  </div>
+</main>
+
+<!-- ── KELP FOREST SCENE ── -->
+<div class="kelp-scene" aria-hidden="true">
+  <div class="kelp-water"></div>
+  <div class="kelp-bubbles">
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <div class="kelp-fish">
+    <svg viewBox="0 0 60 36" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="kf-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="rgba(214,193,154,.85)"/>
+        <stop offset="60%" stop-color="rgba(168,200,164,.7)"/>
+        <stop offset="100%" stop-color="rgba(148,212,216,.65)"/>
+      </linearGradient></defs>
+      <path class="kf-tail" d="M8 18 L0 8 L4 18 L0 28 Z" fill="rgba(168,200,164,.65)" stroke="rgba(214,193,154,.7)" stroke-width="1"/>
+      <path class="kf-body" d="M50 18 Q48 6 28 8 Q12 10 8 18 Q12 26 28 28 Q48 30 50 18 Z" fill="url(#kf-grad)" stroke="rgba(214,193,154,.75)" stroke-width="1.2"/>
+      <path d="M22 8 Q26 0 32 8 Q28 12 22 8 Z" fill="rgba(168,200,164,.65)" stroke="rgba(214,193,154,.7)" stroke-width="1"/>
+      <circle cx="44" cy="16" r="2.2" fill="#0a0a0e"/>
+      <circle cx="44.6" cy="15.4" r="0.7" fill="rgba(255,255,255,.85)"/>
+    </svg>
+  </div>
+  <div class="kelp-strand kelp-1"></div>
+  <div class="kelp-strand kelp-2"></div>
+  <div class="kelp-strand kelp-3"></div>
+  <div class="kelp-strand kelp-4"></div>
+  <div class="kelp-strand kelp-5"></div>
+  <div class="kelp-strand kelp-6"></div>
+  <div class="kelp-strand kelp-7"></div>
+  <div class="kelp-strand kelp-8"></div>
+  <div class="kelp-strand kelp-9"></div>
+  <div class="kelp-strand kelp-10"></div>
+  <div class="kelp-strand kelp-11"></div>
+  <div class="kelp-strand kelp-12"></div>
+  <div class="kelp-floor"></div>
+</div>
+
+<footer class="footer footer-with-kelp">
+  <div class="page-wrap">
+    <div class="footer-grid">
+      <div class="footer-card">
+        <h3>Low Tide Corals &amp; Aquatics</h3>
+        <p>130 Seeley Rd · Syracuse, NY 13224<br>(315) 473-3389<br><a href="https://lowtidecorals.com" target="_blank" rel="noopener">lowtidecorals.com</a></p>
+      </div>
+      <div class="footer-card">
+        <h3>Calculators</h3>
+        <p><a href="#brand-brightwell">Brightwell Aquatics</a><br><a href="#brand-brs">BRS Pharma</a><br><a href="#brand-generic">Salt mix</a></p>
+      </div>
+      <div class="footer-card">
+        <h3>Browse</h3>
+        <p><a href="index.html">Home</a><br><a href="coral-browser.html">Coral</a><br><a href="dry-goods.html">Dry Goods</a><br><a href="visit.html">Visit</a></p>
+      </div>
+      <div class="footer-card">
+        <h3>About these tools</h3>
+        <p>Free, no signup, no tracking. Built and maintained by the LTC shop staff because we got tired of explaining dosing math at the counter.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© Low Tide Corals &amp; Aquatics · Syracuse, NY · v0.39 mockup</span>
+      <span>Built with reef water and coffee</span>
+    </div>
+  </div>
+</footer>
+
+</div>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
