@@ -350,7 +350,6 @@ const TRANSLATIONS = {
     maxSizeNote: 'Useful for avoiding \u201ccute now, problem later\u201d purchases.',
     similarFish: "Similar fish you might also like", staffNote: "Staff note",
     aliases: "Also known as", noneListedAliases: "None listed",
-    copyInfo: "Copy fish + tank info",
     seasonalAvail: "Seasonal Availability",
     
     // Results
@@ -476,7 +475,6 @@ const TRANSLATIONS = {
     maxSizeNote: "Útil para evitar compras impulsivas de peces que crecen mucho.",
     similarFish: "Peces similares que podrían interesarte", staffNote: "Nota del personal",
     aliases: "También conocido como", noneListedAliases: "Sin alias",
-    copyInfo: "Copiar info del pez + tanque",
     seasonalAvail: "Disponibilidad Estacional",
     
     showing: n => `Mostrando ${n} perfil${n===1?"":"es"}`,

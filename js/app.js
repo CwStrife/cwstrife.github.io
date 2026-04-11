@@ -5,7 +5,7 @@
 if(typeof T !== 'function'){ var T = function(k){ return k; }; }
 
 // FISH data loaded from data/fish.js
-const APP_VERSION = 'v0.185';
+const APP_VERSION = 'v0.186';
 
 // V0.123 — ltcFx: tactile click feedback helpers ported from LTC_Keepers.html.
 // Two effects: jelly squish (subtle scale bounce, runs in ~300ms) and bubble
@@ -3658,13 +3658,16 @@ function renderStaffEditor(item){
   </div>`;
 }
 
-function modalHeaderBar(item){
-  const categoryLabel = (typeof CARD_LABELS!=='undefined' && CARD_LABELS[item.category]) ? CARD_LABELS[item.category] : TC(item.category);
-  const priceInline = item.onSale && item.salePrice
-    ? `<div class="modal-inline-price sale-inline"><span class="modal-inline-old-price">${formatMoney(item.price)}</span><strong>${formatMoney(item.salePrice)}</strong></div>`
-    : (item.price ? `<div class="modal-inline-price"><strong>${formatMoney(item.price)}</strong></div>` : '');
-  return `<div class="modal-headline-bar"><span class="modal-type">${categoryLabel}</span><div class="modal-headline-copy"><div class="modal-headline-title-row"><strong>${L(item,'name')}</strong>${priceInline}</div><span class="latin-mini">${item.scientific}</span>${summaryText(item)?`<p>${summaryText(item)}</p>`:''}</div></div>`;
-}
+// v0.186 — modalHeaderBar DELETED. Was only ever called from the
+// pre-merge mobile template (modalTemplateMobile) which itself was
+// killed in v0.186. The unique content modalHeaderBar surfaced was
+// the headerSummary text via summaryText() — that content is now
+// rendered directly in the merged template hero as `.hero-summary-line`
+// so it appears for ALL viewports, not just phone-portrait. Without
+// this audit fix, headerSummary content (real customer copy populated
+// for many invert species) would have been completely invisible
+// because the desktop template never displayed it either. The merge
+// without the audit would have lost this silently.
 function renderSimilarCards(item, mobile=false){
   const similar = getSimilarFish(item);
   return similar.map(s=>`<div class="similar-card" onclick="closeFishModal();setTimeout(()=>openFishModal('${s.id}'),${mobile?220:300})"><div class="similar-photo" data-photo="${s.id}"><div class="image-placeholder">LTC</div></div><div class="similar-copy"><div class="name">${L(s,'name')}</div><div class="sub">${s.category}</div><div class="sub">${s.inStock?formatMoney(s.onSale&&s.salePrice?s.salePrice:s.price):(typeof T==='function'?T('ency'):'Encyclopedia')}</div></div></div>`).join('');
@@ -3712,6 +3715,7 @@ function modalTemplate(item){
             <h2>${L(item,"name")}</h2>
             <span class="latin">${item.scientific}</span>
             ${aliasText ? `<div class="hero-aliases">also called ${aliasText}</div>` : ''}
+            ${summaryText(item) ? `<p class="hero-summary-line">${summaryText(item)}</p>` : ''}
             <div class="hero-status-pills">
               <span class="hero-pill" onclick="event.stopPropagation();bouncePill(this)">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span>
               <span class="hero-pill" onclick="event.stopPropagation();bouncePill(this)">${sizeText}${sizeInches}</span>
@@ -3764,56 +3768,26 @@ function modalTemplate(item){
 
       ${showMore ? `<div class="more-details-wrap" data-more-details><button type="button" class="more-details-toggle"><span class="mdt-label"><span class="mdt-title">More details</span><span class="mdt-sub">${moreSub}</span></span><span class="more-chev">▼</span></button><div class="more-details-content">${(buying || behavior || feeding || recognition) ? `<div class="reading-stack">${buying ? `<div class="reading-block rb-buying"><strong>Buying guidance</strong><p>${buying}</p></div>` : ''}${behavior ? `<div class="reading-block rb-behavior"><strong>Behavior &amp; tank fit</strong><p>${behavior}</p></div>` : ''}${feeding ? `<div class="reading-block rb-feeding"><strong>Feeding &amp; natural habitat</strong><p>${feeding}</p></div>` : ''}${recognition ? `<div class="reading-block rb-recognition"><strong>Recognition &amp; ID</strong><p>${recognition}</p></div>` : ''}</div>` : ''}${(bestWith || cautionWith) ? `<div class="two-col more-details-twocol">${bestWith ? `<div class="modal-section best-with-section"><div class="section-title"><h3>Works well with</h3></div><div class="pill-list">${bestWith}</div></div>` : ''}${cautionWith ? `<div class="modal-section caution-with-section"><div class="section-title"><h3>Use caution with</h3></div><div class="pill-list">${cautionWith}</div></div>` : ''}</div>` : ''}${foodSection}${waterParamsHtml}${(habitatText && !originText) ? `<div class="origin-card"><strong>Habitat</strong><p>${habitatText}</p></div>` : ''}</div></div>` : ''}
 
-    </div>
-  `;
-}
-function modalTemplateMobile(item){
-  const [reefText, reefClass] = reefChip(item.coralRisk);
-  const [careText, careClass] = careChip(item.careDifficulty);
-  const [aggText, aggClass] = aggressionChip(item.aggression);
-  const [invText, invClass] = invertChip(item.invertRisk);
-  const aliasText = cleanInfoList(item.aliases).join(', ');
-  const sizeText = displayStockSize(item.stockSize);
-  const sizeInches = (typeof SIZE_SCALE!=='undefined'&&item.stockSize&&SIZE_SCALE[item.stockSize]) ? ` ${SIZE_SCALE[item.stockSize]}` : '';
-  const staffNote = cleanInfoText(item.staffNote);
-  const overviewText = cleanInfoText(L(item,'overview'));
-  const noticeBlocks = renderNoticeBlocks(item, aliasText);
-  const behavior = buildBehaviorParagraph(item);
-  const feeding = buildFeedingParagraph(item);
-  const recognition = buildRecognitionParagraph(item);
-  const buying = buildBuyingParagraph(item);
-  const bestWith = renderPillList(item.bestWith);
-  const cautionWith = renderPillList(item.cautionWith);
-  const originText = cleanInfoText(L(item,'origin'));
-  const habitatText = cleanInfoText(item.habitat);
-  const foodSection = renderFoodSection(item);
-  return `
-    <div class="modal-layout mobile-stack">
-      <div class="modal-hero-shell mobile-hero-shell unified-hero-shell">
-        <div class="modal-photo-card modal-hero-media mobile-hero-card"><div class="modal-photo modal-photo-mobile" data-detail-photo="${item.id}"><div class="image-placeholder">LTC</div><div class="skeleton-img"></div><div class="modal-photo-copy mobile-photo-copy"><h2>${L(item,'name')}</h2><span class="latin">${item.scientific}</span><div class="modal-mini"><span class="mini-pill">${typeof T==='function'?T('tankLabel'):'Tank'} ${item.tankCode || '—'}</span><span class="mini-pill">${sizeText}${sizeInches}</span><span class="mini-pill">${(typeof CARD_LABELS!=="undefined"&&CARD_LABELS[item.category])?CARD_LABELS[item.category]:TC(item.category)}</span></div></div></div></div>
-        <div class="modal-hero-aside mobile-hero-aside">
-          ${modalHeaderBar(item)}
-          <div class="mobile-stat-grid compact-stats modal-hero-stats"><div class="modal-stat"><div class="meta-label">Display price</div><div class="meta-value">${buildStatValue(item,'price')}</div></div><div class="modal-stat"><div class="meta-label">Minimum tank</div><div class="meta-value">${buildStatValue(item,'minTank')}</div></div><div class="modal-stat"><div class="meta-label">Care level</div><div class="meta-value">${buildStatValue(item,'care')}</div></div><div class="modal-stat"><div class="meta-label">Max size</div><div class="meta-value">${buildStatValue(item,'maxSize')}</div></div></div>
-        </div>
+      <!-- v0.186 — bottom action row ported from the deleted mobile template.
+           Copy CTA puts "Name • Tank • Price" into the clipboard for staff
+           to paste into messages/sms. Close CTA is the secondary action. -->
+      <div class="action-row mag-action-row">
+        <button class="cta secondary" data-close-modal="true">Close profile</button>
       </div>
-      ${galleryTemplate(item)}
-      ${overviewText ? `<div class="modal-section ocean"><div class="section-title"><h3>Quick overview</h3></div><p class="overview">${overviewText}</p></div>` : ''}
-      <div class="modal-section seafoam"><div class="section-title"><h3>Quick facts</h3></div><div class="mobile-traits-grid"><div class="mobile-trait ${reefClass}"><span>Reef</span><strong>${reefText}</strong></div><div class="mobile-trait ${careClass}"><span>Care</span><strong>${careText}</strong></div><div class="mobile-trait ${aggClass}"><span>Temper</span><strong>${aggText}</strong></div><div class="mobile-trait ${invClass}"><span>Invert</span><strong>${invText}</strong></div></div><div class="mobile-practical-grid"><div class="mobile-practical"><span>${typeof T==='function'?T('diet'):'Diet'}</span><strong>${safeText(L(item,'diet'))}</strong></div>${originText ? `<div class="mobile-practical"><span>${typeof T==='function'?T('origin'):'Origin'}</span><strong>${originText}</strong></div>` : ''}${habitatText ? `<div class="mobile-practical"><span>Habitat</span><strong>${habitatText}</strong></div>` : ''}${cleanInfoText(L(item,'role')) ? `<div class="mobile-practical"><span>Role</span><strong>${cleanInfoText(L(item,'role'))}</strong></div>` : ''}</div></div>
-      <div class="modal-section plum"><div class="section-title"><h3>Compatibility gauges</h3></div><div class="gauges">${gaugeCard(T('tempAggression'), item.aggression, T('veryCalm2'), T('veryDangerous'))}${gaugeCard(T('coralRisk'), item.coralRisk, T('reefSafe2'), T('coralNipper'))}${gaugeCard(T('invertSafetyRisk'), item.invertRisk, T('lowInvertRisk'), T('likelyHarass'))}${gaugeCard(T('careDiffLabel'), item.careDifficulty, T('easyLabel'), T('expertSpec'), 'difficulty')}</div></div>
-      ${typeof waterParamsSection === 'function' ? waterParamsSection(item) : ''}
-      <div class="modal-section seafoam"><div class="section-title"><h3>Longer read</h3></div><div class="reading-stack">${behavior ? `<div class="reading-block"><strong>Behavior &amp; tank fit</strong><p>${behavior}</p></div>` : ''}${feeding ? `<div class="reading-block"><strong>Feeding &amp; natural habitat</strong><p>${feeding}</p></div>` : ''}${recognition ? `<div class="reading-block"><strong>Recognition &amp; ID</strong><p>${recognition}</p></div>` : ''}${buying ? `<div class="reading-block"><strong>Buying guidance</strong><p>${buying}</p></div>` : ''}</div></div>
-      ${noticeBlocks ? `<div class="modal-section seafoam"><div class="section-title"><h3>What customers should notice</h3></div><div class="reading-stack">${noticeBlocks}</div></div>` : ''}
-      ${foodSection}
-      ${bestWith ? `<div class="modal-section best-with-section"><div class="section-title"><h3>Works well with</h3></div><div class="pill-list">${bestWith}</div></div>` : ''}
-      ${cautionWith ? `<div class="modal-section caution-with-section"><div class="section-title"><h3>Use caution with</h3></div><div class="pill-list">${cautionWith}</div></div>` : ''}
-      ${(originText || habitatText) ? `<div class="origin-card"><strong>Origin &amp; natural range</strong><p>${originText || 'Unknown'}${habitatText ? `<br><span class="subtle">Natural habitat: ${habitatText}.</span>` : ''}</p></div>` : ''}
-      ${staffNote ? `<div class="staff-card"><strong>Staff note</strong><p>${staffNote}</p></div>` : ''}
-      ${item.seasonal ? `<div class="seasonal-section"><span class="seasonal-icon">📅</span><div><div class="seasonal-label">Seasonal / Special Note</div><div class="seasonal-text">${item.seasonal}</div></div></div>` : ''}
-      <div class="similar-section"><h3>Similar Fish You Might Like</h3><div class="similar-row mobile-similar-grid">${renderSimilarCards(item,true)}</div></div>
-      <div class="action-row"><button class="cta primary" data-copy="${L(item,'name')} • Tank ${item.tankCode || '—'} • ${(item.onSale&&item.salePrice)?formatMoney(item.salePrice):(item.price ? formatMoney(item.price) : 'Unknown')}">${typeof T==='function'?T('copyInfo'):'Copy fish + tank info'}</button><button class="cta secondary" data-close-modal="true">Close profile</button></div>
+
     </div>
   `;
 }
+// v0.186 — modalTemplateMobile DELETED. This was a parallel template
+// for phones in portrait orientation that forked from modalTemplate
+// before v0.123 and was never updated. As of v0.123 the in-modal staff
+// editor was added to modalTemplate (the desktop one). Mobile never
+// got it. ~62 builds of staff features only ever rendered on desktop.
+// Approach 3 merge: kill the template, route everything through
+// modalTemplate, let CSS @media queries handle layout differences.
+// Approach 2 audit pass coming after this build to catch any remaining
+// divergences. The Copy CTA from the old mobile bottom action row was
+// ported into modalTemplate above before deletion.
 
 function renderCardsAndMeta(){
   syncModeChrome();
@@ -3956,7 +3930,15 @@ function openFishModal(id){
   state.analytics[id] = (state.analytics[id]||0)+1;
   const body = document.getElementById('fishModalBody');
   if(!body) return;
-  body.innerHTML = isPhonePortrait() ? modalTemplateMobile(fish) : modalTemplate(fish);
+  // v0.186 — TEMPLATE MERGE. Was previously branching:
+  //   isPhonePortrait() ? modalTemplateMobile(fish) : modalTemplate(fish)
+  // The mobile template was forked pre-v0.123 and never received any
+  // staff editor work. Killed via Approach 3. Single template now,
+  // CSS @media queries handle layout differences. The .mobile-safe
+  // class on the modal element is still toggled below — that's a CSS
+  // hook for phone-specific sizing rules in the @media block, not a
+  // template-selection mechanism.
+  body.innerHTML = modalTemplate(fish);
   if(typeof injectFishMarkers === 'function') injectFishMarkers(fish);
   if(typeof initGaugeWaterCanvas === 'function') requestAnimationFrame(initGaugeWaterCanvas);
   if(typeof initWaterParamsCanvas === 'function') requestAnimationFrame(initWaterParamsCanvas);
@@ -3972,14 +3954,11 @@ function openFishModal(id){
   syncModalCloseButton();
   const overlay = document.getElementById('fishOverlay');
   if(overlay) overlay.scrollTop = 0;
-  const copyBtn = body.querySelector('[data-copy]');
-  if(copyBtn){
-    copyBtn.addEventListener('click', async () => {
-      const text = copyBtn.dataset.copy;
-      try{ await navigator.clipboard.writeText(text); showToast(`Copied: ${text}`); }
-      catch(err){ showToast(text); }
-    });
-  }
+  // v0.186 — Copy fish + tank info button removed per Chris ("eliminate
+  // the Copy fish + tank info this serves no purpose"). Old click handler
+  // for [data-copy] also removed since nothing in the modal renders that
+  // attribute anymore. The clipboard helper survives for any other future
+  // copy buttons elsewhere in the app.
   const closeBtn = body.querySelector('[data-close-modal]');
   if(closeBtn) closeBtn.addEventListener('click', closeFishModal);
   // V0.117 — More details collapse toggle. The HTML and CSS for the

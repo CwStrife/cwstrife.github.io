@@ -2760,7 +2760,15 @@ body.modal-open{overflow:hidden}
   .cards.compact-mode{grid-template-columns:repeat(6,minmax(0,1fr))!important}
 }
 
-/* Phone portrait modal: one scroll owner, simplified shell */
+/* Phone portrait modal: one scroll owner, simplified shell.
+   v0.186 — REWRITTEN to target the magazine layout classes since
+   modalTemplateMobile was deleted and modalTemplate (desktop) now
+   renders at all viewport sizes. Old selectors targeted .modal-photo-mobile,
+   .modal-mini, .mobile-stat-grid, .mobile-trait, .mobile-similar-grid —
+   none of which exist in the merged template. New selectors target
+   .modal-photo-magazine, .hero-status-pills, .mag-statstrip,
+   .mag-similar-row, etc. Same intent: tighten spacing, scale type,
+   collapse to single column at phone widths. */
 @media (max-width:600px) and (pointer:coarse){
   .overlay.show{display:block!important}
   .fish-modal.mobile-safe{
@@ -2772,47 +2780,114 @@ body.modal-open{overflow:hidden}
     -webkit-overflow-scrolling:touch;overscroll-behavior:contain;
     padding:52px 10px calc(16px + var(--safe-bottom))!important;
   }
-  .fish-modal.mobile-safe .modal-layout.mobile-stack{
-    display:grid!important;grid-template-columns:1fr!important;gap:10px;padding-bottom:6px;align-content:start;
+  /* Magazine layout becomes a tight single-column flow at phone width.
+     The desktop version already uses display:flex; flex-direction:column
+     so we just need to tighten the gap and ensure nothing overflows. */
+  .fish-modal.mobile-safe .modal-magazine-flow{
+    gap:14px!important;padding-bottom:6px;
   }
-  .fish-modal.mobile-safe .modal-layout.mobile-stack > *{min-width:0}
-  .fish-modal.mobile-safe .modal-photo{height:min(42dvh,300px)!important;min-height:220px}
-  .fish-modal.mobile-safe .modal-photo-copy h2{font-size:clamp(24px,7vw,34px)!important;line-height:1.02}
-  .fish-modal.mobile-safe .modal-photo-copy .latin{font-size:14px!important;margin-top:6px}
-  .fish-modal.mobile-safe .modal-mini{gap:6px}
-  .fish-modal.mobile-safe .mini-pill{font-size:11px!important;padding:6px 8px!important;max-width:100%;overflow:hidden;text-overflow:ellipsis}
-  .fish-modal.mobile-safe .mobile-stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-  .fish-modal.mobile-safe .modal-stat{padding:12px 12px 10px;border-radius:16px}
-  .fish-modal.mobile-safe .modal-stat .meta-value{font-size:20px;line-height:1.2}
-  .fish-modal.mobile-safe .modal-stat .meta-sub{display:none}
-  .fish-modal.mobile-safe .modal-section,
-  .fish-modal.mobile-safe .origin-card,
-  .fish-modal.mobile-safe .staff-card{padding:12px 12px 14px;border-radius:16px;min-width:0}
-  .fish-modal.mobile-safe .section-title h3{font-size:11px;letter-spacing:.14em}
-  .fish-modal.mobile-safe .overview,
-  .fish-modal.mobile-safe .reading-block p,
-  .fish-modal.mobile-safe .origin-card p,
-  .fish-modal.mobile-safe .staff-card p,
-  .fish-modal.mobile-safe .fact-card{font-size:14px!important;line-height:1.55!important}
-  .fish-modal.mobile-safe .reading-block{padding:12px;border-radius:14px}
-  .fish-modal.mobile-safe .reading-block strong{font-size:11px;letter-spacing:.11em}
-  .fish-modal.mobile-safe .gauge-head strong{font-size:14px}
-  .fish-modal.mobile-safe .gauge-head span{font-size:12px}
-  .fish-modal.mobile-safe .gauge-track{height:14px}
-  .fish-modal.mobile-safe .gauge-marker{width:20px;height:20px;border-width:4px}
-  .fish-modal.mobile-safe .gauge-scale{font-size:10px;margin-top:8px}
-  .fish-modal.mobile-safe .two-col,
-  .fish-modal.mobile-safe .mobile-two-col{grid-template-columns:1fr!important;gap:10px}
-  .fish-modal.mobile-safe .pill-list{gap:6px}
-  .fish-modal.mobile-safe .list-pill{font-size:11px;padding:7px 9px;white-space:normal;overflow-wrap:anywhere}
-  .fish-modal.mobile-safe .photo-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:8px;overflow:visible;padding:0}
+  .fish-modal.mobile-safe .modal-magazine-flow > *{min-width:0;max-width:100%}
+  /* Hero photo card */
+  .fish-modal.mobile-safe .modal-photo-card.modal-hero-wide{
+    border-radius:18px!important;
+  }
+  .fish-modal.mobile-safe .modal-photo-magazine{
+    height:min(42dvh,300px)!important;min-height:220px!important;
+  }
+  .fish-modal.mobile-safe .modal-photo-copy-magazine{
+    padding:14px 16px 16px!important;
+  }
+  .fish-modal.mobile-safe .modal-photo-copy-magazine h2{
+    font-size:clamp(24px,7vw,30px)!important;line-height:1.02;
+  }
+  .fish-modal.mobile-safe .modal-photo-copy-magazine .latin{
+    font-size:13px!important;margin-top:4px;
+  }
+  .fish-modal.mobile-safe .hero-cat-pill{font-size:10px!important;padding:4px 9px}
+  .fish-modal.mobile-safe .hero-aliases{font-size:11px!important}
+  .fish-modal.mobile-safe .hero-status-pills{gap:6px!important;flex-wrap:wrap}
+  .fish-modal.mobile-safe .hero-pill{font-size:11px!important;padding:6px 9px!important;max-width:100%;overflow:hidden;text-overflow:ellipsis}
+  .fish-modal.mobile-safe .hero-pricetag{font-size:16px!important;padding:7px 13px!important}
+  .fish-modal.mobile-safe .hero-pricetag .hero-price-old{font-size:12px!important}
+  /* Section headers */
+  .fish-modal.mobile-safe .mag-section-header{
+    font-size:11px!important;letter-spacing:.14em!important;margin-top:4px!important;margin-bottom:6px!important;
+  }
+  /* Stat strip — already responsive to 700px via existing rules, but
+     phone portrait needs a tighter version */
+  .fish-modal.mobile-safe .mag-statstrip{
+    grid-template-columns:repeat(2,1fr)!important;gap:8px!important;
+  }
+  .fish-modal.mobile-safe .mag-statstrip .hero-stat-card{
+    min-height:72px!important;padding:11px 9px!important;border-radius:14px!important;
+  }
+  .fish-modal.mobile-safe .mag-statstrip .hero-stat-card label{font-size:9px!important;letter-spacing:.10em}
+  .fish-modal.mobile-safe .mag-statstrip .hero-stat-card strong{font-size:15px!important;line-height:1.2!important}
+  .fish-modal.mobile-safe .mag-statstrip .hero-stat-icon svg{width:18px;height:18px}
+  /* Compatibility gauges — stay in single column at phone width.
+     LOCKED ELEMENT — only adjusting OUTER spacing, never the gauge
+     internals (gauge-track, gauge-marker, gauge-head). */
+  .fish-modal.mobile-safe .mag-gauges-wrap{padding:0!important}
+  .fish-modal.mobile-safe .mag-gauges-wrap .gauges{gap:10px!important}
+  /* Quick facts stack */
+  .fish-modal.mobile-safe .mag-fact-stack{gap:8px!important}
+  .fish-modal.mobile-safe .mag-fact-stack .fact-card{
+    padding:11px 13px!important;font-size:13px!important;line-height:1.5!important;border-radius:14px!important;
+  }
+  /* Overview block */
+  .fish-modal.mobile-safe .mag-overview{padding:14px 16px!important;border-radius:16px!important}
+  .fish-modal.mobile-safe .mag-overview p{font-size:14px!important;line-height:1.55!important}
+  /* Staff note */
+  .fish-modal.mobile-safe .mag-staff-note{padding:12px 14px!important;border-radius:14px!important}
+  .fish-modal.mobile-safe .mag-staff-note p{font-size:13px!important;line-height:1.5!important}
+  /* Notice block */
+  .fish-modal.mobile-safe .mag-notice-block{padding:13px 14px!important;border-radius:14px!important}
+  /* Similar fish — collapse to 2 columns instead of horizontal scroll */
+  .fish-modal.mobile-safe .mag-similar-row{
+    display:grid!important;grid-template-columns:1fr 1fr!important;gap:8px!important;overflow:visible!important;padding:0!important;
+  }
+  .fish-modal.mobile-safe .mag-similar-row .similar-card{
+    min-width:0!important;width:100%!important;
+  }
+  /* More details collapse */
+  .fish-modal.mobile-safe .more-details-toggle{padding:12px 14px!important;font-size:13px!important}
+  .fish-modal.mobile-safe .more-details-content{padding:12px 0 0!important}
+  .fish-modal.mobile-safe .more-details-twocol{
+    grid-template-columns:1fr!important;gap:10px!important;
+  }
+  .fish-modal.mobile-safe .reading-block{padding:12px 14px!important;border-radius:14px!important}
+  .fish-modal.mobile-safe .reading-block strong{font-size:11px!important;letter-spacing:.11em!important}
+  .fish-modal.mobile-safe .reading-block p{font-size:13px!important;line-height:1.55!important}
+  /* Bottom action row (Copy + Close CTAs) */
+  .fish-modal.mobile-safe .mag-action-row{
+    display:flex!important;gap:8px!important;flex-wrap:wrap;margin-top:6px;
+  }
+  .fish-modal.mobile-safe .mag-action-row .cta{
+    min-height:46px;padding:0 14px;border-radius:14px;font-size:13px;flex:1 1 100%;
+  }
+  /* Pill list (best-with / caution-with) */
+  .fish-modal.mobile-safe .pill-list{gap:6px!important}
+  .fish-modal.mobile-safe .list-pill{font-size:11px!important;padding:7px 9px!important;white-space:normal;overflow-wrap:anywhere}
+  /* Photo gallery row */
+  .fish-modal.mobile-safe .mag-gallery-row{padding:0!important}
+  .fish-modal.mobile-safe .photo-gallery{
+    display:grid!important;grid-template-columns:repeat(auto-fit,minmax(72px,1fr))!important;gap:8px!important;overflow:visible!important;padding:0!important;
+  }
   .fish-modal.mobile-safe .photo-gallery-thumb,
-  .fish-modal.mobile-safe .photo-gallery-upload{width:100%;height:64px;flex:none}
-  .fish-modal.mobile-safe .photo-upload-row{padding-top:4px}
-  .fish-modal.mobile-safe .photo-gallery-upload-wide{width:100%;height:auto;padding:10px 12px}
-  .fish-modal.mobile-safe .similar-row.mobile-similar-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;overflow:visible;padding-bottom:0}
-  .fish-modal.mobile-safe .action-row{gap:8px}
-  .fish-modal.mobile-safe .cta{min-height:46px;padding:0 14px;border-radius:14px;font-size:13px;flex:1 1 100%}
+  .fish-modal.mobile-safe .photo-gallery-upload{width:100%!important;height:64px!important;flex:none!important}
+  .fish-modal.mobile-safe .photo-upload-row{padding-top:4px!important}
+  .fish-modal.mobile-safe .photo-gallery-upload-wide{width:100%!important;height:auto!important;padding:10px 12px!important}
+  /* Staff editor (in-modal) — phone-tight spacing for the 4 primary
+     tiles + secondary pills. Keeps the same 2x2 grid for primary tiles
+     it already collapses to via its own rules, just trims gap. */
+  .fish-modal.mobile-safe .staff-editor-v123{padding:14px 14px 16px!important;border-radius:16px!important}
+  .fish-modal.mobile-safe .se-mode-banner{padding:8px 11px!important;font-size:11px!important}
+  .fish-modal.mobile-safe .se-tile{min-height:84px!important;padding:11px 10px!important;border-radius:14px!important}
+  .fish-modal.mobile-safe .se-tile-title{font-size:13px!important}
+  .fish-modal.mobile-safe .se-tile-sub{font-size:11px!important}
+  .fish-modal.mobile-safe .se-pill{font-size:11px!important;padding:9px 12px!important;min-height:38px!important}
+  /* Modal close X (top-right) — pin to viewport so it floats over the
+     scrolling content */
   .fish-modal.mobile-safe .modal-close{position:fixed!important;top:10px;right:10px;left:auto!important;z-index:120}
 }
 
@@ -5579,6 +5654,25 @@ body.light-mode .inventory-watch-item.tank-alert strong{color:#8a5b00}
   font-size:14px;
   color:rgba(255,255,255,0.65);
   text-shadow:0 1px 4px rgba(0,0,0,0.5);
+}
+/* v0.186 — surfaces the headerSummary content (one-sentence customer
+   hook) that was previously only rendered by the deleted mobile
+   template. Sits between the aliases and the status pills, gives the
+   customer the lead-in copy before they start scanning. Conditional
+   in the template — only renders when summaryText() returns non-empty. */
+.modal-hero-magazine .hero-summary-line{
+  margin:10px 0 0;
+  font-size:14px;
+  line-height:1.5;
+  font-weight:600;
+  color:rgba(255,255,255,0.86);
+  text-shadow:0 1px 4px rgba(0,0,0,0.55);
+  max-width:62ch;
+}
+.fish-modal.mobile-safe .modal-hero-magazine .hero-summary-line{
+  font-size:12.5px;
+  margin-top:8px;
+  line-height:1.45;
 }
 .modal-hero-magazine .hero-status-pills{
   display:flex;
